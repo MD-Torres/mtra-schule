@@ -1,6 +1,10 @@
 ---
 title: "Mammakarzinom"
 author: "Jorge Torres"
+slide-format: revealjs
 ---
 
 # Hello World 
+
+Hier kann man die [Folien](BrustPresentation/MammaPresentation.qmd){target="_blank"} der Vortrag finden. 
+
