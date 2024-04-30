@@ -8,10 +8,3 @@ slide-format: revealjs
 
 Hier kann man die [Folien](BrustPresentation/MammaPresentation.qmd){target="_blank"} der Vortrag finden. 
 
-<div>
-
-```{=html}
-<iframe class="slide-deck" src="BrustPresentation/MammaPresentation.qmd"></iframe>
-```
-
-</div>
