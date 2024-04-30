@@ -2,14 +2,14 @@ project:
   type: website
 
 website:
-  title: "website"
+  title: "MTRA"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
       - Themen.qmd
-        - Mammakarzinom.qmd
+      - Mammakarzinom.qmd
 
 format:
   html:
