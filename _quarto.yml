@@ -9,7 +9,7 @@ website:
         text: Home
       - about.qmd
       - Themen.qmd
-        - Mammakarzinom.qmd
+      - Mammakarzinom.qmd
 
 format:
   html:
