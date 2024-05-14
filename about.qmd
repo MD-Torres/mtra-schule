@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-Hier kann man die [Folien](BrustPresentation/MammaPresentation.html){target="_blank"} der Vortrag finden. 
+Hier kann man die [Folien](BrustPresentation/BrustPresentation.html){target="_blank"} der Vortrag finden. 
