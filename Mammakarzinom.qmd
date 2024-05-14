@@ -6,9 +6,6 @@ slide-format: revealjs
 
 # Hello World 
 
-<<<<<<< HEAD
 Hier kann man die [Folien](BrustPresentation/MammaPresentation.html){target="_blank"} der Vortrag finden. 
-=======
-Hier kann man die [Folien](BrustPresentation/Mamma.html){target="_blank"} der Vortrag finden. 
->>>>>>> refs/remotes/origin/main
+
 
