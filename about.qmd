@@ -2,4 +2,5 @@
 title: "About"
 ---
 
-coming soon...
+Hier kann man die [Folien](BrustPresentation/BrustPresentation){target="_blank"} der Vortrag finden. 
+
