@@ -5,5 +5,5 @@ title: "MTRA-Schule"
 This is a test website.
 
 ```{=html}
-<iframe class="slide-deck" src="BrustPresentation/BrustPresentation.html"></iframe>
+<iframe class="slide-deck" src="BrustPresentation/BrustPresentation"></iframe>
 ```
