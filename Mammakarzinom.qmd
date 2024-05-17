@@ -41,5 +41,7 @@ Hier kannst Du die [Folien](BrustPresentation/mtra-Krebserkrankungen.html){targe
 
 
 ```{=html}
-<iframe class="slide-deck" src="BrustPresentation/mtra-Krebserkrankungen.html"></iframe>
+
+<iframe class="slide-deck" src="BrustPresentation/mtra-Krebserkrankungen.html" style="width: 100%; height: 100vh;"></iframe>
+
 ```
