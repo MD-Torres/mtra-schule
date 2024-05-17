@@ -11,28 +11,28 @@ Das Krankheitsbild des Mammakarzinoms in seiner typischen Ausprägung und unkomp
 
 Nach Abschluss dieser Vorlesung wirst du in der Lage sein:
 
-## **Relevanz in Zahlen (Epidemiologie)**
+## Relevanz in Zahlen (Epidemiologie)
 Du wirst die Bedeutung des Mammakarzinoms anhand aktueller epidemiologischer Daten erklären können. Du wirst verstehen, wie häufig Brustkrebs auftritt, welche Bevölkerungsgruppen besonders betroffen sind und wie sich die Erkrankungs- bzw. Sterberaten in den letzten Jahren entwickelt haben.
 
-## **Definition**
+## Definition
 Du wirst erklären können, was unter einem Mammakarzinom verstanden wird und welche unterschiedlichen Typen es gibt.
 
-## **Risikofaktoren/Prävention**
+## Risikofaktoren/Prävention
 Du wirst die wichtigsten Risikofaktoren für die Entwicklung von Mammakarzinom benennen können, einschließlich genetischer Prädispositionen. Außerdem wirst du Maßnahmen zur Prävention und Reduzierung des persönlichen Risikos erläutern können.
 
-## **Früherkennung**
+## Früherkennung
 Du wirst die Bedeutung der Früherkennung von Brustkrebs verstehen und die gängigen Methoden zur Früherkennung wie Mammographie und Selbstuntersuchung erklären können. Du wirst die Vorteile und möglichen Nachteile der Früherkennung kennen. 
 
-## **Diagnose**
+## Diagnose
 Du wirst die diagnostischen Schritte beim Verdacht auf Mammakarzinom beschreiben können. Dazu gehören körperliche Untersuchungen, bildgebende Verfahren und Biopsien. 
 
-## **Histologie**
+## Histologie
 Du wirst die histologischen Merkmale von Mammakarzinom verstehen und beschreiben können. Du wirst wissen, wie die Histologie zur Bestimmung des Tumortyps und zur Planung der Behandlung beiträgt.
 
-## **Staging**
+## Staging
 Du wirst das Konzept des Stagings bei Mammakarzinom erklären können. Du wirst das Staging-Systeme (z.B. TNM-Klassifikation) kennen.
 
-## **Behandlung**
+## Behandlung
 Du wirst die grundlegenden Behandlungsmöglichkeiten für Mammakarzinom erläutern können. Dazu gehören chirurgische Optionen, Strahlentherapie, und systemische Therapie. Du wirst verstehen, wie die Wahl der Behandlung von verschiedenen Faktoren abhängt, einschließlich der biologischen Merkmale des Tumors.
 
 Durch die Erreichung dieser Lernziele wirst du ein umfassendes Verständnis für das Krankheitsbild des Mammakarzinoms entwickeln und in der Lage sein, die wesentlichen Aspekte der Pathogenese, Diagnostik und Therapie zu erklären.
