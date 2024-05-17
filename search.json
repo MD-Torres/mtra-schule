@@ -1,17 +1,73 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MTRA-Schule",
-    "section": "",
-    "text": "This is a Quarto website."
-  },
-  {
     "objectID": "Mammakarzinom.html",
     "href": "Mammakarzinom.html",
     "title": "Mammakarzinom",
     "section": "",
-    "text": "Hello World\nHier kann man die Folien der Vortrag finden."
+    "text": "Das Krankheitsbild des Mammakarzinoms in seiner typischen Ausprägung und unkomplizierten Verlaufsform einschließlich der Pathogenese, Diagnostik und Therapie erläutern.\nNach Abschluss dieser Vorlesung wirst du in der Lage sein:\n\n\nDu wirst die Bedeutung des Mammakarzinoms anhand aktueller epidemiologischer Daten erklären können. Du wirst verstehen, wie häufig Brustkrebs auftritt, welche Bevölkerungsgruppen besonders betroffen sind und wie sich die Erkrankungs- bzw. Sterberaten in den letzten Jahren entwickelt haben.\n\n\n\nDu wirst erklären können, was unter einem Mammakarzinom verstanden wird und welche unterschiedlichen Typen es gibt.\n\n\n\nDu wirst die wichtigsten Risikofaktoren für die Entwicklung von Mammakarzinom benennen können, einschließlich genetischer Prädispositionen. Außerdem wirst du Maßnahmen zur Prävention und Reduzierung des persönlichen Risikos erläutern können.\n\n\n\nDu wirst die Bedeutung der Früherkennung von Brustkrebs verstehen und die gängigen Methoden zur Früherkennung wie Mammographie und Selbstuntersuchung erklären können. Du wirst die Vorteile und möglichen Nachteile der Früherkennung kennen.\n\n\n\nDu wirst die diagnostischen Schritte beim Verdacht auf Mammakarzinom beschreiben können. Dazu gehören körperliche Untersuchungen, bildgebende Verfahren und Biopsien.\n\n\n\nDu wirst die histologischen Merkmale von Mammakarzinom verstehen und beschreiben können. Du wirst wissen, wie die Histologie zur Bestimmung des Tumortyps und zur Planung der Behandlung beiträgt.\n\n\n\nDu wirst das Konzept des Stagings bei Mammakarzinom erklären können. Du wirst das Staging-Systeme (z.B. TNM-Klassifikation) kennen.\n\n\n\nDu wirst die grundlegenden Behandlungsmöglichkeiten für Mammakarzinom erläutern können. Dazu gehören chirurgische Optionen, Strahlentherapie, und systemische Therapie. Du wirst verstehen, wie die Wahl der Behandlung von verschiedenen Faktoren abhängt, einschließlich der biologischen Merkmale des Tumors.\nDurch die Erreichung dieser Lernziele wirst du ein umfassendes Verständnis für das Krankheitsbild des Mammakarzinoms entwickeln und in der Lage sein, die wesentlichen Aspekte der Pathogenese, Diagnostik und Therapie zu erklären.\nHier kannst Du die Folien der Vortrag finden."
+  },
+  {
+    "objectID": "Mammakarzinom.html#relevanz-in-zahlen-epidemiologie",
+    "href": "Mammakarzinom.html#relevanz-in-zahlen-epidemiologie",
+    "title": "Mammakarzinom",
+    "section": "",
+    "text": "Du wirst die Bedeutung des Mammakarzinoms anhand aktueller epidemiologischer Daten erklären können. Du wirst verstehen, wie häufig Brustkrebs auftritt, welche Bevölkerungsgruppen besonders betroffen sind und wie sich die Erkrankungs- bzw. Sterberaten in den letzten Jahren entwickelt haben."
+  },
+  {
+    "objectID": "Mammakarzinom.html#definition",
+    "href": "Mammakarzinom.html#definition",
+    "title": "Mammakarzinom",
+    "section": "",
+    "text": "Du wirst erklären können, was unter einem Mammakarzinom verstanden wird und welche unterschiedlichen Typen es gibt."
+  },
+  {
+    "objectID": "Mammakarzinom.html#risikofaktorenprävention",
+    "href": "Mammakarzinom.html#risikofaktorenprävention",
+    "title": "Mammakarzinom",
+    "section": "",
+    "text": "Du wirst die wichtigsten Risikofaktoren für die Entwicklung von Mammakarzinom benennen können, einschließlich genetischer Prädispositionen. Außerdem wirst du Maßnahmen zur Prävention und Reduzierung des persönlichen Risikos erläutern können."
+  },
+  {
+    "objectID": "Mammakarzinom.html#früherkennung",
+    "href": "Mammakarzinom.html#früherkennung",
+    "title": "Mammakarzinom",
+    "section": "",
+    "text": "Du wirst die Bedeutung der Früherkennung von Brustkrebs verstehen und die gängigen Methoden zur Früherkennung wie Mammographie und Selbstuntersuchung erklären können. Du wirst die Vorteile und möglichen Nachteile der Früherkennung kennen."
+  },
+  {
+    "objectID": "Mammakarzinom.html#diagnose",
+    "href": "Mammakarzinom.html#diagnose",
+    "title": "Mammakarzinom",
+    "section": "",
+    "text": "Du wirst die diagnostischen Schritte beim Verdacht auf Mammakarzinom beschreiben können. Dazu gehören körperliche Untersuchungen, bildgebende Verfahren und Biopsien."
+  },
+  {
+    "objectID": "Mammakarzinom.html#histologie",
+    "href": "Mammakarzinom.html#histologie",
+    "title": "Mammakarzinom",
+    "section": "",
+    "text": "Du wirst die histologischen Merkmale von Mammakarzinom verstehen und beschreiben können. Du wirst wissen, wie die Histologie zur Bestimmung des Tumortyps und zur Planung der Behandlung beiträgt."
+  },
+  {
+    "objectID": "Mammakarzinom.html#staging",
+    "href": "Mammakarzinom.html#staging",
+    "title": "Mammakarzinom",
+    "section": "",
+    "text": "Du wirst das Konzept des Stagings bei Mammakarzinom erklären können. Du wirst das Staging-Systeme (z.B. TNM-Klassifikation) kennen."
+  },
+  {
+    "objectID": "Mammakarzinom.html#behandlung",
+    "href": "Mammakarzinom.html#behandlung",
+    "title": "Mammakarzinom",
+    "section": "",
+    "text": "Du wirst die grundlegenden Behandlungsmöglichkeiten für Mammakarzinom erläutern können. Dazu gehören chirurgische Optionen, Strahlentherapie, und systemische Therapie. Du wirst verstehen, wie die Wahl der Behandlung von verschiedenen Faktoren abhängt, einschließlich der biologischen Merkmale des Tumors.\nDurch die Erreichung dieser Lernziele wirst du ein umfassendes Verständnis für das Krankheitsbild des Mammakarzinoms entwickeln und in der Lage sein, die wesentlichen Aspekte der Pathogenese, Diagnostik und Therapie zu erklären.\nHier kannst Du die Folien der Vortrag finden."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MTRA-Schule",
+    "section": "",
+    "text": "This is a test website."
   },
   {
     "objectID": "about.html",
