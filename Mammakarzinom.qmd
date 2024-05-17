@@ -8,37 +8,36 @@ slide-format: revealjs
 
 Das Krankheitsbild des Mammakarzinoms in seiner typischen Ausprägung und unkomplizierten Verlaufsform einschließlich der Pathogenese, Diagnostik und Therapie erläutern.
 
-**Lernziele für die Vorlesung über Mammakarzinom**
 
 Nach Abschluss dieser Vorlesung wirst du in der Lage sein:
 
-1. **Relevanz in Zahlen (Epidemiologie)**
-   - Du wirst die Bedeutung des Mammakarzinoms anhand aktueller epidemiologischer Daten erklären können. Du wirst verstehen, wie häufig Brustkrebs auftritt, welche Bevölkerungsgruppen besonders betroffen sind und wie sich die Erkrankungsraten in den letzten Jahren entwickelt haben.
+## **Relevanz in Zahlen (Epidemiologie)**
+Du wirst die Bedeutung des Mammakarzinoms anhand aktueller epidemiologischer Daten erklären können. Du wirst verstehen, wie häufig Brustkrebs auftritt, welche Bevölkerungsgruppen besonders betroffen sind und wie sich die Erkrankungs- bzw. Sterberaten in den letzten Jahren entwickelt haben.
 
-2. **Definition**
-   - Du wirst die Definition von Mammakarzinom beschreiben können. Du wirst erklären können, was unter einem Mammakarzinom verstanden wird und welche unterschiedlichen Typen es gibt.
+## **Definition**
+Du wirst erklären können, was unter einem Mammakarzinom verstanden wird und welche unterschiedlichen Typen es gibt.
 
-3. **Risikofaktoren/Prävention**
-   - Du wirst die wichtigsten Risikofaktoren für die Entwicklung von Mammakarzinom benennen können, einschließlich genetischer Prädispositionen, Lebensstilfaktoren und Umwelteinflüssen. Außerdem wirst du Maßnahmen zur Prävention und Reduzierung des persönlichen Risikos erläutern können.
+## **Risikofaktoren/Prävention**
+Du wirst die wichtigsten Risikofaktoren für die Entwicklung von Mammakarzinom benennen können, einschließlich genetischer Prädispositionen. Außerdem wirst du Maßnahmen zur Prävention und Reduzierung des persönlichen Risikos erläutern können.
 
-4. **Früherkennung**
-   - Du wirst die Bedeutung der Früherkennung von Brustkrebs verstehen und die gängigen Methoden zur Früherkennung wie Mammographie, Ultraschall und Selbstuntersuchung erklären können. Du wirst die Vorteile und möglichen Nachteile der Früherkennung diskutieren können.
+## **Früherkennung**
+Du wirst die Bedeutung der Früherkennung von Brustkrebs verstehen und die gängigen Methoden zur Früherkennung wie Mammographie und Selbstuntersuchung erklären können. Du wirst die Vorteile und möglichen Nachteile der Früherkennung kennen. 
 
-5. **Diagnose**
-   - Du wirst die diagnostischen Schritte beim Verdacht auf Mammakarzinom beschreiben können. Dazu gehören körperliche Untersuchungen, bildgebende Verfahren und Biopsien. Du wirst die verschiedenen diagnostischen Methoden und ihre Bedeutung erklären können.
+## **Diagnose**
+Du wirst die diagnostischen Schritte beim Verdacht auf Mammakarzinom beschreiben können. Dazu gehören körperliche Untersuchungen, bildgebende Verfahren und Biopsien. 
 
-6. **Histologie**
-   - Du wirst die histologischen Merkmale von Mammakarzinom verstehen und beschreiben können. Du wirst wissen, wie die Histologie zur Bestimmung des Tumortyps und zur Planung der Behandlung beiträgt.
+## **Histologie**
+Du wirst die histologischen Merkmale von Mammakarzinom verstehen und beschreiben können. Du wirst wissen, wie die Histologie zur Bestimmung des Tumortyps und zur Planung der Behandlung beiträgt.
 
-7. **Staging**
-   - Du wirst das Konzept des Stagings bei Mammakarzinom erklären können. Du wirst die Bedeutung der Einteilung in verschiedene Stadien für die Prognose und Behandlung beschreiben können und die verschiedenen Staging-Systeme (z.B. TNM-Klassifikation) kennen.
+## **Staging**
+Du wirst das Konzept des Stagings bei Mammakarzinom erklären können. Du wirst das Staging-Systeme (z.B. TNM-Klassifikation) kennen.
 
-8. **Behandlung**
-   - Du wirst die grundlegenden Behandlungsmöglichkeiten für Mammakarzinom erläutern können. Dazu gehören chirurgische Optionen, Strahlentherapie, Chemotherapie, Hormontherapie und zielgerichtete Therapien. Du wirst verstehen, wie die Wahl der Behandlung von verschiedenen Faktoren abhängt, einschließlich des Tumorstadiums und der biologischen Merkmale des Tumors.
+## **Behandlung**
+Du wirst die grundlegenden Behandlungsmöglichkeiten für Mammakarzinom erläutern können. Dazu gehören chirurgische Optionen, Strahlentherapie, und systemische Therapie. Du wirst verstehen, wie die Wahl der Behandlung von verschiedenen Faktoren abhängt, einschließlich der biologischen Merkmale des Tumors.
 
 Durch die Erreichung dieser Lernziele wirst du ein umfassendes Verständnis für das Krankheitsbild des Mammakarzinoms entwickeln und in der Lage sein, die wesentlichen Aspekte der Pathogenese, Diagnostik und Therapie zu erklären.
 
-Hier kann man die [Folien](BrustPresentation/BrustPresentation/mtra-Krebserkrankungen.html){target="_blank"} der Vortrag finden. 
+Hier kannst Du die [Folien](BrustPresentation/BrustPresentation/mtra-Krebserkrankungen.html){target="_blank"} der Vortrag finden. 
 
 
 ```{=html}
