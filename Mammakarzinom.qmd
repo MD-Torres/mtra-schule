@@ -4,9 +4,9 @@ author: "Jorge Torres"
 slide-format: revealjs
 ---
 
-# Lernziele
+# Lernziel
 
-Das Krankheitsbild des Mammakarzinoms in seiner typischen Ausprägung und unkomplizierten Verlaufsform einschließlich der Pathogenese, Diagnostik und Therapie erläutern.
+Du wirst das Krankheitsbild des Mammakarzinoms in seiner typischen Form, einschließlich der Entstehung, Diagnose und Behandlung, verständlich erklären können.
 
 
 Nach Abschluss dieser Vorlesung wirst du in der Lage sein:
