@@ -37,9 +37,9 @@ Du wirst die grundlegenden Behandlungsmöglichkeiten für Mammakarzinom erläute
 
 Durch die Erreichung dieser Lernziele wirst du ein umfassendes Verständnis für das Krankheitsbild des Mammakarzinoms entwickeln und in der Lage sein, die wesentlichen Aspekte der Pathogenese, Diagnostik und Therapie zu erklären.
 
-Hier kannst Du die [Folien](BrustPresentation/BrustPresentation/mtra-Krebserkrankungen.html){target="_blank"} der Vortrag finden. 
+Hier kannst Du die [Folien](BrustPresentation/mtra-Krebserkrankungen.html){target="_blank"} der Vortrag finden. 
 
 
 ```{=html}
-<iframe class="slide-deck" src="BrustPresentation/BrustPresentation/mtra-Krebserkrankungen.html"></iframe>
+<iframe class="slide-deck" src="BrustPresentation/mtra-Krebserkrankungen.html"></iframe>
 ```
