@@ -2,26 +2,126 @@
 title: "Mammakarzinom"
 author: "Jorge Torres"
 slide-format: revealjs
+bibliography: mta-schule.bib
+csl: american-medical-association.csl
 ---
 
-# Lernziel
+# Lernziele
 
 Du wirst das Krankheitsbild des Mammakarzinoms in seiner typischen Form, einschließlich der Entstehung, Diagnose und Behandlung, verständlich erklären können.
 
 
-Nach Abschluss dieser Vorlesung wirst du in der Lage sein:
-
 ## Relevanz in Zahlen (Epidemiologie)
 Du wirst die Bedeutung des Mammakarzinoms anhand aktueller epidemiologischer Daten erklären können. Du wirst verstehen, wie häufig Brustkrebs auftritt, welche Bevölkerungsgruppen besonders betroffen sind und wie sich die Erkrankungs- bzw. Sterberaten in den letzten Jahren entwickelt haben.
+
+### Neuerkrankungen
+
+Mit zuletzt rund 70.550 Neu erkrankungen jährlich ist Brustkrebs die mit Abstand häuﬁgste Krebserkrankung der Frau, zusätzlich wird bei mehr als 6.000 Frauen jährlich ein in-situ-Tumor diagnostiziert. Etwa ein Prozent aller Neu erkrankungen betrift Männer.[@ZentrumFuerKrebsregisterdatenZfKDImRobertKoch-Institut2022]
+
+Die Neuerkrankungsraten zeigen nach Einführung des Mammographie-Screenings zwischen 2005 und 2009 einen typischen Verlauf mit einem deutlichen Anstieg zu Beginn des Programms und anschließendem langsamen Rückgang. Es konnte gezeigt werden, dass in der Screening-Altersgruppe zuletzt weniger Frauen an fortgeschrittenen Tumoren erkrankten als vor Einführung des Screenings.
+
+Seit Ende der 1990er Jahre gehen die Sterberaten an Brustkrebs kontinuierlich zurück, zuletzt am stärksten bei Frauen zwischen 60 und 69 Jahren.[@Koch-Institut2023]
+
+
+
 
 ## Definition
 Du wirst erklären können, was unter einem Mammakarzinom verstanden wird und welche unterschiedlichen Typen es gibt.
 
+### Was ist Brustkrebs
+
+Brustkrebs heißt in der Fachsprache Mammakarzinom. Die bösartigen Veränderungen gehen meist von den Zellen der **Milchgänge** aus, manchmal auch vom Drüsengewebe der Brust. Ebenso gibt es verschiedene Mischformen. 
+Unter dem Mikroskop lässt sich feststellen, um welche Form es sich handelt und ob eine Krebsvorstufe oder Krebs vorliegt. Wachsen die krankhaft veränderten Zellen in umliegendes Gewebe (invasiv), wird der Tumor als Brustkrebs bezeichnet.[@AlbertEtAl2018]
+
+Das invasiven Duktalkarzinom (IDC) 
+
+Intraduktale atypische Hyperplasie (ADH): veränderte Zellen in den Milchgängen,
+Lobuläre intraepitheliale Neoplasie (LIN): veränderte Zellen in den Drüsenläppchen,
+Flache epitheliale Atypie (FEA): veränderte Zellen im Deckgewebe von Milchgängen und/oder Drüsenläppchen,
+Ductales Carcinoma in Situ (DCIS): veränderte Zellen in den Milchgängen.
+
+Den Veränderungen ist der Charakter einer Neoplasie gemeinsam, allerdings mit recht unterschiedlichem Progressionsrisiko.
+ca. 5.500 pro Jahr, nur 20% sind klinisch relevant [@S3-LeitlinieMammakarzinom2021]
+
+Etwa 25–60 % der unbehandelten DCIS-Fälle werden innerhalb von 9–24 Jahren nach dem Follow-up zu IDC fortschritten, die statistischen Daten sind begrenzt. [@WangEtAl2024]
+
+Wenngleich 39 Prozent der DCIS ohne Therapie innerhalb von 30 Jahren in ein invasives Karzinom übergehen können, so liegt die Brustkrebs-spezifische Mortalitätsrate nach 20 Jahren bei nur 3,3 Prozent.[@BodungenEtAl2016]
+
+Die vollständige Exzision ist die therapeutische Basis für die Behandlung des DCIS. Die Resektionsgrenzen sollten beim reinen DCIS mindestens 2 mm betragen, wenn eine adjuvante Radiotherapie angeschlossen wird.
+
+Das Risiko für ein intramammäres Rezidiv nach 10 Jahren wird heutzutage mit 11% für Patientinnen mit postoperativer Nachbestrahlung und mit 19% ohne Nachbestrahlung angegeben. Obwohl es sich bei der Hälfte der Tumorrezidive nach DCIS um invasive Tumorrezidive handelt, konnte bislang kein Überlebensvorteil durch postoperative Radiotherapie des DCIS in mehreren prospektiv-randomisierten Studien und einem Follow-up von bis zu 20 Jahren gezeigt werden[@S3-LeitlinieMammakarzinom2021]
+
+### Andere Formen 
+
+Die Brustwarze ist die Öffnung in der Haut der Brust, in der die Milchgänge zusammenlaufen und zu größeren Kanälen werden, damit die Milch die Brust verlassen kann. Die Brustwarze ist von einer etwas dunkleren, dickeren Haut umgeben, dem Warzenhof. Eine weniger häufige Form von Brustkrebs, die so genannte Paget-Krankheit der Brust, kann von der Brustwarze ausgehen.
+
+Das Paget-Karzinom oder der Morbus Paget (MP) ist eine seltene Form des in situ Mammakarzinoms und betrifft ungefähr 1 – 4% aller Patienten. Klinisch imponiert es durch eine ekzematöse, teils erytheme und ulzerierende Veränderung der Mamille. Dies kann isoliert auftreten (1,4 – 13,3%) oder in Kombination mit einem DCIS oder einem invasiv-duktalen Mammakarzinom (82 – 100%).
+Aufgrund der geringen Fallzahl wird die geeignete Therapie des isolierten MP bis heute kontrovers diskutiert. Die Konzepte reichen von radikaler Mastektomie, bis hin zur alleinigen Exzision. Eine der wenigen verfügbaren Studien zeigt nach brusterhaltender Therapie und postoperativer Radiatio eine Gesamtüberlebensrate von 90% nach 10 Jahren. [@NeubertEtAl2018]
+
+
+Das Fett- und Bindegewebe (Stroma) umgibt die Ausführungsgänge und Läppchen und hält sie an ihrem Platz. Eine weniger häufige Form von Brustkrebs, der sogenannte Phyllodes-Tumor, kann im Stroma entstehen.
+
+Phylloidestumoren der Mamma werden gemäss der aktuellen WHO-Klassifikation als benigne, borderline und maligne eingeteilt. 
+
+Auch Blut- und Lymphgefäße befinden sich in jeder Brust. Das Angiosarkom ist eine weniger häufige Form von Brustkrebs, die im Edothelium dieser Gefäße entstehen kann. [@AmericanCancerSocietya]
+
+Die Prognose der Sarkome ist ungünstig, wobei die Fünfjahres-Überlebensrate vom Grad der Differenzierung abhängt: Während Sarkome mit einem Grading 1 ein 80%iges tumorfreies Überleben nach 5 Jahren aufweisen, wachsen G3-Sarkome sehr schnell und metastasieren früh, sodass die Fünfjahres-Überlebensrate lediglich 10% beträgt. [@UrbanEtAl2016]
+
+
+
+
 ## Risikofaktoren/Prävention
 Du wirst die wichtigsten Risikofaktoren für die Entwicklung von Mammakarzinom benennen können, einschließlich genetischer Prädispositionen. Außerdem wirst du Maßnahmen zur Prävention und Reduzierung des persönlichen Risikos erläutern können.
 
+### Risikofaktoren
+
+**BRCA1 und BRCA2**
+Sind die wichtigsten mit Brustkrebs assoziierten Gene. Die Identifikation diese Variante wurde 1994 von Easton et al. bzw. Wooster et al. in Science veröffentlicht.
+Es hat sich gezeigt, dass Trägerinnen dieser Genmutationen ein Risiko von 40 bis 80 % haben, bis zum Alter von 70 Jahren an Brustkrebs zu erkranken. [@Lukong2017]
+
+### Prävention 
+
+#### Schwangeschaft
+
+Eine frühe Erstgeburt ist die wirksamste modifizierbare Methode zur Brustkrebsprävention, die das Lebenszeitrisiko einer Frau um bis zu 50 % senken kann. Die erste dokumentierte Beobachtung dieses präventiven Verhaltens stammt von Bernardino Ramazzini aus dem Jahr 1700. Er stellte fest, dass "Brusttumore bei Nonnen häufiger vorkommen als bei allen anderen Frauen", und vermutete, dass dies auf das zölibatäre Leben zurückzuführen sei.
+Es wurde gezeigt, dass Frauen, die ihre erste Geburt vor dem Alter von 20 oder 25 Jahren erleben, ihr Lebenszeitrisiko um 50 bzw. 38 % senken. Eine höhere Anzahl von Geburten wird ebenfalls mit einem geringeren Brustkrebsrisiko in Verbindung gebracht, und diese Assoziationen sind bei Erkrankungen mit Östrogenrezeptor (ER)+ stärker ausgeprägt.
+
+Die schützende Wirkung der Schwangerschaft wurde in mehreren Tiermodellen, darunter Mäusen und Ratten, sowohl in Karzinogen- als auch in Spontankarzinommodellen nachgewiesen. [@Katz2016]
+
+#### prophylaktische Mastektomie
+
+Die beidseitige prophylaktische Mastektomie reduziert das Brustkrebsrisiko bei Frauen mit BRCA1/2-Mutationen um etwa 90 %.
+
+#### Diät 
+
+Der Zusammenhang zwischen verschiedenen Ernährungsfaktoren und dem Brustkrebsrisiko ist umstritten, da es keine randomisierten prospektiven Studien gibt. 
+In einigen Studien wurde ein Anstieg des Brustkrebsrisikos um 10 % pro 10 Gramm Alkohol pro Tag nachgewiesen. Interessanterweise kann das durch den Alkoholkonsum bedingte erhöhte Risiko durch eine ausreichende Folatzufuhr verringert oder abgemildert werden. 
+
+Der Einfluss des BMI auf das Brustkrebsrisiko ist ebenfalls gut untersucht worden. Es wurde auch berichtet, dass Frauen mit einem höheren BMI vor der Menopause ein geringeres Brustkrebsrisiko haben, aber in der postmenopausalen Phase ein erhöhtes Risiko aufweisen. 
+Zusammenfassend lässt sich sagen, dass es derzeit keine schlüssigen Beweise auf der Grundlage randomisierter, kontrollierter Studien dafür gibt, dass eine spezifische Ernährungsmaßnahme oder eine Gewichtsabnahme das Risiko, an Bruskrebs zu erkranken, senken kann. [@AdvaniMoreno-Aspitia2014]
+
+
 ## Früherkennung
 Du wirst die Bedeutung der Früherkennung von Brustkrebs verstehen und die gängigen Methoden zur Früherkennung wie Mammographie und Selbstuntersuchung erklären können. Du wirst die Vorteile und möglichen Nachteile der Früherkennung kennen. 
+
+
+### Mammographie
+
+Die durch die ACR (American College of Radiology) formulierte BI-RADS-Klassifikation („breast imaging reporting and data system“) ermöglicht den Mammadiagnostikern eine strukturierte Herdbeschreibung. 
+Mit Hilfe klar definierter Charakteristika erlaubt sie eine Befundkategorisierung, die eine Aussage über die Malignitätswahrscheinlichkeit einer Veränderung gestattet und, aus dieser abgeleitet, eine Handlungsempfehlung ausspricht. 
+Die Systematik der BI-RADS-Klassifikation (0–6) unterscheidet zwischen 
+- Herdbefunden 
+- Verkalkungen 
+- Architekturstörungen und 
+- weiteren speziellen Befunden, wie:
+    - Asymmetrien des Brustdrüsenkörpers 
+    - Verdichtungen und intramammären Lymphknoten 
+
+Ursprünglich war BI-RADS für die Beurteilung von Mammographien eingeführt worden, inzwischen bedient man sich aber auch in der Beschreibung sonographischer Auffälligkeiten der Brust einer BI-RADS-analogen Einteilung. 
+Diese wurde aktuell durch den Arbeitskreis für Mammasonographie der DEGUM überarbeitet und bezüglich der Befundbeschreibung und daraus abgeleiteter Handlungsempfehlung der radiologischen Einteilung angelehnt.[@SauerEtAl2006]
+
+
+
 
 ## Diagnose
 Du wirst die diagnostischen Schritte beim Verdacht auf Mammakarzinom beschreiben können. Dazu gehören körperliche Untersuchungen, bildgebende Verfahren und Biopsien. 
@@ -29,8 +129,59 @@ Du wirst die diagnostischen Schritte beim Verdacht auf Mammakarzinom beschreiben
 ## Histologie
 Du wirst die histologischen Merkmale von Mammakarzinom verstehen und beschreiben können. Du wirst wissen, wie die Histologie zur Bestimmung des Tumortyps und zur Planung der Behandlung beiträgt.
 
+### Grading 
+
+Bis in die späten 1950er Jahre wurden Tumore einfach nur nach ihrem klinischen Stadium klassifiziert, was der anerkannten Bandbreite des biologischen Verhaltens von Mammakarzinomen nicht Rechnung trug.
+
+Die klinische Stadieneinteilung gibt jedoch weder Aufschluss über die Wahrscheinlichkeit des Vorhandenseins von okkulten lymphatischen und blutbasierten Metastasen in einem scheinbar frühen Fall, noch über die Geschwindigkeit, mit der sich solche Metastasen entwickeln können.
+
+Bloom und Richardson entwikelten einen Verfahren zur histologischen Einstufung, das sie in einer Serie von 1544 Brustkrebspatientinnen mit dem Überleben in Beziehung setzten. 
+
+Die Klassifizierung von Bloom und Richardson wurde 1991 von Elston und Ellis überarbeitet, die semiquantitative Kriterien verwenden, um die Objektivität und Reproduzierbarkeit zu verbessern. 
+
+G1 = hoch differenziert (also den „gesunden“ Zellen noch relativ ähnlich und
+        wenig aggressiv im Wachstum, somit „gering bösartig“)
+G2 = mäßig differenziert
+G3 = niedrig differenziert (also völlig entartet und stark wuchernd)
+
+Diese Elston-Ellis-Modifikation der Klassifizierung von Bloom und Richardson ist auch als Nottingham Grading System (NGS) bekannt.
+
+Es hat sich gezeigt, dass der NGS von unabhängiger Bedeutung für die Brustkrebsprognose ist. Darüber hinaus wurde der histologische Grad in prognostische Indexwerte aufgenommen. 
+
+Das histologische Grading muss jedoch genau, an ordnungsgemäß fixierten Proben und von entsprechend geschulten, engagierten Pathologen durchgeführt werden, die sich die Zeit nehmen, die Protokollmethodik sorgfältig zu befolgen. Die Schwankungsbreite zwischen den Beobachtern kann und sollte noch verbessert werden. [@vanDooijeweertEtAl2022]
+
+### Ki-67
+
+Die Prognose der Tumoren mit hoher Ki-67Positivität ist signifikant schlechter als die der Ki-67-niedrigexprimierenden Tumoren. 
+Bei einer Ki-67Positivität >/= 25% kann von einem erhöhten Risiko ausgegangen werden.
+Die Hinzunahme von Ki-67 zu den konventionellen Prognosefaktoren (Alter, pT, pN, Grad, ER, PR, HER2) verbessert die Prognoseabschätzung bei Frauen mit histologisch gesichertem ER-/PR-positivem und HER2-negativem invasivem Mammakarzinom für die Entscheidung, ob eine adjuvante Chemotherapie durchgeführt werden soll. [@S3-LeitlinieMammakarzinom2021]
+
+Ki-67 ist einer Zellteilungs-Marker. Erlaubt Rückschlusse auf die Geschwindigkeit von Tumorwachstum. Dies ist wiedrum für die Prognoseeinschätzung wichtig. Sind 10 % oder weniger eines Tumors Ki-67 positiv, liegt ein niedriges Risiko vor; reagieren mehr als 25 % der
+Zellen positiv, besteht ein hohes, zwischen diesen Werten ein mittleres Risiko.[@JanniMuller2019]
+
 ## Staging
 Du wirst das Konzept des Stagings bei Mammakarzinom erklären können. Du wirst das Staging-Systeme (z.B. TNM-Klassifikation) kennen.
+
+### Wann? 
+Die Prävalenz distanter Metastasen wird bei Stadium I mit 0,2% und Stadium II mit 1,2% angegeben. 
+Die Prävalenz distanter Metastasen ist bei N+ erhöht. 
+Empfehlung zum Staging bei aggressiver Tumorbiologie gegeben, wenn diese das therapeutische Vorgehen entscheidend beeinflusst.
+
+Aggressiver Tumorbiologie meint z. B.: HER2+, triple-negativ. 
+[@S3-LeitlinieMammakarzinom2021]
+
+### Sentinel-Lymphknoten
+
+Das Verfahren dient der Identifikation von Patientinnen mit erhöhtem systemischen und lokalen Risiko und der Planung der adjuvanten Therapie.
+
+Der Status der axillären Lymphknoten ist einer der stärksten Prognosefaktoren bei Frauen mit Brustkrebs im Frühstadium.
+
+Die 5-Jahres-Überlebensrate bei bettrofenen Patienten sinkt um etwa 28 % bis 40 %. Daher dient die axilläre Chirurgie nicht nur als Staging-Instrument, sondern verbessert auch die lokoregionäre Kontrolle, was zu einem verbesserten Überleben führen kann. 
+
+Wenn Patienten einer axillären Lymphknotendissektion unterzogen werden, sind die meisten von ihnen krankhaften Folgen ausgesetzt, wie z. B. Armlymphödemen, axillären Taubheitsgefühlen und Schulterabduktionsdefiziten. 
+
+Die nicht-chirurgische Beurteilung der Achselhöhle ist nicht vielversprechend. Die präoperative Beurteilung der Achselhöhle mittels körperlicher Untersuchung hat falsch-negative Raten (FNR) von bis zu 45 % ergeben. Bildgebende Verfahren wie Ultraschall, Magnetresonanztomographie und Positronen-Emissions-Tomographie/Computertomographie haben sich beim cN0-Axilla-Staging ebenfalls als wenig hilfreich erwiesen.[@ZahoorEtAl2017]
+
 
 ## Behandlung
 Du wirst die grundlegenden Behandlungsmöglichkeiten für Mammakarzinom erläutern können. Dazu gehören chirurgische Optionen, Strahlentherapie, und systemische Therapie. Du wirst verstehen, wie die Wahl der Behandlung von verschiedenen Faktoren abhängt, einschließlich der biologischen Merkmale des Tumors.
