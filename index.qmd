@@ -27,13 +27,22 @@ Viel Erfolg beim Lernen!
 ::: {.content-block}
 ::: {.features}
 
-
 ::: {.feature}
 ### Mammakarzinom
 Du wirst das Krankheitsbild des Mammakarzinoms in seiner typischen Form, einschließlich der Entstehung, Diagnose und Behandlung, verständlich erklären können.
 
 ::: {.learn-more}
-[Learn more »](Mammakarzinom.qmd)
+[Mehr erfahren »](Mammakarzinom.qmd)
+:::
+
+:::
+
+::: {.feature}
+### Gutartiger Erkrankungen 
+Du wirst verstehen, wie niedrig dosierte Strahlentherapie Schmerzen lindert. Du wirst lernen, wie die entzündungshemmende Wirkung funktioniert. Du wirst die verschiedenen Krankheitsbilder von Gelenk- und Weichteilerkrankungen kennenlernen.
+
+::: {.learn-more}
+[Mehr erfahren »](Mammakarzinom.qmd)
 :::
 
 :::
