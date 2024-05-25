@@ -2,8 +2,21 @@
 title: "MTRA-Schule"
 ---
 
-This is a test website.
+::: {.hero-banner}
 
-```{=html}
-<iframe class="slide-deck" src="BrustPresentation/BrustPresentation"></iframe>
-```
+::: {.hero-text}
+
+# Hi!
+
+
+Hier findest du Lernziele und Inhalte, die auch in der Prüfung wichtig sind.
+
+Die Themen geben eine allgemeine Einführung in die verschiedenen medizinischen Bereiche.
+
+
+Viel Erfolg beim Lernen!
+
+
+:::
+
+:::
