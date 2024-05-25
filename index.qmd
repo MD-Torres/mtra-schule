@@ -1,5 +1,8 @@
 ---
-title: "MTRA-Schule"
+title: "Intro"
+page-layout: custom
+section-divs: false
+toc: false
 ---
 
 ::: {.hero-banner}
@@ -19,4 +22,23 @@ Viel Erfolg beim Lernen!
 
 :::
 
+:::
+
+::: {.content-block}
+::: {.features}
+
+
+::: {.feature}
+### Mammakarzinom
+Du wirst das Krankheitsbild des Mammakarzinoms in seiner typischen Form, einschließlich der Entstehung, Diagnose und Behandlung, verständlich erklären können.
+
+::: {.learn-more}
+[Learn more »](Mammakarzinom.qmd)
+:::
+
+:::
+
+
+
+:::
 :::
