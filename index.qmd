@@ -1,6 +1,6 @@
 ---
 title: "Intro"
-page-layout: custom
+# page-layout: custom
 section-divs: false
 toc: false
 ---
