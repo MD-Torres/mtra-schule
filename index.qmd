@@ -42,7 +42,7 @@ Du wirst das Krankheitsbild des Mammakarzinoms in seiner typischen Form, einschl
 Du wirst verstehen, wie niedrig dosierte Strahlentherapie Schmerzen lindert. Du wirst lernen, wie die entzündungshemmende Wirkung funktioniert. Du wirst die verschiedenen Krankheitsbilder von Gelenk- und Weichteilerkrankungen kennenlernen.
 
 ::: {.learn-more}
-
+[Mehr erfahren »](Gutartig.qmd)
 :::
 
 :::
