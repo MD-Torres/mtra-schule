@@ -10,6 +10,19 @@ csl: american-medical-association.csl
 
 In Deutschland wurden 2016 **258 946** Benigne entzündliche Erkrankungen oder Tumoren in der Strahlentherapie behandelt. 
 
+```{r plt_PropGutartig}
+library(ggplot2)
+
+
+df <- data.frame(value = c(10, 30, 32, 28),
+                 group = paste0("G", 1:4))
+
+
+
+
+
+```
+
 
 # Schmerzlindernde Wirkung 
 
