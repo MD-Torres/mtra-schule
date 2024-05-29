@@ -8,7 +8,7 @@ csl: american-medical-association.csl
 
 # Einführung 
 
-Die Strahlentherapie ist eine wichtige Säule in der Therapie bösartiger Tumore, doch ihr Einsatz bei gutartigen Erkrankungen sollte nicht vernachlässigt werden. Im Jahr 1898 war eine juvenile Arthritis die erste gutartige Erkrankung, die mit Strahlentherapie behandelt wurde.[@TorresRoyoEtAl2020]
+Strahlentherapie war schon immer eine wichtige Säule in der Therapie bösartiger Tumore, doch ihr Einsatz bei gutartigen Erkrankungen sollte nicht vernachlässigt werden. Im Jahr 1898 war eine juvenile Arthritis die erste gutartige Erkrankung, die mit Strahlentherapie behandelt wurde.[@TorresRoyoEtAl2020]
 
 2016 wurden in Deutschland **258 946** Benigne entzündliche Erkrankungen oder Tumoren (1%) in der Strahlentherapie behandelt. @fig-plot-PropGutartig Zeigt, dass die Strahlentherapie sogar noch häufiger bei gutartigen Erkrankungen angewendet wurde als bei bösartigen Erkrankungen.[@PoppEtAl2020]
 
