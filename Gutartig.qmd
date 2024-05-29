@@ -6,6 +6,11 @@ bibliography: mta-schule.bib
 csl: american-medical-association.csl
 ---
 
+# Zahlen 
+
+In Deutschland wurden 2016 **258 946** Benigne entzündliche Erkrankungen oder Tumoren in der Strahlentherapie behandelt. 
+
+
 # Schmerzlindernde Wirkung 
 
 # Antientzündliche Wirkung 
