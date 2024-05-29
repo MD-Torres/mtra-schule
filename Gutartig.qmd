@@ -1,6 +1,10 @@
 ---
 title: "Gutartige Erkrankungen"
 author: "Jorge Torres"
+format: 
+  html: 
+    fig-width: 8
+    fig.asp: 0.618
 slide-format: revealjs
 bibliography: mta-schule.bib
 csl: american-medical-association.csl
@@ -21,7 +25,6 @@ Strahlentherapie war schon immer eine wichtige Säule in der Therapie bösartige
 library(ggplot2)
 library(dplyr)
 library(tidyr)
-# library(extrafont)
 library(scales)
 library(ggtext)
 
