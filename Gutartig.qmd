@@ -8,6 +8,8 @@ format:
 slide-format: revealjs
 bibliography: mta-schule.bib
 csl: american-medical-association.csl
+execute:
+  warning: false
 ---
 
 # Einführung 
