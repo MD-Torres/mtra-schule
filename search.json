@@ -81,7 +81,7 @@
     "href": "Gutartig.html",
     "title": "Gutartige Erkrankungen",
     "section": "",
-    "text": "Strahlentherapie war schon immer eine wichtige Säule in der Therapie bösartiger Tumore, doch ihr Einsatz bei gutartigen Erkrankungen sollte nicht vernachlässigt werden. Im Jahr 1898 war eine juvenile Arthritis die erste gutartige Erkrankung, die mit Strahlentherapie behandelt wurde.1\n2016 wurden in Deutschland 258 946 Benigne entzündliche Erkrankungen oder Tumoren (1%) in der Strahlentherapie behandelt. Figure 1 Zeigt, dass die Strahlentherapie sogar noch häufiger bei gutartigen Erkrankungen angewendet wurde als bei bösartigen Erkrankungen.2\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\n\n\n\n\n\n\nFigure 1"
+    "text": "Strahlentherapie war schon immer eine wichtige Säule in der Therapie bösartiger Tumore, doch ihr Einsatz bei gutartigen Erkrankungen sollte nicht vernachlässigt werden. Im Jahr 1898 war eine juvenile Arthritis die erste gutartige Erkrankung, die mit Strahlentherapie behandelt wurde.1\n2016 wurden in Deutschland 258 946 Benigne entzündliche Erkrankungen oder Tumoren (1%) in der Strahlentherapie behandelt. Figure 1 Zeigt, dass die Strahlentherapie sogar noch häufiger bei gutartigen Erkrankungen angewendet wurde als bei bösartigen Erkrankungen.2\n\n\n\n\n\n\n\n\nFigure 1: Anteil benigne Erkrankungen"
   },
   {
     "objectID": "Gutartig.html#erkrankungen",
