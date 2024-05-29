@@ -15,6 +15,8 @@ Strahlentherapie war schon immer eine wichtige Säule in der Therapie bösartige
 ```{r plt_PropGutartig}
 #| label: fig-plot-PropGutartig
 #| echo: false
+#| out-width: 70% 
+
 
 library(ggplot2)
 library(dplyr)
