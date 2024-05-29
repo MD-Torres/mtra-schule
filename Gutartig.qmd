@@ -22,6 +22,7 @@ Strahlentherapie war schon immer eine wichtige Säule in der Therapie bösartige
 #| label: fig-plot-PropGutartig
 #| echo: false
 #| out-width: 70% 
+#| fig-cap: "Anteil benigne Erkrankungen"
 
 
 library(ggplot2)
