@@ -6,11 +6,15 @@ bibliography: mta-schule.bib
 csl: american-medical-association.csl
 ---
 
-# Zahlen 
+# Einführung 
 
-In Deutschland wurden 2016 **258 946** Benigne entzündliche Erkrankungen oder Tumoren in der Strahlentherapie behandelt. 
+Die Strahlentherapie ist eine wichtige Säule in der Therapie bösartiger Tumore, doch ihr Einsatz bei gutartigen Erkrankungen sollte nicht vernachlässigt werden. Im Jahr 1898 war eine juvenile Arthritis die erste gutartige Erkrankung, die mit Strahlentherapie behandelt wurde.[@TorresRoyoEtAl2020]
 
-```{r plt_PropGutartig}
+2016 wurden in Deutschland **258 946** Benigne entzündliche Erkrankungen oder Tumoren (1%) in der Strahlentherapie behandelt. @fig-plot-PropGutartig Zeigt, dass die Strahlentherapie sogar noch häufiger bei gutartigen Erkrankungen angewendet wurde als bei bösartigen Erkrankungen.[@PoppEtAl2020]
+
+```{r plt_PropGutartig echo = FALSE}
+#| label: fig-plot-PropGutartig
+
 library(ggplot2)
 library(dplyr)
 library(tidyr)
@@ -135,4 +139,6 @@ In der Regel erfolgen 6 Bestrahlungen mit sehr niedrigen Einzeldosen von 0,5 Gy 
 ### Morbus Ledderhose
 ### Endokrine Orbitopatie
 ### Meningiome
+
+# Literaturverzeichnis 
 
