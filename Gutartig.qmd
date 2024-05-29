@@ -12,8 +12,9 @@ Strahlentherapie war schon immer eine wichtige Säule in der Therapie bösartige
 
 2016 wurden in Deutschland **258 946** Benigne entzündliche Erkrankungen oder Tumoren (1%) in der Strahlentherapie behandelt. @fig-plot-PropGutartig Zeigt, dass die Strahlentherapie sogar noch häufiger bei gutartigen Erkrankungen angewendet wurde als bei bösartigen Erkrankungen.[@PoppEtAl2020]
 
-```{r plt_PropGutartig echo = FALSE}
+```{r plt_PropGutartig}
 #| label: fig-plot-PropGutartig
+#| echo: false
 
 library(ggplot2)
 library(dplyr)
