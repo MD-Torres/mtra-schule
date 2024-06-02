@@ -4,95 +4,95 @@ title: "Map"
 
 ```{r}
 
-library(ggplot2)
-library(tidyverse)
-library(raster)
-library(sf)
-library(giscoR)
-
-world_map <- map_data("world")
-ggplot(world_map, aes(x = long, y = lat, group = group)) +
-  geom_polygon(fill="lightgray", colour = "white")
-
-
-german.countries <- c(
-  "Switzerland", 
-  "Germany",
-  "Austria"
-)
-# Retrievethe map data
-some.eu.maps <- map_data("world", region = german.countries)
-
-# Compute the centroid as the mean longitude and lattitude
-# Used as label coordinate for country's names
-region.lab.data <- some.eu.maps %>%
-  group_by(region) %>%
-  summarise(long = mean(long), lat = mean(lat))
-
-ggplot(some.eu.maps, aes(x = long, y = lat)) +
-  geom_polygon(aes( group = group, fill = region))+
-  geom_text(aes(label = region), data = region.lab.data,  size = 3, hjust = 0.5)+
-  scale_fill_viridis_d()+
-  theme_void()+
-  theme(legend.position = "none")
-
-germany <- getData(country = "Germany", level = 1) 
-
-germany <- raster::getData(country = "Germany", level = 1)
-
-```
-
-
-
-```{r}
-
-library(sf)
-#> Linking to GEOS 3.8.0, GDAL 3.0.4, PROJ 6.3.1; sf_use_s2() is TRUE
-library(tidyverse)
-theme_set(theme_bw())
-library(giscoR)
-
-ger_fedtstates <- gisco_get_nuts(
-  nuts_level = 1,
-  #resolution = 10,
-  country = "Germany",
-  year = "2021"
-)
-
-dat <- read.table(text = "
-      state value
-      Sachsen 10
-      Bayern 30
-      Rheinland-Pfalz 50
-      Saarland 70
-      Schleswig-Holstein 90
-      Niedersachsen  100
-      Nordrhein-Westfalen 80
-      Baden-Württemberg 60
-      Brandenburg 40
-      Mecklenburg-Vorpommern 20
-      Bremen 40
-      Hamburg 60
-      Hessen 15
-      Berlin 10
-      Thüringen 80
-      Sachsen-Anhalt 20
-", header = T)
-
-ger_fedstates_end <- ger_fedtstates %>%
-  left_join(dat, by = c("NUTS_NAME" = "state"))
-
-plot(ger_fedstates_end["value"])
-
-
-view(ger_fedstates_end)
-
-ggplot(ger_fedstates_end, aes(x = long, y = lat)) +
-  geom_polygon(aes( group = group, fill = region))
-
-ger_fedtstates %>%
-  ggplot(aes(geometry = geometry)) +
-  geom_sf()
+# library(ggplot2)
+# library(tidyverse)
+# library(raster)
+# library(sf)
+# library(giscoR)
+# 
+# world_map <- map_data("world")
+# ggplot(world_map, aes(x = long, y = lat, group = group)) +
+#   geom_polygon(fill="lightgray", colour = "white")
+# 
+# 
+# german.countries <- c(
+#   "Switzerland", 
+#   "Germany",
+#   "Austria"
+# )
+# # Retrievethe map data
+# some.eu.maps <- map_data("world", region = german.countries)
+# 
+# # Compute the centroid as the mean longitude and lattitude
+# # Used as label coordinate for country's names
+# region.lab.data <- some.eu.maps %>%
+#   group_by(region) %>%
+#   summarise(long = mean(long), lat = mean(lat))
+# 
+# ggplot(some.eu.maps, aes(x = long, y = lat)) +
+#   geom_polygon(aes( group = group, fill = region))+
+#   geom_text(aes(label = region), data = region.lab.data,  size = 3, hjust = 0.5)+
+#   scale_fill_viridis_d()+
+#   theme_void()+
+#   theme(legend.position = "none")
+# 
+# germany <- getData(country = "Germany", level = 1) 
+# 
+# germany <- raster::getData(country = "Germany", level = 1)
+# 
+# ```
+# 
+# 
+# 
+# ```{r}
+# 
+# library(sf)
+# #> Linking to GEOS 3.8.0, GDAL 3.0.4, PROJ 6.3.1; sf_use_s2() is TRUE
+# library(tidyverse)
+# theme_set(theme_bw())
+# library(giscoR)
+# 
+# ger_fedtstates <- gisco_get_nuts(
+#   nuts_level = 1,
+#   #resolution = 10,
+#   country = "Germany",
+#   year = "2021"
+# )
+# 
+# dat <- read.table(text = "
+#       state value
+#       Sachsen 10
+#       Bayern 30
+#       Rheinland-Pfalz 50
+#       Saarland 70
+#       Schleswig-Holstein 90
+#       Niedersachsen  100
+#       Nordrhein-Westfalen 80
+#       Baden-Württemberg 60
+#       Brandenburg 40
+#       Mecklenburg-Vorpommern 20
+#       Bremen 40
+#       Hamburg 60
+#       Hessen 15
+#       Berlin 10
+#       Thüringen 80
+#       Sachsen-Anhalt 20
+# ", header = T)
+# 
+# ger_fedstates_end <- ger_fedtstates %>%
+#   left_join(dat, by = c("NUTS_NAME" = "state"))
+# 
+# plot(ger_fedstates_end["value"])
+# 
+# 
+# view(ger_fedstates_end)
+# 
+# ggplot(ger_fedstates_end, aes(x = long, y = lat)) +
+#   geom_polygon(aes( group = group, fill = region))
+# 
+# ger_fedtstates %>%
+#   ggplot(aes(geometry = geometry)) +
+#   geom_sf()
 
 
 
