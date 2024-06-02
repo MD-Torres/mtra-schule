@@ -17,31 +17,21 @@ Gamble et al. [@GambleEtAl1991] for example showed that while 81% of patients wa
 
 These findings underscore the need for more proactive and widespread communication about end-of-life care in palliative settings to ensure that patient preferences are understood and respected.
 
+furthermore 
+
+
+
 However 
 
+Communication in palliative care should be done systematically and by experts. 
 
 
 
 
 
 
-# Introduction
 
-Sharp et.al. [@SharpEtAl2013] did a 
-systematic review and narrative synthesis of the literature concerning the attitudes of the public and healthcare professionals to discussions about end-of-life care with frail and older individuals
 
-studies in which a single overriding diagnosis existed were excluded. Also excluded were studies that focused on prognosis, capacity or resuscitation decisions.
-
-Included were 26 articles were from 20 publications
-
-The majority of papers reported between 61% and 91% of older individuals wanted to discuss their end-of-life care. Some expressed comfort even enthusiasm for such conversations. In contrast, three studies found a reluctance to have such discussions: including housebound individuals who preferred to live ‘one day at a time’ or people over 50 years who preferred to postpone making plans until they were older or in worse health. 
-
-Most doctors felt these discussions to be an important part of their professional responsibility enabling preferences to be well informed and decisions made in the patient’s best interest. Many view discussions to be important with patients who have severe chronic illness (91%) or terminal illness (97%), but fewer (64%) felt these conversations were important with older patients regardless of their health status. 
-
-despite this results discutions of end of life care are scarce: 
-
-Gamble et.al. [@GambleEtAl1991] reported that 81% of patients stated a desire to discuss end-of-life care with their physicians, but a minority  11% had actually talked with their physicians, and these discussions were usually initiated by the patient.
-This is also shown in the 2021 canadian Advance Care Planning National Poll where 59% of canadians talked with a family member about their care wishes, but only 7% to a health care provider [@TheAdvanceCarePlanninginCanadainitiative2021]
 
 
 
@@ -54,7 +44,6 @@ The Cardiff six-point toolkit[@KissaneEtAl2017]:
 ## Listening / use of silence
 ## Reflection
 ## Summarising
-
 
 
 Losing a loved one to death is an inherent part of human life. About 7% of bereaved older adults, however, will develop the mental health condition of Complicated Grief (CG). [@ShearEtAl2013]
