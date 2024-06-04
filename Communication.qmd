@@ -21,7 +21,7 @@ The significance of early integration into palliative care is well-established, 
 For example, Yoong et al. [@YoongEtAl2013] found that addressing symptoms and coping were the most prevalent components of palliative care clinic visits, which focused on building relationships and rapport with patients and their families and on understanding the illness, including prognostic awareness. 
 
 However, healthcare professionals trained in communication should not use communication tools indiscriminately. 
-This was demonstrated in a randomised study conducted by Curtis et al.[@CurtisEtAl2013] 
+This was demonstrated in a randomized study conducted by Curtis et al.[@CurtisEtAl2013] 
 They conducted a workshop consisting of eight 4-hour sessions led by a physician and a nurse. This workshop was designed to improve communication skills for oncology fellows and was associated with the acquisition of new skills in both: 
 
 - delivering bad news
