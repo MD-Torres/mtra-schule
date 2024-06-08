@@ -20,9 +20,9 @@ These findings underscore the need for more proactive and widespread communicati
 The significance of early integration into palliative care is well-established, with a considerable portion of the benefits attributed to effective communication. 
 For example, Yoong et al. [@YoongEtAl2013] found that addressing symptoms and coping were the most prevalent components of palliative care clinic visits, which focused on building relationships and rapport with patients and their families and on understanding the illness, including prognostic awareness. 
 
-However, healthcare professionals trained in communication should not use communication tools indiscriminately. 
-This was demonstrated in a randomized study conducted by Curtis et al.[@CurtisEtAl2013] 
-They conducted a workshop consisting of eight 4-hour sessions led by a physician and a nurse. This workshop was designed to improve communication skills for oncology fellows and was associated with the acquisition of new skills in both: 
+However, healthcare professionals should not use communication tools derived from speciliist palliative care indiscriminately. 
+
+This was demonstrated in a randomized study conducted by Curtis et al.[@CurtisEtAl2013] they conducted a workshop consisting of eight 4-hour sessions led by a physician and a nurse. This workshop was designed to improve communication skills for oncology fellows and was associated with the acquisition of new skills in both: 
 
 - delivering bad news
 - responding to emotions
@@ -31,17 +31,19 @@ However, there was no significant change in ratings of quality of care or qualit
 
 This finding suggests that improvements in communication skills observed in a controlled, standardized setting may not necessarily translate to enhancements in real-world clinical practice.
 
-Conversely, quality of care significantly improved among patients who rated their health status as “poor,” underscoring the importance of carefully selecting appropriate patients before delivering specialist palliative care.
+Conversely, they did demonstrate a significant improvement in quality of care among patients who rated their health status as “poor". Moreover, an increase in patients’ depressive symptoms associated with the intervention was observed, indicating that awareness of prognosis may trigger negative experiences if not properly addressed by an expert. 
 
-Moreover, an increase in patients’ depressive symptoms associated with the intervention was observed, indicating that awareness of prognosis may trigger negative experiences if not properly addressed by an expert.
+This results underscore the importance of carefully selecting appropriate patients before communicating whit them using specialist palliative care techniques. 
 
-In this regard data pertaining comunication in specialist palliative care is lacking, however because of certain similarities a comparison with bereavement counselling might be helpful:
+Studies that investigate the negative side effects of comunication in specialist palliative care are lacking, however because of certain similarities a comparison with bereavement counselling might be helpful:
 
-Negative side effects of bereavement counselling are known to exist and are currently being researched. This is logical since bereavement counselling is a psychosocial intervention, sharing characteristics with psychotherapy, such as the need to establish a therapeutic alliance that requires trust and openness from the client.
+Negative side effects of bereavement counselling are known to exist and are also currently being researched. This is logical since bereavement counselling is a psychosocial intervention, sharing characteristics with psychotherapy, such as the need to establish a therapeutic alliance that requires trust and openness from patients.
 
-Negative effects can either be:
+Because bereavement counselling is a psychosocial intervention similar to psychotherapy, negative side effects are known to exist and are currently under study.
+
+This negative effects can either be[@TelaarEtAl2023]:
 - unintended detrimental consequences of properly applied interventions (i.e. side effects)
-- The result from inappropriately applied interventions, such as unethical behavior and malpractice. [@TelaarEtAl2023]
+- The result from inappropriately applied interventions, such as unethical behavior and malpractice. 
 
 Examples of these negative effects can be found in a study by Moritz et al. [@MoritzEtAl2019] involving individuals with depression. 
 While positive effects were reported by virtually all patients (95.6%), approximately half of them (52.6%) also reported experiencing at least one adverse event.
@@ -66,9 +68,7 @@ Further more it is important to underscore that losing a loved one to death (or 
 
 In summary, while effective communication in palliative care is essential, it's indiscriminate application could lead to negative side effects, e.g. depression. Additionally, physicians often do not need to employ specialist palliative care communication skills and tools with patients at the end of life to provide adequate care.
 
-Therefore, end-of-life communication should prioritize being approachable, honest, warm, and authentic over technical skills and communication tools. Such an approach may lead to better therapeutic relationships and more positive outcomes for patients and their relatives at the end of life.
-
-
+Therefore, when communicating in end-of-life situations physicians should prioritize being approachable, honest, warm, and authentic over using technical skills and communication tools. However, clinicians who lack proficiency in palliative care communication skills will inevitably encounter situations where technical expertise is essential for appropriately discussing prognosis and the process of dying. Hence, this section will focus on introducing essential communication tools to enhance the effectiveness and ease of such critical interactions.
 
 
 The Cardiff six-point toolkit[@KissaneEtAl2017]: 
