@@ -1,0 +1,19 @@
+---
+title: "Comunicacion"
+author: "Jorge Torres"
+format: revealjs
+---
+
+# Communicacion done wrong 
+
+[Example](https://www.youtube.com/watch?v=bVclPy3gNfg){preview-link="false"}
+
+
+
+
+
+
+# Communicacion done right 
+
+[Example](https://youtu.be/ZQht2yOX9Js?feature=shared&t=117){preview-link="false"}
+
