@@ -18,32 +18,48 @@ format: revealjs
 [Example](https://youtu.be/ZQht2yOX9Js?feature=shared&t=117){preview-link="false"}
 
 ```{r}
+
 # Load necessary library
 library(ggplot2)
-
 
 # Set seed for reproducibility
 set.seed(123)
 
 # Simulate data
-time <- seq(0, 100, by = 1)  # Time from diagnosis to death (e.g., in months)
-health <- exp(-0.05 * time) + rnorm(length(time), mean = 0, sd = 0.05)  # Exponential decay with some noise
+time <- seq(-5, 105, by = 1)  # Time including health period before diagnosis, from diagnosis until end of bereavement period (e.g., in months)
+diagnosis_point <- 0  # Time of diagnosis (in months)
+transition_point <- 100  # Time of death in months
+bereavement_end <- 105  # End of bereavement period
+
+# Health levels: constant before diagnosis, exponential decline after diagnosis until death (with peaks and valleys), then stable during bereavement
+health <- ifelse(time < diagnosis_point, 1, 
+                 ifelse(time <= transition_point, pmax(0.025, pmin(1, exp(-0.05 * (time - diagnosis_point)) + rnorm(length(time[time > diagnosis_point]), mean = 0, sd = 0.05))), 
+                        rep(0, length(time) - transition_point + diagnosis_point)))
+
+# Ensure it ends exactly at 0 at transition_point
+health[time == transition_point] <- 0
+
+# Period labels
+period <- ifelse(time < diagnosis_point, "Pre-Diagnosis", 
+                 ifelse(time <= transition_point, "Post-Diagnosis", "Bereavement"))
 
 # Create a data frame
-data <- data.frame(time = time, health = health)
+data <- data.frame(time = time, health = health, period = factor(period, levels = c("Pre-Diagnosis", "Post-Diagnosis", "Bereavement")))
 
 # Plot the data
-ggplot(data, aes(x = time, y = health)) +
-  geom_line(color = "blue") +
-  geom_point(color = "red", size = 0.5) +
-  labs(title = "Health Over Time from Diagnosis to Death",
+ggplot(data, aes(x = time, y = health, color = period)) +
+  geom_line() +
+ # geom_point(size = 0.5) +
+  scale_color_manual(values = c("green", "blue", "red")) +
+  labs(title = "Health Over Time from Pre-Diagnosis to Bereavement",
        x = "Time (months)",
-       y = "Health") +
+       y = "Health",
+       color = "Period") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5))
 
 
 
-````
 
+```
 
