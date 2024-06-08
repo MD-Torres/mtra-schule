@@ -1,6 +1,6 @@
 ---
-title: "Comunicacion"
-author: "Jorge Torres"
+title: "Comunicación"
+# author: "Jorge Torres"
 format: revealjs
 ---
 
@@ -16,4 +16,34 @@ format: revealjs
 # Communicacion done right 
 
 [Example](https://youtu.be/ZQht2yOX9Js?feature=shared&t=117){preview-link="false"}
+
+```{r}
+# Load necessary library
+library(ggplot2)
+
+
+# Set seed for reproducibility
+set.seed(123)
+
+# Simulate data
+time <- seq(0, 100, by = 1)  # Time from diagnosis to death (e.g., in months)
+health <- exp(-0.05 * time) + rnorm(length(time), mean = 0, sd = 0.05)  # Exponential decay with some noise
+
+# Create a data frame
+data <- data.frame(time = time, health = health)
+
+# Plot the data
+ggplot(data, aes(x = time, y = health)) +
+  geom_line(color = "blue") +
+  geom_point(color = "red", size = 0.5) +
+  labs(title = "Health Over Time from Diagnosis to Death",
+       x = "Time (months)",
+       y = "Health") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+
+
+
+````
+
 
