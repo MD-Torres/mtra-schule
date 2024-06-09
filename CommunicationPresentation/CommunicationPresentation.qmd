@@ -1,25 +1,166 @@
 ---
-title: "Comunicación"
+title: "Communication in palliative care"
 # author: "Jorge Torres"
-format: revealjs
+format: 
+  revealjs:
+    chalkboard: true
+bibliography: Kommunikation.bib
 ---
+
+# What is palliative care?
+
+![Trayectorias de la enfermedad y fases de los cuidados paliativos [@RACGP2023] ](Bilder/palli-phases.jpg)
+
+## specialist vs generalist palliative care
+
+## specialist Palliative Care teams 
+
+# The Role of Communication in Palliative Care
+
+## Benefits 
+
+> Interventions that focus on communication about palliative and end-oflife care, using palliative care specialists, have demonstrated improved quality of life, decreased symptoms of depression, and reduced intensity of care at the end of life. [@CurtisEtAl2013]
+
+## Early Palliative Care for Patients with Metastatic NSCLC 
+[@TemelEtAl2010]
+
+- Ambulatory patients with newly diagnosed metastatic NSCLC 
+- Early palliative care + standard oncologic care vs. standard oncologic care 
+- Board-certified palliative care physicians and advanced-practice nurses 
+
+## Specific attention was paid to 
+
+::: {.fragment}
+- psychosocial symptoms
+- establishing goals of care 
+- assisting with decision making regarding treatment
+:::
+
+::: {.fragment .fade-in-then-semi-out}
+- coordinating care on the basis of the individual needs of the patient
+- physical symptoms
+:::
+
+
+
+::: {.fragment .fade-in-then-out}
+:::
+
+## Quality of life
+
+![An improvement of TOI (Trial Outcome Index) of 5 points is similar to that of **patients who responded** to cisplatin-based chemotherapy [@TemelEtAl2010] ](Bilder/QoL.png)
+
+::: notes 
+This compared to the Results from Eastern Cooperative Oncology Group (ECOG) Study 5592. 
+
+**Complete or partial response (95)** is meant in contrast to stable (82) or progressive disease (102). 
+
+Patients had (stage IIIb and IV) non-small cell lung cancer (NSCLC), were ambulatory (ECOG 0 or 1) and recieved either:
+
+- cisplatin 75 mg/m2 IV over 1 hr plus etoposide 100 mg/m2 IV X 3 (days 1, 2, and 3)
+- cisplatin 75 mg/m2 IV over 1 hr plus standard dose paclitaxel (135 mg/m2 IV) over 24 hr, or
+- cisplatin 75 mg/m2 IV over 1 hr plus higher dose paclitaxel (250 mg/m2 IV) over 24 hr with granulocyte colony stimulating factor (g-csf) support (5 	g/kg/day).
+
+FACT = Functional Assessment of Cancer Therapy
+
+Lung Cancer Subscale (LCS)
+Physical Well-Being (PWB)
+Functional Well-Being (FWB)
+
+::: 
+
+## Eastern Cooperative Oncology Group (ECOG) Study 5592 
+
+599 patients with NSCLC were randomly assigned to receive
+
+- cisplatin plus etoposide 100 
+- cisplatin plus standard dose paclitaxel  
+- cisplatin plus higher dose paclitaxel with (g-csf) 
+
+
+## Reported Toxicity in 5592 
+
+![Relative toxic effects (CTC), by age reported in the Eastern Cooperative Oncology Group 5592. [@LangerEtAl2002] ](Bilder/ToxicityMales.png)
+
+::: notes
+CTC = common toxicity criteria
+ECOG = Eastern Cooperative Oncology Group
+:::
+
+## Depressive symptoms
+
+![ Early integration led to significantly lower (almost 50%) Rates of depression [@TemelEtAl2010] ](Bilder/DepressiveSymptoms.png)
+
+::: notes
+
+Depressive symptoms were assessed with the use of the Hospital Anxiety and Depression Scale (HADS), which consists of two subscales, one for symptoms of anxiety (HADS-A) and one for symptoms of depression (HADS-D)
+
+The PHQ-9 (Patient Health Questionnaire 9) is a nine-item measure that evaluates symptoms of major depressive disorder according to the criteria of the fourth edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV).
+
+:::
+
+## Survival 
+
+
+![Early integration of palliative care prolonged  survival by approximately 2 months [@TemelEtAl2010] ](Bilder/Survival-NEJM.png)
+
+## Survival
+
+![Association of Survival With Receipt of Palliative Care [@SullivanEtAl2019] ](Bilder/Survival-JAMA.png)
+
+
+## Side effects
+
+::: notes
+Simulation to learn skills for communicating bad news to patients with cancer forms the basis of a 4-day workshop for medical oncology fellows.
+
+This workshop has been associated with significant improvement in participants’ ability to deliver bad news and discuss transitions to palliative care. Clinicians can learn skills for communicating about palliative care in small-group facilitated settings using simulated patients and family members.
+
+A systematic review of communication skills interventions noted the effectiveness of interventions using simulation but observed that no studies have shown an effect on patient-reported outcomes.
+
+We conducted a randomized trial to examine whether a communication skills–building workshop aimed at internal medicine and nurse practitioner trainees, using simulation during which trainees practiced skills associated with palliative and end-of-life care communication, had any effect on patient-, family-, and clinician-reported outcomes.
+:::
+
+### Depressive Symptoms [@CurtisEtAl2013]
+
+- A significant increase in depressive symptoms, with an increase of **2.2 PHQ-8 points.** 
+
+- Depression scores for patients of the most senior trainees were **significantly lower** than those for patients of first-year residents.
+
+::: notes
+One of the questionnaires most commonly used for the screening and severity assessment of depression in clinical settings and epidemiological studies is the PHQ (Patient health questionnaire). This is a self-reported measure of depressive symptoms composed of 9 Likert-type items each of them corresponding to one of the 9 criteria for major depressive disorder of the 4th edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV) [@TorreEtAl2023]
+:::
+
+# Who bennefits from specialist palliative care
+
+# Elements of communication in Palliative Care
+
+
+
+## development of clear treatment goals
+
+## 
+
 
 # Communicacion done wrong 
 
 [Example](https://www.youtube.com/watch?v=bVclPy3gNfg){preview-link="false"}
 
+#
 
+![](Bilder/matador.jpeg)
 
+#
 
+![](Bilder/recortador.gif)
 
 
 # Communicacion done right 
 
 [Example](https://youtu.be/ZQht2yOX9Js?feature=shared&t=117){preview-link="false"}
 
-# 
 
 
 
 
-
+# Bibliografía
