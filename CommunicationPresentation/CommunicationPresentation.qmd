@@ -78,7 +78,7 @@ Functional Well-Being (FWB)
 
 ::: 
 
-## Eastern Cooperative Oncology Group (ECOG) Study 5592 
+## ECOG Trial ^[Comparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin  [@BonomiEtAl2000] ]
 
 599 patients with NSCLC were randomly assigned to receive
 
