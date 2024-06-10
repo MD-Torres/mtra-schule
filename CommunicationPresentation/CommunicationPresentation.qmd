@@ -86,6 +86,15 @@ Functional Well-Being (FWB)
 - cisplatin plus standard dose paclitaxel  
 - cisplatin plus higher dose paclitaxel with (g-csf) 
 
+## The objective response rate (complete + partial remissions)^[@BonomiEtAl2000]
+
+- Cis/Eto **12.4%**
+- Cis/Pacli **25.3%**
+- Cis/Pacli (high dose) **27.7%**
+
+::: notes
+Response rates for the two dose levels of paclitaxel were not significantly different (P = .264).
+:::
 
 ## Reported Toxicity in 5592 
 
