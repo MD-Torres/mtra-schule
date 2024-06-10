@@ -11,7 +11,16 @@ bibliography: Kommunikation.bib
 
 ![Trayectorias de la enfermedad y fases de los cuidados paliativos [@RACGP2023] ](Bilder/palli-phases.jpg)
 
-## specialist vs generalist palliative care
+
+## Focus: generalist palliative care 
+
+- No standardly accepted definition of generalist palliative care
+
+- Treatment service is provided by staff whose main field of work is not in palliative care
+
+- The patient situation is less complex than in specialist palliative care
+
+- It is not compulsory that the care service is linked with specific structural requirements.
 
 ## specialist Palliative Care teams 
 
@@ -109,7 +118,7 @@ The PHQ-9 (Patient Health Questionnaire 9) is a nine-item measure that evaluates
 ![Association of Survival With Receipt of Palliative Care [@SullivanEtAl2019] ](Bilder/Survival-JAMA.png)
 
 
-## Side effects
+# Side effects of communication
 
 ::: notes
 Simulation to learn skills for communicating bad news to patients with cancer forms the basis of a 4-day workshop for medical oncology fellows.
@@ -121,7 +130,7 @@ A systematic review of communication skills interventions noted the effectivenes
 We conducted a randomized trial to examine whether a communication skills–building workshop aimed at internal medicine and nurse practitioner trainees, using simulation during which trainees practiced skills associated with palliative and end-of-life care communication, had any effect on patient-, family-, and clinician-reported outcomes.
 :::
 
-### Depressive Symptoms [@CurtisEtAl2013]
+## Depressive Symptoms [@CurtisEtAl2013]
 
 - A significant increase in depressive symptoms, with an increase of **2.2 PHQ-8 points.** 
 
@@ -130,6 +139,19 @@ We conducted a randomized trial to examine whether a communication skills–buil
 ::: notes
 One of the questionnaires most commonly used for the screening and severity assessment of depression in clinical settings and epidemiological studies is the PHQ (Patient health questionnaire). This is a self-reported measure of depressive symptoms composed of 9 Likert-type items each of them corresponding to one of the 9 criteria for major depressive disorder of the 4th edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV) [@TorreEtAl2023]
 :::
+
+## Multiprofessional Team 
+
+A specialist palliative care core team ***must*** comprise members
+from at least three professional groups ^[S3-Guideline: Palliative care for patients with incurable cancer [@GermanCancerSociety2015]]
+
+- physician 
+- nursing profession 
+- other professional group 
+
+Of these at least the physician and nurse must possess a specialist palliative care qualification. 
+
+ 
 
 # Who bennefits from specialist palliative care
 
