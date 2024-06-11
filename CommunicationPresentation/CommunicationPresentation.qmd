@@ -4,31 +4,17 @@ title: "Communication in palliative care"
 format: 
   revealjs:
     chalkboard: true
+    #slide-level: 3
 bibliography: Kommunikation.bib
 ---
 
-# What is palliative care?
+# Introduction
+
+## What is palliative care?
 
 ![Trayectorias de la enfermedad y fases de los cuidados paliativos [@RACGP2023] ](Bilder/palli-phases.jpg)
 
 
-## Focus: generalist palliative care 
-
-- No standardly accepted definition of generalist palliative care
-
-- Treatment service is provided by staff whose main field of work is not in palliative care
-
-- The patient situation is less complex than in specialist palliative care
-
-- It is not compulsory that the care service is linked with specific structural requirements.
-
-## specialist Palliative Care teams 
-
-# The Role of Communication in Palliative Care
-
-## Benefits 
-
-> Interventions that focus on communication about palliative and end-oflife care, using palliative care specialists, have demonstrated improved quality of life, decreased symptoms of depression, and reduced intensity of care at the end of life. [@CurtisEtAl2013]
 
 ## Early Palliative Care for Patients with Metastatic NSCLC 
 [@TemelEtAl2010]
@@ -37,23 +23,6 @@ bibliography: Kommunikation.bib
 - Early palliative care + standard oncologic care vs. standard oncologic care 
 - Board-certified palliative care physicians and advanced-practice nurses 
 
-## Specific attention was paid to 
-
-::: {.fragment}
-- psychosocial symptoms
-- establishing goals of care 
-- assisting with decision making regarding treatment
-:::
-
-::: {.fragment .fade-in-then-semi-out}
-- coordinating care on the basis of the individual needs of the patient
-- physical symptoms
-:::
-
-
-
-::: {.fragment .fade-in-then-out}
-:::
 
 ## Quality of life
 
@@ -78,14 +47,29 @@ Functional Well-Being (FWB)
 
 ::: 
 
-## Eastern Cooperative Oncology Group (ECOG) Study 5592 
+## ECOG Trial 
 
-599 patients with NSCLC were randomly assigned to receive
+599 patients with NSCLC were randomly assigned to receive ^[Comparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin  [@BonomiEtAl2000] ]
 
 - cisplatin plus etoposide 100 
 - cisplatin plus standard dose paclitaxel  
 - cisplatin plus higher dose paclitaxel with (g-csf) 
 
+::: notes
+g-csf: filgrastim 
+:::
+
+## The objective response rate ^[Comparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin  [@BonomiEtAl2000] ]
+
+(complete + partial remissions)
+
+- Cis/Eto **12.4%**
+- Cis/Pacli **25.3%**
+- Cis/Pacli (high dose) **27.7%**
+
+::: notes
+Response rates for the two dose levels of paclitaxel were not significantly different (P = .264).
+:::
 
 ## Reported Toxicity in 5592 
 
@@ -113,12 +97,83 @@ The PHQ-9 (Patient Health Questionnaire 9) is a nine-item measure that evaluates
 
 ![Early integration of palliative care prolonged  survival by approximately 2 months [@TemelEtAl2010] ](Bilder/Survival-NEJM.png)
 
-## Survival
-
-![Association of Survival With Receipt of Palliative Care [@SullivanEtAl2019] ](Bilder/Survival-JAMA.png)
+## Survival  
 
 
-# Side effects of communication
+![](Bilder/Survival-JAMA.png){.absolute left=100  height="500"}
+
+::: aside
+Association of Early Palliative Care Use With Survival and Place of Death Among Patients With Advanced Lung Cancer [@SullivanEtAl2019]
+:::
+
+::: notes
+A retrospective cohort study was conducted among 23 154 patients with advanced lung cancer (stage IIIB and stage IV)
+:::
+
+
+## The Role of Communication in Palliative Care
+
+
+## In the study by Temel et.al. 
+Specific attention was paid to 
+
+::: {.fragment}
+- psychosocial symptoms
+- establishing goals of care 
+- assisting with decision making regarding treatment
+:::
+
+::: {.fragment .fade-in-then-semi-out}
+- coordinating care on the basis of the individual needs of the patient
+- physical symptoms
+:::
+
+
+
+::: {.fragment .fade-in-then-out}
+:::
+
+## Early Palliative Care in Advanced Lung Cancer: A Qualitative Study
+
+"PC clinicians focused on establishing relationships with patients and determining their individual needs and preferences for information early in the illness."[@YoongEtAl2013]
+
+
+
+## 
+
+- relationship and rapport building
+- addressing symptoms 
+- addressing coping
+- establishing illness understanding
+- discussing cancer treatments
+- end-of-life (EOL) planning
+- engaging family members 
+
+
+::: aside
+Early Palliative Care in Advanced Lung Cancer: A Qualitative Study [@YoongEtAl2013]
+:::
+
+## Benefits 
+
+
+"Interventions that focus on communication about palliative and end-of-life care, using palliative care specialists, have demonstrated improved quality of life, decreased symptoms of depression, and reduced intensity of care at the end of life." [@CurtisEtAl2013]
+
+
+## Intervention 
+
+[@CurtisEtAl2013] conducted a study involving an intervention based on a residential workshop designed to enhance communication skills for oncology fellows. The intervention consisted of **eight 4-hour sessions** led by a physician and a nurse .
+
+
+## Side effects
+
+- A significant increase in depressive symptoms, with an increase of **2.2 PHQ-8 points.** 
+
+- Depression scores for patients of the most senior trainees were **significantly lower** than those for patients of first-year residents.
+
+::: notes
+One of the questionnaires most commonly used for the screening and severity assessment of depression in clinical settings and epidemiological studies is the PHQ (Patient health questionnaire). This is a self-reported measure of depressive symptoms composed of 9 Likert-type items each of them corresponding to one of the 9 criteria for major depressive disorder of the 4th edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV) [@TorreEtAl2023]
+:::
 
 ::: notes
 Simulation to learn skills for communicating bad news to patients with cancer forms the basis of a 4-day workshop for medical oncology fellows.
@@ -130,20 +185,22 @@ A systematic review of communication skills interventions noted the effectivenes
 We conducted a randomized trial to examine whether a communication skills–building workshop aimed at internal medicine and nurse practitioner trainees, using simulation during which trainees practiced skills associated with palliative and end-of-life care communication, had any effect on patient-, family-, and clinician-reported outcomes.
 :::
 
-## Depressive Symptoms [@CurtisEtAl2013]
 
-- A significant increase in depressive symptoms, with an increase of **2.2 PHQ-8 points.** 
+## Focus: Generalist palliative care
 
-- Depression scores for patients of the most senior trainees were **significantly lower** than those for patients of first-year residents.
+- No standardly accepted definition 
+- Treatment is provided by staff whose main field of work is not in palliative care
+- The patient situation is less complex 
+- Structural requirements are not compulsory 
 
-::: notes
-One of the questionnaires most commonly used for the screening and severity assessment of depression in clinical settings and epidemiological studies is the PHQ (Patient health questionnaire). This is a self-reported measure of depressive symptoms composed of 9 Likert-type items each of them corresponding to one of the 9 criteria for major depressive disorder of the 4th edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV) [@TorreEtAl2023]
+::: aside
+S3-Guideline: Palliative care for patients with incurable cancer [@GermanCancerSociety2015] 
 :::
 
-## Multiprofessional Team 
+## Specialist palliative care
 
 A specialist palliative care core team ***must*** comprise members
-from at least three professional groups ^[S3-Guideline: Palliative care for patients with incurable cancer [@GermanCancerSociety2015]]
+from at least three professional groups 
 
 - physician 
 - nursing profession 
@@ -151,30 +208,109 @@ from at least three professional groups ^[S3-Guideline: Palliative care for pati
 
 Of these at least the physician and nurse must possess a specialist palliative care qualification. 
 
- 
-
-# Who bennefits from specialist palliative care
-
-# Elements of communication in Palliative Care
+::: aside
+S3-Guideline: Palliative care for patients with incurable cancer [@GermanCancerSociety2015]
+:::
 
 
+## Who bennefits from specialist palliative care?
 
-## development of clear treatment goals
+- Complex symptoms or distress due to problems 
+- Uncertainty in setting treatment goals 
+- Complex medical or nursing care 
+- Home care is overstrained or uncertain
 
-## 
+::: aside
+S3-Guideline: Palliative care for patients with incurable cancer [@GermanCancerSociety2015]
+:::
+
+##
+
+![](Bilder/CanadiansTalkTo.png)
+
+::: aside
+Canadians and Advance Care Planning A Snapshot of Current Trends [@TheAdvanceCarePlanninginCanadainitiative2021]
+:::
+
+::: notes
+A bi-annual Nanos survey of 3,002 Canadians 18 years and older, commissioned by the Canadian Hospice Palliative Care Association (CHPCA), says they have. It also says there’s still work to do. (Results from 2021)
+::: 
+
+## Bereavement
+
+losing a loved one to death (or dying) is an inherent part of human life and  only about 7% of bereaved older adults will develop complicated grief. [@ShearEtAl2013]
+
+##
+
+![](Bilder/Triste.jpg){.absolute Top=150  left=200  height="500"}
+
+## Elements of communication in Palliative Care
+
+- Clarification of treatment goals
+- Breaking bad news 
+- Communicating Prognosis
+- Advanced care planning (talking about dying)
+- Referral to a palliative care unit
+
+::: aside 
+Adapted from: Communication in Palliative Care and About End of Life: A State-of-the-Art Literature Review of Conversation-Analytic Research in Healthcare [@Parry2024]
+::: 
+
+## Clarification
+
+- 58.2 % of the patients had an inaccurate perception of treatment intent ^[@SoyluEtAl2016]
+
+- 20% considered their illness to be non-life threatening ^[@CraftEtAl2005]
+
+- Of Patients that recieved palliative chemotherapy or radiation 16.7% reported the purpose of treatment to be curative ^[@GeorgeEtAl2020]
+
 
 
 # Communicacion done wrong 
 
 [Example](https://www.youtube.com/watch?v=bVclPy3gNfg){preview-link="false"}
 
-#
+## SPIKES 
+
+::: {.fragment .fade-in-then-semi-out}
+S: setting
+::: 
+
+::: {.fragment}
+P: perception
+
+I: invitation
+
+K: knowledge
+::: 
+
+::: {.fragment .fade-in-then-semi-out}
+E: empathy
+
+S: strategy
+::: 
+
+::: {.fragment}
+:::
+
+::: aside
+SPIKES-A six-step protocol for delivering bad news: application to the patient with cancer [@BaileEtAl2000]
+:::
+
+##
 
 ![](Bilder/matador.jpeg)
 
-#
+
+##
+
+![](Bilder/pen.jpeg)
+
+
+##
 
 ![](Bilder/recortador.gif)
+
 
 
 # Communicacion done right 
