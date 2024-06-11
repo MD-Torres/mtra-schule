@@ -317,7 +317,13 @@ SPIKES-A six-step protocol for delivering bad news: application to the patient w
 
 [Example](https://youtu.be/ZQht2yOX9Js?feature=shared&t=117){preview-link="false"}
 
+## Prognosis
 
+- Only 25% of the physicians’ predictions of survival were accurate within 1 month. Two-thirds was overestimated, particularly for those patients who had shorter survival. ^[@ViganoEtAl1999]
+
+- Prognostic error is widespread, only around 20% of estimates are accurate  ^[@HigginsonCostantini2002]
+
+- Only 20% of predictions were accurate within 33% of actual survival ^[@ChristakisLamont2000]
 
 
 
