@@ -266,17 +266,6 @@ Associations Between End-of-Life Discussions, Patient Mental Health, Medical Car
 Associations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment [@WrightEtAl2008]
 :::
 
-## Less aggressive treatment 
-Patients are less likely to receive
-
-- mechanical ventilation
-- undergo resuscitation 
-- addmited to the intensive care unit 
-
-::: aside
-Associations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment [@WrightEtAl2008]
-:::
-
 # Side effects
 
 ## Intervention 
