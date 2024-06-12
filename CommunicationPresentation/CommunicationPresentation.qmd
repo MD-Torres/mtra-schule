@@ -270,7 +270,20 @@ Associations Between End-of-Life Discussions, Patient Mental Health, Medical Car
 
 ## Intervention 
 
-[@CurtisEtAl2013] conducted a study involving an intervention based on a residential workshop designed to enhance communication skills for oncology fellows. The intervention consisted of **eight 4-hour sessions** led by a physician and a nurse .
+[@CurtisEtAl2013] conducted a study involving an intervention based on a residential workshop designed to enhance communication skills for **oncology fellows.** The intervention consisted of **eight 4-hour sessions** led by a physician and a nurse.
+
+## Effects on practical abilities 
+
+- significant improvement in participants’ ability to deliver bad news 
+- better response to emotion 
+- able to discuss transitions to palliative care significantly better
+
+## Does it translate to actual patient care? 
+
+::: {.fragment}
+This was a negative study (no significant change) on the effect on patient-, family-, and clinician-reported outcomes
+:::
+
 
 
 ## Side effects
@@ -434,7 +447,7 @@ S: strategy
 SPIKES-A six-step protocol for delivering bad news: application to the patient with cancer [@BaileEtAl2000]
 :::
 
-## How am **I** going to tell **him**? 
+## How am I going to tell him? 
 
 ![](Bilder/matador.jpeg){.absolute top=100  left=200  height="500"}
 
@@ -442,11 +455,6 @@ SPIKES-A six-step protocol for delivering bad news: application to the patient w
 ##
 
 ![](Bilder/pen.jpeg){.absolute top=200  left=50  height="300"}
-
-
-## He knows 
-
-![](Bilder/recortador.gif)
 
 ## P: perception
 
@@ -458,6 +466,13 @@ Implement the axiom: “before you tell, ask.”
 ::: aside
 SPIKES-A six-step protocol for delivering bad news: application to the patient with cancer [@BaileEtAl2000]
 :::
+
+
+
+## He already knows 
+
+![](Bilder/recortador.gif)
+
 
 ## Communication is setting and team work
 
