@@ -307,6 +307,11 @@ We conducted a randomized trial to examine whether a communication skills–buil
 - at least one adverse event (52.6%)
 :::
 
+::: aside
+It can’t hurt, right? Adverse effects of psychotherapy in patients with depression [@MoritzEtAl2019]
+
+:::
+
 
 ::: notes 
 individuals with depression who had completed at least one course of face-to-face psychotherapy.
@@ -353,6 +358,20 @@ S3-Guideline: Palliative care for patients with incurable cancer [@GermanCancerS
 
 losing a loved one to death (or dying) is an inherent part of human life and  only about 7% of bereaved older adults will develop complicated grief. [@ShearEtAl2013]
 
+## Interventions 
+
+- Universal
+- Selective
+- Indicated
+
+
+::: aside
+The effectiveness of psychotherapeutic interventions for bereaved persons: A comprehensive quantitative review. [@CurrierEtAl2008]
+:::
+
+::: notes 
+Interventions targeting universal populations and higher-risk grievers failed to produce good outcomes. Conversely, the effect sizes of the indicated interventions compared favorably with the successes shown for psychotherapy in general.
+:::
 
 ## Possible indications in Germany
 
