@@ -185,6 +185,21 @@ A systematic review of communication skills interventions noted the effectivenes
 We conducted a randomized trial to examine whether a communication skills–building workshop aimed at internal medicine and nurse practitioner trainees, using simulation during which trainees practiced skills associated with palliative and end-of-life care communication, had any effect on patient-, family-, and clinician-reported outcomes.
 :::
 
+## Comparisson with psychotherapy
+
+::: {.fragment}
+- positive effects 95.6% 
+- at least one adverse event (52.6%)
+:::
+
+
+::: notes 
+individuals with depression who had completed at least one course of face-to-face psychotherapy.
+While positive effects were reported by virtually all patients (95.6%), approximately half of them (52.6%) also reported experiencing at least one adverse event.[@MoritzEtAl2019] 
+
+:::
+
+
 
 ## Focus: Generalist palliative care
 
