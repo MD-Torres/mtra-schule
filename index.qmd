@@ -28,7 +28,7 @@ Viel Erfolg beim Lernen!
 ::: {.features}
 
 ::: {.feature}
-### Mammakarzinom
+# Mammakarzinom
 Du wirst das Krankheitsbild des Mammakarzinoms in seiner typischen Form, einschließlich der Entstehung, Diagnose und Behandlung, verständlich erklären können.
 
 ::: {.learn-more}
@@ -38,7 +38,7 @@ Du wirst das Krankheitsbild des Mammakarzinoms in seiner typischen Form, einschl
 :::
 
 ::: {.feature}
-### Gutartiger Erkrankungen 
+# Gutartiger Erkrankungen 
 Du wirst verstehen, wie niedrig dosierte Strahlentherapie Schmerzen lindert. Du wirst lernen, wie die entzündungshemmende Wirkung funktioniert. Du wirst die verschiedenen Krankheitsbilder von Gelenk- und Weichteilerkrankungen kennenlernen.
 
 ::: {.learn-more}
@@ -51,7 +51,10 @@ Du wirst verstehen, wie niedrig dosierte Strahlentherapie Schmerzen lindert. Du 
 <!-- ### Enfermedades Benignas  -->
 <!-- Comprenderás cómo la radioterapia de baja dosis alivia el dolor. Aprenderás cómo funciona el efecto antiinflamatorio. Conocerás los diferentes cuadros clínicos de las enfermedades articulares y de los tejidos blandos. Podras explicar el tratamiento de estas enfermedades en cuanto a la dosis y el número de fracciones.  -->
 
+# Communication
+
 [Presentation](CommunicationPresentation/CommunicationPresentation.qmd){target="_blank"}
+
 
 
 <!-- ::: {.learn-more} -->

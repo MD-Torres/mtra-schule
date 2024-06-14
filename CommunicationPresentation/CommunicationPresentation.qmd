@@ -61,13 +61,17 @@ Functional Well-Being (FWB)
 g-csf: filgrastim 
 :::
 
-## The objective response rate ^[Comparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin  [@BonomiEtAl2000] ]
+## The objective response rate 
 
 (complete + partial remissions)
 
 - Cis/Eto **12.4%**
 - Cis/Pacli **25.3%**
 - Cis/Pacli (high dose) **27.7%**
+
+::: aside
+Comparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin  [@BonomiEtAl2000]
+:::
 
 ::: notes
 Response rates for the two dose levels of paclitaxel were not significantly different (P = .264).
@@ -93,6 +97,11 @@ Depressive symptoms were assessed with the use of the Hospital Anxiety and Depre
 The PHQ-9 (Patient Health Questionnaire 9) is a nine-item measure that evaluates symptoms of major depressive disorder according to the criteria of the fourth edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV).
 
 :::
+
+## This benefits are known
+
+"Interventions that focus on communication about palliative and end-of-life care, using palliative care specialists, have demonstrated improved **quality of life**, decreased symptoms of **depression**, and **reduced intensity of care** at the end of life." [@CurtisEtAl2013]
+
 
 ## Survival 
 
@@ -137,11 +146,11 @@ Specific attention was paid to
 
 ## Early Palliative Care in Advanced Lung Cancer: A Qualitative Study
 
-"PC clinicians focused on establishing relationships with patients and determining their individual needs and preferences for information early in the illness."[@YoongEtAl2013]
+"PC clinicians focused on **establishing relationships** with patients and determining their **individual needs and preferences for information** early in the illness."[@YoongEtAl2013]
 
 
 
-## 
+## Key components
 
 - relationship and rapport building
 - addressing symptoms 
@@ -157,9 +166,9 @@ Early Palliative Care in Advanced Lung Cancer: A Qualitative Study [@YoongEtAl20
 :::
 
 
-# Elements of communication in Palliative Care
 
-##
+
+## Elements of communication in Palliative Care
 
 ::: {.fragment}
 Clarification of treatment goals
@@ -182,25 +191,11 @@ Referral to a palliative care unit
 Adapted from: Communication in Palliative Care and About End of Life: A State-of-the-Art Literature Review of Conversation-Analytic Research in Healthcare [@Parry2024]
 ::: 
 
-# Why do patients benefit? 
+## Treatment goals are often unclear 
 
-## Benefits are known
+- **58.2%** of the patients had an inaccurate perception of treatment intent [@SoyluEtAl2016]  
 
-"Interventions that focus on communication about palliative and end-of-life care, using palliative care specialists, have demonstrated improved quality of life, decreased symptoms of depression, and reduced intensity of care at the end of life." [@CurtisEtAl2013]
-
-
-## Cancer directed treatment 
-
-![](Bilder/camino.jpeg){.absolute Top=150  left=200  height="500"}
-
-
-## Clarification of treatment goals
-
-- 58.2 % of the patients had an inaccurate perception of treatment intent ^[@SoyluEtAl2016]
-
-- 20% considered their illness to be non-life threatening ^[@CraftEtAl2005]
-
-- 16.7% Of Patients that recieved palliative chemotherapy or radiation reported the purpose of treatment to be curative ^[@GeorgeEtAl2020]
+- **69–81%** of palliative patients belive in the curative intention of their treatment [@MinichsdorferEtAl2021]
 
 
 ::: notes
@@ -211,6 +206,15 @@ Eligibility criteria included patients over age 18 who had a diagnosis of incura
 Patients had a locally advanced and/ or metastatic gastrointestinal, lung, or gynecologic cancer; and had disease progression after one or more chemotherapy regimens. [@GeorgeEtAl2020]
 
 :::
+
+# Why do patients benefit from clarification? 
+
+
+## Cancer directed treatment 
+
+![](Bilder/camino.jpeg){.absolute Top=150  left=200  height="500"}
+
+
 
 ## Hollistic view 
 
@@ -224,11 +228,11 @@ Patients had a locally advanced and/ or metastatic gastrointestinal, lung, or gy
 - finding meaning in the dying experience
 
 ::: aside
-End-of-Life ConversationsEvolving Practice and Theory [@LarsonTobin2000]
+End-of-Life Conversations Evolving Practice and Theory [@LarsonTobin2000]
 :::
 
 
-## Quality of Life
+## Benefits for patients
 
 - Patients who received aggressive medical interventions had worse QoL in the final week of life
 
@@ -238,7 +242,7 @@ End-of-Life ConversationsEvolving Practice and Theory [@LarsonTobin2000]
 Associations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment [@WrightEtAl2008]
 :::
 
-## Caregivers
+## Benefits for caregivers
 Caregivers of patients who received any aggressive care were at higher risk for
 developing:
 
@@ -262,22 +266,24 @@ Associations Between End-of-Life Discussions, Patient Mental Health, Medical Car
 Associations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment [@WrightEtAl2008]
 :::
 
-## Less aggressive treatment 
-Patients are less likely to receive
-
-- mechanical ventilation
-- undergo resuscitation 
-- addmited to the intensive care unit 
-
-::: aside
-Associations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment [@WrightEtAl2008]
-:::
-
 # Side effects
 
 ## Intervention 
 
-[@CurtisEtAl2013] conducted a study involving an intervention based on a residential workshop designed to enhance communication skills for oncology fellows. The intervention consisted of **eight 4-hour sessions** led by a physician and a nurse .
+[@CurtisEtAl2013] conducted a study involving an intervention based on a residential workshop designed to enhance communication skills for **oncology fellows.** The intervention consisted of **eight 4-hour sessions** led by a physician and a nurse.
+
+## Effects on practical abilities 
+
+- significant improvement in participants’ ability to deliver bad news 
+- better response to emotion 
+- able to discuss transitions to palliative care significantly better
+
+## Does it translate to actual patient care? 
+
+::: {.fragment}
+This was a negative study (no significant change) on the effect on patient-, family-, and clinician-reported outcomes
+:::
+
 
 
 ## Side effects
@@ -360,10 +366,17 @@ losing a loved one to death (or dying) is an inherent part of human life and  on
 
 ## Interventions 
 
-- Universal
-- Selective
-- Indicated
+::: {.fragment .fade-in-then-semi-out}
+Universal
+:::
 
+::: {.fragment .fade-in-then-semi-out}
+Selective
+:::
+
+::: {.fragment}
+Indicated
+:::
 
 ::: aside
 The effectiveness of psychotherapeutic interventions for bereaved persons: A comprehensive quantitative review. [@CurrierEtAl2008]
@@ -434,7 +447,7 @@ S: strategy
 SPIKES-A six-step protocol for delivering bad news: application to the patient with cancer [@BaileEtAl2000]
 :::
 
-## How am **I** going to tell **him**? 
+## How am I going to tell him? 
 
 ![](Bilder/matador.jpeg){.absolute top=100  left=200  height="500"}
 
@@ -442,11 +455,6 @@ SPIKES-A six-step protocol for delivering bad news: application to the patient w
 ##
 
 ![](Bilder/pen.jpeg){.absolute top=200  left=50  height="300"}
-
-
-## He knows 
-
-![](Bilder/recortador.gif)
 
 ## P: perception
 
@@ -458,6 +466,13 @@ Implement the axiom: “before you tell, ask.”
 ::: aside
 SPIKES-A six-step protocol for delivering bad news: application to the patient with cancer [@BaileEtAl2000]
 :::
+
+
+
+## He already knows 
+
+![](Bilder/recortador.gif)
+
 
 ## Communication is setting and team work
 
