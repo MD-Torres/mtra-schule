@@ -47,9 +47,6 @@ Du wirst verstehen, wie niedrig dosierte Strahlentherapie Schmerzen lindert. Du 
 
 :::
 
-<!-- ::: {.feature} -->
-<!-- ### Enfermedades Benignas  -->
-<!-- Comprenderás cómo la radioterapia de baja dosis alivia el dolor. Aprenderás cómo funciona el efecto antiinflamatorio. Conocerás los diferentes cuadros clínicos de las enfermedades articulares y de los tejidos blandos. Podras explicar el tratamiento de estas enfermedades en cuanto a la dosis y el número de fracciones.  -->
 
 # Communicación
 
