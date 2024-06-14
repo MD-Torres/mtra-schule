@@ -54,7 +54,7 @@ Functional Well-Being (FWB)
 
 599 patients with NSCLC were randomly assigned to receive ^[Comparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin  [@BonomiEtAl2000] ]
 
-- cisplatin plus etoposide 100 
+- cisplatin plus etoposide  
 - cisplatin plus standard dose paclitaxel  
 - cisplatin plus higher dose paclitaxel with (g-csf) 
 

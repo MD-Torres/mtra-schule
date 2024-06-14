@@ -16,9 +16,34 @@ bibliography: Kommunikation.bib
 
 
 ## Beneficios 
-Cuidados paliativos tempranos para pacientes con CPNM metastásico [@TemelEtAl2010]
-- Pacientes ambulatorios con CPNM metastásico recién diagnosticado 
-- Cuidados paliativos tempranos + atención oncológica estándar vs atención oncológica estándar 
+
+Pacientes ambulatorios con NSCLC metastásico recién diagnosticado 
+
+:::{.fragment .fade-in}
+- atención oncológica estándar 
+:::
+
+:::{.fragment .fade-in}
+- Cuidados paliativos tempranos + atención oncológica estándar
+:::
+
+
+
+::: aside
+Early Palliative Care for Patients with Metastatic Non–Small-Cell Lung Cancer [@TemelEtAl2010]
+::: 
+
+## Síntomas de depresión
+
+![ La integración temprana redujo significativamente (casi un 50%) las tasas de depresión [@TemelEtAl2010] ](Bilder/DepressiveSymptoms.png)
+
+::: notes
+
+Depressive symptoms were assessed with the use of the Hospital Anxiety and Depression Scale (HADS), which consists of two subscales, one for symptoms of anxiety (HADS-A) and one for symptoms of depression (HADS-D)
+
+The PHQ-9 (Patient Health Questionnaire 9) is a nine-item measure that evaluates symptoms of major depressive disorder according to the criteria of the fourth edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV).
+
+:::
 
 
 ## Calidad de vida
@@ -44,25 +69,39 @@ Functional Well-Being (FWB)
 
 ::: 
 
-## ECOG Trial 
 
-599 patients with NSCLC were randomly assigned to receive ^[Comparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin  [@BonomiEtAl2000] ]
+## ECOG (E5592) Estudio de fase III 
 
-- cisplatin plus etoposide 100 
-- cisplatin plus standard dose paclitaxel  
-- cisplatin plus higher dose paclitaxel with (g-csf) 
+599 pacientes con NSCLC fueron asignados aleatoriamente para recibir
+
+- cisplatino más etopósido  
+
+- cisplatino más paclitaxel a dosis estándar 
+
+- cisplatino más paclitaxel a dosis más altas con (g-csf) 
+
+::: aside 
+Comparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin  [@BonomiEtAl2000] 
+:::
 
 ::: notes
 g-csf: filgrastim 
 :::
 
-## The objective response rate 
 
-(complete + partial remissions)
+## La tasa de respuesta objetiva 
+(remisiones completas + parciales)
 
-- Cis/Eto **12.4%**
-- Cis/Pacli **25.3%**
-- Cis/Pacli (high dose) **27.7%**
+:::{.fragment .fade-in}
+Cis/Eto **12,4%**
+:::
+
+:::{.fragment .fade-in}
+Cis/Pacli **25,3%**
+
+Cis/Pacli (dosis alta) **27,7%**
+:::
+
 
 ::: aside
 Comparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin  [@BonomiEtAl2000]
@@ -72,7 +111,11 @@ Comparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Can
 Response rates for the two dose levels of paclitaxel were not significantly different (P = .264).
 :::
 
-## Reported Toxicity in 5592 
+## Solo 1/4 de los pacientes 
+
+![](Bilder/QoL.png)
+
+## Toxicidad  
 
 ![Relative toxic effects (CTC), by age reported in the Eastern Cooperative Oncology Group 5592. [@LangerEtAl2002] ](Bilder/ToxicityMales.png)
 
@@ -81,29 +124,18 @@ CTC = common toxicity criteria
 ECOG = Eastern Cooperative Oncology Group
 :::
 
-## Depressive symptoms
 
-![ Early integration led to significantly lower (almost 50%) Rates of depression [@TemelEtAl2010] ](Bilder/DepressiveSymptoms.png)
+## Estos son los beneficios conocidos
 
-::: notes
-
-Depressive symptoms were assessed with the use of the Hospital Anxiety and Depression Scale (HADS), which consists of two subscales, one for symptoms of anxiety (HADS-A) and one for symptoms of depression (HADS-D)
-
-The PHQ-9 (Patient Health Questionnaire 9) is a nine-item measure that evaluates symptoms of major depressive disorder according to the criteria of the fourth edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV).
-
-:::
-
-## This benefits are known
-
-"Interventions that focus on communication about palliative and end-of-life care, using palliative care specialists, have demonstrated improved **quality of life**, decreased symptoms of **depression**, and **reduced intensity of care** at the end of life." [@CurtisEtAl2013]
+"Las intervenciones que se centran en la comunicación sobre cuidados paliativos y al final de la vida, utilizando especialistas en cuidados paliativos, han demostrado una **mejora de la calidad de vida**, una **disminución** de los síntomas de **depresión** ..." [@CurtisEtAl2013]
 
 
-## Survival 
+## Sobrevida 
 
 
-![Early integration of palliative care prolonged  survival by approximately 2 months [@TemelEtAl2010] ](Bilder/Survival-NEJM.png)
+![La integración temprana de los cuidados paliativos prolongó la supervivencia unos 2 meses [@TemelEtAl2010] ](Bilder/Survival-NEJM.png)
 
-## Survival  
+## Sobrevida  
 
 
 ![](Bilder/Survival-JAMA.png){.absolute left=100  height="500"}
@@ -117,43 +149,60 @@ A retrospective cohort study was conducted among 23 154 patients with advanced l
 :::
 
 
-# The Role of Communication 
+## Beneficios en sobrevida 
+
+"Las intervenciones que se centran en la comunicación sobre cuidados paliativos y al final de la vida, utilizando especialistas en cuidados paliativos, han demostrado una mejora de la **calidad de vida**, una disminución de los síntomas de **depresión**...
+
+:::{.fragment .fade-in} 
+y una **reducción de la intensidad del tratamiento** al final de la vida." [@CurtisEtAl2013]
+:::
+
+# Replantear paradigmas
+
+:::{.fragment .fade-in-then-out} 
+Ya no podemos hacer nada
+:::
+
+:::{.fragment .fade-in} 
+Vamos a enfocar todos los tratamientos disponibles en mejorar la calidad de vida.  
+:::
 
 
-## In the study by Temel et.al. 
-Specific attention was paid to 
+# El papel de la comunicación 
+
+## En el estudio de Temel et.al. 
+se prestó especial atención a: 
 
 ::: {.fragment}
-- psychosocial symptoms
-- establishing goals of care 
-- assisting with decision making regarding treatment
+- los síntomas psicosociales
+- el establecimiento de los objetivos de los cuidados
+- la ayuda en la toma de decisiones sobre el tratamiento
 :::
 
 ::: {.fragment .fade-in-then-semi-out}
-- coordinating care on the basis of the individual needs of the patient
-- physical symptoms
+- coordinar los cuidados en función de las necesidades individuales del paciente
+- síntomas físicos
 :::
-
-
 
 ::: {.fragment .fade-in-then-out}
 :::
 
-## Early Palliative Care in Advanced Lung Cancer: A Qualitative Study
 
-"PC clinicians focused on **establishing relationships** with patients and determining their **individual needs and preferences for information** early in the illness."[@YoongEtAl2013]
+## Publicación secundaria 
+**Un estudio cualitativo** 
+
+"Los médicos de cuidados paliativos se centraron en **establecer relaciones** con los pacientes y determinar sus **necesidades y preferencias individuales de información** en una fase temprana de la enfermedad."[@YoongEtAl2013]
 
 
+## Componentes clave
+- establecimiento de relaciones y compenetración
+- abordar los síntomas
+- abordar el afrontamiento
+- establecer la comprensión de la enfermedad
+- hablar de los tratamientos contra el cáncer
+- planificación del final de la vida
+- implicar a los familiares 
 
-## Key components
-
-- relationship and rapport building
-- addressing symptoms 
-- addressing coping
-- establishing illness understanding
-- discussing cancer treatments
-- end-of-life (EOL) planning
-- engaging family members 
 
 
 ::: aside
@@ -161,22 +210,22 @@ Early Palliative Care in Advanced Lung Cancer: A Qualitative Study [@YoongEtAl20
 :::
 
 
-
-
-## Elements of communication in Palliative Care
+## Elementos de comunicación en CP
 
 ::: {.fragment}
-Clarification of treatment goals
+Clarificación de los objetivos del tratamiento
 :::
 
 ::: {.fragment .fade-in-then-semi-out}
-Breaking bad news 
+Dar malas noticias 
 
-Communicating Prognosis
+Comunicar el pronóstico
 
-Advanced care planning (talking about dying)
+Planificación de cuidados avanzados
 
-Referral to a palliative care unit
+Hablar de la muerte
+
+Translado a una unidad de cuidados paliativos
 :::
 
 ::: {.fragment .fade-out}
@@ -186,12 +235,14 @@ Referral to a palliative care unit
 Adapted from: Communication in Palliative Care and About End of Life: A State-of-the-Art Literature Review of Conversation-Analytic Research in Healthcare [@Parry2024]
 ::: 
 
-## Treatment goals are often unclear 
+## Los objetivos del tratamiento suelen ser poco claros
 
-- **58.2%** of the patients had an inaccurate perception of treatment intent [@SoyluEtAl2016]  
+:::{.fragment}
 
-- **69–81%** of palliative patients belive in the curative intention of their treatment [@MinichsdorferEtAl2021]
+- **58.2%** de los pacientes tienen una percepción inexacta de la intención del tratamiento [@SoyluEtAl2016]  
+- **69-81%** de los pacientes paliativos creen en la intención curativa de su tratamiento [@MinichsdorferEtAl2021]
 
+:::
 
 ::: notes
 The patients were said to have advanced breast cancer, when the cancer had progressed and metastasized to other parts of the body with a diagnosis of stage IV. [@SoyluEtAl2016]
@@ -202,90 +253,86 @@ Patients had a locally advanced and/ or metastatic gastrointestinal, lung, or gy
 
 :::
 
-# Why do patients benefit from clarification? 
+# ¿Por qué se benefician los pacientes de la clarificación?
 
-
-## Cancer directed treatment 
+## Tratamiento dirigido contra el cáncer 
 
 ![](Bilder/camino.jpeg){.absolute Top=150  left=200  height="500"}
 
 
 
-## Hollistic view 
+## Visión holística 
 
 ![](Bilder/laberinto.jpeg)
 
 
-## lifelong human development 
+## Desarrollo humano a lo largo de la vida 
 
-- reconnecting with one’s family 
-- making funeral and/or burial plans
-- finding meaning in the dying experience
+- reconectar con la familia 
+- hacer planes para el funeral y/o el entierro
+- encontrar sentido a la experiencia de morir
 
 ::: aside
 End-of-Life Conversations Evolving Practice and Theory [@LarsonTobin2000]
 :::
 
 
-## Benefits for patients
+## Beneficios para los pacientes
 
-- Patients who received aggressive medical interventions had worse QoL in the final week of life
+- Los pacientes que recibieron **intervenciones médicas agresivas** tuvieron **peor calidad de vida** en la última semana de vida
 
-- The inverse was true for hospice care, where patients’ QoL improved the longer they were enrolled
-
-::: aside
-Associations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment [@WrightEtAl2008]
-:::
-
-## Benefits for caregivers
-Caregivers of patients who received any aggressive care were at higher risk for
-developing:
-
-- Major Depressive Disorder
-- experiencing regret
-- feeling unprepared for the patient’s death
+- Lo contrario ocurrió con los cuidados paliativos (hospicio), en los que **la calidad de vida de los pacientes mejoró** cuanto más tiempo estuvieron ingresados.
 
 ::: aside
 Associations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment [@WrightEtAl2008]
 :::
 
-## Relationship between patients’ QoL near death and their caregivers’ QoL
+## Beneficios para los familiares
+Los familiares de pacientes que recibieron algún tipo de atención agresiva tenían mayor riesgo de desarrollar
 
-- Overall QoL
-- self-reported health
-- physical functioning
-- mental health
-- improvements in self-rated change in health
+- Trastorno depresivo mayor
+- experimentar arrepentimiento
+- sentirse poco preparados para la muerte del paciente
 
 ::: aside
 Associations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment [@WrightEtAl2008]
 :::
 
-# Side effects
 
-## Intervention 
+## Relación entre la calidad de vida de los pacientes y familiares
 
-[@CurtisEtAl2013] conducted a study involving an intervention based on a residential workshop designed to enhance communication skills for **oncology fellows.** The intervention consisted of **eight 4-hour sessions** led by a physician and a nurse.
+- Calidad de vida global
+- salud (autovalorada)
+- funcionamiento físico
+- salud mental
 
-## Effects on practical abilities 
 
-- significant improvement in participants’ ability to deliver bad news 
-- better response to emotion 
-- able to discuss transitions to palliative care significantly better
+::: aside
+Associations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment [@WrightEtAl2008]
+:::
 
-## Does it translate to actual patient care? 
+# Efectos secundarios
+
+## Intervención 
+[@CurtisEtAl2013] realizaron un estudio sobre una intervención basada en un taller presencial diseñado para mejorar las habilidades de comunicación de **residentes de oncología.** La intervención consistió en **ocho sesiones de 4 horas** dirigidas por un médico y una enfermera.
+
+## Efectos sobre las habilidades prácticas 
+- mejora significativa de la capacidad de los participantes para dar malas noticias 
+- mejor respuesta a las emociones 
+- Mejora significativa de la capacidad para hablar de la transición a los cuidados paliativos.
+
+
+
+## ¿Se traduce en atención real al paciente? 
 
 ::: {.fragment}
-This was a negative study (no significant change) on the effect on patient-, family-, and clinician-reported outcomes
+Se trató de un estudio negativo (sin cambios significativos) sobre el efecto en los resultados notificados por pacientes, familiares y médicos.
 :::
 
 
-
-## Side effects
-
-- A significant increase in depressive symptoms, with an increase of **2.2 PHQ-8 points.** 
-
-- Depression scores for patients of the most senior trainees were **significantly lower** than those for patients of first-year residents.
+## Efectos secundarios
+- Un aumento significativo de los síntomas depresivos, con un incremento de **2,2 puntos del PHQ-8.**
+- Las puntuaciones de depresión de los pacientes de los residentes más veteranos fueron **significativamente inferiores** a las de los pacientes de los residentes de primer año.
 
 ::: notes
 One of the questionnaires most commonly used for the screening and severity assessment of depression in clinical settings and epidemiological studies is the PHQ (Patient health questionnaire). This is a self-reported measure of depressive symptoms composed of 9 Likert-type items each of them corresponding to one of the 9 criteria for major depressive disorder of the 4th edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV) [@TorreEtAl2023]
@@ -301,11 +348,14 @@ A systematic review of communication skills interventions noted the effectivenes
 We conducted a randomized trial to examine whether a communication skills–building workshop aimed at internal medicine and nurse practitioner trainees, using simulation during which trainees practiced skills associated with palliative and end-of-life care communication, had any effect on patient-, family-, and clinician-reported outcomes.
 :::
 
-## Comparisson with psychotherapy
+## Comparación con psicoterapia
 
 ::: {.fragment}
-- positive effects 95.6% 
-- at least one adverse event (52.6%)
+efectos positivos 95.6%
+:::
+
+::: {.fragment}
+al menos un efecto secundario (negativo) 52.6%
 :::
 
 ::: aside
@@ -321,56 +371,56 @@ While positive effects were reported by virtually all patients (95.6%), approxim
 :::
 
 
+# En general
 
-# Focus: Generalist palliative care
+"En general, la literatura no respalda la creencia generalizada de que la comunicación sobre los objetivos de los cuidados y las cuestiones relacionadas con el final de la vida aumente la ansiedad, la depresión y/o la desesperanza de los pacientes."[@BernackiBlock2014]
 
-## Definition 
 
-- No standardly accepted definition 
-- Treatment is provided by staff whose main field of work is not in palliative care
-- The patient situation is less complex 
-- Structural requirements are not compulsory 
+# Enfoque: Cuidados paliativos generales
+
+## Definición 
+- No existe una definición uniformemente aceptada 
+- El tratamiento es proporcionado por personal cuyo principal campo de trabajo no son los cuidados paliativos
+- La situación del paciente es menos compleja
+- Los requisitos estructurales no son obligatorios 
 
 ::: aside
 S3-Guideline: Palliative care for patients with incurable cancer [@GermanCancerSociety2015] 
 :::
 
-# As opposed to: Specialist palliative care
+# En contraposición: Cuidados paliativos especializados
 
-## Multiprofessional team 
+## Equipo multiprofesional
+Un equipo especializado en cuidados paliativos ***debe*** estar formado por miembros de al menos tres grupos profesionales 
 
-A specialist palliative care core team ***must*** comprise members
-from at least three professional groups 
+- médicos 
+- enfermeras
+- otro grupo profesional 
 
-- physician 
-- nursing profession 
-- other professional group 
-
-Of these at least the physician and nurse must possess a specialist palliative care qualification. 
+De ellos, al menos el médico y la enfermera deben estar certificados en cuidados paliativos. 
 
 ::: aside
 S3-Guideline: Palliative care for patients with incurable cancer [@GermanCancerSociety2015]
 :::
 
 
-# Who bennefits from specialist palliative care?
+# ¿Quién se beneficia de los cuidados paliativos especializados?
 
-## Bereavement (as an example)
+## El duelo (como ejemplo)
+perder a un ser querido por la muerte (o morir) es una parte inherente de la vida humana y sólo **alrededor del 7%** de los adultos mayores en duelo desarrollarán un duelo complicado. [@ShearEtAl2013]
 
-losing a loved one to death (or dying) is an inherent part of human life and  only about 7% of bereaved older adults will develop complicated grief. [@ShearEtAl2013]
-
-## Interventions 
+## Intervenciones 
 
 ::: {.fragment .fade-in-then-semi-out}
-Universal
+Universales
 :::
 
 ::: {.fragment .fade-in-then-semi-out}
-Selective
+Seleccionadas
 :::
 
 ::: {.fragment}
-Indicated
+Indicadas
 :::
 
 ::: aside
@@ -381,39 +431,31 @@ The effectiveness of psychotherapeutic interventions for bereaved persons: A com
 Interventions targeting universal populations and higher-risk grievers failed to produce good outcomes. Conversely, the effect sizes of the indicated interventions compared favorably with the successes shown for psychotherapy in general.
 :::
 
-## Possible indications in Germany
+## Posibles indicaciones en Alemania
 
-- Complex symptoms or distress due to problems 
-- Uncertainty in setting treatment goals 
-- Complex medical or nursing care 
-- Home care is overstrained or uncertain
+- Síntomas complejos o angustia/ansiedad debida a problemas del final de la vida
+- Incertidumbre a la hora de establecer los objetivos del tratamiento 
+- Cuidados médicos o de enfermería complejos 
+- Atención domiciliaria insuficiente o incierta
 
 ::: aside
 S3-Guideline: Palliative care for patients with incurable cancer [@GermanCancerSociety2015]
 :::
 
-## Does everybody need to talk about it? 
+## Se necesita siempre una conversación?
 
-![Canadians and Advance Care Planning A Snapshot of Current Trends [@TheAdvanceCarePlanninginCanadainitiative2021]](Bilder/CanadiansTalkTo.png)
-
-::: aside
-
-:::
+![Los canadienses y la planificación anticipada de la atención médica. Tendencias actuales [@TheAdvanceCarePlanninginCanadainitiative2021]](Bilder/CanadiansTalkTo.png)
 
 ::: notes
 A bi-annual Nanos survey of 3,002 Canadians 18 years and older, commissioned by the Canadian Hospice Palliative Care Association (CHPCA), says they have. It also says there’s still work to do. (Results from 2021)
 ::: 
 
 
-##
+## recursos psicológicos familiares
 
 ![](Bilder/Triste.jpg){.absolute Top=150  left=200  height="500"}
 
-# General guidelines 
-
-## Communicacion done wrong 
-
-[Example](https://www.youtube.com/watch?v=bVclPy3gNfg){preview-link="false"}
+# Consejos generales
 
 ## SPIKES 
 
@@ -442,7 +484,7 @@ S: strategy
 SPIKES-A six-step protocol for delivering bad news: application to the patient with cancer [@BaileEtAl2000]
 :::
 
-## How am I going to tell him? 
+## ¿Cómo se lo voy a decir?
 
 ![](Bilder/matador.jpeg){.absolute top=100  left=200  height="500"}
 
@@ -454,7 +496,7 @@ SPIKES-A six-step protocol for delivering bad news: application to the patient w
 ## P: perception
 
 ::: {.fragment}
-Implement the axiom: “before you tell, ask.”
+Pon en práctica el axioma: "antes de decirlo, pregúntalo".
 :::
 
 
@@ -464,50 +506,59 @@ SPIKES-A six-step protocol for delivering bad news: application to the patient w
 
 
 
-## He already knows 
+## El paciente ya sabe
 
 ![](Bilder/recortador.gif)
 
 
-## Communication is setting and team work
+## La comunicación es el marco y el trabajo en equipo
 
 ![](Bilder/BadNewsBad.jpeg){.absolute top=200  left=200 height="400"}
 
-## Always together, alway sitting 
+## Siempre juntos, siempre sentados 
 
 ![](Bilder/BadNewsGood.jpeg){.absolute top=200  left=200 height="400"}
 
-## Prognosis
+## Pronóstico
 
-- Only 25% of the physicians’ predictions of survival were accurate within 1 month. Two-thirds was overestimated, particularly for those patients who had shorter survival. ^[@ViganoEtAl1999]
+- Sólo el 25% de los pronósticos fueron exactos (con 1 mes de margen). Dos tercios estaban sobreestimados, sobre todo en los pacientes con menor supervivencia. ^[@ViganoEtAl1999]
 
-- Prognostic error is widespread, only around 20% of estimates are accurate  ^[@HigginsonCostantini2002]
+- El error de pronóstico está ampliamente propagado, sólo alrededor del 20% de las estimaciones son precisas ^[@HigginsonCostantini2002]
 
-- Only 20% of predictions were accurate within 33% of actual survival ^[@ChristakisLamont2000]
+- Sólo el 20% de las predicciones fueron precisas dentro del 33% de la supervivencia real ^[@ChristakisLamont2000]
 
-## Prevention 
+## Prevenir 
 
 
-# Communicacion done right 
+## ¿Cómo funciona la comunicación? 
+
+# Ejemplos
+
+## Comunicación mal hecha
+
+[Example](https://www.youtube.com/watch?v=bVclPy3gNfg){preview-link="false"}
+
+
+## La buena comunicación
 
 [Example](https://youtu.be/ZQht2yOX9Js?feature=shared&t=117){preview-link="false"}
 
-# In summary
+# En resumen
 
 ::: {.fragment}
-Who
+Quien? 
 :::
 
 ::: {.fragment}
-What
+Que? 
 :::
 
 ::: {.fragment}
-When 
+Cuando?  
 :::
 
 ::: {.fragment}
-How
+Como? 
 :::
 
 
