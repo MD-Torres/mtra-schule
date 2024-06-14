@@ -81,14 +81,14 @@
     "href": "index.html",
     "title": "Intro",
     "section": "",
-    "text": "Einführung\nHier findest du Lernziele und Inhalte, die auch in der Prüfung wichtig sind.\nDie Themen geben eine allgemeine Einführung in die verschiedenen medizinischen Bereiche.\nViel Erfolg beim Lernen!\n\n\n\n\n\nMammakarzinom\nDu wirst das Krankheitsbild des Mammakarzinoms in seiner typischen Form, einschließlich der Entstehung, Diagnose und Behandlung, verständlich erklären können.\n\nMehr erfahren »\n\n\n\nGutartiger Erkrankungen\nDu wirst verstehen, wie niedrig dosierte Strahlentherapie Schmerzen lindert. Du wirst lernen, wie die entzündungshemmende Wirkung funktioniert. Du wirst die verschiedenen Krankheitsbilder von Gelenk- und Weichteilerkrankungen kennenlernen.\n\nMehr erfahren »\n\n\n\n\n\nCommunication\nPresentation"
+    "text": "Einführung\nHier findest du Lernziele und Inhalte, die auch in der Prüfung wichtig sind.\nDie Themen geben eine allgemeine Einführung in die verschiedenen medizinischen Bereiche.\nViel Erfolg beim Lernen!\n\n\n\n\n\nMammakarzinom\nDu wirst das Krankheitsbild des Mammakarzinoms in seiner typischen Form, einschließlich der Entstehung, Diagnose und Behandlung, verständlich erklären können.\n\nMehr erfahren »\n\n\n\nGutartiger Erkrankungen\nDu wirst verstehen, wie niedrig dosierte Strahlentherapie Schmerzen lindert. Du wirst lernen, wie die entzündungshemmende Wirkung funktioniert. Du wirst die verschiedenen Krankheitsbilder von Gelenk- und Weichteilerkrankungen kennenlernen.\n\nMehr erfahren »\n\n\nCommunicación"
   },
   {
     "objectID": "CommunicationPresentation/CommunicationPresentation.html#what-is-palliative-care",
     "href": "CommunicationPresentation/CommunicationPresentation.html#what-is-palliative-care",
     "title": "Communication in palliative care",
     "section": "What is palliative care?",
-    "text": "What is palliative care?\n\nTrayectorias de la enfermedad y fases de los cuidados paliativos (RACGP 2023)"
+    "text": "What is palliative care?\n\nDisease trajectories and palliative care phases (RACGP 2023)"
   },
   {
     "objectID": "CommunicationPresentation/CommunicationPresentation.html#benefits",
@@ -109,7 +109,7 @@
     "href": "CommunicationPresentation/CommunicationPresentation.html#ecog-trial",
     "title": "Communication in palliative care",
     "section": "ECOG Trial",
-    "text": "ECOG Trial\n599 patients with NSCLC were randomly assigned to receive 1\n\ncisplatin plus etoposide 100\ncisplatin plus standard dose paclitaxel\n\ncisplatin plus higher dose paclitaxel with (g-csf)\n\n\ng-csf: filgrastim\n\nComparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin (Bonomi et al. 2000)"
+    "text": "ECOG Trial\n599 patients with NSCLC were randomly assigned to receive 1\n\ncisplatin plus etoposide\n\ncisplatin plus standard dose paclitaxel\n\ncisplatin plus higher dose paclitaxel with (g-csf)\n\n\ng-csf: filgrastim\n\nComparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin (Bonomi et al. 2000)"
   },
   {
     "objectID": "CommunicationPresentation/CommunicationPresentation.html#the-objective-response-rate",
@@ -397,6 +397,328 @@
     "title": "Communication",
     "section": "",
     "text": "Familiarization with communication skills tailored for palliative care.\nKnow tools for handling difficult conversations, such as\nListening / use of silence\nReflection\nSummarising"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#qué-son-los-cuidados-paliativos",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#qué-son-los-cuidados-paliativos",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "¿Qué son los cuidados paliativos?",
+    "text": "¿Qué son los cuidados paliativos?\n\nTrayectorias de la enfermedad y fases de los cuidados paliativos (RACGP 2023)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#beneficios",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#beneficios",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Beneficios",
+    "text": "Beneficios\nPacientes ambulatorios con NSCLC metastásico recién diagnosticado\n\n\natención oncológica estándar\n\n\n\n\nCuidados paliativos tempranos + atención oncológica estándar\n\n\n\n\nEarly Palliative Care for Patients with Metastatic Non–Small-Cell Lung Cancer (Temel et al. 2010)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#síntomas-de-depresión",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#síntomas-de-depresión",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Síntomas de depresión",
+    "text": "Síntomas de depresión\n\nLa integración temprana redujo significativamente (casi un 50%) las tasas de depresión (Temel et al. 2010)\nDepressive symptoms were assessed with the use of the Hospital Anxiety and Depression Scale (HADS), which consists of two subscales, one for symptoms of anxiety (HADS-A) and one for symptoms of depression (HADS-D)\nThe PHQ-9 (Patient Health Questionnaire 9) is a nine-item measure that evaluates symptoms of major depressive disorder according to the criteria of the fourth edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV)."
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#calidad-de-vida",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#calidad-de-vida",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Calidad de vida",
+    "text": "Calidad de vida\n\nUna mejora del TOI (Trial Outcome Index) de 5 puntos es similar a la de pacientes que respondieron a quimioterapia basada en cisplatino (Temel et al. 2010)\nThis compared to the Results from Eastern Cooperative Oncology Group (ECOG) Study 5592.\nComplete or partial response (95) is meant in contrast to stable (82) or progressive disease (102).\nPatients had (stage IIIb and IV) non-small cell lung cancer (NSCLC), were ambulatory (ECOG 0 or 1) and recieved either:\n\ncisplatin 75 mg/m2 IV over 1 hr plus etoposide 100 mg/m2 IV X 3 (days 1, 2, and 3)\ncisplatin 75 mg/m2 IV over 1 hr plus standard dose paclitaxel (135 mg/m2 IV) over 24 hr, or\ncisplatin 75 mg/m2 IV over 1 hr plus higher dose paclitaxel (250 mg/m2 IV) over 24 hr with granulocyte colony stimulating factor (g-csf) support (5 g/kg/day).\n\nFACT = Functional Assessment of Cancer Therapy\nLung Cancer Subscale (LCS) Physical Well-Being (PWB) Functional Well-Being (FWB)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#ecog-e5592-estudio-de-fase-iii",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#ecog-e5592-estudio-de-fase-iii",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "ECOG (E5592) Estudio de fase III",
+    "text": "ECOG (E5592) Estudio de fase III\n599 pacientes con NSCLC fueron asignados aleatoriamente para recibir\n\ncisplatino más etopósido\ncisplatino más paclitaxel a dosis estándar\ncisplatino más paclitaxel a dosis más altas con (g-csf)\n\n\n\ng-csf: filgrastim\n\n\nComparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin (Bonomi et al. 2000)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#la-tasa-de-respuesta-objetiva",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#la-tasa-de-respuesta-objetiva",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "La tasa de respuesta objetiva",
+    "text": "La tasa de respuesta objetiva\n(remisiones completas + parciales)\n\nCis/Eto 12,4%\n\n\nCis/Pacli 25,3%\nCis/Pacli (dosis alta) 27,7%\n\n\n\nResponse rates for the two dose levels of paclitaxel were not significantly different (P = .264).\n\n\nComparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin (Bonomi et al. 2000)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#solo-14-de-los-pacientes",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#solo-14-de-los-pacientes",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Solo 1/4 de los pacientes",
+    "text": "Solo 1/4 de los pacientes"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#toxicidad",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#toxicidad",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Toxicidad",
+    "text": "Toxicidad\n\nRelative toxic effects (CTC), by age reported in the Eastern Cooperative Oncology Group 5592. (Langer et al. 2002)\nCTC = common toxicity criteria ECOG = Eastern Cooperative Oncology Group"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#estos-son-los-beneficios-conocidos",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#estos-son-los-beneficios-conocidos",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Estos son los beneficios conocidos",
+    "text": "Estos son los beneficios conocidos\n“Las intervenciones que se centran en la comunicación sobre cuidados paliativos y al final de la vida, utilizando especialistas en cuidados paliativos, han demostrado una mejora de la calidad de vida, una disminución de los síntomas de depresión …” (Curtis et al. 2013)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#sobrevida",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#sobrevida",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Sobrevida",
+    "text": "Sobrevida\n\nLa integración temprana de los cuidados paliativos prolongó la supervivencia unos 2 meses (Temel et al. 2010)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#sobrevida-1",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#sobrevida-1",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Sobrevida",
+    "text": "Sobrevida\n\n\n\nA retrospective cohort study was conducted among 23 154 patients with advanced lung cancer (stage IIIB and stage IV)\n\n\nAssociation of Early Palliative Care Use With Survival and Place of Death Among Patients With Advanced Lung Cancer (Sullivan et al. 2019)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#beneficios-en-sobrevida",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#beneficios-en-sobrevida",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Beneficios en sobrevida",
+    "text": "Beneficios en sobrevida\n“Las intervenciones que se centran en la comunicación sobre cuidados paliativos y al final de la vida, utilizando especialistas en cuidados paliativos, han demostrado una mejora de la calidad de vida, una disminución de los síntomas de depresión…\n\ny una reducción de la intensidad del tratamiento al final de la vida.” (Curtis et al. 2013)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#en-el-estudio-de-temel-et.al.",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#en-el-estudio-de-temel-et.al.",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "En el estudio de Temel et.al.",
+    "text": "En el estudio de Temel et.al.\nse prestó especial atención a:\n\n\nlos síntomas psicosociales\nel establecimiento de los objetivos de los cuidados\nla ayuda en la toma de decisiones sobre el tratamiento\n\n\n\n\ncoordinar los cuidados en función de las necesidades individuales del paciente\nsíntomas físicos"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#publicación-secundaria",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#publicación-secundaria",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Publicación secundaria",
+    "text": "Publicación secundaria\nUn estudio cualitativo\n“Los médicos de cuidados paliativos se centraron en establecer relaciones con los pacientes y determinar sus necesidades y preferencias individuales de información en una fase temprana de la enfermedad.”(Yoong et al. 2013)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#componentes-clave",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#componentes-clave",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Componentes clave",
+    "text": "Componentes clave\n\nestablecimiento de relaciones y compenetración\nabordar los síntomas\nabordar el afrontamiento\nestablecer la comprensión de la enfermedad\nhablar de los tratamientos contra el cáncer\nplanificación del final de la vida\nimplicar a los familiares\n\n\n\nEarly Palliative Care in Advanced Lung Cancer: A Qualitative Study (Yoong et al. 2013)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#elementos-de-comunicación-en-cp",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#elementos-de-comunicación-en-cp",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Elementos de comunicación en CP",
+    "text": "Elementos de comunicación en CP\n\nClarificación de los objetivos del tratamiento\n\n\nDar malas noticias\nComunicar el pronóstico\nPlanificación de cuidados avanzados\nHablar de la muerte\nTranslado a una unidad de cuidados paliativos\n\n\n\n\n\n\nAdapted from: Communication in Palliative Care and About End of Life: A State-of-the-Art Literature Review of Conversation-Analytic Research in Healthcare (Parry 2024)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#los-objetivos-del-tratamiento-suelen-ser-poco-claros",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#los-objetivos-del-tratamiento-suelen-ser-poco-claros",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Los objetivos del tratamiento suelen ser poco claros",
+    "text": "Los objetivos del tratamiento suelen ser poco claros\n\n\n58.2% de los pacientes tienen una percepción inexacta de la intención del tratamiento (Soylu et al. 2016)\n\n69-81% de los pacientes paliativos creen en la intención curativa de su tratamiento (Minichsdorfer et al. 2021)\n\n\n\nThe patients were said to have advanced breast cancer, when the cancer had progressed and metastasized to other parts of the body with a diagnosis of stage IV. (Soylu et al. 2016)\nEligibility criteria included patients over age 18 who had a diagnosis of incurable malignant disease, with symptoms attributable to their disease or anticipated as likely to occur within a six-month observation period. (Craft et al. 2005)\nPatients had a locally advanced and/ or metastatic gastrointestinal, lung, or gynecologic cancer; and had disease progression after one or more chemotherapy regimens. (George et al. 2020)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#tratamiento-dirigido-contra-el-cáncer",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#tratamiento-dirigido-contra-el-cáncer",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Tratamiento dirigido contra el cáncer",
+    "text": "Tratamiento dirigido contra el cáncer"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#visión-holística",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#visión-holística",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Visión holística",
+    "text": "Visión holística"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#desarrollo-humano-a-lo-largo-de-la-vida",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#desarrollo-humano-a-lo-largo-de-la-vida",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Desarrollo humano a lo largo de la vida",
+    "text": "Desarrollo humano a lo largo de la vida\n\nreconectar con la familia\nhacer planes para el funeral y/o el entierro\nencontrar sentido a la experiencia de morir\n\n\n\nEnd-of-Life Conversations Evolving Practice and Theory (Larson and Tobin 2000)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#beneficios-para-los-pacientes",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#beneficios-para-los-pacientes",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Beneficios para los pacientes",
+    "text": "Beneficios para los pacientes\n\nLos pacientes que recibieron intervenciones médicas agresivas tuvieron peor calidad de vida en la última semana de vida\nLo contrario ocurrió con los cuidados paliativos (hospicio), en los que la calidad de vida de los pacientes mejoró cuanto más tiempo estuvieron ingresados.\n\n\n\nAssociations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment (Wright et al. 2008)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#beneficios-para-los-familiares",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#beneficios-para-los-familiares",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Beneficios para los familiares",
+    "text": "Beneficios para los familiares\nLos familiares de pacientes que recibieron algún tipo de atención agresiva tenían mayor riesgo de desarrollar\n\nTrastorno depresivo mayor\nexperimentar arrepentimiento\nsentirse poco preparados para la muerte del paciente\n\n\n\nAssociations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment (Wright et al. 2008)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#relación-entre-la-calidad-de-vida-de-los-pacientes-y-familiares",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#relación-entre-la-calidad-de-vida-de-los-pacientes-y-familiares",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Relación entre la calidad de vida de los pacientes y familiares",
+    "text": "Relación entre la calidad de vida de los pacientes y familiares\n\nCalidad de vida global\nsalud (autovalorada)\nfuncionamiento físico\nsalud mental\n\n\n\nAssociations Between End-of-Life Discussions, Patient Mental Health, Medical Care Near Death, and Caregiver Bereavement Adjustment (Wright et al. 2008)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#intervención",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#intervención",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Intervención",
+    "text": "Intervención\n(Curtis et al. 2013) realizaron un estudio sobre una intervención basada en un taller presencial diseñado para mejorar las habilidades de comunicación de residentes de oncología. La intervención consistió en ocho sesiones de 4 horas dirigidas por un médico y una enfermera."
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#efectos-sobre-las-habilidades-prácticas",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#efectos-sobre-las-habilidades-prácticas",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Efectos sobre las habilidades prácticas",
+    "text": "Efectos sobre las habilidades prácticas\n\nmejora significativa de la capacidad de los participantes para dar malas noticias\nmejor respuesta a las emociones\nMejora significativa de la capacidad para hablar de la transición a los cuidados paliativos."
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#se-traduce-en-atención-real-al-paciente",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#se-traduce-en-atención-real-al-paciente",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "¿Se traduce en atención real al paciente?",
+    "text": "¿Se traduce en atención real al paciente?\n\nSe trató de un estudio negativo (sin cambios significativos) sobre el efecto en los resultados notificados por pacientes, familiares y médicos."
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#efectos-secundarios-1",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#efectos-secundarios-1",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Efectos secundarios",
+    "text": "Efectos secundarios\n\nUn aumento significativo de los síntomas depresivos, con un incremento de 2,2 puntos del PHQ-8.\nLas puntuaciones de depresión de los pacientes de los residentes más veteranos fueron significativamente inferiores a las de los pacientes de los residentes de primer año.\n\n\nOne of the questionnaires most commonly used for the screening and severity assessment of depression in clinical settings and epidemiological studies is the PHQ (Patient health questionnaire). This is a self-reported measure of depressive symptoms composed of 9 Likert-type items each of them corresponding to one of the 9 criteria for major depressive disorder of the 4th edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV) (Torre et al. 2023)\n\n\nSimulation to learn skills for communicating bad news to patients with cancer forms the basis of a 4-day workshop for medical oncology fellows.\nThis workshop has been associated with significant improvement in participants’ ability to deliver bad news and discuss transitions to palliative care. Clinicians can learn skills for communicating about palliative care in small-group facilitated settings using simulated patients and family members.\nA systematic review of communication skills interventions noted the effectiveness of interventions using simulation but observed that no studies have shown an effect on patient-reported outcomes.\nWe conducted a randomized trial to examine whether a communication skills–building workshop aimed at internal medicine and nurse practitioner trainees, using simulation during which trainees practiced skills associated with palliative and end-of-life care communication, had any effect on patient-, family-, and clinician-reported outcomes."
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#comparación-con-psicoterapia",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#comparación-con-psicoterapia",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Comparación con psicoterapia",
+    "text": "Comparación con psicoterapia\n\nefectos positivos 95.6%\n\n\nal menos un efecto secundario (negativo) 52.6%\n\n\n\nindividuals with depression who had completed at least one course of face-to-face psychotherapy. While positive effects were reported by virtually all patients (95.6%), approximately half of them (52.6%) also reported experiencing at least one adverse event.(Moritz et al. 2019)\n\n\nIt can’t hurt, right? Adverse effects of psychotherapy in patients with depression (Moritz et al. 2019)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#definición",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#definición",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Definición",
+    "text": "Definición\n\nNo existe una definición uniformemente aceptada\nEl tratamiento es proporcionado por personal cuyo principal campo de trabajo no son los cuidados paliativos\nLa situación del paciente es menos compleja\nLos requisitos estructurales no son obligatorios\n\n\n\nS3-Guideline: Palliative care for patients with incurable cancer (German Cancer Society 2015)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#equipo-multiprofesional",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#equipo-multiprofesional",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Equipo multiprofesional",
+    "text": "Equipo multiprofesional\nUn equipo especializado en cuidados paliativos debe estar formado por miembros de al menos tres grupos profesionales\n\nmédicos\nenfermeras\notro grupo profesional\n\nDe ellos, al menos el médico y la enfermera deben estar certificados en cuidados paliativos.\n\n\nS3-Guideline: Palliative care for patients with incurable cancer (German Cancer Society 2015)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#el-duelo-como-ejemplo",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#el-duelo-como-ejemplo",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "El duelo (como ejemplo)",
+    "text": "El duelo (como ejemplo)\nperder a un ser querido por la muerte (o morir) es una parte inherente de la vida humana y sólo alrededor del 7% de los adultos mayores en duelo desarrollarán un duelo complicado. (Shear, Ghesquiere, and Glickman 2013)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#intervenciones",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#intervenciones",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Intervenciones",
+    "text": "Intervenciones\n\nUniversales\n\n\nSeleccionadas\n\n\nIndicadas\n\n\n\nInterventions targeting universal populations and higher-risk grievers failed to produce good outcomes. Conversely, the effect sizes of the indicated interventions compared favorably with the successes shown for psychotherapy in general.\n\n\nThe effectiveness of psychotherapeutic interventions for bereaved persons: A comprehensive quantitative review. (Currier, Neimeyer, and Berman 2008)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#posibles-indicaciones-en-alemania",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#posibles-indicaciones-en-alemania",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Posibles indicaciones en Alemania",
+    "text": "Posibles indicaciones en Alemania\n\nSíntomas complejos o angustia/ansiedad debida a problemas del final de la vida\nIncertidumbre a la hora de establecer los objetivos del tratamiento\nCuidados médicos o de enfermería complejos\nAtención domiciliaria insuficiente o incierta\n\n\n\nS3-Guideline: Palliative care for patients with incurable cancer (German Cancer Society 2015)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#se-necesita-siempre-una-conversación",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#se-necesita-siempre-una-conversación",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Se necesita siempre una conversación?",
+    "text": "Se necesita siempre una conversación?\n\nLos canadienses y la planificación anticipada de la atención médica. Tendencias actuales (The Advance Care Planning in Canada initiative 2021)\nA bi-annual Nanos survey of 3,002 Canadians 18 years and older, commissioned by the Canadian Hospice Palliative Care Association (CHPCA), says they have. It also says there’s still work to do. (Results from 2021)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#recursos-psicológicos-familiares",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#recursos-psicológicos-familiares",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "recursos psicológicos familiares",
+    "text": "recursos psicológicos familiares"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#spikes",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#spikes",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "SPIKES",
+    "text": "SPIKES\n\nS: setting\n\n\nP: perception\nI: invitation\nK: knowledge\n\n\nE: empathy\nS: strategy\n\n\n\n\n\n\nSPIKES-A six-step protocol for delivering bad news: application to the patient with cancer (Baile et al. 2000)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#cómo-se-lo-voy-a-decir",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#cómo-se-lo-voy-a-decir",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "¿Cómo se lo voy a decir?",
+    "text": "¿Cómo se lo voy a decir?"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#p-perception",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#p-perception",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "P: perception",
+    "text": "P: perception\n\nPon en práctica el axioma: “antes de decirlo, pregúntalo”.\n\n\n\nSPIKES-A six-step protocol for delivering bad news: application to the patient with cancer (Baile et al. 2000)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#el-paciente-ya-sabe",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#el-paciente-ya-sabe",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "El paciente ya sabe",
+    "text": "El paciente ya sabe"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#la-comunicación-es-el-marco-y-el-trabajo-en-equipo",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#la-comunicación-es-el-marco-y-el-trabajo-en-equipo",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "La comunicación es el marco y el trabajo en equipo",
+    "text": "La comunicación es el marco y el trabajo en equipo"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#siempre-juntos-siempre-sentados",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#siempre-juntos-siempre-sentados",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Siempre juntos, siempre sentados",
+    "text": "Siempre juntos, siempre sentados"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#pronóstico",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#pronóstico",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Pronóstico",
+    "text": "Pronóstico\n\nSólo el 25% de los pronósticos fueron exactos (con 1 mes de margen). Dos tercios estaban sobreestimados, sobre todo en los pacientes con menor supervivencia. 1\nEl error de pronóstico está ampliamente propagado, sólo alrededor del 20% de las estimaciones son precisas 2\nSólo el 20% de las predicciones fueron precisas dentro del 33% de la supervivencia real 3\n\nViganò et al. (1999)Higginson and Costantini (2002)Christakis and Lamont (2000)"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#prevenir",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#prevenir",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Prevenir",
+    "text": "Prevenir"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#cómo-funciona-la-comunicación",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#cómo-funciona-la-comunicación",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "¿Cómo funciona la comunicación?",
+    "text": "¿Cómo funciona la comunicación?"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#comunicación-mal-hecha",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#comunicación-mal-hecha",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "Comunicación mal hecha",
+    "text": "Comunicación mal hecha\nExample"
+  },
+  {
+    "objectID": "CommunicationPresentation/PresentacionComunicacion.html#la-buena-comunicación",
+    "href": "CommunicationPresentation/PresentacionComunicacion.html#la-buena-comunicación",
+    "title": "La comunicación en los cuidados paliativos",
+    "section": "La buena comunicación",
+    "text": "La buena comunicación\nExample"
   },
   {
     "objectID": "Benignas.html",
