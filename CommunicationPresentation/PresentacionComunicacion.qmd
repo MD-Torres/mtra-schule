@@ -1,5 +1,5 @@
 ---
-title: "Communication in palliative care"
+title: "La comunicación en los cuidados paliativos"
 # author: "Jorge Torres"
 format: 
   revealjs:
@@ -8,27 +8,22 @@ format:
 bibliography: Kommunikation.bib
 ---
 
-# Introduction
+# Introducción
 
-## What is palliative care?
+## ¿Qué son los cuidados paliativos?
 
 ![Trayectorias de la enfermedad y fases de los cuidados paliativos [@RACGP2023] ](Bilder/palli-phases.jpg)
 
 
-
-## Benefits 
-
-Early Palliative Care for Patients with Metastatic NSCLC 
-[@TemelEtAl2010]
-
-- Ambulatory patients with newly diagnosed metastatic NSCLC 
-- Early palliative care + standard oncologic care vs. standard oncologic care 
-- Board-certified palliative care physicians and advanced-practice nurses 
+## Beneficios 
+Cuidados paliativos tempranos para pacientes con CPNM metastásico [@TemelEtAl2010]
+- Pacientes ambulatorios con CPNM metastásico recién diagnosticado 
+- Cuidados paliativos tempranos + atención oncológica estándar vs atención oncológica estándar 
 
 
-## Quality of life
+## Calidad de vida
 
-![An improvement of TOI (Trial Outcome Index) of 5 points is similar to that of **patients who responded** to cisplatin-based chemotherapy [@TemelEtAl2010] ](Bilder/QoL.png)
+![Una mejora del TOI (Trial Outcome Index) de 5 puntos es similar a la de **pacientes que respondieron** a quimioterapia basada en cisplatino [@TemelEtAl2010] ](Bilder/QoL.png)
 
 ::: notes 
 This compared to the Results from Eastern Cooperative Oncology Group (ECOG) Study 5592. 
