@@ -53,7 +53,7 @@ Du wirst verstehen, wie niedrig dosierte Strahlentherapie Schmerzen lindert. Du 
 
 # Communication
 
-[Presentation](CommunicationPresentation/CommunicationPresentation.qmd){target="_blank"}
+[Presentation](CommunicationPresentation/PresentacionComunicacion.qmd){target="_blank"}
 
 
 
