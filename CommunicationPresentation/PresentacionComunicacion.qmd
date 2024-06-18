@@ -157,15 +157,47 @@ A retrospective cohort study was conducted among 23 154 patients with advanced l
 y una **reducción de la intensidad del tratamiento** al final de la vida." [@CurtisEtAl2013]
 :::
 
+# Primera perla 
+
+![](Bilder/Perla1.webp){.absolute Top=0 left=600  height="900"}
+
+
+
+
 # Replantear paradigmas
 
-:::{.fragment .fade-in-then-out} 
+
+:::: {.columns}
+
+::: {.column}
+
+![La integración temprana de los cuidados paliativos prolongó la supervivencia unos 2 meses [@TemelEtAl2010] ](Bilder/Survival-NEJM.png)
+
+:::
+
+::: {.column}
+
+:::{.fragment .fade-in-then-semi-out} 
 Ya no podemos hacer nada
 :::
 
 :::{.fragment .fade-in} 
 Vamos a enfocar todos los tratamientos disponibles en mejorar la calidad de vida.  
 :::
+
+:::{.fragment .fade-in} 
+Aumentar las probabilidades de prolongar la vida.
+:::
+
+
+:::
+
+
+
+:::: 
+
+
+
 
 
 # El papel de la comunicación 
