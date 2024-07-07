@@ -14,7 +14,7 @@ execute:
 
 # Einführung 
 
-## Radioonkologie
+## Strahlentherapie 
 
 Die Radioonkologie wird weltweit durch Organisationen wie die ESTRO (Europa) und die ASTRO (USA) sowie andere nationale Gesellschaften vertreten. Die ESTRO konzentriert sich hauptsächlich auf die Strahlentherapie bei Krebs. In ihrem jüngsten Strategiepapier wird betont: „Es wird zwar anerkannt, dass sich die nicht-onkologischen Indikationen für die Strahlentherapie im Laufe der Zeit erweitern können, doch die formale Aufnahme des Begriffs ‚Onkologie‘ in das Visionspapier unterstreicht, dass die Hauptindikationen für die Strahlentherapie und damit der Schwerpunkt dieser Disziplin weiterhin in der Onkologie liegen." Die ASTRO konzentriert sich ebenfalls auf die Strahlentherapie bei Krebspatienten und erwähnt nicht ausdrücklich die Bestrahlung bei Nicht-Krebserkrankungen. [@IORBC]
 
@@ -125,7 +125,7 @@ theme(
 
 ## Prävalenz von Gelenkschmerzen in Deutschland
 
-Gelenkbeschwerden und -schmerzen gehören weltweit zu den häufigsten Einschränkungen, die Menschen bei der Ausübung ihrer Alltagsaktivitäten Schwierigkeiten bereiten und ihre Lebensqualität verringern können. [@RKI2017] 
+Gelenkbeschwerden und -schmerzen gehören weltweit zu den häufigsten Einschränkungen, die Menschen bei der Ausübung ihrer Alltagsaktivitäten Schwierigkeiten bereiten und ihre Lebensqualität verringern können.[@RKI2017] Diese sind häfiger im Alter @fig-plot-InzidenzSchmerzen
 
 Die Definition für Schmerz lautet nach der Weltschmerzorganisation International Association for the Study of Pain „ein unangenehmes Sinnes- und Gefühlserlebnis, das mit aktueller oder potentieller Gewebeschädigung verknüpft ist oder mit Begriffen einer solchen Schädigung beschrieben wird“ [@RajaEtAl2020]
 
@@ -156,8 +156,8 @@ ggplot(data, aes(x = Altersgruppe, y = Praevalenz, group = Geschlecht, color = G
             family = "Ubuntu",
             color = "#808080",) +
   scale_color_manual(values = c("Frauen" = "#f5d438", "Männer" = "#9dccda")) +
-  labs(title = "<p>Die Prävalenz von Gelenkschmerzen steigt in <span style='color:#f5d438'>Frauen</span> <br>und <span style='color:#9dccda'>Männer</span> mit zunehmendem Alter</p>",
-       x = "Altersgruppe in Jahre",
+  labs(title = "<p>Die Prävalenz von Gelenkschmerzen steigt <br>in <span style='color:#f5d438'>Frauen</span> und <span style='color:#9dccda'>Männer</span> <br>mit zunehmendem Alter</p>",
+       x = "Altersgruppen in Jahre",
        y = "Prävalenz in Prozent (%)") +
   theme_minimal() +
   theme(
@@ -207,8 +207,26 @@ Akute Schmerzen dauern Sekunden bis maximal Wochen an und sind an erkennbare Aus
 
 Chronische Schmerzen sind nicht zwingend an schädigende Faktoren gekoppelt und sind gekennzeichnet durch anhaltende oder wiederkehrende Schmerzen, die mindestens drei Monate andauern. [@RKI2017] 
 
-## Arthritis 
 
+## Entzündung
+
+Ganz allgemein gesprochen ist Entzündung die Reaktion des Immunsystems des Körpers auf einen noziven Reiz. Dabei kann es sich um einen mikrobiellen Reiz handeln, aber auch um eine Autoimmunerkrankung, eine allergische Reaktion, eine Stoffwechselerkrankung oder einen physikalischen Reiz. 
+
+Aulus Cornelius Celsus (25 v. Chr.-50 n. Chr.) definierte die vier Hauptanzeichen einer Entzündung mit seiner Aussage:  "Notae vero inflammationis sunt quatuor: rubor et tumor cum calore and dolore". 
+
+Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verstanden John Hunter (18. Jahrhundert) und Elie Metchnikoff (19. Jahrhundert), dass sie ein natürliches und nützliches Ereignis ist, das darauf abzielt, einen sterilen oder infektiösen Insult zu bekämpfen. [@Cavaillon2021]
+
+Aktuell werden fünf Kardinalzeichen von Enzündung erkannt:
+
+- Hitze 
+- Schmerz 
+- Rötung
+- Schwellung
+- Funktionsverlust
+
+lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ;@InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021]
+
+## Arthritis 
 
 
 ## Arthrose
