@@ -212,7 +212,7 @@ Chronische Schmerzen sind nicht zwingend an schädigende Faktoren gekoppelt und 
 
 Ganz allgemein gesprochen ist Entzündung die Reaktion des Immunsystems des Körpers auf einen noziven Reiz. Dabei kann es sich um einen mikrobiellen Reiz handeln, aber auch um eine Autoimmunerkrankung, eine allergische Reaktion, eine Stoffwechselerkrankung oder einen physikalischen Reiz. 
 
-Aulus Cornelius Celsus (25 v. Chr.-50 n. Chr.) definierte die vier Hauptanzeichen einer Entzündung mit seiner Aussage:  "Notae vero inflammationis sunt quatuor: rubor et tumor cum calore and dolore". 
+**Aulus Cornelius Celsus** (25 v. Chr.-50 n. Chr.) definierte die vier Hauptanzeichen einer Entzündung mit seiner Aussage:  "Notae vero inflammationis sunt quatuor: rubor et tumor cum calore and dolore". 
 
 Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verstanden John Hunter (18. Jahrhundert) und Elie Metchnikoff (19. Jahrhundert), dass sie ein natürliches und nützliches Ereignis ist, das darauf abzielt, einen sterilen oder infektiösen Insult zu bekämpfen. [@Cavaillon2021]
 
