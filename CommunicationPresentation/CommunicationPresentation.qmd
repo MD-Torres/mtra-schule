@@ -8,11 +8,12 @@ format:
 bibliography: Kommunikation.bib
 ---
 
+
 # Introduction
 
 ## What is palliative care?
 
-![Trayectorias de la enfermedad y fases de los cuidados paliativos [@RACGP2023] ](Bilder/palli-phases.jpg)
+![Disease trajectories and palliative care phases [@RACGP2023] ](Bilder/palli-phases.jpg)
 
 
 
@@ -53,7 +54,7 @@ Functional Well-Being (FWB)
 
 599 patients with NSCLC were randomly assigned to receive ^[Comparison of Survival and Quality of Life in Advanced Non–Small-Cell Lung Cancer Patients Treated With Two Dose Levels of Paclitaxel Combined With Cisplatin Versus Etoposide With Cisplatin  [@BonomiEtAl2000] ]
 
-- cisplatin plus etoposide 100 
+- cisplatin plus etoposide  
 - cisplatin plus standard dose paclitaxel  
 - cisplatin plus higher dose paclitaxel with (g-csf) 
 
@@ -497,6 +498,23 @@ SPIKES-A six-step protocol for delivering bad news: application to the patient w
 
 [Example](https://youtu.be/ZQht2yOX9Js?feature=shared&t=117){preview-link="false"}
 
+# In summary
+
+::: {.fragment}
+Who
+:::
+
+::: {.fragment}
+What
+:::
+
+::: {.fragment}
+When 
+:::
+
+::: {.fragment}
+How
+:::
 
 
 # Bibliografía
