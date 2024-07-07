@@ -132,7 +132,7 @@ Die Definition für Schmerz lautet nach der Weltschmerzorganisation Internationa
 In Deutschland 57,9 % der Frauen und 52,2 % der Männer geben an, in den letzten 12 Monaten Gelenkschmerzen gehabt zu haben.
 
 ```{r, plt_InzidGelenkschmerzen}
-#| label: fig-plot-PropGutartig
+#| label: fig-plot-InzidenzSchmerzen
 #| echo: false
 #| out-width: 70% 
 #| fig-cap: ""
