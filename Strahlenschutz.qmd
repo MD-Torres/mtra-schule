@@ -512,18 +512,17 @@ Ionendosis ist die im Volumen erzeugte Ladung pro Masse des durchstrahlten Volum
 
 $$ I=   \frac{\partial Q}{\partial m}       $$
 
-Einheit: \[I\] = 1 C/kg (veraltet: Röntgen $ 1 R = 2,58 \times 10 ^{-4}$C/kg)
+Einheit: \[I\] = 1 C/kg (veraltet: Röntgen \$ 1 R = 2,58 \times 10 \^{-4}\$C/kg)
 
 Insbesondere bei höherer Strahlungsenergie kann ein Teil der im Volumen erzeugten Ladung aus dem durchstrahlten Volumen herauswandern. Somit wird nicht sämtliche im Volumen umgewandelte Strahlungsenergie auch in diesem Volumen absorbiert. Als passendere Größe für die absorbierte Energie im Volumen verwendet man daher die folgende Energiedosis.
 
 ### Energiedosis
+
 Energiedosis ist die im Volumen absorbierte Energie pro Masseeinheit des durchstrahlten Volumens. Sie ergibt sich aus der Differenz zwischen in das Volumen eingestrahlter Energie und aus dem Volumen herausfallender Energie.
 
 Energiedosis $D = \frac{eingestrahlte\, Energie\, E\, in\, J}{Masse\, m\, in\, kg}$
 
-$$ D = \frac{\partial E}{\partial m}= \frac{Eein-Eaus}{\partial m} $$
-Einheit: [D] = 1 Gy = 1 J/kg
-benannt nach Louis H. Gray (1905 – 1965), Britischer Physiker und Radiologe
+$$ D = \frac{\partial E}{\partial m}= \frac{Eein-Eaus}{\partial m} $$ Einheit: \[D\] = 1 Gy = 1 J/kg benannt nach Louis H. Gray (1905 – 1965), Britischer Physiker und Radiologe
 
 Umrechnungen: 1 Gy = 1000 mGy; 1 mGy = 0,001 Gy
 
@@ -537,45 +536,42 @@ Strahlenbiologische Versuche an biologischen Modellen zeigen, dass verschiedene 
 
 $$ H = w_R \times D$$
 
-Einheit: [H] = 1 Sv (veraltet: 100 rem = 1 Sv)
-Sievert (Sv), benannt nach dem schwedischen Mediziner und Physiker Rolf Sievert
+Einheit: \[H\] = 1 Sv (veraltet: 100 rem = 1 Sv) Sievert (Sv), benannt nach dem schwedischen Mediziner und Physiker Rolf Sievert
 
 Die Organdosis $H_T$ bzw. die sogenannte Äquivalentdosis ist das Produkt aus der Energiedosis $D$ in einem Organ, Gewebe oder Körperteil und dem Strahlungs-Wichtungsfaktor $w_R$
 
 ### Effektive Dosis
+
 Maß für das Risiko
 
 Nicht alle Organe sind gleich strahlenempfindlich. Um Strahlenrisiken verschieden exponierter Personen zu vergleichen, werden die Äquivalentdosis der exponierten Organe mit der Strahlenempfindlichkeit des jeweiligen Organs gewichtet und anschließend über alle Organe summiert.
 
-$$ E = \sum w_T \times H_T $$
-inheit: [E] = 1 Sv (Sievert)
+$$ E = \sum w_T \times H_T $$ inheit: \[E\] = 1 Sv (Sievert)
 
-$H_T$: Teilkörper- / Organ-Äquivalentdosis
-$w_T$: Gewebewichtungsfaktor
+$H_T$: Teilkörper- / Organ-Äquivalentdosis $w_T$: Gewebewichtungsfaktor
 
 Sechs Organe gelten nach der Publikation 103 der Internationalen Strahlenschutzkommission (ICRP) als besonders strahlensensitiv:
 
-1. Magen
-2. Lunge
-3. Darm
-4. Knochenmark
-5. Brust (Mamma)
-6. Gonaden
+1.  Magen
+2.  Lunge
+3.  Darm
+4.  Knochenmark
+5.  Brust (Mamma)
+6.  Gonaden
 
 Die Summe über alle Gewebewichtungsfaktoren ist 1. Der Wichtungsfaktur der Keimdrüsen ist aus dem vermuteten genetischen Risiko abgeleitet. Alle anderen Faktoren beruhen auf Mortalitätswahrscheinlichkeiten und Krebsinzidenzen.
 
 ### Einordnung der Dosisbegriffe
 
-Aus der gemessenen Ionendosis in [C/kg] läßt sich die Energiedosis (=absorbierte Energie im durchstrahlten Volumen) herleiten. Nach Multiplikation mit dem Wichtungsfaktor wR für die Strahlenart und der Summation über alle Organ (mit dem Gewebewichtungsfaktor wT), die im Strahlenfeld gelegen haben, ergibt sich schliesslich die effektive Dosis. Dieses stellt ein Maß für das Risiko dar, das mit der Strahlenexposition verbunden ist.
+Aus der gemessenen Ionendosis in \[C/kg\] läßt sich die Energiedosis (=absorbierte Energie im durchstrahlten Volumen) herleiten. Nach Multiplikation mit dem Wichtungsfaktor wR für die Strahlenart und der Summation über alle Organ (mit dem Gewebewichtungsfaktor wT), die im Strahlenfeld gelegen haben, ergibt sich schliesslich die effektive Dosis. Dieses stellt ein Maß für das Risiko dar, das mit der Strahlenexposition verbunden ist.
 
 Gleiche effektive Dosis für unterschiedliche Strahlenarten und unterschiedliche Körperbereiche heißt also gleiches Strahlenrisiko!
- 
+
 ## Dosimetrie
 
 ### Dosismessung
 
-In diesem Kapitel sollen Sie die verschiedenen Messverfahren und Messgeräten zum Nachweis ionisierender Strahlung kennenlernen.
-Im folgenden Video (17 min) wird erklärt, wie ionisierende Strahlung gemessen werden kann. Als Messverfahren werden Ionisation in Gasen und die Ladungsträgererzeugung in Festkörpern vorgestellt. Verschiedene Messgeräte und ihr Einsatz in der Medizin werden Ihnen vorgestellt.
+In diesem Kapitel sollen Sie die verschiedenen Messverfahren und Messgeräten zum Nachweis ionisierender Strahlung kennenlernen. Im folgenden Video (17 min) wird erklärt, wie ionisierende Strahlung gemessen werden kann. Als Messverfahren werden Ionisation in Gasen und die Ladungsträgererzeugung in Festkörpern vorgestellt. Verschiedene Messgeräte und ihr Einsatz in der Medizin werden Ihnen vorgestellt.
 
 ### weitere Messverfahren
 
@@ -585,39 +581,24 @@ Im zweiten Teil werden Ihnen im Video (8 min) die Strahlungsmessung über Szinti
 
 ### Das Wichtigste in Kürze
 
-Strahlung kann in einer Ionisationskammer über die im Füllgas erzeugten Ionen (und freien Elektronen) nachgewiesen werden.
-Die Organdosis HT bzw. die sogenannte Äquivalentdosis ist das Produkt aus der Energiedosis D in einem Organ, Gewebe oder Körperteil und dem Strahlungs-Wichtungsfaktor wR
-Die Aufsummierung der Organdosen mutlipliziert mit den jeweils zugehörigen Gewebewichtungsfaktor wT ergibt die effektive Dosis. Effektive Dosis beschreibt das Risiko, das mit der Strahlenexposition verbunden ist.
+Strahlung kann in einer Ionisationskammer über die im Füllgas erzeugten Ionen (und freien Elektronen) nachgewiesen werden. Die Organdosis HT bzw. die sogenannte Äquivalentdosis ist das Produkt aus der Energiedosis D in einem Organ, Gewebe oder Körperteil und dem Strahlungs-Wichtungsfaktor wR Die Aufsummierung der Organdosen mutlipliziert mit den jeweils zugehörigen Gewebewichtungsfaktor wT ergibt die effektive Dosis. Effektive Dosis beschreibt das Risiko, das mit der Strahlenexposition verbunden ist.
 
-Gleiche effektive Dosis für unterschiedliche Strahlenarten und unterschiedliche Körperbereiche heißt also gleiches Risiko!
-Dosis = Wirkung einer Strahlung
-Dosisleistung = Maß dafür wie schnell eine Wirkung erreicht wird.
-Energiedosis = übertragene Energie pro Masse m
-Einheit: 1 Gy = 1 J/kg
-Äquivalentdosis = Berücksichtigung der Strahlenart
-Einheit: 1 Sv = 1000 mSv
-Effektive Dosis = Berücksichtigung der Strahlenempfindlichkeit der Organe
-(= Maß für das Risiko)
-Folgende Organe haben einen hohen Gewebe-Wichtungsfaktor:
+Gleiche effektive Dosis für unterschiedliche Strahlenarten und unterschiedliche Körperbereiche heißt also gleiches Risiko! Dosis = Wirkung einer Strahlung Dosisleistung = Maß dafür wie schnell eine Wirkung erreicht wird. Energiedosis = übertragene Energie pro Masse m Einheit: 1 Gy = 1 J/kg Äquivalentdosis = Berücksichtigung der Strahlenart Einheit: 1 Sv = 1000 mSv Effektive Dosis = Berücksichtigung der Strahlenempfindlichkeit der Organe (= Maß für das Risiko) Folgende Organe haben einen hohen Gewebe-Wichtungsfaktor:
 
-1. Brust,
-2. Lunge,
-3. rotes Knochenmark,
-4. Magen,
-5. Darm
-6. (Gonaden)
+1.  Brust,
+2.  Lunge,
+3.  rotes Knochenmark,
+4.  Magen,
+5.  Darm
+6.  (Gonaden)
 
-**Trageort** des Personendosimeters ist eine repräsentative Stelle der Körpervorderseite **unter der Schürze**, Vorderseite nach außen!
-Eine grobe Abschätzung der Strahlenexposition kann nach der sogenannten Konversionsfaktor-Methode durchgeführt werden. Hierbei wird die relevante gemessene Dosisgröße (= Dosisflächenprodukt in cGy * cm²) mit einem entsprechenden Faktor multipliziert um die Risikogröße (= effektive Dosis) zu ermitteln.
-Das Dosisflächenprodukt ist ein Maß für die Dosis auf der Eintrittsseite (Hautdosis) ohne die im Patienten stattfindende Rückstreuung.
+**Trageort** des Personendosimeters ist eine repräsentative Stelle der Körpervorderseite **unter der Schürze**, Vorderseite nach außen! Eine grobe Abschätzung der Strahlenexposition kann nach der sogenannten Konversionsfaktor-Methode durchgeführt werden. Hierbei wird die relevante gemessene Dosisgröße (= Dosisflächenprodukt in cGy \* cm²) mit einem entsprechenden Faktor multipliziert um die Risikogröße (= effektive Dosis) zu ermitteln. Das Dosisflächenprodukt ist ein Maß für die Dosis auf der Eintrittsseite (Hautdosis) ohne die im Patienten stattfindende Rückstreuung.
 
 ### Messgeräte
 
 Strahlungsmessgeräte
 
-Können entweder Aktivität oder Energiedosis messen. Die resultierende Personendosis ist berechnet.
-Die Personendosis wird mit OSL-, TLD- oder Filmdosimetern gemessen und von einer amtlichen Messstelle ausgewertet. Der Wechsel der Dosimeter erfolgt in der Regel monatlich. Ausnahmen regelt die zuständige Aufsichtsbehörde auf Antrag.
-Teilkörperexpositionen werden z.B. mit Fingerringdosimetern (TLD oder OSL) gemessen.
+Können entweder Aktivität oder Energiedosis messen. Die resultierende Personendosis ist berechnet. Die Personendosis wird mit OSL-, TLD- oder Filmdosimetern gemessen und von einer amtlichen Messstelle ausgewertet. Der Wechsel der Dosimeter erfolgt in der Regel monatlich. Ausnahmen regelt die zuständige Aufsichtsbehörde auf Antrag. Teilkörperexpositionen werden z.B. mit Fingerringdosimetern (TLD oder OSL) gemessen.
 
 # Strahlenbiologie
 
