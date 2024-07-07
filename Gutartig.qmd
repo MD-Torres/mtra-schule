@@ -227,10 +227,10 @@ Aktuell werden fünf Kardinalzeichen von Enzündung erkannt:
 
 lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ;@InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021]
 
-Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden @fig-tbl-UrsachenEntzundung
+Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden @fig-tblUrsachenEntzundung
 
 ```{r tbl-UrsachenEntzundung}
-#| label: fig-tbl-UrsachenEntzundung
+#| label: fig-tblUrsachenEntzundung
 #| echo: false
 
 
