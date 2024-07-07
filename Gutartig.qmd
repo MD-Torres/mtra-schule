@@ -123,6 +123,97 @@ theme(
 
 ```
 
+## Prävalenz von Gelenkschmerzen in Deutschland
+
+Gelenkbeschwerden und -schmerzen gehören weltweit zu den häufigsten Einschränkungen, die Menschen bei der Ausübung ihrer Alltagsaktivitäten Schwierigkeiten bereiten und ihre Lebensqualität verringern können. [@RKI2017] 
+
+Die Definition für Schmerz lautet nach der Weltschmerzorganisation International Association for the Study of Pain „ein unangenehmes Sinnes- und Gefühlserlebnis, das mit aktueller oder potentieller Gewebeschädigung verknüpft ist oder mit Begriffen einer solchen Schädigung beschrieben wird“ [@RajaEtAl2020]
+
+In Deutschland 57,9 % der Frauen und 52,2 % der Männer geben an, in den letzten 12 Monaten Gelenkschmerzen gehabt zu haben.
+
+```{r, plt_InzidGelenkschmerzen}
+#| label: fig-plot-PropGutartig
+#| echo: false
+#| out-width: 70% 
+#| fig-cap: ""
+  
+# Benötigte Bibliothek laden
+library(ggplot2)
+
+# Daten erstellen
+data <- data.frame(
+  Geschlecht = rep(c("Frauen", "Männer"), each = 2),
+  Altersgruppe = rep(c("18-29", "65-79"), 2),
+  Praevalenz = c(9.0, 48.0, 11.4, 34.9)
+)
+
+# Steigungsdiagramm erstellen
+ggplot(data, aes(x = Altersgruppe, y = Praevalenz, group = Geschlecht, color = Geschlecht)) +
+  geom_line(size = 1) +
+  geom_point(size = 3) +
+  geom_text(aes(label = paste0(Praevalenz, "%")), 
+            vjust = -0.5,
+            family = "Ubuntu",
+            color = "#808080",) +
+  scale_color_manual(values = c("Frauen" = "#f5d438", "Männer" = "#9dccda")) +
+  labs(title = "<p>Die Prävalenz von Gelenkschmerzen steigt in <span style='color:#f5d438'>Frauen</span> <br>und <span style='color:#9dccda'>Männer</span> mit zunehmendem Alter</p>",
+       x = "Altersgruppe in Jahre",
+       y = "Prävalenz in Prozent (%)") +
+  theme_minimal() +
+  theme(
+      text = element_text(
+                        family = "Ubuntu", 
+                        color = "#D3D3D3",
+                        size = 14
+                        ),
+    axis.text = element_text(
+                            color = "#808080",
+                            size = 12
+                            ),
+    axis.text.y = element_text(hjust = 1.5),
+    axis.text.x = element_text(vjust = 4),
+    axis.title.y = element_text(hjust = 1),
+    axis.title.x = element_text(hjust = -0.0005),
+      plot.title =  element_markdown(
+                                   # hjust=0.5,
+                                    family = "Ubuntu",
+                                    size = 22,
+                                    color = "#808080",
+                                    face = "bold",
+                                    ),
+      #plot.title.position = "plot",
+     plot.caption = element_markdown(
+                                      family = "Ubuntu",
+                                      hjust=0.5,
+                                      #vjust=3,
+                                      size = 12,
+                                      color = "#808080",
+                                    ),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      legend.position="none"
+      ) +
+  ylim(0,50)
+
+
+
+```
+
+### Akute Schmerzen
+
+Akute Schmerzen dauern Sekunden bis maximal Wochen an und sind an erkennbare Auslöser gekoppelt.[@RKI2017] 
+
+### Chronische Schmerzen
+
+Chronische Schmerzen sind nicht zwingend an schädigende Faktoren gekoppelt und sind gekennzeichnet durch anhaltende oder wiederkehrende Schmerzen, die mindestens drei Monate andauern. [@RKI2017] 
+
+## Arthritis 
+
+
+
+## Arthrose
+
+## Entzündung 
 
 # Strahlentherapie
 
