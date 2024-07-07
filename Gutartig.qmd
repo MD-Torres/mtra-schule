@@ -199,6 +199,7 @@ ggplot(data, aes(x = Altersgruppe, y = Praevalenz, group = Geschlecht, color = G
 
 ```
 
+
 ### Akute Schmerzen
 
 Akute Schmerzen dauern Sekunden bis maximal Wochen an und sind an erkennbare Auslöser gekoppelt.[@RKI2017] 
@@ -225,6 +226,34 @@ Aktuell werden fünf Kardinalzeichen von Enzündung erkannt:
 - Funktionsverlust
 
 lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ;@InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021]
+
+Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden @tbl-UrsachenEntzundung
+
+```{r tbl-UrsachenEntzundung}
+#| label: tbl-UrsachenEntzundung
+
+
+
+# Bibliotheken laden
+library(gt)
+library(tidyverse)
+library(gtExtras)
+
+
+# Daten laden
+data <- read_csv("Daten/CausesInflamation.csv")
+
+# Tabelle erstellen und formatieren im NYT-Stil
+table <- data %>%
+  gt() %>%
+  gt_theme_nytimes()%>%
+  tab_header(
+    title = md("**Die ursachenbezogene Klassifizierung von Entzündungen**")
+  ) 
+
+table
+
+```
 
 ## Arthritis 
 
