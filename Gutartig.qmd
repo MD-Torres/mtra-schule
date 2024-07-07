@@ -14,6 +14,8 @@ execute:
 
 # Einführung 
 
+## Radioonkologie
+
 Die Radioonkologie wird weltweit durch Organisationen wie die ESTRO (Europa) und die ASTRO (USA) sowie andere nationale Gesellschaften vertreten. Die ESTRO konzentriert sich hauptsächlich auf die Strahlentherapie bei Krebs. In ihrem jüngsten Strategiepapier wird betont: „Es wird zwar anerkannt, dass sich die nicht-onkologischen Indikationen für die Strahlentherapie im Laufe der Zeit erweitern können, doch die formale Aufnahme des Begriffs ‚Onkologie‘ in das Visionspapier unterstreicht, dass die Hauptindikationen für die Strahlentherapie und damit der Schwerpunkt dieser Disziplin weiterhin in der Onkologie liegen." Die ASTRO konzentriert sich ebenfalls auf die Strahlentherapie bei Krebspatienten und erwähnt nicht ausdrücklich die Bestrahlung bei Nicht-Krebserkrankungen. [@IORBC]
 
 Die Nutzung der Strahlentherapie variiert stark je nach Erkrankung und Land. Zum Beispiel wird die Strahlentherapie im Vereinigten Königreich, in großen Teilen Europas und Nordamerikas nur selten für diese Indikationen verwendet [@McKeownEtAl2015].
@@ -122,42 +124,44 @@ theme(
 ```
 
 
+# Strahlentherapie
+
 # Schmerzlindernde Wirkung 
 
 # Antientzündliche Wirkung 
 
 In der Regel erfolgen 6 Bestrahlungen mit sehr niedrigen Einzeldosen von 0,5 Gy mit einer Gesamtdosis von 3,0 Gy inerhalb von 3 Wochen. Im Falle eines Teilerfolgs ist eine 2. Serie möglich.
 
-## Erkrankungen: 
+# Erkrankungen: 
 
-### Fersensporn
+## Fersensporn
 
-#### Ätiologie 
+### Ätiologie 
 
-#### Anatomie
+### Anatomie
 
-#### Histology
+### Histology
 
-#### Korrelation
+### Korrelation
 
-##### Alter
+#### Alter
 
-##### Geschlecht
+#### Geschlecht
 
-##### Gewicht
+#### Gewicht
 
-##### Fußstellung 
+#### Fußstellung 
 
-##### Plantar fasciitis
+#### Plantar fasciitis
 
-### Schmerzsyndrom der Achillessehne
-### Entzündung des Schultergelenks
-### Epicondylitis radialis/ulnaris
-### Arthrose 
-### Morbus Dupuytren
-### Morbus Ledderhose
-### Endokrine Orbitopatie
-### Meningiome
+## Schmerzsyndrom der Achillessehne
+## Entzündung des Schultergelenks
+## Epicondylitis radialis/ulnaris
+## Arthrose 
+## Morbus Dupuytren
+## Morbus Ledderhose
+## Endokrine Orbitopatie
+## Meningiome
 
 # Literaturverzeichnis 
 
