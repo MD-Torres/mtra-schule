@@ -33,7 +33,7 @@ Die Behandlung nicht-bösartiger Erkrankungen mit ionisierenden Strahlen in nied
 ```{r plt_PropGutartig}
 #| label: fig-plot-PropGutartig
 #| echo: false
-#| fig-cap: "Anteil benigner Erkrankungen oder Tumoren an der Anzahl der Strahlentherapien in Deutschland (2016) [@PoppEtAl2020] "
+#| fig-cap: "Anteil benigner Erkrankungen oder Tumoren an der Anzahl der Strahlentherapien in Deutschland [@PoppEtAl2020] "
 
 
 library(ggplot2)
@@ -230,7 +230,8 @@ Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden @tbl-Entzu
 ```{r, tblEntzundung}
 #| label: tbl-Entzundung
 #| echo: false
-#| tbl-cap: ""
+#| tbl-cap: "Die ätiologische Sichtweise auf Entzündungen bildet die Grundlage für ihre Klassifizierung nach einem ursachenabhängigen Mechanismus.[@HawigerZienkiewicz2019]"
+#| tbl-cap-location: bottom
 
 # Bibliotheken laden
 library(gt)
