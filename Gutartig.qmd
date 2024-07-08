@@ -133,7 +133,7 @@ In Deutschland 57,9 % der Frauen und 52,2 % der Männer geben an, in den letzten
 ```{r, plt_InzidGelenkschmerzen}
 #| label: fig-plot-InzidenzSchmerzen
 #| echo: false
-#| fig-cap: "Prävalenz von akuten Gelenkschmerzen in Deutschland nach Altersgruppen[@FuchsPruetz2017] "
+#| fig-cap: "Prävalenz von akuten Gelenkschmerzen in Deutschland nach Altersgruppen. Daten vom Robert Koch-Institut[@FuchsPruetz2017] "
   
 # Benötigte Bibliothek laden
 library(ggplot2)
@@ -227,7 +227,7 @@ lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz20
 
 Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden @tbl-Entzundung.
 
-```{r tbl-UrsachenEntzundung}
+```{r, tbl-Entzundung}
 #| label: tbl-Entzundung
 #| echo: false
 
