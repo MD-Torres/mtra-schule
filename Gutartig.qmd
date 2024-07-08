@@ -33,7 +33,7 @@ Die Behandlung nicht-bösartiger Erkrankungen mit ionisierenden Strahlen in nied
 ```{r plt_PropGutartig}
 #| label: fig-plot-PropGutartig
 #| echo: false
-#| out-width: 70% 
+##| out-width: 70% 
 #| fig-cap: "Anteil benigne Erkrankungen"
 
 
@@ -134,7 +134,7 @@ In Deutschland 57,9 % der Frauen und 52,2 % der Männer geben an, in den letzten
 ```{r, plt_InzidGelenkschmerzen}
 #| label: fig-plot-InzidenzSchmerzen
 #| echo: false
-#| out-width: 70% 
+##| out-width: 70% 
 #| fig-cap: ""
   
 # Benötigte Bibliothek laden
@@ -227,10 +227,10 @@ Aktuell werden fünf Kardinalzeichen von Enzündung erkannt:
 
 lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ;@InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021]
 
-Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden @fig-tblUrsachenEntzundung
+Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden @tbl-UrsachenEntzundung
 
 ```{r tbl-UrsachenEntzundung}
-#| label: fig-tblUrsachenEntzundung
+#| label: tbl-UrsachenEntzundung
 #| echo: false
 
 
