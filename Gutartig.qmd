@@ -135,7 +135,7 @@ In Deutschland 57,9 % der Frauen und 52,2 % der Männer geben an, in den letzten
 #| label: fig-plot-InzidenzSchmerzen
 #| echo: false
 ##| out-width: 70% 
-#| fig-cap: ""
+#| fig-cap: "Prävalenz von akuten Gelenkschmerzen in Deutschland nach Altersgruppen[@FuchsPruetz2017] "
   
 # Benötigte Bibliothek laden
 library(ggplot2)
