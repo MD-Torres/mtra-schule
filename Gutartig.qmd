@@ -33,7 +33,7 @@ Die Behandlung nicht-bösartiger Erkrankungen mit ionisierenden Strahlen in nied
 ```{r plt_PropGutartig}
 #| label: fig-plot-PropGutartig
 #| echo: false
-#| fig-cap: "Anteil benigne Erkrankungen"
+#| fig-cap: "Anteil benigner Erkrankungen oder Tumoren an der Anzahl der Strahlentherapien in Deutschland (2016) [@PoppEtAl2020] "
 
 
 library(ggplot2)
@@ -227,9 +227,10 @@ lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz20
 
 Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden @tbl-Entzundung.
 
-```{r, tbl-Entzundung}
+```{r, tblEntzundung}
 #| label: tbl-Entzundung
 #| echo: false
+#| tbl-cap: ""
 
 # Bibliotheken laden
 library(gt)
@@ -249,6 +250,7 @@ table <- data %>%
   ) 
 
 as_raw_html(table)
+
 
 ```
 
