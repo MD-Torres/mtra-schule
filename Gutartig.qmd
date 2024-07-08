@@ -251,8 +251,8 @@ table <- data %>%
     title = md("**Die ursachenbezogene Klassifizierung von Entzündungen**")
   ) 
 
-table
 
+as_raw_html(table)
 ```
 
 ## Arthritis 
