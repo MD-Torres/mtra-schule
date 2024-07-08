@@ -33,7 +33,6 @@ Die Behandlung nicht-bösartiger Erkrankungen mit ionisierenden Strahlen in nied
 ```{r plt_PropGutartig}
 #| label: fig-plot-PropGutartig
 #| echo: false
-##| out-width: 70% 
 #| fig-cap: "Anteil benigne Erkrankungen"
 
 
@@ -125,7 +124,7 @@ theme(
 
 ## Prävalenz von Gelenkschmerzen in Deutschland
 
-Gelenkbeschwerden und -schmerzen gehören weltweit zu den häufigsten Einschränkungen, die Menschen bei der Ausübung ihrer Alltagsaktivitäten Schwierigkeiten bereiten und ihre Lebensqualität verringern können.[@RKI2017] Diese sind häfiger im Alter @fig-plot-InzidenzSchmerzen
+Gelenkbeschwerden und -schmerzen gehören weltweit zu den häufigsten Einschränkungen, die Menschen bei der Ausübung ihrer Alltagsaktivitäten Schwierigkeiten bereiten und ihre Lebensqualität verringern können.[@FuchsPruetz2017] Diese sind häfiger im Alter @fig-plot-InzidenzSchmerzen
 
 Die Definition für Schmerz lautet nach der Weltschmerzorganisation International Association for the Study of Pain „ein unangenehmes Sinnes- und Gefühlserlebnis, das mit aktueller oder potentieller Gewebeschädigung verknüpft ist oder mit Begriffen einer solchen Schädigung beschrieben wird“ [@RajaEtAl2020]
 
@@ -134,7 +133,6 @@ In Deutschland 57,9 % der Frauen und 52,2 % der Männer geben an, in den letzten
 ```{r, plt_InzidGelenkschmerzen}
 #| label: fig-plot-InzidenzSchmerzen
 #| echo: false
-##| out-width: 70% 
 #| fig-cap: "Prävalenz von akuten Gelenkschmerzen in Deutschland nach Altersgruppen[@FuchsPruetz2017] "
   
 # Benötigte Bibliothek laden
@@ -202,11 +200,11 @@ ggplot(data, aes(x = Altersgruppe, y = Praevalenz, group = Geschlecht, color = G
 
 ### Akute Schmerzen
 
-Akute Schmerzen dauern Sekunden bis maximal Wochen an und sind an erkennbare Auslöser gekoppelt.[@RKI2017] 
+Akute Schmerzen dauern Sekunden bis maximal Wochen an und sind an erkennbare Auslöser gekoppelt.[@FuchsPruetz2017] 
 
 ### Chronische Schmerzen
 
-Chronische Schmerzen sind nicht zwingend an schädigende Faktoren gekoppelt und sind gekennzeichnet durch anhaltende oder wiederkehrende Schmerzen, die mindestens drei Monate andauern. [@RKI2017] 
+Chronische Schmerzen sind nicht zwingend an schädigende Faktoren gekoppelt und sind gekennzeichnet durch anhaltende oder wiederkehrende Schmerzen, die mindestens drei Monate andauern. [@FuchsPruetz2017] 
 
 
 ## Entzündung
@@ -227,12 +225,11 @@ Aktuell werden fünf Kardinalzeichen von Enzündung erkannt:
 
 lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ;@InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021]
 
-Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden @tbl-UrsachenEntzundung
+Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden @tbl-Entzundung.
 
 ```{r tbl-UrsachenEntzundung}
-#| label: tbl-UrsachenEntzundung
+#| label: tbl-Entzundung
 #| echo: false
-
 
 # Bibliotheken laden
 library(gt)
@@ -251,8 +248,8 @@ table <- data %>%
     title = md("**Die ursachenbezogene Klassifizierung von Entzündungen**")
   ) 
 
-
 as_raw_html(table)
+
 ```
 
 ## Arthritis 
