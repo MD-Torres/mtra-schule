@@ -23,7 +23,7 @@ Die Nutzung der Strahlentherapie variiert stark je nach Erkrankung und Land. Zum
 Trotzdem wird die Strahlentherapie schon lange für nicht-krebsartige Erkrankungen genutzt. Die erste gutartige Erkrankung, die mit Strahlentherapie behandelt wurde, war eine juvenile Arthritis im Jahr 1898. [@TorresRoyoEtAl2020]
 
 In Deutschland spielt die Strahlentherapie bei gutartigen Erkrankungen eine wichtige Rolle. Im Jahr 2016 wurden hier **258.946** gutartige entzündliche Erkrankungen und Tumoren (1%) mit Strahlentherapie behandelt.
-@fig-plot-PropGutartig zeigt, dass die Strahlentherapie sogar häufiger bei gutartigen als bei bösartigen Erkrankungen eingesetzt wurde [@PoppEtAl2020].
+[Abbildung @fig-plot-PropGutartig] zeigt, dass die Strahlentherapie sogar häufiger bei gutartigen als bei bösartigen Erkrankungen eingesetzt wurde [@PoppEtAl2020].
 
 Von den über 300 aktiven strahlentherapeutischen Einrichtungen in Deutschland bietet jede einzelne Strahlentherapie bei gutartigen Erkrankungen an.
 
@@ -119,12 +119,11 @@ theme(
                                     ),
       )
 
-
 ```
 
 ## Prävalenz von Gelenkschmerzen in Deutschland
 
-Gelenkbeschwerden und -schmerzen gehören weltweit zu den häufigsten Einschränkungen, die Menschen bei der Ausübung ihrer Alltagsaktivitäten Schwierigkeiten bereiten und ihre Lebensqualität verringern können.[@FuchsPruetz2017] Diese sind häfiger im Alter @fig-plot-InzidenzSchmerzen
+Gelenkbeschwerden und -schmerzen gehören weltweit zu den häufigsten Einschränkungen, die Menschen bei der Ausübung ihrer Alltagsaktivitäten Schwierigkeiten bereiten und ihre Lebensqualität verringern können.[@FuchsPruetz2017] Diese sind häfiger im Alter [Abbildung @fig-plot-InzidenzSchmerzen].
 
 Die Definition für Schmerz lautet nach der Weltschmerzorganisation International Association for the Study of Pain „ein unangenehmes Sinnes- und Gefühlserlebnis, das mit aktueller oder potentieller Gewebeschädigung verknüpft ist oder mit Begriffen einer solchen Schädigung beschrieben wird“ [@RajaEtAl2020]
 
@@ -267,7 +266,9 @@ Aktuell werden fünf Kardinalzeichen von Enzündung erkannt:
 
 lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ;@InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021]
 
-Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden @tbl-Entzundung.
+Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden [Tabelle @tbl-Entzundung]
+
+
 
 ```{r, tblEntzundung}
 #| label: tbl-Entzundung
