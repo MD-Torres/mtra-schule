@@ -152,16 +152,34 @@ ggplot(
     x = Altersgruppe, 
     y = Praevalenz, 
     group = Geschlecht, 
-    color = Geschlecht)) +
+    color = Geschlecht
+    )
+  ) +
   
   geom_line(size = 1) +
   
   geom_point(size = 3) +
   
   geom_text(
-    aes(label = paste0(
+    data = data %>% filter(Geschlecht == "Frauen"),
+    aes(
+      label = paste0(
       Praevalenz, 
-      "%")
+      "%"
+      )
+      ), 
+    vjust = -0.5,
+    family = "Ubuntu",
+    color = "#808080",
+    ) +
+  
+    geom_text(
+    data = data %>% filter(Geschlecht == "Männer"),
+    aes(
+      label = paste0(
+      Praevalenz, 
+      "%"
+      )
       ), 
     vjust = -0.5,
     family = "Ubuntu",
@@ -179,40 +197,42 @@ ggplot(
     title = "<p>Die Prävalenz von Gelenkschmerzen steigt <br>in <span style='color:#f5d438'>Frauen</span> und <span style='color:#9dccda'>Männer</span> <br>mit zunehmendem Alter</p>",
     x = "Altersgruppen in Jahre",
     y = "Prävalenz in Prozent (%)") +
+  
   theme_minimal() +
+  
   theme(
-      text = element_text(
-                        family = "Ubuntu", 
-                        color = "#D3D3D3",
-                        size = 14
-                        ),
+    text = element_text(
+      family = "Ubuntu", 
+      color = "#D3D3D3",
+      size = 14
+      ),
     axis.text = element_text(
-                            color = "#808080",
-                            size = 12
-                            ),
+      color = "#808080",
+      size = 12
+      ),
     axis.text.y = element_text(hjust = 1.5),
     axis.text.x = element_text(vjust = 4),
     axis.title.y = element_text(hjust = 1),
     axis.title.x = element_text(hjust = -0.0005),
     plot.title =  element_markdown(
-                                   # hjust=0.5,
-                                    family = "Ubuntu",
-                                    size = 22,
-                                    color = "#808080",
-                                    face = "bold",
-                                    ),
-      #plot.title.position = "plot",
-     plot.caption = element_markdown(
-                                      family = "Ubuntu",
-                                      hjust=0.5,
-                                      #vjust=3,
-                                      size = 12,
-                                      color = "#808080",
-                                    ),
+      # hjust=0.5,
+      family = "Ubuntu",
+      size = 22,
+      color = "#808080",
+      face = "bold",
+      ),
+    #plot.title.position = "plot",
+    plot.caption = element_markdown(
+      family = "Ubuntu",
+      hjust=0.5,
+      #vjust=3,
+      size = 12,
+      color = "#808080",
+      ),
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
-      legend.position="none"
-      ) +
+      legend.position="none",
+    ) +
   
   ylim(0,50)
 
