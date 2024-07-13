@@ -146,17 +146,39 @@ data <- data.frame(
 )
 
 # Steigungsdiagramm erstellen
-ggplot(data, aes(x = Altersgruppe, y = Praevalenz, group = Geschlecht, color = Geschlecht)) +
+ggplot(
+  data, 
+  aes(
+    x = Altersgruppe, 
+    y = Praevalenz, 
+    group = Geschlecht, 
+    color = Geschlecht)) +
+  
   geom_line(size = 1) +
+  
   geom_point(size = 3) +
-  geom_text(aes(label = paste0(Praevalenz, "%")), 
-            vjust = -0.5,
-            family = "Ubuntu",
-            color = "#808080",) +
-  scale_color_manual(values = c("Frauen" = "#f5d438", "Männer" = "#9dccda")) +
-  labs(title = "<p>Die Prävalenz von Gelenkschmerzen steigt <br>in <span style='color:#f5d438'>Frauen</span> und <span style='color:#9dccda'>Männer</span> <br>mit zunehmendem Alter</p>",
-       x = "Altersgruppen in Jahre",
-       y = "Prävalenz in Prozent (%)") +
+  
+  geom_text(
+    aes(label = paste0(
+      Praevalenz, 
+      "%")
+      ), 
+    vjust = -0.5,
+    family = "Ubuntu",
+    color = "#808080",
+    ) +
+  
+  scale_color_manual(
+    values = c(
+      "Frauen" = "#f5d438", 
+      "Männer" = "#9dccda"
+      )
+    ) +
+  
+  labs(
+    title = "<p>Die Prävalenz von Gelenkschmerzen steigt <br>in <span style='color:#f5d438'>Frauen</span> und <span style='color:#9dccda'>Männer</span> <br>mit zunehmendem Alter</p>",
+    x = "Altersgruppen in Jahre",
+    y = "Prävalenz in Prozent (%)") +
   theme_minimal() +
   theme(
       text = element_text(
@@ -172,7 +194,7 @@ ggplot(data, aes(x = Altersgruppe, y = Praevalenz, group = Geschlecht, color = G
     axis.text.x = element_text(vjust = 4),
     axis.title.y = element_text(hjust = 1),
     axis.title.x = element_text(hjust = -0.0005),
-      plot.title =  element_markdown(
+    plot.title =  element_markdown(
                                    # hjust=0.5,
                                     family = "Ubuntu",
                                     size = 22,
@@ -191,9 +213,8 @@ ggplot(data, aes(x = Altersgruppe, y = Praevalenz, group = Geschlecht, color = G
       panel.grid.minor = element_blank(),
       legend.position="none"
       ) +
+  
   ylim(0,50)
-
-
 
 ```
 
