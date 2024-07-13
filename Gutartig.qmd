@@ -168,10 +168,11 @@ ggplot(
       "%"
       )
       ), 
-    vjust = -0.5,
+    vjust = 2,
     family = "Ubuntu",
     color = "#808080",
     ) +
+  
   
     geom_text(
     data = data %>% filter(Geschlecht == "Männer"),
@@ -181,7 +182,7 @@ ggplot(
       "%"
       )
       ), 
-    vjust = -0.5,
+    vjust = -1.25,
     family = "Ubuntu",
     color = "#808080",
     ) +
@@ -208,7 +209,7 @@ ggplot(
       ),
     axis.text = element_text(
       color = "#808080",
-      size = 12
+      size = 14
       ),
     axis.text.y = element_text(hjust = 1.5),
     axis.text.x = element_text(vjust = 4),
