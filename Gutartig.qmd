@@ -266,7 +266,14 @@ Aktuell werden fünf Kardinalzeichen von Enzündung erkannt:
 
 lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ;@InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021]
 
-Darüber hinaus Entzündung kann je nach Ursache klassifiziert werden [Tabelle @tbl-Entzundung]
+Die zugrunde liegenden Mechanismen von Entzündung blieben bis zum 19. Jahrhundert unbekannt.
+Ilya I. Mechnikov  entdeckte die Phagozyten und definierte den Entzündungszustand als "Läsion der Gefäße, die von der reizenden Ursache angegriffen werden". Je nach Art der "reizenden Ursache" unterscheiden Hawiger und Zienkiewicz @HawigerZienkiewicz2019 folgende Arten von Entzündungen: mikrobielle, autoimmune, allergische, metabolische und physikalische s. auch [Tabelle @tbl-Entzundung].
+
+Weismann zählte jedoch mehrere Erkrankungen auf, die nicht mit den klassischen Entzündungszeichen einhergehen und für die Entzündungen verantwortlich gemacht werden, darunter: Atherosklerose, Fettleibigkeit, Depressionen, Alzheimer, Schizophrenie und Osteoporose.[@Weissmann2010]
+
+Erstaunlicherweise haben sogar soziale Isolation und Familienstand einen Einfluss auf die Entzündung und damit auf das Überleben. [@LaugesenEtAl2018; @HeffnerEtAl2011]
+
+
 
 
 
