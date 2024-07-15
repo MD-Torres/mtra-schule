@@ -74,7 +74,7 @@ Entzündung wird induziert, reguliert und aufgelöst. Dieses Prozes ist gefolgt 
 
 Mastzellen sind beispielhaft in der Enzündungsprozess involviert [Abbildung @fig-mastzellen].
 
-![Überblick über die Funktion der Mastzellen](Bilder/Mastzellen.png)
+![Überblick über die Funktion der Mastzellen](Bilder/Mastzellen.png){#fig-mastzellen}
 
 Und dennoch, lange bevor Entzündungsprozesse verstanden oder gar definiert werden konnten, wurden verschiedene therapeutische Ansätze zur Behandlung verschiedener Arten von Entzündungskrankheiten vorgeschlagen.[@Cavaillon2021]
 
