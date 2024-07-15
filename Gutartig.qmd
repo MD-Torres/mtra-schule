@@ -194,7 +194,7 @@ ggplot(
     ) +
   
   labs(
-    title = "<p>Die Prävalenz von Gelenkschmerzen steigt <br>in <span style='color:#f5d438'>Frauen</span> und <span style='color:#9dccda'>Männer</span> <br>mit zunehmendem Alter</p>",
+    title = "<p>Die Prävalenz von Gelenkschmerzen <br>steigt in <span style='color:#f5d438'>Frauen</span> und <span style='color:#9dccda'>Männer</span> <br>mit zunehmendem Alter</p>",
     x = "Altersgruppen in Jahre",
     y = "Prävalenz in Prozent (%)") +
   
