@@ -159,7 +159,7 @@ y una **reducción de la intensidad del tratamiento** al final de la vida." [@Cu
 
 # Primera perla 
 
-![](Bilder/Perla1.webp){.absolute Top=0 left=600  height="900"}
+![](Bilder/PearlNew.jpeg){.absolute top=-10 left=630 height="550"}
 
 
 
@@ -177,11 +177,11 @@ y una **reducción de la intensidad del tratamiento** al final de la vida." [@Cu
 
 ::: {.column}
 
-:::{.fragment .fade-in-then-semi-out} 
+:::{.fragment .fade-in-then-out} 
 Ya no podemos hacer nada
 :::
 
-:::{.fragment .fade-in} 
+:::{.fragment .fade-in-then-out} 
 Vamos a enfocar todos los tratamientos disponibles en mejorar la calidad de vida.  
 :::
 
