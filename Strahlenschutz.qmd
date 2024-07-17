@@ -1,0 +1,1652 @@
+---
+title: "Strahlenschutz"
+author: "Jorge Torres"
+---
+
+# Der Weg zur Fachkunde
+
+## Wer benötigt eine Fachkunde?
+
+Die (erforderliche) Fachkunde im Strahlenschutz benötigen:
+
+1.  der Strahlenschutzverantwortliche (SSV), sofern keine Strahlenschutzbeauftragten bestellt wurden
+2.  der (bestellte) Strahlenschutzbeauftragte (SSB)
+3.  Ärzte, die eigenverantwortlich Röntgenstrahlung, radioaktive Stoffe oder ionisierende Strahlung zur Untersuchung oder Behandlung am Menschen anwenden
+4.  Ärzte, die die rechtfertigende Indikation stellen
+5.  Ärzte, die in der Teleradiologie die Verantwortung für die Anwendung der Röntgenstrahlung haben
+6.  Ärzte, die die Anwendung (von Röntgenstrahlung, radioaktiven Stoffen oder ionisierender Strahlung) und die technische Durchführung beaufsichtigen und verantworten
+7.  Ärzte, die die Anwendung von Röntgenstrahlung, radioaktiven Stoffen oder ionisierender Strahlung am Menschen in der medizinischen Forschung leiten
+8.  Medizinphysik-Experten
+9.  Personen, die ohne ständige Aufsicht Untersuchungen oder Behandlungen mit Röntgenstrahlung, radioaktiven Stoffen oder ionisierender Strahlung technisch durchführen.
+
+Erforderliche Fachkunde bedeutet, dass die Fachkunde die durchgeführte Untersuchung oder Behandlung mit Röntgenstrahlung, radioaktiven Stoffen oder ionisierender Strahlung abdecken muss.
+
+Wer selbstständig, d.h. ohne Überwachung durch einen fachkundigen Arzt, arbeitet, benötigt die Fachkunde im Strahlenschutz.
+
+Wer benötigt lediglich Kenntnisse im Strahlenschutz?
+
+1.  Ärzte ohne erforderliche Fachkunde, die unter Aufsicht eines fachkundigen Arztes Röntgenstrahlung, radioaktive Stoffe oder ionisierende Strahlung anwenden (z.B. während dem Sachkundeerwerb)
+2.  Personen, die unter Aufsicht eines fachkundigen Arztes Untersuchungen oder Behandlungen technisch durchführen (z.B. MFA, OP-Pflege, OTA)
+3.  Ärzte am Untersuchungsort in der Teleradiologie
+
+## Wie kommt man zur Fachkunde?
+
+Voraussetzung für den Erwerb der Fachkunde ist eine geeignete, abgeschlossen Ausbildung (Ärzte: bestandene ärztliche Prüfung; Medizinphysiker: erfolgreich abgeschlossenes Studium). Die Kenntnisse und Fähigkeiten werden dann in Kursen und in praktischer Tätigkeit unter Aufsicht eines fachkundigen Arztes (für Medizinphysiker: eines Medizin-Physik-Experten (MPE)) erworben. Der Erwerb der Fachkunde wird durch die zuständigen Stellen (z.B. Landesärztekammer oder Aufsichtsbehörde) geprüft und bestätigt.
+
+### Wie erwirbt man die Fachkunde zur Anwendung von Röntgenstrahlung (früher: nach Röntgenverordnung)?
+
+Der Erwerb der Fachkunde beinhaltet den erfolgreichen Abschluss von mindestens zwei Kursen im Strahlenschutz (Grundkurs im Strahlenschutz und Spezialkurs zur Untersuchung mit Röntgenstrahlung) und den Nachweis von praktischen Erfahrungen im Umgang mit der Anwendung von Röntgenstrahlung am Menschen, der sogenannten Sachkunde. Zum Erwerb der Sachkunde sind als Arzt Kenntnisse im Strahlenschutz notwendig, die durch einen theoretischen Kursteil (oft im Grundkurs integriert) und eine praktische Unterweisung am Arbeitsort erworben werden.
+
+Für besondere Anwendungen im Bereich der interventionellen Radiologie wird zusätzlich noch der erfolgreiche Abschluss des Spezialkurses Interventionen und für die Gesamtfachkunde als Radiologe neben dem Spezialkurs Interventionen noch der Spezialkurs Computertomographie gefordert. Bei Beantragung der Fachkunde darf der letzte Strahlenschutzkurs nicht länger als fünf Jahre zurückliegen. Wie erwirbt man die Fachkunde zur Anwendung von radioaktiven Stoffen oder ionisierender Strahlung (früher: nach Strahlenschutzverordnung)?
+
+Voraussetzung für den Fachkunde-Erwerb ist ebenfalls eine für die jeweiligen Aufgaben geeignete Berufsausbildung. Vor Beginn des Sachkundeerwerbs müssen die erforderlichen Kenntnisse im Strahlenschutz erworben werden. Für Ärzte ist dies durch den Grundkurs im Strahlenschutz in Verbindung mit einer Einweisung am Arbeitsplatz (4 UE) belegt. Der Sachkundeerwerb erfolgt unter ständiger Aufsicht einer Person mit der erforderlichen Fachkunde im Strahlenschutz. Der Grundkurs im Strahlenschutz muss je nach Anwendungsbereich durch einen Spezialkurs zum Umgang mit offenen radioaktiven Stoffen in der Nuklearmedizin, einen Spezialkurs in der Teletherapie oder einen Spezialkurs in der Brachytherapie ergänzt werden. Bei Beantragung der Fachkunde darf der letzte Strahlenschutzkurs nicht länger als fünf Jahre zurückliegen.
+
+## Voraussetzungen Röntgendiagnostik
+
+Theoretisches Wissen und praktische Erfahrung in dem jeweiligen Anwendungsgebiet ist unter ständiger Aufsicht einer Person mit der erforderlichen Fachkunde im Strahlenschutz \[in einer Einrichtung innerhalb Deutschlands\] zu erwerben.
+
+Die drei Elemente der Anwendung von Röntgenstrahlung sind dabei in angemessener Gewichtung zu berücksichtigen:
+
+-   Stellen der rechtfertigenden Indikation
+-   Technische Durchführung
+-   Befundung
+
+## Voraussetzungen Nuklearmedizin
+
+Theoretisches Wissen und praktische Erfahrung in dem jeweiligen Anwendungsgebiet ist unter ständiger Aufsicht einer Person mit der erforderlichen Fachkunde im Strahlenschutz \[in einer Einrichtung innerhalb Deutschlands\] zu erwerben. Die drei Elemente der Anwendung von radioaktiven Stoffen sind dabei in angemessener Gewichtung zu berücksichtigen:
+
+-   Stellen der rechtfertigenden Indikation
+-   Technische Durchführung
+-   Befundung
+
+Der Gesamtbereich Nuklearmedizin erfordert eine Sachkundezeit von 36 Monaten und beinhaltet Diagnostik und Therapie. Dabei sind Mindestzeiten von 24 Monaten für die Diagnostik und 6 Monate für die Therapie vorgeschrieben.
+
+Die Fachkunde A 1 2.1.4 mit einer Zeit des Sachkundeerwerbs von 24 Monaten kann von Ärzten erworben werden, die bereits die Fachkunde für den Gesamtbereich der Röntgendiagnostik besitzen und die diejenigen Fachkunden der Nuklearmedizin erwerben wollen, die z. B. für den Betrieb von Hybridsystemen wie PET/CT oder SPECT/CT notwendig sind.
+
+## Voraussetzungen Strahlentherapie
+
+## Das Wichtigste in Kürze
+
+Die Anforderung einer Untersuchung (= Stellen der medizinischen Indikation) mit ionisierender Strahlung (Röntgenuntersuchung, nuklearmedizinische Untersuchung) darf jeder Arzt (= Zuweiser). Die Anwendung ionisierender Strahlung (Röntgen, radioaktive Stoffe) anordnen (= Stellen der rechtfertigenden Indikation) darf nur der fachkundige Arzt. Der Erwerb der Fachkunde besteht aus theoretischem Wissen (= Strahlenschutzkurs, mindestens Grund- und Spezialkurs im Strahlenschutz) und dem Nachweis praktischer Fertigkeiten (= Sachkunde: dokumentierte Untersuchungszahlen und -zeiten).
+
+# Grundlagen Strahlenphysik
+
+## Strahlenphysik
+
+### Aufbau der Materie
+
+Aufbau der Materie - Geschichte
+
+-   Urstoff = Wasser (Thales von Milet ca. 600 v.Chr.)
+-   Atom (Leukippos ca. 500 v.Chr.)
+-   Partikell-Model = Kugel (Boltzmann 1844-1905)
+-   „Melonen'-Model (Thompson 1904),
+    -   Melonenkerne = negative Ladungen
+-   Kern + Hülle (Rutherford 1911 und Bohr 1913)
+-   Kern = Neutronen + Protonen (Neuzeit)
+-   Protonen, Neutronen = je 3 Quarks
+-   Quarks = ?
+
+Für das weitere Verständis im Rahmen dieses Kurses wird das Bohr'sche Atommodell angenommen, bestehend aus einem Kern aus Protonen (positiv geladen) und Neutronen (Ausnahme: der Wasserstoffkern besteht nur aus einem Proton) und einer Hülle in der sich die Elektronen (negativ geladen) auf definierten Bahnen (Schalen) um den Kern bewegen.
+
+Für den Kern bzw. für das Verständnis des radioaktiven Zerfalls müssen noch kurz die unterschiedlichen Zusammensetzungen der Kerne betrachtet werden. Die Anzahl der Protonen im Kern bestimmt die Kernladungszahl (= Ordnungszahl) und damit das Element selbst. Die Zahl der Neutronen im Kern wiederum bestimmt die unterschiedlichen Isotope eines Elements über die unterschiedliche Massenzahl (= Gesamtzahl der Teilchen im Kern = Summe ans Protonen und Neutronen).
+
+### Entstehung und Eigenschaften ionisierende Strahlung
+
+Was ist ionisierende Strahlung?
+
+Strahlung: gerichtete Ausbreitung von Teilchen und / oder Energie Ionisation: Ladungserzeugung, Ladungstrennung
+
+Um Atome zu ionisieren, also Elektronen aus der Atomhülle zu entfernen, muss Energie aufgewendet werden.
+
+Ionisierende Strahlung ist also die gerichtete Ausbreitung von Teilchen / Energie, die genügend Energie haben, um in Materie zu Ladungstrennung zu führen.
+
+Ionisierende Strahlung läßt sich dabei in zwei Erscheinungsformen einteilen:
+
+1.  Teilchenstrahlung aus bewegten geladenen oder ungeladenen Teilchen
+2.  Wellenstrahlung als reine Ausbreitung von Energie ohne Kopplung an Materie
+
+Wellenstrahlung wird auch als Photonenstrahlung bezeichnet.
+
+Die rot markierten Strahlenarten bestehen dabei selbst aus geladenen Teilchen. Bei den anderen Strahlenarten entsteht die Ionisation grundsätzlich erst durch die Wechselwirkung mit Materie, man bezeichnet sie auch als indirekt ionisierende Strahlung.
+
+Den Ursprungsort der ionisierenden Strahlung nennt man (Strahlen-)Quelle. Die Strahlung entsteht dort
+
+-   durch radioaktiven Zerfall (Radionuklid) oder
+-   durch technische Maßnahmen um Teilchen zu beschleunigen (Beschleuniger) oder
+-   durch das Abbremsen schneller geladener Teilchen in Materie (Bremsstrahlungserzeugung: z.B. in Röntgenröhre, medizinischem Linearbeschleuniger oder Abschirmung von Beta-Minus-Strahlern).
+
+### Erzeugung von Wellenstrahlung
+
+Wellenstrahlung ist im Alltag häufig zu finden: WLAN, Funkwellen, Radiowellen, Mikrowellen, sichtbares Licht oder UV-Strahlung. Diese unterscheiden sich in ihrer Frequenz (bzw. Wellenlänge:$$ \lambda = \frac{c}{f} $$).
+
+Die Energie der Wellenstrahlung, also die Energie der Photonen der Wellenstrahlung, ist proportional zur Frequenz: $$ E = h \times f $$ In der nachfolgenden Tabelle zum Spektrum elektromagnetischer Wellen nimmt die Energie der Strahlung demnach nach unten hin zu. Als Einheit für die Energie der Wellenstrahlung wird meist Elektronenvolt (eV) verwendet. Ein eV ist die kinetische Energie eines einfach gelandenen Teilchens (z.B. eines Elektrons), welches durch ein elektrisches Feld mit der Spannung von 1 Volt beschleunigt wurde. Als Vielfache werden 1000 eV = 1 keV und 1000 keV = 1 MeV verwendet.
+
+Noch höhere Energie als Licht besitzt Röntgenstrahlung und Gammastrahlung (im roten Kasten unten). Um ionisierende Strahlung zu werden, muss Wellenstrahlung eine gewisse Energie überschreiten. Diese liegt im oberen Bereich der UV-Strahlung.
+
+Die Erzeugung der Röntgenstrahlung erfolgt z.B. in einer Röntgenröhre. An der (Glüh-)Kathode werden Elektronen emittiert, also aus dem Glühfaden durch Hitze herausgeschleudert. Durch die zwischen Kathode und Anode angelegte Hochspannung (Röhrenspannung, Beschleunigungsspannung) von 30.000 bis 150.000 Volt (30 kV bis 150 kV) werden diese Elektronen stark beschleunigt. Mit hoher Geschwindigkeit, also großer kinetischer Energie, treffen sie auf die Anode auf und werden dort in kürzester Zeit sehr stark abgebremst. Bei diesem Abbremsen der negativ geladenen Elektronen wird die kinetische Energie in Wellenstrahlung umgewandelt.
+
+Diese Wellenstrahlung wird nach ihrem Entstehungsprozess Bremsstrahlung genannt. Je nachdem, ob die Energie dabei auf einmal oder schrittweise übertragen wird, haben die Photonen der Wellenstrahlung unterschiedliche Energie. Da gleichzeitig sehr viele Elektronen an der Anode eintreffen und umgewandelt werden, verteilt sich die Energie der Wellenstrahlung statistisch zwischen 0 und einer maximalen Energie. Photonen mit maximaler Energie entstehen, wenn die Bewegungsenergie auf einmal umgewandelt wird. Die maximale Energie ist proportional zur Röhrenspannung: Eine Röhrenspannung von 72 kV erzeugt Wellenstrahlung mit Photonen zwischen 0 keV und 72 keV. Das Spektrum, d.h. die Energieverteilung der Photonen einer Röntgenröhre, zeigt dabei das nachfolgende Bild:
+
+Weitere Möglichkeiten zur Erzeugung ionisierender Wellenstrahlung sind:
+
+-   der Gamma-Zerfall, zum Beispiel des Kobaltisotops Co-60 oder des Technetiumisotops Tc-99m, oder
+-   die Verwendung von Linearbeschleunigern in der Strahlentherapie.
+
+In Linearbeschleunigern werden, wie in Röntgenröhren, Elektronen beschleunigt und dann zur Erzeugung von Bremsstrahlung schlagartig abgebremst. Durch eine andere Technik zur Beschleunigung können kinetische Energien von mehreren Millionen eV (= MeV) erreicht werden. Dank der höheren Energie hat die Wellenstrahlung eine größere Eindringtiefe in den Körper.
+
+### Radioaktivität, -nuklide
+
+Als Radionuklide bezeichnet man die Isotope eines Elements, die instabil sind, also zerfallen können. Häufig haben sie einige Neutronen mehr oder weniger im Atomkern als die stabilen Isotope eines Elements. In einer Nuklidkarte kann man ablesen, welche Isotope stabil und welche instabil sind. Dort sind in jeder Zeile alle bekannten Isotope eines Elements aufgeführt, also konstanter Ordnungszahl und zunehmender Neutronenanzahl im Atomkern. In jeder Spalte befinden sich Nuklide gleicher Neutronenanzahl.
+
+Nuklidkarte Segre von Matt (basierend auf einem Werk von Napy1kenobi bearbeitet durch Sjlegg), lizensiert unter CC BY-SA 3.0 Beim radioaktiven Zerfall, der spontan bei den verschiedenen Elementen auftreten kann oder im Rahmen der Kernspaltung bzw. -fusion künstlich erzeugt wird, unterscheidet man drei Zerfallsarten.
+
+#### 1. Der Alpha-Zerfall
+
+Hier wird aus dem Atomkern eines Elements ein Helium-Kern (2 Protonen und 2 Neutronen) herausgelöst. Dadurch entsteht eines neue Element mit einer um 2 niedrigeren Ordnungszahl und einer um 4 Teilchen verringerten Masse.
+
+Im obigen Beispiel wird aus Radium (Ra, Ordnungszahl 88, Massenzahl 226) durch den Alpha-Zerfall Radon (Rn mit Ordnungszahl 86 und nur noch 222 Teilchen statt 226). Neben dem Heliumkern, der aus dem Kern emittiert wird, wird gleichzeitig auch noch eine definierte Menge an Energie freigesetzt.
+
+#### 2a. Der Beta-Minus-Zerfall
+
+Hier wird aus dem Atomkern eines Elements ein Elektron herausgelöst. Dazu muß sich im Atomkern ein Neutron (n) in ein Proton (p) und ein Elektron (e-) umwandeln. Dadurch entsteht ein neues Element mit einer um 1 höheren Ordnungszahl, aber gleicher Massenzahl.
+
+Bei diesem Prozeß muss aus Energie- und Impulserhaltungsgründen noch ein weiteres Teilchen entstehen, das sogenannte Anti-Neutrino (das im weiteren aber keine Rolle spielt). Auch hier wird neben den Teilchen wiederum Energie freigesetzt. Nachfolgend finden sich zwei Beispiele für den Beta-Minus-Zerfall:
+
+1.  Kobalt Co-60 zerfällt in Nickel Ni
+2.  Phosphor P-32 zerfällt in Schwefel S
+
+#### 2b. Der Beta-Plus-Zerfall
+
+Bei dieser Zerfallsart entsteht ein Teilchen, das dem Elektron sehr ähnlich ist, jedoch über eine positive Ladung verfügt. Dieses sogenannte Positron ist als Elementarteilchen nicht beim Aufbau der Materie beteiligt. Es handelt sich hierbei um sogenannte "Anti-Materie".
+
+Aus dem Atomkern eines Elementes wird ein Positron herausgelöst. Dazu muß im Kern eine Umwandlung eines Protons (p) in ein Neutron (n) und ein Positron (e+) erfolgen. Dadurch entsteht ein neues Element mit einer um 1 niedrigeren Ordnungszahl, aber gleicher Massenzahl.
+
+Bei diesem Prozeß muss aus Energie- und Impulserhaltungsgründen ebenfalls noch ein weiteres Teilchen entstehen, das sogenannte Neutrino, das im weiteren aber keine Rolle mehr spielt. Ebenso wie zuvor entsteht beim Zerfall eine definierte Menge an Energie.
+
+#### 3. Der Gamma-Zerfall
+
+Bei dieser Zerfallsart entsteht kein Teilchen, sondern eine Wellenstrahlung mit Photonen einer genau definierten Energie.
+
+Aus dem Atomkern eines Elements, der sich in einem höheren energetischen Zustand befindet (eine Art Überschußenergie besitzt), wird dieser Energieüberschuß durch das Aussenden eines Photons abgebaut. Das Element ändert sich in diesem Fall also selbst nicht.
+
+Der Energieüberschuss kann zum Beispiel folge eines vorherigen Alpha- oder Beta-Zerfalls sein.
+
+Als Beispiel für den Gamma-Zerfall kann wieder das Kobalt Co-60 betrachtet werden. Anschliessend an den oben bereits beschriebenen Zerfallsprozeß als Beta-Minus-Zerfall entsteht ein Nickelisotop, das sich aber durch eine Überschußenergie auszeichnet. Für die Rückkehr in den energetischen Grundzustand wird diese Überschußenergie in einem weiteren Schritt in Form eines Gamma-Zerfalls abgebaut. Der Zustand mit Überschussenergie wird auch als metastabil bezeichnet und ist im Beispiel mit einem \* am Elementnamen (z.B. Ba\*) oder einem angefügten m an der Massenzahl (z.B. Ba-137m) gekennzeichnet.
+
+Cäsium Cs-137 ist als umschlossener Prüfstrahler gebräuchlich, zum Anderen ist es ein langlebiges freigesetztes Isotop aus Reaktorunfällen. Es zerfällt im Beta-Minus-Zerfall zu Barium. Strahlenschutztechnisch relevanter ist der folgende Gamma-Zerfall, bei dem Photonen mit einer Energie von etwa 660 keV freigesetzt werden.
+
+Gamma- und Röntgenstrahlung sind beides Wellenstrahlung. Ihr prägender Unterschied liegt im Energiespektrum der Photonen:
+
+-   Gammastrahlung besitzt ein Linienspektrum, alle Photonen haben also eine oder ein paar wenige, fest bestimmte Energien.
+-   Röntgenstrahlung besitzt ein Bremsstrahlungsspektrum, enthält also Photonen aller Energien von 0 bis zur Maximalenergie (aus der Beschleunigungsspannung abgeleitet).
+
+Dadurch unterscheiden sich Gamma- und Röntgenstrahlung in ihrem Verhalten, wenn sie in Materie geschwächt werden.
+
+### Hlabwertszeit
+
+Durch den radioaktiven Zerfall des Atomkerns werden Atome vom Mutternuklid zum Tochternuklid umgewandelt. Der Zerfall eines einzelnen Atomkerns ist ein Zufallsereignis, d.h. der Zeitpunkt des Zerfalls eines einzelnen Atomkerns kann nicht vorhergesagt werden. Betrachtet man jedoch eine größere Menge an Atomkernen, lässt sich für dieses Radionuklid die Wahrscheinlichkeit bestimmen, dass es in einer bestimmten Zeit zerfällt.
+
+Durch den Zerfall des Radionuklids nimmt die Anzahl der Atome des Mutternuklids mit der Zeit ab, diesen Prozess beschreibt das Zerfallsgesetz. Die Anzahl der Atome des Mutternuklids nimmt mit der Zeit exponentiell ab. Wie schnell dies geschieht, beschreibt die Zerfallskonstante, sie ist vom Nuklid abhängig.
+
+Je mehr radioaktive Atomkerne vorhanden sind, desto häufiger zerfällt ein Kern. Die Anzahl der Zerfälle eines radioaktiven Stoffs pro Sekunde bezeichnet man als Aktivität und misst sie in Becquerel Bq. Ein Becquerel entspricht einer Aktivität von einem Zerfall pro Sekunde. Die Aktivität einer Menge eines radioaktiven Stoffes ist also abhängig von
+
+-   der Anzahl an Atomkernen und
+-   der Zerfallskonstante
+
+Zahl der Zerfälle/Zeit = dN/dt hängt ab von:
+
+-   N = Anzahl der vorhandenen Kerne
+-   Aktivität:
+    -   Einheit Bq; 1 Bq = 1 Zerfall/Zeit
+    -   historisch: 1 Ci = 37 GBq = 3,7 \* 101º Bq Anzahl der Zerfälle/s in 1 g Radium
+
+Da mit dem Zerfall die Anzahl der radioaktiven Atomkerne abnimmt, nimmt die Aktivität ebenso exponentiell ab. Die Aktivität ist gut zu messen, somit wird der radioaktive Zerfall meist über die Änderung der Aktivität statt über die Änderung der Anzahl der radioaktiven Atome beschrieben.
+
+Aktivität: $A=\lambda\times N$
+
+Mittlere Lebensdauer: $N=\frac {N_0}{e}$ $\tau=\frac {1}{\lambda}$
+
+Halbwertszeit $N=\frac{N_0}{2}$
+
+Nach einer gewissene Zeit ist die Hälfte der Atome vom Mutternuklid zum Tochternuklid zerfallen, d.h. die Aktivität des Radionuklids ist nur noch halb so groß. Diese Zeit bezeichnet man als Halbwertszeit T1/2. Die Halbwertszeit leitet sich von der Zerfallskonstante ab, ist also ebenfalls nuklidspezifisch. Nach einer weiteren Halbwertszeit ist dann noch die Hälfte der Hälfte, also ein Viertel der Atome des Mutternuklids vorhanden. Dies setzt sich fort: nach drei Halbwertszeiten noch 1/2*1/2*1/2 = 1/8, ...
+
+Wie der obigen Tabelle leicht entnommen werden kann, ist die Ausgangsaktivität erstmals nach vier Halbwertszeiten unter 10% abgesunken (bei drei Halbwertszeiten sind es ja noch 12,5%). Nach zehn Halbwertszeiten hat die Aktivität auf 0,1% = 1 Promille abgenommen.
+
+Je nach Element können die Halbwertszeiten Werte von Sekunden bis tausende Jahre betragen. Nachfolgend findet man einige Beispiele:
+
+### Wechselwirkung von Wellenstrahlung
+
+Geht Strahlung durch Materie hindurch, zum Beispiel bei einer Röntgenaufnahme durch den Thorax der Patientin, kommt hinten weniger Strahlung heraus, als vorne eingetreten ist. Die Strahlungsmenge wird also beim Durchgang durch Materie geringer. Dies ist abhängig von:
+
+1.  der Strahlenart,
+2.  der Materie (Ordnungszahl, Dichte) und
+3.  der Dicke, die von der Strahlung durchdrungen wird.
+
+Zunächst betrachten wir nur Wellenstrahlung, also Photonen. Zur Wechselwirkung von Teilchenstrahlung (geladene Teilchen) folgt auf der nächsten Seite ein kurzer Überblick.
+
+Wellenstrahlung können wir nochmals aufteilen:
+
+-   monoenergetische Wellenstrahlung (Linienspektrum), wie sie beim Gamma-Zerfall emittiert wird, und
+-   heterogene Wellenstrahlung (Bremsstrahlungsspektrum), wie sie zum Beispiel in der Röntgenröhre erzeugt wird.
+
+Im Folgenden starten wir mit monoenergetischer Wellenstrahlung, d.h. alle Photonen haben die gleiche Energie. Weiter unten folgt die Erweiterung auf multienergetische Röntgenstrahlung.
+
+Geht **monoenergetische Wellenstrahlung** durch eine dünne Schicht Materie hindurch, kommt hinten weniger Strahlung heraus. Ein Teil der Strahlung wird in der Materie absorbiert. Stapelt man mehrere dünne Absorberschichten hintereinander, kommt immer weniger Strahlung hinten heraus.
+
+Bei einer bestimmten Dicke des Absorbermaterials kommt hinten genau die Hälfte der Strahlung heraus, die vorne eingestrahlt wurde. Diese Dicke nennt man Halbwertsschicht (auch Halbwertsdicke), sie ist von der Energie der Wellenstrahlung und dem Absorbermaterial abhängig.
+
+Verdoppelt man nun die Absorberdicke, also stellt man nochmals genauso viel des gleichen Materials hinzu, kommt nur noch ein Viertel der eingestrahlten Strahlung hinten wieder heraus. Mit drei Halbwertschichtdicken wird die Strahlung im Absorber auf 1/2 \* 1/2 \* 1/2 = 1/8 gesenkt.
+
+Die Absorption, oder **Schwächung**, von monoenergetischer Wellenstrahlung ist also ebenfalls ein exponentieller Abfall:
+
+$$ I(d) = I_0 \times e^ {-\mu \times d} $$
+
+Die Stärke der Absorption, die der **Schwächungskoeffizient** $\mu$ beschreibt, ist um so größer,
+
+-   je höher die Ordnungszahl des Absorbermaterials,
+-   je höher die Dichte des Materials und
+-   je geringer die Energie der Wellenstrahlung.
+
+Blei schwächt also besser als Kunststoffe; massives Material besser als ein Schaum. Je höher die Energie der Wellenstrahlung, desto dicker müssen die Abschirmdicken sein.
+
+Röntgenstrahlung, also heterogene Wellenstrahlung, setzt sich aus Photonen geringerer wie höherer Energie zusammen. In Materie werden die Photonen geringerer Energie stark geschwächt, während die Photonen höherer Energie nur gering geschwächt werden. Nach dem Durchgang durch die Absorberschicht ist die Strahlung insgesamt weniger geworden, jedoch ist der relative Anteil höherenergetischer Photonen im Spektrum größer geworden. Das Energiespektrum der Strahlung verschiebt sich also zu höheren Energie. Man bezeichnet dies als Aufhärtung der Röntgenstrahlung.
+
+Da die mittlere Energie dieser aufgehärteten Röntgenstrahlung nun höher ist, führt eine weitere Absorberschicht gleicher Dicke nur noch zu einer geringeren Absorption. Anders herum ausgedrückt, nimmt die nötige Absorberdicke für die zweite Halbwertsschicht zu.
+
+Im Strahlenschutz nutzt man dieses Wissen, um die niederenergetischen Anteile, die stark zur Patientendosis aber kaum zur Bildinformation beitragen, durch Vorfilter aus Kupfer oder Aluminium schon direkt an der Röntgenröhre herauszufiltern. Bei Kindern, die besonders strahlenempfindlich sind, werden zusätzliche Vorfilter verwendet. Auch die Hartstrahltechnik, z.B. bei der Thoraxaufnahme, nutzt eine hohe Röhrenspannung, idealerweise in Kombination mit Zusatzfilterung, bei kontrastreichen Gewebeunterschieden (Knochen/Gewebe, Luft/Gewebe) um die Patientendosis bei der Bildgebung zu reduzieren.
+
+### Wechselwirkung geladener Teilchen
+
+Während die ungeladenen Photonen der Wellenstrahlung eine relativ geringe Wahrscheinlichkeit haben, mit den Atomen des Absorbermaterials in Wechselwirkung zu treten, haben die geladenen Alpha-Teilchen oder Elektronen (Beta-Minus-Zerfall) fast 100% Wechselwirkungswahrscheinlichkeit. In der Regel wird dabei pro Wechselwirkung mit einem Atom des Absorbers nur eine sehr geringe Energie übertragen, so dass es bis zu vollständigen Absorption zu einer Vielzahl an Wechselwirkungen kommt. Die Teilchen werden also langsam abgebremst, ohne dass sich die Anzahl der Teilchen nennenswert ändert. Die Wechselwirkung zwischen geladenem Teilchen und Atom (Hülle, einzelnes Elektron oder Atomkern) führt zudem in der Regel zu einer Richtungsänderung des geladenen Teilchens.
+
+Dementsprechend kann man sich die Wechselwirkung geladener Teilchen als vielfach geknickten Weg des Teilchens im Absorbermaterial vorstellen. Die (ungeknickte) Weglänge ist von der Anfangsenergie der Teilchenstrahlung sowie dem Absorbermaterial abhängig. Ist die Absorberdicke größer als die maximale Weglänge der Teilchen, kann kein Teilchen den Absorber mehr verlassen. Ist die Absorberdicke geringer, können einige Teilchen an der Rückseite austreten.
+
+Bei leichten Strahlungsteilchen, also Beta-Minus-Strahlung, und schweren Absorberatomen (hohe Ordnungszahl) dominiert die Strahlungsbremsung als Wechselwirkungsart. Dabei werden die Elektronen im Ladungsfeld des Atomkerns abgelenkt und geben Energie als Bremsstrahlung, also Wellenstrahlung, ab. Aus Strahlenschutzssicht ist es daher bei Beta-Minus-Strahlern sinnvoll, zur Abschirmung Materialien niedrigerer Ordnungszahl einzusetzen, um Bremsstrahlungserzeugung zu verhindern.
+
+## Strahlenschutz
+
+### Natürliche und zivilisatorische Strahlenexposition
+
+Die natürliche Strahlenexposition besteht aus 3 Hauptkomponenten:
+
+1.  Inhalation und Ingestion
+2.  Terrestrische Strahlung
+3.  Kosmische Strahlung
+
+#### Inhalation und Ingestion
+
+Aufnahme radioaktiver Stoffe durch Atmung und Nahrung, insbesondere durch
+
+-   Einatmen von Radon-222 (radioaktives Edelgas aus Erdboden, Gesteinen, Baumaterialien) \[Anteil ca. 1,3 mSv/Jahr\]
+-   Aufnahme von Kalium-40 (in geringem Anteil in der natürlichen Verteilung der Kalium-Isotope vorhanden) \[Anteil ca. 0,3 mSv/Jahr\]
+
+Radon-222 ist reiner Alpha-Strahler, in der Zerfallsreihe folgen aber auch Beta-Minus-Zerfälle, begleitet von Gamma-Strahlung. Die Dosis wird in der Lunge deponiert. Kalium-40 ist überwiegend Beta-Minus-Strahler, der Anteil im Körper bleibt durch den Kalium-Stoffwechsel etwa konstant.
+
+#### Terrestrische Strahlung (Bodenstrahlung)
+
+-   Gamma-Exposition, hervorgerufen durch natürlich vorkommende Radionuklide in der Erdkruste
+-   abhängig von Nuklidgehalt des Bodens und Art des Gesteins, daher stark ortsabhängig
+-   mittlere Exposition in Deutschland ca. 0,5 mSv/Jahr
+
+#### Kosmische Strahlung
+
+Hervorgerufen durch hochenergetische Teilchen aus dem Weltall Strahlenexposition stark höhenabhängig:
+
+-   Meereshöhe: ca. 0,25 mSv/Jahr
+-   Zugspitze (3000m): ca. 1,0 mSv/Jahr
+-   Flug in 10 km Höhe: ca. 0,01 mSv/Stunde
+
+#### Vom Menschen künstlich erzeugte Strahlenexposition entsteht durch:
+
+-   Kerntechnische Anlagen \[unter 0,01 mSv/Jahr\]
+-   Fallouts der Atombombenversuche \[unter 0,01 mSv/Jahr\]
+-   Anwendung ionisierender Strahlung in der Medizin
+
+Die zivilisatorische Strahlenexposition ist nahezu ausschliesslich auf die Anwendung ionisierender Strahlung in der Medizin zurückzuführen. Auf die Anwendung von Röntgenstrahlung entfallen dabei mit knapp 2 mSv/Jahr etwa 90% der Strahlenexposition aus der Medizin.
+
+Die Verteilung der medizinischen Exposition ist stark auf wenige Personen konzentriert, somit ist Nutzung der durchschnittlichen Exposition trügerisch. Dazu kommt, dass medizinische Exposition im Gegensatz zu allen anderen Expositionsarten sehr ungleich auf die Altersgruppen verteilt ist.
+
+Während CT und Angiographie / Interventionen nur zu ca. 11% der gesamten Untersuchungszahlen/-häufigkeit beitragen, liegt ihr Anteil an der damit zusammenhängenden Kollektivdosis bei 82%! Hieraus leitet sich der starke Fokus des Strahlenschutzes in der Medizin auf die Anwendungen Computertomographie und Angiographie / durchleuchtungsgestützte Interventionen ab.
+
+### Einführung zum Strahlenschutz
+
+Strahlenschutz dient dazu, Menschen und Umwelt vor der schädigenden Wirkung von ionisierender (und nicht-ionisierender) Strahlung zu schützen.
+
+Maßnahmen zum Strahlenschutz setzen dabei auf vielen Ebenen an:
+
+-   baulich - durch die Schaffung geeigneter Räumlichkeiten,
+-   apparativ - in der passenden Konstruktion und Konfiguration von Geräten und Einrichtungen,
+-   organisatorisch - durch Arbeitsanweisungen, Verhaltensvorschriften, Risiko- und Qualitätsmanagement und geeignete Personalausstattung,
+-   dosimetrisch - in der Überwachung der Personendosen und der ärztlichen Überwachung
+-   sowie im Verhalten jeder einzelnen strahlenexponierten Person.
+
+Die Maßnahmen können zudem empfängerbezogen gegliedert werden:
+
+-   Maßnahmen zum Schutz des Patienten,
+-   Maßnahmen zum Schutz des strahlenexponierten Personals sowie
+-   Maßnahmen zum Schutz der Allgemeinbevölkerung und der Umwelt.
+
+Zu den einzelnen patienten- und personalbezogenen Maßnahmen folgt ein eigenes Kapitel.
+
+### Strahlenschutzmaßnahmen
+
+Die Grundregeln zum Strahlenschutz werden auch die drei goldenen A des Strahlenschutz genannt. Im Umgang mit radioaktiven Stoffen werden sie um weitere zwei A ergänzt.
+
+Die Regeln gelten besonders für den Schutz vor Wellenstrahlung, also Röntgen- und Gammastrahlung. Falls es für Teilchenstrahlung Abweichungen gibt, sind diese jeweils ergänzt.
+
+### Strahlenschutz durch Minimierung der Aufenthaltsdauer
+
+Verringerung der Aufenthaltsdauer oder der Einschaltzeit der Strahlung ist der beste Strahlenschutz! Wird nicht gestrahlt ist auch keine Schutz notwendig.
+
+Dies gilt auch für den Umgang mit radioaktiven Stoffen: ohne radioaktiven Stoff ist keine Strahlung vorhanden.
+
+Die Strahlenexposition erhöht sich linear mit der Aufenthaltsdauer im Strahlungsfeld!
+
+### Strahlenschutz durch Abstand von der Quelle
+
+Wellenstrahlung breitet sich gleichmäßig im Raum aus. Die Strahlungsdichte nimmt also mit dem Abstand ab.
+
+Je größer der Abstand von der Strahlungsquelle, desto geringer ist die Wahrscheinlichkeit getroffen zu werden.
+
+Die Dosis nimmt mit zunehmenden Abstand zur Quelle quadratisch ab, d.h. bei doppeltem Abstand beträgt die Dosis dann nur noch 1/4, bei 3-fachen Abstand 1/9 usw.
+
+Im Gegensatz zu Wellenstrahlung (mit unendlicher Reichweite) hat Teilchenstrahlung eine endliche Reichweite, d.h. ab einem bestimmten Abstand von der Strahlenquelle ist keine Strahlung mehr vorhanden. Die Reichweite von Teilchenstrahlung hängt von ihrer Energie (und der umgebenden Materie) ab. In Luft hat Alpha-Strahlung eine Reichweite von wenigen Zentimetern, Betastrahlung von wenigen Metern. In Abständen unterhalb der Reichweite gilt auch für Teilchenstrahlung näherungsweise das Abstandsquadratgesetz.
+
+### Strahlenschutz durch Abschirmung
+
+Abschirmung ist drittbester Strahlenschutz.
+
+Wellenstrahlung wird durch Streuung und Absorption geschwächt, wenn sie durch Materie geht. Die Schutzwirkung ist von der Ordnungszahl und von der Dicke des abschirmenden Materials abhängig. Je höher die Ordnungszahl und je dicker das Material, desto stärker ist die Schwächung. Bei typischer Röntgestrahlung (etwa 70...100 kV Röhrenspannung) schützt 1 mm Blei besser als 5 cm Aluminium.
+
+Leider sinkt die Schutzwirkung mit wachsender Energie der Strahlung! Die Schutzwirkung reduziert sich dabei je nach Material verschieden stark.
+
+Die Strahlung nimmt exponentiell mit der Dicke des Abschirmung ab.
+
+Als Halbwertdicke bezeichnet man diejenige Dicke eines Materials, die die Strahlung auf die Hälfte abschwächt. Sie ist vom Abschirmmaterial und von der Strahlenenergie abhängig.
+
+Teilchenstrahlung wird beim Durchgang durch Materie ebenfalls geschwächt.
+
+Alpha-Strahlung lässt sich schon durch ein Blatt Papier abschirmen. Aufgrund ihrer geringen Reichweite in Gewebe kann sie die Hornschicht der Oberhaut nicht durchdringen. Die Dosisleistung nimmt mit der Dicke der Abschirmung etwa linear ab.
+
+Beta-Minus-Strahlung, also Elektronen, werden in Materie abgebremst. Dabei wird, besonders in Materie hoher Ordnungszahl, Bremsstrahlung erzeugt. Für die Abschirmung von Beta-Strahlung ist es also günstiger, eine dickere Abschirmung aus Material niedriger Ordnungszahl zu verwenden, z. B. aus Plexiglas (v.a. aus Kohlenstoff bestehend). Gelegentlich wird diese Niedrig-Z-Abschirmung an der Außenseite noch durch eine dünne Bleischicht zur Abschirmung der Bremsstrahlung ergänzt. Ohne Berücksichtigung der Bremsstrahlung nimmt die Strahlenintensität etwa exponentiell mit der Abschirmdicke ab.
+
+### Strahlenschutz durch geringstmögliche Aktivität
+
+Die Dosisleistung der Strahlung, die von einem radioaktiven Stoff ausgeht, ist eine Folge seiner Aktivität. Im Umgang mit radioaktiven Stoffen ist es deshalb wichtig, nicht mehr als die aktuell benötigte Aktivität zu verwenden. Die Strahlenexposition ist **proportional** zur Aktivität.
+
+Höhere Aktivität erfordert umfangreichere Strahlenschutzmaßnahmen.
+
+### Strahlenschutz durch Vermeidung von Aufnahme (Inhalation oder Ingestion)
+
+Aufgrund ihrer geringen Reichweite in Gewebe ist Teilchenstrahlung besonders dann gefährlich, wenn sie in den Körper aufgenommen wird. Die Aufnahme kann über Inhalation, also einatmen von radioaktiven Gasen oder Partikeln radioaktiver Stoffe, oder über Ingestion, also verschlucken von radioaktiven Flüssigkeiten oder Lösungen radioaktiver Stoffe erfolgen. Die Schwere der Schädigung ist abhängig vom Nuklid, dem Aufnahmeort, der Metabolisierung und der Verweildauer des radioaktiven Stoffes im Körper. Inkorporation, also die Aufnahme radioaktiver Stoffe in den Körper, führt zu einer langanhaltenden und schwer zu beendenden Strahlenexposition.
+
+Die ungeplante Aufnahme radioaktiver Stoffe ist unbedingt zu vermeiden.
+
+### Baulicher und apparativer Strahlenschutz
+
+Baulicher Strahlenschutz umfasst alle baulichen Maßnahmen an Räumen, Wänden, Böden, Decken, Türen und Fenstern, die dem Strahlenschutz der sich dahinter befindlichen Personen dienen.
+
+In medizinischen Einrichtungen betrifft dies alle Bereiche der Anwendung ionisierender Strahlung, insbesondere:
+
+-   Röntgendiagnostik,
+-   Strahlentherapie und
+-   Nuklearmedizin.
+
+Maßgebende Vorschriften zum baulichen Strahlenschutz sind:
+
+-   Strahlenschutzverordnung (StrSchV), insbesondere § 75 StrlSchV,
+-   DIN 6812 für medizinische Röntgenanlagen bis 300 kV,
+-   DIN 6844-3 für diagnostische bzw. therapeutische Anwendung offener radioaktiver Stoffe,
+-   DIN 6847-2 für medizinische Linearbeschleuniger,
+-   DIN 6853-2 für Afterloading-Anlagen,
+-   DIN 6875-20 für Protonentherapie.
+
+Für die **Röntgendiagnostik** enthält DIN 6812 Regeln zum baulichen Strahlenschutz. Abhängig von Röhrenspannung, Filterung, Abstand zum Brennfleck und Nutz- oder Streustrahlung geben Tabellen die nötigen Abschirmdicken für den baulichen Strahlenschutz der umgebenden Räume an. Um die abschirmende Wirkung verschiedener Baustoffe zu vergleichen, verwendet man den sogenannten Bleigleichwert als Richtgröße. Dieser gibt an, wie vielen Millimetern Dicke einer Bleischicht die Abschirmwirkung des jeweiligen Baustoffes entspricht. Somit kann auch die Schutzwirkung des Mauerwerks, der Betondecke oder der Trockenbauwand mit einberechnet werden.
+
+Auf Grundlage dieser Norm und der Raumpläne werden bei Neu- oder Umbau von Röntgenräumen in einem Strahlenschutzplan die notwendigen baulichen Strahlenschutzmaßnahmen bestimmt. Die Umsetzung des Strahlenschutzplans wird mit der Sachverständigenprüfung überwacht und der Aufsichtsbehörde bestätigt.
+
+Beispiele für den baulichen Strahlenschutz in der Radiologie (Bleiglasscheibe, Bleigleichwert ca. 1,0 - 1,5 mmPb) und der Nuklearmedizin (Bleiburg, Bleigleichwert ca. 30 mmPb). Der große Unterschied in der notwendigen Dicke der Abschirmung ergibt sich aus der unterschiedlichen Energie:
+
+-   Röntgenstrahlung mit mittlerer Energie von 30 bis 75 keV, Halbwertsdicke von Blei etwa 0,05 - 0,1 mm
+-   Gammastrahlung mit Energien von 140 keV (Technetium-99m, das häufigste Nuklid in der nuklearmedizinischen Diagnostik) bis 365 keV (Jod-131, zur Therapie von Schilddrüsenerkrankungen), Halbwertsdicke von Blei 0,2 - 2,3 mm
+
+Beispiele für den baulichen Strahlenschutz in der Strahlentherapie:
+
+-   Wanddicken über 100 cm Beton, ggf. verstärkt durch Eisen oder Barytbeton-Steine
+-   Strahlenschutztür mit Dicken von 20 - 40 cm, gefüllt mit Blei- oder Barytbeton-Steinen
+
+In der Strahlentherapie werden üblicherweise höchstenergetische Röntgenstrahlung mit einer Maximalenergie zwischen 6 und 18 MeV, Gammastrahlung mit einer Energie von 0,4 oder 1,25 MeV oder Elektronenstrahlung mit einer Energie bis 21 MeV eingesetzt
+
+Apparativer Strahlenschutz umfasst alle im oder am Gerät angebrachten Strahlenschutzmittel. Sie schützen insbesondere Personal, das sich im Untersuchungsraum aufhält. Darunter fallen z.B. die zusätzlichen Abschirmungen an Durchleuchtungs- oder interventionellen Arbeitsplätzen durch Bleiglasscheiben im Raum, Bleilamellen am Untersuchungstisch oder die Strahler- und Detektorabschirmungen im Röntgengerät. Typische Bleigleichwerte dieser Strahlenschutzmittel liegen zwischen 0,5 und 1,5 mmPb.
+
+### Bleigleichwerte, Schutzkleidung
+
+Röntgenschutzkleidung kann in verschiedenen Ausführungen bezogen und getragen werden:
+
+1.  Halbschürze: die Schürze schützt zuverlässig nur die Vorderseite des Trägers sowie die Schulterblätter.
+2.  Mantelschürze: der Schutz erfolgt rundum.
+3.  Rock und Weste / Strahlenschutzkostüm: ebenfalls ein Rundum-Schutz, jedoch ist der Schutz geteilt, das Gewicht verteilt sich somit auf Schultern und Hüfte.
+4.  Schilddrüsenschutz: kleiner zusätzlicher Schutz aus Kragen und Schilddrüsenlappen, der die eher strahlenempfindliche Schilddrüse abschirmt.
+
+Die nachstehende Tabelle gibt an, welcher Anteil an Strahlung bei einer bestimmten Dicke des Schutzmittels (angegeben in mmPb als Bleigleichwert) noch durchgelassen wird. Für die in der Röntgendiagnostik üblichen Dicken der Bleischürzen von 0,35 mmPb sind dies bei einer Röhrenspannung von 75 kV z. B. noch 1,5% der einfallenden Strahlung. Die Röntgenschürze schwächt die Strahlung also um einen Faktor 66.
+
+Je mehr Schutz, desto schwerer ist die Schutzkleidung. Von den Herstellern werden Strahlenschutzmittel aus Bleigummi, aber auch bleireduzierte und bleifreie Schutzmaterialien angeboten. Bei Röhrenspannungen zwischen 50 und 110 keV haben die bleireduzierten und bleifreien Strahlenschutzmittel eine zu bleihaltigen gleiche Schutzwirkung. Bei sehr hohen Röhrenspannungen, z.B. in der CT-Intervention, bieten in der Regel nur bleihaltige Strahlenschutzmittel den angegebenen Schutz.
+
+Schutzwirkung (Schutzklasse oder Bleigleichwert) sowie der Bereich der Röhrenspannung müssen ebenso wie das CE-Label inklusive Nummer der überprüfenden Stelle auf dem Strahlenschutzmittel angegeben sein.
+
+Strahlenschutzkleidung muss regelmäßig überprüft werden - näheres dazu folgt im Spezialkurs Röntgendiagnostik für Ärzte.
+
+## Take Home Points
+
+### Strahlenarten
+
+Man unterscheidet Teilchen- und Wellenstrahlung. Zur Teilchenstrahlung gehören:
+
+-   Alpha-Strahlung (geladen)
+-   Beta+ und Beta- Strahlung (geladen)
+-   Protonen-Strahlung (geladen)
+-   Neutronen-Strahlung (nicht geladen, in der Medizin nicht relevant)
+
+Zur Wellenstrahlung gehören:
+
+-   Röntgenstrahlung (multienergetisch)
+-   Gamma-Strahlung (monoenergetisch)
+
+Nach einer Halbwertzeit T1/2 ist per Definition noch die Hälfte des ursprünglichen Materials vorhanden.
+
+### Wechselwirkung
+
+Je höher die Energie der Strahlung, desto durchdringender wird sie. Die Halbwertsdicke steigt mit der Strahlenenergie. Das lineare Energieübertragungsvermögen LET ist ein Maß für die Ionisationsdichte:
+
+-   dicht ionisierend: Neutronen, Protonen, Alpha-Strahlung
+-   locker ionisierend: Röntgen-, Beta-Strahlung
+
+### Strahlenschutzmaßnahmen
+
+Die natürliche Strahlenexposition beträgt in Deutschland im Mittel ca. 2,4 mSv/Jahr.
+
+Der Hauptanteil entsteht durch die Inhalation von Radon (ca. 50% oder 1,3 mSv/Jahr)!
+
+Der größte Beitrag zur durchschnittlichen zivilisatorischen Strahlenexposition entsteht durch Röntgenbildgebung, etwa 1,9 von 2,1 mSv. Die drei A's der Strahlenschutzes:
+
+1.  Aufenthalt so kurz wie möglich (linearer Zusammenhang)
+2.  Abstand so groß wie möglich (quadratischer Zusammenhang)
+3.  Abschirmung nutzen (exponentieller Zusammenhang)
+
+Baulicher und apparativer Strahlenschutz muss nicht getragen werden. Er ist daher stets zuerst zu optimieren! Die Schutzwirkung von Strahlenschutzmitteln wird über den Bleigleichwert definiert. Für die Bleischürzen sind folgende Mindest-Bleigleichwerte gefordert:
+
+-   OP-Bereiche: 0, 25 mmPb
+-   alle anderen Bereiche: 0,35 mmPb
+
+# Dosisbegriffe und Dosimetrie
+
+## Dosisbegriffe
+
+### Was ist Dosis?
+
+Dosis ist ein Maß für die Wirkung einer Strahlung.
+
+Mögliche Wirkungen sind:
+
+-   Erzeugung von Ladungen (Ionisation)
+-   Temperaturerhöhung
+-   Änderung chemischer Bindungen
+-   Erzeugung von Elektronen-Loch-Paaren
+-   Schwärzung eines Films
+-   ...
+
+Die Erfahrung zeigte: Die – häufig unangenehme – Wirkung der Strahlung war mit der „Menge“ an Strahlung korreliert. Der Dosisbegriff entwickelte sich in Anlehnung an die Pharmakologie. „In der medizinischen Pharmakologie entspricht eine Dosis der Masse einer verabreichten chemischen Substanz und wird durch Wägung bestimmt."
+
+Strahlung wird jedoch nicht durch die verabreichte Masse sondern durch die übertragene Energie bestimmt:
+
+::: callout-tip
+Strahlungsdosis ist absorbierte Strahlungsenergie pro Masseneinheit.
+:::
+
+### Ionendosis
+
+Die Energie der einfallenden Stahlung erzeugt im betrachteten Volumen Ladungen. Durch die Strahlung werden Elektronen aus der Atomhülle herausgeschlagen, übrig bleiben positiv geladene Ionen (sowie die herausgeschlagenen Elektronen).
+
+Ionendosis ist die im Volumen erzeugte Ladung pro Masse des durchstrahlten Volumens.
+
+$$ I=   \frac{\partial Q}{\partial m}       $$
+
+Einheit: \[I\] = 1 C/kg (veraltet: Röntgen \$ 1 R = 2,58 \times 10 \^{-4}\$C/kg)
+
+Insbesondere bei höherer Strahlungsenergie kann ein Teil der im Volumen erzeugten Ladung aus dem durchstrahlten Volumen herauswandern. Somit wird nicht sämtliche im Volumen umgewandelte Strahlungsenergie auch in diesem Volumen absorbiert. Als passendere Größe für die absorbierte Energie im Volumen verwendet man daher die folgende Energiedosis.
+
+### Energiedosis
+
+Energiedosis ist die im Volumen absorbierte Energie pro Masseeinheit des durchstrahlten Volumens. Sie ergibt sich aus der Differenz zwischen in das Volumen eingestrahlter Energie und aus dem Volumen herausfallender Energie.
+
+Energiedosis $D = \frac{eingestrahlte\, Energie\, E\, in\, J}{Masse\, m\, in\, kg}$
+
+$$ D = \frac{\partial E}{\partial m}= \frac{Eein-Eaus}{\partial m} $$ Einheit: \[D\] = 1 Gy = 1 J/kg benannt nach Louis H. Gray (1905 – 1965), Britischer Physiker und Radiologe
+
+Umrechnungen: 1 Gy = 1000 mGy; 1 mGy = 0,001 Gy
+
+Die Darstellung der Dosiseinheit Gray erfordert die Messung einer Energie. Direkte Energiemessung ist z.B. kalorimetrisch möglich, d.h. man misst die Erwärmung des bestrahlten Volumens durch die Strahlungsabsorption. Praktisch ist dies kaum umsetzbar, entspricht doch 1 Gy in Wasser einer Erwärmung des betrachteten Volumens um nur 0,00024 °C. Selbst Energiedosen von 50 bis 100 Gy, wie sie als Zielvolumendosen in der Strahlentherapie üblich sind, würden nur zu einer Erwärmung von 0,012 bis 0,024 °C führen.
+
+Die Messung von Energiedosis geschieht deshalb üblicherweise mittels eines Kalibrierfaktors über die Ionendosis.
+
+### Äquivalentdosis
+
+Strahlenbiologische Versuche an biologischen Modellen zeigen, dass verschiedene Strahlenarten trotz gleicher Energiedosis unterschiedlich schädigend wirken. Deshalb werden Strahlendosen unterschiedlicher Strahlenarten basierend auf ihrer biologischen Wirksamkeit verglichen. Dicht ionisierende Strahlung mit hohem linearen Energietransfer (LET), wie Protonen-, Neutronen- oder Alpha-Strahlung, haben einen erhöhten Strahlungswichtungsfaktor $w_R$.
+
+$$ H = w_R \times D$$
+
+Einheit: \[H\] = 1 Sv (veraltet: 100 rem = 1 Sv) Sievert (Sv), benannt nach dem schwedischen Mediziner und Physiker Rolf Sievert
+
+Die Organdosis $H_T$ bzw. die sogenannte Äquivalentdosis ist das Produkt aus der Energiedosis $D$ in einem Organ, Gewebe oder Körperteil und dem Strahlungs-Wichtungsfaktor $w_R$
+
+### Effektive Dosis
+
+Maß für das Risiko
+
+Nicht alle Organe sind gleich strahlenempfindlich. Um Strahlenrisiken verschieden exponierter Personen zu vergleichen, werden die Äquivalentdosis der exponierten Organe mit der Strahlenempfindlichkeit des jeweiligen Organs gewichtet und anschließend über alle Organe summiert.
+
+$$ E = \sum w_T \times H_T $$ inheit: \[E\] = 1 Sv (Sievert)
+
+$H_T$: Teilkörper- / Organ-Äquivalentdosis $w_T$: Gewebewichtungsfaktor
+
+Sechs Organe gelten nach der Publikation 103 der Internationalen Strahlenschutzkommission (ICRP) als besonders strahlensensitiv:
+
+1.  Magen
+2.  Lunge
+3.  Darm
+4.  Knochenmark
+5.  Brust (Mamma)
+6.  Gonaden
+
+Die Summe über alle Gewebewichtungsfaktoren ist 1. Der Wichtungsfaktur der Keimdrüsen ist aus dem vermuteten genetischen Risiko abgeleitet. Alle anderen Faktoren beruhen auf Mortalitätswahrscheinlichkeiten und Krebsinzidenzen.
+
+### Einordnung der Dosisbegriffe
+
+Aus der gemessenen Ionendosis in \[C/kg\] läßt sich die Energiedosis (=absorbierte Energie im durchstrahlten Volumen) herleiten. Nach Multiplikation mit dem Wichtungsfaktor wR für die Strahlenart und der Summation über alle Organ (mit dem Gewebewichtungsfaktor wT), die im Strahlenfeld gelegen haben, ergibt sich schliesslich die effektive Dosis. Dieses stellt ein Maß für das Risiko dar, das mit der Strahlenexposition verbunden ist.
+
+Gleiche effektive Dosis für unterschiedliche Strahlenarten und unterschiedliche Körperbereiche heißt also gleiches Strahlenrisiko!
+
+## Dosimetrie
+
+### Dosismessung
+
+In diesem Kapitel sollen Sie die verschiedenen Messverfahren und Messgeräten zum Nachweis ionisierender Strahlung kennenlernen. Im folgenden Video (17 min) wird erklärt, wie ionisierende Strahlung gemessen werden kann. Als Messverfahren werden Ionisation in Gasen und die Ladungsträgererzeugung in Festkörpern vorgestellt. Verschiedene Messgeräte und ihr Einsatz in der Medizin werden Ihnen vorgestellt.
+
+### weitere Messverfahren
+
+Im zweiten Teil werden Ihnen im Video (8 min) die Strahlungsmessung über Szintillation, Lumineszenz und Filmemulsionen sowie ihre Anwendung in der Medizin und der Personendosimetrie vorgestellt. Zuletzt werden die vorgestellten Messverfahren zusammengefasst.
+
+## Take Home Points
+
+### Das Wichtigste in Kürze
+
+Strahlung kann in einer Ionisationskammer über die im Füllgas erzeugten Ionen (und freien Elektronen) nachgewiesen werden. Die Organdosis HT bzw. die sogenannte Äquivalentdosis ist das Produkt aus der Energiedosis D in einem Organ, Gewebe oder Körperteil und dem Strahlungs-Wichtungsfaktor wR Die Aufsummierung der Organdosen mutlipliziert mit den jeweils zugehörigen Gewebewichtungsfaktor wT ergibt die effektive Dosis. Effektive Dosis beschreibt das Risiko, das mit der Strahlenexposition verbunden ist.
+
+Gleiche effektive Dosis für unterschiedliche Strahlenarten und unterschiedliche Körperbereiche heißt also gleiches Risiko! Dosis = Wirkung einer Strahlung Dosisleistung = Maß dafür wie schnell eine Wirkung erreicht wird. Energiedosis = übertragene Energie pro Masse m Einheit: 1 Gy = 1 J/kg Äquivalentdosis = Berücksichtigung der Strahlenart Einheit: 1 Sv = 1000 mSv Effektive Dosis = Berücksichtigung der Strahlenempfindlichkeit der Organe (= Maß für das Risiko) Folgende Organe haben einen hohen Gewebe-Wichtungsfaktor:
+
+1.  Brust,
+2.  Lunge,
+3.  rotes Knochenmark,
+4.  Magen,
+5.  Darm
+6.  (Gonaden)
+
+**Trageort** des Personendosimeters ist eine repräsentative Stelle der Körpervorderseite **unter der Schürze**, Vorderseite nach außen! Eine grobe Abschätzung der Strahlenexposition kann nach der sogenannten Konversionsfaktor-Methode durchgeführt werden. Hierbei wird die relevante gemessene Dosisgröße (= Dosisflächenprodukt in cGy \* cm²) mit einem entsprechenden Faktor multipliziert um die Risikogröße (= effektive Dosis) zu ermitteln. Das Dosisflächenprodukt ist ein Maß für die Dosis auf der Eintrittsseite (Hautdosis) ohne die im Patienten stattfindende Rückstreuung.
+
+### Messgeräte
+
+Strahlungsmessgeräte
+
+Können entweder Aktivität oder Energiedosis messen. Die resultierende Personendosis ist berechnet. Die Personendosis wird mit OSL-, TLD- oder Filmdosimetern gemessen und von einer amtlichen Messstelle ausgewertet. Der Wechsel der Dosimeter erfolgt in der Regel monatlich. Ausnahmen regelt die zuständige Aufsichtsbehörde auf Antrag. Teilkörperexpositionen werden z.B. mit Fingerringdosimetern (TLD oder OSL) gemessen.
+
+# Strahlenbiologie
+
+## Einleitung
+
+### Stochastisches und deterministisches Strahlenrisiko
+
+Der Grund warum Sie diesen Strahlenschutzkurs besuchen ist das stochastische Risiko, das durch ionisierende Strahlung verursacht wird.
+
+-   Stochastisches Strahlenrisiko: Beschreibt eine durch die Strahlenexposition bestimmte Wahrscheinlichkeit für das Auftreten von Krebserkrankungen oder genetischen Erkrankungen
+
+-   Deterministisches Strahlenrisiko: Beschreibt Veränderungen bzw. Schäden die im Körper nach einer Überschreitung einer Schwellendosis sicher auftreten werden. Ein Beispiel wäre die Hautrötung und die Hautnekrose.
+
+Eine Anmerkung: Wird hier "Strahlung" erwähnt, wird immer "ionisierende Strahlung" gemeint. Also Strahlung mit einer Energie größer 10 eV.
+
+## Biologische Grundlagen
+
+### Die Zelle
+
+Die Zelle ist so wichtig, da sowohl für die stochastische als auch die deterministische Strahlenwirkung die Zelle als individuelle Entscheidungsebene funktioniert. Die Zelle muss den entstandenen Schaden beheben und dann entscheiden, wie es mit ihr weitergehen soll. Dies wären die Möglichkeiten zu entscheiden, dass alle Schäden adäquat behoben sind und die Zelle sich weiter teilen kann. Alternativ könnte die Zelle erkennen, dass die Schäden nicht richtig behoben werden konnten und sie sich nie mehr teilen darf oder sogar sterben muss.
+
+### Die DNA
+
+Die DNA ist für die Strahlenwirkung so wichtig, da bleibende Veränderungen an der DNA (Mutationen) für immer die Zelle und alle Tochterzellen verändern. Die DNA speichert die Anweisungen für den Bauplan der Proteine. Eine Mutation kann dazu führten, dass ein Proteine verändert ist und eventuell eine veränderte Funktion oder eine Funktionseinschränkung hat. Diese veränderte Eigenschaft wird dann auch an alle Tochterzellen weitergegeben.
+
+Im Gegensatz dazu wird ein Schaden an anderen Strukturen wie den Proteinen, Membranen und den Organellen ein zeitlich begrenztes Problem darstellen. Die meisten Strukturen der Zelle werden regelmäßig ersetzt und damit werden vorhandene Schäden sowieso behoben. Das Tumorsuppressorprotein p53 hat eine Halbwertszeit von sieben Minuten und eine Schädigung des Proteins ist somit in einigen Minuten sowieso behoben. Zusätzlich sind Proteine sehr strahlenresistent. Um Enzyme zu inaktivieren sind mehrere 100 Gy notwendig, während die DNA einer Zelle bei 1 Gy bereits 40 Doppelstrangbrüche enthält und das Auftreten einer Mutation schon sehr wahrscheinlich ist.
+
+### Der Zellzyklus
+
+Der Zellzyklus ist für die Tumorentstehung entscheidend, da die unkontrollierte Zellteilung das wichtigste Merkmal des Tumors ist. Diese sind die Charakteristika der Tumorzelle, die sogenannten "Hallmarks of Cancer":
+
+-   Kann die Zellteilung nicht mehr kontrollieren / anhalten
+-   Bildet eigene Wachstumssignale
+-   Mutiert häufig
+-   Entgeht dem Zelltod
+-   Kann sich unbegrenzt vermehren
+-   Entgeht dem Immunsystem
+-   Fördert das Einwachsen von Gefäßen
+-   Wächst invasiv ins Gewebe, durchdringt Basalmembranen, kann metastasieren
+-   Anpassung der Energiebereitstellung
+
+Bei weitem die wichtigsten sind die ersten beiden Eigenschaften. Ohne eine unkontrollierte Zellteilung wird eine Tumorzelle, die sich nicht teilen kann, keinen Krankheitswert verursachen. Hat die Zelle dies dann geschafft, werden dann auch die restlichen Eigenschaften sehr bedeutend, um ungehindert zu wachsen.
+
+## Strahlenbiologische Grundlagen
+
+### Anregung und Ionisation
+
+Hier wird am Beispiel von Wasser gezeigt, wie durch Ionisation und Anregung Radikale entstehen.
+
+Diese Erzeugung von Radikalen ist das einzige was ionisierende Strahlung in schädigender Weise verursachen kann. Die Strahlung zerstört also nicht in irgendeiner Form durch hohes Einbringen von Energie, sondern kann lediglich einzelne kovalente Bindungen öffnen oder neue Bindungen erzeugen. Allerdings kann die Strahlung Bindungen sehr effizient öffnen und benötigt dafür eben nur wenig Energie, so dass mit sehr wenig Energie viele Bindungen geöffnet werden können. Die Folge davon sind dann die DNA-Veränderungen mit den verschiedenen möglichen Schäden. Was wir als stochastische und deterministische Strahlenschäden kennen, sind sekundäre Veränderungen durch dieses Öffnen und Schließen von Bindungen.
+
+### Unterschiede bei dünn und dicht ionisierende Strahlung
+
+#### Strahleninduzierte DNA-Schäden
+
+Ionisierende Strahlung deponiert die Energie gleichmäßig über die Zelle und hat kein Absorptionsmaximum in der DNA, wie dies bei UV-Licht der Fall ist. Dies bedeutet, dass überall in der Zelle Ionisationen und Anregungen stattfinden.
+
+Schäden die durch Strahlung erzeugt werden, dann aber wieder schnell, zuverlässig und richtig repariert werden, haben letztendlich keine Bedeutung. Auch Doppelstrangbrüche können effizient repariert werden. Probleme machen die Schäden, bei denen die Reparatursysteme die ursprünglichen Strukturen nicht mehr erkennen können. Dieses sind die "Bulky Lesions", also komplexe Mehrfachschäden in einem begrenzten Bereich der DNA. Ein extremes Beispiel wären zwei DNA-Doppelstrangbrüche in vielleicht fünf Basenpaare Abstand zueinander. Die fünf Basenpaare würden wahrscheinlich verloren gehen, die Enden wieder miteinander verknüpft und es ist damit eine Mutation entstanden.
+
+#### Dünn/dicht ionisierende Strahlung
+
+Dicht ionisierende Strahlung verursacht in der Zelle deutlich mehr Mutationen und Zelltod als dünn ionisierende Strahlung bei gleicher deponierter Energie. In dem folgenden Video wird dargestellt, wie sich am Beispiel von α-Strahlung und Röntgenstrahlung diese dicht- und dünn ionisierende Strahlung verhält.
+
+Um 1 Gy Dosis im Zellkern zu deponieren werden 1000 Elektronen oder 4 α-Teilchen benötigt.
+
+Wie aus diesem Video ersichtlich, geben dicht ionisierende Strahlen viel mehr Energie auf ihrer Wegstrecke ab als dünn ionisierende Strahlen. Dicht ionisierende Strahlung wirkt vornehmlich direkt indem die DNA ionisiert oder angeregt wir. Bei dünn ionisierender Strahlung hingegen deponiert die Strahlung die Energie im Wasser, es entstehen Wasserradikale und diese wirken dann indirekt an der DNA.
+
+Die Kenngröße für die Charakteristik der Energiedeposition ist der Lineare Energie Transfer (LET) ausgedrückt, in deponierter Energie pro Wegstrecke (keV/µm).
+
+#### Relative biologische Wirksamkeit/Effizienz (RBE)
+
+Die dicht ionisierende Strahlung erzeugt lokal schwere Schäden die mit einer höheren Wahrscheinlichkeit nicht oder fehlerhaft repariert werden können und somit vermehrt Zelltod oder Mutationen entstehen.
+
+## DNA-Reparatur
+
+Bevor man einen Schaden reparieren kann, muss man diesen erst einmal erkennen. Hier im folgenden Video eine Vorstellung, wie dies funktionieren könnte.
+
+Die Reparatur von den meisten DNA-Schäden wird sehr schnell und sehr zuverlässig durchgeführt. Bei Einzelstrangbrüchen und bei Basenveränderungen oder Basenverlusten ist nicht mit einer bleibenden Veränderung der DNA-Sequenz (Mutation) zu rechnen. Hier ist ein Beispiel für eine relativ komplexe Reparatur von, durch UV-Strahlung entstandenen, Pyrimidin-Dimeren.
+
+Für DNA-Doppelstrangbrüche gibt es mehrere Reparaturverfahren. Das Standardreparaturverfahren ist das Nicht-Homologe End Joining (NHEJ) und wird im nächsten Video vorgestellt.
+
+Dieses NHEJ Reparaturverfahren ist potentiell fehlerhaft und man geht davon aus, dass hierdurch die meisten Mutationen verursacht werden.
+
+Mit der Homologen Rekombination steht ein Reparaturverfahren zur Verfügung, dass jeden Schaden wieder richtig reparieren kann. Allerdings ist dies sehr aufwendig, da der homologe Bereich der Schwesterchromosomen dafür benötigt wird. Dieses Verfahren wird hauptsächlich in der S-Phase verwendet, wo ein homologer Bereich einfacher verfügbar ist.
+
+Das Single-Stand-Annealing ist eine Art Notreparatur, die immer zu Informationsverlust führt und damit eine Mutation entsteht.
+
+## Zellinaktivierung
+
+Zellinaktivierung bedeutet, dass die Zelle sich nicht mehr teilen kann. Dies kann einmal durch die Auslösung von Zelltod geschehen oder auch durch Seneszenz. Seneszenz bedeutet, dass die Zelle weiterlebt, sich aber nicht mehr teilen kann. Sowohl Seneszenz als auch die meisten Zelltodesarten werden aktiv von der Zelle ausgelöst. Im Video werden verschiedene Zelltodesarten vorgestellt.
+
+Für den Strahlenschutz ist die Zellinaktivierung erst mal ein gutes Ereignis, da eine inaktivierte oder tote Zelle keine Krebszelle werden kann. Erst wenn sehr viele Zellen inaktiviert werden oder sterben, kommt es dann zu deterministischen Effekten. Die **inaktivierten, seneszenten Zellen führen zu Fibrosen** und die **sterbenden Zellen zu Zellmangel und damit im Extremfall zu Nekrosen.**
+
+## Mutationen
+
+Eine Mutation ist eine dauerhafte Veränderung der DNA, die damit an alle Tochterzellen weitergegeben wird. Mutationen können sein:
+
+-   Punktmutation: Eine veränderte Base: kann zu keiner Beeinträchtigung führen bis zum Funktionsausfall z.B. durch ein Stop-Codon.
+
+-   Intragenische Mutation: Mehrere Basen betreffend: Höhere Wahrscheinlichkeit für eine Funktionseinschränkung. Wird die Anzahl der Basenpaare dadurch verändert und kommt es zu einem Leserasterfehler kommt es praktisch immer zum Funktionsausfall.
+
+-   Chromosomale Aberration: Veränderung der Chromosomenstruktur: Ausfall von Proteinen und Entstehung von neuen Proteinen
+
+-   Nummerische Aberrationen: Zugewinn oder Verlust von ganzen Chromosomen: Je nachdem, ob Tumorsuppressorgene oder eher Onkogene auf diesen Chromosomen liegen Veränderung der Zellzyklusregulation.
+
+Für Lymphome und Leukämien ist die Translokation wichtig. Hier kommt es durch eine Fusion von zwei Genen (z.B. BCR-Abl) zu einem neuen Protein (Tyrosinkinase), das dann das weiße Blutkörperchen zur Teilung antreibt. Im folgenden Video wird gezeigt, dass ein Promotor von einem häufig aktivierten Gen vor ein Wachstumsfaktor (Onkogen) gesetzt wird und damit weiße Blutkörperchen zur Teilung angeregt werden. Dieser Mechanismus findet z.B. bei Burkitt-Lymphom statt.
+
+## Solide Tumoren oder Leukämien und Lymphome
+
+Bei der Krebsentstehung ist es sehr wichtig, ob man von Lymphomen und Leukämien spricht oder von soliden Tumoren, da hier deutliche Unterschiede bei der Entstehung vorliegen.
+
+-   Leukämien und Lymphome können durch eine einzige Mutation ausgelöst werden!
+    -   Die Mutation erzeugt ein Onkogen, welches dann die Zelle zur Teilung bringt
+    -   Ein Beispiel war die Enhancer Translokation aus dem Abschnitt Onkogene
+-   Solide Tumoren benötigen eine Vielzahl von Mutationen!
+    -   Es wird zumindestens ein Onkogen benötigt
+    -   Es wird der Ausfall von mehreren Tumorsuppressorgenen benötigt
+    -   Es treten weiter eine Vielzahl von anderen Mutationen auf
+
+## Onkogene / Wachstumfaktoren
+
+Tumorzellen benötigen unbedingt Wachstumsfaktoren, um sich teilen zu können. Es gibt eine große Anzahl von Möglichkeiten für die Zelle an diese heranzukommen.
+
+-   Onkogene von Extern:
+
+    -   Hormone: Tumorzelle bildet vermehrt Rezeptoren, um an diese heranzukommen. Beispiel: Östrogen, Progesteron, Testosteron,
+
+    -   Wachstumsfaktoren: Tumorzelle bildet vermehrt Rezeptoren, um an diese heranzukommen. Beispiel: HER2/neu, EGF (Epidermal Growth Factor)
+
+    -   Entzündung: Die Entzündungsmediatoren einer chronischen Entzündung treiben das Wachstum an: Beispiel: Darmkrebs, Magenkrebs.
+
+-   Onkogene von Intern:
+
+    -   Genfusionen: Zwei Gene fusionieren durch eine Translokation: Beispiel: Philadelphia Chromosom mit der Fusion BCR-abl.
+
+    -   Aktivierung von Promotoren: Durch eine Enhancer-Translokation wird ein stark regulierter Promotor vor ein Onkogen gesetzt: Beispiel: Burkitt-Lymphom.
+
+    -   Proto-Onkogene: Proteine von Signaltransduktionsketten die durch eine Mutation in einen dauerhaften aktivierten Zustand überführt werden: Beispiele: Ras, b-Raf
+
+## Tumorsuppressorgene
+
+Tumorsuppressorgene regulieren den Zellzyklus indem sie diesen anhalten, freigeben oder alternativ den Zelltod auslösen können. Das bekannteste Tumorsuppressorgen ist **p53**, das ein sehr wichtiger Entscheidungsträger im Zellzyklus ist. **Bei 50% aller Tumore ist p53 mutiert und damit nicht funktionell.**
+
+Ein weiterer wichtiges Tumorsuppressorprotein ist das **Retinoblastoma-Protein**. Dieses reguliert den Restriktionspunkt, also den Beginn der Zellteilung. Man geht davon aus, dass dieses Retinoblastoma-Protein so mächtig ist, dass es keinen Tumor geben kann, so lange dieses intakt ist. Im Umkehrschluss muss immer im Retinoblastoma-Gen oder in einem dazugehörigen Gen eine Mutation sein.
+
+## Tumorentstehung
+
+### Leukämien und Lymphome
+
+Eine Mutation (Translokation) reicht aus, um aus einem weißen Blutkörperchen eine Tumorzelle zu erzeugen. Ab diesem Moment hat die Zelle eine höhere Teilungsrate und wird in einigen Jahren den Körper mit diesem Zelltyp überschwemmen.
+
+### Solide Tumoren
+
+Es muss sowohl ein Onkogen aktiviert werden als auch bei mehreren (\~10) Tumorsuppressorgenen durch eine Mutation zu einem Funktionsausfall kommen. Da Mutationen ungerichtet entstehen, werden gleichzeitig noch viele andere Mutationen in der Zelle vorhanden sein.
+
+## Zusammenfassung
+
+-   Strahlung kann sehr effektiv ionisieren und anregen.
+-   Die entstehenden Wasserradikale sind bei dünn ionisierender Strahlung hauptsächlich für die DNA-Schädigung verantwortlich.
+-   Dicht ionisierende Strahlung zeichnet sich durch einen hohen Energietransfer pro Wegstrecke aus (LET) und wirkt hauptsächlich direkt an der DNA und verursacht schwierigere Schäden.
+-   Entscheidend für Mutationen und Zelltod sind schwierig zu reparierende DNA-Schäden wie die Bulky Lesions.
+-   Zelltod ist die aktive Entscheidung der Zelle sich nicht mehr zu teilen.
+-   Es werden Onkogene für die Entstehung sowohl von Leukämien und Lymphomen sowie soliden Tumoren benötig.
+-   Bei soliden Tumoren sind zusätzlich auch immer mehrere Tumorsuppressorproteine ausgefallen.
+
+# Geräte und Aufnahmetechnik
+
+## Röntgenarbeitsplätze
+
+### Röntgenaufnahmen, -durchleuchtung
+
+Im unten stehenden Video erhalten Sie wichtige Informationen und Erläuterungen rund um den Aufbau von Röntgenröhren und den Einfluss der verschiedenen Einstellparameter auf die Energieverteilung der Röntgenstrahlung
+
+eine kurze Zusammenstellung und Funktionsweise von Röntgenröhren.
+
+#### Drehanodenröhre:
+
+Glaskolben mit Kathode und drehbar gelagertem Anodenteller. Anodenmaterial üblicherweise Wolfram (Hoher Schmelzpunkt von über 3000 °C, hohe Röntgenausbeute aufgrund hoher Ordnungszahl, charakteristische Spektren erst über 70 kV Röhrenspannung)
+
+#### Schema einer Stehanodenröhre:
+
+Glaskolben mit Kathode (Glühwendel) und feststehender Anode. Dieser Aufbau findet sich in den meisten mobilen Röntgenanlagen wie z.B. C-Bögen.
+
+#### Gittergesteuerte Röhren:
+
+Gittergesteuerte Röhren werden für die gepulste Durchleuchtung eingesetzt. Dazu muss die Erzeugung der Strahlung in möglichst kurzer Zeit ein- und ausgeschaltet werden können. Zu diesem Zweck wird zwischen Kathode und Anode ein Metallgitter in die Röhre eingebracht. Wird dieses Gitter negativ aufgeladen, so wird er Elektronenstrom zur Anode sofort unterbunden und keine Röntgenstrahlung mehr erzeugt. Wird das Gitter wieder entladen, so erfolgt auch der Elektronenfluß zur Anode wieder und die Strahlung wird sofort wieder erzeugt. Mit dieser Methode lassen sich kurze, zeitlich scharf begrenzte Röntgenpulse bilden, die über ein alleiniges Ab- und wieder Einschalten der Hochspannung nicht erzeugt werden könnten.
+
+#### Brennfleck (-größe)
+
+Je nach Anodenwinkel und Länge der Glühwendel erhält man einen kleinen optischen Brennfleck und damit eine hohe Ortsauflösung oder einen großen optischen Brennfleck mit entsprechend schlechterer Ortsauflösung. Mit der thermischen Belastbarkeit verhält es sich genau umgekehrt: ein kleiner Brennfleck ist thermisch sehr viel weniger belastbar als ein großer Brennfleck.
+
+| Brennfleckgröße      | klein  | groß    |
+|----------------------|--------|---------|
+| Auflösung            | hoch   | niedrig |
+| thermische Belastung | gering | höher   |
+| Belichtungszeiten    | länger | kürze   |
+
+In dem nachfolgenden Video wird Ihnen der Aufbau und die Funktionsweise von konventionellen Röntgenanlagen (mobil und stationär) erläutert und eine kurze Einführung zur digitalen Subtraktionsangiographie (DSA) gegeben (Dauer des Videos: 12 min).
+
+### Spezialarbeitsplätze
+
+Mobiler C-Bogen: Röntgenanlage im OP. Röhre und Detektor (Bildverstärker) sind über einen stabilen C-Arm verbunden.
+
+Buckytisch mit Patiententisch für liegende Aufnahmen und Rasterwandstativ für stehende Aufnahmen. Die Röntgenröhre ist an einem Deckenstativ befestigt und kann für beide Aufnahmegeräte eingesetzt werden.
+
+Angiographie- und Durchleuchtungsanlage Bei diesem Aufbau befindet sich die Röntgenröhre unter dem Tisch, der Detektor (Bildverstärker) über dem Tisch.
+
+Mammographie-Anlage
+
+### Computertomographie
+
+Da zur Erlangung der Gesamtfachkunde ein Spezialkurs Computertomographie absolviert werden muss, soll dieses Thema hier nur am Rande betrachtet werden. Das Prinzip der CT-Bildgebung besteht darin, dass Röhre und Detektor um den Patienten rotieren und somit eine Volumenaufnahme ermöglichen. Nach einer Röhrenumdrehung um den Patienten kann aus den gemessen Schwächungswerten ein Schichtbild berechnet werden. Wird der Patient anschliessend um ein kleines Stück vorgeschoben und die Prozedur wiederholt, so erhält man einen Stapel von einzelnen Schichtbildern. Wird während der Datenaufnahme der Patient auch noch kontinuierlich auf dem Lagerungstisch durch die Öffnung des CT-Gerätes bewegt, so sprich man vom sogenannten Spiral - (oder auch Helical-) CT. In den mit einem CT aufgenommenen Bildern läßt sich die Helligkeit der jeweiligen Bildbereiche zu bestimmte Organen/Strukturen zuordnen. Ein schwarzer/dunkler Bereich (Pixelwerte von -1000) entspricht z.B. Luft, ein mittelgrauer Bereich (Pixelwerte um 0) üblicherweise Wasser und ein sehr heller Bereich (Pixelwerte über 500) Knochen. Die Zuordnung wird über die sogenannte Hounsfield-Skala getroffen.
+
+## Arbeitsplätze in der Nuklearmedizin
+
+### Gammakamera
+
+Der Detektor der Gamma-Kamera besteht aus einem Szintillationskristall (üblicherweise NaJ) für den Nachweis der im Körper emmittierten Photonen.
+
+2 typische Bauformen einer Gamma-Kamera, links mit einem Detektorkopf, rechts mit 2 Detektorköpfen.
+
+### PET, SPECT
+
+#### PET: Positronen-Emissions-Tomographie
+
+Bei einem PET-System werden Radionuklide eingesetzt, die Positronen über einen beta+-Zerfall erzeugen. Die Detektoren sind ringförmig um den Patienten angeordnet und ermöglichen so auch eine Volumenaufnahme. Gemessen wird dabei die durch die Vernichtung der Positronen erzeugte Photonenstrahlung.
+
+#### SPECT: Single-Photon-Emission-Computed Tomography
+
+Bei einer SPECT-Kamera wird der Detektorkopf einer Gamma-Kamera um den Patienten rotiert und dadurch ählich wie im CT eine Volumenaufnahme durchgeführt. Unterschied PET und CT
+
+Während beim CT eine Transmission (Strahlung von Außen durch den Körper) gemessen wird, erfolgt beim PET eine Emissionsmessung (Strahlung aus dem Körper selbst). Inzwischen werden beiden Verfahren zur Bildgebung bereits in Kombinationsgeräten (PET-CT) genutzt und nahezu zeitgleich die metabolischen Bilder aus dem PET mit den morphologischen Bildern aus dem CT zu überlagern.
+
+## Geräte in der Strahlentherapie
+
+### Beschleuniger
+
+### Protonenbestrahlung
+
+### Spezielle Verfahren
+
+#### Afterloading
+
+Nachladen einer radioaktiven Quelle zur Bestrahlung von Hohlorganen.
+
+#### Intraoperative Strahlentherapie (IORT)
+
+Bestrahlung der Wundhöhle nach Resektion von Mamma-Karzinomen.
+
+#### Seeds
+
+Implantation von kleinen Metallzylindern, die mit radioaktiven Material bestückt sind. Zur Behandlung z.B. von Prostata-Krebs
+
+### Bestrahlungsplanung
+
+#### Mehrfeldertechnik
+
+Es werden verschiedene Bestrahlungsfelder aus unterschiedlichen Einstrahlrichtungen festgelegt, um eine optimale Schonung der Risikoorgane zu erreichen. Die Feldform kann über die sogenannten Multi-Leaf-Kollimatoren jeweils an die Form des Zielvolumens angepasst werden. Zusätzlich wird noch der prozentuale Anteil jedes einzelnen Bestrahlungsfeldes an der insgesamt notwendigen einzustrahlenden Dosis variiert. Durch die Überlagerung der Dosisbeiträge aller Felder entsteht eine sehr eng an die Bestrahlungsregion anliegende konformale Dosisverteilung.
+
+## Take away points
+
+### Röntgengeräte und Abbildungssysteme
+
+Gittergesteuerte Röhren werden für die gepulste Durchleuchtung eingesetzt. Das Spektrum der Röntgenröhre ist kontinuierlich. Die Größe des Brennflecks (Fokus) bestimmt neben den Abmessungen und Eigenschaften der Detektoren die Auflösung in einem Röntgenbild. Der Röhrenstrom bestimmt die Dosis. Die Röhrenspannung und die Filterung bestimmen die Strahlenqualität (Durchdringungsvermögen) und damit auch den Kontrast im Bild. In der Computertomographie rotieren Röhre und Detektor während der Datenaufnahme um den Patienten. Die Grauwerte in einem CT-Bild sind direkt mit der Schwächung/Dichte des jeweiligen Gewebe korreliert. Die Skala der Grauwerte ist normiert über die beiden Fixpunkte Wasser = Grauwert von 0 und Luft = Grauwert von -1000.
+
+### Untersuchungs- und Behandlungsverfahren
+
+Mulit-Leaf-Kollimatoren dienen zur Anpassung des Bestrahlungsfeldes an die Organgrenzen. In Linearbeschleunigern werden die geladenen Teilchen beim Übergang zwischen den Driftröhren beschleunigt. Die Bildgebung in der Nuklearmedizin liefert Informationen über Stoffwechselvorgänge/Metabolismus. Der am häufigsten verwendete Tracer in der PET-Bildgebung ist das radioaktive Isotop F-18 als Fluordesoxyglucose (FDG).
+
+# Rechtsvorschriften, Richtlinien und Empfehlungen
+
+## Übersicht zum Strahlenschutzrecht
+
+### Rahmenbedingungen
+
+Dass die Anwendung ionisierender Strahlung am Menschen nicht nur Nutzen (Diagnostik, Therapie), sondern auch Schaden bringen kann, ist schon wenige Jahre nach der Entdeckung der Röntgenstrahlung in einigen Publikationen dokumentiert. Dennoch dauerte es bis in die zweite Hälfte des 20. Jahrhunderts, dass verbindliche gesetzliche Regelungen zum Schutz vor den Schäden ionisierender Strahlung geschaffen wurden. Auf Grundlage fortschreitender wissenschaftlicher Erkenntnis werden die Regelungen seitdem regelmäßig überarbeitet und präzisiert.
+
+#### Strahlenschutzgesetz und Strahlenschutzverordnung
+
+Das Gesetz zum Schutz vor der schädlichen Wirkung ionisierender Strahlung (Strahlenschutzgesetz) fasst die grundlegenden Regelungen zum Strahlenschutz in Deutschland zusammen. Die Schutzpflicht leitet sich dabei vom grundgesetzlichen "Recht auf Leben und körperliche Unversehrtheit" (Art. 2 (2) GG) ab. Das Strahlenschutzgesetz (StrlSchG) ist die deutsche Umsetzung der EU-Richtlinie 2013/59/EURATOM vom 05.12.13. Mit der Veröffentlichung des Strahlenschutzgesetzes am 27.06.17 wurden die bisher in über zwanzig Gesetzen und Verordnungen getroffenen Regelungen zum Strahlenschutz zusammengefasst und vereinheitlicht.
+
+Zu den wesentlichen Neuerungen der Richtlinie zählen:
+
+-   Ein verbesserter Strahlenschutz bei natürlich vorkommenden radioaktiven Stoffen, die sich in Böden und Gesteinen der Erdkruste finden und infolge industrieller Verarbeitung ein Gesundheitsrisiko darstellen können
+
+-   Maßnahmen zum Schutz vor dem natürlich vorkommenden radioaktiven Edelgas Radon, das an Arbeitsplätzen und in Wohngebäuden auftreten und Lungenkrebs verursachen kann
+
+-   Regelungen zur Bewältigung radiologischer Altlasten
+
+-   Regelungen zur natürlichen Radioaktivität in Baustoffen
+
+-   Detaillierte Vorgaben für die Notfallplanung und die verstärkte Kooperation aller Mitgliedsstaaten zum Zweck eines einheitlichen Handelns im Notfall
+
+-   **Klare Vorgaben für medizinische Früherkennungsuntersuchungen mit Röntgenstrahlung, um nicht erforderliche Röntgenuntersuchungen zu vermeiden**
+
+Die **Strahlenschutzverordnung** (StrlSchV, Verordnung zum Schutz vor der schädlichen Wirkung ionisierender Strahlung) konkretisiert die Vorgaben des Strahlenschutzgesetzes für den Schutz von Mensch, Tier und Umwelt vor Schädigungen durch ionisierende Strahlung. Mit ihrem In-Kraft-Treten zum 31.12.18 trat auch das Strahlenschutzgesetz vollumfänglich in Kraft.
+
+Weitere Verordnungen zum Strahlenschutzgesetz regeln zum Beispiel die Anwendung nicht-ionisierender Strahlung am Menschen (NiSV). Aktuell bekanntes Beispiel daraus ist das zum 31.12.20 in Kraft getretene Verbot des sog. Babyfernsehens, d.h. von nicht medizinisch indizierten Ultraschalluntersuchungen des Fötus. Begründet wird dies damit, dass es sich bei dem Fötus um eine schutz befohlene Person handele, die der Untersuchung und den damit verbundenen möglichen Nebenwirkungen nicht zustimmen kann und selber keinen Nutzen aus der Untersuchung zieht. Eine schädigende Wirkung der Ultraschall-Untersuchung ist nicht belegt, da beim indikationsfreien Babykino aber kein medizinischer Nutzen existiert, kann die Nutzen-Risiko-Bewertung nicht positiv ausfallen.
+
+#### Untergesetzliches Regelwerk
+
+Die Details der Anwendung des Strahlenschutzrechts werden in einer Vielzahl von Texten unterschiedlicher Zweckbestimmung geregelt. Während die Verbindlichkeit der Regelungen abnimmt, je tiefer sie in der Normenhierarchie (Normenpyramide) stehen, nimmt die Regelungstiefe in den Texten zu. Parlamentarische Gesetze (hier: Strahlenschutzgesetz) geben die Leitlinien vor, die dann aufgrund von Verordnungsermächtigungen von Regierung bzw. Verwaltung im Detail geregelt werden. Der Stand von Wissenschaft und Technik fließt in Form von Empfehlungen, Normen oder Leitlinien ein.
+
+**Richtlinien** sind Verwaltungsvorschriften und sollen die Anwendung des Strahlenschutzrechts durch die Aufsichtsbehörden der Länder vereinheitlichen. Verwaltungsvorschriften sind prinzipiell nur für die Verwaltung selbst bindend. Durch ihre Vorgaben zur Umsetzung des StrlSchG und der StrlSchV haben sie de fakto aber normkonkretisierende Wirkung, in dem sie zum Beispiel einzureichende Unterlagen, zu dokumentierende Daten oder anzuwendende Normen festlegen.
+
+Noch sind die meisten Richtlinien nicht auf das neue Strahlenschutzrecht umgesetzt, so dass vielfach noch Richtlinien zur Röntgenverordnung (RöV) und alten Strahlenschutzverordnung (StrlSchV-alt) sinngemäß unter dem novellierten Strahlenschutzrecht angewandt werden müssen.
+
+Einige im Strahlenschutzrecht relevante Richtlinien:
+
+-   Sachverständigen-Prüfrichtlinie (SV-Richtlinie) - NEU!
+-   Richtlinie "Strahlenschutz in der Medizin" - StrlSchV-alt
+-   Richtlinie zur Qualitätssicherung durch ärztliche und zahnärztliche Stellen (RL ÄSt) - RöV und StrlSchV-alt
+-   Richtlinie zur Durchführung der Qualitätssicherung bei Röntgeneinrichtungen (QS-Richtlinie) - RöV
+-   Richtlinie "Fachkunde und Kenntnisse im Strahlenschutz bei dem Betrieb von Röntgeneinrichtungen" (Fachkunde-RL) - RöV
+-   Richtlinie "Arbeitsmedizinische Vorsorge beruflich strahlenexponierter Personen durch ermächtigte Ärzte" - RöV und StrlSchV-alt
+-   Richtlinie zu Aufzeichnungspflichten - RöV
+-   Richtlinie über Dichtheitsprüfungen an umschlossenen radioaktiven Stoffen - StrlSchV-alt
+-   Fachkunde-Richtlinie Technik nach der Röntgenverordnung - RöV
+
+Normen, Empfehlungen oder Leitlinien fassen den Stand von Wissenschaft und Technik zusammen. Sie enstehen in der Regel in Konsensverfahren und zeigen ein Best Practice. Zum Teil nehmen Richtlinien bezug auf diese Veröffentlichungen und machen sie damit zu einem verbindlichen Standard für die Anwendung des Strahlenschutzrechts.
+
+-   Normen werden von Vertretern der Industrie unter Beteiligung von Wissenschaft, Verwaltung und Anwendern verfasst. Sie ermöglichen die Vergleichbarkeit von Produkten oder Verfahren, in dem sie einheitliche Bewertungsmaßstäbe schaffen.
+-   Empfehlungen sind Veröffentlichungen von Fachgesellschaften, die den Stand der Wissenschaft zusammenfassen. Sie beruhen auf wissenschaftlichen Studien und Publikationen.
+-   Leitlinien sind Veröffentlichungen der ärztlichen Fachgesellschaften und geben auf Basis von Studien empfohlene Behandlungswege vor.
+
+#### Weitere relevante Gesetze und Verordnungen
+
+Röntgengeräte, ebenso Bestrahlungsgeräte wie Linacs oder Afterloading-Geräte, sind Medizinprodukte und fallen damit unter die Regelungen des Medizinproduktegesetzes (MPG) und der abgeleiteten Verordnungen. Während sich das MPG und die Medizinprodukteverordnung (MPV) in erster Linie an die Inverkehrbringer, in der Regel also die Hersteller oder Lieferanten, richtet, finden sich in der Medizinproduktebetreiberverordnung (MPBetreibV) wichtige Vorgaben für das Betreiben und Anwenden dieser Medizinprodukte. Radiopharmaka, also radioaktive Stoffe, die in der Nuklearmedizin einzeln oder an Carrier gebunden am Menschen zur Diagnostik oder Therapie angewendet werden, sind Arzneimittel und fallen damit auch unter das Arzneimittelgesetz (AMG). Dies gilt es besonders hinsichtlich der Hygiene und Nachvollziehbarkeit bei der Präparation der Radiopharmaka im Heißlabor zu beachten.
+
+### Aufbau und Gliederung
+
+Das Strahlenschutzgesetz setzt auf Gesetzesebene die Grundpfeiler für den Strahlenschutz, in dem es Vorgaben und Regelungen zu u.a.
+
+-   Strahlenschutzgrundsätzen,
+-   Behördlicher Vorabkontrolle, d.h. Genehmigungs- und Anzeigeverfahren,
+-   Betriebsorganisation,
+-   Grenzwerten,
+-   Natürlich vorkommenden radioaktiven Stoffen,
+-   Notfällen und
+-   zur Strahlenschutzaufsicht
+
+definiert.
+
+Das Strahlenschutzgesetz gliedert sich in acht Teile:
+
+1.  Allgemeine Vorschriften
+2.  Strahlenschutz bei geplanten Expositionssituationen
+3.  Strahlenschutz bei Notfallexpositionssituationen
+4.  Strahlenschutz bei bestehenden Expositionssituationen
+5.  Expositionsübergreifende Vorschriften
+6.  Strahlenschutzrechtliche Aufsicht und Verwaltungsverfahren
+7.  Verwaltungsbehörden
+8.  Schlussbestimmungen
+
+Während das Strahlenschutzgesetz den grundlegenden Rahmen für den Schutz vor schädlichen Wirkungen von ionisierender Strahlung vorgibt, enthält es an vielen Stellen Ermächtigungen, den Weg zur Erreichung dieser Schutzziele in Verordnungen festzulegen. Die im Strahlenschutz im medizinischen Bereich wichtigste dieser Verordnungen ist die Strahlenschutzverordnung. Sie gliedert sich in sechs Teile, die fast alle parallel zur Gliederung des Strahlenschutzgesetzes sind:
+
+1.  Begriffsbestimmungen
+2.  Strahlenschutz bei geplanten Expositionssituationen
+3.  Strahlenschutz bei Notfallexpositionssituationen
+4.  Strahlenschutz bei bestehenden Expositionssituationen
+5.  Expositionsübergreifende Vorschriften
+6.  Schlussbestimmungen
+
+Auf die für die Fachkunde im Strahlenschutz in der Medizin relevanten Regelungen aus Strahlenschutzgesetz und Strahlenschutzverordnung werden wir in den folgenden Kapiteln eingehen. Die Gliederung folgt dabei der Gliederung des Strahlenschutzgesetzes. Da sich Strahlenschutzgesetz und -verordnung permanent ergänzen, behandeln wir die Inhalte der Teile gemeinsam.
+
+Im Bereich der medizinischen Anwendung von ionisierender Strahlung oder radioaktiven Stoffen am Menschen bewegen wir uns vollständig im Bereich der geplanten Expositionssituation. Daher behandeln wir die Teile 3 und 4 zu Notfall- und zu bestehenden Expositionssituationen im Folgenden nicht.
+
+#### STRAHLENSCHUTZ BEI NOTFALLEXPOSITIONSSITUATIONEN
+
+Notfallexpositionssituationen treten in Folge eines plötzlichen Ereignisses auf, bei dem Mensch, Umwelt oder Gegenstände durch ionisierende Strahlung erheblich geschädigt werden können. Vorkommnisse in geplanten Expositionssituationen, also z.B. Patientenverwechslung, ein Leck einer Afterloading-Quelle oder eine Überexposition aufgrund eines Gerätefehlers, sind keine Notfälle. Für sie muss im Rahmen der geplanten Exposition in der Arbeitanweisung eine Risikobewertung und ein "Plan B" erstellt werden.
+
+Der Teil 3 zum Strahlenschutz bei Notfallexpositionssituationen in StrlSchG und StrlSchV enthält Regelungen
+
+-   zur Referenzwerten für Notfallmaßnahmen,
+-   zur administrativen Organisation (Radiologisches Lagezentrum, Zuständigkeiten, Befugnisse)
+-   zum Schutz der Einsatzkräfte und
+-   zur Notfallvorsorge durch Pläne und Übungen.
+
+#### STRAHLENSCHUTZ BEI BESTEHENDEN EXPOSITIONSSITUATIONEN
+
+Teil 4 behandelt den Strahlenschutz bei bestehenden Expositionssituationen. Dies umfasst
+
+-   nach einem Notfall bestehende Expositionssituationen, wenn sich die Lage im Wesentlichen stabilisiert hat,
+-   den Schutz vor dem natürlich vorkommenden, radioaktiven Edelgas Radon, insbesondere in Aufenthaltsräumen und Arbeitsstätten,
+-   den Schutz vor Radioaktivität in Bauprodukten (z.B. durch Verwendung von mineralischen Rohstoffen mit Anteilen natürlicher radioaktiver Stoffe),
+-   den Umgang mit radioaktiv kontaminierten Gebieten (z.B. aus Altlasten des Uranbergbaus oder in Folge von Notfällen) und
+-   den Umgang, d.h. die Verantwortlichkeit, Bewertung und Maßnahmen, in sonstigen bestehenden Expositionssituationen.
+
+## Allgemeine Vorschriften
+
+Im ersten Teil des Strahlenschutzgesetzes wird der Anwendungsbereich eingegrenzt sowie grundlegende Begriffe definiert. Der erste Teil der Strahlenschutzverordnung ergänzt dies um weitere Definitionen.
+
+### Anwendungs- und Geltungsbereich
+
+Die Regelungen des Strahlenschutzgesetzes sollen insbesondere den Menschen vor Schäden durch ionisierende Strahlung schützen. Der Geltungsbereich klammert dabei die natürliche Strahlenexposition aus und beschränkt sich auf die Exposition, die durch menschliche Einwirkung direkt oder indirekt erzeugt wird.
+
+**StrlSchG § 1 Anwendungs- und Geltungsbereich** (1) Dieses Gesetz trifft Regelungen zum Schutz des Menschen und, soweit es um den langfristigen Schutz der menschlichen Gesundheit geht, der Umwelt vor der schädlichen Wirkung ionisierender Strahlung insbesondere bei
+
+1.  geplanten Expositionssituationen,
+2.  Notfallexpositionssituationen,
+3.  bestehenden Expositionssituationen.
+
+<!-- -->
+
+(2) Dieses Gesetz trifft keine Regelungen für
+
+<!-- -->
+
+1.  die Exposition von Einzelpersonen der Bevölkerung oder Arbeitskräften durch kosmische Strahlung, mit Ausnahme des fliegenden und raumfahrenden Personals,
+2.  die oberirdische Exposition durch Radionuklide, die natürlicherweise in der nicht durch Eingriffe beeinträchtigten Erdrinde vorhanden sind,
+3.  die Exposition durch Radionuklide, die natürlicherweise im menschlichen Körper vorhanden sind, und durch kosmische Strahlung in Bodennähe.
+
+<!-- -->
+
+(3) \[...\]
+
+### Exposition
+
+**StrlSchG § 2 Exposition; \[...\]** (1) Exposition ist die Einwirkung ionisierender Strahlung auf den menschlichen Körper durch Strahlungsquellen außerhalb des Körpers (äußere Exposition) und innerhalb des Körpers (innere Exposition) oder das Ausmaß dieser Einwirkung.
+
+Aus der EU-Richtlinie zum Strahlenschutz hat das Strahlenschutzgesetz die Idee der drei Dimensionen des Strahlenschutzes übernommen. Die Regelungen zum Strahlenschutz sind daher angepasst an die Umstände der Exposition:
+
+1.  Wieso wird jemand exponiert? (Expositionssituation)
+2.  Wer wird exponiert? (Expositionskategorie)
+3.  Wie kann die Auswirkung der Exposition möglichst gering gehalten werden? (Strahlenschutzgrundsätze)
+
+### Expositionssituation
+
+Eine geplante Expositionssituation entsteht durch eine Tätigkeit, die Exposition ist damit steuerbar. Die Exposition unterliegt der Rechtfertigung, Optimierung und Dosisbegrenzung. Die Tätigkeit wird durch Aufsichtsbehörden und eigene Qualitätssicherung überwacht.
+
+Notfallexpositionssituationen entstehen ungeplant und unkontrolliert. Ziel sind an die Lage angepasste Maßnahmen, um Einsatzkräfte wie Bevölkerung zu schützen.
+
+In bestehenden Expositionssituationen kann zwar die Ursache der Exposition nicht einfach abgeschaltet werden, allerdings gibt es keinen unmittelbaren Handlungsdruck. Als bestehende Expositionssituationen werden im Strahlenschutzgesetz aufgeführt: nach einem Notfall bestehende Expositionssituationen, der Schutz vor Radon, der Schutz vor Radioaktivität in Bauprodukten, radioaktiv kontaminierte Gebiete und sonstige bestehende Expositionssitutationen.
+
+StrlSchG § 2 \[...\] Expositionssituationen; \[...\]
+
+(2) Geplante Expositionssituation ist eine Expositionssituation, die durch Tätigkeiten entsteht und in der eine Exposition verursacht wird oder verursacht werden kann.
+
+(3) Notfallexpositionssituation ist eine Expositionssituation, die durch einen Notfall entsteht, solange die Situation nicht unter Absatz 4 fällt.
+
+(4) Bestehende Expositionssituation ist eine Expositionssituation, die bereits besteht, wenn eine Entscheidung über ihre Kontrolle getroffen werden muss.
+
+### Expositionskategorie
+
+Der Gesetzestext zur Expositionskategorie ist eigentlich selbsterklärend, wenn man die Reihenfolge umkehrt:
+
+-   **Medizische Exposition** betrifft Patienten, Probanden und Betreuungs- / Begleitpersonen. Die Rechtfertigung ergibt sich aus dem Nutzen, sei es individuell als Patient oder kollektiv als Proband.
+-   **Beruflich exponiert** ist, wer aufgrund seiner Beschäftigung (potentiell) exponiert ist. Der Begriff der Beschäftigung ist dabei sehr weit gefasst, damit auch Ehrenamtliche oder Auszubildende erfasst sind.
+-   Alle andere Exposition, die nicht den beiden vorstehende Kategorien zugeordnet werden kann, fällt unter Exposition der Bevölkerung.
+
+**StrlSchG § 2 \[...\] Expositionskategorien** (5) Folgende Expositionskategorien werden unterschieden:
+
+1.  Exposition der Bevölkerung,
+2.  berufliche Exposition,
+3.  medizinische Exposition.
+
+<!-- -->
+
+(6) Exposition der Bevölkerung ist die Exposition von Personen, mit Ausnahme beruflicher oder medizinischer Exposition.
+
+(7) Berufliche Exposition ist die Exposition
+
+<!-- -->
+
+1.  einer Person, die zum Ausübenden einer Tätigkeit nach diesem Gesetz in einem Beschäftigungsverhältnis steht oder diese Tätigkeit selbst ausübt,
+2.  von fliegendem und raumfahrendem Personal,
+3.  einer Person, die eine Aufgabe nach § 19 oder § 20 des Atomgesetzes, nach § 172 oder § 178 wahrnimmt,
+4.  einer Person, die in einer bestehenden Expositionssituation zum Ausübenden einer beruflichen Betätigung in einem Beschäftigungsverhältnis steht oder eine solche Betätigung selbst ausübt (Arbeitskraft) oder
+5.  einer Einsatzkraft während ihres Einsatzes in einer Notfallexpositionssituation oder einer anderen Gefahrenlage.
+
+Einem Beschäftigungsverhältnis gleich steht ein Ausbildungsverhältnis oder eine freiwillige oder ehrenamtliche Ausübung vergleichbarer Handlungen.
+
+(8) Medizinische Exposition ist die Exposition
+
+<!-- -->
+
+1.  eines Patienten oder einer asymptomatischen Person, an dem oder der im Rahmen seiner oder ihrer medizinischen oder zahnmedizinischen Untersuchung oder Behandlung, die seiner oder ihrer Gesundheit zugutekommen soll, radioaktive Stoffe oder ionisierende Strahlung angewendet werden,
+
+2.  einer Person, an der mit ihrer Einwilligung oder mit Einwilligung des gesetzlichen Vertreters oder Bevollmächtigten radioaktive Stoffe oder ionisierende Strahlung zum Zweck der medizinischen Forschung angewendet werden oder
+
+3.  einer einwilligungsfähigen oder mit Einwilligung des gesetzlichen Vertreters oder Bevollmächtigten handelnden Person, die sich wissentlich und willentlich ionisierender Strahlung aussetzt, indem sie außerhalb ihrer beruflichen Tätigkeit freiwillig Personen unterstützt oder betreut, an denen im Rahmen ihrer medizinischen oder zahnmedizinischen Untersuchung oder Behandlung oder im Rahmen der medizinischen Forschung radioaktive Stoffe oder ionisierende Strahlung angewendet werden (Betreuungs-oder Begleitperson).
+
+**Was steckt hinter der Idee der drei Dimensionen des Strahlenschutzes?**
+
+Als beruflich strahlenexponierte Person haben Sie ein vertieftes Wissen über Strahlenschutz, wo Sie exponiert werden und wie Sie sich schützen können. Sie tragen ein Personendosimeter und haben regelmäßig oder bei Bedarf eine betriebsärztliche Vorsorgeuntersuchung. Sie oder Ihr Kollege bestimmen den Umfang der Exposition, zum Beispiel durch die Auswahl des Durchleuchtungsprogramms und der Durchleuchtungszeit.
+
+Ihrer Patientin können Sie durch die Bildgebung mit ionisierender Strahlung eine Diagnose mitteilen, aus der sich der weitere Therapieweg ergibt.
+
+Die Freundin der Patientin sitzt währenddessen im Wartezimmer. Sie hat kein Wissen darüber, dass der Patient gegenüber vor 6 Stunden das Radiopharmakon für ein Skelettszinitgramm bekam. Selbst falls sie dies wüsste, kann sie in der Regel das Risiko nicht einschätzen.
+
+Alle drei Personen werden mit ionisierender Strahlung exponiert. Ihre Situation unterscheidet sich jedoch hinsichtlich Risiko, Wissen, Nutzen und Steuerungsmöglichkeiten. Daher unterscheiden sich auch die Schutzvorschriften.
+
+## Begriffsbestimmungen
+
+### RADIOAKTIVE STOFFE
+
+Radioaktive Stoffe sind alle Stoffe, die ein oder mehrere Radionuklide enthalten.
+
+Es ist liegt kein radioaktiver Stoff vor, wenn die Aktivität oder spezifische Aktivität außer Acht gelassen werden kann. Dies gilt:
+
+-   wenn festgelegte Freigrenzen unterschritten sind,
+-   für bei einer genehmigungspflichtigen Tätigkeit anfallende Stoffe, die festgelegte Freigabewerte unterschreiten und freigegeben worden sind,
+-   für Stoffe natürlichen Ursprungs, die nicht auf Grund ihrer Radioaktivität, als Kernbrennstoffe oder zur Erzeugung von Kernbrennstoffen genutzt werden.
+
+Kernbrennstoffe sind eine Untergruppe radioaktiver Stoffe, für die besondere Regelungen gelten:
+
+1.  Plutonium-239 und Plutonium 241,
+2.  mit den Isotopen 235 und 233 angereichertes Uran,
+3.  Stoffe, die einen oder mehrere der in 1. und 2. genannten Stoffe enthalten,
+4.  Stoffe, mit deren Hilfe in einer geeigneten Anlage eine sich selbst tragende Kettenreaktion aufrechterhalten werden kann.
+
+Unterhalb gewisser Mengen gelten Kernbrennstoffe als sonstige radioaktive Stoffe (§3 (3) StrlSchG).
+
+### TÄTIGKEITEN
+
+Tätigkeiten sind alle Handlungen, durch die oder mit denen eine relevante Strahlenexposition entstehen kann.
+
+An für den medizinischen Bereich relevanten Handlungen führt das StrlSchG auf (Auszüge aus §4 StrlSchG):
+
+-   Umgang mit radioaktiven Stoffen:
+    -   Gewinnung, Erzeugung, Lagerung, Bearbeitung, Verarbeitung, sonstige Verwendung und Beseitigung von radioaktiven Stoffen,
+    -   Betrieb von Bestrahlungsvorrichtungen;
+-   Erwerb, Abgabe, Beförderung und grenzüberschreitende Verbringung von radioaktiven Stoffen;
+-   Errichtung und Betrieb von Anlagen zur Erzeugung ionisierender Strahlung;
+-   Betrieb sowie Prüfung, Erprobung, Wartung oder Instandsetzung von Röntgeneinrichtungen oder Störstrahlern;
+-   der Zusatz radioaktiver Stoffe bei der Herstellung von Arzneimitteln sowie die Aktivierung von Arzneimitteln;
+-   Handlungen, die bei natürlich vorkommender Radioaktivität die Exposition oder Kontamination erhöhen können;
+-   die Beschäftigung von Personen, die diese Handlungen für Dritte ausüben.
+
+### ANLAGEN ZUR ERZEUGUNG IONISIERENDER STRAHLUNG
+
+Anlagen zur Erzeugung ionisierender Strahlung erzeugen Teilchen- oder Photonenstrahlung mit Maximalenergie von mindestens 5 keV, insbesondere: - Elektronenbeschleuniger, - Ionenbeschleuniger, - Plasmaanlagen.
+
+Eine Anlage zur Erzeugung ionisierender Strahlung umfasst im Zusammenhang mit der Anwendung am Menschen auch Anwendungsgeräte, Zusatzgeräte und Zubehör, die erforderliche Software und die Vorrichtungen zur Überprüfung und Beurteilung der unmittelbaren Ergebnisse der Anwendung.
+
+Keine Anlagen zur Erzeugung ionisierender Strahlung sind Röntgeneinrichtungen oder Störstrahler.
+
+### RÖNTGENEINRICHTUNGEN
+
+Eine Vorrichtung oder ein Gerät, 1. in der oder dem Röntgenstrahlung mit einer Maximalenergie von mindestens 5 keV und maximal 1 MeV erzeugt wird und 2. die oder das zum Zweck der Erzeugung von Röntgenstrahlung betrieben wird.
+
+Eine Röntgeneinrichtung umfasst auch Anwendungsgeräte, Zusatzgeräte und Zubehör, die erforderliche Software sowie Vorrichtungen zur medizinischen Befundung.
+
+Der Röntgenstrahler ist Bestandteil einer Röntgeneinrichtung und besteht aus einer Röntgenröhre und einem Röhrenschutzgehäuse, bei einem Eintankgerät umfasst der Röntgenstrahler auch die Hochspannungserzeugung.
+
+### STÖRSTRAHLER
+
+Störstrahler gleichen in ihrer Definition Röntgeneinrichtungen, außer dass ihr Zweck nicht die Erzeugung der Röntgenstrahlung ist (sondern diese quasi nur "Abfallprodukt" ist).
+
+Als Störstrahler gilt auch ein Elektronenmikroskop, bei dem die erzeugte Röntgenstrahlung durch Detektoren ausgewertet wird.
+
+### UMSCHLOSSENE UND OFFENE RADIOAKTIVE STOFFE
+
+Umschlossene radioaktive Stoffe sind radioaktive Stoffe, die ständig von einer allseitig dichten, festen, nicht zerstörungsfrei zu öffnenden, inaktiven Hülle umschlossen oder in festen inaktiven Stoffen ständig so eingebettet sind, dass bei üblicher betriebsmäßiger Beanspruchung ein Austritt radioaktiver Stoffe mit Sicherheit verhindert wird; eine Abmessung des umschlossenen radioaktiven Stoffes muss mindestens 0,2 Zentimeter betragen.
+
+Offene radioaktive Stoffe sind alle radioaktiven Stoffe, die nicht umschlossene radioaktive Stoffe sind.
+
+Hochradioaktive Strahlenquellen sind umschlossene radioaktive Stoffe, deren Aktivität festgelegte Werte überschreitet. Für sie gelten besondere Aufsichtspflichten, z.B. die Meldung in das HRQ-Register am Bundesamt für Strahlenschutz. In der Medizin fallen z. B. die Quellen von Bestrahlungsvorrichtungen (Afterloading, ggf. Blutbestrahlung, Teletherapieeinheit) darunter.
+
+### BERUFLICH EXPONIERTE PERSON
+
+Eine Person, die eine berufliche Exposition aus Tätigkeiten erhalten kann, die
+
+1.  eine effektive Dosis von 1 Millisievert im Kalenderjahr überschreitet oder
+2.  eine Organ-Äquivalentdosis für die Augenlinse von 15 Millisievert im Kalenderjahr überschreitet oder
+3.  eine Organ-Äquivalentdosis für die Haut, gemittelt über jede beliebige Hautfläche von 1 Quadratzentimeter unabhängig von der exponierten Fläche, von 50 Millisievert im Kalenderjahr überschreitet.
+
+Berufliche Expositionen aus Notfallexpositionssituationen werden dabei nicht berücksichtigt. Eine Person, die eine berufliche Exposition ausschließlich in einer Notfallexpositionssituation oder einer anderen Gefahrenlage erhält, ist keine beruflich exponierte Person.
+
+### Anwendung am Menschen
+
+Die Anwendung ionisierender Strahlung oder radioaktiver Stoffe am Menschen umfasst sowohl die Durchführung als auch die Befundung / Beurteilung:
+
+-   Technische Durchführung einer Untersuchung mit ionisierender Strahlung oder radioaktiven Stoffen und die Befundung der Untersuchung
+-   Technische Durchführung einer Behandlung mit ionisierender Strahlung oder radioaktiven Stoffen und die unmittelbare Überprüfung und Beurteilung des Ergebnisses der Behandlung.
+
+### Medizinische Forschung
+
+Fortentwicklung medizinischer Untersuchungsmethoden, Behandlungsverfahren oder der medizinischen Wissenschaft. Medizinische Forschung liegt nicht vor, wenn die Anwendung radioaktiver Stoffe oder ionisierender Strahlung ausschließlich der Untersuchung oder Behandlung der einzelnen Person dient.
+
+### Medizinphysikexperte
+
+Person mit Masterabschluss in medizinischer Physik oder eine in medizinischer Physik gleichwertig ausgebildete Person mit Hochschulabschluss, die jeweils die erforderliche Fachkunde im Strahlenschutz besitzt.
+
+## Geplante Expositionssituationen
+
+### Strahlenschutzgrundsätze
+
+Alle medizinische Nutzung von ionisierender Strahlung und radioaktiven Stoffen liegt im Bereich der geplanten Expositionssituation. Aufgrund der Planbarkeit können wir vorab Vorkehrungen zum Strahlenschutz treffen, von Planung und Aufbau der Einrichtung bis zur konkreten Situation im Umgang mit dem einzelnen Patienten.
+
+Jegliche Anwendung ionisierender Strahlung oder radioaktiver Stoffe unterliegt den drei Strahlenschutzgrundsätzen:
+
+1.  Rechtfertigung
+2.  Optimierung
+3.  Dosisbegrenzung
+
+#### Rechtfertigung
+
+Die Anwendung muss gerechtfertigt sein, dass heißt das gleiche Ziel kann nicht auch durch andere Handlungen ohne Anwendung ionisierender Strahlung oder radioaktiver Stoffe erreicht werden. Die Anwendung muss einen hinreichenden Nutzen erbringen. Dieser ist gegen die möglicherweise von ihr ausgehende gesundheitliche Beeinträchtigung abzuwägen. Bei der Rechtfertigung sind die berufliche Exposition, die Exposition der Bevölkerung und die medizinische Exposition zu berücksichtigen. Für die Anwendung am Menschen gibt es besondere Vorgaben, die rechtfertigende Indikation, zu der später weiteres folgt. Neue Tätigkeitsarten mit ionisierender Strahlung oder radioaktiven Stoffen werden von den Aufsichtsbehörden vorab auf ihre Rechtfertigung bewertet. Die Rechtfertigung bestehender Tätigkeitsarten kann überprüft werden, sobald wesentliche neue Erkenntnisse über den Nutzen oder die Auswirkungen der Tätigkeit oder wesentliche neue Informationen über andere Verfahren und Techniken vorliegen. Die Bundesregierung kann mit Zustimmung des Bundesrates eine Verordnung erlassen, in der nicht gerechtfertigte Tätigkeitsarten benannt sind.
+
+#### NICHT GERECHTFERTIGTE TÄTIGKEITSARTEN
+
+Anlage 1 der StrlSchV führt die nicht gerechtfertigten Tätigkeiten auf:
+
+1.  Anwendung am Menschen
+
+2.  Verwendung von Iod-131 in der Form von I-131-Orthoiodhippursäure (OIH) und Iod-125 in der Form von I-125-Iothalamat (IOT), I-125-Orthoiodhippursäure und I-125-Diethylentriaminpentaessigsäure (DTPA) zur Untersuchung der Nieren,
+
+3.  Verwendung von Iod-125 in der Form von I-125-Fibrinogen zur Untersuchung der tiefen Venenthrombose,
+
+4.  Anwendung von umschlossenem Radium-226 zur Behandlung von Menschen,
+
+5.  Anwendung von Röntgenstrahlung am Menschen zur Darstellung des Zahnstatus mit intraoraler Anode,
+
+6.  Anwendung von Röntgenstrahlung am Menschen zur Pneumenzephalographie,
+
+7.  Anwendung von Röntgenstrahlung am Menschen zur Überprüfung der Passfähigkeit von Kleidungsstücken und Schuhen,
+
+8.  Anwendung von umschlossenen radioaktiven Stoffen oder ionisierender Strahlung am Menschen zur Zutrittskontrolle oder Suche von Gegenständen, die eine Person an oder in ihrem Körper verbirgt, sofern die Anwendung nicht auf Grund eines Gesetzes erfolgt und unter Berücksichtigung aller Umstände des Einzelfalls zur Erledigung hoheitlicher Aufgaben notwendig ist oderb im Geschäftsbereich des Bundesministeriums der Verteidigung zum Zweck der Verteidigung oder der Erfüllung zwischenstaatlicher Verpflichtungen zwingend erforderlich ist.
+
+9.  Anwendung (nicht am Menschen)
+
+Verwendung von Überspannungsableitern mit radioaktiven Stoffen auf Hochspannungsmasten, Verwendung von offenen radioaktiven Stoffen zur Leckagesuche (Wasser, Heizung, Lüftung), sofern diese Stoffe anschließend nicht wieder gesammelt werden, Verwendung von offenen radioaktiven Stoffen zur Verweilzeitspektroskopie, sofern diese nicht in geschlossenen Systemen und mit Radionukliden erfolgt, die auf Grund ihrer Halbwertszeit nicht in die Umwelt gelangen können und eine Exposition Dritter nicht ausgeschlossen werden kann, Verwendung von uranhaltigen oder thoriumhaltigen Stoffen bei der Herstellung von Farben für Glasuren, sofern ein Kontakt des Produkts mit Lebensmitteln nicht ausgeschlossen werden kann, Verwendung von Tritium-Gaslichtquellen in Nachtsichtgeräten, Zieleinrichtungen und Ferngläsern, sofern die Verwendung nicht unter Berücksichtigung aller Umstände des Einzelfalls zur Erledigung hoheitlicher Aufgaben notwendig ist, Verwendung von Vorrichtungen mit fest haftenden radioaktiven Leuchtfarben, ausgenommen Plaketten mit tritiumhaltigen Leuchtfarben im beruflichen, der Öffentlichkeit nicht zugänglichen Bereich, oder Notausganghinweise in Fluggeräten mit einer luftfahrtrechtlichen Baumusterzulassung, Verwendung von hochradioaktiven Strahlenquellen bei der Untersuchung von Containern und Fahrzeugen außerhalb der Materialprüfung, Verwendung von Ionisationsrauchmeldern mit einer Bauartzulassung nach Anlage VI Nummer 1 der Strahlenschutzverordnung in der Fassung der Bekanntmachung vom 30. Juni 1989 (BGBl. I S. 1321) in der bis zum 30. Juli 2001 geltenden Fassung.
+
+#### Optimierung
+
+Wer eine Tätigkeit plant, ausübt oder ausüben lässt, ist verpflichtet, jede unnötige Exposition oder Kontamination von Mensch und Umwelt zu vermeiden. Jede Exposition oder Kontamination von Mensch und Umwelt ist auch unterhalb der Grenzwerte so gering wie möglich zu halten, unter Berücksichtigung aller Umstände des Einzelfalls und Beachtung des Standes von Wissenschaft und Technik.
+
+#### Dosisbegrenzung
+
+Wer eine Tätigkeit plant, ausübt oder ausüben lässt, ist verpflichtet, dafür zu sorgen, dass die Dosisgrenzwerte nicht überschritten werden, die im Strahlenschutzgesetz oder der Strahlenschutzverordnung festgelegt sind. Das Strahlenschutzgesetz definiert Strahlenschutzgrundsätze.
+
+Konkretisiert werden diese in Strahlenschutzgesetz und -verordnung durch Schutzmaßnahmen und Schutzziele für Bevölkerung; Beschäftigte; Patienten, Probanden, Betreuungs- und Begleitpersonen; Umwelt. Der Gesetzgeber fordert: "Die Schutzmaßnahmen und Schutzziele müssen ohne Rücksicht auf ihre wirtschaftliche Vertretbarkeit beachtet werden."
+
+### Strahlenschutzverantwortlicher
+
+Wer trägt die Verantwortung dafür, dass
+
+-   die Strahlenschutzgrundsätze beachtet und
+-   die Schutzmaßnahmen und Schutzziele umgesetzt werden?
+
+#### die / der Strahlenschutzverantwortliche
+
+Es ist **Pflicht und Aufgabe des Strahlenschutzverantwortlichen**, dafür Sorge zu tragen, dass die Strahlenschutzgrundsätze beachtet und die Schutzmaßnahmen und Schutzziele ordnungsgemäß umgesetzt werden.
+
+Strahlenschutzverantwortlicher ist, wer einer Genehmigung gemäß Atomgesetz (AtG) oder gemäß Strahlenschutzgesetz bedarf oder eine Anzeige zu erstatten hat (§69 (1) StrlSchG). Es ist dabei unerheblich, ob die nötige Genehmigung oder Anzeige tatsächlich erfolgt ist! Strahlenschutzverantwortlicher sein kann (§69 (2) StrlSchG):
+
+-   eine natürliche Person, z.B. Unternehmer, Inhaber einer Arztpraxis
+-   eine juristische Person, z.B. Körperschaften, Kapitalgesellschaften, rechtskräftige Vereine, Stiftungen, öffentliche Hand
+
+Handelt es sich bei dem Strahlenschutzverantwortlichen um eine juristische Person oder eine teilrechtsfähige Personengesellschaft, werden die Aufgaben des Strahlenschutzverantwortlichen von dem durch Gesetz, Satzung oder Vertrag zur Vertretung berechtigtem Organ wahrgenommen. Dieses beantragt die Genehmigung oder erstattet die Anzeige, wenn eine nach StrlSchG genehmigungs- oder anzeigebedürftige Tätigkeit angestrebt wird.
+
+Juristische Personen sind rechtsfähig, aber nicht handlungsfähig! Daher ist gegenüber der Aufsichtsbehörde eine natürliche Person zu bennen, die die Aufgaben des Strahlenschutzverantwortlichen wahrnimmt.
+
+#### Pflichten des Strahlenschutzverantwortlichen
+
+Der Strahlenschutzverantwortliche hat unter Beachtung des Standes von Wissenschaft und Technik zum Schutz des Menschen und der Umwelt vor den schädlichen Wirkungen ionisierender Strahlung durch geeignete Schutzmaßnahmen, insbesondere
+
+-   durch Bereitstellung geeigneter Räume, Ausrüstungen und Geräte,
+-   durch geeignete Regelung des Betriebsablaufs und
+-   durch Bereitstellung ausreichenden und geeigneten Personals
+
+dafür zu sorgen, dass
+
+-   die Strahlenschutzgrundsätze eingehalten werden;
+-   die in §72 (2) StrlSchG festgelegten "weiteren Pflichten" eingehalten werden.
+
+Für die Anwendung am Menschen muss der Strahlenschutzverantwortliche zudem die erforderliche Fachkunde im Strahlenschutz nachweisen. Erfüllt der Strahlenschutzverantwortliche diese Voraussetzungen nicht, muss er für die sichere und ordnungsgemäße Ausführung der genehmigungs- und anzeigepflichtigen Tätigkeiten die für die Leitung und Beaufsichtigung dieser Tätigkeiten erforderliche Anzahl von Strahlenschutzbeauftragten schriftlich bestellen (§70 (1) StrlSchG). Der Strahlenschutzverantwortliche ist verpflichtet, eine geeignete Strahlenschutzorganisation zu schaffen.
+
+Er hat die oberste Verantwortungsebene inne. Beim Strahlenschutzverantwortlichen verbleiben die nicht übertragbaren Betreiberpflichten gemäß §72 (1) StrlSchG:
+
+-   eine geeignete Strahlenschutzorganisation zu schaffen; zu überwachen;
+-   geeignete Räume, Ausrüstungen und Geräte bereitzustellen;
+-   geeignete Regelungen des Betriebsablaufs zu treffen;
+-   ausreichendes und geeignetes Personal bereitzustellen.
+
+In größeren Betrieben wird die ordnungsgemäße Umsetzung dieser Pflichten häufig auf einen Strahlenschutzbevollmächtigten übertragen.
+
+#### Strahlenschutzanweisung
+
+Der Strahlenschutzverantwortliche muss eine Strahlenschutzanweisung erlassen, die die im Betrieb zu beachtenden Schutzmaßnahmen aufführt. Beim anzeigebedürftigen Betrieb von Röntgeneinrichtungen ist eine Strahlenschutzanweisung nur erforderlich, wenn die Aufsichtsbehörde den Strahlenschutzverantwortlichen dazu verpflichtet.
+
+Sie enthält Regelungen zu
+
+-   Organisation des Strahlenschutzes (Plan, Anwesenheit und Erreichbarkeit der Strahlenschutzbeauftragten und Fachkundigen, etc.)
+-   Betriebsablauf
+-   Ermittlung der Körperdosis
+-   Führung eines Betriebsbuches
+-   Vermeidung, Meldung und Untersuchung von Vorkommnissen
+-   Qualitätssicherung von Röntgeneinrichtungen
+-   Festlegung von Dosisrichtwerten
+-   Schutz gegen Störmaßnahmen (Diebstahl, unerlaubtes Einschalten)
+
+und muss bei wesentlichen Änderungen unverzüglich aktualisiert werden.
+
+Der Strahlenschutzverantwortliche muss folgende Dokumente am Ort der Tätigkeit jederzeit einsehbar halten: - Strahlenschutzgesetz - Strahlenschutzverordnung - Strahlenschutzanweisung - Gebrauchsanweisung (bei Medizinprodukten)
+
+Dies kann zum Beispiel auch über ein Intranet erfolgen.
+
+### Behördliche Überwachung
+
+Ohne Röntgeneinrichtung kann keinem Menschen Schäden durch ionisierende Strahlung zugefügt werden, ohne den Besitz offener radioaktiver Stoffe können diese nicht verloren gehen - daher hat der Gesetzgeber vor Errichtung, Betrieb bzw. Umgang, Beförderung, aber auch medizinische Forschung die behördliche Vorabkontrolle gestellt, um das Wissen und die Aufsicht darüber behalten zu können.
+
+::: callout-tip
+Vorabkontrolle heißt also: Der Staat will wissen, was man vorhat, bevor man damit etwas anstellen kann.
+:::
+
+#### Vorabkontrolle und Aufsichtsprogramm
+
+Die Verfahren der behördlichen Vorabkontrolle wurden mit der Neuregelung des Strahlenschutzrechts risikoadaptiert neu gestaffelt:
+
+1.  Außerhalb des Anwendungsbereichs des StrlSchG
+2.  Genehmigungs- und anzeigefrei (Freistellung)
+3.  Anmeldung (reine Mitteilung an die Behörden)
+4.  Anzeige (vereinfachte Prüfung, keine Auflagen)
+5.  Genehmigung
+
+Begleitet wird die Vorabkontrolle durch ein **risikoorientiertes Aufsichtsprogramm.**
+
+#### GENEHMIGUNGS- UND ANZEIGEFREIER BETRIEB / UMGANG
+
+Ausnahmen von der Genehmigungs- und Anzeigenbedürftigkeit regelt die Strahlenschutzverordnung in §§5-11 in Verbindung mit den Anlagen 3 (Genehmigungsfreie Tätigkeiten) und 4 (Freigrenzen und Freigabewerte).
+
+Dies umfasst unter Anderem:
+
+-   Anwendung von Stoffen am Menschen, wenn die spezifische Aktivität 500 µBq/g nicht übersteigt (Anlage 3, Teil A StrlSchV);
+-   Umgang mit Stoffen, deren Aktivität bzw. spezifische Aktivität die Freigrenzen (FG) nicht überschreitet (Anlage 3, Teil B StrlSchV; Freigrenzen Anlage 4, Tabelle 1 StrlSchV);
+-   Verwendung von bauartzugelassenen Vorrichtungen gemäß §45 StrlSchG (ausgenommen Ein-, Ausbau und Wartung);
+-   Lagerung von bauartzugelassenen Vorrichtungen gemäß §45 StrlSchG, wenn die Gesamtaktivität der radioaktiven Stoffen 1000\*FG nicht überschreitet;
+-   Verwendung und Lagerung von Konsumgütern, Arzneimitteln (einschl. Beseitigung), Pflanzenschutzmitteln, Schädlingsbekämpfungsmitteln, Düngemitteln
+-   Umgang mit natürlichen radioaktiven Stoffen zum Zwecke der Nutzung der Radioaktivität zu Lehr- und Ausbildungszwecken, wenn die Ortsdosisleistung des jeweiligen Stoffes 1 µSv/h in 10 cm Abstand von der berührbaren Oberfläche nicht überschreitet;
+-   Betrieb von bauartzugelassenen Anlagen zur Erzeugung ionisierender Strahlung (Anlage 3, Teil C StrlSchV);
+-   Betrieb von Anlagen zur Erzeugung ionisierender Strahlung, deren Röhrenspannung 30 kV nicht übersteigen kann und bei denen die Ortsdosisleistung 1 µSv/h in 10 cm Abstand von der berührbaren Oberfläche nicht überschreitet.
+
+#### GENEHMIGUNGSFREIER, ABER ANZEIGEPFLICHTIGER BETRIEB VON RÖNTGENEINRICHTUNGEN
+
+Für einige Tätigkeiten, die ein geringeres Schädigungspotential aufweisen, ist das erleichtete Anzeigeverfahren zulässig: Mit vollständigem Einreichen der Unterlagen bleibt der Aufsichtsbehörde eine Frist zur Prüfung. Setzt sie das Verfahren in diesen vier Wochen nicht aus oder untersagt sie den Betrieb, kann der Betrieb ohne weitere Mitteilung der Aufsichtsbehörde aufgenommen werden.
+
+Der Betrieb von Röntgeneinrichtungen mit Bauartzulassung oder Herstellung und Inverkehrbringung nach MPG ist genehmigungsfrei, aber anzeigepflichtig. Einzureichen sind:
+
+-   Zulassungsschein der Bauartzulassung oder Konformitätserklärung als Medizinprodukt
+-   Prüfbericht und Bescheinigung des Sachverständigen (Prüfung von Bildqualität, Strahlenschutz, Betriebsbeschreibung, Abnahmeprüfung sowie Ermittlung der Strahlenexposition)
+-   Nachweis ausreichender Anzahl von Strahlenschutzbeauftragten mit Fachkunde
+-   (zahn-) ärztliche Approbation bei der Anwendung am Menschen (Antragsteller oder Strahlenschutzbeauftragter)
+-   Nachweis über ausreichendes und qualifiziertes Personal
+-   ggf. Nachweis über Medizinphysikexperte
+
+Die Anzeige muss der Aufsichtsbehörde vier Wochen vor beabsichtigtem Betriebsbeginn vorliegen. Bei einer wesentlichen Änderung des Betriebs (Umzug der Röntgeneinrichtung, Umbau des Röntgenraums, Wechsel des Strahlenschutzverantwortlichen, ...) ist dies der Aufsichtbehörde anzuzeigen.
+
+Genehmigungspflichtige Ausnahmen beim Betrieb von Röntgeneinrichtungen:
+
+-   Röntgeneinrichtungen zur Behandlung von Menschen mit Röntgenstrahlung
+-   Röntgeneinrichtungen, die teleradiologisch genutzt werden
+-   Röntgeneinrichtungen, die in Zusammenhang mit der Früherkennung genutzt werden
+-   Betrieb von Röntgeneinrichtungen außerhalb eines Röntgenraums oder in einem mobilen Röntgenraum
+-   Betrieb einer Röntgeneinrichtung im Röntgenraum einer anderen Röntgeneinrichtung
+
+#### GENEHMIGUNGSBEDÜRFTIGE TÄTIGKEITEN
+
+Standardfall ist das Genehmigungsverfahren: Der Aufsichtsbehörde werden alle Unterlagen eingereicht, die den sicheren Betrieb bzw. Umgang nachweisen, und um Genehmigung gebeten. Der Betrieb bzw. Umgang, ggf. auch die Errichtung, ist erst erlaubt, wenn die Aufsichtsbehörden dies genehmigt haben.
+
+Die Genehmigung ist zu erteilen, wenn gemäß §13 StrlSchG
+
+-   keine Bedenken gegen die Zuverlässigkeit des Strahlenschutzverantwortlichen bzw. des Strahlenschutzbeauftragten bestehen;
+-   Fachkunde des Strahlenschutzverantwortlichen bzw. des Strahlenschutzbeauftragten vorliegen;
+-   Entscheidungsbereich und Befugnisse des Strahlenschutzbeauftragten ausreichend definiert sind;
+-   Maßnahmen getroffen wurden, um die Schutzvorschriften einzuhalten (nach Stand von Wissenschaft und Technik)
+-   Deckungsvorsorgeversicherung nachgewiesen wird (ausgenommen Röntgeneinrichtungen);
+-   Schutz gegen Störmaßnahmen nachgewiesen wird;
+-   das notwendige, qualifizierte Personal vorhanden ist;
+-   das öffentliche Interesse dem Umgang nicht entgegensteht;
+-   das Rechtfertigungsprinzip Anwendung findet.
+
+Zusätzliche Anforderungen gelten für die Anwendung am Menschen:
+
+-   (zahn-) ärztliche Approbation
+-   Medizinphysikexperte (in unterschiedlichen Mitarbeitsstufen)
+-   weitere Anforderungen zur Teleradiologie
+-   weitere Anforderungen zur Früherkennung
+
+Sinnvollerweise werden die getroffenen Maßnahmen in einer Strahlenschutzanweisung zusammengefasst, häufig ist dies auch eine Auflage aus der Genehmigung.
+
+### Anforderungen an die Ausübung von Tätigkeiten
+
+Die Anforderungen an den Strahlenschutz, um Tätigkeiten nach dem Strahlenschutzgesetz ausüben zu dürfen, finden sich im Detail insbesondere in der Strahlenschutzverordnung. Sie regeln Organisation, Ausrüstung, Ausbildung, den Umgang mit Vorkommnissen und besondere Anforderungen zur Anwendung am Menschen.
+
+#### Strahlenschutzbereiche
+
+| Allgemeines Staatsgebiet | frei zugänglich                                                                                                                                                                                             |     | \< 1 mSv / a \<1 mSv / 8760 h |
+|------------------|-------------------|------------------|------------------|
+| Betriebsgelände          | Zugang beschränkt (Umzäunt, "nur für Personal")                                                                                                                                                             |     | \< 1 mSv / 2000 h             |
+| Überwachungsbereich      | Zutritt nur für Befugte, die zum Betrieb der Anlage notwendig sind; ggf. Personendosimetrie notwendig                                                                                                       |     | \> 1 mSv / 2000 h             |
+| Kontrollbereich          | Zutritt nur für Personen, deren Anwesendheit unmittelbar notwendig ist                                                                                                                                      |     | \> 6 mSv / 2000 h             |
+| Sperrbereich             | Zutritt untersagt, außer z.B. - Patient während Bestrahlung, - Zutritt aus zwingenden Gründen erforderlich (unter Kontrolle eines SSB) Kein Zutritt für Schwangere, sofern nicht als Patientin erforderlich |     | \> 3 mSv / h                  |
+
+Der Zutritt von Personen zum Überwachungsbereich ist nur erlaubt, wenn sie in diesem Bereich eine dem Betrieb (der Anlage) dienende Aufgabe wahrnehmen; als Patient oder als Betreuungs- oder Begleitperson; als Auszubildende oder Studierende, wenn der Aufenthalt zum Erreichen des Ausbildungszieles erforderlich ist; als Besucher (der Anlage). Der Zutritt von Personen zum Kontrollbereich ist nur erlaubt, wenn sie zur Durchführung oder Aufrechterhaltung der in diesem Bereich vorgesehenen Betriebsvorgänge tätig werden müssen, als Patient (an dieser Anlage) oder als Betreuungs- oder Begleitperson, mit Zustimmung eines fachkundigen Arztes, als Auszubildende oder Studierende, wenn dies zum Erreichen des Ausbildungszieles erforderlich ist; Der Zutritt von Personen zum Sperrbereich ist nur erlaubt, wenn sie zur Durchführung der in diesem Bereich vorgesehenen Betriebsvorgänge oder aus zwingenden Gründen tätig werden müssen und sie unter der Kontrolle eines Strahlenschutzbeauftragten stehen oder einer von ihm beauftragten Person mit erforderlicher Fachkunde im Strahlenschutz als Patient (an dieser Anlage) oder als Betreuungs- oder Begleitperson, mit schriftlicher Zustimmung eines fachkundigen Arztes, Schwangeren ist der Zutritt zum Sperrbereich nur für die eigene Untersuchung oder Behandlung erlaubt zum Kontrollbereich als nicht-Patientin (Mitarbeitende, Auszubildende, Studierende, ...) nur mit Zustimmung des Strahlenschutzbeauftragten und geeigneter Überwachungsmaßnahmen inkl. Dokumentation erlaubt zweites Dosimeter, Uterusdosis maximal 1 mSV, wöchentliche Meldung an Strahlenschutzbeauftragten berufsbedingte innere Exposition ausgeschlossen (gilt auch für Stillende) in der Radiologie i.d.R. keine Einschränkungen, in der Nuklearmedizin kein Umgang mit offenen radioaktiven Stoffen und aktiven Patienten, in der Strahlentherapie kein Einsatz am Afterloading (Notfallbergung nicht zulässig) zum Kontrollbereich als Betreuungs- oder Begleitperson nur erlaubt, wenn zwingende Gründe dies erfordern
+
+#### Betreuungs- oder Begleitperson
+
+Eine einwilligungsfähige oder mit Einwilligung ihres gesetzlichen Vertreters oder Bevollmächtigten handelnde Person, die sich wissentlich und willentlich ionisierender Strahlung aussetzt, indem sie außerhalb ihrer beruflichen Tätigkeit freiwillig Personen unterstützt oder betreut, an denen im Rahmen ihrer medizinischen oder zahnmedizinischen Untersuchung oder Behandlung oder im Rahmen der medizinischen Forschung radioaktive Stoffe oder ionisierende Strahlung angewendet werden. Die Exposition gilt als medizinische Exposition.
+
+#### Unterweisung
+
+Personen, die in ihrer Tätigkeit Zutritt zum Kontrollbereich haben, müssen unterwiesen werden: vor der Aufnahme der Tätigkeit erstmalig mindestens jährlich über Arbeitsmethoden, mögliche Gefahren, anzuwendende Sicherheits- und Schutzmaßnahmen, ... in der Regel mündlich Hinweis, dass Schwangerschaft dem Strahlenschutzbeauftragten so früh wie möglich mitzuteilen ist Die Teilnahme muss mit Unterschrift dokumentiert werden, die Aufzeichnungen müssen fünf Jahre aufbewahrt werden.
+
+Externe (z.B. Handwerker, Techniker, ...) sowie Betreuungs- oder Begleitpersonen, denen der Zutritt zum Kontrollbereich gestattet wird, müssen über mögliche Gefahren und ihre Vermeidung unterwiesen werden. Die Aufbewahrungspflicht beträgt hier ein Jahr.
+
+#### Kategorien beruflich exponierter Personen
+
+Beruflich exponierte Personen muss der Strahlenschutzverantwortliche zur Kontrolle und ärztlichen Überwachung vor Beginn ihrer Tätigkeit einer Kategorie zuordnen: Kategorie A: Personen, die einer beruflichen Exposition aus Tätigkeiten ausgesetzt sind, die im Kalenderjahr zu einer effektiven Dosis von mehr als 6 Millisievert, einer höheren Organ-Äquivalentdosis als 15 Millisievert für die Augenlinse oder 150 Millisievert für die Hände, die Unterarme, die Füße oder Knöchel oder einer lokalen Hautdosis von mehr als 150 Millisievertführen kann; Kategorie B: Personen, die nicht in die Kategorie A eingestuft sind und die einer beruflichen Exposition aus Tätigkeiten ausgesetzt sind, die im Kalenderjahr zu einer effektiven Dosis von mehr als 1 Millisievert, einer höheren Organ-Äquivalentdosis als 50 Millisievert für die Hände, die Unterarme, die Füße oder Knöchel oder einer lokalen Hautdosis von mehr als 50 Millisievertführen kann. Eine Person muss hochgestuft werden, wenn abzusehen ist, dass sie Werte für die Einstufung in Kategorie A erreicht. Personen der Kategorie A müssen jährlich durch eine ermächtigten Arzt (nach §175 (1) 1 StrlSchG) untersucht werden; dem Strahlenschutzverantwortlichen ist anschließend zu bescheinigen, dass der Aufgabenwahrnehmung keine gesundheitlichen Bedenken entgegenstehen. Nach Beendigung der Aufgabenwahrnehmung ist die ärzliche Überwachung mit Einwilligung der betroffenen Person solange fortzusetzen, wie es der ermächtigte Arzt für erforderlich erachtet.
+
+#### Grenzwerte für beruflich strahlenexponierte Personen
+
+Die Berufslebensdosis, also die im gesamten Leben durch berufliche Strahlenexposition summierte effektive Dosis, darf 400 mSv nicht überschreiten.
+
+Weitere Grenzwerte der Körperäquivalentdosen (Effektive Dosis bzw. Organäquivalentdosis) im Kalenderjahr für beruflich exponierte Personen, in mSv, sind in der folgenden Tabelle zusammengefasst. Für Auszubildenden und Studierende zwischen 16 und 18 Jahren kann die Aufsichtsbehörde auf Antrag die in Klammern gesetzten erhöhten Grenzwerte zulassen, wenn dies zur Erreichung des Ausbildungsziels notwendig ist.
+
+| Körperäquivalentdosis           | Grenzwert Erwachsene in mSv | Grenzwert Jugendliche in mSv | Ergänzungen                                                                                                                                                               |
+|------------------|------------------|------------------|-------------------|
+| Effektive Dosis                 | 20                          | 1 (6)                        | Erwachsene mit Zustimmung 50 mSv, wenn in fünf aufeinanderfolgenden Jahren 100 mSv nicht überschritten wird                                                               |
+| Augenlinse                      | 20                          | 15                           |                                                                                                                                                                           |
+| Haut                            | 500                         | 50 (150)                     | gemittelt jeweils pro beliebigem Quadratzentimeter Hautoberfläche                                                                                                         |
+| Hände, Unterarme, Füße, Knöchel | 500                         | 50 (150)                     |                                                                                                                                                                           |
+| Uterus (gebärfähige Frauen)     | 2 / Monat                   |                              |                                                                                                                                                                           |
+| ungeborenes Kind                | 1 / gesamte Schwangerschaft |                              | Durch die berufliche Exposition der Mutter darf die effektive Dosis des ungeborenen Kindes von der Mitteilung bis zum Ende der Schwangerschaft 1 mSv nicht überschreiten. |
+
+### Anwendung am Menschen
+
+#### Anwendungsgrundsätze
+
+Radioaktive Stoffe bzw. ionisierende Strahlung dürfen am lebenden Menschen nur in folgenden Fällen angewendet werden:
+
+-   zur Heilkunde und Zahnheilkunde, mit rechtfertigender Indikation des fachkundigen (Zahn-) Arztes
+-   im Rahmen medizinischen Forschung (Genehmigungs- oder Anzeigepflichtig)
+-   in nichtmedizinischen, gesetzlich vorgesehenen Fällen (Arbeitsschutz, Gefahrenabwehr, Strafprozesse)
+-   in Reihenuntersuchungen, auf Grundlage einer eigenen Verordnung
+-   zur Früherkennung nicht übertragbarer Krankheiten, auf Grundlage einer eigenen Verordnung
+
+#### Rechtfertigende Indikation
+
+Die Anwendung darf erst durchgeführt werden, nachdem ein Arzt oder Zahnarzt mit der erforderlichen Fachkunde im Strahlenschutz entschieden hat, dass und auf welche Weise die Anwendung durchzuführen ist (rechtfertigende Indikation). \[§83 (3) StrlSchG\] Durch die rechtfertigende Indikation stellt der behandelnde Arzt das Vorliegen der Rechtfertigungsgründe individuell fest und wägt Chancen und Risiken gegeneinander ab. Der die Indikation stellende Arzt muss dazu, außer bei genehmigter Teleradiologie, den Patienten vor Ort untersuchen können. Eine rechtfertigende Indikation ist auch dann zu stellen, wenn eine Anforderung eines überweisenden Arztes oder Zahnarztes vorliegt. Der die rechtfertigende Indikation stellende Arzt oder Zahnarzt hat vor der Anwendung, erforderlichenfalls in Zusammenarbeit mit dem überweisenden Arzt oder Zahnarzt, die verfügbaren Informationen über bisherige medizinische Erkenntnisse heranzuziehen, um jede unnötige Exposition zu vermeiden. Damit bereits der Zuweiser, der nicht über eine Fachkunde im Strahlenschutz verfügt, das in der Regel geeignetste bildgebende Verfahren anfordert, wurde von der Strahlenschutzkommission in Zusammenarbeit mit medizinischen Expertengruppen die Orientierungshilfe für bildgebende Untersuchungen herausgegeben. Diese Orientierungshilfe steht jedem kostenlos als elektronisches Dokument zum Download zur Verfügung. Die konsequente Beachtung dieser Empfehlungen hilft unnötig angeforderte oder nicht zielführende Untersuchungen zu vermeiden.
+
+#### Anwendungsberechtigte Personen in der Medizin
+
+Der Strahlenschutzverantwortliche muss sicherstellen, dass ionisierende Strahlung oder radioaktive Stoffe am Menschen nur von Ärzten oder Zahnärzten
+
+-   mit der erforderlichen Fachkunde im Strahlenschutz
+-   mit den erforderlichen Kenntnissen im Strahlenschutz und unter ständiger Aufsicht und Verantwortung eines Arztes mit Fachkunde
+
+angewendet werden. Neben den oben genannten dürfen die technische Durchführung auch folgende Personen vornehmen:
+
+-   MTRA / MTA (mit Fachkunde);
+-   Personen mit abgeschlossener sonstiger medizinischen Ausbildung mit Kenntnissen im Strahlenschutz unter ständiger Aufsicht und Verantwortung eines Arztes mit der erforderlichen Fachkunde;
+-   Medizinphysikexperten unter ständiger Aufsicht und Verantwortung eines Arztes mit der erforderlichen Fachkunde;
+-   Personen in Ausbildung zum MTRA unter ständiger Aufsicht und Verantwortung eines Arztes mit der erforderlichen Fachkunde, sofern die Arbeiten ihnen im Rahmen ihrer Ausbildung übertragen sind und sie die erforderlichen Kenntnisse im Strahlenschutz besitzen.
+
+#### Diagnostische Referenzwerte
+
+Referenzwerte sind ein Prüfmaßstab, ob Maßnahmen angemessen sind. Die diagnostischen Referenzwerte bei medizinischen Anwendung geben somit eine Richtschnur für
+
+-   Dosiswerte bei der diagnostischen oder interventionellen Anwendung ionisierender Strahlung und
+-   Aktivitätswerte bei der diagnostischen Anwendung radioaktiver Stoffe,
+
+bezogen auf Standardphantome oder Patientengruppen mit Standardmaßen.
+
+Die diagnostischen Referenzwerte werden vom Bundesamt für Strahlenschutz ermittelt, regelmäßig aktualisiert und veröffentlicht.
+
+#### Aufzeichnungs- und Aufbewahrungspflichten
+
+Über die Anwendung ionisierender Strahlung oder radioaktiver Stoffe am Menschen müssen Aufzeichnungen angefertigt werden. Diese müssen gegen unbefugten Zugriff und unbefugte Änderung geschützt werden. Es gelten Aufbewahrungsfristen, während dieser müssen die Aufzeichnungen in angemessener Zeit verfügbar und unmittelbar lesbar gemacht werden.
+
+##### Inhalte der Aufzeichnungen:
+
+1.  Angaben zur rechtfertigenden Indikation
+2.  Zeitpunkt und Art der Anwendung
+3.  Angaben zur Exposition
+    1.  der untersuchten oder behandelten Person oder zur Ermittlung dieser Exposition, einschließlich einer Begründung im Falle der Überschreitung diagnostischer Referenzwerte
+    2.  von Betreuungs- und Begleitpersonen, sofern eine effektive Dosis größer 1 mSv im Jahr zu erwarten ist
+4.  der erhobene Befund einer Untersuchung
+5.  der Bestrahlungsplan und das Bestrahlungsprotokoll einer Behandlung
+
+##### Aufbewahrungsfristen:
+
+1.  im Falle von Behandlungen für eine Dauer von 30 Jahren
+2.  im Falle von Untersuchungen
+    1.  einer volljährigen Person für eine Dauer von zehn Jahren
+    2.  bei einer minderjährigen Person bis zur Vollendung ihres 28. Lebensjahres
+
+Weitere Auflagen, insbesondere zur Aufbewahrung auf elektronischen Datenträgern, finden sich in §127 StrlSchV.
+
+#### Abnahme- und Konstanzprüfung
+
+Zur Sicherstellung der für die Anwendung erforderlichen Qualität muss an Anlagen zur Erzeugung ionisierender Strahlung, Bestrahlungsvorrichtungen, Röntgeneinrichtungen und sonstigen Vorrichtungen und Geräten, die bei der Anwendung radioaktiver Stoffe oder ionisierender Strahlung am Menschen verwendet werden, durch den Hersteller oder Lieferanten eine Abnahmeprüfung durchgeführt werden. Als Teil der **Abnahmeprüfung** werden mit den Messmitteln der Konstanzprüfung **Bezugswerte** für die Konstanzprüfung ermittelt. Ist die Anlage / Bestrahlungsvorrichtung / Röntgeneinrichtung / Gerät teil eines Gesamtsystems für die Anwendung am Menschen, so hat der Betreiber durch eine **Prüfung des Gesamtsystems** die für die Anwendung erforderliche Qualität zu überprüfen. Nach jeder Änderung, die die erforderliche Qualität der Anwendung beeinträchtigen kann, sind Abnahmeprüfung, Bezugswertfestlegung und ggf. Prüfung des Gesamtsystems zu wiederholen, ggf. auch nur in den durch die Änderung betroffenen Teilen. Die Prüfberichte sind für die Dauer des Betriebs, mindestens jedoch zwei Jahre nach Abschluss der nächsten vollständigen Abnahmeprüfung, aufzubewahren. Nach der Inbetriebnahme muss die Einhaltung der erforderlichen Qualität regelmäßig und in den vorgegebenen Abständen vom Betreiber durch eine **Konstanzprüfung** nachgewiesen werden. Dabei wird insbesondere die Einhaltung der Toleranzbereiche um die Bezugswerte geprüft. Auch die erforderliche Qualität des Gesamtsystems muss regelmäßig überprüft werden. Wird die erforderliche Qualität nicht mehr erreicht, muss die Ursache unverzüglich ermittelt und beseitigt werden.
+
+#### Ärztliche Stellen
+
+Zur Sicherung der Qualität bei der Anwendung radioaktiver Stoffe oder ionisierender Strahlung am Menschen überprüfen die von den Aufsichtbehörden bestimmten ärztlichen oder zahnärztlichen Stellen
+
+-   die rechtfertigende Indikation;
+-   die eingesetzten Röntgeneinrichtungen, Anlagen, Bestrahlungsvorrichtungen, Geräte und Ausrüstungen sowie die damit angewendeten Verfahren;
+-   dass die diagnostischen Referenzwerte nicht ungerechtfertig überschritten werden;
+-   dass ein Verfahren zum systematischen Erkennen und Bearbeiten von Vorkommnissen vorliegt;
+-   dass schriftliche Arbeitsanweisungen für alle Anwendungen vorliegen.
+
+Die Prüfung geschieht durch Einblick in Unterlagen oder Überprüfung vor Ort. Der Strahlenschutzverantwortliche hat dafür zu sorgen, dass der ärztlichen oder zahnärztlichen Stelle auf Verlangen alle Informationen zur Verfügung gestellt werden, die diese zur Wahrnehmung ihrer Aufgaben benötigt.
+
+Die ärztlichen und zahnärztlichen Stellen schlagen dem Strahlenschutzverantwortlichen Möglichkeiten zur Optimierung der Anwendung vor und prüfen, ob und wieweit die Vorschläge umgesetzt werden.
+
+Den Aufsichtsbehörden teilen die ärztlichen und zahnärztlichen Stellen mit:
+
+-   die Ergebnisse der Prüfungen;
+-   eine Zusammenstellung der bei den Prüfungen erfassten Daten zur Exposition;
+-   eine ständige, ungerechtfertigte Überschreitung der bei der Untersuchung zugrunde zu legenden diagnostischen Referenzwerte;
+-   eine Nichtbeachtung der Optimierungsvorschläge.
+
+#### Medizinphysikexperte
+
+Einer der besonderen Voraussetzungen bei der Anwendung am Menschen ist die Forderung, dass ein Medizinphysikexperte hinzugezogen werden kann. Dies stuft sich risikoadaptiert ab:
+
+1.  Bei einer Behandlung mit radioaktiven Stoffen oder ionisierender Strahlung, der ein individueller Bestrahlungsplan zugrunde liegt, muss ein Medizinphysik-Experte zur engen Mitarbeit hinzugezogen werden können. Dazu sind Medizinphysik-Experten in ausreichender Anzahl als weitere Strahlenschutzbeauftragte zu bestellen.
+2.  Bei einer Behandlung mit radioaktiven Stoffen oder ionisierender Strahlung, der kein individueller Bestrahlungsplan zugrunde liegt (standardisierte Behandlung), und bei einer Untersuchung mit radioaktiven Stoffen oder ionisierender Strahlung, die mit einer erheblichen Exposition der untersuchten Person verbunden sein kann, muss ein Medizinphysik-Experte zur Mitarbeit hinzugezogen werden können. Ein Medizinphysik-Experte muss als weiterer Strahlenschutzbeauftragter bestellt sein, sofern dies aus organisatorischen oder strahlenschutzfachlichen Gründen geboten ist.
+3.  bei allen weiteren Anwendungen mit ionisierender Strahlung oder radioaktiven Stoffen am Menschen sichergestellt ist, dass ein Medizinphysik-Experte zur Beratung hinzugezogen, soweit es die jeweilige Anwendung erfordert.
+
+Gemäß §14 (1) StrlSchG ist die Möglichkeit, den MPE hinzuzuziehen, Teil der Genehmigungsvoraussetzung. Die Details der Ausführung regelt die Strahlenschutzverordnung in den §§ 131f.
+
+Zur Hinzuziehung des MPE legt § 131 StrlSchV ergänzend zu den oben stehenden Abstufungen fest:
+
+1.  zur engen Mitarbeit bei der Festlegung des Bestrahlungsplans und der Durchführung der Behandlung;
+2.  zur Mitarbeit bei der standardisierten Behandlungen mit radioaktiven Stoffen oder ionisierender Strahlung, bei Untersuchungen mit offenen radioaktiven Stoffen, bei Untersuchungen mit ionisierender Strahlung, die mit einem Computertomographen oder mit Geräten zur dreidimensionalen Bildgebung von Objekten mit niedrigem Röntgenkontrast durchgeführt werden mit Ausnahme der Tomosynthese, und bei Interventionen, bei denen die Röntgeneinrichtungen zur Durchleuchtung eingesetzt werden und die mit einer erheblichen Exposition verbunden sind.
+
+Der Umfang, in dem der Medizinphysik-Experte hinzuzuziehen ist, richtet sich nach der Art und Anzahl der Untersuchungen oder Behandlungen sowie der Anzahl der eingesetzten Geräte.
+
+Aufgaben des Medizinphysik-Experten:
+
+-   Verantwortlich für die Dosimetrie von Personen, an denen radioaktive Stoffe oder ionisierende Strahlung angewendet wird
+-   Mitwirkung bei der Optimierung des Strahlenschutzes sowie bei
+    -   Qualitätssicherung bei der Planung und Durchführung von Anwendungen am Menschen einschließlich der physikalisch-technischen Qualitätssicherung,
+    -   Auswahl der einzusetzenden Ausrüstungen, Geräte und Vorrichtungen,
+    -   Überwachung der Exposition von Personen, an denen radioaktive Stoffe oder ionisierende Strahlung angewendet werden,
+    -   Überwachung der Einhaltung der diagnostischen Referenzwerte,
+    -   Untersuchung von Vorkommnissen,
+    -   Durchführung der Risikoanalyse für Behandlungen,
+    -   Unterweisung und Einweisung der bei der Anwendung tätigen Personen.
+
+### Melde- und Informationspflichten
+
+**Vorkommnis:** Ereignis in einer geplanten Expositionssituation, das zu einer unbeabsichtigten Exposition geführt hat, geführt haben könnte oder führen könnte. Kein Vorkommnis liegt vor, wenn das Ereignis für den Strahlenschutz nicht relevant ist. \[§1 Nr. 22 StrlSchV\] Der Begriff des Vorkommnis wurde mit der neuen Strahlenschutzgesetzgebung 2018 eingeführt. Auf §90 StrlSchG beruhend regelt die Strahlenschutzverordnung in den §§105-113 die Maßnahmen zur Vermeidung, Erkennung und Eindämmung der Auswirkungen von Vorkommnissen, die Meldung von bedeutsamen Vorkommnissen, die Aufzeichnungs- und Aufbewahrungspflichten und die Aufgaben der Aufsichtsbehörden.
+
+## Untergesetzliches Regelwerk
+
+### Richtlinien
+
+Mittels Richtlinien soll die einheitliche Umsetzung des Strahlenschutzrechtes in den Bundesländern gewährleistet werden. Sie beschreiben für einzelne Punkte sehr detailliert, wie Prüfungen durchzuführen, Fachkunden erworben oder Expositionen zu dokumentieren sind. Auch wenn sich viele Richtlinien noch auf alte Röntgenverordnung (RöV) oder alte Strahlenschutzverordnung (StrlSchV-alt) beziehen, gelten sie sinngemäß weiter.
+
+### Sachverständigen-Prüfrichtlinie (SV-Richtlinie) - NEU!
+
+Die SV-Richtlinie legt die Inhalte der erstmaligen und wiederkehrenden Prüfungen durch den behördlich bestimmten Sachverständigen fest. Auch das Format des Prüfberichts, aber auch gewisse Mindestanforderungen werden festgelegt. Im Anhang sind Beispiele von Änderungen aufgeführt, die erneute Sachverständigen-, Abnahme- oder Konstanzprüfungen nach sich ziehen.
+
+### Richtlinie "Strahlenschutz in der Medizin" - StrlSchV-alt
+
+Hier finden sich fast alle Regelungen zur Anwendung in Nuklearmedizin und Strahlentherapie, also dem früheren Anwendungsbereich der StrlSchV-alt. Qualitätssicherung, Fachkunde, bauliche Anforderungen, Umgang bei Störfällen und Regelungen zum Betriebsablauf sind hier beschrieben.
+
+### Richtlinie zur Qualitätssicherung durch ärztliche und zahnärztliche Stellen (RL ÄSt) - RöV und StrlSchV-alt
+
+Die Richtlinie fast Arbeitsweise und Bewertungsmaßstäbe der ärztlichen Stellen zusammen.
+
+### Richtlinie zur Durchführung der Qualitätssicherung bei Röntgeneinrichtungen (QS-Richtlinie) - RöV
+
+Für die Anwendung von Röntgenstrahlung sind hier die Prüfmethoden und Intervalle für alle Röntgeneinrichtungen beschrieben. In der Regel wird für Abnahme- und Konstanzprüfung auf die jeweiligen Normen verwiesen.
+
+### Richtlinie "Fachkunde und Kenntnisse im Strahlenschutz bei dem Betrieb von Röntgeneinrichtungen" (Fachkunde-RL) - RöV
+
+Hier finden Sie die Anforderungen zum Erwerb und zur Aktualisierung Ihrer Fachkunde im Bereich Röntgen, aber auch Vorgaben für Kursinhalte.
+
+### Richtlinie "Arbeitsmedizinische Vorsorge beruflich strahlenexponierter Personen durch ermächtigte Ärzte" - RöV und StrlSchV-alt
+
+Wann und wie sind Vorsorgeuntersuchungen durchzuführen? Wie sind sie zu dokumentieren? Dies, aber auch die Fachkunde der ermächtigten Ärzte regelt diese Richtlinie.
+
+### Richtlinie zu Aufzeichnungspflichten - RöV
+
+Diese schon ältere Richtlinie präzisiert, welche Angaben zu Röntgenuntersuchungen aufzuzeichnen sind. Patientendaten, Angaben zum Untersucher, zur Strahlenexposition, aber auch zu Indikationsstellung und Befund. Auch technische Details, z.B. in welchen DICOM-Tags welche Information zu speichern ist, wurde hier geregelt.
+
+### Richtlinie über Dichtheitsprüfungen an umschlossenen radioaktiven Stoffen - StrlSchV-alt
+
+Umschlossene radioaktive Strahler müssen regelmäßig auf Dichtigkeit geprüft werden. Zuständigkeit, Prüfablauf, Intervalle und Dokumentation sind hier geregelt.
+
+### Fachkunde-Richtlinie Technik nach der Röntgenverordnung - RöV
+
+Auch die Techniker, die mit Wartung und Erprobung von Röntgengeräten zu tun haben, benötigen Fachkunden. Erwerb, Inhalte und Aktualisierung sind hier geregelt.
+
+## Leitlinien, Empfehlungen und Normen
+
+Die rechtlichen Vorschriften berufen sich häufig auf den Stand von Wissenschaft und Technik. Dieser wird als Konsensmeinung zum Beispiel in den wissenschaftlichen Empfehlungen der Strahlenschutzgremien, in den medizinisch-wissenschaftlichen Leitlinien der ärztlichen Fachgesellschaften oder in den technischen Normen des Normenausschuss Radiologie festgehalten. Leitlinien, Empfehlungen und Normen zeigen ein best practice. Eine Abweichung ist also möglich, wenn das alternative Verfahren nachgewiesen gleichwertig ist oder die Abweichung aufgrund Patientenstatus oder medizinischer Situation begründet ist.
+
+### Leitlinien
+
+Leitlinien sind Veröffentlichungen der ärztlichen Fachgesellschaften und geben auf Basis von Studien empfohlene Behandlungswege vor. Für die Durchführung von Computertomographien sowie für Röntgenaufnahmen und Durchleuchtungen sind die Leitlinien der Bundesärztekammer maßgeblich:
+
+-   Leitlinie der Bundesärztekammer zur Qualitätssicherung in der Röntgendiagnostik
+-   Leitlinie der Bundesärztekammer zur Qualitätssicherung in der Computertomographie
+
+Sie beschreiben relevante Bilddetails und anzuwendenden Untersuchungstechniken, um gute Röntgendiagnostik erhalten zu können.
+
+### Empfehlungen der Strahlenschutzkommission
+
+Empfehlungen sind Veröffentlichungen von Gremien und Fachgesellschaften, die den Stand der Wissenschaft zusammenfassen. Sie beruhen auf wissenschaftlichen Studien und Publikationen. Die Strahlenschutzkommission hat zu vielen Themen entsprechende Empfehlungen herausgegeben:
+
+-   Orientierungshilfe für bildgebende Untersuchungen
+-   Verwendung von Patienten-Strahlenschutzmitteln bei der diagnostischen Anwendung von Röntgenstrahlung am Menschen
+-   Bildgebende Diagnostik bei Kindern
+-   Therapeutische Verfahren in der Nuklearmedizin
+-   Ausfallkonzepte in der Medizinischen Strahlentherapie
+-   Hinzuziehung eines Medizinphysik-Experten bei medizinisch-radiologischen Tätigkeiten
+-   Dosisdokumentation und Archivierung digitaler Bild- und Untersuchungsdaten in Radiologie und Nuklearmedizin
+
+Eine Übersicht der Empfehlungen zur medizinischen Strahlenexposition finden sie hier.
+
+### Normen
+
+Normen werden von Vertretern der Industrie unter Beteiligung von Wissenschaft, Verwaltung und Anwendern verfasst. Sie ermöglichen die Vergleichbarkeit von Produkten oder Verfahren, in dem sie einheitliche Bewertungsmaßstäbe schaffen. In der medizinischen Anwendung sind insbesondere Normen der Reihe DIN 68... einschlägig, die vielfach über die Richtlinien eingebunden werden. Sie regeln z.B.
+
+-   baulichen Strahlenschutz
+-   Abnahme- und Konstanzprüfungen
+-   Prüfung von Strahlenschutzkleidung
+-   klinische Dosimetrie
+-   ...
+
+In einigen Bereichen sind auch internationale Normen in europäische oder deutsche Normen übernommen worden.
+
+## Take Home Points
+
+### SSB und SSV
+
+Die Definition sowie Aufgaben und Pflichten des SSV und SSB sind im Strahlenschutzgesetz (StrlSchG) und der Strahlenschutzverordnung (StrlSchV) definiert.
+
+#### Strahlenschutzverantwortlicher (SSV):
+
+-   der Betreiber einer Anlage zur Erzeugung ionisierender Strahlung
+-   der Genehmigunginhaber oder Anzeigeinhaber
+-   bei juristischen Personen (z.B. Klinikum) immer die zur Vertretung berechtigte Person
+-   bestellt Strahlenschutzbeauftragte, wenn dies zur Gewährleistung des Strahlenschutzes notwendig ist (z.B. für jede Abteilung, die eine Röntgenanlage betreibt)
+-   bleibt immer gesamtverantwortlich
+
+#### Strahlenschutzbeauftragter (SSB):
+
+-   wird vom SSV unter genauer Bezeichnung der Aufgaben und Zuständigkeitsbereiche bestellt
+-   hat Weisungsbefugnis für seine Zuständigkeitsbereiche
+-   erstattet dem SSV Bericht über alle Mängel, die den Strahlenschutz betreffen und macht Vorschläge zu deren Behebung
+-   kann keine Einigung über die Mängelbeseitigung erzielt werden, so muss der SSB vom SSV schriftlich über die Ablehnung informiert werden
+-   arbeiten mit Betriebs-/Personalrat und den Fachkräften für Arbeitssicherheit zusammen
+-   darf in der Ausübung seiner Pflichten nicht behindert werden
