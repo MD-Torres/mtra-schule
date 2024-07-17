@@ -74,6 +74,15 @@ Dementsprechend ist vielleicht nicht überraschend, dass die Grenze zwischen nor
 
 Entzündung wird induziert, reguliert und aufgelöst. Dieses Prozes ist gefolgt von einer Gewebereparatur. Wenn jedoch einer dieser stark regulierten Schritten nicht zum Abschluss kommt, kann eine chronische Entzündung hervorgerufen werden. [@WunderlichEtAl2017]
 
+```{mermaid}
+flowchart LR
+  A(Auslösung) --> B(Entzündungsreaktion)
+  B --> C{Ablauf}
+  C --> D(Chronifizierung)
+  C --> E(Auflösung)
+  E --> F(Gewebereparatur)
+```
+
 Mastzellen sind beispielhaft in der Enzündungsprozess involviert [Abbildung @fig-mastzellen].
 
 ![Überblick über die Funktion der Mastzellen](Bilder/Mastzellen.png){#fig-mastzellen}
