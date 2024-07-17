@@ -16,6 +16,8 @@ execute:
 
 # Entzündung
 
+![Darstellung der Entzündungsprozess ](Bilder/InflammatoryResponse.png){#fig-Inflammation}
+
 Ganz allgemein gesprochen ist Entzündung die Reaktion des Immunsystems des Körpers auf einen noziven Reiz. Dabei kann es sich um einen mikrobiellen Reiz handeln, aber auch um eine Autoimmunerkrankung, eine allergische Reaktion, eine Stoffwechselerkrankung oder einen physikalischen Reiz. 
 
 **Aulus Cornelius Celsus** (25 v. Chr.-50 n. Chr.) definierte die vier Hauptanzeichen einer Entzündung mit seiner Aussage:  "Notae vero inflammationis sunt quatuor: rubor et tumor cum calore and dolore". 
