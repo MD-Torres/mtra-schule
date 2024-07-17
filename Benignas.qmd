@@ -30,68 +30,68 @@ De las más de 300 unidades de radioterapia activas en Alemania, no existe ningu
 
 Esto ocurre por que se ha demostrado que el tratamiento de enfermedades no malignas con radiación ionizante en dosis bajas a medias, y a veces incluso altas, a menudo es exitoso. Estos éxitos suelen contribuir a mantener o recuperar la calidad de vida, por ejemplo, al reducir el dolor o mejorar las funciones previamente limitadas[@MueckeEtAl2022].
 
-```{r plt_prop_benignas}
-#| label: fig-plt_prop_benignas
-#| echo: false
-#| out-width: 70% 
-#| fig-cap: "Proporción de enfermedades benignas"
-
-library(ggplot2)
-library(dplyr)
-library(tidyr)
-library(scales)
-library(ggtext)
-
-# Define the proportion of benign diseases
-proportion_benign <- 0.55
-
-# Wrangle data to get a data frame in the format needed for the donut chart
-proportion_data <- tibble(x = 1, y = proportion_benign) %>% 
-  mutate(y_negative = 1 - y) %>% 
-  pivot_longer(cols = -x) 
-
-# Define the highlight color and font family
-highlight_color <- "#9dccda"
-font_family <- "Ubuntu"
-
-# Create a formatted percentage label for the donut hole
-big_number_text_label <- percent(proportion_benign, accuracy = 1)
-
-# Create the plot
-ggplot(data = proportion_data, aes(x = x, y = value, fill = name)) +
-  # Add a bar without the legend
-  geom_col(show.legend = FALSE) +
-  # Convert the bar chart to a pie/donut chart with polar coordinates
-  coord_polar(theta = "y", direction = -1) +
-  # Set the limits for the x-axis to create the donut hole
-  xlim(c(-2, 2)) +
-  # Define fill colors for the sections
-  scale_fill_manual(values = c(highlight_color ,  "grey90")) +
-  # Remove grid lines and other default plot elements
-  theme_void() +
-  # Add the percentage label in the center of the donut hole
-  annotate(geom = "text", label = big_number_text_label, family = font_family,
-           fontface = "bold", color = highlight_color, size = 16, x = -2, y = 0) +
-  # Add titles and captions with customized formatting
-  labs(
-    title = "<p>El tratamiento de <span style='color:#9dccda'>enfermedades benignas</span> juega un<br><span style='color:#9dccda'> papel esencial</span> en Alemania</p>",
-    subtitle = "",
-    caption = "Número de radioterapias según grupos de diagnóstico.<br>Los datos corresponden a EBM, GOÄ y OPS, consolidados en el año 2016."
-  ) +
-  theme(
-    plot.title = element_markdown(
-      hjust = 0.5,
-      family = font_family,
-      size = 20,
-      color = "#808080",
-      face = "bold"
-    ),
-    plot.caption = element_markdown(
-      family = font_family,
-      hjust = 0.5,
-      size = 10,
-      color = "#808080"
-    )
-  )
-
-```
+# ```{r plt_prop_benignas}
+# #| label: fig-plt_prop_benignas
+# #| echo: false
+# #| out-width: 70% 
+# #| fig-cap: "Proporción de enfermedades benignas"
+# 
+# library(ggplot2)
+# library(dplyr)
+# library(tidyr)
+# library(scales)
+# library(ggtext)
+# 
+# # Define the proportion of benign diseases
+# proportion_benign <- 0.55
+# 
+# # Wrangle data to get a data frame in the format needed for the donut chart
+# proportion_data <- tibble(x = 1, y = proportion_benign) %>% 
+#   mutate(y_negative = 1 - y) %>% 
+#   pivot_longer(cols = -x) 
+# 
+# # Define the highlight color and font family
+# highlight_color <- "#9dccda"
+# font_family <- "Ubuntu"
+# 
+# # Create a formatted percentage label for the donut hole
+# big_number_text_label <- percent(proportion_benign, accuracy = 1)
+# 
+# # Create the plot
+# ggplot(data = proportion_data, aes(x = x, y = value, fill = name)) +
+#   # Add a bar without the legend
+#   geom_col(show.legend = FALSE) +
+#   # Convert the bar chart to a pie/donut chart with polar coordinates
+#   coord_polar(theta = "y", direction = -1) +
+#   # Set the limits for the x-axis to create the donut hole
+#   xlim(c(-2, 2)) +
+#   # Define fill colors for the sections
+#   scale_fill_manual(values = c(highlight_color ,  "grey90")) +
+#   # Remove grid lines and other default plot elements
+#   theme_void() +
+#   # Add the percentage label in the center of the donut hole
+#   annotate(geom = "text", label = big_number_text_label, family = font_family,
+#            fontface = "bold", color = highlight_color, size = 16, x = -2, y = 0) +
+#   # Add titles and captions with customized formatting
+#   labs(
+#     title = "<p>El tratamiento de <span style='color:#9dccda'>enfermedades benignas</span> juega un<br><span style='color:#9dccda'> papel esencial</span> en Alemania</p>",
+#     subtitle = "",
+#     caption = "Número de radioterapias según grupos de diagnóstico.<br>Los datos corresponden a EBM, GOÄ y OPS, consolidados en el año 2016."
+#   ) +
+#   theme(
+#     plot.title = element_markdown(
+#       hjust = 0.5,
+#       family = font_family,
+#       size = 20,
+#       color = "#808080",
+#       face = "bold"
+#     ),
+#     plot.caption = element_markdown(
+#       family = font_family,
+#       hjust = 0.5,
+#       size = 10,
+#       color = "#808080"
+#     )
+#   )
+# 
+# ```
