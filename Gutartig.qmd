@@ -32,7 +32,7 @@ Aktuell werden fünf Kardinalzeichen von Enzündung erkannt:
 - Schwellung
 - Funktionsverlust
 
-lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ;@InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021] Diese makroskopischen Anzeichen spiegeln die Gefäßerweiterung und das Eindringen von Immunzellen in das entzündete Gewebe wider, wodurch die akute lokale Entzündung ausgelöst und aufrechterhalten wird.[@WunderlichEtAl2017]
+lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ;@InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021] Diese makroskopischen Anzeichen spiegeln die Gefäßerweiterung und das Eindringen von Immunzellen in das entzündete Gewebe wider, wodurch die akute lokale Entzündung ausgelöst und aufrechterhalten wird.[@WunderlichEtAl2017] Eine Darstellung dises Prozess findet sich in [Abbildung @fig-Inflammation].
 
 Die zugrunde liegenden Mechanismen von Entzündung blieben bis zum 19. Jahrhundert unbekannt.
 Ilya I. Mechnikov  entdeckte die Phagozyten und definierte den Entzündungszustand als "Läsion der Gefäße, die von der reizenden Ursache angegriffen werden". Je nach Art der "reizenden Ursache" unterscheiden Hawiger und Zienkiewicz @HawigerZienkiewicz2019 folgende Arten von Entzündungen: mikrobielle, autoimmune, allergische, metabolische und physikalische s. auch [Tabelle @tbl-Entzundung].
