@@ -22,9 +22,9 @@ Ganz allgemein gesprochen ist Entzündung die Reaktion des Immunsystems des Kör
 
 **Aulus Cornelius Celsus** (25 v. Chr.-50 n. Chr.) definierte die vier Hauptanzeichen einer Entzündung mit seiner Aussage:  "Notae vero inflammationis sunt quatuor: rubor et tumor cum calore and dolore". 
 
-Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verstanden John Hunter (18. Jahrhundert) und Elie Metchnikoff (19. Jahrhundert), dass sie ein natürliches und nützliches Ereignis ist, das darauf abzielt, einen sterilen oder infektiösen Insult zu bekämpfen. [@Cavaillon2021]
+Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verstanden John Hunter (18. Jahrhundert) und Elie Metchnikoff (19. Jahrhundert), dass sie **ein natürliches und nützliches Ereignis ist**, das darauf abzielt, einen sterilen oder infektiösen Insult zu bekämpfen. [@Cavaillon2021]
 
-Aktuell werden fünf Kardinalzeichen von Enzündung erkannt:
+Klinisch sind fünf Kardinalzeichen von Enzündung erkannt:
 
 - Hitze 
 - Schmerz 
@@ -35,12 +35,11 @@ Aktuell werden fünf Kardinalzeichen von Enzündung erkannt:
 lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ;@InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021] Diese makroskopischen Anzeichen spiegeln die Gefäßerweiterung und das Eindringen von Immunzellen in das entzündete Gewebe wider, wodurch die akute lokale Entzündung ausgelöst und aufrechterhalten wird.[@WunderlichEtAl2017] Eine Darstellung dises Prozess findet sich in [Abbildung @fig-Inflammation].
 
 Die zugrunde liegenden Mechanismen von Entzündung blieben bis zum 19. Jahrhundert unbekannt.
-Ilya I. Mechnikov  entdeckte die Phagozyten und definierte den Entzündungszustand als "Läsion der Gefäße, die von der reizenden Ursache angegriffen werden". Je nach Art der "reizenden Ursache" unterscheiden Hawiger und Zienkiewicz @HawigerZienkiewicz2019 folgende Arten von Entzündungen: mikrobielle, autoimmune, allergische, metabolische und physikalische s. auch [Tabelle @tbl-Entzundung].
+Ilya I. Mechnikov  entdeckte die Phagozyten und definierte den Entzündungszustand als "Läsion der Gefäße, die von der reizenden Ursache angegriffen werden". Je nach Art der "reizenden Ursache" unterscheiden Hawiger und Zienkiewicz [@HawigerZienkiewicz2019] folgende Arten von Entzündungen: mikrobielle, autoimmune, allergische, metabolische und physikalische [Tabelle @tbl-Entzundung].
 
 Weismann zählte jedoch mehrere Erkrankungen auf, die nicht mit den klassischen Entzündungszeichen einhergehen und für die Entzündungen verantwortlich gemacht werden, darunter: Atherosklerose, Fettleibigkeit, Depressionen, Alzheimer, Schizophrenie und Osteoporose.[@Weissmann2010]
 
 Erstaunlicherweise haben sogar soziale Isolation und Familienstand einen Einfluss auf die Entzündung und damit auf das Überleben. [@LaugesenEtAl2018; @HeffnerEtAl2011]
-
 
 ```{r, tblEntzundung}
 #| label: tbl-Entzundung
@@ -74,13 +73,21 @@ Dementsprechend ist vielleicht nicht überraschend, dass die Grenze zwischen nor
 
 Entzündung wird induziert, reguliert und aufgelöst. Dieses Prozes ist gefolgt von einer Gewebereparatur. Wenn jedoch einer dieser stark regulierten Schritten nicht zum Abschluss kommt, kann eine chronische Entzündung hervorgerufen werden. [@WunderlichEtAl2017]
 
+
+
+
+
+
 Mastzellen sind beispielhaft in der Enzündungsprozess involviert [Abbildung @fig-mastzellen].
 
 ![Überblick über die Funktion der Mastzellen](Bilder/Mastzellen.png){#fig-mastzellen}
 
 Und dennoch, lange bevor Entzündungsprozesse verstanden oder gar definiert werden konnten, wurden verschiedene therapeutische Ansätze zur Behandlung verschiedener Arten von Entzündungskrankheiten vorgeschlagen.[@Cavaillon2021]
 
-Hierunter auch die Strahlentherapie. 
+Hierunter auch die Strahlentherapie. Im Allgemeinen hat die Röntgenbestrahlung mit höheren Dosen (z. B. Einzeldosen ≥ 2 Gy) entzündungsfördernde Wirkungen und führt zu entzündlichen Prozessen als übliche Toxizität der Strahlentherapie [1]. Im Gegensatz dazu moduliert die Niedrigdosis-Strahlentherapie (LD-RT: Einzeldosen < 1 Gy) eine Vielzahl von Entzündungsprozessen und zeigt eindeutig entzündungshemmende Eigenschaften.[@RodelEtAl2012]
+
+Zudem während in der Krebstherapie immunsuppressive Effekte der RT unerwünschte Nebenwirkungen sind, sind sie bei der Behandlung von entzündlichen, degenerativen Erkrankungen des Bewegungsapparats und hyperproliferativen gutartigen Erkrankungen erwünscht.[@RuckertEtAl2018]
+
 
 # Strahlentherapie bei nicht bösartigen Erkrankungen
 
@@ -188,11 +195,6 @@ theme(
       )
 
 ```
-
-
-# Strahlentherapie und Entzündung 
-
-
 
 
 
