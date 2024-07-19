@@ -22,11 +22,7 @@ Ganz allgemein gesprochen ist Entzündung die Reaktion des Immunsystems auf eine
 
 Entzündung wird induziert, reguliert und aufgelöst [Diagramm @fig-DiagrammEntzundung]. Dieses Prozes ist gefolgt von einer Gewebereparatur. Wenn jedoch einer dieser stark regulierten Schritten nicht zum Abschluss kommt, kann eine chronische Entzündung hervorgerufen werden. [@WunderlichEtAl2017]
 
-<<<<<<< HEAD
 **Aulus Cornelius Celsus** (25 v. Chr.-50 n. Chr.) definierte die vier Hauptanzeichen einer Entzündung mit seiner Aussage: "Notae vero inflammationis sunt quatuor: rubor et tumor cum calore and dolore".
-=======
-Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verstanden John Hunter (18. Jahrhundert) und Elie Metchnikoff (19. Jahrhundert), dass sie **ein natürliches und nützliches Ereignis ist**, das darauf abzielt, einen sterilen oder infektiösen Insult zu bekämpfen. [@Cavaillon2021]
->>>>>>> refs/remotes/origin/main
 
 Klinisch sind fünf Kardinalzeichen von Enzündung erkannt:
 
@@ -38,12 +34,8 @@ Klinisch sind fünf Kardinalzeichen von Enzündung erkannt:
 
 lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ; @InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021] Diese makroskopischen Anzeichen spiegeln die Gefäßerweiterung und das Eindringen von Immunzellen in das entzündete Gewebe wider, wodurch die akute lokale Entzündung ausgelöst und aufrechterhalten wird.[@WunderlichEtAl2017] Eine Darstellung dises Prozess findet sich in [Abbildung @fig-Inflammation].
 
-<<<<<<< HEAD
-Die zugrunde liegenden Mechanismen von Entzündung blieben bis zum 19. Jahrhundert unbekannt. Ilya I. Mechnikov entdeckte die Phagozyten und definierte den Entzündungszustand als "Läsion der Gefäße, die von der reizenden Ursache angegriffen werden". Je nach Art der "reizenden Ursache" unterscheiden Hawiger und Zienkiewicz @HawigerZienkiewicz2019 folgende Arten von Entzündungen: **mikrobielle, autoimmune, allergische, metabolische und physikalische** s. auch [Tabelle @tbl-Entzundung].
-=======
-Die zugrunde liegenden Mechanismen von Entzündung blieben bis zum 19. Jahrhundert unbekannt.
-Ilya I. Mechnikov  entdeckte die Phagozyten und definierte den Entzündungszustand als "Läsion der Gefäße, die von der reizenden Ursache angegriffen werden". Je nach Art der "reizenden Ursache" unterscheiden Hawiger und Zienkiewicz [@HawigerZienkiewicz2019] folgende Arten von Entzündungen: mikrobielle, autoimmune, allergische, metabolische und physikalische [Tabelle @tbl-Entzundung].
->>>>>>> refs/remotes/origin/main
+Die zugrunde liegenden Mechanismen von Entzündung blieben bis zum 19. Jahrhundert unbekannt. Ilya I. Mechnikov entdeckte die Phagozyten und definierte den Entzündungszustand als "Läsion der Gefäße, die von der reizenden Ursache angegriffen werden". Je nach Art der "reizenden Ursache" unterscheiden Hawiger und Zienkiewicz @HawigerZienkiewicz2019 folgende Arten von Entzündungen: **mikrobielle, autoimmune, allergische, metabolische und physikalische** s. auch [Tabelle @tbl-Entzundung]. Zudem wird Entzündung in Abwesenheit von Krankheitserregern und deren Produkten als sterile Entzündung bezeichnet. @ZindelKubes2020
+
 
 Weismann zählte jedoch mehrere Erkrankungen auf, die nicht mit den klassischen Entzündungszeichen einhergehen und für die Entzündungen verantwortlich gemacht werden, darunter: Atherosklerose, Fettleibigkeit, Depressionen, Alzheimer, Schizophrenie und Osteoporose.[@Weissmann2010]
 
@@ -77,7 +69,7 @@ as_raw_html(table)
 
 ```
 
-Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verstanden John Hunter (18. Jahrhundert) und Elie Metchnikoff (19. Jahrhundert), dass sie ein natürliches und nützliches Ereignis ist, das darauf abzielt, einen sterilen oder infektiösen Insult zu bekämpfen. [@Cavaillon2021]
+Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verstanden John Hunter (18. Jahrhundert) und Elie Metchnikoff (19. Jahrhundert), dass sie ein **physiologisches Ereignis** ist, das darauf abzielt, einen sterilen oder infektiösen Insult zu bekämpfen. [@Cavaillon2021]
 
 Dementsprechend ist vielleicht nicht überraschend, dass die Grenze zwischen normalen adaptiven homöostatischen Anpassungen und Entzündungen unscharf ist. [@AntonelliKushner2017]
 
@@ -95,6 +87,16 @@ flowchart LR
 
 ## DAMPS und PAMPS
 
+DAMPs werden bei Gewebeschäden freigesetzt und lösen eine Entzündungsreaktion aus. 
+
+Die sterile Entzündung bezieht sich auf eine Entzündungsreaktion auf schädliche Agenzien, bei denen es sich nicht um Krankheitserreger und ihre Produkte handelt (d. h. nicht um PAMPs).
+
+Eine sterile Entzündung und die anschließende Gewebereparatur hängen von einer gut orchestrierten Migrationssequenz von Leukozyten zum und vom Ort der Verletzung ab. @ZindelKubes2020
+
+## pattern recognition receptors PRRs
+
+
+
 ## Chemische Botenstoffe
 
 Eine Überproduktion von Zytokinen (ein Zytokinsturm) durch Immunzellen zur Überwindung von Krankheitserregern kann tödlich sein.[@TakeuchiAkira2010]
@@ -103,6 +105,7 @@ Eine Überproduktion von Zytokinen (ein Zytokinsturm) durch Immunzellen zur Übe
 
 ## Heilung/Auflösung
 
+Das Abklingen der Entzündung ist ein aktiv regulierter Prozess, der die Verringerung und Beendigung des Eindringens von Immunzellen in das Gewebe, die Gegenregulierung von Zytokinen und Chemokinen, die Apoptose der abgestorbenen Immunzellen mit anschließender Beseitigung durch Makrophagen sowie die Rückführung der verbleibenden Immunzellen in das Blut oder die Lymphgefäße umfasst. [@]
 
 Mastzellen sind beispielhaft in der Enzündungsprozess involviert [Abbildung @fig-mastzellen].
 
@@ -110,14 +113,11 @@ Mastzellen sind beispielhaft in der Enzündungsprozess involviert [Abbildung @fi
 
 Und dennoch, lange bevor Entzündungsprozesse verstanden oder gar definiert werden konnten, wurden verschiedene therapeutische Ansätze zur Behandlung verschiedener Arten von Entzündungskrankheiten vorgeschlagen.[@Cavaillon2021]
 
-<<<<<<< HEAD
-Hierunter auch die Strahlentherapie.
-=======
+
 Hierunter auch die Strahlentherapie. Im Allgemeinen hat die Röntgenbestrahlung mit höheren Dosen (z. B. Einzeldosen ≥ 2 Gy) entzündungsfördernde Wirkungen und führt zu entzündlichen Prozessen als übliche Toxizität der Strahlentherapie [1]. Im Gegensatz dazu moduliert die Niedrigdosis-Strahlentherapie (LD-RT: Einzeldosen < 1 Gy) eine Vielzahl von Entzündungsprozessen und zeigt eindeutig entzündungshemmende Eigenschaften.[@RodelEtAl2012]
 
 Zudem während in der Krebstherapie immunsuppressive Effekte der RT unerwünschte Nebenwirkungen sind, sind sie bei der Behandlung von entzündlichen, degenerativen Erkrankungen des Bewegungsapparats und hyperproliferativen gutartigen Erkrankungen erwünscht.[@RuckertEtAl2018]
 
->>>>>>> refs/remotes/origin/main
 
 # Strahlentherapie bei nicht bösartigen Erkrankungen
 
@@ -224,11 +224,6 @@ theme(
 
 ```
 
-<<<<<<< HEAD
-# Strahlentherapie und Entzündung
-=======
-
->>>>>>> refs/remotes/origin/main
 
 # Prävalenz von Gelenkschmerzen in Deutschland
 
