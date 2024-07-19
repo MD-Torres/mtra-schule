@@ -12,35 +12,33 @@ execute:
   warning: false
 ---
 
-# Einführung 
+# Einführung
 
 # Entzündung
 
-![Darstellung der Entzündungsprozess ](Bilder/InflammatoryResponse.png){#fig-Inflammation}
+![Darstellung der Entzündungsprozess](Bilder/InflammatoryResponse.png){#fig-Inflammation}
 
-Ganz allgemein gesprochen ist Entzündung die Reaktion des Immunsystems des Körpers auf einen noziven Reiz. Dabei kann es sich um einen mikrobiellen Reiz handeln, aber auch um eine Autoimmunerkrankung, eine allergische Reaktion, eine Stoffwechselerkrankung oder einen physikalischen Reiz. 
+Ganz allgemein gesprochen ist Entzündung die Reaktion des Immunsystems auf einen noziven Reiz. Dabei kann es sich um einen mikrobiellen Reiz handeln, aber auch um eine Autoimmunerkrankung, eine allergische Reaktion, eine Stoffwechselerkrankung oder einen physikalischen Reiz. 
 
-**Aulus Cornelius Celsus** (25 v. Chr.-50 n. Chr.) definierte die vier Hauptanzeichen einer Entzündung mit seiner Aussage:  "Notae vero inflammationis sunt quatuor: rubor et tumor cum calore and dolore". 
+Entzündung wird induziert, reguliert und aufgelöst [Diagramm @fig-DiagrammEntzundung]. Dieses Prozes ist gefolgt von einer Gewebereparatur. Wenn jedoch einer dieser stark regulierten Schritten nicht zum Abschluss kommt, kann eine chronische Entzündung hervorgerufen werden. [@WunderlichEtAl2017]
 
-Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verstanden John Hunter (18. Jahrhundert) und Elie Metchnikoff (19. Jahrhundert), dass sie ein natürliches und nützliches Ereignis ist, das darauf abzielt, einen sterilen oder infektiösen Insult zu bekämpfen. [@Cavaillon2021]
+**Aulus Cornelius Celsus** (25 v. Chr.-50 n. Chr.) definierte die vier Hauptanzeichen einer Entzündung mit seiner Aussage: "Notae vero inflammationis sunt quatuor: rubor et tumor cum calore and dolore".
 
 Aktuell werden fünf Kardinalzeichen von Enzündung erkannt:
 
-- Hitze 
-- Schmerz 
-- Rötung
-- Schwellung
-- Funktionsverlust
+-   Hitze
+-   Schmerz
+-   Rötung
+-   Schwellung
+-   Funktionsverlust
 
-lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ;@InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021] Diese makroskopischen Anzeichen spiegeln die Gefäßerweiterung und das Eindringen von Immunzellen in das entzündete Gewebe wider, wodurch die akute lokale Entzündung ausgelöst und aufrechterhalten wird.[@WunderlichEtAl2017] Eine Darstellung dises Prozess findet sich in [Abbildung @fig-Inflammation].
+lateinisch: calor, dolor, rubor, tumor und functio laesa. [@HawigerZienkiewicz2019 ; @InstitutfurQualitatundWirtschaftlichkeitimGesundheitswesen2021] Diese makroskopischen Anzeichen spiegeln die Gefäßerweiterung und das Eindringen von Immunzellen in das entzündete Gewebe wider, wodurch die akute lokale Entzündung ausgelöst und aufrechterhalten wird.[@WunderlichEtAl2017] Eine Darstellung dises Prozess findet sich in [Abbildung @fig-Inflammation].
 
-Die zugrunde liegenden Mechanismen von Entzündung blieben bis zum 19. Jahrhundert unbekannt.
-Ilya I. Mechnikov  entdeckte die Phagozyten und definierte den Entzündungszustand als "Läsion der Gefäße, die von der reizenden Ursache angegriffen werden". Je nach Art der "reizenden Ursache" unterscheiden Hawiger und Zienkiewicz @HawigerZienkiewicz2019 folgende Arten von Entzündungen: mikrobielle, autoimmune, allergische, metabolische und physikalische s. auch [Tabelle @tbl-Entzundung].
+Die zugrunde liegenden Mechanismen von Entzündung blieben bis zum 19. Jahrhundert unbekannt. Ilya I. Mechnikov entdeckte die Phagozyten und definierte den Entzündungszustand als "Läsion der Gefäße, die von der reizenden Ursache angegriffen werden". Je nach Art der "reizenden Ursache" unterscheiden Hawiger und Zienkiewicz @HawigerZienkiewicz2019 folgende Arten von Entzündungen: **mikrobielle, autoimmune, allergische, metabolische und physikalische** s. auch [Tabelle @tbl-Entzundung].
 
 Weismann zählte jedoch mehrere Erkrankungen auf, die nicht mit den klassischen Entzündungszeichen einhergehen und für die Entzündungen verantwortlich gemacht werden, darunter: Atherosklerose, Fettleibigkeit, Depressionen, Alzheimer, Schizophrenie und Osteoporose.[@Weissmann2010]
 
 Erstaunlicherweise haben sogar soziale Isolation und Familienstand einen Einfluss auf die Entzündung und damit auf das Überleben. [@LaugesenEtAl2018; @HeffnerEtAl2011]
-
 
 ```{r, tblEntzundung}
 #| label: tbl-Entzundung
@@ -70,11 +68,14 @@ as_raw_html(table)
 
 ```
 
+Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verstanden John Hunter (18. Jahrhundert) und Elie Metchnikoff (19. Jahrhundert), dass sie ein natürliches und nützliches Ereignis ist, das darauf abzielt, einen sterilen oder infektiösen Insult zu bekämpfen. [@Cavaillon2021]
+
 Dementsprechend ist vielleicht nicht überraschend, dass die Grenze zwischen normalen adaptiven homöostatischen Anpassungen und Entzündungen unscharf ist. [@AntonelliKushner2017]
 
-Entzündung wird induziert, reguliert und aufgelöst. Dieses Prozes ist gefolgt von einer Gewebereparatur. Wenn jedoch einer dieser stark regulierten Schritten nicht zum Abschluss kommt, kann eine chronische Entzündung hervorgerufen werden. [@WunderlichEtAl2017]
-
 ```{mermaid}
+//| label: fig-DiagrammEntzundung
+//| fig-cap: "This is a simple graphviz graph."
+
 flowchart LR
   A(Auslösung) --> B(Entzündungsreaktion)
   B --> C{Ablauf}
@@ -89,7 +90,7 @@ Mastzellen sind beispielhaft in der Enzündungsprozess involviert [Abbildung @fi
 
 Und dennoch, lange bevor Entzündungsprozesse verstanden oder gar definiert werden konnten, wurden verschiedene therapeutische Ansätze zur Behandlung verschiedener Arten von Entzündungskrankheiten vorgeschlagen.[@Cavaillon2021]
 
-Hierunter auch die Strahlentherapie. 
+Hierunter auch die Strahlentherapie.
 
 # Strahlentherapie bei nicht bösartigen Erkrankungen
 
@@ -99,13 +100,11 @@ Die Nutzung der Strahlentherapie variiert stark je nach Erkrankung und Land. Zum
 
 Trotzdem wird die Strahlentherapie schon lange für nicht-krebsartige Erkrankungen genutzt. Die erste gutartige Erkrankung, die mit Strahlentherapie behandelt wurde, war eine juvenile Arthritis im Jahr 1898. [@TorresRoyoEtAl2020]
 
-In Deutschland spielt die Strahlentherapie bei gutartigen Erkrankungen eine wichtige Rolle. Im Jahr 2016 wurden hier **258.946** gutartige entzündliche Erkrankungen und Tumoren (1%) mit Strahlentherapie behandelt.
-[Abbildung @fig-plot-PropGutartig] zeigt, dass die Strahlentherapie sogar häufiger bei gutartigen als bei bösartigen Erkrankungen eingesetzt wurde [@PoppEtAl2020].
+In Deutschland spielt die Strahlentherapie bei gutartigen Erkrankungen eine wichtige Rolle. Im Jahr 2016 wurden hier **258.946** gutartige entzündliche Erkrankungen und Tumoren (1%) mit Strahlentherapie behandelt. [Abbildung @fig-plot-PropGutartig] zeigt, dass die Strahlentherapie sogar häufiger bei gutartigen als bei bösartigen Erkrankungen eingesetzt wurde [@PoppEtAl2020].
 
 Von den über **300 aktiven strahlentherapeutischen Einrichtungen** in Deutschland bietet **jede einzelne** Strahlentherapie bei gutartigen Erkrankungen an.
 
 Die Behandlung nicht-bösartiger Erkrankungen mit ionisierenden Strahlen in niedrigen bis mittleren, teilweise auch hohen Dosen ist oft erfolgreich. Diese Erfolge tragen häufig zur Erhaltung oder Wiederherstellung der Lebensqualität bei, zum Beispiel durch Schmerzlinderung oder Verbesserung zuvor eingeschränkter Funktionen. [@MueckeEtAl2022]
-
 
 ```{r plt_PropGutartig}
 #| label: fig-plot-PropGutartig
@@ -198,12 +197,7 @@ theme(
 
 ```
 
-
-# Strahlentherapie und Entzündung 
-
-
-
-
+# Strahlentherapie und Entzündung
 
 # Prävalenz von Gelenkschmerzen in Deutschland
 
@@ -322,38 +316,33 @@ ggplot(
 
 ```
 
-
 ### Akute Schmerzen
 
-Akute Schmerzen dauern Sekunden bis maximal Wochen an und sind an erkennbare Auslöser gekoppelt.[@FuchsPruetz2017] 
+Akute Schmerzen dauern Sekunden bis maximal Wochen an und sind an erkennbare Auslöser gekoppelt.[@FuchsPruetz2017]
 
 ### Chronische Schmerzen
 
-Chronische Schmerzen sind nicht zwingend an schädigende Faktoren gekoppelt und sind gekennzeichnet durch anhaltende oder wiederkehrende Schmerzen, die mindestens drei Monate andauern. [@FuchsPruetz2017] 
+Chronische Schmerzen sind nicht zwingend an schädigende Faktoren gekoppelt und sind gekennzeichnet durch anhaltende oder wiederkehrende Schmerzen, die mindestens drei Monate andauern. [@FuchsPruetz2017]
 
-
-
-
-## Arthritis 
-
+## Arthritis
 
 ## Arthrose
 
-## Entzündung 
+## Entzündung
 
 # Strahlentherapie
 
-# Schmerzlindernde Wirkung 
+# Schmerzlindernde Wirkung
 
-# Antientzündliche Wirkung 
+# Antientzündliche Wirkung
 
 In der Regel erfolgen 6 Bestrahlungen mit sehr niedrigen Einzeldosen von 0,5 Gy mit einer Gesamtdosis von 3,0 Gy inerhalb von 3 Wochen. Im Falle eines Teilerfolgs ist eine 2. Serie möglich.
 
-# Erkrankungen: 
+# Erkrankungen:
 
 ## Fersensporn
 
-### Ätiologie 
+### Ätiologie
 
 ### Anatomie
 
@@ -367,18 +356,24 @@ In der Regel erfolgen 6 Bestrahlungen mit sehr niedrigen Einzeldosen von 0,5 Gy 
 
 #### Gewicht
 
-#### Fußstellung 
+#### Fußstellung
 
 #### Plantar fasciitis
 
 ## Schmerzsyndrom der Achillessehne
+
 ## Entzündung des Schultergelenks
+
 ## Epicondylitis radialis/ulnaris
-## Arthrose 
+
+## Arthrose
+
 ## Morbus Dupuytren
+
 ## Morbus Ledderhose
+
 ## Endokrine Orbitopatie
+
 ## Meningiome
 
-# Literaturverzeichnis 
-
+# Literaturverzeichnis
