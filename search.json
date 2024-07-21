@@ -298,35 +298,21 @@
     "href": "Gutartig.html#damps-und-pamps",
     "title": "Gutartige Erkrankungen",
     "section": "DAMPS und PAMPS",
-    "text": "DAMPS und PAMPS\nDAMPs werden bei Gewebeschäden freigesetzt und lösen eine Entzündungsreaktion aus.\nDie sterile Entzündung bezieht sich auf eine Entzündungsreaktion auf schädliche Agenzien, bei denen es sich nicht um Krankheitserreger und ihre Produkte handelt (d. h. nicht um PAMPs).\nEine sterile Entzündung und die anschließende Gewebereparatur hängen von einer gut orchestrierten Migrationssequenz von Leukozyten zum und vom Ort der Verletzung ab.4"
-  },
-  {
-    "objectID": "Gutartig.html#pattern-recognition-receptors-prrs",
-    "href": "Gutartig.html#pattern-recognition-receptors-prrs",
-    "title": "Gutartige Erkrankungen",
-    "section": "pattern recognition receptors PRRs",
-    "text": "pattern recognition receptors PRRs"
+    "text": "DAMPS und PAMPS\nWährend die adaptive Reaktion mit der Zeit eine hochspezifische Reaktion entwickelt, reagiert die angeborene Reaktion sofort auf spezielle Strukturen, die auf Krankheitserregern zu finden sind. Sie werden als pathogen-assoziierte molekulare Muster (PAMPs) bezeichnet. Lipopolysaccharide (LPS), die spezifisch für die Zellwände gramnegativer Bakterien sind, sind ein typisches Beispiel für ein solches Muster.10\nDAMPs werden bei Gewebeschäden freigesetzt und lösen eine Entzündungsreaktion aus Figure 2\nDie sterile Entzündung bezieht sich auf eine Entzündungsreaktion auf schädliche Agenzien, bei denen es sich nicht um Krankheitserreger und ihre Produkte handelt (d. h. nicht um PAMPs).\nEine sterile Entzündung und die anschließende Gewebereparatur hängen von einer gut orchestrierten Migrationssequenz von Leukozyten zum und vom Ort der Verletzung ab.4\n\n\n\n\n\n\nFigure 2: Entzündung wird oft durch PAMPs (z.B. spezifische Lipopolysaccharide der Zellwände gramnegativer Bakterien) ausgelöst. DAMPs binden spezifische Rezeptoren und aktivieren die Entzündung, um Neutrophile und Monozyten zu rekrutieren und die Gewebereparatur einzuleiten.10"
   },
   {
     "objectID": "Gutartig.html#chemische-botenstoffe",
     "href": "Gutartig.html#chemische-botenstoffe",
     "title": "Gutartige Erkrankungen",
     "section": "Chemische Botenstoffe",
-    "text": "Chemische Botenstoffe\nEine Überproduktion von Zytokinen (ein Zytokinsturm) durch Immunzellen zur Überwindung von Krankheitserregern kann tödlich sein.TakeuchiAkira2010?"
-  },
-  {
-    "objectID": "Gutartig.html#die-entzündungsreaktion",
-    "href": "Gutartig.html#die-entzündungsreaktion",
-    "title": "Gutartige Erkrankungen",
-    "section": "Die Entzündungsreaktion",
-    "text": "Die Entzündungsreaktion"
+    "text": "Chemische Botenstoffe\nEin Schritt bei diesem intrazellulären Prozess ist die Translokation des Proteins NF-κ B aus dem Zytoplasma in den Zellkern. In seiner Rolle als Transkriptionsfaktor unterstützt NF-κB die Transkription der entsprechenden Zytokin-Gene.\nDie produzierten Zytokine veranlassen anschließend die weißen Blutkörperchen (Leukozyten), reaktive Sauerstoffspezies (ROS) und reaktive Stickstoffspezies (RNS) freizusetzen, die Bakterien und Viren abtöten können.10\nEine Überproduktion von Zytokinen (ein Zytokinsturm) durch Immunzellen zur Überwindung von Krankheitserregern kann tödlich sein.11"
   },
   {
     "objectID": "Gutartig.html#heilungauflösung",
     "href": "Gutartig.html#heilungauflösung",
     "title": "Gutartige Erkrankungen",
     "section": "Heilung/Auflösung",
-    "text": "Heilung/Auflösung\nDas Abklingen der Entzündung ist ein aktiv regulierter Prozess, der die Verringerung und Beendigung des Eindringens von Immunzellen in das Gewebe, die Gegenregulierung von Zytokinen und Chemokinen, die Apoptose der abgestorbenen Immunzellen mit anschließender Beseitigung durch Makrophagen sowie die Rückführung der verbleibenden Immunzellen in das Blut oder die Lymphgefäße umfasst. [@]\nMastzellen sind beispielhaft in der Enzündungsprozess involviert Abbildung 2.\n\n\n\n\n\n\nFigure 2: Überblick über die Funktion der Mastzellen\n\n\n\nUnd dennoch, lange bevor Entzündungsprozesse verstanden oder gar definiert werden konnten, wurden verschiedene therapeutische Ansätze zur Behandlung verschiedener Arten von Entzündungskrankheiten vorgeschlagen.8\nHierunter auch die Strahlentherapie. Im Allgemeinen hat die Röntgenbestrahlung mit höheren Dosen (z. B. Einzeldosen ≥ 2 Gy) entzündungsfördernde Wirkungen und führt zu entzündlichen Prozessen als übliche Toxizität der Strahlentherapie [1]. Im Gegensatz dazu moduliert die Niedrigdosis-Strahlentherapie (LD-RT: Einzeldosen &lt; 1 Gy) eine Vielzahl von Entzündungsprozessen und zeigt eindeutig entzündungshemmende Eigenschaften.10\nZudem während in der Krebstherapie immunsuppressive Effekte der RT unerwünschte Nebenwirkungen sind, sind sie bei der Behandlung von entzündlichen, degenerativen Erkrankungen des Bewegungsapparats und hyperproliferativen gutartigen Erkrankungen erwünscht.11"
+    "text": "Heilung/Auflösung\nDas Abklingen der Entzündung ist ein aktiv regulierter Prozess, der die Verringerung und Beendigung des Eindringens von Immunzellen in das Gewebe, die Gegenregulierung von Zytokinen und Chemokinen, die Apoptose der abgestorbenen Immunzellen mit anschließender Beseitigung durch Makrophagen sowie die Rückführung der verbleibenden Immunzellen in das Blut oder die Lymphgefäße umfasst.1\nMastzellen sind beispielhaft in der Enzündungsprozess involviert Abbildung 3.\n\n\n\n\n\n\nFigure 3: Überblick über die Funktion der Mastzellen\n\n\n\nUnd dennoch, lange bevor Entzündungsprozesse verstanden oder gar definiert werden konnten, wurden verschiedene therapeutische Ansätze zur Behandlung verschiedener Arten von Entzündungskrankheiten vorgeschlagen.8\nHierunter auch die Strahlentherapie. Im Allgemeinen hat die Röntgenbestrahlung mit höheren Dosen (z. B. Einzeldosen ≥ 2 Gy) entzündungsfördernde Wirkungen und führt zu entzündlichen Prozessen als übliche Toxizität der Strahlentherapie [1]. Im Gegensatz dazu moduliert die Niedrigdosis-Strahlentherapie (LD-RT: Einzeldosen &lt; 1 Gy) eine Vielzahl von Entzündungsprozessen und zeigt eindeutig entzündungshemmende Eigenschaften.12\nZudem während in der Krebstherapie immunsuppressive Effekte der RT unerwünschte Nebenwirkungen sind, sind sie bei der Behandlung von entzündlichen, degenerativen Erkrankungen des Bewegungsapparats und hyperproliferativen gutartigen Erkrankungen erwünscht.13"
   },
   {
     "objectID": "Gutartig.html#arthritis",
