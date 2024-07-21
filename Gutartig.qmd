@@ -87,6 +87,9 @@ flowchart LR
 
 ## DAMPS und PAMPS
 
+Während die adaptive Reaktion mit der Zeit eine hochspezifische Reaktion entwickelt, reagiert die angeborene Reaktion sofort auf spezielle Strukturen, die auf Krankheitserregern zu finden sind. Sie werden als pathogen-assoziierte molekulare Muster (PAMPs) bezeichnet. Lipopolysaccharide (LPS), die spezifisch für die Zellwände gramnegativer Bakterien sind, sind ein typisches Beispiel für ein solches Muster. @NeumannEtAl2017
+
+
 DAMPs werden bei Gewebeschäden freigesetzt und lösen eine Entzündungsreaktion aus. 
 
 Die sterile Entzündung bezieht sich auf eine Entzündungsreaktion auf schädliche Agenzien, bei denen es sich nicht um Krankheitserreger und ihre Produkte handelt (d. h. nicht um PAMPs).
