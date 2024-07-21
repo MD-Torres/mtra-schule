@@ -95,7 +95,7 @@ Die sterile Entzündung bezieht sich auf eine Entzündungsreaktion auf schädlic
 
 Eine sterile Entzündung und die anschließende Gewebereparatur hängen von einer gut orchestrierten Migrationssequenz von Leukozyten zum und vom Ort der Verletzung ab. @ZindelKubes2020
 
-![Entzündung wird oft durch PAMPs (z.B. spezifische Lipopolysaccharide der Zellwände gramnegativer Bakterien) ausgelöst. DAMPs binden spezifische Rezeptoren und aktivieren die Entzündung, um Neutrophile und Monozyten zu rekrutieren und die Gewebereparatur einzuleiten.](Bilder/InflamationZyklus.png){#fig-InflZyk}
+![Entzündung wird oft durch PAMPs (z.B. spezifische Lipopolysaccharide der Zellwände gramnegativer Bakterien) ausgelöst. DAMPs binden spezifische Rezeptoren und aktivieren die Entzündung, um Neutrophile und Monozyten zu rekrutieren und die Gewebereparatur einzuleiten. @NeumannEtAl2017](Bilder/InflamationZyklus.png){#fig-InflZyk}
 
 
 
