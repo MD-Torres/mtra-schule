@@ -74,8 +74,8 @@ Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verst
 Dementsprechend ist vielleicht nicht überraschend, dass die Grenze zwischen normalen adaptiven homöostatischen Anpassungen und Entzündungen unscharf ist. [@AntonelliKushner2017]
 
 ```{mermaid}
-//| label: fig-DiagrammEntzundung
-//| fig-cap: "This is a simple graphviz graph."
+#| label: fig-DiagrammEntzundung
+#| fig-cap: "This is a simple graphviz graph." 
 
 flowchart LR
   A(Auslösung) --> B(Entzündungsreaktion)
@@ -89,15 +89,19 @@ flowchart LR
 
 Während die adaptive Reaktion mit der Zeit eine hochspezifische Reaktion entwickelt, reagiert die angeborene Reaktion sofort auf spezielle Strukturen, die auf Krankheitserregern zu finden sind. Sie werden als pathogen-assoziierte molekulare Muster (PAMPs) bezeichnet. Lipopolysaccharide (LPS), die spezifisch für die Zellwände gramnegativer Bakterien sind, sind ein typisches Beispiel für ein solches Muster. @NeumannEtAl2017
 
-DAMPs werden bei Gewebeschäden freigesetzt und lösen eine Entzündungsreaktion aus @fig-InflZyk
+DAMPs werden von pattern recognition receptors (PRRs), wie z. B. Toll-like-Rezeptoren (TLRs), erkannt @ZindelKubes2020
+
+Damage-associated molecular patterns (DAMPs) werden bei Gewebeschäden freigesetzt und lösen ebenso eine Entzündungsreaktion aus @fig-InflZyk
+
+![Entzündung wird oft durch PAMPs (z.B. spezifische Lipopolysaccharide der Zellwände gramnegativer Bakterien) ausgelöst. DAMPs binden spezifische Rezeptoren und aktivieren die Entzündung, um Neutrophile und Monozyten zu rekrutieren und die Gewebereparatur einzuleiten. @NeumannEtAl2017](Bilder/InflamationZyklus.png){#fig-InflZyk}
+
+## LAMPS 
+
+Lifestyle-associated molecular patterns (LAMPs) ist ein ein Begriff eingeführt von Zindel und Kubes @ZindelKubes2020
 
 Die sterile Entzündung bezieht sich auf eine Entzündungsreaktion auf schädliche Agenzien, bei denen es sich nicht um Krankheitserreger und ihre Produkte handelt (d. h. nicht um PAMPs).
 
 Eine sterile Entzündung und die anschließende Gewebereparatur hängen von einer gut orchestrierten Migrationssequenz von Leukozyten zum und vom Ort der Verletzung ab. @ZindelKubes2020
-
-![Entzündung wird oft durch PAMPs (z.B. spezifische Lipopolysaccharide der Zellwände gramnegativer Bakterien) ausgelöst. DAMPs binden spezifische Rezeptoren und aktivieren die Entzündung, um Neutrophile und Monozyten zu rekrutieren und die Gewebereparatur einzuleiten. @NeumannEtAl2017](Bilder/InflamationZyklus.png){#fig-InflZyk}
-
-
 
 ## Chemische Botenstoffe
 
@@ -105,7 +109,7 @@ Ein Schritt bei diesem intrazellulären Prozess ist die Translokation des Protei
 
 Die produzierten Zytokine veranlassen anschließend die weißen Blutkörperchen (Leukozyten), reaktive Sauerstoffspezies (ROS) und reaktive Stickstoffspezies (RNS) freizusetzen, die Bakterien und Viren abtöten können. @NeumannEtAl2017
 
-Eine Überproduktion von Zytokinen (ein Zytokinsturm) durch Immunzellen zur Überwindung von Krankheitserregern kann tödlich sein.[@TakeuchiAkira2010]
+Eine Überproduktion von Zytokinen (ein Zytokinsturm) durch Immunzellen zur Überwindung von Krankheitserregern kann jedoch tödlich sein.[@TakeuchiAkira2010]
 
 ## Heilung/Auflösung
 
