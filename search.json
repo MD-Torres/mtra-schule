@@ -298,14 +298,21 @@
     "href": "Gutartig.html#damps-und-pamps",
     "title": "Gutartige Erkrankungen",
     "section": "DAMPS und PAMPS",
-    "text": "DAMPS und PAMPS\nWährend die adaptive Reaktion mit der Zeit eine hochspezifische Reaktion entwickelt, reagiert die angeborene Reaktion sofort auf spezielle Strukturen, die auf Krankheitserregern zu finden sind. Sie werden als pathogen-assoziierte molekulare Muster (PAMPs) bezeichnet. Lipopolysaccharide (LPS), die spezifisch für die Zellwände gramnegativer Bakterien sind, sind ein typisches Beispiel für ein solches Muster.10\nDAMPs werden bei Gewebeschäden freigesetzt und lösen eine Entzündungsreaktion aus Figure 2\nDie sterile Entzündung bezieht sich auf eine Entzündungsreaktion auf schädliche Agenzien, bei denen es sich nicht um Krankheitserreger und ihre Produkte handelt (d. h. nicht um PAMPs).\nEine sterile Entzündung und die anschließende Gewebereparatur hängen von einer gut orchestrierten Migrationssequenz von Leukozyten zum und vom Ort der Verletzung ab.4\n\n\n\n\n\n\nFigure 2: Entzündung wird oft durch PAMPs (z.B. spezifische Lipopolysaccharide der Zellwände gramnegativer Bakterien) ausgelöst. DAMPs binden spezifische Rezeptoren und aktivieren die Entzündung, um Neutrophile und Monozyten zu rekrutieren und die Gewebereparatur einzuleiten.10"
+    "text": "DAMPS und PAMPS\nWährend die adaptive Reaktion mit der Zeit eine hochspezifische Reaktion entwickelt, reagiert die angeborene Reaktion sofort auf spezielle Strukturen, die auf Krankheitserregern zu finden sind. Sie werden als pathogen-assoziierte molekulare Muster (PAMPs) bezeichnet. Lipopolysaccharide (LPS), die spezifisch für die Zellwände gramnegativer Bakterien sind, sind ein typisches Beispiel für ein solches Muster.10\nDAMPs werden von pattern recognition receptors (PRRs), wie z. B. Toll-like-Rezeptoren (TLRs), erkannt4\nDamage-associated molecular patterns (DAMPs) werden bei Gewebeschäden freigesetzt und lösen ebenso eine Entzündungsreaktion aus Figure 2\n\n\n\n\n\n\nFigure 2: Entzündung wird oft durch PAMPs (z.B. spezifische Lipopolysaccharide der Zellwände gramnegativer Bakterien) ausgelöst. DAMPs binden spezifische Rezeptoren und aktivieren die Entzündung, um Neutrophile und Monozyten zu rekrutieren und die Gewebereparatur einzuleiten.10"
+  },
+  {
+    "objectID": "Gutartig.html#lamps",
+    "href": "Gutartig.html#lamps",
+    "title": "Gutartige Erkrankungen",
+    "section": "LAMPS",
+    "text": "LAMPS\nLifestyle-associated molecular patterns (LAMPs) ist ein ein Begriff eingeführt von Zindel und Kubes4\nDie sterile Entzündung bezieht sich auf eine Entzündungsreaktion auf schädliche Agenzien, bei denen es sich nicht um Krankheitserreger und ihre Produkte handelt (d. h. nicht um PAMPs).\nEine sterile Entzündung und die anschließende Gewebereparatur hängen von einer gut orchestrierten Migrationssequenz von Leukozyten zum und vom Ort der Verletzung ab.4"
   },
   {
     "objectID": "Gutartig.html#chemische-botenstoffe",
     "href": "Gutartig.html#chemische-botenstoffe",
     "title": "Gutartige Erkrankungen",
     "section": "Chemische Botenstoffe",
-    "text": "Chemische Botenstoffe\nEin Schritt bei diesem intrazellulären Prozess ist die Translokation des Proteins NF-κ B aus dem Zytoplasma in den Zellkern. In seiner Rolle als Transkriptionsfaktor unterstützt NF-κB die Transkription der entsprechenden Zytokin-Gene.\nDie produzierten Zytokine veranlassen anschließend die weißen Blutkörperchen (Leukozyten), reaktive Sauerstoffspezies (ROS) und reaktive Stickstoffspezies (RNS) freizusetzen, die Bakterien und Viren abtöten können.10\nEine Überproduktion von Zytokinen (ein Zytokinsturm) durch Immunzellen zur Überwindung von Krankheitserregern kann tödlich sein.11"
+    "text": "Chemische Botenstoffe\nEin Schritt bei diesem intrazellulären Prozess ist die Translokation des Proteins NF-κ B aus dem Zytoplasma in den Zellkern. In seiner Rolle als Transkriptionsfaktor unterstützt NF-κB die Transkription der entsprechenden Zytokin-Gene.\nDie produzierten Zytokine veranlassen anschließend die weißen Blutkörperchen (Leukozyten), reaktive Sauerstoffspezies (ROS) und reaktive Stickstoffspezies (RNS) freizusetzen, die Bakterien und Viren abtöten können.10\nEine Überproduktion von Zytokinen (ein Zytokinsturm) durch Immunzellen zur Überwindung von Krankheitserregern kann jedoch tödlich sein.11"
   },
   {
     "objectID": "Gutartig.html#heilungauflösung",
