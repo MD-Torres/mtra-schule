@@ -89,26 +89,27 @@ flowchart LR
 
 Während die adaptive Reaktion mit der Zeit eine hochspezifische Reaktion entwickelt, reagiert die angeborene Reaktion sofort auf spezielle Strukturen, die auf Krankheitserregern zu finden sind. Sie werden als pathogen-assoziierte molekulare Muster (PAMPs) bezeichnet. Lipopolysaccharide (LPS), die spezifisch für die Zellwände gramnegativer Bakterien sind, sind ein typisches Beispiel für ein solches Muster. @NeumannEtAl2017
 
-
-DAMPs werden bei Gewebeschäden freigesetzt und lösen eine Entzündungsreaktion aus. 
+DAMPs werden bei Gewebeschäden freigesetzt und lösen eine Entzündungsreaktion aus @fig-InflZyk
 
 Die sterile Entzündung bezieht sich auf eine Entzündungsreaktion auf schädliche Agenzien, bei denen es sich nicht um Krankheitserreger und ihre Produkte handelt (d. h. nicht um PAMPs).
 
 Eine sterile Entzündung und die anschließende Gewebereparatur hängen von einer gut orchestrierten Migrationssequenz von Leukozyten zum und vom Ort der Verletzung ab. @ZindelKubes2020
 
-## pattern recognition receptors PRRs
+![Entzündung wird oft durch PAMPs (z.B. spezifische Lipopolysaccharide der Zellwände gramnegativer Bakterien) ausgelöst. DAMPs binden spezifische Rezeptoren und aktivieren die Entzündung, um Neutrophile und Monozyten zu rekrutieren und die Gewebereparatur einzuleiten.](Bilder/InflamationZyklus.png){#fig-InflZyk}
 
 
 
 ## Chemische Botenstoffe
 
-Eine Überproduktion von Zytokinen (ein Zytokinsturm) durch Immunzellen zur Überwindung von Krankheitserregern kann tödlich sein.[@TakeuchiAkira2010]
+Ein Schritt bei diesem intrazellulären Prozess ist die Translokation des Proteins NF-κ B aus dem Zytoplasma in den Zellkern. In seiner Rolle als Transkriptionsfaktor unterstützt NF-κB die Transkription der entsprechenden Zytokin-Gene. 
 
-## Die Entzündungsreaktion
+Die produzierten Zytokine veranlassen anschließend die weißen Blutkörperchen (Leukozyten), reaktive Sauerstoffspezies (ROS) und reaktive Stickstoffspezies (RNS) freizusetzen, die Bakterien und Viren abtöten können. @NeumannEtAl2017
+
+Eine Überproduktion von Zytokinen (ein Zytokinsturm) durch Immunzellen zur Überwindung von Krankheitserregern kann tödlich sein.[@TakeuchiAkira2010]
 
 ## Heilung/Auflösung
 
-Das Abklingen der Entzündung ist ein aktiv regulierter Prozess, der die Verringerung und Beendigung des Eindringens von Immunzellen in das Gewebe, die Gegenregulierung von Zytokinen und Chemokinen, die Apoptose der abgestorbenen Immunzellen mit anschließender Beseitigung durch Makrophagen sowie die Rückführung der verbleibenden Immunzellen in das Blut oder die Lymphgefäße umfasst. [@]
+Das Abklingen der Entzündung ist ein aktiv regulierter Prozess, der die Verringerung und Beendigung des Eindringens von Immunzellen in das Gewebe, die Gegenregulierung von Zytokinen und Chemokinen, die Apoptose der abgestorbenen Immunzellen mit anschließender Beseitigung durch Makrophagen sowie die Rückführung der verbleibenden Immunzellen in das Blut oder die Lymphgefäße umfasst. [@WunderlichEtAl2017]
 
 Mastzellen sind beispielhaft in der Enzündungsprozess involviert [Abbildung @fig-mastzellen].
 
