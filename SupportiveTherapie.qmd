@@ -26,3 +26,15 @@ title: "Supportive Therapie"
 
 Umrechnung der Opiate s. @fig-Umrech
 :::
+
+
+![Opiate Umrechnungstabelle](Bilder/Umrechnung.png){#fig-Umrech}
+
+
+
+
+
+
+
+
+
