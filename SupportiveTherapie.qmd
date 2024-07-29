@@ -2,6 +2,8 @@
 title: "Supportive Therapie"
 ---
 
+# Schmerzen  
+
 ::: {.callout-tip collapse="true"}
 #### Therapie auf einen Blick
 
@@ -27,6 +29,11 @@ title: "Supportive Therapie"
 Umrechnung der Opiate s. @fig-Umrech
 :::
 
+## Aufklärung 
+
+Nach § 24a Straßenverkehrsgesetz ist Das Autofahren nach medizinisch indizierte Schmerzmitteleinnahme erlaubt. Jeder Verkehrsteilnehmer ist für seine Fahrtauglichkeit selbst verantwortlich. Nach erfolgter Hiweiss auf die Gefahr, kann der Arzt bei möglicher Unfälle nicht mehr haftbar gemacht werden. Sollte jedoch Zweifel an der Fahreignung, muss dies dem Patienten mitgeteilt werden.
+
+## Umrechnung 
 
 ![Opiate Umrechnungstabelle](Bilder/Umrechnung.png){#fig-Umrech}
 
