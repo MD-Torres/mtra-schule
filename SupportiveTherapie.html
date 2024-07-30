@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -149,13 +168,27 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="schmerzen" class="level1">
 <h1>Schmerzen</h1>
+<p>Schmerzen können als Dauerschmerzen oder Durchbruchschmerzen auftreten <a href="#fig-Schmerzen" class="quarto-xref">Figure&nbsp;1</a>.</p>
+<p>Dauerschmerzen werden mit retardierten Medikamenten oder mit regelmäßigen Gaben von kurzwirksamen Medikamenten behandelt. Durchbruchschmerzen sind plötzlich auftretende Schmerzepisoden oder -spitzen, die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern.</p>
+<p>Eine adäquate Schmerztherapie kombiniert daher beides: regelmäßige Langzeitmedikamente und kurzwirksame (Bedarfs-)Medikamente.</p>
+<p>Anfangs kann es jedoch sein, dass nur eine Bedarfsmedikation erforderlich ist. Bei opioid-naiven Patienten ist es zudem sinnvoll, die Ersteinstellung mit kurzwirksamen Opioiden zu beginnen, da mögliche Nebenwirkungen dann nur kurz anhalten.</p>
+<div id="fig-Schmerzen" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-Schmerzen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Bilder/Schmerzen.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Schmerzen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Schmerzen bei Krebspatienten
+</figcaption>
+</figure>
+</div>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Therapie auf einen Blick
+Therapie Vorschlag
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -175,7 +208,7 @@ Ondansetron 4mg s.l. b.B. max. 3mal Täglich<br>
 <p><strong>2gtt b.B. Sperrzeit 4 Stunden, maximal 4mal täglich</strong><br>
 Laxoberal 8gtt b.B. 0-0-0-1</p></li>
 </ol>
-<p>Umrechnung der Opiate s. <a href="#fig-Umrech" class="quarto-xref">Figure&nbsp;1</a></p>
+<p>Umrechnung der Opiate s. <a href="#fig-Umrech" class="quarto-xref">Figure&nbsp;2</a></p>
 </div>
 </div>
 </div>
@@ -191,7 +224,7 @@ Laxoberal 8gtt b.B. 0-0-0-1</p></li>
 <img src="Bilder/Umrechnung.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Umrech-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Opiate Umrechnungstabelle
+Figure&nbsp;2: Opiate Umrechnungstabelle
 </figcaption>
 </figure>
 </div>
@@ -201,18 +234,26 @@ Figure&nbsp;1: Opiate Umrechnungstabelle
 <h1>Prostata</h1>
 <section id="durchfälle" class="level2">
 <h2 class="anchored" data-anchor-id="durchfälle">Durchfälle</h2>
-<p>Nach Anwendung von Loperamid nach Fachinformation <strong><em>kann</em></strong> der Algorithmus von Benson et al. <span class="citation" data-cites="BensonEtAl2004">[@BensonEtAl2004]</span> verwendet werden:</p>
+<p>Nach Anwendung von Loperamid nach Fachinformation <strong><em>kann</em></strong> der Algorithmus von Benson et al.<span class="citation" data-cites="BensonEtAl2004"><sup><a href="#ref-BensonEtAl2004" role="doc-biblioref">1</a></sup></span> verwendet werden<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2020"><sup><a href="#ref-DeutscheKrebsgesellschaftEtAl2020" role="doc-biblioref">2</a></sup></span>:</p>
 <p>Die empfohlene Dosierung ist: <strong>initial 4 mg</strong> gefolgt von <strong>2 mg alle 4 Stunden</strong>. Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen.</p>
 <p>Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symptomatik ein, kann die Loperamid-Dosierung auf 2 mg alle 2 Stunden gesteigert werden.</p>
 </section>
 <section id="dysurie" class="level2">
-<h2 class="anchored" data-anchor-id="dysurie">Dysurie</h2>
+
+
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Dysurie</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-BensonEtAl2004" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Benson AB, Ajani JA, Catalano RB, et al. Recommended guidelines for the treatment of cancer treatment-induced diarrhea. <em>Journal of Clinical Oncology: Official Journal of the American Society of Clinical Oncology</em>. 2004;22(14):2918-2926. doi:<a href="https://doi.org/10.1200/JCO.2004.04.132">10.1200/JCO.2004.04.132</a></div>
+</div>
+<div id="ref-DeutscheKrebsgesellschaftEtAl2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF. <span>Supportive Therapie bei onkologischen PatientInnen - Langversion 1.3, 2020</span>. Published online 2020:558.</div>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

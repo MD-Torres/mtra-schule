@@ -410,7 +410,7 @@
     "href": "SupportiveTherapie.html",
     "title": "Supportive Therapie",
     "section": "",
-    "text": "Therapie auf einen Blick\n\n\n\n\n\n\nSchritt (Bei Eskalation beibehalten)\nMetamizol 40gtt 1-1-1-1\nSchritt (Morphin 2% 2gtt=2,5mg)\nMorphin 2% Lösung 2gtt b.B. Sperrzeit 4 Stunden, maximal 4mal täglich\nLaxoberal 8gtt b.B. 0-0-0-1\nOndansetron 4mg s.l. b.B. max. 3mal Täglich\n\nüber Fahrsicherheit, -tauglichkeit aufgeklärt. [^1]\nSchritt\nMorphin 2% Lösung 2gtt 1-1-1-1 sowie\n2gtt b.B. Sperrzeit 4 Stunden, maximal 4mal täglich\nLaxoberal 8gtt b.B. 0-0-0-1\n\nUmrechnung der Opiate s. Figure 1\n\n\n\n\n\nNach § 24a Straßenverkehrsgesetz ist das Autofahren nach medizinisch indizierte Schmerzmitteleinnahme erlaubt. Jeder Verkehrsteilnehmer ist für seine Fahrtauglichkeit selbst verantwortlich. Nach erfolgter Hiweiss auf die Gefahr, kann der Arzt bei möglicher Unfälle nicht mehr haftbar gemacht werden. Sollte jedoch Zweifel an der Fahreignung, muss dies dem Patienten mitgeteilt werden.\n\n\n\n\n\n\n\n\n\nFigure 1: Opiate Umrechnungstabelle"
+    "text": "Schmerzen können als Dauerschmerzen oder Durchbruchschmerzen auftreten Figure 1.\nDauerschmerzen werden mit retardierten Medikamenten oder mit regelmäßigen Gaben von kurzwirksamen Medikamenten behandelt. Durchbruchschmerzen sind plötzlich auftretende Schmerzepisoden oder -spitzen, die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern.\nEine adäquate Schmerztherapie kombiniert daher beides: regelmäßige Langzeitmedikamente und kurzwirksame (Bedarfs-)Medikamente.\nAnfangs kann es jedoch sein, dass nur eine Bedarfsmedikation erforderlich ist. Bei opioid-naiven Patienten ist es zudem sinnvoll, die Ersteinstellung mit kurzwirksamen Opioiden zu beginnen, da mögliche Nebenwirkungen dann nur kurz anhalten.\n\n\n\n\n\n\nFigure 1: Schmerzen bei Krebspatienten\n\n\n\n\n\n\n\n\n\nTherapie Vorschlag\n\n\n\n\n\n\nSchritt (Bei Eskalation beibehalten)\nMetamizol 40gtt 1-1-1-1\nSchritt (Morphin 2% 2gtt=2,5mg)\nMorphin 2% Lösung 2gtt b.B. Sperrzeit 4 Stunden, maximal 4mal täglich\nLaxoberal 8gtt b.B. 0-0-0-1\nOndansetron 4mg s.l. b.B. max. 3mal Täglich\n\nüber Fahrsicherheit, -tauglichkeit aufgeklärt. [^1]\nSchritt\nMorphin 2% Lösung 2gtt 1-1-1-1 sowie\n2gtt b.B. Sperrzeit 4 Stunden, maximal 4mal täglich\nLaxoberal 8gtt b.B. 0-0-0-1\n\nUmrechnung der Opiate s. Figure 2\n\n\n\n\n\nNach § 24a Straßenverkehrsgesetz ist das Autofahren nach medizinisch indizierte Schmerzmitteleinnahme erlaubt. Jeder Verkehrsteilnehmer ist für seine Fahrtauglichkeit selbst verantwortlich. Nach erfolgter Hiweiss auf die Gefahr, kann der Arzt bei möglicher Unfälle nicht mehr haftbar gemacht werden. Sollte jedoch Zweifel an der Fahreignung, muss dies dem Patienten mitgeteilt werden.\n\n\n\n\n\n\n\n\n\nFigure 2: Opiate Umrechnungstabelle"
   },
   {
     "objectID": "SupportiveTherapie.html#aufklärung",
@@ -424,21 +424,14 @@
     "href": "SupportiveTherapie.html#umrechnung",
     "title": "Supportive Therapie",
     "section": "",
-    "text": "Figure 1: Opiate Umrechnungstabelle"
+    "text": "Figure 2: Opiate Umrechnungstabelle"
   },
   {
     "objectID": "SupportiveTherapie.html#durchfälle",
     "href": "SupportiveTherapie.html#durchfälle",
     "title": "Supportive Therapie",
     "section": "Durchfälle",
-    "text": "Durchfälle\nNach Anwendung von Loperamid nach Fachinformation kann der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden:\nDie empfohlene Dosierung ist: initial 4 mg gefolgt von 2 mg alle 4 Stunden. Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen.\nTritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symptomatik ein, kann die Loperamid-Dosierung auf 2 mg alle 2 Stunden gesteigert werden."
-  },
-  {
-    "objectID": "SupportiveTherapie.html#dysurie",
-    "href": "SupportiveTherapie.html#dysurie",
-    "title": "Supportive Therapie",
-    "section": "Dysurie",
-    "text": "Dysurie"
+    "text": "Durchfälle\nNach Anwendung von Loperamid nach Fachinformation kann der Algorithmus von Benson et al.1 verwendet werden2:\nDie empfohlene Dosierung ist: initial 4 mg gefolgt von 2 mg alle 4 Stunden. Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen.\nTritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symptomatik ein, kann die Loperamid-Dosierung auf 2 mg alle 2 Stunden gesteigert werden."
   },
   {
     "objectID": "Communication.html",
