@@ -67,9 +67,21 @@ Die empfohlene Dosierung ist: **initial 4 mg** gefolgt von **2 mg alle 4 Stunden
 Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symptomatik ein, kann die Loperamid-Dosierung auf 2 mg alle 2 Stunden gesteigert
 werden.
 
-## Dysurie
+## Strahlenzystitis
 
-Tamsulosin 0,4mg 1-0-0 
+Die Strahlenzystitis äußert sich durch obstruktiven Symptomen wie Nykturie, Pollakisurie, Harndrang und verminderter Stärke des Harnstrahls. Es gibt nur wenige wirksame Behandlungsmöglichkeiten. Traditionell wird die Strahlenzystitis mit Analgetika behandelt. Dieser Ansatz berücksichtigt jedoch nicht die eigentliche Pathophysiologie. 
+
+
+Dementsprechend erfolgt die Behandlung hauptsächlich über $$ \alpha _1 $$-Blocker. Diese blockieren die $$ \alpha _1 $$-Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses. @GelbeListeOnline
+
+### Erste Schritt: Tamsulosin 0,4mg 1-0-0 
+
+Prosinitz et al. @ProsnitzEtAl1999 führten eine Pilotstudie mit 26 strahlentherapeutische Patienten durch. Von 10 Patienten, die auf 0,4 mg Tamsulosin täglich nicht reagierten, berichteten 6 eine Besserung der Symptome bei 0,8 mg täglich.
+
+Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten mit BPH (Ansprechrate = 94 %), sondern auch bei Patienten ohne BPH (Ansprechrate = 63 %).
+
+### Zweite Schritt: Tamsulosin 0,8mg 1-0-0 
+
 
 # Strahlendermatitis 
 
