@@ -1,11 +1,31 @@
 ---
 title: "Supportive Therapie"
+format: 
+  html: 
+    fig-width: 8
+    fig.asp: 0.618
+slide-format: revealjs
+bibliography: mta-schule.bib
+csl: american-medical-association.csl
+execute:
+  warning: false
 ---
 
 # Schmerzen  
 
+Schmerzen können als Dauerschmerzen oder Durchbruchschmerzen auftreten @fig-Schmerzen. 
+
+Dauerschmerzen werden mit retardierten Medikamenten oder mit regelmäßigen Gaben von kurzwirksamen Medikamenten behandelt. Durchbruchschmerzen sind plötzlich auftretende Schmerzepisoden oder -spitzen, die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern. 
+
+Eine adäquate Schmerztherapie kombiniert daher beides: regelmäßige Langzeitmedikamente und kurzwirksame (Bedarfs-)Medikamente.
+
+Anfangs kann es jedoch sein, dass nur eine Bedarfsmedikation erforderlich ist. Bei opioid-naiven Patienten ist es zudem sinnvoll, die Ersteinstellung mit kurzwirksamen Opioiden zu beginnen, da mögliche Nebenwirkungen dann nur kurz anhalten.
+
+![Schmerzen bei Krebspatienten](Bilder/Schmerzen.png){#fig-Schmerzen}
+
+
 ::: {.callout-tip collapse="true"}
-#### Therapie auf einen Blick
+#### Therapie Vorschlag
 
 1.  Schritt (Bei Eskalation beibehalten)
 
@@ -39,16 +59,13 @@ Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch i
 
 # Prostata
 
-
 ## Durchfälle
 
-Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden:
+Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden @DeutscheKrebsgesellschaftEtAl2020:
 
-Die empfohlene Dosierung ist: **initial 4 mg** gefolgt von **2 mg alle 4
-Stunden**. Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen. 
+Die empfohlene Dosierung ist: **initial 4 mg** gefolgt von **2 mg alle 4 Stunden**. Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen. 
 
-Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der
-Symptomatik ein, kann die Loperamid-Dosierung auf 2 mg alle 2 Stunden gesteigert
+Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symptomatik ein, kann die Loperamid-Dosierung auf 2 mg alle 2 Stunden gesteigert
 werden.
 
 ## Dysurie
