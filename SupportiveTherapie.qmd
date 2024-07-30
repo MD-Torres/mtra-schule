@@ -31,11 +31,27 @@ Umrechnung der Opiate s. @fig-Umrech
 
 ## Aufklärung 
 
-Nach § 24a Straßenverkehrsgesetz ist Das Autofahren nach medizinisch indizierte Schmerzmitteleinnahme erlaubt. Jeder Verkehrsteilnehmer ist für seine Fahrtauglichkeit selbst verantwortlich. Nach erfolgter Hiweiss auf die Gefahr, kann der Arzt bei möglicher Unfälle nicht mehr haftbar gemacht werden. Sollte jedoch Zweifel an der Fahreignung, muss dies dem Patienten mitgeteilt werden.
+Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch indizierte Schmerzmitteleinnahme **erlaubt**. Jeder Verkehrsteilnehmer ist für seine Fahrtauglichkeit **selbst verantwortlich**. Nach erfolgter **Hiweiss auf die Gefahr**, kann der Arzt bei möglicher Unfälle **nicht mehr haftbar** gemacht werden. Sollte jedoch Zweifel an der Fahreignung, muss dies dem Patienten mitgeteilt werden.
 
 ## Umrechnung 
 
 ![Opiate Umrechnungstabelle](Bilder/Umrechnung.png){#fig-Umrech}
+
+# Prostata
+
+
+## Durchfälle
+
+Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. @BensonEtAl2004 verwendet werden:
+
+Die empfohlene Dosierung ist: **initial 4 mg** gefolgt von **2 mg alle 4
+Stunden**. Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen. 
+
+Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der
+Symptomatik ein, kann die Loperamid-Dosierung auf 2 mg alle 2 Stunden gesteigert
+werden.
+
+## Dysurie
 
 
 
