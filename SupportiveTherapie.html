@@ -86,6 +86,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -139,8 +168,17 @@ div.csl-indent {
   <li><a href="#prostata" id="toc-prostata" class="nav-link" data-scroll-target="#prostata">Prostata</a>
   <ul class="collapse">
   <li><a href="#durchfälle" id="toc-durchfälle" class="nav-link" data-scroll-target="#durchfälle">Durchfälle</a></li>
-  <li><a href="#dysurie" id="toc-dysurie" class="nav-link" data-scroll-target="#dysurie">Dysurie</a></li>
+  <li><a href="#strahlenzystitis" id="toc-strahlenzystitis" class="nav-link" data-scroll-target="#strahlenzystitis">Strahlenzystitis</a>
+  <ul class="collapse">
+  <li><a href="#erste-schritt-tamsulosin-04mg-1-0-0" id="toc-erste-schritt-tamsulosin-04mg-1-0-0" class="nav-link" data-scroll-target="#erste-schritt-tamsulosin-04mg-1-0-0">Erste Schritt: Tamsulosin 0,4mg 1-0-0</a></li>
+  <li><a href="#zweite-schritt-tamsulosin-08mg-1-0-0" id="toc-zweite-schritt-tamsulosin-08mg-1-0-0" class="nav-link" data-scroll-target="#zweite-schritt-tamsulosin-08mg-1-0-0">Zweite Schritt: Tamsulosin 0,8mg 1-0-0</a></li>
   </ul></li>
+  </ul></li>
+  <li><a href="#strahlendermatitis" id="toc-strahlendermatitis" class="nav-link" data-scroll-target="#strahlendermatitis">Strahlendermatitis</a></li>
+  <li><a href="#mukositis" id="toc-mukositis" class="nav-link" data-scroll-target="#mukositis">Mukositis</a></li>
+  <li><a href="#schlafstörungen" id="toc-schlafstörungen" class="nav-link" data-scroll-target="#schlafstörungen">Schlafstörungen</a></li>
+  <li><a href="#übelkeit-und-erbrechen" id="toc-übelkeit-und-erbrechen" class="nav-link" data-scroll-target="#übelkeit-und-erbrechen">Übelkeit und Erbrechen</a></li>
+  <li><a href="#quellenverzeichnis" id="toc-quellenverzeichnis" class="nav-link" data-scroll-target="#quellenverzeichnis">Quellenverzeichnis</a></li>
   </ul>
 </nav>
     </div>
@@ -168,20 +206,6 @@ div.csl-indent {
 
 <section id="schmerzen" class="level1">
 <h1>Schmerzen</h1>
-<p>Schmerzen können als Dauerschmerzen oder Durchbruchschmerzen auftreten <a href="#fig-Schmerzen" class="quarto-xref">Figure&nbsp;1</a>.</p>
-<p>Dauerschmerzen werden mit retardierten Medikamenten oder mit regelmäßigen Gaben von kurzwirksamen Medikamenten behandelt. Durchbruchschmerzen sind plötzlich auftretende Schmerzepisoden oder -spitzen, die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern.</p>
-<p>Eine adäquate Schmerztherapie kombiniert daher beides: regelmäßige Langzeitmedikamente und kurzwirksame (Bedarfs-)Medikamente.</p>
-<p>Anfangs kann es jedoch sein, dass nur eine Bedarfsmedikation erforderlich ist. Bei opioid-naiven Patienten ist es zudem sinnvoll, die Ersteinstellung mit kurzwirksamen Opioiden zu beginnen, da mögliche Nebenwirkungen dann nur kurz anhalten.</p>
-<div id="fig-Schmerzen" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-Schmerzen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="Bilder/Schmerzen.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Schmerzen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Schmerzen bei Krebspatienten
-</figcaption>
-</figure>
-</div>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -202,7 +226,9 @@ Therapie Vorschlag
 Laxoberal 8gtt b.B. 0-0-0-1<br>
 Ondansetron 4mg s.l. b.B. max. 3mal Täglich<br>
 </p>
-<p><em>über Fahrsicherheit, -tauglichkeit aufgeklärt.</em> [^1]</p></li>
+<ul>
+<li>Cave: über Fahrsicherheit, -tauglichkeit aufklären*</li>
+</ul></li>
 <li><p>Schritt</p>
 <p><strong>Morphin 2% Lösung 2gtt 1-1-1-1 sowie</strong></p>
 <p><strong>2gtt b.B. Sperrzeit 4 Stunden, maximal 4mal täglich</strong><br>
@@ -211,6 +237,20 @@ Laxoberal 8gtt b.B. 0-0-0-1</p></li>
 <p>Umrechnung der Opiate s. <a href="#fig-Umrech" class="quarto-xref">Figure&nbsp;2</a></p>
 </div>
 </div>
+</div>
+<p>Schmerzen können als Dauerschmerzen oder Durchbruchschmerzen auftreten <a href="#fig-Schmerzen" class="quarto-xref">Figure&nbsp;1</a>.</p>
+<p>Dauerschmerzen werden mit retardierten Medikamenten oder mit regelmäßigen Gaben von kurzwirksamen Medikamenten behandelt. Durchbruchschmerzen sind plötzlich auftretende Schmerzepisoden oder -spitzen, die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern.</p>
+<p>Eine adäquate Schmerztherapie kombiniert daher beides: regelmäßige Langzeitmedikamente und kurzwirksame (Bedarfs-)Medikamente.</p>
+<p>Anfangs kann es jedoch sein, dass nur eine Bedarfsmedikation erforderlich ist. Bei opioid-naiven Patienten ist es zudem sinnvoll, die Ersteinstellung mit kurzwirksamen Opioiden zu beginnen, da mögliche Nebenwirkungen dann nur kurz anhalten.</p>
+<div id="fig-Schmerzen" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-Schmerzen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Bilder/Schmerzen.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Schmerzen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Schmerzen bei Krebspatienten
+</figcaption>
+</figure>
 </div>
 <section id="aufklärung" class="level2">
 <h2 class="anchored" data-anchor-id="aufklärung">Aufklärung</h2>
@@ -238,20 +278,51 @@ Figure&nbsp;2: Opiate Umrechnungstabelle
 <p>Die empfohlene Dosierung ist: <strong>initial 4 mg</strong> gefolgt von <strong>2 mg alle 4 Stunden</strong>. Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen.</p>
 <p>Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symptomatik ein, kann die Loperamid-Dosierung auf 2 mg alle 2 Stunden gesteigert werden.</p>
 </section>
-<section id="dysurie" class="level2">
+<section id="strahlenzystitis" class="level2">
+<h2 class="anchored" data-anchor-id="strahlenzystitis">Strahlenzystitis</h2>
+<p>Die Strahlenzystitis äußert sich durch obstruktiven Symptomen wie Nykturie, Pollakisurie, Harndrang und verminderter Stärke des Harnstrahls. Es gibt nur wenige wirksame Behandlungsmöglichkeiten. Traditionell wird die Strahlenzystitis mit Analgetika behandelt. Dieser Ansatz berücksichtigt jedoch nicht die eigentliche Pathophysiologie.</p>
+<p>Dementsprechend erfolgt die Behandlung hauptsächlich über <span class="math display">\[ \alpha _1 \]</span>-Blocker. Diese blockieren die <span class="math display">\[ \alpha _1 \]</span>-Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses.<span class="citation" data-cites="GelbeListeOnline"><sup><a href="#ref-GelbeListeOnline" role="doc-biblioref">3</a></sup></span></p>
+<section id="erste-schritt-tamsulosin-04mg-1-0-0" class="level3">
+<h3 class="anchored" data-anchor-id="erste-schritt-tamsulosin-04mg-1-0-0">Erste Schritt: Tamsulosin 0,4mg 1-0-0</h3>
+<p>Prosinitz et al.<span class="citation" data-cites="ProsnitzEtAl1999"><sup><a href="#ref-ProsnitzEtAl1999" role="doc-biblioref">4</a></sup></span> führten eine Pilotstudie mit 26 strahlentherapeutische Patienten durch. Von 10 Patienten, die auf 0,4 mg Tamsulosin täglich nicht reagierten, berichteten 6 eine Besserung der Symptome bei 0,8 mg täglich.</p>
+<p>Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten mit BPH (Ansprechrate = 94 %), sondern auch bei Patienten ohne BPH (Ansprechrate = 63 %).</p>
+</section>
+<section id="zweite-schritt-tamsulosin-08mg-1-0-0" class="level3">
+<h3 class="anchored" data-anchor-id="zweite-schritt-tamsulosin-08mg-1-0-0">Zweite Schritt: Tamsulosin 0,8mg 1-0-0</h3>
+</section>
+</section>
+</section>
+<section id="strahlendermatitis" class="level1">
+<h1>Strahlendermatitis</h1>
+</section>
+<section id="mukositis" class="level1">
+<h1>Mukositis</h1>
+</section>
+<section id="schlafstörungen" class="level1">
+<h1>Schlafstörungen</h1>
+</section>
+<section id="übelkeit-und-erbrechen" class="level1">
+<h1>Übelkeit und Erbrechen</h1>
+</section>
+<section id="quellenverzeichnis" class="level1">
 
 
 
 
 </section>
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Dysurie</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Quellenverzeichnis</h2><div id="refs" class="references csl-bib-body" role="list">
 <div id="ref-BensonEtAl2004" class="csl-entry" role="listitem">
 <div class="csl-left-margin">1. </div><div class="csl-right-inline">Benson AB, Ajani JA, Catalano RB, et al. Recommended guidelines for the treatment of cancer treatment-induced diarrhea. <em>Journal of Clinical Oncology: Official Journal of the American Society of Clinical Oncology</em>. 2004;22(14):2918-2926. doi:<a href="https://doi.org/10.1200/JCO.2004.04.132">10.1200/JCO.2004.04.132</a></div>
 </div>
 <div id="ref-DeutscheKrebsgesellschaftEtAl2020" class="csl-entry" role="listitem">
 <div class="csl-left-margin">2. </div><div class="csl-right-inline">Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF. <span>Supportive Therapie bei onkologischen PatientInnen - Langversion 1.3, 2020</span>. Published online 2020:558.</div>
+</div>
+<div id="ref-GelbeListeOnline" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Gelbe Liste Online. <span>Alpha-Blocker <span></span> Gelbe Liste</span>.</div>
+</div>
+<div id="ref-ProsnitzEtAl1999" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Prosnitz RG, Schneider L, Manola J, et al. Tamsulosin palliates radiation-induced urethritis in patients with prostate cancer: Results of a pilot study. <em>International Journal of Radiation Oncology*Biology*Physics</em>. 1999;45(3):563-566. doi:<a href="https://doi.org/10.1016/S0360-3016(99)00246-1">10.1016/S0360-3016(99)00246-1</a></div>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
