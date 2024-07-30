@@ -86,35 +86,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -281,7 +252,7 @@ Figure&nbsp;2: Opiate Umrechnungstabelle
 <section id="strahlenzystitis" class="level2">
 <h2 class="anchored" data-anchor-id="strahlenzystitis">Strahlenzystitis</h2>
 <p>Die Strahlenzystitis äußert sich durch obstruktiven Symptomen wie Nykturie, Pollakisurie, Harndrang und verminderter Stärke des Harnstrahls. Es gibt nur wenige wirksame Behandlungsmöglichkeiten. Traditionell wird die Strahlenzystitis mit Analgetika behandelt. Dieser Ansatz berücksichtigt jedoch nicht die eigentliche Pathophysiologie.</p>
-<p>Dementsprechend erfolgt die Behandlung hauptsächlich über <span class="math display">\[ \alpha _1 \]</span>-Blocker. Diese blockieren die <span class="math display">\[ \alpha _1 \]</span>-Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses.<span class="citation" data-cites="GelbeListeOnline"><sup><a href="#ref-GelbeListeOnline" role="doc-biblioref">3</a></sup></span></p>
+<p>Dementsprechend erfolgt die Behandlung hauptsächlich über $ _1 $-Blocker. Diese blockieren die $ _1 $-Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses.<span class="citation" data-cites="GelbeListeOnline"><sup><a href="#ref-GelbeListeOnline" role="doc-biblioref">3</a></sup></span></p>
 <section id="erste-schritt-tamsulosin-04mg-1-0-0" class="level3">
 <h3 class="anchored" data-anchor-id="erste-schritt-tamsulosin-04mg-1-0-0">Erste Schritt: Tamsulosin 0,4mg 1-0-0</h3>
 <p>Prosinitz et al.<span class="citation" data-cites="ProsnitzEtAl1999"><sup><a href="#ref-ProsnitzEtAl1999" role="doc-biblioref">4</a></sup></span> führten eine Pilotstudie mit 26 strahlentherapeutische Patienten durch. Von 10 Patienten, die auf 0,4 mg Tamsulosin täglich nicht reagierten, berichteten 6 eine Besserung der Symptome bei 0,8 mg täglich.</p>
