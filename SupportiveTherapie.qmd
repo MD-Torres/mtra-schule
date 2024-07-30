@@ -42,7 +42,7 @@ Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch i
 
 ## Durchfälle
 
-Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. @BensonEtAl2004 verwendet werden:
+Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden:
 
 Die empfohlene Dosierung ist: **initial 4 mg** gefolgt von **2 mg alle 4
 Stunden**. Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen. 
