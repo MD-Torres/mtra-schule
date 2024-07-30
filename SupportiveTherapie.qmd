@@ -1,0 +1,63 @@
+---
+title: "Supportive Therapie"
+---
+
+# Schmerzen  
+
+::: {.callout-tip collapse="true"}
+#### Therapie auf einen Blick
+
+1.  Schritt (Bei Eskalation beibehalten)
+
+    **Metamizol 40gtt 1-1-1-1**
+
+2.  Schritt (Morphin 2% 2gtt=2,5mg)
+
+    **Morphin 2% Lösung 2gtt b.B. Sperrzeit 4 Stunden, maximal 4mal täglich**\
+    Laxoberal 8gtt b.B. 0-0-0-1\
+    Ondansetron 4mg s.l. b.B. max. 3mal Täglich\
+    
+    *über Fahrsicherheit, -tauglichkeit aufgeklärt.* [^1]
+
+3.  Schritt
+
+    **Morphin 2% Lösung 2gtt 1-1-1-1 sowie**
+
+    **2gtt b.B. Sperrzeit 4 Stunden, maximal 4mal täglich**\
+    Laxoberal 8gtt b.B. 0-0-0-1
+
+Umrechnung der Opiate s. @fig-Umrech
+:::
+
+## Aufklärung 
+
+Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch indizierte Schmerzmitteleinnahme **erlaubt**. Jeder Verkehrsteilnehmer ist für seine Fahrtauglichkeit **selbst verantwortlich**. Nach erfolgter **Hiweiss auf die Gefahr**, kann der Arzt bei möglicher Unfälle **nicht mehr haftbar** gemacht werden. Sollte jedoch Zweifel an der Fahreignung, muss dies dem Patienten mitgeteilt werden.
+
+## Umrechnung 
+
+![Opiate Umrechnungstabelle](Bilder/Umrechnung.png){#fig-Umrech}
+
+# Prostata
+
+
+## Durchfälle
+
+Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden:
+
+Die empfohlene Dosierung ist: **initial 4 mg** gefolgt von **2 mg alle 4
+Stunden**. Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen. 
+
+Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der
+Symptomatik ein, kann die Loperamid-Dosierung auf 2 mg alle 2 Stunden gesteigert
+werden.
+
+## Dysurie
+
+
+
+
+
+
+
+
+

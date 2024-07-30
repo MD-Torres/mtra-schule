@@ -22,6 +22,22 @@ Ganz allgemein gesprochen ist Entzündung die Reaktion des Immunsystems auf eine
 
 Entzündung wird induziert, reguliert und aufgelöst [Diagramm @fig-DiagrammEntzundung]. Dieses Prozes ist gefolgt von einer Gewebereparatur. Wenn jedoch einer dieser stark regulierten Schritten nicht zum Abschluss kommt, kann eine chronische Entzündung hervorgerufen werden. [@WunderlichEtAl2017]
 
+:::{#fig-DiagrammEntzundung}
+
+```{mermaid}
+
+flowchart LR
+  A(Auslösung) --> B(Entzündungsreaktion)
+  B --> C{Ablauf}
+  C --> D(Chronifizierung)
+  C --> E(Auflösung)
+  E --> F(Gewebereparatur)
+```
+
+
+Visuelle Darstellung des Entzündungsprozesses
+:::
+
 **Aulus Cornelius Celsus** (25 v. Chr.-50 n. Chr.) definierte die vier Hauptanzeichen einer Entzündung mit seiner Aussage: "Notae vero inflammationis sunt quatuor: rubor et tumor cum calore and dolore".
 
 Klinisch sind fünf Kardinalzeichen von Enzündung erkannt:
@@ -73,17 +89,6 @@ Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verst
 
 Dementsprechend ist vielleicht nicht überraschend, dass die Grenze zwischen normalen adaptiven homöostatischen Anpassungen und Entzündungen unscharf ist. [@AntonelliKushner2017]
 
-```{mermaid}
-#| label: fig-DiagrammEntzundung
-#| fig-cap: "This is a simple graphviz graph." 
-
-flowchart LR
-  A(Auslösung) --> B(Entzündungsreaktion)
-  B --> C{Ablauf}
-  C --> D(Chronifizierung)
-  C --> E(Auflösung)
-  E --> F(Gewebereparatur)
-```
 
 ## DAMPS und PAMPS
 
