@@ -85,7 +85,7 @@ Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten mit
 
 # Strahlendermatitis 
 
-![Typische Dermatitis Grad 1. Schwaches Erythem oder trockene Desquamation. Ein lachsfarbenes Erythem tritt vor der Entwicklung einer schweren Dermatitis auf. ](Bilder/strahlendermatitis1.png){#fig-sd .fig-cap-location: margin}
+![Typische Dermatitis Grad 1. Schwaches Erythem oder trockene Desquamation. Ein lachsfarbenes Erythem tritt vor der Entwicklung einer schweren Dermatitis auf. ](Bilder/strahlendermatitis1.png){#fig-sdeins}
 
 
 
