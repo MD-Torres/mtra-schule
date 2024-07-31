@@ -87,9 +87,18 @@ Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten mit
 
 ## Graduierung
 
+### Grad 1
+
 ![Typische Dermatitis Grad 1. Schwaches Erythem oder trockene Desquamation. Ein lachsfarbenes Erythem tritt vor der Entwicklung einer schweren Dermatitis auf. @ZendaEtAl2016](Bilder/strahlendermatitis1.png){#fig-sdeins}
 
-![Typische Strahlendermatitis Grad 2. Ein mäßiges oder lebhaftes Erythem (links) ist einer der Hauptbefunde bei Strahlendermatitis Grad 2. Der Befund einer feuchten Desquamation (rechts) ist oft notwendig, um sie von einem Strahlendermatitis Grad 1 zu unterscheiden. @ZendaEtAl2016](Bilder/strahlendermatitis2.png){#fig-sdeins}
+### Grad 2
+
+![Typische Strahlendermatitis Grad 2. Ein mäßiges oder lebhaftes Erythem (links) ist einer der Hauptbefunde bei Strahlendermatitis Grad 2. Der Befund einer feuchten Desquamation (rechts) ist oft notwendig, um sie von einem Strahlendermatitis Grad 1 zu unterscheiden. @ZendaEtAl2016](Bilder/strahlendermatitis2.png){#fig-sdzwei}
+
+### Grad 3
+
+![Typische Strahlendermatitis Grad 3. Links: Das Auftreten von Blutungen, die durch ein geringfügiges Trauma oder eine Schürfung verursacht wurden, unmittelbar nach dem Entfernen der Mullschicht. Rechts: Feuchte Desquamation in anderen Bereichen als Hautfalten. @ZendaEtAl2016](Bilder/strahlendermatitis3.png){#fig-sddrei}
+
 
 ## Die Handflächenregel
 
