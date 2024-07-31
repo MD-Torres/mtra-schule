@@ -97,7 +97,7 @@ Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten mit
 
 ### Grad 3
 
-![Typische Strahlendermatitis Grad 3. Links: Das Auftreten von Blutungen, die durch ein geringfügiges Trauma oder eine Schürfung verursacht wurden, unmittelbar nach dem Entfernen der Mullschicht. Rechts: Feuchte Desquamation in anderen Bereichen als Hautfalten. @ZendaEtAl2016](Bilder/strahlendermatitis3.png){#fig-sddrei}
+![Typische Strahlendermatitis Grad 3. Links: Das Auftreten von Blutungen, die durch ein geringfügiges Trauma oder eine Schürfung verursacht wurden, z.B. unmittelbar nach dem Entfernen einer Mullbinde. Rechts: Feuchte Desquamation in anderen Bereichen als Hautfalten. @ZendaEtAl2016](Bilder/strahlendermatitis3.png){#fig-sddrei}
 
 
 ## Die Handflächenregel
