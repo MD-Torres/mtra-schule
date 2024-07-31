@@ -85,6 +85,15 @@ Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten mit
 
 # Strahlendermatitis 
 
+## Die Handflächenregel
+
+Für topische Kortikosteroide gilt: Ausreichende Mengen aufschreiben und ausreichende Mengen auftragen. 
+
+Um die Applikationsmenge abzumessen, hat sich das Konzept der Fingertip-Unit (FTU) etabliert @fig-FTU. Eine FTU ist der Salbenstrang aus einer Tube, der auf das Endglied des Zeigefingers passt. Da der Tubenaustritt auf 5 mm genormt ist, ist die ausgetretene Salbenmenge bei jedem Produkt die gleiche und beträgt pro FTU 0,5 g. 
+
+![FTU](Bilder/FTU.jpg){#fig-FTU}
+Für die Behandlung eines Hautareals, das in seiner Ausdehnung zwei Handinnenflächen und damit 2 % BSA entspricht, muss der Patient pro Anwendung 1 FTU auftragen.
+
 # Mukositis
 
 # Schlafstörungen 
