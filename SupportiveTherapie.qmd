@@ -95,6 +95,20 @@ Um die Applikationsmenge abzumessen, hat sich das Konzept der Fingertip-Unit (FT
 
 Für die Behandlung eines Hautareals, das in seiner Ausdehnung zwei Handinnenflächen und damit 2 % BSA entspricht, muss der Patient pro Anwendung 1 FTU auftragen. @Bauer-Delto2020
 
+## Kopf-Halsbereich
+
+Zu den häufigsten unerwünschten Nebenwirkungen von topischen Kortikosteroiden gehören Atrophie, Striae, Rosazea, periorale Dermatitis, akneiforme Eruption und Purpura. 
+Das Risiko unerwünschter Nebenwirkungen steigt bei längerem Gebrauch, großflächiger Anwendung, höherer Potenz und Anwendung an **Stellen mit dünnerer Haut**, wie z. B. im **Gesicht/Hals** und im Genitalbereich. @STACEY2021
+
+Topische Steroide mit geringer bis mittlerer Wirkstärke eignen sich besonders für die Behandlung von Körperstellen mit dünner Haut. Dazu gehören das Gesicht, die Kniekehlen, die Innenseiten der Ellbogen, die Leistengegend und die Achselhöhlen. @InformedHealth.org
+
+Nicht desto trotz topisches Mometasonfuroat (meist in 0,1 %iger) und Betamethason sind die in der Literatur am häufigsten erwähnten topischen Kortikosteroide, was darauf hindeutet, dass die derzeitigen Erkenntnisse die Verwendung sowohl von Mometasonfuroat als auch von Betamethason bei der Vorbeugung von Strahlendermatitis und damit verbundenen Symptomen unterstützen. @lancet
+
+### Natürliche Produkte
+
+Von allen uns bekannte Literatur ist Olivenöl das einzege Naturprodukt, das eine Wirkung als ***Prophylaxe*** der Strahlendermatitis zeigt. Jedoch ***nicht zur Behandlung***. @lancet
+
+
 # Mukositis
 
 # Schlafstörungen 
