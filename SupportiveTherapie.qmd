@@ -9,6 +9,11 @@ bibliography: mta-schule.bib
 csl: american-medical-association.csl
 execute:
   warning: false
+crossref: 
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  sec-prefix: Abschnitt
+
 ---
 
 # Schmerzen  
@@ -74,11 +79,7 @@ werden.
 
 1.  Schritt 
 
-<<<<<<< HEAD
-Dementsprechend erfolgt die Behandlung hauptsächlich über $\alpha _1$ -Blocker. Diese blockieren die $\alpha _1$ -Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses. @GelbeListeOnline
-=======
     **Tamsulosin 0,4mg 1-0-0**
->>>>>>> refs/remotes/origin/main
 
 2.  Schritt @sec-tamsulosin
 
