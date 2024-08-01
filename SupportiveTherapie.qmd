@@ -13,7 +13,8 @@ crossref:
   fig-prefix: Abbildung
   tbl-prefix: Tabelle
   sec-prefix: Abschnitt
-
+  fig-title: Abbildung
+  tbl-title: Tabelle
 ---
 
 # Schmerzen  
@@ -65,12 +66,16 @@ Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch i
 
 ## Durchfälle
 
-Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden @DeutscheKrebsgesellschaftEtAl2020:
+Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden. Diese Dosisschema übersteigt jedoch die Maximale Dosis gemäß Fachinformation. Patienten ***mussen*** darauf **hingewiesen werden**. @DeutscheKrebsgesellschaftEtAl2020
 
-Die empfohlene Dosierung ist: **initial 4 mg** gefolgt von **2 mg alle 4 Stunden**. Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen. 
+Die empfohlene Dosierung ist:
 
-Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symptomatik ein, kann die Loperamid-Dosierung auf 2 mg alle 2 Stunden gesteigert
-werden.
+**initial 4 mg** gefolgt von **2 mg alle 4 Stunden**.  
+
+Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symptomatik ein, 
+*kann* die Dosis gesteigert werden:
+
+**2 mg alle 2 Stunden** 
 
 ## Strahlenzystitis
 
