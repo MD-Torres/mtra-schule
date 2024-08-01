@@ -69,19 +69,64 @@ werden.
 
 ## Strahlenzystitis
 
-Die Strahlenzystitis äußert sich durch obstruktiven Symptomen wie Nykturie, Pollakisurie, Harndrang und verminderter Stärke des Harnstrahls. Es gibt nur wenige wirksame Behandlungsmöglichkeiten. Traditionell wird die Strahlenzystitis mit Analgetika behandelt. Dieser Ansatz berücksichtigt jedoch nicht die eigentliche Pathophysiologie. 
+::: {.callout-tip collapse="true"}
+#### Therapie Vorschlag
 
+1.  Schritt 
 
-Dementsprechend erfolgt die Behandlung hauptsächlich über $\alpha _1$-Blocker. Diese blockieren die $\alpha _1$-Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses. @GelbeListeOnline
+    **Tamsulosin 0,4mg 1-0-0**
 
-### Erste Schritt: Tamsulosin 0,4mg 1-0-0 
+2.  Schritt @sec-tamsulosin
 
-Prosinitz et al. @ProsnitzEtAl1999 führten eine Pilotstudie mit 26 strahlentherapeutische Patienten durch. Von 10 Patienten, die auf 0,4 mg Tamsulosin täglich nicht reagierten, berichteten 6 eine Besserung der Symptome bei 0,8 mg täglich.
+    **Tamsulosin 0,8mg 1-0-0**
+    
+    Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen. 
 
-Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten mit BPH (Ansprechrate = 94 %), sondern auch bei Patienten ohne BPH (Ansprechrate = 63 %).
+3.  Schritt @sec-dutasterid
 
-### Zweite Schritt: Tamsulosin 0,8mg 1-0-0 
+    **Dutasterid/Tamsulosin 0,5 mg/0,4 mg 1-0-0**
 
+:::
+
+Die Strahlenzystitis äußert sich durch obstruktiven Symptomen wie Nykturie,
+Pollakisurie, Harndrang und verminderter Stärke des Harnstrahls. Es gibt nur
+wenige wirksame Behandlungsmöglichkeiten. Traditionell wird die
+Strahlenzystitis mit Analgetika behandelt. 
+Dieser Ansatz berücksichtigt jedoch nicht die eigentliche Pathophysiologie. 
+
+Dementsprechend erfolgt die Behandlung hauptsächlich über Tamsulosin ein $\alpha _1$-Blocker. 
+$\alpha _1$-Blocker blockieren die $\alpha _1$-Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine
+Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in
+der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses. @GelbeListeOnline
+
+### Tamsulosin 0,8mg 1-0-0 {#sec-tamsulosin}
+
+Prosinitz et al. @ProsnitzEtAl1999 führten eine Pilotstudie mit 26
+strahlentherapeutische Patienten durch. Von 10 Patienten, die auf 0,4 mg
+Tamsulosin täglich nicht reagierten, berichteten 6 eine Besserung der Symptome
+bei 0,8 mg täglich.
+
+Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten
+mit benigne Prostatahyperplasie (Ansprechrate = 94 %), sondern auch bei
+Patienten ohne BPH (Ansprechrate = 63 %).
+
+### Dutasterid/Tamsulosin {#sec-dutasterid}
+
+Dutasterid gehört zur Arzneimittelgruppe der so genannten
+5-$\alpha$-Reduktase-Hemmer. Diese Enzym, ist ein obligat für die Umwandlung
+von Testosteron zu Dihydrotestosteron (DHT). Dementsprechend blockiert
+Dutasterid die Umwandlung von Testosteron zu DHT. 
+
+In Folge wuchert das Prostatagewebe nicht mehr so stark weiter und verringert
+sich mitunter sogar. 
+
+Im Gegensatz zu Finasterid, das nur die 5$\alpha$-Reduktase vom Typ 2 hemmt
+(5AR2) hemmt, wirkt Dutasterid als dualer 5ARI-Hemmer, der sowohl auf die
+sowohl auf die 5AR-Isoenzyme vom Typ 1 als auch vom Typ 2 (5AR1 und 5AR2).
+
+Die duale Hemmung von sowohl 5AR1 als auch 5AR2 führt zu einer stärkeren und
+konsistentere Hemmung der Umwandlung von Testosteron in DHT als die selektive
+Hemmung von 5AR2 allein durch Finasterid.@JaeHeonKim2015
 
 # Strahlendermatitis 
 
@@ -104,11 +149,13 @@ Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten mit
 
 Für topische Kortikosteroide gilt: Ausreichende Mengen aufschreiben und ausreichende Mengen auftragen. 
 
-Um die Applikationsmenge abzumessen, hat sich das Konzept der Fingertip-Unit (FTU) etabliert @fig-ftu . Eine FTU ist der Salbenstrang aus einer Tube, der auf das Endglied des Zeigefingers passt. Da der Tubenaustritt auf 5 mm genormt ist, ist die ausgetretene Salbenmenge bei jedem Produkt die gleiche und beträgt pro FTU 0,5 g. 
+Um die Applikationsmenge abzumessen, hat sich das Konzept der **Fingertip-Unit (FTU)** etabliert @fig-ftu. 
+Eine FTU ist der Salbenstrang aus einer Tube, der auf das Endglied des Zeigefingers passt. 
+Da der Tubenaustritt auf 5 mm genormt ist, ist die ausgetretene Salbenmenge bei jedem Produkt die gleiche und beträgt pro FTU 0,5 g. 
 
-![FTU](Bilder/FTU.jpg){#fig-ftu}
+![Eine Fingertip-Unit (FTU)](Bilder/FTU.jpg){#fig-ftu}
 
-Für die Behandlung eines Hautareals, das in seiner Ausdehnung zwei Handinnenflächen und damit 2 % BSA entspricht, muss der Patient pro Anwendung 1 FTU auftragen. @Bauer-Delto2020
+Für die Behandlung eines Hautareals, das in seiner Ausdehnung zwei Handinnenflächen und damit 2 % der Körperoberfläche entspricht, muss der Patient pro Anwendung eine FTU auftragen. @Bauer-Delto2020
 
 ## Kopf-Halsbereich
 
@@ -117,7 +164,7 @@ Das Risiko unerwünschter Nebenwirkungen steigt bei längerem Gebrauch, großfl�
 
 Topische Steroide mit geringer bis mittlerer Wirkstärke eignen sich besonders für die Behandlung von Körperstellen mit dünner Haut. Dazu gehören das Gesicht, die Kniekehlen, die Innenseiten der Ellbogen, die Leistengegend und die Achselhöhlen. @InstituteforQualityandEfficiencyinHealthCare2021
 
-Nicht desto trotz topisches Mometasonfuroat (meist in 0,1 %iger) und Betamethason sind die in der Literatur am häufigsten erwähnten topischen Kortikosteroide, was darauf hindeutet, dass die derzeitigen Erkenntnisse die Verwendung sowohl von Mometasonfuroat als auch von Betamethason bei der Vorbeugung von Strahlendermatitis und damit verbundenen Symptomen unterstützen. @BehroozianEtAl2023
+Nicht desto trotz topisches Mometasonfuroat (meist 0,1 %) und Betamethason sind die in der Literatur am häufigsten erwähnten topischen Kortikosteroide, was darauf hindeutet, dass die derzeitigen Erkenntnisse die Verwendung sowohl von Mometasonfuroat als auch von Betamethason bei der Vorbeugung von Strahlendermatitis und damit verbundenen Symptomen unterstützen. @BehroozianEtAl2023
 
 ### Natürliche Produkte
 
