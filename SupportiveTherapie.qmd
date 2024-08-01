@@ -26,7 +26,7 @@ execute:
     Laxoberal 8gtt b.B. 0-0-0-1\
     Ondansetron 4mg s.l. b.B. max. 3mal Täglich\
     
-    * Cave: über Fahrsicherheit, -tauglichkeit aufklären*
+    **Cave:** über Fahrsicherheit, -tauglichkeit aufklären @sec-Fahrsicherheit
 
 3.  Schritt
 
@@ -48,7 +48,7 @@ Anfangs kann es jedoch sein, dass nur eine Bedarfsmedikation erforderlich ist. B
 
 ![Schmerzen bei Krebspatienten](Bilder/Schmerzen.png){#fig-Schmerzen}
 
-## Aufklärung 
+## Aufklärung Fahrsicherheit/-tauglichkeit {#sec-Fahrsicherheit}
 
 Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch indizierte Schmerzmitteleinnahme **erlaubt**. Jeder Verkehrsteilnehmer ist für seine Fahrtauglichkeit **selbst verantwortlich**. Nach erfolgter **Hiweiss auf die Gefahr**, kann der Arzt bei möglicher Unfälle **nicht mehr haftbar** gemacht werden. Sollte jedoch Zweifel an der Fahreignung, muss dies dem Patienten mitgeteilt werden.
 
@@ -69,21 +69,130 @@ werden.
 
 ## Strahlenzystitis
 
-Die Strahlenzystitis äußert sich durch obstruktiven Symptomen wie Nykturie, Pollakisurie, Harndrang und verminderter Stärke des Harnstrahls. Es gibt nur wenige wirksame Behandlungsmöglichkeiten. Traditionell wird die Strahlenzystitis mit Analgetika behandelt. Dieser Ansatz berücksichtigt jedoch nicht die eigentliche Pathophysiologie. 
+::: {.callout-tip collapse="true"}
+#### Therapie Vorschlag
 
+1.  Schritt 
 
+<<<<<<< HEAD
 Dementsprechend erfolgt die Behandlung hauptsächlich über $\alpha _1$ -Blocker. Diese blockieren die $\alpha _1$ -Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses. @GelbeListeOnline
+=======
+    **Tamsulosin 0,4mg 1-0-0**
+>>>>>>> refs/remotes/origin/main
 
-### Erste Schritt: Tamsulosin 0,4mg 1-0-0 
+2.  Schritt @sec-tamsulosin
 
-Prosinitz et al. @ProsnitzEtAl1999 führten eine Pilotstudie mit 26 strahlentherapeutische Patienten durch. Von 10 Patienten, die auf 0,4 mg Tamsulosin täglich nicht reagierten, berichteten 6 eine Besserung der Symptome bei 0,8 mg täglich.
+    **Tamsulosin 0,8mg 1-0-0**
+    
+    Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen. 
 
-Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten mit BPH (Ansprechrate = 94 %), sondern auch bei Patienten ohne BPH (Ansprechrate = 63 %).
+3.  Schritt @sec-dutasterid
 
-### Zweite Schritt: Tamsulosin 0,8mg 1-0-0 
+    **Dutasterid/Tamsulosin 0,5 mg/0,4 mg 1-0-0**
 
+:::
+
+Die Strahlenzystitis äußert sich durch obstruktiven Symptomen wie Nykturie,
+Pollakisurie, Harndrang und verminderter Stärke des Harnstrahls. Es gibt nur
+wenige wirksame Behandlungsmöglichkeiten. Traditionell wird die
+Strahlenzystitis mit Analgetika behandelt. 
+Dieser Ansatz berücksichtigt jedoch nicht die eigentliche Pathophysiologie. 
+
+Dementsprechend erfolgt die Behandlung hauptsächlich über Tamsulosin ein $\alpha _1$-Blocker. 
+$\alpha _1$-Blocker blockieren die $\alpha _1$-Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine
+Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in
+der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses. @GelbeListeOnline
+
+### Tamsulosin 0,8mg 1-0-0 {#sec-tamsulosin}
+
+Prosinitz et al. @ProsnitzEtAl1999 führten eine Pilotstudie mit 26
+strahlentherapeutische Patienten durch. Von 10 Patienten, die auf 0,4 mg
+Tamsulosin täglich nicht reagierten, berichteten 6 eine Besserung der Symptome
+bei 0,8 mg täglich.
+
+Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten
+mit benigne Prostatahyperplasie (Ansprechrate = 94 %), sondern auch bei
+Patienten ohne BPH (Ansprechrate = 63 %).
+
+### Dutasterid/Tamsulosin {#sec-dutasterid}
+
+Dutasterid gehört zur Arzneimittelgruppe der so genannten
+5-$\alpha$-Reduktase-Hemmer. Diese Enzym, ist ein obligat für die Umwandlung
+von Testosteron zu Dihydrotestosteron (DHT). Dementsprechend blockiert
+Dutasterid die Umwandlung von Testosteron zu DHT. 
+
+In Folge wuchert das Prostatagewebe nicht mehr so stark weiter und verringert
+sich mitunter sogar. 
+
+Im Gegensatz zu Finasterid, das nur die 5$\alpha$-Reduktase vom Typ 2 hemmt
+(5AR2) hemmt, wirkt Dutasterid als dualer 5ARI-Hemmer, der sowohl auf die
+sowohl auf die 5AR-Isoenzyme vom Typ 1 als auch vom Typ 2 (5AR1 und 5AR2).
+
+Die duale Hemmung von sowohl 5AR1 als auch 5AR2 führt zu einer stärkeren und
+konsistentere Hemmung der Umwandlung von Testosteron in DHT als die selektive
+Hemmung von 5AR2 allein durch Finasterid. @JaeHeonKim2015
 
 # Strahlendermatitis 
+
+## Graduierung
+Die Einstufung der Strahlendermatitis erfolgt grundsätzlich nach den Common Terminology Criteria for Adverse Events (CTCAE). 
+
+### Grad 1
+
+![Typische Dermatitis Grad 1. Schwaches Erythem oder trockene Desquamation. Ein lachsfarbenes Erythem tritt vor der Entwicklung einer schweren Dermatitis auf. @ZendaEtAl2016](Bilder/strahlendermatitis1.png){#fig-sdeins}
+
+### Grad 2
+
+![Typische Strahlendermatitis Grad 2. Ein mäßiges oder lebhaftes Erythem (links) ist einer der Hauptbefunde bei Strahlendermatitis Grad 2. Der Befund einer feuchten Desquamation (rechts) ist oft notwendig, um sie von einem Strahlendermatitis Grad 1 zu unterscheiden. @ZendaEtAl2016](Bilder/strahlendermatitis2.png){#fig-sdzwei}
+
+### Grad 3
+
+![Typische Strahlendermatitis Grad 3. Links: Das Auftreten von Blutungen, die durch ein geringfügiges Trauma oder eine Schürfung verursacht wurden, z.B. unmittelbar nach dem Entfernen einer Mullbinde. Rechts: Feuchte Desquamation in anderen Bereichen als Hautfalten. @ZendaEtAl2016](Bilder/strahlendermatitis3.png){#fig-sddrei}
+
+### Grad 4 
+
+
+Grad 4 bedeutet lebensbedrohliche Folgen; Hautnekrose oder Ulzeration der gesamten Dermis; spontane Blutungen an der betroffenen Stelle; 
+Hauttransplantation ist ggf. erforderlich. Dies ist äußerst selten und die Behandlung erfolgt stationär. 
+
+## Pflege 
+
+Die pharmazeutische Behandlung der Strahlendermatitis in der deutschsprachigen Radioonkologie ist nach wie vor umstritten, 
+inkonsistent und teilweise nicht durch evidenzbasierte Medizin gestützt. 
+
+An einer Umfrage in der deutschsprachigen Gemeinschaft der Radioonkologen nahmen 244 Personen teil. Dexpanthenol-Lotion ist das am häufigsten verwendete Mittel sowohl zur Vorbeugung (53,0%) als auch zur Behandlung (76,9%) von Strahlendermatitis. @DOI: 10.1111/ddg.15279
+
+Die Basispflege erfolgt dementsprechend mittels Bepanthol® Körperlotion.
+
+![](Bilder/Bephantol.png){#fig-bephantol}
+
+### Dosierung
+
+Für topische Kortikosteroide gilt: Ausreichende Mengen aufschreiben und ausreichende Mengen auftragen. 
+
+#### Die Handflächenregel
+
+Um die Applikationsmenge abzumessen, hat sich das Konzept der **Fingertip-Unit (FTU)** etabliert @fig-ftu. 
+Eine FTU ist der Salbenstrang aus einer Tube, der auf das Endglied des Zeigefingers passt. 
+Da der Tubenaustritt auf 5 mm genormt ist, ist die ausgetretene Salbenmenge bei jedem Produkt die gleiche und beträgt pro FTU 0,5 g. 
+
+![Eine Fingertip-Unit (FTU)](Bilder/FTU.jpg){#fig-ftu}
+
+Für die Behandlung eines Hautareals, das in seiner Ausdehnung zwei Handinnenflächen und damit 2 % der Körperoberfläche entspricht, muss der Patient pro Anwendung eine FTU auftragen. @Bauer-Delto2020
+
+## Kopf-Halsbereich
+
+Zu den häufigsten unerwünschten Nebenwirkungen von topischen Kortikosteroiden gehören Atrophie, Striae, Rosazea, periorale Dermatitis, akneiforme Eruption und Purpura. 
+Das Risiko unerwünschter Nebenwirkungen steigt bei längerem Gebrauch, großflächiger Anwendung, höherer Potenz und Anwendung an **Stellen mit dünnerer Haut**, wie z. B. im **Gesicht/Hals** und im Genitalbereich. @StaceyMcEleney2021
+
+Topische Steroide mit geringer bis mittlerer Wirkstärke eignen sich besonders für die Behandlung von Körperstellen mit dünner Haut. Dazu gehören das Gesicht, die Kniekehlen, die Innenseiten der Ellbogen, die Leistengegend und die Achselhöhlen. @InstituteforQualityandEfficiencyinHealthCare2021
+
+Nicht desto trotz topisches Mometasonfuroat (meist 0,1 %) und Betamethason sind die in der Literatur am häufigsten erwähnten topischen Kortikosteroide, was darauf hindeutet, dass die derzeitigen Erkenntnisse die Verwendung sowohl von Mometasonfuroat als auch von Betamethason bei der Vorbeugung von Strahlendermatitis und damit verbundenen Symptomen unterstützen. @BehroozianEtAl2023
+
+### Natürliche Produkte
+
+Von allen uns bekannte Literatur ist **Olivenöl** das einzege Naturprodukt, das eine Wirkung als **Prophylaxe** der Strahlendermatitis zeigt. Jedoch ***nicht zur Behandlung***. @BehroozianEtAl2023
+
 
 # Mukositis
 
