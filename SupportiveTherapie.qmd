@@ -72,7 +72,7 @@ werden.
 Die Strahlenzystitis äußert sich durch obstruktiven Symptomen wie Nykturie, Pollakisurie, Harndrang und verminderter Stärke des Harnstrahls. Es gibt nur wenige wirksame Behandlungsmöglichkeiten. Traditionell wird die Strahlenzystitis mit Analgetika behandelt. Dieser Ansatz berücksichtigt jedoch nicht die eigentliche Pathophysiologie. 
 
 
-Dementsprechend erfolgt die Behandlung hauptsächlich über $\alpha _1$-Blocker. Diese blockieren die $\alpha _1$-Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses. @GelbeListeOnline
+Dementsprechend erfolgt die Behandlung hauptsächlich über $\alpha _1$ -Blocker. Diese blockieren die $\alpha _1$ -Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses. @GelbeListeOnline
 
 ### Erste Schritt: Tamsulosin 0,4mg 1-0-0 
 
