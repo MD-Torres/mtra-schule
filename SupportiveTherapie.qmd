@@ -177,7 +177,7 @@ Die Einstufung der Strahlendermatitis erfolgt grundsätzlich nach den Common Ter
 
 ### Grad 4 
 
-![Dieses Foto zeigt eine typische Dermatitis Grad 4, einschließlich spontaner Blutungen an der betroffenen Stelle. Hautnekrosen oder Ulzerationen der gesamten Dermis @ZendaEtAl2016](Bilder/strahlendermatitis4.png){#fig-sddrei}
+![Dieses Foto zeigt eine typische Dermatitis Grad 4, einschließlich spontaner Blutungen an der betroffenen Stelle. Hautnekrosen oder Ulzerationen der gesamten Dermis @ZendaEtAl2016](Bilder/Strahlendermatitis4.png){#fig-sdvier}
 
 Grad 4 im Sinne der CTCAE bedeutet: lebensbedrohliche Folgen, 
 Hautnekrose oder Ulzeration der gesamten Dermis, 
@@ -190,7 +190,7 @@ Dies ist **äußerst selten**. Die Behandlung erfolgt stationär.
 Die pharmazeutische Behandlung der Strahlendermatitis in der deutschsprachigen Radioonkologie ist nach wie vor umstritten, 
 inkonsistent und teilweise nicht durch evidenzbasierte Medizin gestützt. 
 
-An einer Umfrage in der deutschsprachigen Gemeinschaft der Radioonkologen nahmen 244 Personen teil. Dexpanthenol-Lotion ist das am häufigsten verwendete Mittel sowohl zur Vorbeugung (53,0%) als auch zur Behandlung (76,9%) von Strahlendermatitis. @DOI: 10.1111/ddg.15279
+An einer Umfrage in der deutschsprachigen Gemeinschaft der Radioonkologen nahmen 244 Personen teil. Dexpanthenol-Lotion ist das am häufigsten verwendete Mittel sowohl zur Vorbeugung (53,0%) als auch zur Behandlung (76,9%) von Strahlendermatitis. @LayerEtAl2024
 
 Die Basispflege erfolgt dementsprechend mittels Bepanthol® Körperlotion.
 
