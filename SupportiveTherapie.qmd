@@ -147,18 +147,18 @@ In der Epidermis kommt es unter fraktionierter Bestrahlung speziell ab der 3. Wo
 Bereits ab dem 15. Bestrahlungstag nimmt als Gegenreaktion die mitotische Aktivität der Basalzellen allmählich zu.
 Deren Mitoserate ist ab der 3. Woche der fraktionierten Strahlenbehandlung bis einige Tage nach deren Abschluss deutlich erhöht, 
 wobei Zellzykluszeiten von nur 15 h möglich sind. 
-Es resultiert eine exponentiell beschleunigte Regeneration, welche bereits bis zum Ende der 6. Bestrahlungswoche (eingestrahlte Dosis 60 Gy) imstande ist die ursprüngliche Zellzahl wiederherzustellen. @Adamietz2022
+Es resultiert eine exponentiell beschleunigte Regeneration, welche bereits bis zum Ende der 6. Bestrahlungswoche (eingestrahlte Dosis 60 Gy) imstande ist die ursprüngliche Zellzahl wiederherzustellen. 
+
+Insgesamt ist die Erholungskapazität der Haut sehr hoch. Selbst nach sehr hohen Einzeldosen regeneriert die Epidermis im Tiermodell (Schweinehaut) in weniger als 40 Tagen vollständig. @Adamietz2022
 
 
 ![Akute Strahlenschäden treten in der Dermis mit der ersten Strahlendosis auf. Ein Teil der basalen Keratinozyten in der Basalschicht (stratum basale) wird zerstört, so dass nur die verbleibenden Keratinozyten verhornen(Keratinisieren). Dadurch wird das Gleichgewicht zwischen der normalen Zellproduktion in der Basalschicht und der Zellzerstörung an der Hautoberfläche gestört. @SeiteEtAl2017](Bilder/Epidermis.png){#fig-epidermis}
 
 ## Allgemeine Empfehlungen 
 
-Der mechanische Schutz durch die äußerste Schicht der Epidermis sollte möglichst lange erhalten werden. 
+Der mechanische Schutz durch die äußerste Schicht der Epidermis sollte möglichst lange erhalten werden. Maßnahmen, die eine vermehrte Hautabschürfung begünstigen, sind zu vermeiden. Dazu gehören eine enganliegende Kleidung, oder auch starke Transpiration. @Adamietz2022
 
 Eine Sonnenexposition der bestrahlten Haut ist zumindest bis zur kompletten Abheilung der akuten Hautreaktion grundsätzlich zu vermeiden. 
-
-
 
 ## Graduierung
 Die Einstufung der Strahlendermatitis erfolgt grundsätzlich nach den Common Terminology Criteria for Adverse Events (CTCAE). 
@@ -196,11 +196,17 @@ Die Basispflege erfolgt dementsprechend mittels Bepanthol® Körperlotion.
 
 ![](Bilder/Bephantol.png){#fig-bephantol}
 
+#### Rationale
+
+Die Hornschicht (Stratum corneum) ist die Schutzschicht und besteht aus kernlosen Zellen. Eine Störung der epidermalen Barrierefunktion führt zu einer schnellen Reaktion der Keratinozyten, um die Homöostase der Haut wiederherzustellen. Die mRNA, die für proinflammatorische Zytokine, Adhäsionsmoleküle und Wachstumsfaktoren kodiert, wird hochreguliert. @Loden2001 Dies potenziert möglicherweisse die Strahlenschäden. 
+
+Zudem erhöht eine erhöhte Hautfeuchtigkeit die Elastizität einer trockenen und brüchigen Stratum corneum und verringert das Risiko einer Rissbildung. @Loden2001
+
 ### Natürliche Produkte
 
 Von allen uns bekannte Literatur ist **Olivenöl** das einzege Naturprodukt, das eine Wirkung als **Prophylaxe** der Strahlendermatitis zeigt. Jedoch ***nicht zur Behandlung***. @BehroozianEtAl2023
 
-### Dosierung
+### Dosierung topischer Kortikosteroide
 
 Für topische Kortikosteroide gilt: Ausreichende Mengen aufschreiben und ausreichende Mengen auftragen. 
 
