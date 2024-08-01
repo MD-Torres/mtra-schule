@@ -126,7 +126,7 @@ sowohl auf die 5AR-Isoenzyme vom Typ 1 als auch vom Typ 2 (5AR1 und 5AR2).
 
 Die duale Hemmung von sowohl 5AR1 als auch 5AR2 führt zu einer stärkeren und
 konsistentere Hemmung der Umwandlung von Testosteron in DHT als die selektive
-Hemmung von 5AR2 allein durch Finasterid.@JaeHeonKim2015
+Hemmung von 5AR2 allein durch Finasterid. @JaeHeonKim2015
 
 # Strahlendermatitis 
 
