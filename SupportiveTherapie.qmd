@@ -9,6 +9,12 @@ bibliography: mta-schule.bib
 csl: american-medical-association.csl
 execute:
   warning: false
+crossref: 
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  sec-prefix: Abschnitt
+  fig-title: Abbildung
+  tbl-title: Tabelle
 ---
 
 # Schmerzen  
@@ -60,12 +66,16 @@ Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch i
 
 ## Durchfälle
 
-Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden @DeutscheKrebsgesellschaftEtAl2020:
+Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden. Diese Dosisschema übersteigt jedoch die Maximale Dosis gemäß Fachinformation. Patienten ***mussen*** darauf **hingewiesen werden**. @DeutscheKrebsgesellschaftEtAl2020
 
-Die empfohlene Dosierung ist: **initial 4 mg** gefolgt von **2 mg alle 4 Stunden**. Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen. 
+Die empfohlene Dosierung ist:
 
-Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symptomatik ein, kann die Loperamid-Dosierung auf 2 mg alle 2 Stunden gesteigert
-werden.
+**initial 4 mg** gefolgt von **2 mg alle 4 Stunden**.  
+
+Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symptomatik ein, 
+*kann* die Dosis gesteigert werden:
+
+**2 mg alle 2 Stunden** 
 
 ## Strahlenzystitis
 
@@ -126,11 +136,32 @@ sowohl auf die 5AR-Isoenzyme vom Typ 1 als auch vom Typ 2 (5AR1 und 5AR2).
 
 Die duale Hemmung von sowohl 5AR1 als auch 5AR2 führt zu einer stärkeren und
 konsistentere Hemmung der Umwandlung von Testosteron in DHT als die selektive
-Hemmung von 5AR2 allein durch Finasterid.@JaeHeonKim2015
+Hemmung von 5AR2 allein durch Finasterid. @JaeHeonKim2015
 
 # Strahlendermatitis 
 
+Die Effekte der Radiotherapie an der Haut sind eng mit den Eigenschaften der Basalzellen der Epidermis sowie der
+Endothelzellen der kleinsten Gefäße in der obersten Schicht der Dermis verknüpft.
+
+In der Epidermis kommt es unter fraktionierter Bestrahlung speziell ab der 3. Woche zu einer Depletion der Basalzellen, die zwischen der 4. und 5. Woche ihren Nadir erreicht. 
+Bereits ab dem 15. Bestrahlungstag nimmt als Gegenreaktion die mitotische Aktivität der Basalzellen allmählich zu.
+Deren Mitoserate ist ab der 3. Woche der fraktionierten Strahlenbehandlung bis einige Tage nach deren Abschluss deutlich erhöht, 
+wobei Zellzykluszeiten von nur 15 h möglich sind. 
+Es resultiert eine exponentiell beschleunigte Regeneration, welche bereits bis zum Ende der 6. Bestrahlungswoche (eingestrahlte Dosis 60 Gy) imstande ist die ursprüngliche Zellzahl wiederherzustellen. 
+
+Insgesamt ist die Erholungskapazität der Haut sehr hoch. Selbst nach sehr hohen Einzeldosen regeneriert die Epidermis im Tiermodell (Schweinehaut) in weniger als 40 Tagen vollständig. @Adamietz2022
+
+
+![Akute Strahlenschäden treten in der Dermis mit der ersten Strahlendosis auf. Ein Teil der basalen Keratinozyten in der Basalschicht (stratum basale) wird zerstört, so dass nur die verbleibenden Keratinozyten verhornen(Keratinisieren). Dadurch wird das Gleichgewicht zwischen der normalen Zellproduktion in der Basalschicht und der Zellzerstörung an der Hautoberfläche gestört. @SeiteEtAl2017](Bilder/Epidermis.png){#fig-epidermis}
+
+## Allgemeine Empfehlungen 
+
+Der mechanische Schutz durch die äußerste Schicht der Epidermis sollte möglichst lange erhalten werden. Maßnahmen, die eine vermehrte Hautabschürfung begünstigen, sind zu vermeiden. Dazu gehören eine enganliegende Kleidung, oder auch starke Transpiration. @Adamietz2022
+
+Eine Sonnenexposition der bestrahlten Haut ist zumindest bis zur kompletten Abheilung der akuten Hautreaktion grundsätzlich zu vermeiden. 
+
 ## Graduierung
+Die Einstufung der Strahlendermatitis erfolgt grundsätzlich nach den Common Terminology Criteria for Adverse Events (CTCAE). 
 
 ### Grad 1
 
@@ -144,10 +175,42 @@ Hemmung von 5AR2 allein durch Finasterid.@JaeHeonKim2015
 
 ![Typische Strahlendermatitis Grad 3. Links: Das Auftreten von Blutungen, die durch ein geringfügiges Trauma oder eine Schürfung verursacht wurden, z.B. unmittelbar nach dem Entfernen einer Mullbinde. Rechts: Feuchte Desquamation in anderen Bereichen als Hautfalten. @ZendaEtAl2016](Bilder/strahlendermatitis3.png){#fig-sddrei}
 
+### Grad 4 
 
-## Die Handflächenregel
+![Dieses Foto zeigt eine typische Dermatitis Grad 4, einschließlich spontaner Blutungen an der betroffenen Stelle. Hautnekrosen oder Ulzerationen der gesamten Dermis @ZendaEtAl2016](Bilder/Strahlendermatitis4.png){#fig-sdvier}
+
+Grad 4 im Sinne der CTCAE bedeutet: lebensbedrohliche Folgen, 
+Hautnekrose oder Ulzeration der gesamten Dermis, 
+spontane Blutungen an der betroffenen Stelle,
+eine Hauttransplantation ist ggf. erforderlich. 
+Dies ist **äußerst selten**. Die Behandlung erfolgt stationär. 
+
+## Pflege 
+
+Die pharmazeutische Behandlung der Strahlendermatitis in der deutschsprachigen Radioonkologie ist nach wie vor umstritten, 
+inkonsistent und teilweise nicht durch evidenzbasierte Medizin gestützt. 
+
+An einer Umfrage in der deutschsprachigen Gemeinschaft der Radioonkologen nahmen 244 Personen teil. Dexpanthenol-Lotion ist das am häufigsten verwendete Mittel sowohl zur Vorbeugung (53,0%) als auch zur Behandlung (76,9%) von Strahlendermatitis. @LayerEtAl2024
+
+Die Basispflege erfolgt dementsprechend mittels Bepanthol® Körperlotion.
+
+![](Bilder/Bephantol.png){#fig-bephantol}
+
+#### Rationale
+
+Die Hornschicht (Stratum corneum) ist die Schutzschicht und besteht aus kernlosen Zellen. Eine Störung der epidermalen Barrierefunktion führt zu einer schnellen Reaktion der Keratinozyten, um die Homöostase der Haut wiederherzustellen. Die mRNA, die für proinflammatorische Zytokine, Adhäsionsmoleküle und Wachstumsfaktoren kodiert, wird hochreguliert. @Loden2001 Dies potenziert möglicherweisse die Strahlenschäden. 
+
+Zudem erhöht eine erhöhte Hautfeuchtigkeit die Elastizität einer trockenen und brüchigen Stratum corneum und verringert das Risiko einer Rissbildung. @Loden2001
+
+### Natürliche Produkte
+
+Von allen uns bekannte Literatur ist **Olivenöl** das einzege Naturprodukt, das eine Wirkung als **Prophylaxe** der Strahlendermatitis zeigt. Jedoch ***nicht zur Behandlung***. @BehroozianEtAl2023
+
+### Dosierung topischer Kortikosteroide
 
 Für topische Kortikosteroide gilt: Ausreichende Mengen aufschreiben und ausreichende Mengen auftragen. 
+
+#### Die Handflächenregel
 
 Um die Applikationsmenge abzumessen, hat sich das Konzept der **Fingertip-Unit (FTU)** etabliert @fig-ftu. 
 Eine FTU ist der Salbenstrang aus einer Tube, der auf das Endglied des Zeigefingers passt. 
@@ -165,10 +228,6 @@ Das Risiko unerwünschter Nebenwirkungen steigt bei längerem Gebrauch, großfl�
 Topische Steroide mit geringer bis mittlerer Wirkstärke eignen sich besonders für die Behandlung von Körperstellen mit dünner Haut. Dazu gehören das Gesicht, die Kniekehlen, die Innenseiten der Ellbogen, die Leistengegend und die Achselhöhlen. @InstituteforQualityandEfficiencyinHealthCare2021
 
 Nicht desto trotz topisches Mometasonfuroat (meist 0,1 %) und Betamethason sind die in der Literatur am häufigsten erwähnten topischen Kortikosteroide, was darauf hindeutet, dass die derzeitigen Erkenntnisse die Verwendung sowohl von Mometasonfuroat als auch von Betamethason bei der Vorbeugung von Strahlendermatitis und damit verbundenen Symptomen unterstützen. @BehroozianEtAl2023
-
-### Natürliche Produkte
-
-Von allen uns bekannte Literatur ist Olivenöl das einzege Naturprodukt, das eine Wirkung als ***Prophylaxe*** der Strahlendermatitis zeigt. Jedoch ***nicht zur Behandlung***. @BehroozianEtAl2023
 
 
 # Mukositis
