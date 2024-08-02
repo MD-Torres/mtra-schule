@@ -197,7 +197,7 @@ Die Zeit, die ein Keratinozyt benötigt, um vom Stratum basale ins Stratum gran
 
 Die Fähigkeit zur **Mitose** ist unter physiologischen Bedingungen **den Zellen der Basalschicht vorbehalten**. Die epidermale Proliferation reagiert jedoch auf jegliche traumatische, thermische, chemische oder entzündliche Reize mit Anstieg der Mitoseaktivität.
 
-![Akute Strahlenschäden treten in der Dermis mit der ersten Strahlendosis auf. Ein Teil der basalen Keratinozyten in der Basalschicht (stratum basale) wird zerstört, so dass nur die verbleibenden Keratinozyten verhornen(Keratinisieren). Dadurch wird das Gleichgewicht zwischen der normalen Zellproduktion in der Basalschicht und der Zellzerstörung an der Hautoberfläche gestört. @SeiteEtAl2017](Bilder/Epidermis.png){#fig-epidermis}
+![Die Oberhaut (Epidermis) besteht aus einem mehrschichtigen, verhornenden Plattenepithel. Die äußere Hornschicht enthält abgestorbene Hornzellen. Sie bildet die oberste Schutzbarriere der Haut. Die darunter liegende Keimschicht liefert Nachschub für die Hornschicht und erneuert diese etwa alle vier Wochen. @ImkeSatzger2020](Bilder/Epidermis.png){#fig-epidermis}
 
 ## Physiopathologie @Adamietz2022
 
@@ -212,8 +212,9 @@ wobei Zellzykluszeiten von nur 15 h möglich sind.
 
 Es resultiert eine exponentiell beschleunigte Regeneration, welche bereits bis zum Ende der 6. Bestrahlungswoche (eingestrahlte Dosis ca 60 Gy) imstande ist die ursprüngliche Zellzahl wiederherzustellen. 
 
-Insgesamt ist die Erholungskapazität der Haut sehr hoch. Selbst nach sehr hohen Einzeldosen regeneriert die Epidermis im Tiermodell (Schweinehaut) in weniger als 40 Tagen vollständig. 
+Insgesamt ist die Erholungskapazität der Haut sehr hoch. Selbst nach sehr hohen Einzeldosen regeneriert die Epidermis im Tiermodell (Schweinehaut) in weniger als 40 Tagen vollständig.
 
+![Akute Strahlenschäden treten in der Dermis mit der ersten Strahlendosis auf. Ein Teil der basalen Keratinozyten in der Basalschicht (stratum basale) wird zerstört, so dass nur die verbleibenden Keratinozyten verhornen(Keratinisieren). Dadurch wird das Gleichgewicht zwischen der normalen Zellproduktion in der Basalschicht und der Zellzerstörung an der Hautoberfläche gestört. @SeiteEtAl2017](Bilder/strahlendermatitis.png){#fig-epidermis}
 
 ## Graduierung
 Die Einstufung der Strahlendermatitis erfolgt grundsätzlich nach den Common Terminology Criteria for Adverse Events (CTCAE). 
