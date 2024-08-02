@@ -187,6 +187,37 @@ Vor allem jedoch: **Harnverhalt**, sodass in Anbetracht der ungünstige Wirkung-
 
 # Strahlendermatitis 
 
+::: {.callout-tip collapse="true"}
+#### Therapie 
+
+1.  Schritt 
+
+    **Aufklärung über Hautpflege, einschließlich Reinigungsmittel und Feuchtigkeitscremes, sowie die Vermeidung von Reizstoffen und Sonneneinstrahlung**
+    
+    
+    
+
+2.  Schritt 
+
+    **Ab Tag 1 der Bestrahlung: Bepanthol® Körperlotion 1-0-1 o.g. Maßnahmen fortführen**
+    
+
+3.  Schritt (Strahlendermatitis °II)
+  
+    3.1
+      **Lavasept Gel 1-1-1**
+      **Bepanthol® Körperlotion 1-1-1**
+      **Flutivate Creme 0,5mg/1g: 1 FTU 1-0-0** 
+    
+    3.2
+      **Lavasept Gel 1-1-1**
+      **Bepanthol® Körperlotion 1-1-1**
+      **Mometasonfuroat Salbe 1mg/g: 1 FTU 1-0-0** (10 g Tube)
+
+FTU: s. @sec-handfleche
+
+:::
+
 Die häufigste Nebenwirkung der Strahlentherapie ist die Strahlendermatitis (RD), insbesondere bei Patienten mit Brust-, Kopf-, Hals- und Analkrebs. @GirnitaEtAl2023
 
 ## Physiologie @Gauglitz2007
@@ -244,7 +275,6 @@ Dies ist **äußerst selten**. Die Behandlung erfolgt stationär.
 ## Prävention und Behandlung
 
 Die Hauptaufgabe der unterstützenden Hautpflege besteht darin, die Integrität der epidermalen Barriere zu erhalten. @BergerEtAl2018 
-
 
 ### Prävention
 
@@ -310,7 +340,7 @@ Von allen uns bekannte Literatur ist **Olivenöl** das einzege Naturprodukt, das
 
 Für die Dosierung topische Kortikosteroide gilt: Ausreichende Mengen aufschreiben und ausreichende Mengen auftragen.
 
-#### Die Handflächenregel
+#### Die Handflächenregel {#sec-handfleche}
 
 Um die Applikationsmenge abzumessen, hat sich das Konzept der **Fingertip-Unit (FTU)** etabliert @fig-ftu. 
 Eine FTU ist der Salbenstrang aus einer Tube, der auf das Endglied des Zeigefingers passt. 
