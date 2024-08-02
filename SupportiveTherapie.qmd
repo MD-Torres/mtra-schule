@@ -131,9 +131,11 @@ Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symp
     
     Diese Dosis übersteigt die Maximale Dosis gemäß Fachinformation, darauf sind die Patienten hinzuweisen. 
 
-3.  Schritt @sec-dutasterid
+3.  Schritt
 
     **Dutasterid/Tamsulosin 0,5 mg/0,4 mg 1-0-0**
+
+Spasmolitika vermeiden s. @sec-spasmolytika
 
 :::
 
@@ -177,7 +179,7 @@ Die duale Hemmung von sowohl 5AR1 als auch 5AR2 führt zu einer stärkeren und
 konsistentere Hemmung der Umwandlung von Testosteron in DHT als die selektive
 Hemmung von 5AR2 allein durch Finasterid. @JaeHeonKim2015
 
-### Spasmolytika Anticholinergika
+### Spasmolytika / Anticholinergika {#sec-spasmolytika}
 
 Die Wirkung der zur Verfügung stehenden Anticholinergika (z.B. Spasmex®) ist in der Praxis relativ gering. 
 Unerwünschte Nebenwirkungen tretten jedoch häufig auf, u.a. Mundtrockenheit und Obstipation. 
