@@ -20,7 +20,7 @@ crossref:
 # Schmerzen  
 
 ::: {.callout-tip collapse="true"}
-#### Therapie Vorschlag
+#### Therapie 
 
 1.  Schritt (Bei Eskalation beibehalten)
 
@@ -82,10 +82,28 @@ sodass eine Kombination mit anderen Opioiden vermeiden werden sollte.
 
 Demenssprechend ist das Präparat ***nicht als Bedarfsmedikation geeignet***. 
 
+# Durchfälle
 
-# Prostata
+::: {.callout-tip collapse="true"}
+#### Therapie 
 
-## Durchfälle
+1.  Schritt
+
+    **4 mg einmalig**, danach **nach jedem ungeformten Stuhl 2 mg**.
+    Eine tägliche Dosis von 6 Filmtabletten (entsprechend 12 mg) darf nicht überschritten werden.
+
+2.  Schritt 
+
+    **2mg Loperamid alle 4 Stunden**
+    
+    **Cave:** Off-Lable jedoch Leitliniengerecht @DeutscheKrebsgesellschaftEtAl2020
+
+3.  Schritt
+
+    **2 mg alle 2 Stunden***
+
+:::
+
 
 Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden. Diese Dosisschema übersteigt jedoch die Maximale Dosis gemäß Fachinformation. Patienten ***mussen*** darauf **hingewiesen werden**. @DeutscheKrebsgesellschaftEtAl2020
 
@@ -98,7 +116,7 @@ Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symp
 
 **2 mg alle 2 Stunden** 
 
-## Strahlenzystitis
+# Strahlenzystitis
 
 ::: {.callout-tip collapse="true"}
 #### Therapie Vorschlag
@@ -158,6 +176,12 @@ sowohl auf die 5AR-Isoenzyme vom Typ 1 als auch vom Typ 2 (5AR1 und 5AR2).
 Die duale Hemmung von sowohl 5AR1 als auch 5AR2 führt zu einer stärkeren und
 konsistentere Hemmung der Umwandlung von Testosteron in DHT als die selektive
 Hemmung von 5AR2 allein durch Finasterid. @JaeHeonKim2015
+
+### Spasmolytika Anticholinergika
+
+Die Wirkung der zur Verfügung stehenden Anticholinergika (z.B. Spasmex®) ist in der Praxis relativ gering. 
+Unerwünschte Nebenwirkungen tretten jedoch häufig auf, u.a. Mundtrockenheit und Obstipation. 
+Vor allem jedoch: **Harnverhalt**, sodass in Anbetracht der ungünstige Wirkung-Nebenwirkung-Korrelation diese Medikamente vermeiden werden sollten. 
 
 # Strahlendermatitis 
 
