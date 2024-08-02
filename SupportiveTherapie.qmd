@@ -215,7 +215,39 @@ Es resultiert eine exponentiell beschleunigte Regeneration, welche bereits bis z
 Insgesamt ist die Erholungskapazität der Haut sehr hoch. Selbst nach sehr hohen Einzeldosen regeneriert die Epidermis im Tiermodell (Schweinehaut) in weniger als 40 Tagen vollständig. 
 
 
-## Allgemeine Empfehlungen 
+## Graduierung
+Die Einstufung der Strahlendermatitis erfolgt grundsätzlich nach den Common Terminology Criteria for Adverse Events (CTCAE). 
+
+### Grad 1
+
+![Typische Dermatitis Grad 1. Schwaches Erythem oder trockene Desquamation. Ein lachsfarbenes Erythem tritt vor der Entwicklung einer schweren Dermatitis auf. @ZendaEtAl2016](Bilder/strahlendermatitis1.png){#fig-sdeins}
+
+### Grad 2
+
+![Typische Strahlendermatitis Grad 2. Ein mäßiges oder lebhaftes Erythem (links) ist einer der Hauptbefunde bei Strahlendermatitis Grad 2. Der Befund einer feuchten Desquamation (rechts) ist oft notwendig, um sie von einem Strahlendermatitis Grad 1 zu unterscheiden. @ZendaEtAl2016](Bilder/strahlendermatitis2.png){#fig-sdzwei}
+
+### Grad 3
+
+![Typische Strahlendermatitis Grad 3. Links: Das Auftreten von Blutungen, die durch ein geringfügiges Trauma oder eine Schürfung verursacht wurden, z.B. unmittelbar nach dem Entfernen einer Mullbinde. Rechts: Feuchte Desquamation in anderen Bereichen als Hautfalten. @ZendaEtAl2016](Bilder/strahlendermatitis3.png){#fig-sddrei}
+
+### Grad 4 
+
+![Dieses Foto zeigt eine typische Dermatitis Grad 4, einschließlich spontaner Blutungen an der betroffenen Stelle. Hautnekrosen oder Ulzerationen der gesamten Dermis @ZendaEtAl2016](Bilder/Strahlendermatitis4.png){#fig-sdvier}
+
+Grad 4 im Sinne der CTCAE bedeutet: lebensbedrohliche Folgen, 
+Hautnekrose oder Ulzeration der gesamten Dermis, 
+spontane Blutungen an der betroffenen Stelle,
+eine Hauttransplantation ist ggf. erforderlich. 
+Dies ist **äußerst selten**. Die Behandlung erfolgt stationär. 
+
+## Prävention und Behandlung
+
+Die Hauptaufgabe der unterstützenden Hautpflege besteht darin, die Integrität der epidermalen Barriere zu erhalten. @BergerEtAl2018 
+
+
+### Prävention
+
+#### Allgemeine Empfehlungen 
 
 Der mechanische Schutz durch die äußerste Schicht der Epidermis sollte möglichst lange erhalten werden. Maßnahmen, die eine vermehrte Hautabschürfung begünstigen, sind zu vermeiden @tbl-hautirritanzien. Dazu gehören eine enganliegende Kleidung, oder auch starke Transpiration. @Adamietz2022
 
@@ -249,38 +281,6 @@ as_raw_html(table)
 
 ```
 
-## Graduierung
-Die Einstufung der Strahlendermatitis erfolgt grundsätzlich nach den Common Terminology Criteria for Adverse Events (CTCAE). 
-
-### Grad 1
-
-![Typische Dermatitis Grad 1. Schwaches Erythem oder trockene Desquamation. Ein lachsfarbenes Erythem tritt vor der Entwicklung einer schweren Dermatitis auf. @ZendaEtAl2016](Bilder/strahlendermatitis1.png){#fig-sdeins}
-
-### Grad 2
-
-![Typische Strahlendermatitis Grad 2. Ein mäßiges oder lebhaftes Erythem (links) ist einer der Hauptbefunde bei Strahlendermatitis Grad 2. Der Befund einer feuchten Desquamation (rechts) ist oft notwendig, um sie von einem Strahlendermatitis Grad 1 zu unterscheiden. @ZendaEtAl2016](Bilder/strahlendermatitis2.png){#fig-sdzwei}
-
-### Grad 3
-
-![Typische Strahlendermatitis Grad 3. Links: Das Auftreten von Blutungen, die durch ein geringfügiges Trauma oder eine Schürfung verursacht wurden, z.B. unmittelbar nach dem Entfernen einer Mullbinde. Rechts: Feuchte Desquamation in anderen Bereichen als Hautfalten. @ZendaEtAl2016](Bilder/strahlendermatitis3.png){#fig-sddrei}
-
-### Grad 4 
-
-![Dieses Foto zeigt eine typische Dermatitis Grad 4, einschließlich spontaner Blutungen an der betroffenen Stelle. Hautnekrosen oder Ulzerationen der gesamten Dermis @ZendaEtAl2016](Bilder/Strahlendermatitis4.png){#fig-sdvier}
-
-Grad 4 im Sinne der CTCAE bedeutet: lebensbedrohliche Folgen, 
-Hautnekrose oder Ulzeration der gesamten Dermis, 
-spontane Blutungen an der betroffenen Stelle,
-eine Hauttransplantation ist ggf. erforderlich. 
-Dies ist **äußerst selten**. Die Behandlung erfolgt stationär. 
-
-## Prävention und Behandlung
-
-Die Hauptaufgabe der unterstützenden Hautpflege besteht darin, die Integrität der epidermalen Barriere zu erhalten. @BergerEtAl2018 
-
-
-### Prävention
-
 Es gibt jedoch nur wenige Hinweise auf Hautpflegeprodukte, die die Schwere der Hautreaktionen lindern können. 
 Zudem  liegen keine ausreichenden Erkenntnisse vor, um Empfehlungen zur Vorbeugung oder Verringerung von Radiodermatitis zu formulieren. @SeiteEtAl2017 
 
@@ -292,7 +292,7 @@ Hier wae Dexpanthenol-Lotion das am häufigsten verwendete Mittel sowohl zur Vor
 
 Die Basispflege erfolgt dementsprechend mittels Bepanthol® Körperlotion. 
 
-![](Bilder/Bephantol.png){#fig-bephantol}
+![Diese Art von Lotion bewahrt die Feuchtigkeit an der Hautoberfläche und erhält die Geschmeidigkeit der Haut. ](Bilder/Bephantol.png){#fig-bephantol}
 
 #### Rationale
 
