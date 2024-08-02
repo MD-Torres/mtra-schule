@@ -187,8 +187,14 @@ Vor allem jedoch: **Harnverhalt**, sodass in Anbetracht der ungünstige Wirkung-
 
 # Strahlendermatitis 
 
+Die häufigste Nebenwirkung der Strahlentherapie ist die Strahlendermatitis (RD), insbesondere bei Patienten mit Brust-, Kopf-, Hals- und Analkrebs. @GirnitaEtAl2023
+
 Die Effekte der Radiotherapie an der Haut sind eng mit den Eigenschaften der Basalzellen der Epidermis sowie der
 Endothelzellen der kleinsten Gefäße in der obersten Schicht der Dermis verknüpft.
+
+Die Epidermis lässt sich in eine basale und eine suprabasale Schicht unterteile  .In der Basalschit sind die **teilungsfä- higen Zellen angesiedel**t. Durch die Teilung dieser Zellen entsteht eine Zellschicht (Stratum germi- nativum entspricht Stratum basale und spinosum), welche die erste Lage der suprabasalen Zellen darstellt. Es folgen dann mehrere Zellschichten (Stratum granulosum, lucidum und corneum, siehe @fig-epidermis, die nicht mehr teilungsfähig sind und im Wesentlichen eine Schutzfunktion einneh- men (Hornschicht).
+
+Die Zeit, die ein Keratinozyt benötigt, um vom Stratum basale ins Stratum granulosum zu gelangen (meist als "epidermal cell renewal time" oder **"epidermal turnover time"** bezeichnet), beträgt beim Menschen **26-42 Tage**.
 
 In der Epidermis kommt es unter fraktionierter Bestrahlung speziell ab der 3. Woche zu einer Depletion der Basalzellen, die zwischen der 4. und 5. Woche ihren Nadir erreicht. 
 Bereits ab dem 15. Bestrahlungstag nimmt als Gegenreaktion die mitotische Aktivität der Basalzellen allmählich zu.
