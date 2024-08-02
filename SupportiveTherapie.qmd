@@ -207,7 +207,7 @@ Vor allem jedoch: **Harnverhalt**, sodass in Anbetracht der ungünstige Wirkung-
     3.1
       **Lavasept Gel 1-1-1**
       **Bepanthol® Körperlotion 1-1-1**
-      **Flutivate Creme 0,5mg/1g: 1 FTU 1-0-0** 
+      **Bethamethasonvalerat 0,1% Creme: 1 FTU 1-0-0** 
     
     3.2
       **Lavasept Gel 1-1-1**
@@ -325,11 +325,13 @@ Die Basispflege erfolgt dementsprechend mittels Bepanthol® Körperlotion.
 
 ![Diese Art von Lotion bewahrt die Feuchtigkeit an der Hautoberfläche und erhält die Geschmeidigkeit der Haut. ](Bilder/Bephantol.png){#fig-bephantol}
 
-#### Rationale
+#### Rationale @Loden2001
 
-Die Hornschicht (Stratum corneum) ist die Schutzschicht und besteht aus kernlosen Zellen. Eine Störung der epidermalen Barrierefunktion führt zu einer schnellen Reaktion der Keratinozyten, um die Homöostase der Haut wiederherzustellen. Die mRNA, die für proinflammatorische Zytokine, Adhäsionsmoleküle und Wachstumsfaktoren kodiert, wird hochreguliert. @Loden2001 Dies potenziert möglicherweisse die Strahlenschäden. 
+Die Hornschicht (Stratum corneum) ist die Schutzschicht und besteht aus kernlosen Zellen. Eine Störung der epidermalen Barrierefunktion führt zu einer schnellen Reaktion der Keratinozyten, um die Homöostase der Haut wiederherzustellen. Die mRNA, die für proinflammatorische Zytokine, Adhäsionsmoleküle und Wachstumsfaktoren kodiert, wird hochreguliert. Dies potenziert möglicherweisse die Strahlenschäden. 
 
-Zudem erhöht eine erhöhte Hautfeuchtigkeit die Elastizität einer trockenen und brüchigen Stratum corneum und verringert das Risiko einer Rissbildung. @Loden2001
+Zudem erhöht eine erhöhte Hautfeuchtigkeit die Elastizität einer trockenen und brüchigen Stratum corneum und verringert das Risiko einer Rissbildung. 
+
+Dennoch Løkkevik et al. Løkkevik führten eine Studie an 86 Kehlkopf- und Brustkrebspatientinnen durch, die einer Strahlentherapie bekammen. Getestet wurde die Wirkung einer Dexpanthenol-Creme (Bepanthen - Roche) auf bestrahlter Haut im Vergleich zu keiner Creme. Diese Studie zeigte keine klinisch relevante Vorteile der Verwendung von Bepanthen-Creme.
 
 #### Natürliche Produkte
 
@@ -337,8 +339,21 @@ Von allen uns bekannte Literatur ist **Olivenöl** das einzege Naturprodukt, das
 
 ### Behandlung
 
+#### Topische Kortikosteroide @KiprianEtAl2022
 
-Für die Dosierung topische Kortikosteroide gilt: Ausreichende Mengen aufschreiben und ausreichende Mengen auftragen.
+Es gibt weltweit nur wenige Produkte mit nachgewiesener entzündungshemmender Wirksamkeit in der Präventions- und Behandlungsphase. 
+Topische Kortikosteroide sind für ihre entzündungshemmende Wirksamkeit bekannt, 
+da sie die durch freie Radikale stimulierte pro-entzündliche Zytokin-IL-6-Kaskade hemmen. 
+
+Studien zeigen, dass topische Kortikosteroide die Hauttoxizität während der Strahlentherapie deutlich verringern können. 
+Miller et al. fanden bei 176 Patienten, dass tägliches Auftragen von 0,1 % Mometasonfuroat (MF) weniger akute Hauttoxizität und weniger Juckreiz, Reizung, Brennen und Unbehagen im Vergleich zu Placebo verursacht. 
+Hindley et al. bestätigten, dass 0,1 % MF nicht nur Radiodermatitis reduziert, sondern auch die Lebensqualität verbessert. 
+Boström et al. zeigten, dass die Kombination von 0,1 % MF mit einer lindernden Creme akute Radiodermatitis signifikant verringert. 
+Eine kleine Studie mit 20 Patienten zeigte, dass Prednisolon mit Neomycin Radiodermatitis besser vorbeugt als Placebo. 
+Meghrajani et al. berichteten von den Vorteilen präventiver 1%iger Hydrocortison-Anwendung bei Brustkrebspatientinnen (n = 50). 
+Omidvari und Schmuth zeigten, dass prophylaktisches Betamethason 0,1 % bzw. 0,1 % Methylprednisolon während der Bestrahlung das Auftreten akuter Radiodermatitis bei Brustkrebspatientinnen verzögert.
+
+**Für die Dosierung topische Kortikosteroide gilt: Ausreichende Mengen aufschreiben und ausreichende Mengen auftragen.**
 
 #### Die Handflächenregel {#sec-handfleche}
 
@@ -349,6 +364,12 @@ Da der Tubenaustritt auf 5 mm genormt ist, ist die ausgetretene Salbenmenge bei 
 ![Eine Fingertip-Unit (FTU)](Bilder/FTU.jpg){#fig-ftu}
 
 Für die Behandlung eines Hautareals, das in seiner Ausdehnung zwei Handinnenflächen und damit 2 % der Körperoberfläche entspricht, muss der Patient pro Anwendung eine FTU auftragen. @Bauer-Delto2020
+
+#### Frequenz der Applikation @WeberLautenschlager2006
+
+Kortikosteroide haben die Möglichkeit, sich im Stratum corneum zu akkumulieren und sich dann auf die Epidermis/Dermis auszubreiten. Dieser Reservoireffekt erklärt, weshalb eine einzige Applikation pro Tag in den meisten Fällen ausreichend ist. 
+
+Bei fehlendem Stratum corneum (Erosion, nässende Läsionen) sind zwei Applikationen pro Tag gerechtfertigt. 
 
 ## Kopf-Halsbereich
 
