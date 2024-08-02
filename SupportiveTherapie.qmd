@@ -46,7 +46,9 @@ Umrechnung der Opiate s. @fig-Umrech
 
 Schmerzen können als Dauerschmerzen oder Durchbruchschmerzen auftreten @fig-Schmerzen. 
 
-Dauerschmerzen werden mit retardierten Medikamenten oder mit regelmäßigen Gaben von kurzwirksamen Medikamenten behandelt. Durchbruchschmerzen sind plötzlich auftretende Schmerzepisoden oder -spitzen, die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern. 
+Dauerschmerzen werden mit retardierten Medikamenten oder mit regelmäßigen Gaben von kurzwirksamen Medikamenten behandelt. 
+
+Durchbruchschmerzen sind plötzlich auftretende Schmerzepisoden oder -spitzen, die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern. 
 
 Eine adäquate Schmerztherapie kombiniert daher beides: regelmäßige Langzeitmedikamente und kurzwirksame (Bedarfs-)Medikamente.
 
@@ -60,7 +62,7 @@ Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch i
 
 ## Umrechnung 
 
-![Opiate Umrechnungstabelle](Bilder/Umrechnung.png){#fig-Umrech}
+![Opiate Umrechnungstabelle: Bei Opiatrotation sollte die Dosis nur 1 zu 1 kalkuliert werden, wenn unter der Therapie die Schmerzen noch belastend sind. Bei adäquate Linderung sollte die Dosis um ca. 30 bis 50% reduziert werden.](Bilder/Umrechnung.png){#fig-Umrech}
 
 # Prostata
 
