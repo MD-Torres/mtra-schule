@@ -237,7 +237,6 @@ Die Fähigkeit zur **Mitose** ist unter physiologischen Bedingungen **den Zellen
 ![Die Oberhaut (Epidermis) besteht aus einem mehrschichtigen, verhornenden Plattenepithel. Die äußere Hornschicht enthält abgestorbene Hornzellen. Sie bildet die oberste Schutzbarriere der Haut. Die darunter liegende Keimschicht liefert Nachschub für die Hornschicht und erneuert diese etwa alle vier Wochen. @ImkeSatzger2020](Bilder/Epidermis.png){}
 
 ![Die Epidermis besteht zu 90 Prozent aus Keratinozyten, die von Desmosomen zusammengehalten werden. In den äußeren Schichten besteht sie aus verhornten Plattenepithelzellen.](Biler/epidermissichten.png){}
-
 :::
 
 ## Physiopathologie @Adamietz2022
@@ -390,7 +389,7 @@ Für die Behandlung eines Hautareals, das in seiner Ausdehnung zwei Handinnenfl�
 
 Kortikosteroide haben die Möglichkeit, sich im Stratum corneum zu akkumulieren und sich dann auf die Epidermis/Dermis auszubreiten. Dieser Reservoireffekt erklärt, weshalb eine einzige Applikation pro Tag in den meisten Fällen ausreichend ist. 
 
-Bei fehlendem Stratum corneum (Erosion, nässende Läsionen) sind zwei Applikationen pro Tag gerechtfertigt. @WeberLautenschlager2006
+Bei fehlendem Stratum corneum @fig-epidermis (Erosion, nässende Läsionen) sind zwei Applikationen pro Tag gerechtfertigt. @WeberLautenschlager2006
 
 ## Kopf-Halsbereich
 
