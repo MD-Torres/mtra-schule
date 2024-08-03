@@ -187,15 +187,11 @@ In Anbetracht dieser ungünstige Wirkung-Nebenwirkung-Korrelation, sollten diese
 1.  Schritt 
 
     **Aufklärung über Hautpflege, einschließlich Reinigungsmittel und Feuchtigkeitscremes, sowie die Vermeidung von Reizstoffen und Sonneneinstrahlung**
-    
-    
-    
 
 2.  Schritt 
 
     **Ab Tag 1 der Bestrahlung: Bepanthol® Körperlotion 1-0-1 o.g. Maßnahmen fortführen**
     
-
 3.  Schritt
   
     3.1
@@ -235,7 +231,14 @@ Die Zeit, die ein Keratinozyt benötigt, um vom Stratum basale ins Stratum gran
 
 Die Fähigkeit zur **Mitose** ist unter physiologischen Bedingungen **den Zellen der Basalschicht vorbehalten**. Die epidermale Proliferation reagiert jedoch auf jegliche traumatische, thermische, chemische oder entzündliche Reize mit Anstieg der Mitoseaktivität.
 
-![Die Oberhaut (Epidermis) besteht aus einem mehrschichtigen, verhornenden Plattenepithel. Die äußere Hornschicht enthält abgestorbene Hornzellen. Sie bildet die oberste Schutzbarriere der Haut. Die darunter liegende Keimschicht liefert Nachschub für die Hornschicht und erneuert diese etwa alle vier Wochen. @ImkeSatzger2020](Bilder/Epidermis.png){#fig-epidermis}
+::: {#fig-epidermis layout-ncol=2}
+
+
+![Die Oberhaut (Epidermis) besteht aus einem mehrschichtigen, verhornenden Plattenepithel. Die äußere Hornschicht enthält abgestorbene Hornzellen. Sie bildet die oberste Schutzbarriere der Haut. Die darunter liegende Keimschicht liefert Nachschub für die Hornschicht und erneuert diese etwa alle vier Wochen. @ImkeSatzger2020](Bilder/Epidermis.png){}
+
+![Die Epidermis besteht zu 90 Prozent aus Keratinozyten, die von Desmosomen zusammengehalten werden. In den äußeren Schichten besteht sie aus verhornten Plattenepithelzellen.](Biler/epidermissichten.png){}
+
+:::
 
 ## Physiopathologie @Adamietz2022
 
