@@ -201,19 +201,19 @@ In Anbetracht dieser ungünstige Wirkung-Nebenwirkung-Korrelation, sollten diese
     3.1
       **Lavasept Gel 1-1-1**\
       **Bepanthol® Körperlotion 1-1-1**\
-      **Bethamethasonvalerat 0,1% Creme: 1 FTU 1-0-0**\ 
+      **Bethamethasonvalerat 0,1% Creme [^1]**\ 
     
     3.2
       **Lavasept Gel 1-1-1**\
       **Bepanthol® Körperlotion 1-1-1**\
-      **Mometasonfuroat Salbe 1mg/g: 1 FTU 1-0-0** (10 g Tube)\
+      **Mometasonfuroat Salbe 1mg/g (10 g Tube) [^1]**\
       
     3.3
       **Bepanthol® Körperlotion 1-1-1**\
-      **Bethamethasonvalerat 0,1% Creme: 1 FTU 1-0-0 für 7 Tage**\ 
+      **Bethamethasonvalerat 0,1% Creme [^1] für 7 Tage**\ 
       
 
-FTU: s. @sec-handfleche
+[^1]: Eine FTU (s. @sec-handfleche) ein- bis zweimal täglich (s. @sec-frequenz)
 
 :::
 
@@ -224,9 +224,10 @@ ist die Strahlendermatitis. @GirnitaEtAl2023
 ## Physiologie @Gauglitz2007
 
 Die Epidermis lässt sich in eine basale und eine suprabasale Schicht unterteilen. 
-In der Basalschit sind die **teilungsfä- higen Zellen angesiedelt**. 
+In der Basalschit sind die **teilungsfähigen Zellen angesiedelt**. 
 
-Durch die Teilung dieser Zellen entsteht eine Zellschicht (Stratum germi- nativum entspricht Stratum basale und spinosum), welche die erste Lage der suprabasalen Zellen darstellt. 
+Durch die Teilung dieser Zellen entsteht eine Zellschicht (Stratum germinativum entspricht Stratum basale und spinosum), 
+welche die erste Lage der suprabasalen Zellen darstellt. 
 
 Es folgen dann mehrere Zellschichten (Stratum granulosum, lucidum und corneum, siehe @fig-epidermis, die nicht mehr teilungsfähig sind und im Wesentlichen eine Schutzfunktion einnehmen (Hornschicht).
 
@@ -382,11 +383,11 @@ Da der Tubenaustritt auf 5 mm genormt ist, ist die ausgetretene Salbenmenge bei 
 
 Für die Behandlung eines Hautareals, das in seiner Ausdehnung zwei Handinnenflächen und damit 2 % der Körperoberfläche entspricht, muss der Patient pro Anwendung eine FTU auftragen. @Bauer-Delto2020
 
-#### Frequenz der Applikation @WeberLautenschlager2006
+#### Frequenz der Applikation  {#sec-frequenz}
 
 Kortikosteroide haben die Möglichkeit, sich im Stratum corneum zu akkumulieren und sich dann auf die Epidermis/Dermis auszubreiten. Dieser Reservoireffekt erklärt, weshalb eine einzige Applikation pro Tag in den meisten Fällen ausreichend ist. 
 
-Bei fehlendem Stratum corneum (Erosion, nässende Läsionen) sind zwei Applikationen pro Tag gerechtfertigt. 
+Bei fehlendem Stratum corneum (Erosion, nässende Läsionen) sind zwei Applikationen pro Tag gerechtfertigt. @WeberLautenschlager2006
 
 ## Kopf-Halsbereich
 
