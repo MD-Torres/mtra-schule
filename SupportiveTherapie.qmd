@@ -72,15 +72,13 @@ Dosis eines anderen Opioids **über eine Woche** oder länger erhalten.
 
 Die **transdermale Anwendung** bei Opioid-naiven Patienten wird nicht empfohlen. Um **Überdosierung zu vermeiden** wird empfohlen, dass Opioid-naive Patienten niedrige Dosen von kurz
 wirkenden Analgetika (z. B. Morphin, Hydromorphon) erhalten, die titriert werden, bis eine äquianalgetische Dosierung entsprechend transdermales
-Fentanyl mit einer Freisetzungsrate von 12 Mikrogramm/h oder 25 Mikrogramm/h erreicht ist.
+Fentanyl mit einer Freisetzungsrate von 12 µ/h oder 25 µ/h erreicht ist.
 
 ## Buprenorphin sublingual
 
-Die Wirkung von Buprenorphin-HEXAL sublingual setzt innerhalb von 30 Minuten nach der Anwendung ein und hält in der Regel 6-8 Stunden an. 
-Es ist dreißigmal potenter als Morphin (0.4 mg s.l./d = ca. 30 mg Morphin p.o./d) und ist ein partieller μ-Antagonist, 
-sodass eine Kombination mit anderen Opioiden vermeiden werden sollte. 
+Die Wirkung von Buprenorphin-HEXAL sublingual setzt innerhalb von 30 Minuten nach der Anwendung ein (ähnlich wie Hydromorphon akut oder Morphin Tropfen) und hält in der Regel 6-8 Stunden an. 
 
-Demenssprechend ist das Präparat ***nicht als Bedarfsmedikation geeignet***. 
+Demenssprechend ist dieses Präparat ***nicht als Bedarfsmedikation geeignet***. 
 
 # Durchfälle
 
@@ -102,10 +100,9 @@ Demenssprechend ist das Präparat ***nicht als Bedarfsmedikation geeignet***.
 
 :::
 
+Nach fachinformationgerechte Anwendung von Loperamid  ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden. Diese Dosisschema übersteigt jedoch die Maximale zugelassene Dosis. Patienten ***mussen*** darauf **hingewiesen werden**. @DeutscheKrebsgesellschaftEtAl2020
 
-Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden. Diese Dosisschema übersteigt jedoch die Maximale Dosis gemäß Fachinformation. Patienten ***mussen*** darauf **hingewiesen werden**. @DeutscheKrebsgesellschaftEtAl2020
-
-Die empfohlene Dosierung ist **initial 4 mg** gefolgt von **2 mg alle 4 Stunden**. Tritt hierunter innerhalb von 12 - 24 Stunden keine Besserung der Symptomatik ein, *kann* die Dosis auf **2 mg alle 2 Stunden** gesteigert werden.
+Die empfohlene Dosierung ist **initial 4 mg** gefolgt von **2 mg alle 4 Stunden**. Tritt hierunter innerhalb von **12 - 24* Stunden** keine **Besserung** der Symptomatik ein, *kann* die Dosis auf **2 mg alle 2 Stunden** gesteigert werden.
 
 # Strahlenzystitis
 
@@ -341,6 +338,8 @@ Die Basispflege erfolgt dementsprechend mittels Bepanthol® Körperlotion.
 Die Hornschicht (Stratum corneum) ist die Schutzschicht und besteht aus kernlosen Zellen. Eine Störung der epidermalen Barrierefunktion führt zu einer schnellen Reaktion der Keratinozyten, um die Homöostase der Haut wiederherzustellen. Die mRNA, die für proinflammatorische Zytokine, Adhäsionsmoleküle und Wachstumsfaktoren kodiert, wird hochreguliert. Dies potenziert möglicherweisse die Strahlenschäden. 
 
 Zudem erhöht eine erhöhte Hautfeuchtigkeit die Elastizität einer trockenen und brüchigen Stratum corneum und verringert das Risiko einer Rissbildung. 
+
+Die **Basispflege** erfolgt dementsprechend mittels **Bepanthol® Körperlotion**. 
 
 #### cum grano salis
 
