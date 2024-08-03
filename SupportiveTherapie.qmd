@@ -46,9 +46,9 @@ Umrechnung der Opiate s. @fig-Umrech
 
 Schmerzen können als Dauerschmerzen oder Durchbruchschmerzen auftreten @fig-Schmerzen. 
 
-Dauerschmerzen werden mit retardierten Medikamenten oder mit regelmäßigen Gaben von kurzwirksamen Medikamenten behandelt. 
+**Dauerschmerzen** werden mit retardierten Medikamenten oder mit regelmäßigen Gaben von kurzwirksamen Medikamenten behandelt. 
 
-Durchbruchschmerzen sind plötzlich auftretende Schmerzepisoden oder -spitzen, die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern. 
+**Durchbruchschmerzen** sind plötzlich auftretende Schmerzepisoden oder -spitzen, die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern. 
 
 Eine adäquate Schmerztherapie kombiniert daher beides: regelmäßige Langzeitmedikamente und kurzwirksame (Bedarfs-)Medikamente.
 
@@ -67,8 +67,8 @@ Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch i
 ## Sonderfall Fentanyl {#sec-fenta}
 
 Fentanyl sublingual ist nur für Patienten geeignet, die gegenüber ihrer Opioid- therapie gegen
-die Dauerschmerzen als tolerant anzusehen sind. Als opioidtolerant werden diejenigen Patienten eingestuft, die mindestens 60 mg orales Morphin täglich oder eine äquianalgetische
-Dosis eines anderen Opioids über eine Woche oder länger erhalten.
+die Dauerschmerzen als tolerant anzusehen sind. Als opioidtolerant werden diejenigen Patienten eingestuft, die **mindestens 60 mg orales Morphin** täglich oder eine äquianalgetische
+Dosis eines anderen Opioids **über eine Woche** oder länger erhalten.
 
 Die **transdermale Anwendung** bei Opioid-naiven Patienten wird nicht empfohlen. Um **Überdosierung zu vermeiden** wird empfohlen, dass Opioid-naive Patienten niedrige Dosen von kurz
 wirkenden Analgetika (z. B. Morphin, Hydromorphon) erhalten, die titriert werden, bis eine äquianalgetische Dosierung entsprechend transdermales
@@ -92,11 +92,11 @@ Demenssprechend ist das Präparat ***nicht als Bedarfsmedikation geeignet***.
     **4 mg einmalig**, danach **nach jedem ungeformten Stuhl 2 mg**.
     Eine tägliche Dosis von 6 Filmtabletten (entsprechend 12 mg) darf nicht überschritten werden.
 
-2.  Schritt 
+2.  Schritt **Cave:** Ab hier Off-Lable jedoch leitliniengerechte Therapie @DeutscheKrebsgesellschaftEtAl2020
 
     **2mg Loperamid alle 4 Stunden**
     
-    **Cave:** Off-Lable jedoch Leitliniengerecht @DeutscheKrebsgesellschaftEtAl2020
+    
 
 3.  Schritt
 
@@ -107,14 +107,7 @@ Demenssprechend ist das Präparat ***nicht als Bedarfsmedikation geeignet***.
 
 Nach Anwendung von Loperamid nach Fachinformation ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden. Diese Dosisschema übersteigt jedoch die Maximale Dosis gemäß Fachinformation. Patienten ***mussen*** darauf **hingewiesen werden**. @DeutscheKrebsgesellschaftEtAl2020
 
-Die empfohlene Dosierung ist:
-
-**initial 4 mg** gefolgt von **2 mg alle 4 Stunden**.  
-
-Tritt innerhalb von 12 - 24 Stunden nach Loperamid-Gabe keine Besserung der Symptomatik ein, 
-*kann* die Dosis gesteigert werden:
-
-**2 mg alle 2 Stunden** 
+Die empfohlene Dosierung ist **initial 4 mg** gefolgt von **2 mg alle 4 Stunden**. Tritt hierunter innerhalb von 12 - 24 Stunden keine Besserung der Symptomatik ein, *kann* die Dosis auf **2 mg alle 2 Stunden** gesteigert werden.
 
 # Strahlenzystitis
 
@@ -145,7 +138,8 @@ wenige wirksame Behandlungsmöglichkeiten. Traditionell wird die
 Strahlenzystitis mit Analgetika behandelt. 
 Dieser Ansatz berücksichtigt jedoch nicht die eigentliche Pathophysiologie. 
 
-Dementsprechend erfolgt die Behandlung hauptsächlich über Tamsulosin ein $\alpha _1$-Blocker. 
+Dementsprechend erfolgt die Behandlung hauptsächlich über $\alpha _1$-Blocker wie Tamsulosin ein. 
+
 $\alpha _1$-Blocker blockieren die $\alpha _1$-Adrenorezeptoren und hemmen so die durch Noradrenalin ausgelösten Signalwege, die normalerweise eine
 Kontraktion der glatten Muskulatur in der Prostata, im Harnblasenhals und in
 der Harnröhre verursachen. Dies führt zur eine Verbesserung des Urinflusses. @GelbeListeOnline
@@ -159,7 +153,7 @@ bei 0,8 mg täglich.
 
 Interessanterweisse linderte Tamsulosin die Symptome nicht nur bei Patienten
 mit benigne Prostatahyperplasie (Ansprechrate = 94 %), sondern auch bei
-Patienten ohne BPH (Ansprechrate = 63 %).
+Patienten ohne BPH (Ansprechrate = 63 %). ***Dementsprechend kann diese Dosierung verwendet werden***. 
 
 ### Dutasterid/Tamsulosin {#sec-dutasterid}
 
@@ -172,8 +166,7 @@ In Folge wuchert das Prostatagewebe nicht mehr so stark weiter und verringert
 sich mitunter sogar. 
 
 Im Gegensatz zu Finasterid, das nur die 5$\alpha$-Reduktase vom Typ 2 hemmt
-(5AR2) hemmt, wirkt Dutasterid als dualer 5ARI-Hemmer, der sowohl auf die
-sowohl auf die 5AR-Isoenzyme vom Typ 1 als auch vom Typ 2 (5AR1 und 5AR2).
+(5AR2) hemmt, wirkt Dutasterid als dualer 5ARI-Hemmer, der sowohl die 5AR-Isoenzyme vom Typ 1 als auch vom Typ 2 (5AR1 und 5AR2) hemmt.
 
 Die duale Hemmung von sowohl 5AR1 als auch 5AR2 führt zu einer stärkeren und
 konsistentere Hemmung der Umwandlung von Testosteron in DHT als die selektive
@@ -183,7 +176,8 @@ Hemmung von 5AR2 allein durch Finasterid. @JaeHeonKim2015
 
 Die Wirkung der zur Verfügung stehenden Anticholinergika (z.B. Spasmex®) ist in der Praxis relativ gering. 
 Unerwünschte Nebenwirkungen tretten jedoch häufig auf, u.a. Mundtrockenheit und Obstipation. 
-Vor allem jedoch: **Harnverhalt**, sodass in Anbetracht der ungünstige Wirkung-Nebenwirkung-Korrelation diese Medikamente vermeiden werden sollten. 
+Vor allem jedoch: **Harnverhalt**, zudem können Anticholinergika auch das Risiko für Stürze und Verwirrtheit erhöhen, insbesondere bei älteren Patienten. 
+In Anbetracht dieser ungünstige Wirkung-Nebenwirkung-Korrelation, sollten diese Medikamente vermeiden werden sollten. 
 
 # Strahlendermatitis 
 
@@ -202,27 +196,39 @@ Vor allem jedoch: **Harnverhalt**, sodass in Anbetracht der ungünstige Wirkung-
     **Ab Tag 1 der Bestrahlung: Bepanthol® Körperlotion 1-0-1 o.g. Maßnahmen fortführen**
     
 
-3.  Schritt (Strahlendermatitis °II)
+3.  Schritt
   
     3.1
-      **Lavasept Gel 1-1-1**
-      **Bepanthol® Körperlotion 1-1-1**
-      **Bethamethasonvalerat 0,1% Creme: 1 FTU 1-0-0** 
+      **Lavasept Gel 1-1-1**\
+      **Bepanthol® Körperlotion 1-1-1**\
+      **Bethamethasonvalerat 0,1% Creme: 1 FTU 1-0-0**\ 
     
     3.2
-      **Lavasept Gel 1-1-1**
-      **Bepanthol® Körperlotion 1-1-1**
-      **Mometasonfuroat Salbe 1mg/g: 1 FTU 1-0-0** (10 g Tube)
+      **Lavasept Gel 1-1-1**\
+      **Bepanthol® Körperlotion 1-1-1**\
+      **Mometasonfuroat Salbe 1mg/g: 1 FTU 1-0-0** (10 g Tube)\
+      
+    3.3
+      **Bepanthol® Körperlotion 1-1-1**\
+      **Bethamethasonvalerat 0,1% Creme: 1 FTU 1-0-0 für 7 Tage**\ 
+      
 
 FTU: s. @sec-handfleche
 
 :::
 
-Die häufigste Nebenwirkung der Strahlentherapie ist die Strahlendermatitis (RD), insbesondere bei Patienten mit Brust-, Kopf-, Hals- und Analkrebs. @GirnitaEtAl2023
+Die häufigste Nebenwirkung der Strahlentherapie, 
+insbesondere bei Patienten mit **Brust-, Kopf-, Hals- und Analkrebs**, 
+ist die Strahlendermatitis. @GirnitaEtAl2023
 
 ## Physiologie @Gauglitz2007
 
-Die Epidermis lässt sich in eine basale und eine suprabasale Schicht unterteile  .In der Basalschit sind die **teilungsfä- higen Zellen angesiedel**t. Durch die Teilung dieser Zellen entsteht eine Zellschicht (Stratum germi- nativum entspricht Stratum basale und spinosum), welche die erste Lage der suprabasalen Zellen darstellt. Es folgen dann mehrere Zellschichten (Stratum granulosum, lucidum und corneum, siehe @fig-epidermis, die nicht mehr teilungsfähig sind und im Wesentlichen eine Schutzfunktion einnehmen (Hornschicht).
+Die Epidermis lässt sich in eine basale und eine suprabasale Schicht unterteilen. 
+In der Basalschit sind die **teilungsfä- higen Zellen angesiedelt**. 
+
+Durch die Teilung dieser Zellen entsteht eine Zellschicht (Stratum germi- nativum entspricht Stratum basale und spinosum), welche die erste Lage der suprabasalen Zellen darstellt. 
+
+Es folgen dann mehrere Zellschichten (Stratum granulosum, lucidum und corneum, siehe @fig-epidermis, die nicht mehr teilungsfähig sind und im Wesentlichen eine Schutzfunktion einnehmen (Hornschicht).
 
 Die Zeit, die ein Keratinozyt benötigt, um vom Stratum basale ins Stratum granulosum zu gelangen (meist als "epidermal cell renewal time" oder **"epidermal turnover time"** bezeichnet), beträgt beim Menschen **26-42 Tage**.
 
@@ -241,11 +247,14 @@ Bereits **ab dem 15. Bestrahlungstag** nimmt als Gegenreaktion die **mitotische 
 Deren Mitoserate ist ab der 3. Woche der fraktionierten Strahlenbehandlung bis einige Tage nach deren Abschluss deutlich erhöht, 
 wobei Zellzykluszeiten von nur 15 h möglich sind. 
 
-Es resultiert eine exponentiell beschleunigte Regeneration, welche bereits bis zum Ende der 6. Bestrahlungswoche (eingestrahlte Dosis ca 60 Gy) imstande ist die ursprüngliche Zellzahl wiederherzustellen. 
-
-Insgesamt ist die Erholungskapazität der Haut sehr hoch. Selbst nach sehr hohen Einzeldosen regeneriert die Epidermis im Tiermodell (Schweinehaut) in weniger als 40 Tagen vollständig.
+Es resultiert eine exponentiell beschleunigte Regeneration, welche bereits bis zum Ende der 6. Bestrahlungswoche (eingestrahlte Dosis 60 Gy) imstande ist die ursprüngliche Zellzahl wiederherzustellen. 
 
 ![Akute Strahlenschäden treten in der Dermis mit der ersten Strahlendosis auf. Ein Teil der basalen Keratinozyten in der Basalschicht (stratum basale) wird zerstört, so dass nur die verbleibenden Keratinozyten verhornen(Keratinisieren). Dadurch wird das Gleichgewicht zwischen der normalen Zellproduktion in der Basalschicht und der Zellzerstörung an der Hautoberfläche gestört. @SeiteEtAl2017](Bilder/strahlendermatitis.png){#fig-epidermis}
+
+Die akute Strahlenreaktion beginnt mit einem **Erythem**, welches in der Regel zu Beginn der **3. Bestrahlungswoche** klinisch erkennbar wird. 
+Mit zunehmender Dosis kommt es zu persistierender Hyperpigmentierung, Epilation und **trockenen Epitheliolysen**.
+
+**Oberhalb von 45-50 Gy** können vermehrt **feuchte Epitheliolysen** auftreten, welche innerhalb von zwei bis drei Wochen nach Abschluss der Strahlentherapie abheilen. Bei einer Dosis oberhalb von 60 Gy besteht vereinzelt das Risiko persistierender feuchter Epitheliolysen.
 
 ## Graduierung
 Die Einstufung der Strahlendermatitis erfolgt grundsätzlich nach den Common Terminology Criteria for Adverse Events (CTCAE). 
@@ -315,8 +324,8 @@ as_raw_html(table)
 Es gibt jedoch nur wenige Hinweise auf Hautpflegeprodukte, die die Schwere der Hautreaktionen lindern können. 
 Zudem  liegen keine ausreichenden Erkenntnisse vor, um Empfehlungen zur Vorbeugung oder Verringerung von Radiodermatitis zu formulieren. @SeiteEtAl2017 
 
-In der deutschsprachigen Radioonkologie ist dies nach wie vor umstritten, 
-inkonsistent und teilweise ist die Prävention nicht durch evidenzbasierte Medizin gestützt. 
+In der deutschsprachigen Radioonkologie sind die Maßnahmen zur Prävention der Strahlendermatitis nach wie vor umstritten, 
+inkonsistent und teilweise sind die Pflegemaßnahmen nicht durch evidenzbasierte Medizin gestützt. 
 
 Dies zeigte eine Umfrage in der deutschsprachigen Gemeinschaft der Radioonkologen (n=244). 
 Hier wae Dexpanthenol-Lotion das am häufigsten verwendete Mittel sowohl zur Vorbeugung (53,0%) als auch zur Behandlung (76,9%) von Strahlendermatitis. @LayerEtAl2024
@@ -331,7 +340,9 @@ Die Hornschicht (Stratum corneum) ist die Schutzschicht und besteht aus kernlose
 
 Zudem erhöht eine erhöhte Hautfeuchtigkeit die Elastizität einer trockenen und brüchigen Stratum corneum und verringert das Risiko einer Rissbildung. 
 
-Dennoch Løkkevik et al. Løkkevik führten eine Studie an 86 Kehlkopf- und Brustkrebspatientinnen durch, die einer Strahlentherapie bekammen. Getestet wurde die Wirkung einer Dexpanthenol-Creme (Bepanthen - Roche) auf bestrahlter Haut im Vergleich zu keiner Creme. Diese Studie zeigte keine klinisch relevante Vorteile der Verwendung von Bepanthen-Creme.
+#### cum grano salis
+
+Løkkevik et al. führten eine Studie an 86 Kehlkopf- und Brustkrebspatientinnen durch, die einer Strahlentherapie bekammen. Getestet wurde die Wirkung einer Dexpanthenol-Creme (Bepanthen - Roche) auf bestrahlter Haut im Vergleich zu keiner Creme. Diese Studie zeigte keine klinisch relevante Vorteile der Verwendung von Bepanthen-Creme. @LokkevikEtAl1996
 
 #### Natürliche Produkte
 
@@ -346,11 +357,17 @@ Topische Kortikosteroide sind für ihre entzündungshemmende Wirksamkeit bekannt
 da sie die durch freie Radikale stimulierte pro-entzündliche Zytokin-IL-6-Kaskade hemmen. 
 
 Studien zeigen, dass topische Kortikosteroide die Hauttoxizität während der Strahlentherapie deutlich verringern können. 
+
 Miller et al. fanden bei 176 Patienten, dass tägliches Auftragen von 0,1 % Mometasonfuroat (MF) weniger akute Hauttoxizität und weniger Juckreiz, Reizung, Brennen und Unbehagen im Vergleich zu Placebo verursacht. 
+
 Hindley et al. bestätigten, dass 0,1 % MF nicht nur Radiodermatitis reduziert, sondern auch die Lebensqualität verbessert. 
+
 Boström et al. zeigten, dass die Kombination von 0,1 % MF mit einer lindernden Creme akute Radiodermatitis signifikant verringert. 
+
 Eine kleine Studie mit 20 Patienten zeigte, dass Prednisolon mit Neomycin Radiodermatitis besser vorbeugt als Placebo. 
+
 Meghrajani et al. berichteten von den Vorteilen präventiver 1%iger Hydrocortison-Anwendung bei Brustkrebspatientinnen (n = 50). 
+
 Omidvari und Schmuth zeigten, dass prophylaktisches Betamethason 0,1 % bzw. 0,1 % Methylprednisolon während der Bestrahlung das Auftreten akuter Radiodermatitis bei Brustkrebspatientinnen verzögert.
 
 **Für die Dosierung topische Kortikosteroide gilt: Ausreichende Mengen aufschreiben und ausreichende Mengen auftragen.**
@@ -378,7 +395,15 @@ Das Risiko unerwünschter Nebenwirkungen steigt bei längerem Gebrauch, großfl�
 
 Topische Steroide mit geringer bis mittlerer Wirkstärke eignen sich besonders für die Behandlung von Körperstellen mit dünner Haut. Dazu gehören das Gesicht, die Kniekehlen, die Innenseiten der Ellbogen, die Leistengegend und die Achselhöhlen. @InstituteforQualityandEfficiencyinHealthCare2021
 
-Nicht desto trotz topisches Mometasonfuroat (meist 0,1 %) und Betamethason sind die in der Literatur am häufigsten erwähnten topischen Kortikosteroide, was darauf hindeutet, dass die derzeitigen Erkenntnisse die Verwendung sowohl von Mometasonfuroat als auch von Betamethason bei der Vorbeugung von Strahlendermatitis und damit verbundenen Symptomen unterstützen. @BehroozianEtAl2023
+Topisches Mometasonfuroat (meist 0,1 %) und Betamethason sind die in der Literatur am häufigsten erwähnten topischen Kortikosteroide, was darauf hindeutet, dass die derzeitigen Erkenntnisse die Verwendung sowohl von Mometasonfuroat als auch von Betamethason bei der Vorbeugung von Strahlendermatitis und damit verbundenen Symptomen unterstützen. @BehroozianEtAl2023
+
+Dermal angewandte Glucocorticoide werden nach ihrer Stärke in Wirkstoffklassen eingeteilt:
+
+**Mometasonfuroat** gehört zur Klasse III: stark wirksame Kortikosteroide.
+
+**Betamethason** gehört zur Klasse II: mittelstark wirksame Kortikosteroide
+
+Ein Beispiel für einen Kortikosteroide der Klasse I (schwach wirksame Kortikosteroide) ist **Hydrocortison** z.B. Hydrocortison-ratiopharm 0,5 % Creme.
 
 
 # Mukositis
