@@ -412,8 +412,6 @@ Dermal angewandte Glucocorticoide werden nach ihrer Stärke in Wirkstoffklassen 
 
 Ein Beispiel für einen Kortikosteroide der Klasse I (schwach wirksame Kortikosteroide) ist **Hydrocortison** z.B. Hydrocortison-ratiopharm 0,5 % Creme.
 
-
-
 # Mukositis
 
 Zu den klinisch wichtigen akuten Nebenwirkungen der Strahlentherapie im Mund- und Halsbereich gehört die Störung der Funktion und Integrität der Mundschleimhaut. Zu den Folgen gehören schwere Ulzerationen (orale Mukositis) und Pilzinfektionen im Mund (orale Candidiasis). @WorthingtonEtAl2010
@@ -461,6 +459,41 @@ Zur Vermeidung einer Prothesendruckstelle, die als Epitheldefekt eine Bestrahlun
 
 
 ## Stufen
+
+Das Erscheinungsbild der Krankheit kann sehr variieren. Daher unterscheidet man verschiedene Schweregrade (0 bis IV), die jeweils einen anderen Handlungsbedarf erfordern s. @fig-mukositisgrad und @tblMukositisGrad.
+
+```{r, tblMukositisGrad}
+#| label: tbl-hautirritanzien
+#| echo: false
+#| tbl-cap: "RTOG, Radiation Therapy Oncology Group; WHO, World Health Organization; CTCAE, Common Terminology Criteria for Adverse Events"
+#| tbl-cap-location: bottom
+
+# Bibliotheken laden
+library(gt)
+library(tidyverse)
+library(gtExtras)
+
+
+# Daten laden
+data <- read_csv("Daten/MukositisGrad.csv")
+
+# Tabelle erstellen und formatieren im NYT-Stil
+table <- data %>%
+  gt() %>%
+  gt_theme_nytimes()%>%
+  tab_header(
+    title = md("**Skalen zur Bewertung des Schweregrads der Mukositis**")
+  ) 
+
+as_raw_html(table)
+
+
+```
+
+
+![Die Bewertungskriterien der Radiation Therapy Oncology Group (RTOG) für strahleninduzierte orale Mukositis. (a) Grad I: Erythem; (b) Grad II: flächige Reaktion (<1,5 cm, nicht zusammenhängend); (c) Grad III: konfluierende Mukositis (>1,5 cm, zusammenhängend); (d) Grad IV: Ulzeration, Nekrose, Blutung.Bild: @LiuEtAl2021](Bilder/mukositisGrad.jpeg){#fig-mukositisgrad}
+
+
 
 ## Prävention
 
