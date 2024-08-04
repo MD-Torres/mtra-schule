@@ -431,10 +431,10 @@ In unsere Alltag tritt Mukositis meist im Mundraum auf bei Radiochemotherapie im
 
 ## Stufen
 
-Das Erscheinungsbild der Krankheit kann sehr variieren. Daher unterscheidet man verschiedene Schweregrade (0 bis IV), die jeweils einen anderen Handlungsbedarf erfordern s. @fig-mukositisgrad und @tblMukositisGrad.
+Das Erscheinungsbild der Krankheit kann sehr variieren. Daher unterscheidet man verschiedene Schweregrade (0 bis IV), die jeweils einen anderen Handlungsbedarf erfordern s. @fig-mukositisgrad und @tbl-mukositisgrad.
 
 ```{r, tblMukositisGrad}
-#| label: tbl-hautirritanzien
+#| label: tbl-mukositisgrad
 #| echo: false
 #| tbl-cap: "RTOG, Radiation Therapy Oncology Group; WHO, World Health Organization; CTCAE, Common Terminology Criteria for Adverse Events"
 #| tbl-cap-location: bottom
