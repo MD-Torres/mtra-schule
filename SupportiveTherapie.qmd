@@ -235,7 +235,7 @@ Die Fähigkeit zur **Mitose** ist unter physiologischen Bedingungen **den Zellen
 
 :::
 
-## Physiopathologie @Adamietz2022
+## Physiopathologie @Adamietz2022 {#sec-physiopathoSD}
 
 Die Effekte der Radiotherapie an der Haut sind eng mit den Eigenschaften der Basalzellen der Epidermis sowie der
 Endothelzellen der kleinsten Gefäße in der obersten Schicht der Dermis verknüpft.
@@ -422,6 +422,14 @@ In randomisierten, kontrollierten Studien, in denen die **konventionelle Strahle
 wurde bei bis zu 60 % der Patienten, die eine Standard-Strahlentherapie erhielten, und bei bis zu 100 % der Patienten, die entweder ein hyperfraktionierte oder ein Hyperfraktionierte akzelerierte Schema erhielten, eine schwere orale Mukositis festgestellt. @Vera-LlonchEtAl2006
 
 Die Bewältigung der akuten Phase einer ***schweren*** Mukositis erfordert eine intensive stationäre Betreuung, wie z. B. die Verabreichung von intravenöser Flüssigkeit und Elektrolyten, parenteraler Ernährung und Opioid-Analgetika, und beeinträchtigt somit die Lebensqualität über Wochen bis Monate hinweg erheblich. @BowenWardill2022
+
+## Physiopathologie 
+
+Die Entstehung der Mukositis ist ähnlich der der Strahlendermatitis s. @sec-physiopathoSD. Die Mundschleimhaut besteht jedoch aus Epithelzellen, die sich ca. alle 7–14 Tage regenerieren. Da sich diese Schleimhautzellen schnell teilen, reagieren sie besonders empfindlich auf Chemo- oder Strahlentherapien. 
+
+In unsere Alltag tritt Mukositis meist im Mundraum auf bei Radiochemotherapie im Mund-Hals-Bereich. Sie kann jedoch bei andere (systemische) Therapien den gesamten Verdauungstrakt bis hin zum After betreffen.
+
+![Die Mukositis lässt sich in 5 Phasen einteilen @NiscolaEtAl2007: (1) **Initiation**: frühzeitige Freisetzung von Zytokinen und DNA-Schädigung; (2) **Erste Symptome**: Die Mitose der Basalzellschicht im Schleimhautepithel wird gehemmt; (3) **Signalverstärkung**: Hochregulierung entzündungsfördernder Zytokine. Das Epithel wird weiter zerstört und eine Heilung ist nicht mehr möglich; (4)**Ulzeration**: Die ulzerierte Oberfläche bietet einen idealen Nährboden für Bakterien und andere Mikroorganismen; (5)**Heilungsphase**: Die Schutzbarriere der Mundschleimhaut wird wiederhergestellt. Bild: @zotero-3067](Bilder/mukositis.webp){#fig-ftu}
 
 ## Pflege
 
