@@ -231,7 +231,7 @@ Die Fähigkeit zur **Mitose** ist unter physiologischen Bedingungen **den Zellen
 
 ![Die Oberhaut (Epidermis) besteht aus einem mehrschichtigen, verhornenden Plattenepithel. Die äußere Hornschicht enthält abgestorbene Hornzellen. Sie bildet die oberste Schutzbarriere der Haut. Die darunter liegende Keimschicht liefert Nachschub für die Hornschicht und erneuert diese etwa alle vier Wochen. @ImkeSatzger2020](Bilder/Epidermis.png){}
 
-![Die Epidermis besteht zu 90 Prozent aus Keratinozyten, die von Desmosomen zusammengehalten werden. In den äußeren Schichten besteht sie aus verhornten Plattenepithelzellen.](Bilder/epi-schi.png){}
+![Die Epidermis besteht zu 90 Prozent aus Keratinozyten, die von Desmosomen zusammengehalten werden. In den äußeren Schichten besteht sie aus verhornten Plattenepithelzellen. Bild: Wikipedia @2024](Bilder/epi-schi.png){}
 
 :::
 
