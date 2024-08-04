@@ -323,13 +323,8 @@ as_raw_html(table)
 Es gibt jedoch nur wenige Hinweise auf Hautpflegeprodukte, die die Schwere der Hautreaktionen lindern können. 
 Zudem  liegen keine ausreichenden Erkenntnisse vor, um Empfehlungen zur Vorbeugung oder Verringerung von Radiodermatitis zu formulieren. @SeiteEtAl2017 
 
-In der deutschsprachigen Radioonkologie sind die Maßnahmen zur Prävention der Strahlendermatitis nach wie vor umstritten, 
-inkonsistent und teilweise sind die Pflegemaßnahmen nicht durch evidenzbasierte Medizin gestützt. 
-
-Dies zeigte eine Umfrage in der deutschsprachigen Gemeinschaft der Radioonkologen (n=244). 
-Hier wae Dexpanthenol-Lotion das am häufigsten verwendete Mittel sowohl zur Vorbeugung (53,0%) als auch zur Behandlung (76,9%) von Strahlendermatitis. @LayerEtAl2024
-
-Die Basispflege erfolgt dementsprechend mittels Bepanthol® Körperlotion. 
+Im deutschsprachigen Raum sind die Maßnahmen zur Prävention von Strahlendermatitis umstritten, inkonsistent und oft nicht evidenzbasiert. 
+Eine Umfrage unter Radioonkologen (n=244) zeigte, dass Dexpanthenol-Lotion am häufigsten verwendet wird, sowohl zur Vorbeugung (53,0%) als auch zur Behandlung (76,9%) von Strahlendermatitis. @LayerEtAl2024
 
 ![Diese Art von Lotion bewahrt die Feuchtigkeit an der Hautoberfläche und erhält die Geschmeidigkeit der Haut. ](Bilder/Bephantol.png){#fig-bephantol}
 
