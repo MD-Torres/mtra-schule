@@ -416,11 +416,159 @@ Ein Beispiel für einen Kortikosteroide der Klasse I (schwach wirksame Kortikost
 
 # Mukositis
 
+Zu den klinisch wichtigen akuten Nebenwirkungen der Strahlentherapie im Mund- und Halsbereich gehört die Störung der Funktion und Integrität der Mundschleimhaut. Zu den Folgen gehören schwere Ulzerationen (orale Mukositis) und Pilzinfektionen im Mund (orale Candidiasis). @WorthingtonEtAl2010
+
+In randomisierten, kontrollierten Studien, in denen die **konventionelle Strahlentherapie** im Vergleich zu einer veränderten fraktionierten Strahlentherapie oder einer kombinierten Strahlen- und Chemotherapie untersucht wurde,
+wurde bei bis zu 60 % der Patienten, die eine Standard-Strahlentherapie erhielten, und bei bis zu 100 % der Patienten, die entweder ein hyperfraktionierte oder ein Hyperfraktionierte akzelerierte Schema erhielten, eine schwere orale Mukositis festgestellt. @Vera-LlonchEtAl2006
+
+Die Bewältigung der akuten Phase einer ***schweren*** Mukositis erfordert eine intensive stationäre Betreuung, wie z. B. die Verabreichung von intravenöser Flüssigkeit und Elektrolyten, parenteraler Ernährung und Opioid-Analgetika, und beeinträchtigt somit die Lebensqualität über Wochen bis Monate hinweg erheblich. @BowenWardill2022
+
+## Pflege
+
+Laut S3 Leitlinie @DeutscheKrebsgesellschaftEtAl2020 sollten die Maßnahmen der Stellungnahme der deutschen Fachgesellschaften (DEGRO, DGZMK, DGMKG) eingesetzt werden. Wobei diese bereits 2003 veröffentlicht worden sind.
+
+Hier wir folgender empfohlen @DGZMK2003 : 
+
+Regelmäßige Mundpflege mit Zahnbürste, Zahnseide, **milden Spüllösungen („bland rinses“)** und Flüssigkeitszufuhr.
+
+Hierzu können die Spühlungen mit **Wasser allein**, oder Wasser mit **Kochsalz**, oder Wasser mit **Natriumbikarbonat** (je ½ bis 1 Teelöffel pro Liter) spülen (NCI), auch milder Tee ist geeignet; kein aromatisiertes, saures oder alkoholhaltiges Mundwasser. 
+
+Verwendung einer **weichen Zahnbürste**.
+
+**Standardisiertes Protokoll** vor Ort unter Einbeziehung der beteiligten Disziplinen (Strahlentherapie, Onkologie, Zahnmedizin und MKG-Chirurgie, HNO-Heilkunde, zur Mundpflege spezialisierte Pflegekraft) zur Aufklärung und Beratung.
+
+**Topische Schmerztherapie** bei beginnenden Schmerzen, bei nicht ausreichender Schmerzbesserung systemische Schmerzbehandlung. 
+
+
+Mukositisprophylaxe: 
+  - einer Pantothensäure-Lösung (Bepanthen®)
+  - Prophylaxe einer Soorinfektion mittels topischen Antimykotikums z.B. Nystatin (Nystaderm®, Moronal®) wird
+  zwar hier empfohlen, sollen aber nach S3 Leitlinie @DeutscheKrebsgesellschaftEtAl2020 : Antibiotisch oder antimykotisch wirksame Mundspülungen nicht in der Prophylaxe der radiogenen oralen Mukositis eingesetzt werden.
+  
+Daneben werden eine Reihe weiterer Spüllösungen, wie Tees (Salbei, Kamille), SucralfatSuspension (Ulcogant£), Chloramin-Tee, Speichelersatzmittel und andere empfohlen, wobei **die Häufigkeit des Spülens entscheidend** zu sein scheint.
+  
+Fluoridierungsschienen abends nach der Zahnreinigung für 5 bis 10 Minuten. Diese sollte bereits vor Beginn der Bestrahlung begonnen werden und kann bei Schmerzhaftigkeit durch ausgeprägte Mukositis kurzfristig ausgesetzt werden. Alternativ ist (insbesondere bei florider Schleimhautreaktion) die regelmäßige Spülung mit Fluorid-Lösungen zu empfehlen. Dies sollte nach Strahlentherapie konsequent weitergeführt werden **(lebenslang)**. 
+
+Zur Vermeidung einer Prothesendruckstelle, die als Epitheldefekt eine Bestrahlungspause erzwingt, gilt unter der Bestrahlung eine strenge Prothesenkarenz. Dies wird ebenso nach Bestrahlung weitergeführt, jedoch differieren die angegebenen Zeitintervalle in der Literatur erheblich. 
+
+
+## Stufen
+
+## Prävention
+
+Viele systemische Krebstherapien, einschließlich Knochenmarktransplantation, können orale Mukositis verursachen. Zur Vorbeugung werden zudem verschiedene Strategien eingesetzt. Daher lassen sich keine endgültigen Aussagen speziell zur strahlentherapiebedingten Mukositis treffen. Allgemein wirksame Interventionen sind:
+
+1. Kryotherapie (Eiswürfel)
+2. Keratinozyten-Wachstumsfaktor (Palifermin®)
+3. Sucralfat
+
+Weitere Maßnahmen mit schwächeren Hinweisen auf Nutzen sind:
+
+1. Aloe vera
+2. Amifostin
+3. Intravenöses Glutamin
+4. Granulozyten-Kolonie-stimulierender Faktor (G-CSF)
+5. Honig
+6. Laser
+7. Antibiotische Lutschtabletten mit Polymixin/Tobramycin/Amphotericin (PTA)
+
+Der Nutzen dieser Behandlungen kann jedoch von der Art der Krebserkrankung und den verwendeten Behandlungskombinationen abhängen. 
+
+
+#### Kryotherapie 
+
+In sechs Studien wurde die Kryotherapie (Eiswürfel) entweder mit keiner Behandlung oder einer Placebokontrolle (Kochsalzlösung) verglichen. 
+Drei dieser Studien untersuchten den Einsatz der Kryotherapie bei Patienten, die eine Chemotherapie mit 5-FU erhielten. 
+In einer Studie erhielten die Teilnehmer Methotrexat, 
+in einer anderen eine Melphalan-Konditionierung zur Vorbereitung auf eine Stammzellentransplantation, 
+und in einer weiteren Studie erhielten die Patienten vor einer Knochenmark- oder Stammzellentransplantation entweder eine Chemotherapie oder eine Ganzkörperbestrahlung. 
+Bei vier dieser Studien wurde ein hohes Risiko der Verzerrung festgestellt, bei zwei Studien ein unklares Risiko der Verzerrung. @WorthingtonEtAl2011
+
+In der S3 Leitlinie @DeutscheKrebsgesellschaftEtAl2020 wurde keine Empfehlung für oder gegen den Einsatz von Kryotherapie ausgesprochen. 
+
+#### Honig 
+
+Laut S3 Leitlinie @DeutscheKrebsgesellschaftEtAl2020 soll Honig ***nicht zur Prophylaxe*** der radiogener oraler Mukositis gegeben werden. Als Argument wird unter anderem eine schlechte Akzeptanz in den Studien genannt. Der Aspekt der **hochkalorischen, natürlichen Ernährung** wird dabei nicht berücksichtigt s. @sec-ernehrung.
+
+##### Studien die die Wirkung von Honig belegen
+
+Tian et al. führten eine systematische Metaanalyse nach den von der Cochrane Collaboration vorgeschlagenen Kriterien durch. Sie schlossen eine Studie in ihre qualitative Synthese und sechs Studien in ihre quantitative Synthese ein. Diese Meta-Analyse deutet darauf hin, dass Honig die Häufigkeit schwerer strahleninduzierter oraler Mukositis deutlich verringern kann. Darüber hinaus kann er den Patienten helfen, ihr **Gewicht zu halten**, und die Häufigkeit von Behandlungsunterbrechungen aufgrund oraler Mukositis bei Patienten mit HNO Tumore verringern.
+
+Amanat et al. führten eine randomisierte, kontrollierte, klinische Studie durch. Sie bewerteten die Wirkung von Honig auf die klinisch bewerteten Grade der oralen Mukositis bei Patienten (nach RTOG), die eine externe Strahlentherapie mit einer Gesamtstrahlendosis von 60-70 Gy (in 5-6 Wochen) erhielten, und fanden eine signifikante Verringerung der oralen Mukositis in der Behandlungsgruppe im Vergleich zur Kontrollgruppe. 
+
+Yang et al.  @YangEtAl2019 führten eine systematische Überprüfung und eine "network meta-analysis" durch, 
+die direkte und indirekte Beweise aus 17 randomisierten kontrollierten Studien kombinierte und stellten fest,
+dass der Behandlungsarm mit Honig dem Kontrollarm ohne Honig hinsichtlich der Gesamtwirksamkeit der Behandlung überlegen war. 
+
+Honig verkürzte auch die Zeit bis zum Auftreten der oralen Mukositis. 
+Insgesamt kamen sie zu dem Schluss, dass 
+Honig bei der Behandlung der durch Chemo-/Strahlentherapie verursachten oralen Mukositis sowohl sicher als auch wirksam ist. 
+
+#### Olivenöl
+
+Es gibt keine Studien, die die Wirksamkeit der topischen Anwendung von Olivenöl bei radiogener Mukositis bewerten. Alkhouli et al. berichteten jedoch, dass Olivenöl topisch auf das orale Gewebe aufgetragen werden kann, um chemotherapieinduzierte orale Mukositis bei Kindern mit akuter lymphatischer Leukämie vorzubeugen. 
+Dementsprechend *und* Unter dem Aspekt der **"hochkalorischen natürlichen Ernährung"** ***kann*** Olivenöl verwendet werden.
+
+#### Benzydamin 
+
+Benzydamin sollte laut S3 Leitlinie @DeutscheKrebsgesellschaftEtAl2020 zur Prophylaxe der radiogenen Mukositis eingesetzt werden bei ***alleiniger Strahlentherapie***. 
+
+Tantum Verde® Gurgellösung ist eine bekannte Option. 
+Diese enthält jedoch Ethanol (96 %) und Minz-Aroma (enthält u. a. Menthol) was eher ätzend wirken könnten. 
+Eine Alternative ist neo-angin® Benzydamin Spray, der ebenso Ethanol (96%) enthält. 
+In den Studien wurde eine Mundspühllösung 4-8 mal täglich angewendet (15 ml, 2 min, Verdünnung erlaubt, von Beginn der RT bis 2 Wochen danach).
+
+
+## Behandlung 
+
+Primär sollen topische Schmerzmittel zur Linderung von Schmerzen in der Mundhöhle eingesetzt werden. @DeutscheKrebsgesellschaftEtAl2020 
+
+Mundspülung mit Morphin (0,2% , Rezeptur) kann für die topische Behandlung von Schmerzen durch eine radiogene orale Mucositis eingesetzt werden. ***Genaue Einnahmehinweise*** sind erforderlich, um versehentliche systemische Nebenwirkungen zu vermeiden. @DeutscheKrebsgesellschaftEtAl2020 
+
+### Xerostomie 
+
+Pilocarpin soll unter Berücksichtigung von Wirksamkeit und Nebenwirkungen für die Behandlung der radiogenen Xerostomie eingesetzt werden. Empfohlen ist eine Dosis von 3x tgl. 5 mg oraler Applikation. @DeutscheKrebsgesellschaftEtAl2020
+
+Was die Behandlung der Xerostomie betrifft, so sind orale Tabletten die wichtigste kommerziell erhältliche Form von Pilocarpin. 
+Insbesondere Salagen® (eine Pilocarpin-HCl-Tablette) beansprucht bisher das Monopol bei der Behandlung der strahleninduzierten Xerostomie, da es das einzige Medikament ist, das sowohl in Europa als auch in den USA zugelassen wurde. 
+
+Obwohl die Wirksamkeit der oralen Verabreichung von Pilocarpin gegen das Sjögren-Syndrom und die strahleninduzierte Xerostomie durch zahlreiche Studien belegt ist, 
+ist die systemische Verabreichung dieses Medikaments mit verschiedenen unerwünschten Wirkungen verbunden. 
+
+Häufige Nebenwirkungen (>1/10 Patienten) @2023 : 
+
+- Grippe-ähnliche Symptome
+- Schwitzen
+- Kopfschmerzen
+- Häufigere Urinausscheidung
+
+
+Vor diesem Hintergrund wurden neue Strategien zur Herstellung neuartiger und wirksamer Darreichungsformen für die **topische (im Mund) Verabreichung von Pilocarpin** entwickelt, 
+um den Speichelfluss bei minimalen systemischen Manifestationen zu verbessern. 
+Vor allem in den letzten zehn Jahren wurden mehrere Studien über die Wirksamkeit topischer Darreichungsformen von Pilocarpin, wie Mundspülungen, Tabletten, Lutschtabletten und Mundsprays, durchgeführt.
+
+Davies and Singer @DaviesSinger1994 führten die erste Studie durch, in der ein künstlicher Speichel mit Pilocarpin bei der Behandlung von strahlenbedingter Xerostomie verglichen wurde. 
+Das Dosierungsschema war 5 mg dreimal pro Tag. 
+Insgesamt zeigte diese Behandlung eine erhöhte Wirksamkeit bei der Linderung der Xerostomie-Symptome. 
+
+Danach wurde eine Fülle von Studien veröffentlicht, in denen die Wirksamkeit verschiedener Pilocarpin-Mundspülungen untersucht wurde. 
+
+Kapourani et al. @KapouraniEtAl2022 veröffentlichte einen Review über die verfügbare Literatur und kamen zu dem Schluss, 
+dass die topische Verabreichung von Pilocarpin als **gleichwertig mit der systemischen Verabreichung** des Medikaments angesehen werden kann (was die Wirksamkeit angeht) jedoch mit einer **besseren Patientenverträglichkeit.**
+
+Rezeptur: 
+
+Pilomann® 1% Augentropfen (1 g Lösung enthält 10,00 mg Pilocarpinhydrochlorid.)
+So dass **10gtt = ca. 5mg**, dementsprechend:
+
+Pilocarpin-Mundspüllösung 10 gtt Pilomann® 1% Augentropfen in ca. 20ml Wasser geben und derimal täglich für jeweils 2 min lang spühlen. 
 
 
 # Schlafstörungen 
 
 # Übelkeit und Erbrechen
+
+# Ernährung {#sec-ernehrung}
 
 # Quellenverzeichnis
 
