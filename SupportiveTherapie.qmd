@@ -429,35 +429,6 @@ In unsere Alltag tritt Mukositis meist im Mundraum auf bei Radiochemotherapie im
 
 ![Die Mukositis lässt sich in 5 Phasen einteilen @NiscolaEtAl2007: (1) **Initiation**: frühzeitige Freisetzung von Zytokinen und DNA-Schädigung; (2) **Erste Symptome**: Die Mitose der Basalzellschicht im Schleimhautepithel wird gehemmt; (3) **Signalverstärkung**: Hochregulierung entzündungsfördernder Zytokine. Das Epithel wird weiter zerstört und eine Heilung ist nicht mehr möglich; (4)**Ulzeration**: Die ulzerierte Oberfläche bietet einen idealen Nährboden für Bakterien und andere Mikroorganismen; (5)**Heilungsphase**: Die Schutzbarriere der Mundschleimhaut wird wiederhergestellt. Bild: @zotero-3067](Bilder/mukositis.webp){#fig-ftu}
 
-## Pflege
-
-Laut S3 Leitlinie @DeutscheKrebsgesellschaftEtAl2020 sollten die Maßnahmen der Stellungnahme der deutschen Fachgesellschaften (DEGRO, DGZMK, DGMKG) eingesetzt werden. Wobei diese bereits 2003 veröffentlicht worden sind.
-
-Hier wir folgender empfohlen @DGZMK2003 : 
-
-Regelmäßige Mundpflege mit Zahnbürste, Zahnseide, **milden Spüllösungen („bland rinses“)** und Flüssigkeitszufuhr.
-
-Hierzu können die Spühlungen mit **Wasser allein**, oder Wasser mit **Kochsalz**, oder Wasser mit **Natriumbikarbonat** (je ½ bis 1 Teelöffel pro Liter) spülen (NCI), auch milder Tee ist geeignet; kein aromatisiertes, saures oder alkoholhaltiges Mundwasser. 
-
-Verwendung einer **weichen Zahnbürste**.
-
-**Standardisiertes Protokoll** vor Ort unter Einbeziehung der beteiligten Disziplinen (Strahlentherapie, Onkologie, Zahnmedizin und MKG-Chirurgie, HNO-Heilkunde, zur Mundpflege spezialisierte Pflegekraft) zur Aufklärung und Beratung.
-
-**Topische Schmerztherapie** bei beginnenden Schmerzen, bei nicht ausreichender Schmerzbesserung systemische Schmerzbehandlung. 
-
-
-Mukositisprophylaxe: 
-  - einer Pantothensäure-Lösung (Bepanthen®)
-  - Prophylaxe einer Soorinfektion mittels topischen Antimykotikums z.B. Nystatin (Nystaderm®, Moronal®) wird
-  zwar hier empfohlen, sollen aber nach S3 Leitlinie @DeutscheKrebsgesellschaftEtAl2020 : Antibiotisch oder antimykotisch wirksame Mundspülungen nicht in der Prophylaxe der radiogenen oralen Mukositis eingesetzt werden.
-  
-Daneben werden eine Reihe weiterer Spüllösungen, wie Tees (Salbei, Kamille), SucralfatSuspension (Ulcogant£), Chloramin-Tee, Speichelersatzmittel und andere empfohlen, wobei **die Häufigkeit des Spülens entscheidend** zu sein scheint.
-  
-Fluoridierungsschienen abends nach der Zahnreinigung für 5 bis 10 Minuten. Diese sollte bereits vor Beginn der Bestrahlung begonnen werden und kann bei Schmerzhaftigkeit durch ausgeprägte Mukositis kurzfristig ausgesetzt werden. Alternativ ist (insbesondere bei florider Schleimhautreaktion) die regelmäßige Spülung mit Fluorid-Lösungen zu empfehlen. Dies sollte nach Strahlentherapie konsequent weitergeführt werden **(lebenslang)**. 
-
-Zur Vermeidung einer Prothesendruckstelle, die als Epitheldefekt eine Bestrahlungspause erzwingt, gilt unter der Bestrahlung eine strenge Prothesenkarenz. Dies wird ebenso nach Bestrahlung weitergeführt, jedoch differieren die angegebenen Zeitintervalle in der Literatur erheblich. 
-
-
 ## Stufen
 
 Das Erscheinungsbild der Krankheit kann sehr variieren. Daher unterscheidet man verschiedene Schweregrade (0 bis IV), die jeweils einen anderen Handlungsbedarf erfordern s. @fig-mukositisgrad und @tblMukositisGrad.
@@ -493,8 +464,6 @@ as_raw_html(table)
 
 ![Die Bewertungskriterien der Radiation Therapy Oncology Group (RTOG) für strahleninduzierte orale Mukositis. (a) Grad I: Erythem; (b) Grad II: flächige Reaktion (<1,5 cm, nicht zusammenhängend); (c) Grad III: konfluierende Mukositis (>1,5 cm, zusammenhängend); (d) Grad IV: Ulzeration, Nekrose, Blutung.Bild: @LiuEtAl2021](Bilder/mukositisGrad.jpeg){#fig-mukositisgrad}
 
-
-
 ## Prävention
 
 Viele systemische Krebstherapien, einschließlich Knochenmarktransplantation, können orale Mukositis verursachen. Zur Vorbeugung werden zudem verschiedene Strategien eingesetzt. Daher lassen sich keine endgültigen Aussagen speziell zur strahlentherapiebedingten Mukositis treffen. Allgemein wirksame Interventionen sind:
@@ -514,6 +483,34 @@ Weitere Maßnahmen mit schwächeren Hinweisen auf Nutzen sind:
 7. Antibiotische Lutschtabletten mit Polymixin/Tobramycin/Amphotericin (PTA)
 
 Der Nutzen dieser Behandlungen kann jedoch von der Art der Krebserkrankung und den verwendeten Behandlungskombinationen abhängen. 
+
+#### Pflege
+
+Laut S3 Leitlinie @DeutscheKrebsgesellschaftEtAl2020 sollten die Maßnahmen der Stellungnahme der deutschen Fachgesellschaften (DEGRO, DGZMK, DGMKG) eingesetzt werden. Wobei diese bereits 2003 veröffentlicht worden sind.
+
+Hier wir folgender empfohlen @DGZMK2003 : 
+
+Regelmäßige Mundpflege mit Zahnbürste, Zahnseide, **milden Spüllösungen („bland rinses“)** und Flüssigkeitszufuhr.
+
+Hierzu können die Spühlungen mit **Wasser allein**, oder Wasser mit **Kochsalz**, oder Wasser mit **Natriumbikarbonat** (je ½ bis 1 Teelöffel pro Liter) spülen (NCI), auch milder Tee ist geeignet; kein aromatisiertes, saures oder alkoholhaltiges Mundwasser. 
+
+Verwendung einer **weichen Zahnbürste**.
+
+**Standardisiertes Protokoll** vor Ort unter Einbeziehung der beteiligten Disziplinen (Strahlentherapie, Onkologie, Zahnmedizin und MKG-Chirurgie, HNO-Heilkunde, zur Mundpflege spezialisierte Pflegekraft) zur Aufklärung und Beratung.
+
+**Topische Schmerztherapie** bei beginnenden Schmerzen, bei nicht ausreichender Schmerzbesserung systemische Schmerzbehandlung. 
+
+
+Mukositisprophylaxe: 
+  - einer Pantothensäure-Lösung (Bepanthen®)
+  - Prophylaxe einer Soorinfektion mittels topischen Antimykotikums z.B. Nystatin (Nystaderm®, Moronal®) wird
+  zwar hier empfohlen, sollen aber nach S3 Leitlinie @DeutscheKrebsgesellschaftEtAl2020 : Antibiotisch oder antimykotisch wirksame Mundspülungen nicht in der Prophylaxe der radiogenen oralen Mukositis eingesetzt werden.
+  
+Daneben werden eine Reihe weiterer Spüllösungen, wie Tees (Salbei, Kamille), SucralfatSuspension (Ulcogant£), Chloramin-Tee, Speichelersatzmittel und andere empfohlen, wobei **die Häufigkeit des Spülens entscheidend** zu sein scheint.
+  
+Fluoridierungsschienen abends nach der Zahnreinigung für 5 bis 10 Minuten. Diese sollte bereits vor Beginn der Bestrahlung begonnen werden und kann bei Schmerzhaftigkeit durch ausgeprägte Mukositis kurzfristig ausgesetzt werden. Alternativ ist (insbesondere bei florider Schleimhautreaktion) die regelmäßige Spülung mit Fluorid-Lösungen zu empfehlen. Dies sollte nach Strahlentherapie konsequent weitergeführt werden **(lebenslang)**. 
+
+Zur Vermeidung einer Prothesendruckstelle, die als Epitheldefekt eine Bestrahlungspause erzwingt, gilt unter der Bestrahlung eine strenge Prothesenkarenz. Dies wird ebenso nach Bestrahlung weitergeführt, jedoch differieren die angegebenen Zeitintervalle in der Literatur erheblich. 
 
 
 #### Kryotherapie 
