@@ -457,7 +457,7 @@ as_raw_html(table)
 ```
 
 
-![Die Bewertungskriterien der Radiation Therapy Oncology Group (RTOG) für strahleninduzierte orale Mukositis. (a) Grad I: Erythem; (b) Grad II: flächige Reaktion (<1,5 cm, nicht zusammenhängend); (c) Grad III: konfluierende Mukositis (>1,5 cm, zusammenhängend); (d) Grad IV: Ulzeration, Nekrose, Blutung.Bild: @LiuEtAl2021](Bilder/mukositisGrad.jpeg){#fig-mukositisgrad}
+![Die Bewertungskriterien der Radiation Therapy Oncology Group (RTOG) für strahleninduzierte orale Mukositis. (a) Grad I: Erythem; (b) Grad II: flächige Reaktion (<1,5 cm, nicht zusammenhängend); (c) Grad III: konfluierende Mukositis (>1,5 cm, zusammenhängend); (d) Grad IV: Ulzeration, Nekrose, Blutung. Bild: von Liu et al. @LiuEtAl2021](Bilder/mukositisGrad.jpeg){#fig-mukositisgrad}
 
 ## Prävention
 
