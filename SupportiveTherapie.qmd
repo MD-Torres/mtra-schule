@@ -474,7 +474,7 @@ Die Entstehung der Mukositis ist ähnlich der der Strahlendermatitis s. @sec-phy
 
 In unsere Alltag tritt Mukositis meist im Mundraum auf bei Radiochemotherapie im Mund-Hals-Bereich. Sie kann jedoch bei andere (systemische) Therapien den gesamten Verdauungstrakt bis hin zum After betreffen.
 
-![Die Mukositis lässt sich in 5 Phasen einteilen @NiscolaEtAl2007: (1) **Initiation**: frühzeitige Freisetzung von Zytokinen und DNA-Schädigung; (2) **Erste Symptome**: Die Mitose der Basalzellschicht im Schleimhautepithel wird gehemmt; (3) **Signalverstärkung**: Hochregulierung entzündungsfördernder Zytokine. Das Epithel wird weiter zerstört und eine Heilung ist nicht mehr möglich; (4)**Ulzeration**: Die ulzerierte Oberfläche bietet einen idealen Nährboden für Bakterien und andere Mikroorganismen; (5)**Heilungsphase**: Die Schutzbarriere der Mundschleimhaut wird wiederhergestellt. Bild: @BurgPharmaGmbH](Bilder/mukositis.webp){#fig-ftu}
+![Die Mukositis lässt sich in 5 Phasen einteilen @NiscolaEtAl2007: (1) **Initiation**: frühzeitige Freisetzung von Zytokinen und DNA-Schädigung; (2) **Signaling**: Die Mitose der Basalzellschicht im Schleimhautepithel wird gehemmt; (3) **Signalverstärkung**: Hochregulierung entzündungsfördernder Zytokine. Das Epithel wird weiter zerstört und eine Heilung ist nicht mehr möglich; (4)**Ulzeration**: Die ulzerierte Oberfläche bietet einen idealen Nährboden für Bakterien und andere Mikroorganismen; (5)**Heilungsphase**: Die Schutzbarriere der Mundschleimhaut wird wiederhergestellt. Bild: mukositis-ratgeber.de @BurgPharmaGmbH](Bilder/mukositis.webp){#fig-ftu}
 
 ## Stufen
 
