@@ -110,7 +110,7 @@ Demenssprechend ist dieses Präparat ***nicht als Bedarfsmedikation geeignet***.
     
 3.  Schritt
 
-    **2 mg alle 2 Stunden***
+    **2 mg alle 2 Stunden**
 
 :::
 
@@ -185,6 +185,7 @@ Hemmung von 5AR2 allein durch Finasterid. @JaeHeonKim2015
 
 Die Wirkung der zur Verfügung stehenden Anticholinergika (z.B. Spasmex®) ist in der Praxis relativ gering. 
 Unerwünschte Nebenwirkungen tretten jedoch häufig auf, u.a. Mundtrockenheit und Obstipation. 
+
 Vor allem jedoch: **Harnverhalt**, zudem können Anticholinergika auch das Risiko für Stürze und Verwirrtheit erhöhen, insbesondere bei älteren Patienten. 
 In Anbetracht dieser ungünstige Wirkung-Nebenwirkung-Korrelation, sollten diese Medikamente vermeiden werden sollten. 
 
@@ -416,9 +417,10 @@ Aufgrundderheutigen Studienlage kann der Einsatz polyhexanidhaltiger Produkte ve
 ## Kopf-Halsbereich
 
 Zu den häufigsten unerwünschten Nebenwirkungen von topischen Kortikosteroiden gehören Atrophie, Striae, Rosazea, periorale Dermatitis, akneiforme Eruption und Purpura. 
-Das Risiko unerwünschter Nebenwirkungen steigt bei längerem Gebrauch, großflächiger Anwendung, höherer Potenz und Anwendung an **Stellen mit dünnerer Haut**, wie z. B. im **Gesicht/Hals** und im Genitalbereich. @StaceyMcEleney2021
 
-Topische Steroide mit geringer bis mittlerer Wirkstärke eignen sich besonders für die Behandlung von Körperstellen mit dünner Haut. Dazu gehören das Gesicht, die Kniekehlen, die Innenseiten der Ellbogen, die Leistengegend und die Achselhöhlen. @InstituteforQualityandEfficiencyinHealthCare2021
+Das Risiko unerwünschter Nebenwirkungen steigt bei längerem Gebrauch, großflächiger Anwendung, **höherer Potenz** und Anwendung an **Stellen mit dünnerer Haut**, wie z. B. im **Gesicht/Hals** und im Genitalbereich. @StaceyMcEleney2021
+
+Topische Steroide mit geringer bis mittlerer Wirkstärke eignen sich besonders für die Behandlung von Körperstellen mit dünner Haut. Dazu gehören das Gesicht/Hals, die Kniekehlen, die Innenseiten der Ellbogen, die Leistengegend und die Achselhöhlen. @InstituteforQualityandEfficiencyinHealthCare2021
 
 Topisches Mometasonfuroat (meist 0,1 %) und Betamethason sind die in der Literatur am häufigsten erwähnten topischen Kortikosteroide, was darauf hindeutet, dass die derzeitigen Erkenntnisse die Verwendung sowohl von Mometasonfuroat als auch von Betamethason bei der Vorbeugung von Strahlendermatitis und damit verbundenen Symptomen unterstützen. @BehroozianEtAl2023
 
@@ -431,6 +433,31 @@ Dermal angewandte Glucocorticoide werden nach ihrer Stärke in Wirkstoffklassen 
 Ein Beispiel für einen Kortikosteroide der Klasse I (schwach wirksame Kortikosteroide) ist **Hydrocortison** z.B. Hydrocortison-ratiopharm 0,5 % Creme.
 
 # Mukositis
+
+::: {.callout-tip collapse="true"}
+#### Therapie 
+
+1.  Schritt 
+
+    **Aufklärung über Mundpflege, einschließlich "bland rinses", sowie die Vermeidung von Reizstoffen und Ernährung.**
+
+2.  Schritt Prophylaxe
+
+    **Ab Tag 1 der Bestrahlung: Tantum verde® Mundspülung 1-0-1 o.g. Maßnahmen fortführen**
+    Honig, Olivenöl sowie "bland rinses" regelmäßig 
+    
+3.  Schritt 
+  
+    3.1 Bei Xerostomie s. @sec-xerostomie
+      **10 gtt Pilomann® 1% Augentropfen in ca. 20ml Wasser 1-1-1**\
+    
+    3.2 Topische Schmerzmedikation
+      **Mundspülung mit Morphin (0,2% , Rezeptur)**
+
+    3.3 Standard systemische Schmerzmedikation 
+   
+
+:::
 
 Zu den klinisch wichtigen akuten Nebenwirkungen der Strahlentherapie im Mund- und Halsbereich gehört die Störung der Funktion und Integrität der Mundschleimhaut. Zu den Folgen gehören schwere Ulzerationen (orale Mukositis) und Pilzinfektionen im Mund (orale Candidiasis). @WorthingtonEtAl2010
 
@@ -582,7 +609,7 @@ Primär sollen topische Schmerzmittel zur Linderung von Schmerzen in der Mundhö
 
 Mundspülung mit Morphin (0,2% , Rezeptur) kann für die topische Behandlung von Schmerzen durch eine radiogene orale Mucositis eingesetzt werden. ***Genaue Einnahmehinweise*** sind erforderlich, um versehentliche systemische Nebenwirkungen zu vermeiden. @DeutscheKrebsgesellschaftEtAl2020 
 
-### Xerostomie 
+### Xerostomie {#sec-xerostomie}
 
 Pilocarpin soll unter Berücksichtigung von Wirksamkeit und Nebenwirkungen für die Behandlung der radiogenen Xerostomie eingesetzt werden. Empfohlen ist eine Dosis von 3x tgl. 5 mg oraler Applikation. @DeutscheKrebsgesellschaftEtAl2020
 
