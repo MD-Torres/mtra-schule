@@ -53,25 +53,33 @@ Schmerzen können als Dauerschmerzen Schmerzspitzen oder Durchbruchschmerzen auf
 
 behandelt werden. 
 
-**Durchbruchschmerzen** sind plötzlich auftretende Schmerzepisoden, die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern. 
+**Durchbruchschmerzen** sind plötzlich auftretende Schmerzepisoden, 
+die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern. 
 
-**Schmerzspitzen** beschreibt eine plötzliche Zunahme der Schmerzstärke aus einem niedrigen Ruheschmerz heraus, z.B. beim Schlucken vom feste Speisen im Rahmen einer Mucositis °I. 
+**Schmerzspitzen** beschreibt eine plötzliche Zunahme der Schmerzstärke aus einem niedrigen Ruheschmerz heraus, 
+z.B. beim Schlucken vom feste Speisen im Rahmen einer Mucositis °I. 
 
 Eine adäquate Schmerztherapie kombiniert daher regelmäßige Langzeitmedikamente und kurzwirksame (Bedarfs-)Medikamente.
 
 Anfangs kann es jedoch sein, dass **nur eine Bedarfsmedikation** erforderlich ist. 
 
-Bei opioid-naiven Patienten kann es zudem sinnvoll sein, die Ersteinstellung mit regelmäßigen Gaben kurzwirksamer Opioide zu beginnen, da mögliche Nebenwirkungen dann nur kurz anhalten s. auch @sec-fenta .
+Bei opioid-naiven Patienten kann es zudem sinnvoll sein, die Ersteinstellung mit regelmäßigen Gaben kurzwirksamer Opioide zu beginnen, 
+da mögliche Nebenwirkungen dann nur kurz anhalten s. auch @sec-fenta .
 
 ![Schmerzen bei Krebspatienten](Bilder/Schmerzen.png){#fig-Schmerzen}
 
 ## Aufklärung Fahrsicherheit/-tauglichkeit {#sec-Fahrsicherheit}
 
-Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch indizierte Schmerzmitteleinnahme **erlaubt**. Jeder Verkehrsteilnehmer ist für seine Fahrtauglichkeit **selbst verantwortlich**. Nach erfolgter **Hiweiss auf die Gefahr**, kann der Arzt bei möglicher Unfälle **nicht mehr haftbar** gemacht werden. Sollte jedoch Zweifel an der Fahreignung, muss dies dem Patienten mitgeteilt werden.
+Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch indizierte Schmerzmitteleinnahme **erlaubt**. 
+Jeder Verkehrsteilnehmer ist für seine Fahrtauglichkeit **selbst verantwortlich**. 
+Nach erfolgter **Hiweiss auf die Gefahr**, kann der Arzt bei möglicher Unfälle **nicht mehr haftbar** gemacht werden. 
+
+Sollte jedoch Zweifel an der Fahreignung bestehen, muss dies dem Patienten mitgeteilt werden.
 
 ## Umrechnung 
 
-![Bei Opioidrotation sollte die Dosis nur 1 zu 1 kalkuliert werden, wenn unter der Therapie die Schmerzen noch belastend sind. Bei adäquate Linderung sollte die Dosis um ca. 30 bis 50% reduziert werden.](Bilder/Umrechnung.png){#fig-Umrech}
+![Bei Opioidrotation sollte die Dosis nur 1 zu 1 kalkuliert werden, wenn unter der Therapie die Schmerzen noch belastend sind. 
+Bei adäquate Linderung sollte die Dosis um ca. 30 bis 50% reduziert werden.](Bilder/Umrechnung.png){#fig-Umrech}
 
 ## Sonderfall Fentanyl {#sec-fenta}
 
