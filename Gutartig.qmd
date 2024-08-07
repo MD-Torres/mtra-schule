@@ -377,7 +377,35 @@ Chronische Schmerzen sind nicht zwingend an schädigende Faktoren gekoppelt und 
 
 In der Regel erfolgen 6 Bestrahlungen mit sehr niedrigen Einzeldosen von 0,5 Gy mit einer Gesamtdosis von 3,0 Gy inerhalb von 3 Wochen. Im Falle eines Teilerfolgs ist eine 2. Serie möglich.
 
-# Erkrankungen:
+# Fuß
+
+```{r, tblFußICD10}
+#| label: tbl-FußICD10
+#| echo: false
+#| tbl-cap: "Tabelle der Fußkrankheiten, die in der Strahlentherapie behandelt werden, geordnet nach ICD-10-Codes.[@Seegenschmiedt2024]"
+#| tbl-cap-location: bottom
+
+# Bibliotheken laden
+library(gt)
+library(tidyverse)
+library(gtExtras)
+
+
+# Daten laden
+data <- read_csv("Daten/GutartigeFuß_ICD10.csv")
+
+# Tabelle erstellen und formatieren im NYT-Stil
+table <- data %>%
+  gt() %>%
+  gt_theme_nytimes()%>%
+  tab_header(
+    title = md("")
+  ) 
+
+as_raw_html(table)
+
+
+```
 
 ## Fersensporn
 

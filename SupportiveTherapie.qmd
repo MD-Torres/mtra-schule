@@ -44,41 +44,63 @@ crossref:
 Umrechnung der Opiate s. @fig-Umrech
 :::
 
-Schmerzen können als Dauerschmerzen oder Durchbruchschmerzen auftreten @fig-Schmerzen. 
+Schmerzen können als Dauerschmerzen Schmerzspitzen oder Durchbruchschmerzen auftreten @fig-Schmerzen. 
 
-**Dauerschmerzen** werden mit retardierten Medikamenten oder mit regelmäßigen Gaben von kurzwirksamen Medikamenten behandelt. 
+**Dauerschmerzen** können mit 
 
-**Durchbruchschmerzen** sind plötzlich auftretende Schmerzepisoden oder -spitzen, die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern. 
+- retardierten Medikamenten oder mit 
+- regelmäßigen Gaben von kurzwirksamen Medikamenten 
 
-Eine adäquate Schmerztherapie kombiniert daher beides: regelmäßige Langzeitmedikamente und kurzwirksame (Bedarfs-)Medikamente.
+behandelt werden. 
 
-Anfangs kann es jedoch sein, dass nur eine Bedarfsmedikation erforderlich ist. Bei opioid-naiven Patienten ist es zudem sinnvoll, die Ersteinstellung mit kurzwirksamen Opioiden zu beginnen, da mögliche Nebenwirkungen dann nur kurz anhalten s. auch @sec-fenta .
+**Durchbruchschmerzen** sind plötzlich auftretende Schmerzepisoden, 
+die trotz der Dauermedikation auftreten und kurzwirksame Schmerzmittel erfordern. 
+
+**Schmerzspitzen** beschreibt eine plötzliche Zunahme der Schmerzstärke aus einem niedrigen Ruheschmerz heraus, 
+z.B. beim Schlucken vom feste Speisen im Rahmen einer Mucositis °I. 
+
+Eine adäquate Schmerztherapie kombiniert daher regelmäßige Langzeitmedikamente und kurzwirksame (Bedarfs-)Medikamente.
+
+Anfangs kann es jedoch sein, dass **nur eine Bedarfsmedikation** erforderlich ist. 
+
+Bei opioid-naiven Patienten kann es zudem sinnvoll sein, die Ersteinstellung mit regelmäßigen Gaben kurzwirksamer Opioide zu beginnen, 
+da mögliche Nebenwirkungen dann nur kurz anhalten s. auch @sec-fenta .
 
 ![Schmerzen bei Krebspatienten](Bilder/Schmerzen.png){#fig-Schmerzen}
 
 ## Aufklärung Fahrsicherheit/-tauglichkeit {#sec-Fahrsicherheit}
 
-Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch indizierte Schmerzmitteleinnahme **erlaubt**. Jeder Verkehrsteilnehmer ist für seine Fahrtauglichkeit **selbst verantwortlich**. Nach erfolgter **Hiweiss auf die Gefahr**, kann der Arzt bei möglicher Unfälle **nicht mehr haftbar** gemacht werden. Sollte jedoch Zweifel an der Fahreignung, muss dies dem Patienten mitgeteilt werden.
+Nach **§ 24a Straßenverkehrsgesetz** ist das **Autofahren** nach medizinisch indizierte Schmerzmitteleinnahme **erlaubt**. 
+Jeder Verkehrsteilnehmer ist für seine Fahrtauglichkeit **selbst verantwortlich**. 
+Nach erfolgter **Hiweiss auf die Gefahr**, kann der Arzt bei möglicher Unfälle **nicht mehr haftbar** gemacht werden. 
+
+Sollte jedoch Zweifel an der Fahreignung bestehen, muss dies dem Patienten mitgeteilt werden.
 
 ## Umrechnung 
 
-![Opiate Umrechnungstabelle: Bei Opiatrotation sollte die Dosis nur 1 zu 1 kalkuliert werden, wenn unter der Therapie die Schmerzen noch belastend sind. Bei adäquate Linderung sollte die Dosis um ca. 30 bis 50% reduziert werden.](Bilder/Umrechnung.png){#fig-Umrech}
+![Bei Opioidrotation sollte die Dosis nur 1 zu 1 kalkuliert werden, wenn unter der Therapie die Schmerzen noch belastend sind. 
+Bei adäquate Linderung sollte die Dosis um ca. 30 bis 50% reduziert werden.](Bilder/Umrechnung.png){#fig-Umrech}
 
 ## Sonderfall Fentanyl {#sec-fenta}
 
-Fentanyl sublingual ist nur für Patienten geeignet, die gegenüber ihrer Opioid- therapie gegen
-die Dauerschmerzen als tolerant anzusehen sind. Als opioidtolerant werden diejenigen Patienten eingestuft, die **mindestens 60 mg orales Morphin** täglich oder eine äquianalgetische
-Dosis eines anderen Opioids **über eine Woche** oder länger erhalten.
+Fentanyl sublingual ist nur für Patienten geeignet, 
+die als tolerant gegenüber ihrer Opioidtherapie gegen Dauerschmerzen anzusehen sind. 
+Als opioidtolerant gelten diejenigen Patienten, die
+**mindestens 60 mg orales Morphin** täglich oder 
+eine äquianalgetische Dosis eines anderen Opioids **über eine Woche** oder länger erhalten.
 
-Die **transdermale Anwendung** bei Opioid-naiven Patienten wird nicht empfohlen. Um **Überdosierung zu vermeiden** wird empfohlen, dass Opioid-naive Patienten niedrige Dosen von kurz
-wirkenden Analgetika (z. B. Morphin, Hydromorphon) erhalten, die titriert werden, bis eine äquianalgetische Dosierung entsprechend transdermales
-Fentanyl mit einer Freisetzungsrate von 12 µ/h oder 25 µ/h erreicht ist.
+Die **transdermale Anwendung** bei Opioid-naiven Patienten ist nicht empfohlen.
+
+Um **Überdosierung zu vermeiden** wird empfohlen, dass 
+Opioid-naive Patienten niedrige Dosen von kurz wirksame Opioide (z. B. Morphin, Hydromorphon) erhalten,
+die titriert werden, bis eine äquianalgetische Dosierung entsprechend transdermales Fentanyl mit einer Freisetzungsrate von 12 µ/h oder 25 µ/h erreicht ist.
 
 ## Buprenorphin sublingual
 
-Die Wirkung von Buprenorphin-HEXAL sublingual setzt innerhalb von 30 Minuten nach der Anwendung ein (ähnlich wie Hydromorphon akut oder Morphin Tropfen) und hält in der Regel 6-8 Stunden an. 
+Die Wirkung von Buprenorphin-HEXAL sublingual setzt innerhalb von 30 Minuten nach der Anwendung ein 
+(ähnlich wie Hydromorphon akut oder Morphin Tropfen) und **hält** in der Regel **6-8 Stunden an**. 
 
-Demenssprechend ist dieses Präparat ***nicht als Bedarfsmedikation geeignet***. 
+Demenssprechend ist dieses Präparat ***nicht als Bedarfsmedikation geeignet***.
 
 # Durchfälle
 
@@ -87,8 +109,8 @@ Demenssprechend ist dieses Präparat ***nicht als Bedarfsmedikation geeignet***.
 
 1.  Schritt
 
-    **4 mg einmalig**, danach **nach jedem ungeformten Stuhl 2 mg**.
-    Eine tägliche Dosis von 6 Filmtabletten (entsprechend 12 mg) darf nicht überschritten werden.
+    Loperamid: **4 mg einmalig**, danach **nach jedem ungeformten Stuhl 2 mg**.
+    Eine tägliche Dosis von 6 Filmtabletten (entsprechend **12 mg**) darf nicht überschritten werden.
 
 2.  Schritt **Cave:** Ab hier Off-Lable jedoch leitliniengerechte Therapie @DeutscheKrebsgesellschaftEtAl2020
 
@@ -96,13 +118,13 @@ Demenssprechend ist dieses Präparat ***nicht als Bedarfsmedikation geeignet***.
     
 3.  Schritt
 
-    **2 mg alle 2 Stunden***
+    **2 mg alle 2 Stunden**
 
 :::
 
 Nach fachinformationgerechte Anwendung von Loperamid  ***kann*** der Algorithmus von Benson et al. [@BensonEtAl2004] verwendet werden. Diese Dosisschema übersteigt jedoch die Maximale zugelassene Dosis. Patienten ***mussen*** darauf **hingewiesen werden**. @DeutscheKrebsgesellschaftEtAl2020
 
-Die empfohlene Dosierung ist **initial 4 mg** gefolgt von **2 mg alle 4 Stunden**. Tritt hierunter innerhalb von **12 - 24* Stunden** keine **Besserung** der Symptomatik ein, *kann* die Dosis auf **2 mg alle 2 Stunden** gesteigert werden.
+Die empfohlene Dosierung ist **initial 4 mg** gefolgt von **2 mg alle 4 Stunden**. Tritt hierunter innerhalb von **12 - 24 Stunden** keine **Besserung** der Symptomatik ein, *kann* die Dosis auf **2 mg alle 2 Stunden** gesteigert werden.
 
 # Strahlenzystitis
 
@@ -171,6 +193,7 @@ Hemmung von 5AR2 allein durch Finasterid. @JaeHeonKim2015
 
 Die Wirkung der zur Verfügung stehenden Anticholinergika (z.B. Spasmex®) ist in der Praxis relativ gering. 
 Unerwünschte Nebenwirkungen tretten jedoch häufig auf, u.a. Mundtrockenheit und Obstipation. 
+
 Vor allem jedoch: **Harnverhalt**, zudem können Anticholinergika auch das Risiko für Stürze und Verwirrtheit erhöhen, insbesondere bei älteren Patienten. 
 In Anbetracht dieser ungünstige Wirkung-Nebenwirkung-Korrelation, sollten diese Medikamente vermeiden werden sollten. 
 
@@ -208,7 +231,7 @@ In Anbetracht dieser ungünstige Wirkung-Nebenwirkung-Korrelation, sollten diese
 
 :::
 
-Die häufigste Nebenwirkung der Strahlentherapie, 
+Eine der häufigsten Nebenwirkungen der Strahlentherapie, 
 insbesondere bei Patienten mit **Brust-, Kopf-, Hals- und Analkrebs**, 
 ist die Strahlendermatitis. @GirnitaEtAl2023
 
@@ -220,18 +243,27 @@ In der Basalschit sind die **teilungsfähigen Zellen angesiedelt**.
 Durch die Teilung dieser Zellen entsteht eine Zellschicht (Stratum germinativum entspricht Stratum basale und spinosum), 
 welche die erste Lage der suprabasalen Zellen darstellt. 
 
-Es folgen dann mehrere Zellschichten (Stratum granulosum, lucidum und corneum, siehe @fig-epidermis, die nicht mehr teilungsfähig sind und im Wesentlichen eine Schutzfunktion einnehmen (Hornschicht).
+Es folgen dann mehrere Zellschichten (Stratum granulosum, lucidum und corneum) siehe @fig-epidermis, 
+die nicht mehr teilungsfähig sind und im Wesentlichen eine Schutzfunktion einnehmen. 
 
-Die Zeit, die ein Keratinozyt benötigt, um vom Stratum basale ins Stratum granulosum zu gelangen (meist als "epidermal cell renewal time" oder **"epidermal turnover time"** bezeichnet), beträgt beim Menschen **26-42 Tage**.
+Das Stratum corneum bildet die oberste Schicht und 
+besteht aus abgestorbenen Plattenepithelzellen (Korneozyten), 
+die keinen Zellkern bzw. keine Zellorganellen aufweisen (Hornschicht).
 
-Die Fähigkeit zur **Mitose** ist unter physiologischen Bedingungen **den Zellen der Basalschicht vorbehalten**. Die epidermale Proliferation reagiert jedoch auf jegliche traumatische, thermische, chemische oder entzündliche Reize mit Anstieg der Mitoseaktivität.
+Die Zeit, die ein Keratinozyt benötigt, um vom Stratum basale ins Stratum granulosum zu gelangen 
+(meist als "epidermal cell renewal time" oder **"epidermal turnover time"** bezeichnet), 
+beträgt beim Menschen **26-42 Tage**.
+
+Die Fähigkeit zur **Mitose** ist unter physiologischen Bedingungen **den Zellen der Basalschicht vorbehalten**. 
+Die epidermale Proliferation reagiert jedoch auf jegliche traumatische, thermische, chemische oder entzündliche Reize mit Anstieg der Mitoseaktivität.
 
 ::: {#fig-epidermis layout-ncol=2}
 
-
 ![Die Oberhaut (Epidermis) besteht aus einem mehrschichtigen, verhornenden Plattenepithel. Die äußere Hornschicht enthält abgestorbene Hornzellen. Sie bildet die oberste Schutzbarriere der Haut. Die darunter liegende Keimschicht liefert Nachschub für die Hornschicht und erneuert diese etwa alle vier Wochen. @ImkeSatzger2020](Bilder/Epidermis.png){}
 
-![Die Epidermis besteht zu 90 Prozent aus Keratinozyten, die von Desmosomen zusammengehalten werden. In den äußeren Schichten besteht sie aus verhornten Plattenepithelzellen. Bild: Wikipedia @2024](Bilder/epi-schi.png){}
+![Die Epidermis besteht zu 90 Prozent aus Keratinozyten, die von Desmosomen zusammengehalten werden. In den äußeren Schichten besteht sie aus verhornten Plattenepithelzellen. Bild: Wikipedia @2024](Bilder/epi-schi.png){width=50%}
+
+Struktur der Epidermis
 
 :::
 
@@ -393,9 +425,10 @@ Aufgrundderheutigen Studienlage kann der Einsatz polyhexanidhaltiger Produkte ve
 ## Kopf-Halsbereich
 
 Zu den häufigsten unerwünschten Nebenwirkungen von topischen Kortikosteroiden gehören Atrophie, Striae, Rosazea, periorale Dermatitis, akneiforme Eruption und Purpura. 
-Das Risiko unerwünschter Nebenwirkungen steigt bei längerem Gebrauch, großflächiger Anwendung, höherer Potenz und Anwendung an **Stellen mit dünnerer Haut**, wie z. B. im **Gesicht/Hals** und im Genitalbereich. @StaceyMcEleney2021
 
-Topische Steroide mit geringer bis mittlerer Wirkstärke eignen sich besonders für die Behandlung von Körperstellen mit dünner Haut. Dazu gehören das Gesicht, die Kniekehlen, die Innenseiten der Ellbogen, die Leistengegend und die Achselhöhlen. @InstituteforQualityandEfficiencyinHealthCare2021
+Das Risiko unerwünschter Nebenwirkungen steigt bei längerem Gebrauch, großflächiger Anwendung, **höherer Potenz** und Anwendung an **Stellen mit dünnerer Haut**, wie z. B. im **Gesicht/Hals** und im Genitalbereich. @StaceyMcEleney2021
+
+Topische Steroide mit geringer bis mittlerer Wirkstärke eignen sich besonders für die Behandlung von Körperstellen mit dünner Haut. Dazu gehören das Gesicht/Hals, die Kniekehlen, die Innenseiten der Ellbogen, die Leistengegend und die Achselhöhlen. @InstituteforQualityandEfficiencyinHealthCare2021
 
 Topisches Mometasonfuroat (meist 0,1 %) und Betamethason sind die in der Literatur am häufigsten erwähnten topischen Kortikosteroide, was darauf hindeutet, dass die derzeitigen Erkenntnisse die Verwendung sowohl von Mometasonfuroat als auch von Betamethason bei der Vorbeugung von Strahlendermatitis und damit verbundenen Symptomen unterstützen. @BehroozianEtAl2023
 
@@ -408,6 +441,33 @@ Dermal angewandte Glucocorticoide werden nach ihrer Stärke in Wirkstoffklassen 
 Ein Beispiel für einen Kortikosteroide der Klasse I (schwach wirksame Kortikosteroide) ist **Hydrocortison** z.B. Hydrocortison-ratiopharm 0,5 % Creme.
 
 # Mukositis
+
+::: {.callout-tip collapse="true"}
+#### Therapie 
+
+1.  Schritt 
+
+    **Aufklärung über Mundpflege, einschließlich "bland rinses", sowie die Vermeidung von Reizstoffen und Ernährung.**
+
+2.  Schritt Prophylaxe
+
+    **Ab Tag 1 der Bestrahlung: Tantum verde® Mundspülung 1-0-1 o.g. Maßnahmen fortführen**\
+    Honig, Olivenöl sowie "bland rinses" regelmäßig 
+    
+3.  Schritt 
+  
+    3.1 Bei Xerostomie s. @sec-xerostomie
+
+      **10 gtt Pilomann® 1% Augentropfen in ca. 20ml Wasser 1-1-1**\
+    
+    3.2 Topische Schmerzmedikation
+
+      **Mundspülung mit Morphin (0,2% , Rezeptur)**
+
+    3.3 Standard systemische Schmerzmedikation 
+   
+
+:::
 
 Zu den klinisch wichtigen akuten Nebenwirkungen der Strahlentherapie im Mund- und Halsbereich gehört die Störung der Funktion und Integrität der Mundschleimhaut. Zu den Folgen gehören schwere Ulzerationen (orale Mukositis) und Pilzinfektionen im Mund (orale Candidiasis). @WorthingtonEtAl2010
 
@@ -422,7 +482,7 @@ Die Entstehung der Mukositis ist ähnlich der der Strahlendermatitis s. @sec-phy
 
 In unsere Alltag tritt Mukositis meist im Mundraum auf bei Radiochemotherapie im Mund-Hals-Bereich. Sie kann jedoch bei andere (systemische) Therapien den gesamten Verdauungstrakt bis hin zum After betreffen.
 
-![Die Mukositis lässt sich in 5 Phasen einteilen @NiscolaEtAl2007: (1) **Initiation**: frühzeitige Freisetzung von Zytokinen und DNA-Schädigung; (2) **Erste Symptome**: Die Mitose der Basalzellschicht im Schleimhautepithel wird gehemmt; (3) **Signalverstärkung**: Hochregulierung entzündungsfördernder Zytokine. Das Epithel wird weiter zerstört und eine Heilung ist nicht mehr möglich; (4)**Ulzeration**: Die ulzerierte Oberfläche bietet einen idealen Nährboden für Bakterien und andere Mikroorganismen; (5)**Heilungsphase**: Die Schutzbarriere der Mundschleimhaut wird wiederhergestellt. Bild: @BurgPharmaGmbH](Bilder/mukositis.webp){#fig-ftu}
+![Die Mukositis lässt sich in 5 Phasen einteilen @NiscolaEtAl2007: (1) **Initiation**: frühzeitige Freisetzung von Zytokinen und DNA-Schädigung; (2) **Signaling**: Die Mitose der Basalzellschicht im Schleimhautepithel wird gehemmt; (3) **Signalverstärkung**: Hochregulierung entzündungsfördernder Zytokine. Das Epithel wird weiter zerstört und eine Heilung ist nicht mehr möglich; (4)**Ulzeration**: Die ulzerierte Oberfläche bietet einen idealen Nährboden für Bakterien und andere Mikroorganismen; (5)**Heilungsphase**: Die Schutzbarriere der Mundschleimhaut wird wiederhergestellt. Bild: mukositis-ratgeber.de @BurgPharmaGmbH](Bilder/mukositis.webp){#fig-ftu}
 
 ## Stufen
 
@@ -559,7 +619,7 @@ Primär sollen topische Schmerzmittel zur Linderung von Schmerzen in der Mundhö
 
 Mundspülung mit Morphin (0,2% , Rezeptur) kann für die topische Behandlung von Schmerzen durch eine radiogene orale Mucositis eingesetzt werden. ***Genaue Einnahmehinweise*** sind erforderlich, um versehentliche systemische Nebenwirkungen zu vermeiden. @DeutscheKrebsgesellschaftEtAl2020 
 
-### Xerostomie 
+### Xerostomie {#sec-xerostomie}
 
 Pilocarpin soll unter Berücksichtigung von Wirksamkeit und Nebenwirkungen für die Behandlung der radiogenen Xerostomie eingesetzt werden. Empfohlen ist eine Dosis von 3x tgl. 5 mg oraler Applikation. @DeutscheKrebsgesellschaftEtAl2020
 
@@ -596,6 +656,15 @@ Pilomann® 1% Augentropfen (1 g Lösung enthält 10,00 mg Pilocarpinhydrochlor
 So dass **10gtt = ca. 5mg**, dementsprechend:
 
 Pilocarpin-Mundspüllösung 10 gtt Pilomann® 1% Augentropfen in ca. 20ml Wasser geben und derimal täglich für jeweils 2 min lang spühlen. 
+
+### Mundsoor
+
+Die topische antimykotische Therapie ist die erste Wahl bei unkomplizierten Fällen von oraler Candidose und sollte gleichzeitig fortgesetzt werden, wenn eine systemische Behandlung angezeigt ist. 
+Eine systemische antimykotische Therapie ist in der Regel Patienten vorbehalten, die auf eine topische Behandlung nicht ansprechen, die eine topische Therapie nicht vertragen oder bei denen ein erhöhtes Risiko für die Entwicklung systemischer Infektionen besteht.
+
+Amphomoronal 1ml (1 Pippete) 1-1-1-1 
+
+Die Behandlung soll 2 bis 3 Tage über das Verschwinden der sichtbaren Symptome hinaus fortgesetzt werden. 
 
 
 # Schlafstörungen 
