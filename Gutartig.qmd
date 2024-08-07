@@ -10,6 +10,12 @@ bibliography: mta-schule.bib
 csl: american-medical-association.csl
 execute:
   warning: false
+crossref: 
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  sec-prefix: Abschnitt
+  fig-title: Abbildung
+  tbl-title: Tabelle
 ---
 
 # Einführung
