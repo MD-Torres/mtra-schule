@@ -402,7 +402,7 @@ table <- data %>%
     title = md("")
   ) 
 
-# as_raw_html(table)
+as_raw_html(table)
 
 
 ```
