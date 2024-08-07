@@ -128,9 +128,21 @@ theme(
 
 ## Prävalenz von Gelenkschmerzen in Deutschland
 
+### Akute Schmerzen
+
+Akute Schmerzen dauern Sekunden bis maximal Wochen an und sind an erkennbare Auslöser gekoppelt.[@FuchsPruetz2017]
+
+### Chronische Schmerzen
+
+Chronische Schmerzen sind nicht zwingend an schädigende Faktoren gekoppelt und sind gekennzeichnet durch anhaltende oder wiederkehrende Schmerzen, die mindestens drei Monate andauern. [@FuchsPruetz2017]
+
 Gelenkbeschwerden und -schmerzen gehören weltweit zu den häufigsten Einschränkungen, die Menschen bei der Ausübung ihrer Alltagsaktivitäten Schwierigkeiten bereiten und ihre Lebensqualität verringern können.[@FuchsPruetz2017] Diese sind häfiger im Alter [Abbildung @fig-plot-InzidenzSchmerzen].
 
+### Definition 
+
 Die Definition für Schmerz lautet nach der Weltschmerzorganisation International Association for the Study of Pain „ein unangenehmes Sinnes- und Gefühlserlebnis, das mit aktueller oder potentieller Gewebeschädigung verknüpft ist oder mit Begriffen einer solchen Schädigung beschrieben wird“ [@RajaEtAl2020]
+
+### Prävalenz von Schmerzen in Deutschland
 
 In Deutschland 57,9 % der Frauen und 52,2 % der Männer geben an, in den letzten 12 Monaten Gelenkschmerzen gehabt zu haben.
 
@@ -243,13 +255,6 @@ ggplot(
 
 ```
 
-### Akute Schmerzen
-
-Akute Schmerzen dauern Sekunden bis maximal Wochen an und sind an erkennbare Auslöser gekoppelt.[@FuchsPruetz2017]
-
-### Chronische Schmerzen
-
-Chronische Schmerzen sind nicht zwingend an schädigende Faktoren gekoppelt und sind gekennzeichnet durch anhaltende oder wiederkehrende Schmerzen, die mindestens drei Monate andauern. [@FuchsPruetz2017]
 
 ## Entzündung
 
@@ -327,7 +332,7 @@ Während Entzündung lange Zeit als krankhaftes Phänomen angesehen wurde, verst
 Dementsprechend ist vielleicht nicht überraschend, dass die Grenze zwischen normalen adaptiven homöostatischen Anpassungen und Entzündungen unscharf ist. [@AntonelliKushner2017]
 
 
-## DAMPS und PAMPS
+### DAMPS und PAMPS
 
 Während die adaptive Reaktion mit der Zeit eine hochspezifische Reaktion entwickelt, reagiert die angeborene Reaktion sofort auf spezielle Strukturen, die auf Krankheitserregern zu finden sind. Sie werden als pathogen-assoziierte molekulare Muster (PAMPs) bezeichnet. Lipopolysaccharide (LPS), die spezifisch für die Zellwände gramnegativer Bakterien sind, sind ein typisches Beispiel für ein solches Muster. @NeumannEtAl2017
 
@@ -337,7 +342,7 @@ Damage-associated molecular patterns (DAMPs) werden bei Gewebeschäden freigeset
 
 ![Entzündung wird oft durch PAMPs (z.B. spezifische Lipopolysaccharide der Zellwände gramnegativer Bakterien) ausgelöst. DAMPs binden spezifische Rezeptoren und aktivieren die Entzündung, um Neutrophile und Monozyten zu rekrutieren und die Gewebereparatur einzuleiten. @NeumannEtAl2017](Bilder/InflamationZyklus.png){#fig-InflZyk}
 
-## LAMPS 
+### LAMPS 
 
 Lifestyle-associated molecular patterns (LAMPs) ist ein ein Begriff eingeführt von Zindel und Kubes @ZindelKubes2020
 
@@ -345,7 +350,7 @@ Die sterile Entzündung bezieht sich auf eine Entzündungsreaktion auf schädlic
 
 Eine sterile Entzündung und die anschließende Gewebereparatur hängen von einer gut orchestrierten Migrationssequenz von Leukozyten zum und vom Ort der Verletzung ab. @ZindelKubes2020
 
-## Chemische Botenstoffe
+### Chemische Botenstoffe
 
 Ein Schritt bei diesem intrazellulären Prozess ist die Translokation des Proteins NF-κ B aus dem Zytoplasma in den Zellkern. In seiner Rolle als Transkriptionsfaktor unterstützt NF-κB die Transkription der entsprechenden Zytokin-Gene. 
 
@@ -353,7 +358,7 @@ Die produzierten Zytokine veranlassen anschließend die weißen Blutkörperchen 
 
 Eine Überproduktion von Zytokinen (ein Zytokinsturm) durch Immunzellen zur Überwindung von Krankheitserregern kann jedoch tödlich sein.[@TakeuchiAkira2010]
 
-## Heilung/Auflösung
+### Heilung/Auflösung
 
 Das Abklingen der Entzündung ist ein aktiv regulierter Prozess, der die Verringerung und Beendigung des Eindringens von Immunzellen in das Gewebe, die Gegenregulierung von Zytokinen und Chemokinen, die Apoptose der abgestorbenen Immunzellen mit anschließender Beseitigung durch Makrophagen sowie die Rückführung der verbleibenden Immunzellen in das Blut oder die Lymphgefäße umfasst. [@WunderlichEtAl2017]
 
