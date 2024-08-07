@@ -380,9 +380,9 @@ In der Regel erfolgen 6 Bestrahlungen mit sehr niedrigen Einzeldosen von 0,5 Gy 
 # ICD-10-Codes
 
 ```{r, tblBenigneICD10}
-#| label: tbl-FußICD10
+#| label: tbl-BenigneICD10
 #| echo: false
-#| tbl-cap: "Tabelle der Fußkrankheiten, die in der Strahlentherapie behandelt werden, geordnet nach ICD-10-Codes.[@Seegenschmiedt2024]"
+#| tbl-cap: "**Quelle:** Vortrag von Prof. Dr. med. Michael Heinrich Seegenschmiedt beim Kongress der DEGRO 2024 .[@Seegenschmiedt2024]"
 #| tbl-cap-location: bottom
 
 # Bibliotheken laden
