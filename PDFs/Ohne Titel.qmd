@@ -1,0 +1,38 @@
+---
+title: "Untitled"
+format: pdf
+---
+
+```{r, tblBenigneICD10}
+
+# Bibliotheken laden
+library(gt)
+library(tidyverse)
+library(gtExtras)
+
+
+# Daten laden
+data <- read_csv("Daten/Gutartige_ICD10.csv")
+
+# Tabelle erstellen und formatieren im NYT-Stil
+ data %>%
+  gt(groupname_col = "Korperteil" ) %>%
+  gt_theme_nytimes()%>%
+  tab_header(
+    title = md("ICD-10-Codes für die Kodierung gutartiger Erkrankungen in der Strahlentherapie"),
+    subtitle =  md("Zusammenstellung nach anatomischen Regionen/Diagnosen")
+  )%>%
+  tab_style(
+    style = cell_text(color = "red", weight = "bold"),
+    locations = cells_row_groups()
+  )%>%
+     tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_body(
+      columns = "ICD 10"
+    )
+  )%>%
+  tab_source_note(source_note = md("**Quelle:** Vortrag von Prof. Seegenschmiedt beim Kongress der **DEGRO 2024**") )
+
+
+```
