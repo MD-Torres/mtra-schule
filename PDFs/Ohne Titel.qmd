@@ -12,7 +12,7 @@ library(gtExtras)
 
 
 # Daten laden
-data <- read_csv("Daten/Gutartige_ICD10.csv")
+data <- read_csv("../Daten/Gutartige_ICD10.csv")
 
 # Tabelle erstellen und formatieren im NYT-Stil
  data %>%
