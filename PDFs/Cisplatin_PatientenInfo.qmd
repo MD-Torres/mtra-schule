@@ -24,8 +24,12 @@ Das ist die Kombination aus **Strahlentherapie** und **Chemotherapie**, die nach
 
 ### Therapieansatz
 
+#### Strahlentherapie
+
 Die **Strahlentherapie** ist **ambulant**, das bedeutet, Sie müssen nicht im Krankenhaus bleiben. 
 Die Strahlentherapie findet **täglich** an den **Arbeitstagen** statt, also nicht an Wochenenden und an Feiertagen.
+
+#### Chemotherapie
 
 Zusätzlich bekommen Sie eine **Chemotherapie**. 
 Diese findet **einmal pro Woche** im Krankenhaus statt. 
