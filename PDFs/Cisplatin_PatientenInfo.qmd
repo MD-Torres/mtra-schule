@@ -1,9 +1,12 @@
 ---
-# title: "Cisplatin Patienteninfo"
-format: 
-  pdf:
-    include-in-header: 
-      text: '\pagenumbering{gobble}'
+title: "Cisplatin Patienteninfo"
+format:
+  html: 
+    toc: true
+  
+  # pdf:
+  #   include-in-header: 
+  #     text: '\pagenumbering{gobble}'
 execute:
   echo: false
   warning: false
