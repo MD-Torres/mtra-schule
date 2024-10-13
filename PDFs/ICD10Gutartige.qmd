@@ -55,7 +55,7 @@ data <- read_csv("../Daten/Gutartige_ICD10.csv", show_col_types = FALSE )
     opt_row_striping(row_striping = TRUE)
     
   
-gtsave(tblGutartigeICD10, "ICD10Gutartige.png", zoom = 2, expand=5 )
+# gtsave(tblGutartigeICD10, "ICD10Gutartige.png", zoom = 2, expand=5 )
 
 ```
 
