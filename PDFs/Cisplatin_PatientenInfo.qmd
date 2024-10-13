@@ -1,0 +1,64 @@
+---
+# title: "Cisplatin Patienteninfo"
+format: 
+  pdf:
+    include-in-header: 
+      text: '\pagenumbering{gobble}'
+execute:
+  echo: false
+  warning: false
+
+---
+
+# Chemotherapie und Strahlenbehandlung
+
+**Ihr erster Termin zur Chemotherapie**: ______________________
+
+## Ihr Behandlungsplan
+
+In den nächsten rund **6 Wochen** erhalten Sie eine **Radiochemotherapie**. 
+Das ist die Kombination aus **Strahlentherapie** und **Chemotherapie**, die nach einem festgelegten Behandlungsplan durchgeführt wird.
+
+### Therapieansatz
+
+Die **Strahlentherapie** ist **ambulant**, das bedeutet, Sie müssen nicht im Krankenhaus bleiben. 
+Die Strahlentherapie findet **täglich** an den **Arbeitstagen** statt, also nicht an Wochenenden und an Feiertagen.
+
+Zusätzlich bekommen Sie eine **Chemotherapie**. 
+Diese findet **einmal pro Woche** im Krankenhaus statt. 
+Dafür müssen Sie **eine Nacht** im Krankenhaus bleiben. 
+Während Ihres Aufenthalts im Krankenhaus bekommen Sie auch die **Strahlentherapie**. 
+In der restlichen Woche ist die Strahlentherapie **ambulant**. 
+
+
+# Was passiert während Ihres Aufenthalts im Krankenhaus
+
+## Tag 1: Chemotherapie
+
+1. **Ankunftszeit**: Sie müssen vor **8:00 Uhr morgens** im Krankenhaus sein. Die Anmeldung ist im **Haus 10**. Danach werden Sie auf die **Station 16/1** aufgenommen. Für diesen Tag brauchen Sie eine **Einweisung**. Sie bekommen diese von uns.
+2. **Bluttest und Wiegen**: Wir nehmen Ihnen Blut ab und wiegen Sie, um zu kontrollieren, dass alles in Ordnung ist und Ihr Körper bereit ist für die Chemotherapie.
+3. **Chemotherapie-Vorbereitung**: Wenn Ihre Testergebnisse in Ordnung sind, berechnet der Arzt Ihre Dosis für die Chemotherapie. Dann wird die Chemotherapie in der Apotheke vorbereitet.
+4. **Chemotherapie und Flüssigkeit**:
+   - Sie bekommen **Cisplatin** über eine Infusion und **viel Flüssigkeit** über die Vene. So wird das Medikament schnell durch Ihren Körper geleitet, um Ihre Nieren zu schonen.
+   - **Cisplatin und Flüssigkeit** werden über **mehrere Stunden** gegeben. 
+5. **Strahlentherapie**: Am gleichen Tag bekommen Sie auch Ihre Strahlentherapie. 
+
+## Tag 2: Entlassung 
+
+1. **Wiegen und Flüssigkeit**: Am zweiten Tag werden wir Ihr Gewicht erneut kontrollieren. Falls nötig, geben wir Ihnen ein **Diuretikum** (ein Medikament zur **Entwässerung**), damit Ihr Körper die zusätzliche Flüssigkeit über die **Urinausscheidung** abgeben kann.
+2. **Strahlentherapie**: Bevor Sie nach Hause gehen, bekommen Sie eine weitere Strahlentherapie.
+3. **Entlassung**: Wenn nach der Strahlentherapie alles in Ordnung ist, werden Sie nach Hause gehen. 
+
+Ihre Strahlentherapie ist für den Rest der Woche ambulant (ohne Krankenhausaufenthalt).
+
+## Warum Chemotherapie und Bestrahlung **zusammen** erfolgen müssen
+
+Es ist sehr wichtig, dass **Chemotherapie und Bestrahlung** wie geplant zusammen durchgeführt werden. Diese Art der Chemotherapie wirkt **nur** richtig, wenn sie mit einer Bestrahlung kombiniert wird. Ohne Bestrahlung ist die Chemotherapie nicht wirksam, daher ist es wichtig, dass beide Behandlungen gleichzeitig durchgeführt werden, um die besten Ergebnisse zu erzielen.
+
+# Zusammenfassung
+
+Ihre Radiochemotherapie ist für circa 6 Wochen geplant. Dafür werden Sie jede Woche für **eine Nacht** im Krankenhaus bleiben, um Chemotherapie zu bekommen.  Während Sie im Krankenhaus sind, findet die Bestrahlung im Krankenhaus statt. Die restliche Strahlentherapie ist ambulant.
+
+Es ist sehr wichtig, dass Sie **beide Behandlungen gleichzeitig** erhalten, da die Chemotherapie ohne Bestrahlung nicht wirken kann. 
+
+Wenn Sie Fragen haben, wenden Sie sich bitte an uns. Wir sind für Sie da.
