@@ -668,14 +668,14 @@ Die Behandlung soll 2 bis 3 Tage über das Verschwinden der sichtbaren Symptome 
 
 # Ambulant erworbene Harnwegsinfektionen bei Erwachsenen
 
-::: {.callout-tip}
-Fosfomycin 3000 mg: 3 g Einmalgabe. 2–3 Stunden nach einer Mahlzeit. (Bei Kreatinin-Clearance < 10 ml/min kontraindiziert)
+::: {.callout-tip collapse="true"}
 
-Nitrofurantoin 100mg Retardkapseln 1-0-1 während oder nach einer Mahlzeit für 5 Tage (bei eGFR <30 mL/min kontraindiziert)
+**Fosfomycin 3000 mg: 3 g Einmalgabe.** 2–3 Stunden nach einer Mahlzeit. (Bei Kreatinin-Clearance < 10 ml/min kontraindiziert)
+
+**Nitrofurantoin 100mg Retardkapseln 1-0-1** während oder nach einer Mahlzeit für 5 Tage (bei eGFR <30 mL/min kontraindiziert)
   CAVE: Nitrofurantoin kann zu einer dunkelgelben oder bräunlichen Färbung des Urins führen.
   
-
-Trimethoprim/Sulfamethoxazol 160/800 mg 1-0-1 für 3 Tage nach den Mahlzeiten. (eGFR > 30 ml/min Standarddosis, sonst s. Fachinfo)
+**Trimethoprim/Sulfamethoxazol 160/800 mg 1-0-1** für 3 Tage nach den Mahlzeiten. (eGFR > 30 ml/min Standarddosis, sonst s. Fachinfo)
 
 :::
 
