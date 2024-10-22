@@ -666,6 +666,37 @@ Amphomoronal 1ml (1 Pippete) 1-1-1-1
 
 Die Behandlung soll 2 bis 3 Tage über das Verschwinden der sichtbaren Symptome hinaus fortgesetzt werden. 
 
+# Ambulant erworbene Harnwegsinfektionen bei Erwachsenen
+
+::: {.callout-tip}
+Fosfomycin 3000 mg: 3 g Einmalgabe. 2–3 Stunden nach einer Mahlzeit. (Bei Kreatinin-Clearance < 10 ml/min kontraindiziert)
+
+Nitrofurantoin 100mg Retardkapseln 1-0-1 während oder nach einer Mahlzeit für 5 Tage (bei eGFR <30 mL/min kontraindiziert)
+  CAVE: Nitrofurantoin kann zu einer dunkelgelben oder bräunlichen Färbung des Urins führen.
+  
+
+Trimethoprim/Sulfamethoxazol 160/800 mg 1-0-1 für 3 Tage nach den Mahlzeiten. (eGFR > 30 ml/min Standarddosis, sonst s. Fachinfo)
+
+:::
+
+Eine Harnwegsinfektion wird als unkompliziert eingestuft, wenn im Harntrakt keine relevanten funktionellen oder anatomischen Anomalien, keine relevanten Nierenfunktionsstörungen und keine relevanten Begleiterkrankungen/ Differenzialdiagnosen vorliegen, die eine Harnwegsinfektion bzw. gravierende Komplikationen begünstigen. @DeutscheGesellschaftfurUrologiee.V.Hrsg.24 
+
+Häufig wird dies in die Literatur wie folgt interpretiert: Eine Infektion bei einer afebrile, nicht schwangere, immunkompetente Patientin. Dementsprechend gelten alle Harnwegsinfektionen bei immungeschwächten Patienten, Männern, schwangere Patienten und solchen, die mit Fieber, Steinen, Sepsis, Harnwegsobstruktion, Kathetern oder Nierenbeteiligung einhergehen, als komplizierte Infektionen. @SabihLeslie2024
+
+## Diagnostik 
+
+Der Goldstandard zur Diagnose einer Harnwegsinfektion ist bei entsprechender Anamnese und typischen Beschwerden die Urinuntersuchung einschließlich quantitativer Urinkultur und deren Beurteilung. @DeutscheGesellschaftfurUrologiee.V.Hrsg.24
+ 
+## Erreger
+
+Häufigster Erreger unkomplizierter Harnwegsinfektionen ist Escherichia coli. Weniger häufig werden Staphylococcus saprophyticus, Klebsiella pneumoniae und Proteus mirabilis nachgewiesen. Andere Erreger sind selten. @DeutscheGesellschaftfurUrologiee.V.Hrsg.24
+
+## Behandlung 
+
+Die bevorzugten Wirkstoffe für die empirische Therapie der akuten einfachen Zystitis sind Nitrofurantoin, Trimethoprim-Sulfamethoxazol, Fosfomycin und Pivmecillinam wegen des günstigen Verhältnisses zwischen Wirksamkeit und unerwünschten Nebenwirkungen (einschließlich des Risikos, das es sich um resistente Organismen handelt). Keine dieser Mittel überwiegt eindeutig die anderen in Bezug auf das Verhältnis von Wirksamkeit und Nebenwirkungen, mit der Ausnahme, dass die Wahrscheinlichkeit einer Resistenz bei Trimethoprim- und Sulfamethoxazol wahrscheinlicher ist und dass Pivmecillinam (und möglicherweise Fosfomycin) etwas weniger wirksam ist. Das optimale antimikrobielle Mittel kann in einer Region anders sein als in einer anderen, abhängig von der Resistenzprävalenz. @Gupta2024
+
+Die S3-Leitlinie nennt folgende Antibiotika in alphabetische Reihenfolge: Fosfomycin-Trometamol, Nitrofurantoin, Nitroxolin, Pivmecillinam, Trimethoprim (bei rezidivierenden Harnwegsinfektionen bestehen häufig Resistenzraten >20%). @DeutscheGesellschaftfurUrologiee.V.Hrsg.24
+
 
 # Schlafstörungen 
 
