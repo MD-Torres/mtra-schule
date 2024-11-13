@@ -52,11 +52,11 @@ das Vorliegen von Knochenmetastasen bei ca. 6 % der Patienten mit einem PSA-Wert
 
 Bei Vorliegen ***einer*** folgenden Risikofaktoren soll ein Staging erfolgen. 
 
-| Risikofaktor                                  | Prävalenz von Knochenmetastasen | Begründung für Staging                           |
-|-----------------------------------------------|---------------------------------|--------------------------------------------------|
-| PSA-Wert >10 ng/ml                            | 6 %                             | Erhöhtes Risiko für Tumorausbreitung             |
-| Lokal fortgeschrittener Tumor (T3/4)          | 47 %                            | Hohe Wahrscheinlichkeit für Knochenmetastasen    |
-| Gleason-Score >7                              | 28 %                            | Aggressivere Tumorbiologie                       |
-| Knochenschmerzen oder Anstieg der alkalischen Phosphatase | Nicht spezifiziert | Hinweis auf mögliche Knochenmetastasen           |
+| Risikofaktor                                  | Prävalenz von Knochenmetastasen | 
+|-----------------------------------------------|---------------------------------|
+| PSA-Wert >10 ng/ml                            | 6 %                             | 
+| Lokal fortgeschrittener Tumor (T3/4)          | 47 %                            | 
+| Gleason-Score >7                              | 28 %                            | 
+| Knochenschmerzen oder Anstieg der alkalischen Phosphatase | Nicht spezifiziert  | 
 
 : Risikofaktoren für das Staging bei Prostatakarzinom {#tbl-Risikofaktoren .striped .hover}
