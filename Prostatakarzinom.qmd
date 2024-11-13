@@ -29,6 +29,17 @@ Die Stadien T1-2 N0 M0 werden unter der Bezeichnung lokal begrenztes Prostatakar
 | T3-4 N0 M0                  | Lokal fortgeschritten                   |
 | N1 und/oder M1              | Fortgeschrittenes bzw. metastasiertes Prostatakarzinom |
 
-: Stadien des Prostatakarzinoms {#tbl-Klassifikation .striped .hover}
+: Stadien des Prostatakarzinoms: Hier werden die Stadien und deren Klassifikation zusammengefasst. {#tbl-Klassifikation .striped .hover}
 
-Diese Tabelle fasst die Stadien und deren Klassifikation klar und präzise zusammen.
+
+## Wahrscheinlichkeit von Knochenmetastasen 
+
+| PSA-Wert (ng/ml)       | Wahrscheinlichkeit (%) | Bereich (%)   |
+|------------------------|------------------------|---------------|
+| <10                    | 2,3                    | 1,7 - 3,0     |
+| 10-19,9                | 6                      | 4,6 - 7,6     |
+| 20-49,9                | 15,9                   | 12,9 - 19,2   |
+| 50-99,9                | 39,2                   | 29,0 - 41,8   |
+| >100                   | 74,9                   | 70,8 - 78,7   |
+
+: Prävalenz von Knochenmetastasen in Abhängigkeit vom PSA-Wert bei Prostatakrebs. {#tbl-KnochenmetastasenRisiko .striped .hover}
