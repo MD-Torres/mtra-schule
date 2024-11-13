@@ -21,3 +21,14 @@ crossref:
 # Tumorausdehnung 
 
 Die Stadien T1-2 N0 M0 werden unter der Bezeichnung lokal begrenztes Prostatakarzinom zusammengefasst. Das lokal fortgeschrittene Prostatakarzinom umfasst die Stadien T3-4 N0 M0. Die Stadien N1und/oder M1 werden als fortgeschrittenes bzw. metastasiertes Prostatakarzinom bezeichnet.
+
+
+| Stadium                     | Beschreibung                            |
+|-----------------------------|-----------------------------------------|
+| T1-2 N0 M0                  | Lokal begrenzt                          |
+| T3-4 N0 M0                  | Lokal fortgeschritten                   |
+| N1 und/oder M1              | Fortgeschrittenes bzw. metastasiertes Prostatakarzinom |
+
+: Stadien des Prostatakarzinoms {#tbl-Klassifikation .striped .hover}
+
+Diese Tabelle fasst die Stadien und deren Klassifikation klar und präzise zusammen.
