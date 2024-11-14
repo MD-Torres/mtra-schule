@@ -60,3 +60,12 @@ Bei Vorliegen ***einer*** folgenden Risikofaktoren soll ein Staging erfolgen.
 | Knochenschmerzen oder Anstieg der alkalischen Phosphatase | Nicht spezifiziert  | 
 
 : Risikofaktoren für das Staging bei Prostatakarzinom {#tbl-Risikofaktoren .striped .hover}
+
+## Häufigkeit nach Zonen
+
+| Prostatazone                   | Anteil an Prostatakarzinomen | Beschreibung                                                  |
+|--------------------------------|------------------------------|----------------------------------------------------------------|
+| Zentrale Zone                  | 10 %                         |                 |
+| Transitionalzone               | 15–20 %                      |  inzidentelle Karzinome                                  |
+| Periphere oder posterolaterale Zone | 70–75 %                |  manifeste Karzinome                              |
+
