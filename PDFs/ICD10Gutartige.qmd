@@ -1,0 +1,63 @@
+---
+# title: "Untitled"
+format: 
+  html: 
+    toc: true
+  # pdf:
+  #   include-in-header: 
+  #     text: '\pagenumbering{gobble}'
+execute:
+  echo: false
+  warning: false
+
+---
+
+
+```{r, tblBenigneICD10}
+
+# Bibliotheken laden
+library(gt)
+library(tidyverse)
+library(gtExtras)
+
+
+# Daten laden
+data <- read_csv("../Daten/Gutartige_ICD10.csv", show_col_types = FALSE )
+
+# Tabelle erstellen und formatieren im NYT-Stil
+  tblGutartigeICD10 <- data %>%
+  gt(groupname_col = "Korperteil" ) %>%
+  gt_theme_nytimes()%>%
+  tab_header(
+    title = md("Kodierung gutartiger Erkrankungen"),
+    # subtitle =  md("Zusammenstellung nach anatomischen Regionen/Diagnosen")
+  )%>%
+  tab_style(
+    style = cell_text(color = "red", weight = "bold", indent = pct(9)),
+    locations = cells_row_groups()
+  )%>%
+     tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_body(
+      columns = "ICD 10"
+    )
+  )%>%
+  tab_source_note(source_note = md("**Quelle:** Vortrag von Prof. Seegenschmiedt beim Kongress der **DEGRO 2024**"))%>%
+    tab_footnote(
+  footnote = md("**Laut S2e-Leitlinie**: Die niedrigdosierte Bestrahlung *kann* eine Therapieoption sein, wenn operative Eingriffe noch nicht möglich oder nicht erwünscht sind."),
+  locations = cells_body(columns =DIAGNOSE, rows = 16 ))%>%
+    tab_options(heading.title.font.size = 50,
+                footnotes.marks = "standard",
+                table.font.size = 40,
+                column_labels.font.size = 40,
+                #table.width = px(6000)
+                )%>%
+    opt_row_striping(row_striping = TRUE)
+    
+  
+# gtsave(tblGutartigeICD10, "ICD10Gutartige.png", zoom = 2, expand=5 )
+
+```
+
+
+![](ICD10Gutartige.png){ fig-align="center"}

@@ -1,0 +1,26 @@
+ICD 10,DIAGNOSE,Korperteil
+M 72.2,Fasciitis plantaris,FUSS
+M 77.3,Kalkaneussporn,FUSS
+M 77.4,Metatarsalgie,FUSS
+M 77.9,"Haglund-Exostose",FUSS
+M 76.6,Achillodynie/Tendinitis der Achillessehne,FUSS
+M 20.1/.2,Hallux valgus/rigidus,FUSS
+M 19.07,Obere Sprunggelenksarthrose,FUSS
+M 17.0,Gonarthrose,KNIE
+M 76.5,Patellaspitzensyndrom/ Tendinitis der Patellarsehne,KNIE
+M 75.3,Tendinitis calcanea,SCHULTER
+M 75.4,Impingement-Syndrom,SCHULTER
+M 75.5,Bursitis subacromialis,SCHULTER
+M 19.01,Omarthrose,SCHULTER
+M 19.01,ACG-Arthrose,SCHULTER
+M 70.6,Tendinitis / Bursitis trochanterica,HÜFTE
+M 16.1,Coxarthrose (inoperabel),HÜFTE
+M 75.2,Tendinitis des M. biceps brachii,ARM
+M 77.0,Epicondylitis ulnaris humeri ,ARM
+M 77.1,Epicondylitis radialis humeri,ARM
+M 65.9,Tendovaginitis des Unterarms,ARM
+M 15.1/ 15.2/ 15.9,Polyarthrose der Finger (Heberden/Bouchard/Multipel),HAND
+M 18,Rhizarthrose,HAND
+M 19.03,Handgelenksarthrose,HAND
+M 72.0,M. Dupuytren,FIBROMATOSEN
+M 72.2,M. Ledderhose,FIBROMATOSEN

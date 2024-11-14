@@ -1,0 +1,62 @@
+---
+title: "Prostatakarzinom"
+author: "Jorge Torres"
+format: 
+  html: 
+    fig-width: 8
+    fig.asp: 0.618
+slide-format: revealjs
+bibliography: mta-schule.bib
+csl: american-medical-association.csl
+execute:
+  warning: false
+crossref: 
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  sec-prefix: Abschnitt
+  fig-title: Abbildung
+  tbl-title: Tabelle
+---
+
+# Tumorausdehnung 
+
+Die Stadien T1-2 N0 M0 werden unter der Bezeichnung lokal begrenztes Prostatakarzinom zusammengefasst. Das lokal fortgeschrittene Prostatakarzinom umfasst die Stadien T3-4 N0 M0. Die Stadien N1und/oder M1 werden als fortgeschrittenes bzw. metastasiertes Prostatakarzinom bezeichnet.
+
+
+| Stadium                     | Beschreibung                            |
+|-----------------------------|-----------------------------------------|
+| T1-2 N0 M0                  | Lokal begrenzt                          |
+| T3-4 N0 M0                  | Lokal fortgeschritten                   |
+| N1 und/oder M1              | Fortgeschrittenes bzw. metastasiertes Prostatakarzinom |
+
+: Stadien des Prostatakarzinoms: Hier werden die Stadien und deren Klassifikation zusammengefasst. {#tbl-Klassifikation .striped .hover}
+
+
+## Wahrscheinlichkeit von Knochenmetastasen 
+
+| PSA-Wert (ng/ml)       | Wahrscheinlichkeit (%) | Bereich (%)   |
+|------------------------|------------------------|---------------|
+| <10                    | 2,3                    | 1,7 - 3,0     |
+| 10-19,9                | 6                      | 4,6 - 7,6     |
+| 20-49,9                | 15,9                   | 12,9 - 19,2   |
+| 50-99,9                | 39,2                   | 29,0 - 41,8   |
+| >100                   | 74,9                   | 70,8 - 78,7   |
+
+: Prävalenz von Knochenmetastasen in Abhängigkeit vom PSA-Wert bei Prostatakrebs. {#tbl-KnochenmetastasenRisiko .striped .hover}
+
+
+das Vorliegen von Knochenmetastasen bei ca. 6 % der Patienten mit einem PSA-Wert von 10-20 ng/ml zu hoch sei, um diese Unsicherheit vor dem Hintergrund einer Entscheidung zu einer Operation zu tolerieren. Aus diesem Grund wurde nach erneuter Abstimmung der Grenzwert 10 ng/ml belassen.
+
+
+## Wann Staging? 
+
+Bei Vorliegen ***einer*** folgenden Risikofaktoren soll ein Staging erfolgen. 
+
+| Risikofaktor                                  | Prävalenz von Knochenmetastasen | 
+|-----------------------------------------------|---------------------------------|
+| PSA-Wert >10 ng/ml                            | 6 %                             | 
+| Lokal fortgeschrittener Tumor (T3/4)          | 47 %                            | 
+| Gleason-Score >7                              | 28 %                            | 
+| Knochenschmerzen oder Anstieg der alkalischen Phosphatase | Nicht spezifiziert  | 
+
+: Risikofaktoren für das Staging bei Prostatakarzinom {#tbl-Risikofaktoren .striped .hover}
