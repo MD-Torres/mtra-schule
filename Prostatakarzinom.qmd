@@ -69,3 +69,16 @@ Bei Vorliegen ***einer*** folgenden Risikofaktoren soll ein Staging erfolgen.
 | Transitionalzone               | 15–20 %                      |  inzidentelle Karzinome                                  |
 | Periphere oder posterolaterale Zone | 70–75 %                |  manifeste Karzinome                              |
 : Anatomische Zonen der Prostata und ihre Häufigkeit von Prostatakarzinomen gemäß dem McNeal-Modell {#tbl-Zonen .striped .hover}
+
+## 
+
+Von Überdiagnose spricht man, wenn Karzinome entdeckt werden, die den Patienten in seiner Lebenserwartung nicht bedrohen. Sie zu behandeln bedeutet eine Übertherapie.
+
+
+Männer mit neu diagnostiziertem PCa und mehreren Komorbiditäten (Charlson Comorbidity Index (CCI)-Wert >2) zeigten unabhängig von ihrem Alter zum Zeitpunkt der Diagnose nach 10 Jahren Nachbeobachtung eine sehr geringe PCa-abhängige Mortalität, so dass hier ein Watchful Waiting diskutiert werden muss. Die Tumoraggressivität hatte kaum Einfluss auf das Gesamtüberleben. Hingegen hatten Männer mit einem CCI-Wert <1 ein geringes Risiko, innerhalb von 10 Jahren zu versterben, so dass in dieser Gruppe eine strukturierte Überwachung im niedrigen Risiko bzw. eine aktive Therapie bei höherer Aggressivität erfolgt
+
+Eine Aktive Überwachung bei ansonsten gesunden und für eine kurativ intendierte Therapie geeignete Patienten hat das Ziel, eine rechtzeitige aktive Behandlung bis zu einem Zeitpunkt aufzuschieben, an dem sich Hinweise für eine Progression ergeben oder der Patient diese wünscht
+
+
+
+
