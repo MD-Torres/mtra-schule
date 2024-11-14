@@ -68,4 +68,4 @@ Bei Vorliegen ***einer*** folgenden Risikofaktoren soll ein Staging erfolgen.
 | Zentrale Zone                  | 10 %                         |                 |
 | Transitionalzone               | 15–20 %                      |  inzidentelle Karzinome                                  |
 | Periphere oder posterolaterale Zone | 70–75 %                |  manifeste Karzinome                              |
-
+: Anatomische Zonen der Prostata und ihre Häufigkeit von Prostatakarzinomen gemäß dem McNeal-Modell {#tbl-Zonen .striped .hover}
