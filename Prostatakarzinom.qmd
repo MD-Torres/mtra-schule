@@ -32,7 +32,7 @@ Die Stadien T1-2 N0 M0 werden unter der Bezeichnung lokal begrenztes Prostatakar
 : Stadien des Prostatakarzinoms: Hier werden die Stadien und deren Klassifikation zusammengefasst. {#tbl-Klassifikation .striped .hover}
 
 
-## Wahrscheinlichkeit von Knochenmetastasen 
+# Wahrscheinlichkeit von Knochenmetastasen 
 
 | PSA-Wert (ng/ml)       | Wahrscheinlichkeit (%) | Bereich (%)   |
 |------------------------|------------------------|---------------|
@@ -68,9 +68,9 @@ Bei Vorliegen ***einer*** folgenden Risikofaktoren soll ein Staging erfolgen.
 | Zentrale Zone                  | 10 %                         |                 |
 | Transitionalzone               | 15–20 %                      |  inzidentelle Karzinome                                  |
 | Periphere oder posterolaterale Zone | 70–75 %                |  manifeste Karzinome                              |
-: Anatomische Zonen der Prostata und ihre Häufigkeit von Prostatakarzinomen gemäß dem McNeal-Modell {#tbl-Zonen .striped .hover}
+: Anatomische Zonen der Prostata und ihre Häufigkeit von Prostatakarzinomen gemäß dem McNeal-Modell @DeutscheKrebsgesellschaftEtAl2024 {#tbl-Zonen .striped .hover}
 
-## 
+# Überwachung
 
 Von Überdiagnose spricht man, wenn Karzinome entdeckt werden, die den Patienten in seiner Lebenserwartung nicht bedrohen. Sie zu behandeln bedeutet eine Übertherapie.
 
@@ -79,6 +79,46 @@ Männer mit neu diagnostiziertem PCa und mehreren Komorbiditäten (Charlson Como
 
 Eine Aktive Überwachung bei ansonsten gesunden und für eine kurativ intendierte Therapie geeignete Patienten hat das Ziel, eine rechtzeitige aktive Behandlung bis zu einem Zeitpunkt aufzuschieben, an dem sich Hinweise für eine Progression ergeben oder der Patient diese wünscht
 
+Die wesentliche Rolle der regelmäßigen PSA-Wertmessung beruht auf der damit verbundenen validen Option, die PSA-Verdopplungszeiten (PSADT) adäquat berechnen und die PSA-Dichte (PSAD) bei ebenfalls durchgeführter mpMRT der Prostata objektiv bestimmen zu können.
+
+
+| ISUP-Gruppe | Kontrollintervall       | 
+|-------------|-------------------------|
+| Gruppe 1    | Alle 6 Monate           |
+| Gruppe 2    | Alle 3 Monate           | 
+
+: Kontrollintervalle bei Aktiver Überwachung{#tbl-Kontrollintervall .striped .hover}
+
+
+| Patientengruppe             | Zeitpunkt der Re-Biopsie      | 
+|-----------------------------|-------------------------------|
+| Mit initialer mpMRT         | Nach 12–18 Monaten            | 
+| Ohne initiale mpMRT         | Innerhalb von 6 Monaten       |
+
+: Zeitpunkt der ersten Re-Biopsie bei Patienten unter Aktiver Überwachung{#tbl-Rebiopsie .striped .hover}
+
+Bei signifikantem PSA-Anstieg (Verdopplungszeit <3 Jahre) sollte eine erneute mpMRT mit gezielter und systematischer Re-Biopsie erfolgen. 
+Eine alleinige Progression des PSA-Wertes und/oder einer mpMRT-Läsion sollte nicht zum Abbruch der Aktiven Überwachung führen. 
+
+Die Aktive Überwachung soll beendet werden, bei: 
+
+- Upgrading zu ISUP Gruppe 2 mit ungünstigem Risikoprofil*  
+- Upgrading zu >= ISUP Gruppe 3 • Lokal fortgeschrittenem Tumorstadium (≥cT3 und/oder cN+) 
+
+*cribriformes oder intraduktales Wachstum, Anteil Gleason-Muster 4 über 10 %.
+
+# Therapie 
+
+Patienten mit Prostatakarzinom aller Risikogruppen sollen bei Verwendung einer Standardfraktionierung mit einer Dosis von mindestens 74,0 Gy bis ca. 80 Gy bestrahlt werden.
+
+Der Stellenwert der moderat hypofraktionierten Strahlentherapie ist trotz zahlreicher abgeschlossener Phase-III-Studien nicht abschließend geklärt, da insgesamt keine ausreichend langen Nachbeobachtungszeiten vorliegen.
 
 
 
+| Risikogruppe       | PSA-Wert             | Gleason-Score        | cT-Kategorie    |
+|--------------------|----------------------|----------------------|-----------------|
+| Niedriges Risiko   | <10 ng/ml           | 6                    | ≤ 2a            |
+| Intermediäres Risiko | 10–20 ng/ml        | 7                    | 2b              |
+| Hohes Risiko       | >20 ng/ml           | ≥8                   | ≥ 2c            |
+
+: Risikogruppen für lokal begrenztes Prostatakarzinom {#tbl-Risikogruppen .striped .hover}
