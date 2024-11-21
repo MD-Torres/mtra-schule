@@ -140,3 +140,7 @@ Die HDR-Brachytherapie, kombiniert mit der perkutanen Strahlentherapie, ist eine
 
 Patienten mit einem unilateralen, lokal begrenzten Prostatakarzinom niedrigen Risikos kann eine fokale Therapie angeboten werden, wenn diese sowohl Standardtherapien als auch eine Active Surveillance (AS) ablehnen. @DeutscheKrebsgesellschaftEtAl2024
 
+Patienten mit einem Prostatakarzinom des hohen Risikoprofils, die eine radikale Prostatektomie wünschen, sollen über das erhöhte Risiko für positive Resektionsränder und für ein Krankheitsrezidiv sowie die daraus häufig resultierenden zusätzlich notwendigen Maßnahmen (z. B. hormonablative Therapie, Strahlentherapie) aufgeklärt werden. @DeutscheKrebsgesellschaftEtAl2024
+
+
+

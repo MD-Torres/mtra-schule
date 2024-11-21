@@ -75,4 +75,16 @@ Bei Risikopatienten (ältere, kardiovaskulär belastete) wird jedoch ein TSH-Tes
 
 #### Medikamentöse Prophylaxe 
 
+:::{.callout-tip}
+
+Natriumperchlorat  (300 mg/ml) 
+
+ 60 gtt eine Stunde vor Untersuchung, dannach 
+ 20 gtt 1-1-1 für 14 Tagen 
+
+:::
+
 Bei etwa 2–5 % der Patienten verursachen langfristige Perchloratgaben leichte Nebenwirkungen wie Exantheme, Übelkeit, Erbrechen oder Gelenkschmerzen. Schwere Nebenwirkungen wie Leukopenie, Thrombopenie oder aplastische Anämie treten bei 0,1–0,5 % auf, besonders bei Tagesdosen über 1 g. Diese Raten gelten für die längere Therapie von Hyperthyreose mit Perchlorat, nicht für eine kurzfristige prophylaktische Gabe, für die keine Daten vorliegen. @RendlSaller2001
+
+
+## Kontrastmittel-induzierte Funktionsstörungen der Schilddrüse
