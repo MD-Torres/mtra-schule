@@ -30,7 +30,7 @@ bei eGFR < 30 ml/min Metformin ab dem Zeitpunkt der KM-Applikation absetzen. Nac
 
 ## Kontrastmittel-induzierte Funktionsstörungen der Niere
 
-Der Begriff *Post-Kontrastmittel-akutes Nierenversagen* (PC-AKI) beschreibt eine meist vorübergehende Verschlechterung der Nierenfunktion *nach* intravaskulärer Gabe von Kontrastmitteln. Diese erreicht typischerweise nach 2–3 Tagen ihren Höhepunkt und normalisiert sich innerhalb von etwa 1–3 Wochen. Wie andere Formen des akuten Nierenversagens ist es ein Indikator für eine erhöhte kurz- und langfristige Morbidität, Mortalität und eine verlängerte Krankenhausverweildauer. @vanderMolenEtAl2018a
+Der Begriff *Post-Kontrastmittel-akutes Nierenversagen* (PC-AKI) beschreibt eine meist vorübergehende Verschlechterung der Nierenfunktion *nach* intravaskulärer Gabe von Kontrastmitteln. Diese erreicht typischerweise nach 2–3 Tagen ihren Höhepunkt und normalisiert sich innerhalb von etwa 1–3 Wochen. Wie andere Formen des akuten Nierenversagens ist es ein Indikator für eine erhöhte kurz- und langfristige Morbidität, Mortalität und eine verlängerte Krankenhausverweildauer. @vanderMolenEtAl2018
 
 Die Inzidenz von (PC-AKI) ist schwer einzuschätzen, da Studien unterschiedliche Definitionen des akuten Nierenversagens (AKI) verwenden. 
 
@@ -39,7 +39,7 @@ Die ESUR Leitlinie definiert eine (PC-AKI) als einen Anstieg des Serum-Kreatinin
 Darüberhinaus beeinflussen variierende Applikationswege (intravenös oder intraarteriell), Dosierungen und Kontrastmitteltypen die angegebene Inzidenz erheblich. Zudem waren die eingeschlossenen Patientengruppen hinsichtlich Komorbiditäten und vorbestehender Nierenerkrankungen heterogen. @LatusEtAl2020
 
 Insgesamt wird die Inzidenz des (PC-AKI) in der Literatur vermutlich überschätzt. Zwei Metaanalysen mit insgesamt 19.000 Patienten, die intravenös Kontrastmittel erhielten, zeigten PC-AKI-Raten von 6,4 % (95 % CI 5,0–8,1) und 5,0 % (95 % CI 3,8–6,5). [@KooimanEtAl2012; @MoosEtAl2013] 
-Bei 1 % der Patienten blieb die Nierenfunktionsverschlechterung bis zu zwei Monate bestehen, während die gewichtete Inzidenz für eine erforderliche Nierenersatztherapie (RRT) lediglich 0,06 % betrug.[@KooimanEtAl2012; @vanderMolenEtAl2018a]
+Bei 1 % der Patienten blieb die Nierenfunktionsverschlechterung bis zu zwei Monate bestehen, während die gewichtete Inzidenz für eine erforderliche Nierenersatztherapie (RRT) lediglich 0,06 % betrug.[@KooimanEtAl2012; @vanderMolenEtAl2018]
 
 ## Prävention 
 
