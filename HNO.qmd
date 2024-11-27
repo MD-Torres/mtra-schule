@@ -1,15 +1,20 @@
 ---
 title: "HNO"
-format:
-  revealjs: 
-    theme: [default, custom.scss]
-    slide-level: 4
-    # logo: mtra-krebserkrankungen_files/images/logo.png
-    preview-links: auto
-    scrollable: true
-fig-cap-location: top
+format: 
+  html: 
+    fig-width: 8
+    fig.asp: 0.618
+slide-format: revealjs
 bibliography: mta-schule.bib
 csl: american-medical-association.csl
+execute:
+  warning: false
+crossref: 
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  sec-prefix: Abschnitt
+  fig-title: Abbildung
+  tbl-title: Tabelle
 ---
 
 
