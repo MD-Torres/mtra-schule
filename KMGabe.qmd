@@ -17,6 +17,35 @@ crossref:
   tbl-title: Tabelle
 ---
 
+:::{.callout-tip}
+
+Laborwerte für **TSH und eGFR** dürfen bis zu **3 Monate alt** sein, es sei denn, es liegt eine akute Erkrankung vor oder es besteht der klinische Verdacht auf eine akute Verschlechterung einer bekannten chronischen Erkrankung.
+
+bei eGFR > 30 ml/min kann Metformin normal eingenommen werden.
+
+bei eGFR < 30 ml/min Metformin ab dem Zeitpunkt der KM-Applikation absetzen. Nach 48 Stunden erneut eGFR bestimmen, sollten keine Veränderungen vorliegen: Metformin kann wieder begonnen werden. 
+
+:::
+
+
+## Kontrastmittel-induzierte Funktionsstörungen der Niere
+
+Der Begriff *Post-Kontrastmittel-akutes Nierenversagen* (PC-AKI) beschreibt eine meist vorübergehende Verschlechterung der Nierenfunktion *nach* intravaskulärer Gabe von Kontrastmitteln. Diese erreicht typischerweise nach 2–3 Tagen ihren Höhepunkt und normalisiert sich innerhalb von etwa 1–3 Wochen. Wie andere Formen des akuten Nierenversagens ist es ein Indikator für eine erhöhte kurz- und langfristige Morbidität, Mortalität und eine verlängerte Krankenhausverweildauer. @vanderMolenEtAl2018
+
+Die Inzidenz von (PC-AKI) ist schwer einzuschätzen, da Studien unterschiedliche Definitionen des akuten Nierenversagens (AKI) verwenden. 
+
+Die ESUR Leitlinie definiert eine (PC-AKI) als einen Anstieg des Serum-Kreatinins innerhalb von 48–72 Stunden nach intravaskulärer Kontrastmittelgabe um ≥ 0,3 mg/dl (≥ 26,5 μmol/l) oder um ≥ 1,5-fache des Ausgangswertes.@ThomsenMorcos2006
+
+Darüberhinaus beeinflussen variierende Applikationswege (intravenös oder intraarteriell), Dosierungen und Kontrastmitteltypen die angegebene Inzidenz erheblich. Zudem waren die eingeschlossenen Patientengruppen hinsichtlich Komorbiditäten und vorbestehender Nierenerkrankungen heterogen. @LatusEtAl2020
+
+Insgesamt wird die Inzidenz des (PC-AKI) in der Literatur vermutlich überschätzt. Zwei Metaanalysen mit insgesamt 19.000 Patienten, die intravenös Kontrastmittel erhielten, zeigten PC-AKI-Raten von 6,4 % (95 % CI 5,0–8,1) und 5,0 % (95 % CI 3,8–6,5). [@KooimanEtAl2012; @MoosEtAl2013] 
+Bei 1 % der Patienten blieb die Nierenfunktionsverschlechterung bis zu zwei Monate bestehen, während die gewichtete Inzidenz für eine erforderliche Nierenersatztherapie (RRT) lediglich 0,06 % betrug.[@KooimanEtAl2012; @vanderMolenEtAl2018]
+
+## Prävention 
+
+Laut ESUR-Leitlinie Bei intravenöser und intraarterieller Röntgenkontrastmittelapplikation mit renalem second-pass Effekt sollte der Patient entweder (a) mit intravenöser 1,4%iger Natriumbikarbonatlösung (alternativ 154 mmol/l in 5%iger Dextroselösung): 3 ml/kg/h über 1 Stunde vor Röntgenkontrastmittelgabe oder (b) mit intravenöser 0,9%iger Kochsalzlösung 1ml/kg/h über 3-4 Stunden vor und 4-6 Stunden nach der Untersuchung hydriert werden. @ThomsenMorcos2006
+
+
 
 ## Kontrastmittel-induzierte Funktionsstörungen der Schilddrüse
 
@@ -28,6 +57,7 @@ Während durch Jod hervorgerufene Hypothyreosen fast ausschließlich in ausreich
 
 
 ### Prävalenz
+
 Die Häufigkeit von RöKM-bedingten Schilddrüsenfehlfunktionen variiert und wird auf 1 % bis 15 % geschätzt, wobei die genauen Raten schwer zu bestimmen sind. @BednarczukEtAl2021 
 Von 5 Millionen Kontrastmitteluntersuchungen jährlich in Deutschland verursachen etwa 100 thyreotoxische Krisen, wovon 38 % durch Jodexposition ausgelöst werden.  @RendlSaller2001
 
@@ -75,4 +105,16 @@ Bei Risikopatienten (ältere, kardiovaskulär belastete) wird jedoch ein TSH-Tes
 
 #### Medikamentöse Prophylaxe 
 
+:::{.callout-tip}
+
+Natriumperchlorat  (300 mg/ml) 
+
+ 40 gtt eine Stunde vor Untersuchung, dannach 
+ 20 gtt 1-1-1 für 14 Tagen 
+
+:::
+
 Bei etwa 2–5 % der Patienten verursachen langfristige Perchloratgaben leichte Nebenwirkungen wie Exantheme, Übelkeit, Erbrechen oder Gelenkschmerzen. Schwere Nebenwirkungen wie Leukopenie, Thrombopenie oder aplastische Anämie treten bei 0,1–0,5 % auf, besonders bei Tagesdosen über 1 g. Diese Raten gelten für die längere Therapie von Hyperthyreose mit Perchlorat, nicht für eine kurzfristige prophylaktische Gabe, für die keine Daten vorliegen. @RendlSaller2001
+
+
+## Kontrastmittel-induzierte Funktionsstörungen der Schilddrüse
