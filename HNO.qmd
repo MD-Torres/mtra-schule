@@ -1,0 +1,17 @@
+---
+title: "HNO"
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    slide-level: 4
+    # logo: mtra-krebserkrankungen_files/images/logo.png
+    preview-links: auto
+    scrollable: true
+fig-cap-location: top
+bibliography: mta-schule.bib
+csl: american-medical-association.csl
+---
+
+
+<iframe src="https://znrrg8-jorge0luis-torres0cavazos.shinyapps.io/apps_shiny/" width="100%" height="600px"></iframe>
+
