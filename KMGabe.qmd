@@ -25,6 +25,8 @@ bei eGFR > 30 ml/min kann Metformin normal eingenommen werden.
 
 bei eGFR < 30 ml/min Metformin ab dem Zeitpunkt der KM-Applikation absetzen. Nach 48 Stunden erneut eGFR bestimmen, sollten keine Veränderungen vorliegen: Metformin kann wieder begonnen werden. 
 
+Wenn das Serum-TSH abnormal ist, sollten die Schilddrüsenhormone (T3 und/oder T4) gemessen werden.
+
 :::
 
 
@@ -97,13 +99,6 @@ Bei einigen Personen bleibt diese Hemmung bestehen und führt zu einer Hypothyre
 
 ### Prävention 
 
-::: {.callout-note}
-## Empfehlung 
-
-Das Serum-TSH sollte bei allen Patienten, die Kontrastmittel erhalten, gemessen werden. Die Werte können bis 3 Monate alt sein. Wenn das Serum-TSH abnormal ist, sollten die Schilddrüsenhormone (T3 und/oder T4) gemessen werden.
-
-:::
-
 #### Labor 
 
 Die europäischen Leitlinien empfehlen kein generelles TSH-Screening vor jodhaltigen Kontrastmitteln. 
@@ -126,4 +121,4 @@ Natriumperchlorat  (300 mg/ml)
 Bei etwa 2–5 % der Patienten verursachen langfristige Perchloratgaben leichte Nebenwirkungen wie Exantheme, Übelkeit, Erbrechen oder Gelenkschmerzen. Schwere Nebenwirkungen wie Leukopenie, Thrombopenie oder aplastische Anämie treten bei 0,1–0,5 % auf, besonders bei Tagesdosen über 1 g. Diese Raten gelten für die längere Therapie von Hyperthyreose mit Perchlorat, nicht für eine kurzfristige prophylaktische Gabe, für die keine Daten vorliegen. @RendlSaller2001
 
 
-## Kontrastmittel-induzierte Funktionsstörungen der Schilddrüse
+## Literaturverzeichnis
