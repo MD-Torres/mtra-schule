@@ -41,6 +41,15 @@ Darüberhinaus beeinflussen variierende Applikationswege (intravenös oder intra
 Insgesamt wird die Inzidenz des (PC-AKI) in der Literatur vermutlich überschätzt. Zwei Metaanalysen mit insgesamt 19.000 Patienten, die intravenös Kontrastmittel erhielten, zeigten PC-AKI-Raten von 6,4 % (95 % CI 5,0–8,1) und 5,0 % (95 % CI 3,8–6,5). [@KooimanEtAl2012; @MoosEtAl2013] 
 Bei 1 % der Patienten blieb die Nierenfunktionsverschlechterung bis zu zwei Monate bestehen, während die gewichtete Inzidenz für eine erforderliche Nierenersatztherapie (RRT) lediglich 0,06 % betrug.[@KooimanEtAl2012; @vanderMolenEtAl2018]
 
+Der American College of Radiology-Ausschuss für Arznei- und Kontrastmittel vertritt den Standpunkt, dass PC-AKI eine echte, wenn auch seltene Entität ist und dass die veröffentlichten Studien zur PC-AKI stark durch Verzerrungen und Vermischungen belastet sind. @ACRCommitteeonDrugsandContrastMedia2013
+
+### Metformin
+
+Metformin ist *nicht* nephrotoxisch, wird jedoch über die Nieren ausgeschieden, wobei die Clearance ungefähr linear mit der glomerulären Filtrationsrate (GFR) korreliert. Es gibt daher zwei Situationen, in denen eine Metformin-Intoxikation auftreten kann: Versäumnis der Dosisreduktion bei Vorliegen einer chrnonischen Niereninsuffizienz und bei akute Niereninsuffizienz.@Heaf2014 
+
+Metformin führt dementsprechend nicht zu einem erhöhten Risiko einer PC-AKI. Allerdings können Patienten, die während der Einnahme von Metformin eine AKI entwickeln, anfällig für die Entwicklung einer Laktatazidose sein. @ACRCommitteeonDrugsandContrastMedia2013
+
+
 ## Prävention 
 
 Laut ESUR-Leitlinie Bei intravenöser und intraarterieller Röntgenkontrastmittelapplikation mit renalem second-pass Effekt sollte der Patient entweder (a) mit intravenöser 1,4%iger Natriumbikarbonatlösung (alternativ 154 mmol/l in 5%iger Dextroselösung): 3 ml/kg/h über 1 Stunde vor Röntgenkontrastmittelgabe oder (b) mit intravenöser 0,9%iger Kochsalzlösung 1ml/kg/h über 3-4 Stunden vor und 4-6 Stunden nach der Untersuchung hydriert werden. @ThomsenMorcos2006
