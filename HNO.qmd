@@ -36,6 +36,12 @@ Männer erkranken häufiger und im Mittel zwei bis drei Jahre früher als Frauen
 Insgesamt weisen Frauen mit 64 Prozent im Vergleich zu Männern mit 52 Prozent höhere relative 5-Jahres-Überlebensraten auf. Dazu trägt ein bei Frauen geringerer Anteil durch Tabak- und Alkoholkonsum geförderter Krebs­erkrankungen von Mundboden, Zunge und Rachen bei, die mit geringeren Über­lebens­aus­sichten verbunden sind als z.B. bösartige Tumoren von Lippe und Speicheldrüsen. @WieneckeKraywinkel2019
 
 ```{r}
+#| fig-height: 18
+#| fig-align: center
+#| echo: false
+#| label: fig-plot-verteilung
+#| fig-cap: "Inzidenz, Fallzahlen in Deutschland 1999-2022 [@ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024] "
+
 
 # Required Libraries
 library(ggplot2)
@@ -84,7 +90,7 @@ ggplot(
   scale_fill_manual(values = color_palette_Frauen) +  
   theme_minimal() +  
   labs(
-    title = "<p><span style='color:#818589'>Verteilung der Krebserkrankungen im Rachenbereich bei Frauen</span></p>",
+    title = "<p><span style='color:#818589'>Verteilung der Krebserkrankungen<br> im Rachenbereich bei Frauen</span></p>",
   ) +
   theme(
     plot.title = element_markdown(hjust = 0.5, family = "Ubuntu", size = 20, face = "bold"),
