@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -163,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <ul>
 <li><p>Obere Grenze: Der Oropharynx endet am weichen Gaumen, der ihn vom Nasopharynx trennt.</p></li>
-<li><p>Untere Grenze: Sie liegt auf Höhe der Epiglottis, die den Oropharynx vom Laryngopharynx abgrenzt und beim Schlucken den Kehlkopf verschließt.<span class="citation" data-cites="FossumEtAl2017"><sup><a href="#ref-FossumEtAl2017" role="doc-biblioref"><strong>FossumEtAl2017?</strong></a></sup></span></p></li>
+<li><p>Untere Grenze: Sie liegt auf Höhe der Epiglottis, die den Oropharynx vom Laryngopharynx abgrenzt und beim Schlucken den Kehlkopf verschließt.<span class="citation" data-cites="FossumEtAl2017"><sup><a href="#ref-FossumEtAl2017" role="doc-biblioref">1</a></sup></span></p></li>
 </ul>
 <div id="fig-oropharynx" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig figure">
@@ -176,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 <img src="Bilder/OropharynxICD10_oben.png" class="img-fluid figure-img" data-ref-parent="fig-oropharynx">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-Oro_oben-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(a) Oropharynx von oben<span class="citation" data-cites="LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024"><sup><a href="#ref-LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024" role="doc-biblioref"><strong>LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024?</strong></a></sup></span>
+(a) Oropharynx von oben<span class="citation" data-cites="LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024"><sup><a href="#ref-LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024" role="doc-biblioref">2</a></sup></span>
 </figcaption>
 </figure>
 </div>
@@ -188,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 <img src="Bilder/Oropharynx_ICD10.png" class="img-fluid figure-img" data-ref-parent="fig-oropharynx">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-Oro_seite-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(b) Oropharynx seitlich<span class="citation" data-cites="LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024"><sup><a href="#ref-LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024" role="doc-biblioref"><strong>LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024?</strong></a></sup></span>
+(b) Oropharynx seitlich<span class="citation" data-cites="LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024"><sup><a href="#ref-LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024" role="doc-biblioref">2</a></sup></span>
 </figcaption>
 </figure>
 </div>
@@ -320,12 +339,20 @@ Abbildung&nbsp;1: Der Oropharynx ist die Verbindung zwischen dem Mundraum und de
 </dl>
 
 
+
 </section>
 </section>
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-FossumEtAl2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Fossum CC, Chintakuntlawar AV, Price DL, Garcia JJ. Characterization of the oropharynx: Anatomy, histology, immunology, squamous cell carcinoma and surgical resection. <em>Histopathology</em>. 2017;70(7):1021-1029. doi:<a href="https://doi.org/10.1111/his.13140">10.1111/his.13140</a></div>
+</div>
+<div id="ref-LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF). S3-<span>Leitlinie Diagnostik</span>, <span>Therapie</span>, <span class="nocase">Pr<span class="nocase">ä</span>vention</span> und <span>Nachsorge</span> des <span>Oro-</span> und <span>Hypopharynxkarzinoms</span>. Published online 2024.</div>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
