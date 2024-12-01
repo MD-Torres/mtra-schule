@@ -37,96 +37,84 @@ Insgesamt weisen Frauen mit 64 Prozent im Vergleich zu Männern mit 52 Prozent h
 
 ### In Zahlen 
 
-```{r plt_PropGutartig}
-#| label: fig-plot-PropGutartig
-#| echo: false
-#| fig-cap: "Anteil benigner Erkrankungen oder Tumoren an der Anzahl der Strahlentherapien in Deutschland [@PoppEtAl2020] "
 
 
+```{r}
+
+# Required Libraries
 library(ggplot2)
 library(dplyr)
-library(tidyr)
-library(scales)
-library(ggtext)
+library(scales) # For percentage formatting
+library(ggtext) # For element_markdown in themes
+library(tidyr) # For data transformation
+library(dplyr)
 
-ProzBenigne <- 0.55
+# Read the CSV file
+data <- read.csv( "Daten/HNO.csv" , sep = ";", header = TRUE)
 
-# Wrangle data to get a data frame in the format we need it in to make our donut chart
-ProportionBenigne <- tibble(x = 1, y = ProzBenigne) %>% 
-  mutate(y_negative = 1 - y) %>% 
-  pivot_longer(cols = -x) 
+data <- data %>% select(-X)
 
+# Pivot to long format
+long_data <- pivot_longer(data, cols = weiblich:männlich, names_to = "Gender", values_to = "Value")
 
-highlight_color <- "#9dccda"
-
-
-font_family <- "Ubuntu"
-
-# Create a nicely formatted big number to go in the donut hole
-big_number_text_label <- percent(ProzBenigne, accuracy = 1)
+# Calculate proportions for each gender group
+long_data <- long_data %>%
+  group_by(Gender) %>%
+  mutate(Total = sum(Value), Proportion = Value / Total) %>%
+  ungroup()
 
 
-# Create our plot
-ggplot(data = ProportionBenigne,
-       aes(x = x,
-           y = value,
-           fill = name)) +
+weiblich_data <- long_data %>%
+  filter(Gender == "weiblich")%>%
+ filter(Diagnose %in% c("Oropharynx (C10)", "Nasopharynx (C11)", "Hypopharynx (C13)"))
+
   
-  # Add a bar, but don't add the legend
-  geom_col(show.legend = FALSE) +
+  library(ggplot2)
+  library(ggtext)
   
-  # A pie/donut chart is a bar chart with polar coordinates
-  # Add polar coordinates and set the direction to -1 
-  # so the filled in part starts at the top and goes clockwise
-  coord_polar(theta = "y",
-              direction = -1) +
-  
-  
-  # Set the limits, which is important for adding the hole
-  xlim(c(-2, 2)) +
-  
-  # Set a color scale with the highlighted section in whatever color
-  # is chosen with the highlight_color argument and the rest in a light gray
-  scale_fill_manual(values = c(highlight_color ,  "grey90")) +
-  
-  # Set theme_void() to remove grid lines and everything else from the plot
-  theme_void() +
-  
-  # Add the big number in the center of the hole
-  annotate(geom = "text",
-           label = big_number_text_label,
-           family = font_family,
-           fontface = "bold",
-           color = highlight_color,
-           size = 16,
-           x = -2,
-           y = 0)+ 
+color_palette_Frauen <- c("#64BDBB", "#70D8B0", "#A9EC91" )
+# Create the bar chart
+ggplot(
+  weiblich_data, 
+  aes(
+    x = Diagnose, 
+    y = Value, 
+    fill = Diagnose
+    )) +
+  geom_bar(
+    stat = "identity", 
+    show.legend = FALSE
+    ) +  
+  scale_fill_manual(values = color_palette_Frauen) +  
+  theme_minimal() +  
+  labs(
+    title = "<p><span style='color:#818589'>Verteilung der Krebserkrankungen im Rachenbereich bei Frauen</span></p>",
+  ) +
+  theme(
+    plot.title = element_markdown(hjust = 0.5, family = "Ubuntu", size = 20, face = "bold"),
+    plot.caption = element_markdown(hjust = 0.5, size = 10),
+    # panel.grid.major.y = element_blank(),
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    axis.text.x = element_text(
+      #angle = 45, 
+      hjust = 0.5,
+      family = "Ubuntu", 
+      face = "bold", 
+      color = "#7B7F89", 
+      size = 10
+      ),  # Rotate x labels if they overlap
+    axis.title.x = element_blank(),  # Remove x axis title
+    axis.title.y = element_blank(),  # Remove y axis title
+    #axis.text.y = element_blank(),  # Remove y axis text
+    axis.text.y = element_text(family = "Ubuntu", face = "bold", color = "#7B7F89", size = 8),  
+    axis.ticks = element_blank()  # Remove axis ticks
+  )
 
-labs(
-        title = "<p>Die Behnalung <span style='color:#9dccda'>benigne Erkrankungen</span> spielt eine<br><span style='color:#9dccda'> Wesentliche Rolle</span> in Deutschland</p>",
-        subtitle = "",
-        caption = "Anzahl der Strahlentherapien untergliedert nach Diagnosegruppen.<br>Die Daten beziehen sich auf EBM, GOÄ und OPS sowie konsolidiert auf das Jahr 2016."
-  )+
-theme(
-      plot.title =  element_markdown(
-          
-                                    hjust=0.5,
-                                    family = "Ubuntu",
-                                    size = 20,
-                                    color = "#808080",
-                                    face = "bold",
-                                    ),
-      #plot.title.position = "plot",
-     plot.caption = element_markdown(
-                                      family = "Ubuntu",
-                                      hjust=0.5,
-                                      #vjust=3,
-                                      size = 10,
-                                      color = "#808080"
-                                    ),
-      )
-
+  
 ```
+
 
 ### Anatomie 
 
