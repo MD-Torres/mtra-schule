@@ -27,17 +27,13 @@ Anm(DIREKHT>5mm ab Mittellinie, OP Bericht !)
 
 ## Mundhöhle und Rachen
 
+### In Zahlen
+
 Krebserkrankungen von Mundhöhle und Rachen stellen eine heterogene Gruppe bösartiger Neubildungen dar.
 
 Männer erkranken häufiger und im Mittel zwei bis drei Jahre früher als Frauen. Bei Männern werden am häufigsten Tumoren des Oropharynx diagnostiziert, während bei Frauen Neu­bil­dungen der Mundhöhle und Lippe am häufigsten sind.
 
 Insgesamt weisen Frauen mit 64 Prozent im Vergleich zu Männern mit 52 Prozent höhere relative 5-Jahres-Überlebensraten auf. Dazu trägt ein bei Frauen geringerer Anteil durch Tabak- und Alkoholkonsum geförderter Krebs­erkrankungen von Mundboden, Zunge und Rachen bei, die mit geringeren Über­lebens­aus­sichten verbunden sind als z.B. bösartige Tumoren von Lippe und Speicheldrüsen. @WieneckeKraywinkel2019
-
-## Oropharynx
-
-### In Zahlen 
-
-
 
 ```{r}
 
@@ -115,8 +111,9 @@ ggplot(
   
 ```
 
+### Oropharynx
 
-### Anatomie 
+#### Anatomie 
 
 Der Oropharynx spielt sowohl für das Atmungs- als auch für das Verdauungssystem eine wichtige Rolle. Er umfasst mehrere Schlüsselstrukturen, von denen jede zu seiner Gesamtfunktion beiträgt, insbesondere beim Schlucken und bei der Verwaltung der Atemwege.
 
