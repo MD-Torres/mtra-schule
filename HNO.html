@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -212,81 +178,16 @@ div.csl-indent {
 <p>Krebserkrankungen von Mundhöhle und Rachen stellen eine heterogene Gruppe bösartiger Neubildungen dar.</p>
 <p>Männer erkranken häufiger und im Mittel zwei bis drei Jahre früher als Frauen. Bei Männern werden am häufigsten Tumoren des Oropharynx diagnostiziert, während bei Frauen Neu­bil­dungen der Mundhöhle und Lippe am häufigsten sind.</p>
 <p>Insgesamt weisen Frauen mit 64 Prozent im Vergleich zu Männern mit 52 Prozent höhere relative 5-Jahres-Überlebensraten auf. Dazu trägt ein bei Frauen geringerer Anteil durch Tabak- und Alkoholkonsum geförderter Krebs­erkrankungen von Mundboden, Zunge und Rachen bei, die mit geringeren Über­lebens­aus­sichten verbunden sind als z.B. bösartige Tumoren von Lippe und Speicheldrüsen.<span class="citation" data-cites="WieneckeKraywinkel2019"><sup><a href="#ref-WieneckeKraywinkel2019" role="doc-biblioref">1</a></sup></span></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Required Libraries</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scales) <span class="co"># For percentage formatting</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggtext) <span class="co"># For element_markdown in themes</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr) <span class="co"># For data transformation</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Read the CSV file</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>( <span class="st">"Daten/HNO.csv"</span> , <span class="at">sep =</span> <span class="st">";"</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span>X)</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Pivot to long format</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>long_data <span class="ot">&lt;-</span> <span class="fu">pivot_longer</span>(data, <span class="at">cols =</span> weiblich<span class="sc">:</span>männlich, <span class="at">names_to =</span> <span class="st">"Gender"</span>, <span class="at">values_to =</span> <span class="st">"Value"</span>)</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate proportions for each gender group</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>long_data <span class="ot">&lt;-</span> long_data <span class="sc">%&gt;%</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Gender) <span class="sc">%&gt;%</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Total =</span> <span class="fu">sum</span>(Value), <span class="at">Proportion =</span> Value <span class="sc">/</span> Total) <span class="sc">%&gt;%</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>weiblich_data <span class="ot">&lt;-</span> long_data <span class="sc">%&gt;%</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Gender <span class="sc">==</span> <span class="st">"weiblich"</span>)<span class="sc">%&gt;%</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a> <span class="fu">filter</span>(Diagnose <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Oropharynx (C10)"</span>, <span class="st">"Nasopharynx (C11)"</span>, <span class="st">"Hypopharynx (C13)"</span>))</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">library</span>(ggtext)</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>color_palette_Frauen <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"#64BDBB"</span>, <span class="st">"#70D8B0"</span>, <span class="st">"#A9EC91"</span> )</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the bar chart</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>  weiblich_data, </span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> Diagnose, </span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> Value, </span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> Diagnose</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>    )) <span class="sc">+</span></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">stat =</span> <span class="st">"identity"</span>, </span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">show.legend =</span> <span class="cn">FALSE</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span>  </span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> color_palette_Frauen) <span class="sc">+</span>  </span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span>  </span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"&lt;p&gt;&lt;span style='color:#818589'&gt;Verteilung der Krebserkrankungen im Rachenbereich bei Frauen&lt;/span&gt;&lt;/p&gt;"</span>,</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_markdown</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">family =</span> <span class="st">"Ubuntu"</span>, <span class="at">size =</span> <span class="dv">20</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.caption =</span> <span class="fu">element_markdown</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">10</span>),</span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>    <span class="co"># panel.grid.major.y = element_blank(),</span></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major.x =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor.x =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>      <span class="co">#angle = 45, </span></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>      <span class="at">hjust =</span> <span class="fl">0.5</span>,</span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>      <span class="at">family =</span> <span class="st">"Ubuntu"</span>, </span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>      <span class="at">face =</span> <span class="st">"bold"</span>, </span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>      <span class="at">color =</span> <span class="st">"#7B7F89"</span>, </span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>      <span class="at">size =</span> <span class="dv">10</span></span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>      ),  <span class="co"># Rotate x labels if they overlap</span></span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(),  <span class="co"># Remove x axis title</span></span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.y =</span> <span class="fu">element_blank</span>(),  <span class="co"># Remove y axis title</span></span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>    <span class="co">#axis.text.y = element_blank(),  # Remove y axis text</span></span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">"Ubuntu"</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">color =</span> <span class="st">"#7B7F89"</span>, <span class="at">size =</span> <span class="dv">8</span>),  </span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.ticks =</span> <span class="fu">element_blank</span>()  <span class="co"># Remove axis ticks</span></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="HNO_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="768"></p>
+<div id="fig-plot-verteilung" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-plot-verteilung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="HNO_files/figure-html/fig-plot-verteilung-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-plot-verteilung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Inzidenz, Fallzahlen in Deutschland 1999-2022<span class="citation" data-cites="ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024"><sup><a href="#ref-ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024" role="doc-biblioref">2</a></sup></span>
+</figcaption>
 </figure>
 </div>
 </div>
@@ -304,7 +205,7 @@ div.csl-indent {
 </ol>
 <ul>
 <li><p>Obere Grenze: Der Oropharynx endet am weichen Gaumen, der ihn vom Nasopharynx trennt.</p></li>
-<li><p>Untere Grenze: Sie liegt auf Höhe der Epiglottis, die den Oropharynx vom Laryngopharynx abgrenzt und beim Schlucken den Kehlkopf verschließt.<span class="citation" data-cites="FossumEtAl2017"><sup><a href="#ref-FossumEtAl2017" role="doc-biblioref">2</a></sup></span></p></li>
+<li><p>Untere Grenze: Sie liegt auf Höhe der Epiglottis, die den Oropharynx vom Laryngopharynx abgrenzt und beim Schlucken den Kehlkopf verschließt.<span class="citation" data-cites="FossumEtAl2017"><sup><a href="#ref-FossumEtAl2017" role="doc-biblioref">3</a></sup></span></p></li>
 </ul>
 <div id="fig-oropharynx" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig figure">
@@ -317,7 +218,7 @@ div.csl-indent {
 <img src="Bilder/OropharynxICD10_oben.png" class="img-fluid figure-img" data-ref-parent="fig-oropharynx">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-Oro_oben-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(a) Oropharynx von oben<span class="citation" data-cites="LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024"><sup><a href="#ref-LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024" role="doc-biblioref">3</a></sup></span>
+(a) Oropharynx von oben<span class="citation" data-cites="LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024"><sup><a href="#ref-LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024" role="doc-biblioref">4</a></sup></span>
 </figcaption>
 </figure>
 </div>
@@ -329,7 +230,7 @@ div.csl-indent {
 <img src="Bilder/Oropharynx_ICD10.png" class="img-fluid figure-img" data-ref-parent="fig-oropharynx">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-Oro_seite-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(b) Oropharynx seitlich<span class="citation" data-cites="LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024"><sup><a href="#ref-LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024" role="doc-biblioref">3</a></sup></span>
+(b) Oropharynx seitlich<span class="citation" data-cites="LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024"><sup><a href="#ref-LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024" role="doc-biblioref">4</a></sup></span>
 </figcaption>
 </figure>
 </div>
@@ -337,7 +238,7 @@ div.csl-indent {
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-oropharynx-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;1: Der Oropharynx ist die Verbindung zwischen dem Mundraum und dem Rachen.
+Abbildung&nbsp;2: Der Oropharynx ist die Verbindung zwischen dem Mundraum und dem Rachen.
 </figcaption>
 </figure>
 </div>
@@ -441,7 +342,7 @@ Abbildung&nbsp;1: Der Oropharynx ist die Verbindung zwischen dem Mundraum und de
 <img src="Bilder/Oropharynx_Wahrscheinlichkeit.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Oro_oben-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;2: Verteilung und Häufigkeit von klinisch metastasierten Lymphknoten bei Patienten mit Oropharynxkarzinom<span class="citation" data-cites="KouEtAl2021"><sup><a href="#ref-KouEtAl2021" role="doc-biblioref">4</a></sup></span>
+Abbildung&nbsp;3: Verteilung und Häufigkeit von klinisch metastasierten Lymphknoten bei Patienten mit Oropharynxkarzinom<span class="citation" data-cites="KouEtAl2021"><sup><a href="#ref-KouEtAl2021" role="doc-biblioref">5</a></sup></span>
 </figcaption>
 </figure>
 </div>
@@ -457,14 +358,17 @@ Abbildung&nbsp;2: Verteilung und Häufigkeit von klinisch metastasierten Lymphkn
 <div id="ref-WieneckeKraywinkel2019" class="csl-entry" role="listitem">
 <div class="csl-left-margin">1. </div><div class="csl-right-inline">Wienecke A, Kraywinkel K. <span>Epidemiologie von Kopf-Hals-Tumoren in Deutschland</span>. <em>Der Onkologe</em>. 2019;25(3):190-200. doi:<a href="https://doi.org/10.1007/s00761-019-0534-0">10.1007/s00761-019-0534-0</a></div>
 </div>
+<div id="ref-ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Zentrum für Krebsregisterdaten im Robert Koch-Institut. Datenbankabfrage mit <span class="nocase">Sch<span class="nocase">ä</span>tzung</span> der <span>Inzidenz</span>, <span class="nocase">Pr<span class="nocase">ä</span>valenz</span> und des <span class="nocase"><span>Ü</span>berlebens</span> von <span>Krebs</span> in <span>Deutschland</span> auf <span>Basis</span> der epidemiologischen <span>Landeskrebsregisterdaten</span>. Published online September 2024.</div>
+</div>
 <div id="ref-FossumEtAl2017" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Fossum CC, Chintakuntlawar AV, Price DL, Garcia JJ. Characterization of the oropharynx: Anatomy, histology, immunology, squamous cell carcinoma and surgical resection. <em>Histopathology</em>. 2017;70(7):1021-1029. doi:<a href="https://doi.org/10.1111/his.13140">10.1111/his.13140</a></div>
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Fossum CC, Chintakuntlawar AV, Price DL, Garcia JJ. Characterization of the oropharynx: Anatomy, histology, immunology, squamous cell carcinoma and surgical resection. <em>Histopathology</em>. 2017;70(7):1021-1029. doi:<a href="https://doi.org/10.1111/his.13140">10.1111/his.13140</a></div>
 </div>
 <div id="ref-LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF). S3-<span>Leitlinie Diagnostik</span>, <span>Therapie</span>, <span class="nocase">Pr<span class="nocase">ä</span>vention</span> und <span>Nachsorge</span> des <span>Oro-</span> und <span>Hypopharynxkarzinoms</span>. Published online 2024.</div>
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF). S3-<span>Leitlinie Diagnostik</span>, <span>Therapie</span>, <span class="nocase">Pr<span class="nocase">ä</span>vention</span> und <span>Nachsorge</span> des <span>Oro-</span> und <span>Hypopharynxkarzinoms</span>. Published online 2024.</div>
 </div>
 <div id="ref-KouEtAl2021" class="csl-entry" role="listitem">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline">Kou J, Lin L, Jiao CY, et al. Individualized elective irradiation of the clinically node-negative neck in definitive radiotherapy for head and neck squamous cell carcinoma. <em>Cancer Communications (London, England)</em>. 2021;41(4):303-315. doi:<a href="https://doi.org/10.1002/cac2.12145">10.1002/cac2.12145</a></div>
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Kou J, Lin L, Jiao CY, et al. Individualized elective irradiation of the clinically node-negative neck in definitive radiotherapy for head and neck squamous cell carcinoma. <em>Cancer Communications (London, England)</em>. 2021;41(4):303-315. doi:<a href="https://doi.org/10.1002/cac2.12145">10.1002/cac2.12145</a></div>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
