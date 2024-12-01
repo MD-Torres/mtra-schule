@@ -54,30 +54,30 @@ Der Oropharynx ist die Verbindung zwischen dem Mundraum und dem Rachen.
 
 ### ICD 10 Codes 
 
-| **ICD-10** | **ICD-10 Definition**                                   | **Anatomische Region**                     |
-|------------|---------------------------------------------------------|--------------------------------------------|
-| C01        | Bösartige Neubildung des Zungengrundes                  | Oropharynx                                  |
-| C10        | Bösartige Neubildung des Oropharynx                     | Oropharynx                                  |
-| C02.4      | Linguale Tonsille                                       | Oropharynx                                  |
-| C05.1      | Weicher Gaumen                                          | Oropharynx                                  |
-| C05.2      | Uvula                                                   | Oropharynx                                  |
-| C09        | Bösartige Neubildung der Tonsille (Tonsilla palatina)   | Oropharynx                                  |
-| C09.0      | Fossa Tonsillaris<sup>1</sup>                           | Oropharynx                                  |
-| C09.1      | Gaumenbogen (vorderer) (hinterer)                       | Oropharynx                                  |
-| C10.0      | Vallecula epiglottica                                   | Oropharynx                                  |
-| C10.1      | Vorderfläche der Epiglottis                             | Oropharynx                                  |
-| C10.2      | Seitenwand des Oropharyn                                | Oropharynx                                  |
-| C10.3      | Hinterwand des Oropharynx                               | Oropharynx                                  |
-| C10.8      | Oropharynx, mehrere Teilbereiche überlappend            | Oropharynx                                  |
-| C10.9      | Oropharynx, nicht näher bezeichnet                      | Oropharynx                                  |
-| C09.8      | Tonsille (Tonsilla palatina), mehrere Teilbereiche      | Oropharynx                                  |
-| C09.9      | Tonsille, nicht näher bezeichnet                        | Oropharynx                                  |
-| C14.0      | Pharynx, nicht näher bezeichnet                         | Oropharynx/Waldeyer-Rachenring              |
-| C14.2      | Waldeyer Rachenring                                     | Oropharynx/Waldeyer-Rachenring              |
+| **ICD-10** | **ICD-10 Definition**                                   | 
+|------------|---------------------------------------------------------|
+| C01        | Bösartige Neubildung des Zungengrundes                  | 
+| C10        | Bösartige Neubildung des Oropharynx                     | 
+| C02.4      | Linguale Tonsille                                       | 
+| C05.1      | Weicher Gaumen                                          | 
+| C05.2      | Uvula                                                   | 
+| C09        | Bösartige Neubildung der Tonsille (Tonsilla palatina)   | 
+| C09.0      | Fossa Tonsillaris <sup>1</sup>                          | 
+| C09.1      | Gaumenbogen (vorderer) (hinterer)                       | 
+| C10.0      | Vallecula epiglottica                                   | 
+| C10.1      | Vorderfläche der Epiglottis                             | 
+| C10.2      | Seitenwand des Oropharyn                                | 
+| C10.3      | Hinterwand des Oropharynx                               | 
+| C10.8      | Oropharynx, mehrere Teilbereiche überlappend            | 
+| C10.9      | Oropharynx, nicht näher bezeichnet                      | 
+| C09.8      | Tonsille (Tonsilla palatina), mehrere Teilbereiche      | 
+| C09.9      | Tonsille, nicht näher bezeichnet                        | 
+| C14.0      | Pharynx, nicht näher bezeichnet                         | 
+| C14.2      | Waldeyer Rachenring                                     | 
 
+: ICD10 Codes {.striped .hover}
 ---
 
 #### Footnote:  
 <sup>1</sup> **Fossa tonsillaris**: Nische für die Gaumenmandeln, die zwischen Arcus palatoglossus und Arcus palatopharyngeus lokalisiert ist. Die Fossa tonsillaris wird außerdem von der *Plica triangularis* und der *Plica semilunaris faucium* begrenzt.
 
-: ICD10 Codes {.striped .hover}
