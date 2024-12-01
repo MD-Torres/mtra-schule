@@ -117,9 +117,9 @@ ggplot(
   
 ```
 
-### Oropharynx
+## Oropharynx
 
-#### Anatomie 
+### Anatomie 
 
 Der Oropharynx spielt sowohl für das Atmungs- als auch für das Verdauungssystem eine wichtige Rolle. Er umfasst mehrere Schlüsselstrukturen, von denen jede zu seiner Gesamtfunktion beiträgt, insbesondere beim Schlucken und bei der Verwaltung der Atemwege.
 
@@ -172,7 +172,7 @@ Der Oropharynx ist die Verbindung zwischen dem Mundraum und dem Rachen.
 
 <sup>1</sup> **Fossa tonsillaris**: Nische für die Gaumenmandeln, die zwischen Arcus palatoglossus und Arcus palatopharyngeus lokalisiert ist. Die Fossa tonsillaris wird außerdem von der *Plica triangularis* und der *Plica semilunaris faucium* begrenzt.
 
-#### Elektive Lymphknotenlevels 
+### Elektive Lymphknotenlevels 
 
 ![Verteilung und Häufigkeit von klinisch metastasierten Lymphknoten bei Patienten mit Oropharynxkarzinom @KouEtAl2021 ](Bilder/Oropharynx_Wahrscheinlichkeit.png){#fig-Oro_oben}
 
