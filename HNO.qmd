@@ -123,15 +123,15 @@ ggplot(
 
 Der Oropharynx spielt sowohl für das Atmungs- als auch für das Verdauungssystem eine wichtige Rolle. Er umfasst mehrere Schlüsselstrukturen, von denen jede zu seiner Gesamtfunktion beiträgt, insbesondere beim Schlucken und bei der Verwaltung der Atemwege.
 
-1. Vordere Wand: Die pharyngeale (hinteren Teil) Seite der Zunge.
+1. **Vordere Wand:** Die pharyngeale (hinteren Teil) Seite der Zunge.
 
-2. Seitenwände: Sie bestehen aus den Gaumenbögen (Arcus palatoglossus und Arcus palatopharyngeus) und die Gaumenmandeln (Tonsillae palatinae), die sich in den sogenannten Fossa tonsillari befinden. 
+2. **Seitenwände:** Sie bestehen aus den Gaumenbögen (Arcus palatoglossus und Arcus palatopharyngeus) und die Gaumenmandeln (Tonsillae palatinae), die sich in den sogenannten Fossa tonsillari befinden. 
 
-3. Hintere Wand: Befindet sich in Höhe der Halswirbel C2 bis C3 und wird durch die pharyngeale Muskulatur und Schleimhaut gebildet. Die hintere Wand ist Teil der Rachenhinterwand und grenzt an die prävertebralen Muskeln.
+3. **Hintere Wand:** Befindet sich in Höhe der Halswirbel C2 bis C3 und wird durch die pharyngeale Muskulatur und Schleimhaut gebildet. Die hintere Wand ist Teil der Rachenhinterwand und grenzt an die prävertebralen Muskeln.
 
-- Obere Grenze: Der Oropharynx endet am weichen Gaumen, der ihn vom Nasopharynx trennt.
+  - **Obere Grenze:** Der Oropharynx endet am weichen Gaumen, der ihn vom Nasopharynx trennt.
 
-- Untere Grenze: Sie liegt auf Höhe der Epiglottis, die den Oropharynx vom Laryngopharynx abgrenzt und beim Schlucken den Kehlkopf verschließt. @FossumEtAl2017
+  - **Untere Grenze:** Sie liegt auf Höhe der Epiglottis, die den Oropharynx vom Laryngopharynx abgrenzt und beim Schlucken den Kehlkopf verschließt. @FossumEtAl2017
 
 ::: {#fig-oropharynx layout-ncol=2}
 
