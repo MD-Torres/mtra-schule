@@ -164,6 +164,12 @@ Der Oropharynx ist die Verbindung zwischen dem Mundraum und dem Rachen.
 : ICD10 Codes {.striped .hover}
 ---
 
-#### Footnote:  
+##### Footnote:  
 <sup>1</sup> **Fossa tonsillaris**: Nische für die Gaumenmandeln, die zwischen Arcus palatoglossus und Arcus palatopharyngeus lokalisiert ist. Die Fossa tonsillaris wird außerdem von der *Plica triangularis* und der *Plica semilunaris faucium* begrenzt.
+
+#### Elektive Lymphknotenlevels 
+
+![Verteilung und Häufigkeit von klinisch metastasierten Lymphknoten bei Patienten mit Oropharynxkarzinom @KouEtAl2021 ](Bilder/Oropharynx_Wahrscheinlichkeit.png){#fig-Oro_oben}
+
+
 
