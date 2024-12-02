@@ -37,7 +37,7 @@ Insgesamt weisen Frauen mit 64 Prozent im Vergleich zu Männern mit 52 Prozent h
 
 
 ```{r}
-#| fig-height: 4
+#| fig-height: 8
 #| fig-align: center
 #| echo: false
 #| label: fig-plot-Inzidenz
