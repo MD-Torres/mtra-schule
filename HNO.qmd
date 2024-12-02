@@ -35,88 +35,6 @@ Männer erkranken häufiger und im Mittel zwei bis drei Jahre früher als Frauen
 
 Insgesamt weisen Frauen mit 64 Prozent im Vergleich zu Männern mit 52 Prozent höhere relative 5-Jahres-Überlebensraten auf. Dazu trägt ein bei Frauen geringerer Anteil durch Tabak- und Alkoholkonsum geförderter Krebs­erkrankungen von Mundboden, Zunge und Rachen bei, die mit geringeren Über­lebens­aus­sichten verbunden sind als z.B. bösartige Tumoren von Lippe und Speicheldrüsen. @WieneckeKraywinkel2019
 
-```{r}
-#| fig-height: 4
-#| fig-align: center
-#| echo: false
-#| label: fig-plot-verteilung
-#| fig-cap: "Inzidenz, Fallzahlen in Deutschland 1999-2022 [@ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024] "
-
-
-# Required Libraries
-library(ggplot2)
-library(dplyr)
-library(scales) # For percentage formatting
-library(ggtext) # For element_markdown in themes
-library(tidyr) # For data transformation
-library(dplyr)
-
-# Read the CSV file
-data <- read.csv( "Daten/HNO.csv" , sep = ";", header = TRUE)
-
-data <- data %>% select(-X)
-
-# Pivot to long format
-long_data <- pivot_longer(data, cols = weiblich:männlich, names_to = "Gender", values_to = "Value")
-
-# Calculate proportions for each gender group
-long_data <- long_data %>%
-  group_by(Gender) %>%
-  mutate(Total = sum(Value), Proportion = Value / Total) %>%
-  ungroup()
-
-
-weiblich_data <- long_data %>%
-  filter(Gender == "weiblich")%>%
- filter(Diagnose %in% c("Oropharynx (C10)", "Nasopharynx (C11)", "Hypopharynx (C13)"))
-
-  
-  library(ggplot2)
-  library(ggtext)
-  
-color_palette_Frauen <- c("#64BDBB", "#70D8B0", "#A9EC91" )
-# Create the bar chart
-ggplot(
-  weiblich_data, 
-  aes(
-    x = Diagnose, 
-    y = Value, 
-    fill = Diagnose
-    )) +
-  geom_bar(
-    stat = "identity", 
-    show.legend = FALSE
-    ) +  
-  scale_fill_manual(values = color_palette_Frauen) +  
-  theme_minimal() +  
-  labs(
-    title = "<p><span style='color:#818589'>Verteilung der Krebserkrankungen<br> im Rachenbereich bei Frauen</span></p>",
-  ) +
-  theme(
-    plot.title = element_markdown(hjust = 0.5, family = "Ubuntu", size = 20, face = "bold"),
-    plot.caption = element_markdown(hjust = 0.5, size = 10),
-    # panel.grid.major.y = element_blank(),
-    panel.grid.minor.y = element_blank(),
-    panel.grid.major.x = element_blank(),
-    panel.grid.minor.x = element_blank(),
-    axis.text.x = element_text(
-      #angle = 45, 
-      hjust = 0.5,
-      family = "Ubuntu", 
-      face = "bold", 
-      color = "#7B7F89", 
-      size = 10
-      ),  # Rotate x labels if they overlap
-    axis.title.x = element_blank(),  # Remove x axis title
-    axis.title.y = element_blank(),  # Remove y axis title
-    #axis.text.y = element_blank(),  # Remove y axis text
-    axis.text.y = element_text(family = "Ubuntu", face = "bold", color = "#7B7F89", size = 8),  
-    axis.ticks = element_blank()  # Remove axis ticks
-  )
-
-  
-```
-
 
 ```{r}
 #| fig-height: 4
@@ -124,7 +42,9 @@ ggplot(
 #| echo: false
 #| label: fig-plot-Inzidenz
 #| layout-ncol: 2
-#| fig-cap: "Inzidenz, Fallzahlen in Deutschland 1999-2022 [@ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024] "
+#| fig-cap: 
+#| - "Inzidenz in Deutschland im Zeitraum 1999–2022 basierend auf Daten des Zentrums für Krebsregisterdaten des Robert Koch-Instituts (RKI).[@ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024] "
+#| - "Inzidenz in Deutschland im Zeitraum 1999–2022 basierend auf Daten des Zentrums für Krebsregisterdaten des Robert Koch-Instituts (RKI).[@ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024] "
 
 
 # Required Libraries
@@ -191,7 +111,7 @@ data %>%
   scale_fill_manual(values = color_palette) +  
   theme_minimal() +  
   labs(
-    title = "<p><span style='color:#7f7f7f'>Verteilung der Krebserkrankungen<br> im Rachenbereich bei Frauen</span></p>",
+    title = "<p><span style='color:#7f7f7f'>Häufigste Neubildungen bei Frauen:<br> Mundhöhle und Lippe</span></p>",
   ) +
   theme(
     plot.title = element_markdown(hjust = 0.5, family = "Ubuntu", size = 20, face = "bold"),
@@ -233,7 +153,7 @@ data %>%
   scale_fill_manual(values = color_palette) +  
   theme_minimal() +  
   labs(
-    title = "<p><span style='color:#7f7f7f'>Verteilung der Krebserkrankungen<br> im Rachenbereich bei Männer</span></p>",
+    title = "<p><span style='color:#7f7f7f'>Oropharynx-Tumoren:<br> Die häufigste Diagnose bei Männern</span></p>",
   ) +
   theme(
     plot.title = element_markdown(hjust = 0.5, family = "Ubuntu", size = 20, face = "bold"),
