@@ -153,10 +153,12 @@ data %>%
   scale_fill_manual(values = color_palette) +  
   theme_minimal() +  
   labs(
-    title = "<p><span style='color:#7f7f7f'>Oropharynx-Tumoren:<br> Die häufigste Diagnose bei Männern</span></p>",
+    title = "<p><span style='color:#7f7f7f'>Oropharynx-Tumoren: ",
+    subtitle = "<p><span style='color:#B4B4B4'> Die häufigste Diagnose bei Männern</span></p>"
   ) +
   theme(
     plot.title = element_markdown(hjust = 0, family = "Ubuntu", size = 20, face = "bold"),
+    plot.subtitle = element_markdown(hjust = 0, family = "Ubuntu", size = 18, face = "bold"),
     plot.caption = element_markdown(hjust = 0.5, size = 10),
     # panel.grid.major.y = element_blank(),
     panel.grid.minor.y = element_blank(),
