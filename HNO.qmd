@@ -114,7 +114,7 @@ data %>%
     title = "<p><span style='color:#7f7f7f'>Häufigste Neubildungen bei Frauen:<br> Mundhöhle und Lippe</span></p>",
   ) +
   theme(
-    plot.title = element_markdown(hjust = 0.5, family = "Ubuntu", size = 20, face = "bold"),
+    plot.title = element_markdown(hjust = 0, family = "Ubuntu", size = 20, face = "bold"),
     plot.caption = element_markdown(hjust = 0.5, size = 10),
     # panel.grid.major.y = element_blank(),
     panel.grid.minor.y = element_blank(),
@@ -156,7 +156,7 @@ data %>%
     title = "<p><span style='color:#7f7f7f'>Oropharynx-Tumoren:<br> Die häufigste Diagnose bei Männern</span></p>",
   ) +
   theme(
-    plot.title = element_markdown(hjust = 0.5, family = "Ubuntu", size = 20, face = "bold"),
+    plot.title = element_markdown(hjust = 0, family = "Ubuntu", size = 20, face = "bold"),
     plot.caption = element_markdown(hjust = 0.5, size = 10),
     # panel.grid.major.y = element_blank(),
     panel.grid.minor.y = element_blank(),
