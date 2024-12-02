@@ -197,11 +197,11 @@ Der Oropharynx spielt sowohl für das Atmungs- als auch für das Verdauungssyste
 
 ::: {#fig-oropharynx layout-ncol=2}
 
-![Oropharynx von oben @LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024](Bilder/OropharynxICD10_oben.png){#fig-Oro_oben}
+![Oropharynx von oben ](Bilder/OropharynxICD10_oben.png){#fig-Oro_oben}
 
-![Oropharynx seitlich @LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024](Bilder/Oropharynx_ICD10.png){#fig-Oro_seite}
+![Oropharynx seitlich](Bilder/Oropharynx_ICD10.png){#fig-Oro_seite}
 
-Der Oropharynx ist die Verbindung zwischen dem Mundraum und dem Rachen. 
+Der Oropharynx ist die Verbindung zwischen dem Mundraum und dem Rachen. @LeitlinienprogrammOnkologieDeutscheKrebsgesellschaftDeutscheKrebshilfeAWMF2024
 
 :::
 
