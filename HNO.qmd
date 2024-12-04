@@ -157,12 +157,12 @@ data %>%
     
     axis.ticks.x = element_line(color = "#7f7f7f", size = 1.5),  # Thicker ticks
     axis.ticks.length.x = unit(6, "pt"),  # Longer ticks
-    
+    plot.title.position = "panel",
     # Adjust axis line length exactly within the data range
     # axis.line.y = element_line(color = "#7f7f7f", size = 1.2),
     
     # Adjust clipping and limits
-    plot.margin = margin(5, 5, 5, 5),  # Adjust plot margins
+    plot.margin = margin(t = 20),  # Adjust plot margins
     panel.border = element_blank()  # Ensure clean edge with no overflow
   )
 
@@ -238,12 +238,12 @@ data %>%
     
     axis.ticks.x = element_line(color = "#7f7f7f", size = 1.5),  # Thicker ticks
     axis.ticks.length.x = unit(6, "pt"),  # Longer ticks
-    
+    plot.title.position = "panel",  # Keep the title fixed at the top, centered
     # Adjust axis line length exactly within the data range
     # axis.line.y = element_line(color = "#7f7f7f", size = 1.2),
     
     # Adjust clipping and limits
-    plot.margin = margin(5, 5, 5, 5),  # Adjust plot margins
+    plot.margin = margin(t = 20),  # Adjust plot margins
     panel.border = element_blank()  # Ensure clean edge with no overflow
   )
 
