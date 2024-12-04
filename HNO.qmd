@@ -240,6 +240,67 @@ data %>%
     panel.border = element_blank()  # Ensure clean edge with no overflow
   )
 
+
+
+
+data %>%
+  select(-weiblich) %>%
+  ggplot(
+    aes(
+      x = Diagnose_Gruppe,
+      y = männlich,
+      fill = Fill_Color
+    )
+  ) +
+  geom_bar(
+    stat = "identity",
+    show.legend = FALSE,
+    width = 0.6  # Make bars slimmer by reducing the width
+  ) +  
+  scale_fill_identity() +  
+  theme_dark() +  # Apply a dark theme
+  labs(
+    title = "<p><span style='color:#0d7d87'>Oropharynx</span><span style='color:#7f7f7f'>-Tumoren:</span></p>",
+    subtitle = "<p><span style='color:#B4B4B4'>Die häufigste Diagnose bei </span><span style='color:#0d7d87'>Männern</span></p>"
+  ) +
+  coord_flip() +  # Flip the coordinates to make the bars horizontal
+  theme(
+    plot.title = element_markdown(hjust = 0.5, family = "Ubuntu", size = 26, face = "bold", color = "#FFFFFF"),  # Title in white
+    plot.subtitle = element_markdown(hjust = 0.5, family = "Ubuntu", size = 22, face = "bold", color = "#D3D3D3"),  # Subtitle in light grey
+    plot.caption = element_markdown(hjust = 0.5, size = 10, color = "#D3D3D3"),
+    
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    
+    axis.text.x = element_text(
+      hjust = 0.5,
+      family = "Ubuntu", 
+      face = "bold", 
+      color = "#D3D3D3",  # Light gray for axis labels
+      size = 12
+    ),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    
+    axis.text.y = element_text(
+      family = "Ubuntu", 
+      face = "bold", 
+      color = "#D3D3D3",  # Light gray for axis labels
+      size = 12,
+      margin = margin(r = 15)
+    ),
+    
+    axis.ticks.y = element_line(color = "#7f7f7f", size = 1.5),
+    axis.ticks.length.y = unit(6, "pt"),
+    axis.line.y = element_line(color = "#7f7f7f", size = 1.2),
+    
+    plot.title.position = "plot",  # Title position relative to the plot area
+    plot.margin = margin(t = 20)  # Adjust the top margin if needed
+  )
+
+
 ```
 
 ## Oropharynx
