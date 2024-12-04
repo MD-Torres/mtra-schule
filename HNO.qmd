@@ -135,6 +135,7 @@ data %>%
     axis.ticks = element_blank()  # Remove axis ticks
   )
 
+color_palette <- c("#0d7d87", "#B2BEB5" )
 
 # Create the bar chart
 data %>% 
