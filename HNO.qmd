@@ -42,9 +42,9 @@ Insgesamt weisen Frauen mit 64 Prozent im Vergleich zu Männern mit 52 Prozent h
 #| echo: false
 #| label: fig-plot-Inzidenz
 #| layout-ncol: 2
-#| fig-cap: 
-#| - "Inzidenz in Deutschland im Zeitraum 1999–2022 basierend auf Daten des Zentrums für Krebsregisterdaten des Robert Koch-Instituts (RKI).[@ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024] "
-#| - "Inzidenz in Deutschland im Zeitraum 1999–2022 basierend auf Daten des Zentrums für Krebsregisterdaten des Robert Koch-Instituts (RKI).[@ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024] "
+#| fig-cap: "Inzidenz in Deutschland im Zeitraum 1999–2022 basierend auf Daten des Zentrums für Krebsregisterdaten des Robert Koch-Instituts (RKI).[@ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024] "
+#| - "Inzidenz, Fallzahlen in Deutschland"
+#| - "Inzidenz, Fallzahlen in Deutschland"
 
 
 # Required Libraries
@@ -55,7 +55,6 @@ library(ggtext) # For element_markdown in themes
 library(tidyr) # For data transformation
 library(dplyr)
 
-color_palette <- c("#0d7d87","#ff5a5e",  "#99c6cc", "#c31e23" )
 
 # Read the CSV file
 data <- read.csv( "Daten/InzidenzHNO.csv" , sep = ";", header = TRUE)
@@ -90,95 +89,163 @@ data <- data %>%
   ))
 
   
-  
-  
 
 
-# Create the bar chart
-data %>% 
-  select(-männlich)%>%
+# Modify the dataset to assign colors conditionally
+data <- data %>%
+  mutate(
+    Fill_Color = ifelse(Diagnose_Gruppe == "Oropharynx", "#0d7d87", "#E5E4E2")
+  )
+
+
+data %>%
+  select(-weiblich) %>%
   ggplot(
-
-  aes(
-    x = Diagnose_Gruppe, 
-    y = weiblich, 
-    fill = Diagnose_Gruppe
-    )) +
+    aes(
+      x = Diagnose_Gruppe,
+      y = männlich,
+      fill = Fill_Color
+    )
+  ) +
+    geom_point() +
+  guides(
+    # x = guide_axis(cap = "both"), # Cap both ends
+    y = guide_axis(cap = "both") # Cap both ends
+  ) +
   geom_bar(
-    stat = "identity", 
-    show.legend = FALSE
-    ) +  
-  scale_fill_manual(values = color_palette) +  
+    stat = "identity",
+    show.legend = FALSE,
+    width = 0.7  # Make bars slimmer by reducing the width (default is 0.9)
+  ) +  
+  scale_fill_identity() +  
   theme_minimal() +  
   labs(
-    title = "<p><span style='color:#7f7f7f'>Häufigste Neubildungen bei Frauen:<br> Mundhöhle und Lippe</span></p>",
+    title = "<p><span style='color:#0d7d87'>Oropharynx</span><span style='color:#7f7f7f'>-Tumoren:</span></p>",
+    subtitle = "<p><span style='color:#B4B4B4'>Die häufigste Diagnose bei </span><span style='color:#0d7d87'>Männern</span></p>"
   ) +
+  coord_flip() +
   theme(
-    plot.title = element_markdown(hjust = 0, family = "Ubuntu", size = 20, face = "bold"),
+    plot.title = element_markdown(hjust = 0, family = "Ubuntu", size = 26, face = "bold"),
+    plot.subtitle = element_markdown(hjust = 0, family = "Ubuntu", size = 22, face = "bold"),
     plot.caption = element_markdown(hjust = 0.5, size = 10),
-    # panel.grid.major.y = element_blank(),
+    
+    # Remove default grid lines
     panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
     panel.grid.major.x = element_blank(),
     panel.grid.minor.x = element_blank(),
+    
     axis.text.x = element_text(
-      #angle = 45, 
       hjust = 0.5,
       family = "Ubuntu", 
       face = "bold", 
       color = "#595959", 
-      size = 10
-      ),  # Rotate x labels if they overlap
-    axis.title.x = element_blank(),  # Remove x axis title
-    axis.title.y = element_blank(),  # Remove y axis title
-    #axis.text.y = element_blank(),  # Remove y axis text
-    axis.text.y = element_text(family = "Ubuntu", face = "bold", color = "#595959", size = 8),  
-    axis.ticks = element_blank()  # Remove axis ticks
+      size = 12
+    ),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    
+    # Y-axis customization: ticks extend to the right, line clipped properly
+    axis.text.y = element_text(
+      family = "Ubuntu", 
+      face = "bold", 
+      color = "#595959", 
+      size = 12,
+      margin = margin(r = 15)  # Add margin for better label spacing
+    ),
+    
+    axis.ticks.x = element_line(color = "#7f7f7f", size = 1.5),  # Thicker ticks
+    axis.ticks.length.x = unit(6, "pt"),  # Longer ticks
+    
+    # Adjust axis line length exactly within the data range
+    # axis.line.y = element_line(color = "#7f7f7f", size = 1.2),
+    
+    # Adjust clipping and limits
+    plot.margin = margin(5, 5, 5, 5),  # Adjust plot margins
+    panel.border = element_blank()  # Ensure clean edge with no overflow
   )
 
-color_palette <- c("#0d7d87", "#B2BEB5" )
 
-# Create the bar chart
-data %>% 
-  select(-weiblich)%>%
+
+
+
+
+
+
+
+
+data <- data %>%
+  mutate(
+    Fill_Color = ifelse(Diagnose_Gruppe == "Mundhöhle und Lippe", "#ff5a5e", "#E5E4E2")
+  )
+
+data %>%
+  select(-männlich) %>%
   ggplot(
-
-  aes(
-    x = Diagnose_Gruppe, 
-    y = männlich, 
-    fill = Diagnose_Gruppe
-    )) +
+    aes(
+      x = Diagnose_Gruppe,
+      y = weiblich,
+      fill = Fill_Color
+    )
+  ) +
+    geom_point() +
+  guides(
+    # x = guide_axis(cap = "both"), # Cap both ends
+    y = guide_axis(cap = "both") # Cap both ends
+  ) +
   geom_bar(
-    stat = "identity", 
-    show.legend = FALSE
-    ) +  
-  scale_fill_manual(values = color_palette) +  
+    stat = "identity",
+    show.legend = FALSE,
+    width = 0.7  # Make bars slimmer by reducing the width (default is 0.9)
+  ) +  
+  scale_fill_identity() +  
   theme_minimal() +  
   labs(
-    title = "<p><span style='color:#7f7f7f'>Oropharynx-Tumoren: ",
-    subtitle = "<p><span style='color:#B4B4B4'> Die häufigste Diagnose bei Männern</span></p>"
+    title = "<p><span style='color:#ff5a5e'>Mundhöhle und Lippe</span><span style='color:#7f7f7f'>-Tumoren:</span></p>",
+    subtitle = "<p><span style='color:#B4B4B4'>Die häufigste Diagnose bei </span><span style='color:#ff5a5e'>Frauen</span></p>"
   ) +
+  coord_flip() +
   theme(
-    plot.title = element_markdown(hjust = 0, family = "Ubuntu", size = 20, face = "bold"),
-    plot.subtitle = element_markdown(hjust = 0, family = "Ubuntu", size = 18, face = "bold"),
+    plot.title = element_markdown(hjust = 0, family = "Ubuntu", size = 26, face = "bold"),
+    plot.subtitle = element_markdown(hjust = 0, family = "Ubuntu", size = 22, face = "bold"),
     plot.caption = element_markdown(hjust = 0.5, size = 10),
-    # panel.grid.major.y = element_blank(),
+    
+    # Remove default grid lines
     panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
     panel.grid.major.x = element_blank(),
     panel.grid.minor.x = element_blank(),
+    
     axis.text.x = element_text(
-      #angle = 45, 
       hjust = 0.5,
       family = "Ubuntu", 
       face = "bold", 
       color = "#595959", 
-      size = 10
-      ),  # Rotate x labels if they overlap
-    axis.title.x = element_blank(),  # Remove x axis title
-    axis.title.y = element_blank(),  # Remove y axis title
-    #axis.text.y = element_blank(),  # Remove y axis text
-    axis.text.y = element_text(family = "Ubuntu", face = "bold", color = "#595959", size = 8),  
-    axis.ticks = element_blank()  # Remove axis ticks
+      size = 12
+    ),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    
+    # Y-axis customization: ticks extend to the right, line clipped properly
+    axis.text.y = element_text(
+      family = "Ubuntu", 
+      face = "bold", 
+      color = "#595959", 
+      size = 12,
+      margin = margin(r = 15)  # Add margin for better label spacing
+    ),
+    
+    axis.ticks.x = element_line(color = "#7f7f7f", size = 1.5),  # Thicker ticks
+    axis.ticks.length.x = unit(6, "pt"),  # Longer ticks
+    
+    # Adjust axis line length exactly within the data range
+    # axis.line.y = element_line(color = "#7f7f7f", size = 1.2),
+    
+    # Adjust clipping and limits
+    plot.margin = margin(5, 5, 5, 5),  # Adjust plot margins
+    panel.border = element_blank()  # Ensure clean edge with no overflow
   )
+
   
 ```
 
