@@ -43,6 +43,7 @@ Insgesamt weisen Frauen mit 64 Prozent im Vergleich zu Männern mit 52 Prozent h
 #| label: fig-plot-Inzidenz
 #| layout-ncol: 2
 #| fig-cap: "Inzidenz in Deutschland im Zeitraum 1999–2022 basierend auf Daten des Zentrums für Krebsregisterdaten des Robert Koch-Instituts (RKI).[@ZentrumfurKrebsregisterdatenimRobertKoch-Institut2024] "
+#| fig-subcap: 
 #| - "Inzidenz, Fallzahlen in Deutschland"
 #| - "Inzidenz, Fallzahlen in Deutschland"
 
