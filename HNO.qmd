@@ -157,7 +157,7 @@ data %>%
     
     axis.ticks.x = element_line(color = "#7f7f7f", size = 1.5),  # Thicker ticks
     axis.ticks.length.x = unit(6, "pt"),  # Longer ticks
-    plot.title.position = "panel",
+    plot.title.position = "plot",
     # Adjust axis line length exactly within the data range
     # axis.line.y = element_line(color = "#7f7f7f", size = 1.2),
     
@@ -165,13 +165,6 @@ data %>%
     plot.margin = margin(t = 20),  # Adjust plot margins
     panel.border = element_blank()  # Ensure clean edge with no overflow
   )
-
-
-
-
-
-
-
 
 
 
@@ -238,7 +231,7 @@ data %>%
     
     axis.ticks.x = element_line(color = "#7f7f7f", size = 1.5),  # Thicker ticks
     axis.ticks.length.x = unit(6, "pt"),  # Longer ticks
-    plot.title.position = "panel",  # Keep the title fixed at the top, centered
+    plot.title.position = "plot",  # Keep the title fixed at the top, centered
     # Adjust axis line length exactly within the data range
     # axis.line.y = element_line(color = "#7f7f7f", size = 1.2),
     
@@ -247,7 +240,6 @@ data %>%
     panel.border = element_blank()  # Ensure clean edge with no overflow
   )
 
-  
 ```
 
 ## Oropharynx
