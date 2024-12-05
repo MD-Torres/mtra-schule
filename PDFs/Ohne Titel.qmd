@@ -1,12 +1,13 @@
 ---
 title: "Kontrastmittel"
 format: 
-  html: 
-    fig-width: 8
-    fig.asp: 0.618
+  pdf:
+    fig-width: 6
+    fig.asp: 0.75
+    keep-tex: false   # Avoid keeping LaTeX files
 slide-format: revealjs
-bibliography: mta-schule.bib
-csl: american-medical-association.csl
+bibliography: ../mta-schule.bib
+csl: ../american-medical-association.csl
 execute:
   warning: false
 crossref: 
