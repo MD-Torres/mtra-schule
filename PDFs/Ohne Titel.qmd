@@ -48,7 +48,7 @@ Der American College of Radiology-Ausschuss für Arznei- und Kontrastmittel vert
 
 ### Metformin
 
-Metformin ist *nicht* nephrotoxisch, wird jedoch über die Nieren ausgeschieden, wobei die Clearance ungefähr linear mit der glomerulären Filtrationsrate (GFR) korreliert. Es gibt daher zwei Situationen, in denen eine Metformin-Intoxikation auftreten kann: Versäumnis der Dosisreduktion bei Vorliegen einer chrnonischen Niereninsuffizienz und bei akute Niereninsuffizienz.@Heaf2014 
+Metformin ist *nicht* nephrotoxisch, wird jedoch über die Nieren ausgeschieden, wobei die Clearance ungefähr linear mit der glomerulären Filtrationsrate (GFR) korreliert. Es gibt daher zwei Situationen, in denen eine Metformin-Intoxikation auftreten kann: Versäumnis der Dosisreduktion bei Vorliegen einer chrnonischen Niereninsuffizienz und bei akute Niereninsuffizienz. @Heaf2014 
 
 Metformin führt dementsprechend nicht zu einem erhöhten Risiko einer PC-AKI. Allerdings können Patienten, die während der Einnahme von Metformin eine AKI entwickeln, anfällig für die Entwicklung einer Laktatazidose sein. @ACRCommitteeonDrugsandContrastMedia2013
 
@@ -105,7 +105,7 @@ Bei einigen Personen bleibt diese Hemmung bestehen und führt zu einer Hypothyre
 Die europäischen Leitlinien empfehlen kein generelles TSH-Screening vor jodhaltigen Kontrastmitteln. 
 Bei Risikopatienten (ältere, kardiovaskulär belastete) wird jedoch ein TSH-Test empfohlen. @BednarczukEtAl2021 Deutschland ist Jodmangelgebiet und in unsere Praxis werden häufig älteren, multimorbiden Patienten behandelt. Deutschland ist Jodmangelgebiet, und in unserer Praxis werden häufig ältere, multimorbide Patienten behandelt. Daher sollte bei allen Patienten vor Kontrastmittelgabe ein Serum-TSH-Wert vorliegen. Fehlt dieser, ist das keine harte Kontraindikation für die Gabe von RöKM; die Entscheidung liegt im ärztlichen Ermessen. Liegt das TSH im Normbereich, können die Werte bis zu 3 Monate alt sein. 
 
-![Deutschland ist Jodmangelgebiet](Bilder/JodMangelDeutschland.jpg){#fig-Jodmangel}
+![Deutschland ist Jodmangelgebiet](../Bilder/JodMangelDeutschland.jpg){#fig-Jodmangel}
 
 
 #### Medikamentöse Prophylaxe 
