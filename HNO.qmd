@@ -306,4 +306,3 @@ Der Oropharynx ist die Verbindung zwischen dem Mundraum und dem Rachen. @Leitlin
 ![Verteilung und Häufigkeit von klinisch metastasierten Lymphknoten bei Patienten mit Oropharynxkarzinom. Der linke und der rechte Hals wurden durch den Ipsi- und den Kontralateralen Hals ersetzt, um das Muster der Lymphknotenmetastasen zu veranschaulichen. @KouEtAl2021 ](Bilder/Oropharynx_Wahrscheinlichkeit.png){#fig-Oro_oben}
 
 
-
