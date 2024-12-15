@@ -1,14 +1,17 @@
 ---
 title: "Kontrastmittel"
 format: 
-  pdf:
-    #classoption: twocolumn           # Enables double-column layout
-    geometry: a4paper                # Specifies DIN A4 paper
-    number-sections: true            # Optional: Number sections
-    toc: true                        # Optional: Table of Contents
-    fig-width: 6
-    fig.asp: 0.75
-    keep-tex: false   # Avoid keeping LaTeX files
+  html: 
+    fig-width: 8
+    fig.asp: 0.618
+  # pdf:
+  #   #classoption: twocolumn           # Enables double-column layout
+  #   geometry: a4paper                # Specifies DIN A4 paper
+  #   number-sections: true            # Optional: Number sections
+  #   toc: true                        # Optional: Table of Contents
+  #   fig-width: 6
+  #   fig.asp: 0.75
+  #   keep-tex: false   # Avoid keeping LaTeX files
 slide-format: revealjs
 bibliography: ../mta-schule.bib
 csl: ../american-medical-association.csl
