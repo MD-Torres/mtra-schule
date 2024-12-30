@@ -1,0 +1,30 @@
+---
+title: "Standort"
+format: 
+  html: 
+    fig-width: 8
+    fig.asp: 0.618
+slide-format: revealjs
+bibliography: mta-schule.bib
+csl: american-medical-association.csl
+execute:
+  warning: false
+crossref: 
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  sec-prefix: Abschnitt
+  fig-title: Abbildung
+  tbl-title: Tabelle
+---
+
+# Beispiel Standort finder
+
+<style>
+  iframe {
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height of the viewport */
+    border: none; /* Remove border if unnecessary */
+  }
+</style>
+
+<iframe src="https://znrrg8-jorge0luis-torres0cavazos.shinyapps.io/standort/"></iframe>

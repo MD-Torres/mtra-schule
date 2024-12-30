@@ -3,4 +3,10 @@
 .RData
 .Ruserdata
 /.quarto/
-
+/output/
+*.pdf
+*.tex
+/pdf-src/*.pdf
+/pdf-src/*.tex
+_files/
+_site/

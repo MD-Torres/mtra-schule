@@ -1,0 +1,137 @@
+---
+title: "Kontrastmittel"
+format: 
+  html: 
+    fig-width: 8
+    fig.asp: 0.618
+  # pdf:
+  #   #classoption: twocolumn           # Enables double-column layout
+  #   geometry: a4paper                # Specifies DIN A4 paper
+  #   number-sections: true            # Optional: Number sections
+  #   toc: true                        # Optional: Table of Contents
+  #   fig-width: 6
+  #   fig.asp: 0.75
+  #   keep-tex: false   # Avoid keeping LaTeX files
+slide-format: revealjs
+bibliography: ../mta-schule.bib
+csl: ../american-medical-association.csl
+execute:
+  warning: false
+crossref: 
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  sec-prefix: Abschnitt
+  fig-title: Abbildung
+  tbl-title: Tabelle
+---
+
+
+
+
+
+:::{.callout-tip}
+
+Laborwerte für **TSH und eGFR** dürfen bis zu **3 Monate alt** sein, es sei denn, es liegt eine akute Erkrankung vor oder es besteht der klinische Verdacht auf eine akute Verschlechterung einer bekannten chronischen Erkrankung.
+
+bei eGFR > 30 ml/min kann Metformin normal eingenommen werden.
+
+bei eGFR < 30 ml/min Metformin ab dem Zeitpunkt der KM-Applikation absetzen. Nach 48 Stunden erneut eGFR bestimmen, sollten keine Veränderungen vorliegen: Metformin kann wieder begonnen werden. 
+
+Wenn das Serum-TSH abnormal ist, sollten die Schilddrüsenhormone (T3 und/oder T4) gemessen werden.
+
+:::
+
+
+
+## Kontrastmittel-induzierte Funktionsstörungen der Niere
+
+Der Begriff *Post-Kontrastmittel-akutes Nierenversagen* (PC-AKI) beschreibt eine meist vorübergehende Verschlechterung der Nierenfunktion *nach* intravaskulärer Gabe von Kontrastmitteln. Diese erreicht typischerweise nach 2–3 Tagen ihren Höhepunkt und normalisiert sich innerhalb von etwa 1–3 Wochen. Wie andere Formen des akuten Nierenversagens ist es ein Indikator für eine erhöhte kurz- und langfristige Morbidität, Mortalität und eine verlängerte Krankenhausverweildauer. @vanderMolenEtAl2018
+
+Die Inzidenz von (PC-AKI) ist schwer einzuschätzen, da Studien unterschiedliche Definitionen des akuten Nierenversagens (AKI) verwenden. 
+
+Die ESUR Leitlinie definiert eine (PC-AKI) als einen Anstieg des Serum-Kreatinins innerhalb von 48–72 Stunden nach intravaskulärer Kontrastmittelgabe um ≥ 0,3 mg/dl (≥ 26,5 μmol/l) oder um ≥ 1,5-fache des Ausgangswertes.@ThomsenMorcos2006
+
+Darüberhinaus beeinflussen variierende Applikationswege (intravenös oder intraarteriell), Dosierungen und Kontrastmitteltypen die angegebene Inzidenz erheblich. Zudem waren die eingeschlossenen Patientengruppen hinsichtlich Komorbiditäten und vorbestehender Nierenerkrankungen heterogen. @LatusEtAl2020
+
+Insgesamt wird die Inzidenz des (PC-AKI) in der Literatur vermutlich überschätzt. Zwei Metaanalysen mit insgesamt 19.000 Patienten, die intravenös Kontrastmittel erhielten, zeigten PC-AKI-Raten von 6,4 % (95 % CI 5,0–8,1) und 5,0 % (95 % CI 3,8–6,5). [@KooimanEtAl2012; @MoosEtAl2013] 
+Bei 1 % der Patienten blieb die Nierenfunktionsverschlechterung bis zu zwei Monate bestehen, während die gewichtete Inzidenz für eine erforderliche Nierenersatztherapie (RRT) lediglich 0,06 % betrug.[@KooimanEtAl2012; @vanderMolenEtAl2018]
+
+Der American College of Radiology-Ausschuss für Arznei- und Kontrastmittel vertritt den Standpunkt, dass PC-AKI eine echte, wenn auch seltene Entität ist und dass die veröffentlichten Studien zur PC-AKI stark durch Verzerrungen und Vermischungen belastet sind. @ACRCommitteeonDrugsandContrastMedia2013
+
+### Metformin
+
+Metformin ist *nicht* nephrotoxisch, wird jedoch über die Nieren ausgeschieden, wobei die Clearance ungefähr linear mit der glomerulären Filtrationsrate (GFR) korreliert. Es gibt daher zwei Situationen, in denen eine Metformin-Intoxikation auftreten kann: Versäumnis der Dosisreduktion bei Vorliegen einer chrnonischen Niereninsuffizienz und bei akute Niereninsuffizienz. @Heaf2014 
+
+Metformin führt dementsprechend nicht zu einem erhöhten Risiko einer PC-AKI. Allerdings können Patienten, die während der Einnahme von Metformin eine AKI entwickeln, anfällig für die Entwicklung einer Laktatazidose sein. @ACRCommitteeonDrugsandContrastMedia2013
+
+
+## Prävention 
+
+Laut ESUR-Leitlinie Bei intravenöser und intraarterieller Röntgenkontrastmittelapplikation mit renalem second-pass Effekt sollte der Patient entweder (a) mit intravenöser 1,4%iger Natriumbikarbonatlösung (alternativ 154 mmol/l in 5%iger Dextroselösung): 3 ml/kg/h über 1 Stunde vor Röntgenkontrastmittelgabe oder (b) mit intravenöser 0,9%iger Kochsalzlösung 1ml/kg/h über 3-4 Stunden vor und 4-6 Stunden nach der Untersuchung hydriert werden. @ThomsenMorcos2006
+
+
+
+## Kontrastmittel-induzierte Funktionsstörungen der Schilddrüse
+
+Jodhaltige Kontrastmittel (RöKM) kann Schilddrüsenfunktionsstörungen verursachen, sowohl **Hypothyreose**, als auch **Hyperthyreose**. Die meisten RöKM-bedingten Schilddrüsenstörungen sind **leicht und selbstlimitierend**, doch in einigen Fällen sind sie schwerwiegend genug, um einen medizinischen Eingriff zu erfordern.  [@BednarczukEtAl2021; @BednarczukEtAl2023]
+
+Bei einer typischen Kontrastmitteluntersuchung, wie zum Beispiel einer diagnostischen Herzkatheteruntersuchung werden etwa 80 ml eines nichtionischen RöKM appliziert. @RendlSaller2001 
+
+Während durch Jod hervorgerufene Hypothyreosen fast ausschließlich in ausreichend jodversorgten Ländern zu finden sind, tritt die jodinduzierte Hyperthyreose vornehmlich in Gebieten mit endemischem Jodmangel auf. @RendlSaller2001
+
+
+### Prävalenz
+
+Die Häufigkeit von RöKM-bedingten Schilddrüsenfehlfunktionen variiert und wird auf 1 % bis 15 % geschätzt, wobei die genauen Raten schwer zu bestimmen sind. @BednarczukEtAl2021 
+Von 5 Millionen Kontrastmitteluntersuchungen jährlich in Deutschland verursachen etwa 100 thyreotoxische Krisen, wovon 38 % durch Jodexposition ausgelöst werden.  @RendlSaller2001
+
+Die Häufigkeit, mit der eine jodinduzierte Hyperthyreose auftritt, hängt von einer Reihe von Faktoren ab @RendlSaller2001
+
+- Schweregrad des Jodmangels vor Jodexposition,
+- Ausmaß der Jodexposition,
+- Häufigkeit funktionell autonomer Zellen in der Schilddrüse,
+- Alter der Patienten.
+
+### Pathophysiology
+
+1. **Hyperthyreose**:
+
+- **Mechanismus**: In erster Linie auf das **Jod-Basedow-Phänomen** zurückzuführen, bei dem ein Jodüberschuss die Überproduktion von Schilddrüsenhormonen bei Patienten mit autonomer Schilddrüsenfunktion auslöst. @DunneEtAl2013
+- **Risikofaktoren**:
+- Noduläre Struma
+- Latente Basedow-Krankheit
+- Jodmangel 
+
+Das erhöhte Risiko bei Jodmangel resultiert aus der hohen Prävalenz von funktionell autonomem Schilddrüsengewebe, insbesondere heißen Knoten. @RendlSaller2001 
+Jodmangel scheint das Risiko einer multinodulären toxischen Struma zu erhöhen, indem er das Wachstum und die Mutagenese fördert, was zur Entwicklung von Clustern autonomer Thyreozyten führt.
+
+2. **Hypothyreose**:
+
+- **Mechanismus**: Verursacht durch den **Wolff-Chaikoff-Effekt**, bei dem ein Jodüberschuss zunächst die Schilddrüsenhormonproduktion hemmt. 
+Bei einigen Personen bleibt diese Hemmung bestehen und führt zu einer Hypothyreose. @BednarczukEtAl2021
+
+### Prävention 
+
+#### Labor 
+
+Die europäischen Leitlinien empfehlen kein generelles TSH-Screening vor jodhaltigen Kontrastmitteln. 
+Bei Risikopatienten (ältere, kardiovaskulär belastete) wird jedoch ein TSH-Test empfohlen. @BednarczukEtAl2021 Deutschland ist Jodmangelgebiet und in unsere Praxis werden häufig älteren, multimorbiden Patienten behandelt. Deutschland ist Jodmangelgebiet, und in unserer Praxis werden häufig ältere, multimorbide Patienten behandelt. Daher sollte bei allen Patienten vor Kontrastmittelgabe ein Serum-TSH-Wert vorliegen. Fehlt dieser, ist das keine harte Kontraindikation für die Gabe von RöKM; die Entscheidung liegt im ärztlichen Ermessen. Liegt das TSH im Normbereich, können die Werte bis zu 3 Monate alt sein. 
+
+![Deutschland ist Jodmangelgebiet](../Bilder/JodMangelDeutschland.jpg){#fig-Jodmangel}
+
+
+#### Medikamentöse Prophylaxe 
+
+:::{.callout-tip}
+
+Natriumperchlorat  (300 mg/ml) 
+
+ 40 gtt eine Stunde vor Untersuchung, dannach 
+ 20 gtt 1-1-1 für 14 Tagen 
+
+:::
+
+Bei etwa 2–5 % der Patienten verursachen langfristige Perchloratgaben leichte Nebenwirkungen wie Exantheme, Übelkeit, Erbrechen oder Gelenkschmerzen. Schwere Nebenwirkungen wie Leukopenie, Thrombopenie oder aplastische Anämie treten bei 0,1–0,5 % auf, besonders bei Tagesdosen über 1 g. Diese Raten gelten für die längere Therapie von Hyperthyreose mit Perchlorat, nicht für eine kurzfristige prophylaktische Gabe, für die keine Daten vorliegen. @RendlSaller2001
+
+
+## Literaturverzeichnis
