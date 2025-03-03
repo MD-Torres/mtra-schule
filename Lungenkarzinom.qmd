@@ -1,0 +1,16 @@
+---
+title: "Lungenkarzinom"
+author: "Jorge Torres"
+slide-format: revealjs
+bibliography: mta-schule.bib
+csl: american-medical-association.csl
+---
+
+Hier kannst Du die [Folien](LungePresentation/Lungenkrebs.html){target="_blank"} der Vortrag finden. 
+
+```{=html}
+
+<iframe class="slide-deck" src="LungePresentation/Lungenkrebs.html" style="width: 100%; height: 100vh;"></iframe>
+
+```
+
