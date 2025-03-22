@@ -1,0 +1,181 @@
+---
+title: "Rektum"
+format: 
+  html: 
+    fig-width: 8
+    fig.asp: 0.618
+slide-format: revealjs
+bibliography: mta-schule.bib
+csl: american-medical-association.csl
+execute:
+  warning: false
+crossref: 
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  sec-prefix: Abschnitt
+  fig-title: Abbildung
+  tbl-title: Tabelle
+---
+
+# Rektalkarzinom Strahlenonkologie SOP 
+
+Rektumkarzinome sind Tumoren, deren aboraler Rand bei der Messung mit dem starren Rektoskop **16 cm oder weniger** von der **Anokutanlinie** entfernt sind (USA >12cm ab ano = Kolonkarzinome). @DeutscheKrebsgesellschaftEtAl2019
+
+## Spreechstunde 
+
+### Erforderliche Elemente der Krankengeschichte
+
+### Schwerpunktbereiche der körperlichen Untersuchung
+
+### Dokumentation des Leistungsstatus (ECOG/KPS)
+
+### Dokumentation früherer Behandlungen (Operation, Chemotherapie)
+
+### Diagnostik 
+
+Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor. 
+- Leber 15%
+- Lungen 4%
+
+Bei etwa 30% aller kolorektaler Karzinome ist der Tumormarker CEA zum Zeitpunkt der Erstdiagnose erhöht.Insbesondere in der Tumornachsorge ist dieser Tumormarker ein zuverlässiger Hinweis auf ein Rezidiv. Als weitere Tumormarker werden CA 19-9 und CA 125 diskutiert, wobei letzterer ein Marker der Peritonealkarzinose ist.
+
+
+#### Obligatorische Untersuchungen
+
+##### Starre Rektoskopie
+
+Beim Rektumkarzinom sollte die starre Rektoskopie mit Höhenangabe des Tumorunterrandes obligater Bestandteil der präoperativen Diagnostik sein. @DeutscheKrebsgesellschaftEtAl2019 
+
+##### MRT
+
+Die Befundbeschreibung soll eine Aussage über den Abstand zur mesorektalen Faszie beinhalten. @DeutscheKrebsgesellschaftEtAl2019 
+
+
+##### Endosonographie 
+
+Im Falle eines mutmaßlichen T1-Karzinoms eine Endosonographie, hier ist die CT nicht geeignet. 
+Bei der Differenzierung von T2 und T3-Karzinomen wies die Endosonographie wiederum eine höhere Sensitivität im Vergleich zu MRT und CT auf bei vergleichbarer Spezifität. In der Endosonographie lässt sich die mesorektale Faszie nicht darstellen. @DeutscheKrebsgesellschaftEtAl2019 
+
+
+##### Laut S3 Leitlinie beinhaltet das Staging folgende Untersuchungen @DeutscheKrebsgesellschaftEtAl2019 : 
+
+- Starre Rektoskopie
+- Komplette Koloskopie  
+- CEA-Wert (sollte präoperativ bestimmt werden)
+- Abdomensonographie (primär zur Klärung von Lebermetastasen)
+- Rö-Thorax (2 Ebenen)
+  - Im Falle eines unklaren Befundes oder des Verdachtes auf Fernmetastasen oder Infiltration von Nachbarorganen oder umgebende Strukturen soll
+ein Mehrzeilen-CT des Abdomens und Beckens erfolgen bzw: 
+  - Bei Verdacht auf Lungenmetastasen ein CT des Thorax
+
+- MR (CT)-Becken mit Angabe Abstand des Tumors zur mesorektalen Faszie 
+- Rektale Endosonographie bei lokal begrenztem Tumor
+
+
+##### CT Abdomen/Becken mit IV-Kontrastmittel
+
+##### PET-CT 
+
+bei lokal fortgeschrittener Erkrankung
+
+### Anforderungen an die Histopathologie
+
+#### Adenokarzinom-Subtyp-Klassifikation
+#### Grad der Tumordifferenzierung
+#### MMR/MSI-Status
+#### KRAS/NRAS/BRAF-Mutationsstatus
+
+### Entfernung vom Analrand
+
+Die präoperative Messung der Höhenangabe des Tumors mit dem flexiblen Endoskop ist unzuverlässig. 
+Zuverlässiger sind die **Höhenangaben mit dem starren Rektoskop.** @DeutscheKrebsgesellschaftEtAl2019
+Dementsprechend werden letztere dokumetiert. Ab Anokutanlinie:  
+
+- oberes Rektumdrittels (12 - 16 cm)
+- mittleres Rektumdrittels (6 - <12 cm)
+- unteres Rektumdrittels (< 6 cm) unterteilt
+
+
+
+### Staging Dokumentation
+
+#### Dokumentation des TNM-Stagings (AJCC 8. Auflage)
+#### MRT-basierte Beurteilung der mesorektalen Faszie
+#### Status der extramuralen Gefäßinvasion (EMVI)
+#### Status des zirkumferentiellen Resektionsrandes (CRM)
+#### Bewertung der seitlichen Beckenknoten
+
+### Rechtfertigende Indikation 
+
+#### Stadium I (cT1-2N0)
+
+##### Neoadjuvante vs. Upfront-Chirurgie
+
+Bei T1-High-Risk-Karzinomen (G3/4 u./o. Lymphgefäßinvasion) und bei T2 Karzinomen liegt das Auftreten von Lymphknotenmetastasen bei 10–20%, sodass die alleinige lokale Exzision nicht empfohlen werden kann.
+
+Dahingengend haben Rektumkarzinome im UICC-Stadium I (T1/2N0)  nach alleiniger radikaler Operation mit adäquater totaler mesorektaler Exzision (TME) für Tumoren im unteren/mittleren Drittel sowie partieller mesorektaler Exzision (PME) für Tumoren im oberen Rektumdrittel niedrige Lokalrezidiv- und Fernmetastasenraten (3 % Lokalrezidive bzw. weniger als 10 % Fernmetastasen nach 10 Jahren. 
+
+Dementsprechend soll bei Tumore in UICC-Stadium I (cT1-2N0) eine präoperative Therapie nicht durchgeführt werden. @DeutscheKrebsgesellschaftEtAl2019 
+
+##### Tiefsitzenden T1N0-high-risk Tumore
+
+Für Patienten mit tiefsitzenden T1N0-high-risk (G3/4, L1, V1, Durchmesser größer 3 cm, sm3) oder T2N0-Tumoren, die eine Exstirpation ablehnen, ist die Radio(chemo-) therapie, gefolgt von lokaler Exzision/transanaler endoskopischer Mikrochirurgie oder einer wait-and-see Strategie bei klinisch kompletter Remission eine Behandlungsoption @DeutscheKrebsgesellschaftEtAl2019 
+
+#### Stadium II/III (cT3/4 und/oder cN+)
+
+##### Tumoren des unteren und mittleren Rektumdrittels
+
+Eine neoadjuvante Radiochemotherapie oder KurzzeitRadiotherapie soll erfolgen.@DeutscheKrebsgesellschaftEtAl2019 
+
+
+### Verordnung
+
+
+#### Kurzzeitige vs. langzeitige RT
+#### Kandidaten für neoadjuvante Therapie insgesamt
+#### Kurzzeitige RT (5×5 Gy)
+#### Langfristige CRT (45-50,4 Gy)
+#### Boost-Protokolle für lokal fortgeschrittene Erkrankungen
+
+
+## Gerätearzt
+
+Behandlung von radiogener Toxizitäten
+
+Kriterien für die Unterbrechung/Modifikation der Behandlung
+
+## Gleichzeitige systemische Therapie
+Spezifikationen des Chemotherapieschemas
+Capecitabin-Dosierung
+Protokolle für die kontinuierliche 5-FU-Infusion
+Anforderungen an die Laborüberwachung
+Kriterien für Dosisänderungen bei Toxizitäten
+
+## Bewertung des Ansprechens auf die Behandlung
+
+Durch die neoadjuvante Radiochemotherapie und entsprechende Remission kann u. U. trotz primär nicht für möglich gehaltenen Sphinktererhaltes eine Schließmuskel erhaltende Rektumresektion möglich werden. 
+Deshalb sollte diesbezüglich frühestens 6 Wochen nach Abschluss der Radiochemotherapie eine Reevaluation stattfinden. @DeutscheKrebsgesellschaftEtAl2019
+
+Zeitplan für die Bildgebung nach der Behandlung
+MRT-Interpretationskriterien für das Ansprechen
+Vollständiges Protokoll zur Bewertung des klinischen Ansprechens
+
+### Kriterien für die Zulässigkeit des Watch-and-Wait-Protokolls
+
+Voraussetzung ist die gründliche Aufklärung über die noch unzureichende Validierung dieses Vorgehens und die Bereitschaft des Patienten, sich einer sehr engmaschigen mindestens 5-jährigen Nachsorge zu unterziehen. @DeutscheKrebsgesellschaftEtAl2019
+
+## Nachsorge
+Häufigkeit der Überwachungsbilder
+Anforderungen an Laboruntersuchungen
+Zeitplan für die körperliche Untersuchung
+Leitlinien für die Überwachung der Spättoxizität
+
+
+
+10. Anforderungen an die Dokumentation
+Elemente für wöchentliche Kontrollbesuche während der Behandlung
+Komponenten der Zusammenfassung am Ende der Behandlung
+Standards für die Dokumentation der Nachbeobachtung
+Einstufung der Toxizität und Berichterstattung (CTCAE v5.0)
+
+
