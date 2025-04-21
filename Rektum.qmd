@@ -107,6 +107,8 @@ Dementsprechend werden letztere dokumetiert. Ab Anokutanlinie:
 
 ### Rechtfertigende Indikation 
 
+In Folge werden Kandidaten für neoadjuvante Therapie erleutert. 
+
 #### Stadium I (cT1-2N0)
 
 ##### Neoadjuvante vs. Upfront-Chirurgie
@@ -127,15 +129,44 @@ Für Patienten mit tiefsitzenden T1N0-high-risk (G3/4, L1, V1, Durchmesser grö�
 
 Eine neoadjuvante Radiochemotherapie oder KurzzeitRadiotherapie soll erfolgen.@DeutscheKrebsgesellschaftEtAl2019 
 
+**Ausnahmen @DeutscheKrebsgesellschaftEtAl2019 :**
+
+- cT1/2-Tumore im unteren und mittleren Drittel mit bildgebend fraglichen Lymphknotenbefall.
+- cT3a/b-Tumore im mittleren Drittel mit in der MRT nur limitierter Infiltration ins perirektale Fettgewebe (cT3a: <1 mm, cT3b: 1-5 mm) und ohne bildgebenden Verdacht auf Lymphknotenmetastasen oder extra-muraler Gefäßinvasion (EMVI-) bei adäquater Qualitätssicherung der MRT-Diagnostik und der TME-Chirurgie.
+
+##### Tumore im oberen Rektumdrittel
+
+Rektumkarzinome im oberen Drittel ohne Risikokonstellation für ein Lokal-rezidiv sollen primär operiert. Jedoch eine präoperative Radio-/ Radiochemotherapie ***kann***, Bei einer Risikokonstellation, 
+erfolgen @DeutscheKrebsgesellschaftEtAl2019 z.B.:
+
+- T4 
+- mrCRM+
+- bildgebend eindeutiger und ausgedehnter Lymphknotenbefall 
 
 ### Verordnung
 
 
 #### Kurzzeitige vs. langzeitige RT
-#### Kandidaten für neoadjuvante Therapie insgesamt
+
+Die neoadjuvante Radiotherapie kann entweder als Kurzzeitbestrahlung mit 5 x 5 Gy gefolgt von sofortiger Operation oder als konventionell fraktionierte Radiochemotherapie (1.8-2.0 Gy bis 45-50.4 Gy) mit einem Intervall von 6-8 Wochen bis zur Operation erfolgen. @DeutscheKrebsgesellschaftEtAl2019
+
+
 #### Kurzzeitige RT (5×5 Gy)
-#### Langfristige CRT (45-50,4 Gy)
+
+Für Patienten bei denen ein Downsizing angestrebt ist, kann auch die Kurzzeitbestrahlung mit längerem Intervall bis zu 12 Wochen zur Operation (mit und ohne neoadjuvante Chemotherapie) durchgeführt werden.
+
+#### konventionelle CRT (45-50,4 Gy)
+
+Eine konventionelle präoperative Radiochemotherapie **soll** in folgenden Fällen durchgeführt werden @DeutscheKrebsgesellschaftEtAl2019 :
+
+- T4-Tumoren
+- Nähe des Tumors zur mesorektalen Fazie (<1-2 mm)
+- tiefliegenden Tumoren mit intendiertem Sphinktererhalt 
+
 #### Boost-Protokolle für lokal fortgeschrittene Erkrankungen
+
+
+
 
 
 ## Gerätearzt
@@ -172,10 +203,11 @@ Leitlinien für die Überwachung der Spättoxizität
 
 
 
-10. Anforderungen an die Dokumentation
+## Anforderungen an die Dokumentation
 Elemente für wöchentliche Kontrollbesuche während der Behandlung
 Komponenten der Zusammenfassung am Ende der Behandlung
 Standards für die Dokumentation der Nachbeobachtung
 Einstufung der Toxizität und Berichterstattung (CTCAE v5.0)
 
-
+## Wichtige Studien 
+CAO/ARO/AIO-94
