@@ -18,11 +18,46 @@ crossref:
   tbl-title: Tabelle
 ---
 
+# Was ist die Prostata 
+
+Die Prostata ist eine ca. vier Zentimeter große walnussförmige Drüse. Sie sitzt direkt unterhalb der Harnblase und umschließt dort ringförmig die Harnröhre, die den Urin von der Blase durch die Prostata und den Penis bis zur Eichel leitet. An der Rückseite grenzt sie an den Enddarm (Rektum). Im Bereich der Prostata laufen also Harn- und Samenwege zusammen. @zotero-4807
+
+Bei einem zwanzigjährigen Mann wiegt die Prostata etwa 20 Gramm. Ihr Gewicht nimmt im Laufe des Lebens zu und kann auf über 100 Gramm anwachsen.
+
+Die Prostata lässt sich in drei verschiedene Zonen einteilen, die hier **von innen nach außen** aufgeführt sind und die Harnröhre wie Schichten einer Zwiebel umschließen: @2022a
+
+- **Die Übergangszone** befindet sich auf der Innenseite der Drüse und ist der kleinste Teil der Prostata (etwa 10 %). Sie umgibt die Harnröhre zwischen der Harnblase und dem oberen Drittel der Harnröhre.
+
+- **Die zentrale Zone** umgibt die Übergangszone und macht etwa ein Viertel der Gesamtmasse der Prostata aus. Hier befindet sich der gemeinsame Ausführungsgang der Prostata, des Samenleiters und der Samenblasen. Dieser Gang wird auch als Ejakulationsgang (Ductus ejaculatorius) bezeichnet.
+
+- **Die periphere Zone** stellt den Hauptteil der Prostata dar - etwa 70 % der Gewebemasse sind Teil der peripheren Zone.
+
+![Anatomie der Prostata @AliEtAl2022](Bilder/ProstataZones.png)
+
+## Funktion 
+
+Die Hauptfunktion der Prostata besteht darin, einen Teil der Samenflüssigkeit zu produzieren, welche die Samenzellen (Spermien) transportiert. Ein weiterer Teil der Samenflüssigkeit wird in den beiden Samenblasen produziert, die der Prostata außen aufliegen. Weitere Funktionen sind: 
+
+- **Verschluss der Harnröhre bis zur Blase während des Samenergusses:** Bei der Ejakulation verschließen die Prostata und der Schließmuskel der Blase die Harnröhre bis zur Blase, um zu verhindern, dass Sperma in die Blase gelangt.
+
+- **Verschluss der Samenleiter beim Wasserlassen:** Beim Wasserlassen verschließt die Zentralzonenmuskulatur die Ausführungsgänge der Prostata, so dass kein Urin eintreten kann.
+
+- **Hormonstoffwechsel:** In der Prostata wird das männliche Sexualhormon Testosteron in eine biologisch aktive Form, DHT (Dihydrotestosteron), umgewandelt.
+
+Wachstum und Funktion der Prostata werden vom männlichen Geschlechtshormon Testosteron gesteuert, das hauptsächlich in den Hoden (Testes) — zu einem geringen Teil aber auch in den Nebennieren — gebildet wird. 
+Ohne die Stimulation durch das Hormon bleibt die Drüse unterentwickelt und bildet kein Sekret.
+
+Die Tatsache, dass die Prostata dem Einfluss von Testosteron unterliegt, kann zur Behandlung des Prostatakrebses genutzt werden.
+
+In der Vorsteherdrüse wird neben der Samenflüssigkeit eine Substanz namens PSA, kurz für Prostata-spezifisches Antigen, gebildet. Sie ist nicht nur in der Samenflüssigkeit, sondern auch im Blut nachweisbar. PSA spielt eine Schlüsselrolle bei der Früherkennung von Prostatakrebs, da bei Prostatakrebs der PSA-Blutwert erhöht sein kann.
+
+
+
 # Tumorausdehnung 
 
 Die Stadien T1-2 N0 M0 werden unter der Bezeichnung lokal begrenztes Prostatakarzinom zusammengefasst. 
 Das lokal fortgeschrittene Prostatakarzinom umfasst die Stadien T3-4 N0 M0. 
-Die Stadien N1und/oder M1 werden als fortgeschrittenes bzw. metastasiertes Prostatakarzinom bezeichnet. @DeutscheKrebsgesellschaftEtAl2024
+Die Stadien N1 und/oder M1 werden als fortgeschrittenes bzw. metastasiertes Prostatakarzinom bezeichnet. @DeutscheKrebsgesellschaftEtAl2024
 
 
 | Stadium                     | Beschreibung                            |
@@ -142,5 +177,12 @@ Patienten mit einem unilateralen, lokal begrenzten Prostatakarzinom niedrigen Ri
 
 Patienten mit einem Prostatakarzinom des hohen Risikoprofils, die eine radikale Prostatektomie wünschen, sollen über das erhöhte Risiko für positive Resektionsränder und für ein Krankheitsrezidiv sowie die daraus häufig resultierenden zusätzlich notwendigen Maßnahmen (z. B. hormonablative Therapie, Strahlentherapie) aufgeklärt werden. @DeutscheKrebsgesellschaftEtAl2024
 
+Hier kannst Du die [Folien](ProstataPresentation/mtra-Krebserkrankungen.html){target="_blank"} der Vortrag finden. 
 
+
+```{=html}
+
+<iframe class="slide-deck" src="ProstataPresentation/mtra-Krebserkrankungen.html" style="width: 100%; height: 100vh;"></iframe>
+
+```
 

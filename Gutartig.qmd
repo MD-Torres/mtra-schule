@@ -17,6 +17,13 @@ crossref:
   fig-title: Abbildung
   tbl-title: Tabelle
 ---
+Hier kannst Du die [Folien](GutartigPresentation/Gutartig.html){target="_blank"} der Vortrag finden. 
+
+```{=html}
+
+<iframe class="slide-deck" src="GutartigPresentation/Gutartig.html" style="width: 100%; height: 100vh;"></iframe>
+
+```
 
 # Einführung
 
