@@ -45,7 +45,7 @@ Du wirst das Krankheitsbild des Mammakarzinoms in seiner typischen Form, einschl
 [Mehr erfahren »](KMGabe.qmd)
 :::
 
-
+:::
 
 ::: {.feature}
 # Gutartiger Erkrankungen 
