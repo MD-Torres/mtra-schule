@@ -36,7 +36,7 @@ Der Begriff *Post-Kontrastmittel-akutes Nierenversagen* (PC-AKI) beschreibt eine
 
 Die Inzidenz von (PC-AKI) ist schwer einzuschätzen, da Studien unterschiedliche Definitionen des akuten Nierenversagens (AKI) verwenden. 
 
-Die ESUR Leitlinie definiert eine (PC-AKI) als einen Anstieg des Serum-Kreatinins innerhalb von 48–72 Stunden nach intravaskulärer Kontrastmittelgabe um ≥ 0,3 mg/dl (≥ 26,5 μmol/l) oder um ≥ 1,5-fache des Ausgangswertes.@ThomsenMorcos2006
+Die ESUR Leitlinie definiert eine (PC-AKI) als einen Anstieg des Serum-Kreatinins innerhalb von 48–72 Stunden nach intravaskulärer Kontrastmittelgabe um ≥ 0,3 mg/dl (≥ 26,5 μmol/l) oder um ≥ 1,5-fache des Ausgangswertes. @ThomsenMorcos2006
 
 Darüberhinaus beeinflussen variierende Applikationswege (intravenös oder intraarteriell), Dosierungen und Kontrastmitteltypen die angegebene Inzidenz erheblich. Zudem waren die eingeschlossenen Patientengruppen hinsichtlich Komorbiditäten und vorbestehender Nierenerkrankungen heterogen. @LatusEtAl2020
 
@@ -47,39 +47,41 @@ Der American College of Radiology-Ausschuss für Arznei- und Kontrastmittel vert
 
 ### Metformin
 
-Metformin ist *nicht* nephrotoxisch, wird jedoch über die Nieren ausgeschieden, wobei die Clearance ungefähr linear mit der glomerulären Filtrationsrate (GFR) korreliert. Es gibt daher zwei Situationen, in denen eine Metformin-Intoxikation auftreten kann: Versäumnis der Dosisreduktion bei Vorliegen einer chrnonischen Niereninsuffizienz und bei akute Niereninsuffizienz.@Heaf2014 
+Metformin ist *nicht* nephrotoxisch, wird jedoch über die Nieren ausgeschieden, wobei die Clearance ungefähr linear mit der glomerulären Filtrationsrate (GFR) korreliert. Es gibt daher zwei Situationen, in denen eine Metformin-Intoxikation auftreten kann: Versäumnis der Dosisreduktion bei Vorliegen einer chrnonischen Niereninsuffizienz und bei akute Niereninsuffizienz. @Heaf2014 
 
 Metformin führt dementsprechend nicht zu einem erhöhten Risiko einer PC-AKI. Allerdings können Patienten, die während der Einnahme von Metformin eine AKI entwickeln, anfällig für die Entwicklung einer Laktatazidose sein. @ACRCommitteeonDrugsandContrastMedia2013
 
 
 ## Prävention 
 
-Laut ESUR-Leitlinie Bei intravenöser und intraarterieller Röntgenkontrastmittelapplikation mit renalem second-pass Effekt sollte der Patient entweder (a) mit intravenöser 1,4%iger Natriumbikarbonatlösung (alternativ 154 mmol/l in 5%iger Dextroselösung): 3 ml/kg/h über 1 Stunde vor Röntgenkontrastmittelgabe oder (b) mit intravenöser 0,9%iger Kochsalzlösung 1ml/kg/h über 3-4 Stunden vor und 4-6 Stunden nach der Untersuchung hydriert werden. @ThomsenMorcos2006
+Laut ESUR-Leitlinie Bei intravenöser und intraarterieller Röntgenkontrastmittelapplikation mit renalem second-pass Effekt sollte der Patient entweder 
+
+  (a) mit intravenöser 1,4%iger Natriumbikarbonatlösung (alternativ 154 mmol/l in 5%iger Dextroselösung): 3 ml/kg/h über 1 Stunde vor Röntgenkontrastmittelgabe oder 
+
+  (b) mit intravenöser 0,9%iger Kochsalzlösung 1ml/kg/h über 3-4 Stunden vor und 4-6 Stunden nach der Untersuchung hydriert werden. @ThomsenMorcos2006
 
 
 
 ## Kontrastmittel-induzierte Funktionsstörungen der Schilddrüse
 
-Jodhaltige Kontrastmittel (RöKM) kann Schilddrüsenfunktionsstörungen verursachen, sowohl **Hypothyreose**, als auch **Hyperthyreose**. Die meisten RöKM-bedingten Schilddrüsenstörungen sind **leicht und selbstlimitierend**, doch in einigen Fällen sind sie schwerwiegend genug, um einen medizinischen Eingriff zu erfordern.  [@BednarczukEtAl2021; @BednarczukEtAl2023]
+Jodhaltige Kontrastmittel (RöKM) kann Schilddrüsenfunktionsstörungen verursachen, sowohl **Hypothyreose**, als auch **Hyperthyreose**. 
 
-Bei einer typischen Kontrastmitteluntersuchung, wie zum Beispiel einer diagnostischen Herzkatheteruntersuchung werden etwa 80 ml eines nichtionischen RöKM appliziert. @RendlSaller2001 
+In Daten aus dem Partners Health-Care Research Patient Data Registry (USA) war die ICM-Exposition mit dem Auftreten einer Hyperthyreose (definiert als ein supprimiertes TSH <0,1 mIU/L; **Odds Ratio [OR], 2,50**; 95% CI, 1,065,93) und mit dem Auftreten einer Hypothyreose (definiert als erhöhtes Serum-TSH >10 mIU/L; **OR, 3,05**; 95% CI, 1,078,72) verbunden. @BednarczukEtAl2021
+
+Die meisten RöKM-bedingten Schilddrüsenstörungen sind **leicht und selbstlimitierend**, doch in einigen Fällen sind sie schwerwiegend genug, um einen medizinischen Eingriff zu erfordern.  [@BednarczukEtAl2021; @BednarczukEtAl2023]
 
 Während durch Jod hervorgerufene Hypothyreosen fast ausschließlich in ausreichend jodversorgten Ländern zu finden sind, tritt die jodinduzierte Hyperthyreose vornehmlich in Gebieten mit endemischem Jodmangel auf. @RendlSaller2001
 
+### Pathophysiologie
 
-### Prävalenz
+Die Schilddrüse verfügt über einen intrinsischen Regulationsmechanismus zur Aufrechterhaltung einer normalen Schilddrüsenfunktion in Gegenwart von Jodüberschuss (Der Wolff-Chaikoff-Effekt). Am ersten Tag der Jodbelastung transportiert der Natrium-Jodid-Symporter das überschüssige Jod in die Schilddrüse, das erhöhten intrathyreoidalen Jod  führt zu einer vorübergehenden Hemmung der Schilddrüsenperoxidase (TPO) und zu einem Rückgang der Schilddrüsenhormonsynthese. 
 
-Die Häufigkeit von RöKM-bedingten Schilddrüsenfehlfunktionen variiert und wird auf 1 % bis 15 % geschätzt, wobei die genauen Raten schwer zu bestimmen sind. @BednarczukEtAl2021 
-Von 5 Millionen Kontrastmitteluntersuchungen jährlich in Deutschland verursachen etwa 100 thyreotoxische Krisen, wovon 38 % durch Jodexposition ausgelöst werden.  @RendlSaller2001
+Ein dramatischer Rückgang der Expression des Natriumiodid-Symporters führt zu einem verringerten Jodtransport und der anschließenden Wiederaufnahme der Schilddrüsenhormonsynthese. @PramyothinEtAl2011
 
-Die Häufigkeit, mit der eine jodinduzierte Hyperthyreose auftritt, hängt von einer Reihe von Faktoren ab @RendlSaller2001
+Das wichtigste Ereignis bei der Entwicklung einer Kontrastmittel-induzierte Hyperthyreose ist die Autonomie der Schilddrüsenfunktion. Es wird allgemein angenommen, dass diese Autonomie durch Mutationen entsteht, insbesondere in Drüsen, die chronisch durch TSH stimuliert wurden (auf dem Boden von Jodmangel). Die Autonomie kann in der Schilddrüse in Form von lokalisierten, aber nicht umschriebenen Herden oder häufiger in Form von Knötchen auftreten. @STANBURYEtAl1998
 
-- Schweregrad des Jodmangels vor Jodexposition,
-- Ausmaß der Jodexposition,
-- Häufigkeit funktionell autonomer Zellen in der Schilddrüse,
-- Alter der Patienten.
+Jodmangel führt zudem zu einer Follikelhyperplasie, nachfolgend entziehen sich diese Bezirke dem hypophysären Regelkreis. @GreiveEtAl2003
 
-### Pathophysiology
 
 1. **Hyperthyreose**:
 
@@ -89,20 +91,36 @@ Die Häufigkeit, mit der eine jodinduzierte Hyperthyreose auftritt, hängt von e
 - Latente Basedow-Krankheit
 - Jodmangel 
 
-Das erhöhte Risiko bei Jodmangel resultiert aus der hohen Prävalenz von funktionell autonomem Schilddrüsengewebe, insbesondere heißen Knoten. @RendlSaller2001 
-Jodmangel scheint das Risiko einer multinodulären toxischen Struma zu erhöhen, indem er das Wachstum und die Mutagenese fördert, was zur Entwicklung von Clustern autonomer Thyreozyten führt.
 
 2. **Hypothyreose**:
 
-- **Mechanismus**: Verursacht durch den **Wolff-Chaikoff-Effekt**, bei dem ein Jodüberschuss zunächst die Schilddrüsenhormonproduktion hemmt. 
-Bei einigen Personen bleibt diese Hemmung bestehen und führt zu einer Hypothyreose. @BednarczukEtAl2021
+- **Mechanismus**: Verursacht durch den **Wolff-Chaikoff-Effekt**, bei dem ein Jodüberschuss zunächst die Schilddrüsenhormonproduktion hemmt. Bei einigen Personen bleibt diese Hemmung bestehen und führt zu einer Hypothyreose. @BednarczukEtAl2021
+
+
+### Prävalenz
+
+Die Häufigkeit von RöKM-bedingten Schilddrüsenfehlfunktionen variiert und wird auf 1 % bis 15 % geschätzt, wobei die genauen Raten schwer zu bestimmen sind. @BednarczukEtAl2021 
+
+Bei 5 Millionen Kontrastmitteluntersuchungen jährlich in Deutschland tretten etwa **100 thyreotoxische Krisen** im gleichen Zeitraum auf, wovon 38 % durch Jodexposition ausgelöst werden (0,00076% -0,002%).  @RendlSaller2001
+
+Die Häufigkeit, mit der eine jodinduzierte Hyperthyreose auftritt, hängt von einer Reihe von Faktoren ab @RendlSaller2001
+
+- Schweregrad des Jodmangels vor Jodexposition,
+- Ausmaß der Jodexposition,
+- Häufigkeit funktionell autonomer Zellen in der Schilddrüse,
+- Alter der Patienten.
+
+In einer großen prospektiven Studie in Italien hatten 7,2 % der Patienten ohne bekannte Schilddrüsenerkrankung vor einer elektiven Koronarangiographie eine Hyperthyreose (überwiegend subklinisch). @BednarczukEtAl2021
+
 
 ### Prävention 
 
 #### Labor 
 
 Die europäischen Leitlinien empfehlen kein generelles TSH-Screening vor jodhaltigen Kontrastmitteln. 
-Bei Risikopatienten (ältere, kardiovaskulär belastete) wird jedoch ein TSH-Test empfohlen. @BednarczukEtAl2021 Deutschland ist Jodmangelgebiet und in unsere Praxis werden häufig älteren, multimorbiden Patienten behandelt. Deutschland ist Jodmangelgebiet, und in unserer Praxis werden häufig ältere, multimorbide Patienten behandelt. Daher sollte bei allen Patienten vor Kontrastmittelgabe ein Serum-TSH-Wert vorliegen. Fehlt dieser, ist das keine harte Kontraindikation für die Gabe von RöKM; die Entscheidung liegt im ärztlichen Ermessen. Liegt das TSH im Normbereich, können die Werte bis zu 3 Monate alt sein. 
+Bei Risikopatienten (ältere, kardiovaskulär belastete) wird jedoch ein TSH-Test empfohlen. @BednarczukEtAl2021
+
+Deutschland ist Jodmangelgebiet und in unsere Praxis werden häufig älteren, multimorbiden Patienten behandelt. Daher sollte bei allen Patienten vor Kontrastmittelgabe ein Serum-TSH-Wert vorliegen. Fehlt dieser, ist das keine harte Kontraindikation für die Gabe von RöKM; die Entscheidung liegt im ärztlichen Ermessen. Liegt das TSH im Normbereich, können die Werte bis zu 3 Monate alt sein. 
 
 ![Deutschland ist Jodmangelgebiet](Bilder/JodMangelDeutschland.jpg){#fig-Jodmangel}
 
@@ -119,6 +137,5 @@ Natriumperchlorat  (300 mg/ml)
 :::
 
 Bei etwa 2–5 % der Patienten verursachen langfristige Perchloratgaben leichte Nebenwirkungen wie Exantheme, Übelkeit, Erbrechen oder Gelenkschmerzen. Schwere Nebenwirkungen wie Leukopenie, Thrombopenie oder aplastische Anämie treten bei 0,1–0,5 % auf, besonders bei Tagesdosen über 1 g. Diese Raten gelten für die längere Therapie von Hyperthyreose mit Perchlorat, nicht für eine kurzfristige prophylaktische Gabe, für die keine Daten vorliegen. @RendlSaller2001
-
 
 ## Literaturverzeichnis
