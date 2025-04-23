@@ -66,7 +66,7 @@ Laut ESUR-Leitlinie Bei intravenöser und intraarterieller Röntgenkontrastmitte
 
 Jodhaltige Kontrastmittel (RöKM) kann Schilddrüsenfunktionsstörungen verursachen, sowohl **Hypothyreose**, als auch **Hyperthyreose**. 
 
-In Daten aus dem Partners Health-Care Research Patient Data Registry (USA) war die ICM-Exposition mit dem Auftreten einer Hyperthyreose (definiert als ein supprimiertes TSH <0,1 mIU/L; **Odds Ratio [OR], 2,50**; 95% CI, 1,065,93) und mit dem Auftreten einer Hypothyreose (definiert als erhöhtes Serum-TSH >10 mIU/L; **OR, 3,05**; 95% CI, 1,078,72) verbunden. @BednarczukEtAl2021
+In Daten aus dem Partners Health-Care Research Patient Data Registry (USA) war die ICM-Exposition mit dem Auftreten einer Hyperthyreose (definiert als ein supprimiertes TSH <0,1 mIU/L; **Odds Ratio [OR], 2,50**; 95% CI, 1,06-5,93) und mit dem Auftreten einer Hypothyreose (definiert als erhöhtes Serum-TSH >10 mIU/L; **OR, 3,05**; 95% CI, 1,07-8,72) verbunden. @BednarczukEtAl2021
 
 Die meisten RöKM-bedingten Schilddrüsenstörungen sind **leicht und selbstlimitierend**, doch in einigen Fällen sind sie schwerwiegend genug, um einen medizinischen Eingriff zu erfordern.  [@BednarczukEtAl2021; @BednarczukEtAl2023]
 
