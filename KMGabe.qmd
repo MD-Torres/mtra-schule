@@ -131,6 +131,16 @@ Deutschland ist Jodmangelgebiet und in unsere Praxis werden häufig älteren, mu
 
 ![Deutschland ist Jodmangelgebiet](Bilder/JodMangelDeutschland.jpg){#fig-Jodmangel}
 
+#### Stufendiagnostik
+
+Zu Beginn der laboratoriumsmedizinischen Diagnostik sollte die Bestimmung der TSH-Konzentration erfolgen. Bei einer TSH-Konzentration im Referenzbereich erfolgt keine weitere Diagnostik. 
+
+Bei einer TSH-Konzentrationen außerhalb vom Referenzbereich schließt sich in einer zweiten Stufe die Konzentrationsbestimmung von freiem (F) T4 und FT3 an.
+
+Diese Stufendiagnostik erfolgt automatisch im Labor. s. @fig-stufen
+
+![Die Untersuchung  auf eine Schilddrüsenfunktionsstörung erfolgt als "Stufendiagnostik"](Bilder/stufendiagnostik.jpeg){#fig-stufen}
+
 
 #### Medikamentöse Prophylaxe 
 
