@@ -27,6 +27,8 @@ bei eGFR < 30 ml/min Metformin ab dem Zeitpunkt der KM-Applikation absetzen. Nac
 
 Wenn das Serum-TSH abnormal ist, sollten die Schilddrüsenhormone (T3 und/oder T4) gemessen werden.
 
+s. @fig-stufen
+
 :::
 
 
@@ -79,7 +81,7 @@ Die Schilddrüse verfügt über einen intrinsischen Regulationsmechanismus zur A
 Ein dramatischer Rückgang der Expression des Natriumiodid-Symporters führt wiederum zu einem verringerten Jodtransport und der anschließenden Wiederaufnahme der Schilddrüsenhormonsynthese. @PramyothinEtAl2011
 
 
-![A) Vorgeschlagenes Mechanismus für den akuten Wolff-Chaikoff-Effekt. Am ersten Tag der Jod-Exposition transportiert der Natrium-Jodid-Symporter das überschüssige Jod in die Schilddrüse, was zu einer vorübergehenden Hemmung der Schilddrüsenperoxidase (TPO) und einem Rückgang der Schilddrüsenhormonsynthese führt. B) Der akuten Wolff-Chaikoff-Effekt wird ausschaltet: Ein drastischer Rückgang der Expression des Natriumiodid-Symporters führt zu einem verringerten Jodtransport und der anschließenden Wiederaufnahme der Schilddrüsenhormonsynthese. DIT steht für Diiodotyrosin, I-Jodid, MIT für Monoiodotyrosin, T3 für Trijodthyronin und T4 für Thyroxin.](Bilder/wolff-chaikoff.png){#fig-wolffchaikoff}
+![A) Vorgeschlagenes Mechanismus für den akuten Wolff-Chaikoff-Effekt. Am ersten Tag der Jod-Exposition transportiert der Natrium-Jodid-Symporter das überschüssige Jod in die Schilddrüse, was zu einer vorübergehenden Hemmung der Schilddrüsenperoxidase (TPO) und einem Rückgang der Schilddrüsenhormonsynthese führt. B) Der akuten Wolff-Chaikoff-Effekt wird ausschaltet: Ein drastischer Rückgang der Expression des Natriumiodid-Symporters führt zu einem verringerten Jodtransport und der anschließenden Wiederaufnahme der Schilddrüsenhormonsynthese. DIT steht für Diiodotyrosin, I-Jodid, MIT für Monoiodotyrosin, T3 für Trijodthyronin und T4 für Thyroxin. @PramyothinEtAl2011](Bilder/wolff-chaikoff.png){#fig-wolffchaikoff}
 
 
 #### Hyperthyreose 
