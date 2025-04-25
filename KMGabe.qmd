@@ -81,9 +81,13 @@ Ein dramatischer Rückgang der Expression des Natriumiodid-Symporters führt wie
 
 ![A) Vorgeschlagenes Mechanismus für den akuten Wolff-Chaikoff-Effekt. Am ersten Tag der Jod-Exposition transportiert der Natrium-Jodid-Symporter das überschüssige Jod in die Schilddrüse, was zu einer vorübergehenden Hemmung der Schilddrüsenperoxidase (TPO) und einem Rückgang der Schilddrüsenhormonsynthese führt. B) Der akuten Wolff-Chaikoff-Effekt wird ausschaltet: Ein drastischer Rückgang der Expression des Natriumiodid-Symporters führt zu einem verringerten Jodtransport und der anschließenden Wiederaufnahme der Schilddrüsenhormonsynthese. DIT steht für Diiodotyrosin, I-Jodid, MIT für Monoiodotyrosin, T3 für Trijodthyronin und T4 für Thyroxin.](Bilder/wolff-chaikoff.png){#fig-wolffchaikoff}
 
-Das wichtigste Ereignis bei der Entwicklung einer Kontrastmittel-induzierte Hyperthyreose ist die Autonomie der Schilddrüsenfunktion. Es wird allgemein angenommen, dass diese Autonomie durch Mutationen entsteht, insbesondere in Drüsen, die chronisch durch TSH stimuliert wurden (auf dem Boden von Jodmangel). Die Autonomie kann in der Schilddrüse in Form von lokalisierten, aber nicht umschriebenen Herden oder häufiger in Form von Knötchen auftreten. @STANBURYEtAl1998
 
-Jodmangel führt zudem zu einer Follikelhyperplasie, nachfolgend entziehen sich diese Bezirke dem hypophysären Regelkreis. @GreiveEtAl2003
+#### Hyperthyreose 
+
+Schwerer Jodmangel führt zu Kropf und Hypothyreose, da die Jodkonzentration trotz erhöhter Schilddrüsenaktivität zur Maximierung der Jodaufnahme und des Jodrecyclings in dieser Situation immer noch zu niedrig ist, um die Produktion von Schilddrüsenhormonen zu ermöglichen. 
+Bei leichtem bis mäßigem Jodmangel kann eine erhöhte Schilddrüsenaktivität die geringe Jodzufuhr kompensieren und bei den meisten Menschen eine Euthyreose aufrechterhalten, allerdings zu einem hohen Preis: Eine chronische Stimulation der Schilddrüse führt zu einem Anstieg der Prävalenz von knotiger Autonomie und Hyperthyreose. @ZimmermannBoelaert2015
+
+Das wichtigste Ereignis bei der Entwicklung einer Kontrastmittel-induzierte Hyperthyreose ist die Autonomie der Schilddrüsenfunktion. Es wird allgemein angenommen, dass diese Autonomie durch Mutationen entsteht, insbesondere in Drüsen, die chronisch durch TSH stimuliert wurden (auf dem Boden von Jodmangel). Die Autonomie kann in der Schilddrüse in Form von lokalisierten, aber nicht umschriebenen Herden oder häufiger in Form von Knötchen auftreten. @STANBURYEtAl1998 @ZimmermannBoelaert2015 @GreiveEtAl2003
 
 
 1. **Hyperthyreose**:
