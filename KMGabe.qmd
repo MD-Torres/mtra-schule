@@ -139,7 +139,7 @@ Bei einer TSH-Konzentrationen außerhalb vom Referenzbereich schließt sich in e
 
 Diese Stufendiagnostik erfolgt automatisch im Labor. s. @fig-stufen
 
-![Die Untersuchung  auf eine Schilddrüsenfunktionsstörung erfolgt als "Stufendiagnostik"](Bilder/stufendiagnostik.jpeg){#fig-stufen}
+![Die Untersuchung  auf eine Schilddrüsenfunktionsstörung erfolgt als "Stufendiagnostik"](Bilder/stufen.png){#fig-stufen}
 
 
 #### Medikamentöse Prophylaxe 
