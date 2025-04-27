@@ -202,7 +202,6 @@ Zeitplan für die körperliche Untersuchung
 Leitlinien für die Überwachung der Spättoxizität
 
 
-
 ## Anforderungen an die Dokumentation
 Elemente für wöchentliche Kontrollbesuche während der Behandlung
 Komponenten der Zusammenfassung am Ende der Behandlung
