@@ -87,6 +87,7 @@ Ein dramatischer Rückgang der Expression des Natriumiodid-Symporters führt wie
 #### Hyperthyreose 
 
 Schwerer Jodmangel führt zu Kropf und Hypothyreose, da die Jodkonzentration trotz erhöhter Schilddrüsenaktivität zur Maximierung der Jodaufnahme und des Jodrecyclings in dieser Situation immer noch zu niedrig ist, um die Produktion von Schilddrüsenhormonen zu ermöglichen. 
+
 Bei leichtem bis mäßigem Jodmangel kann eine erhöhte Schilddrüsenaktivität die geringe Jodzufuhr kompensieren und bei den meisten Menschen eine Euthyreose aufrechterhalten, allerdings zu einem hohen Preis: Eine chronische Stimulation der Schilddrüse führt zu einem Anstieg der Prävalenz von knotiger Autonomie und Hyperthyreose. @ZimmermannBoelaert2015
 
 Das wichtigste Ereignis bei der Entwicklung einer Kontrastmittel-induzierte Hyperthyreose ist die Autonomie der Schilddrüsenfunktion. Es wird allgemein angenommen, dass diese Autonomie durch Mutationen entsteht, insbesondere in Drüsen, die chronisch durch TSH stimuliert wurden (auf dem Boden von Jodmangel). Die Autonomie kann in der Schilddrüse in Form von lokalisierten, aber nicht umschriebenen Herden oder häufiger in Form von Knötchen auftreten. @STANBURYEtAl1998 @ZimmermannBoelaert2015 @GreiveEtAl2003
