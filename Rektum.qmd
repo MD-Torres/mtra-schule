@@ -117,7 +117,9 @@ In Folge werden Kandidaten für neoadjuvante Therapie erleutert.
 ##### Neoadjuvante vs. Upfront-Chirurgie
 
 
-Bei T1-High-Risk-Karzinomen (G3/4 u./o. Lymphgefäßinvasion) und bei T2 Karzinomen liegt das Auftreten von Lymphknotenmetastasen bei 10–20%, sodass die alleinige lokale Exzision nicht empfohlen werden kann.
+Bei T1-High-Risk-Karzinomen (G3/4 u./o. Lymphgefäßinvasion) und bei T2 Karzinomen liegt das Auftreten von Lymphknotenmetastasen bei 10–20%, sodass die alleinige lokale Exzision nicht empfohlen werden kann, und eine primäre radikale Operation oder eine sekundäre radikale Nachoperation indiziert sind. 
+
+Lehnt der Patient in dieser Situation eine radikale Nachoperation ab, so kann eine **adjuvante Radiochemotherapie** erwogen werden.
 
 Dahingengend haben Rektumkarzinome im UICC-Stadium I (T1/2N0)  nach alleiniger radikaler Operation mit adäquater totaler mesorektaler Exzision (TME) für Tumoren im unteren/mittleren Drittel sowie partieller mesorektaler Exzision (PME) für Tumoren im oberen Rektumdrittel niedrige Lokalrezidiv- und Fernmetastasenraten (3 % Lokalrezidive bzw. weniger als 10 % Fernmetastasen nach 10 Jahren. 
 
