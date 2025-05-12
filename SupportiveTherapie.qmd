@@ -44,6 +44,76 @@ crossref:
 Umrechnung der Opiate s. @fig-Umrech
 :::
 
+```{r, echo=FALSE}
+library(gt)
+
+opioid_tabelle <- data.frame(
+  Wirkstoff = c(
+    "Hydromorphon", 
+    "Morphin Tropfen (2 % Lösung)", 
+    "Fentanyl Pflaster", 
+    "Buprenorphin Pflaster"
+  ),
+  Standarddosis = c(
+    "2 mg", 
+    "2 bis 4 Tropfen", 
+    "25 µg/h", 
+    "10 µg/h"
+  ),
+  Zeitintervall = c(
+    "alle 12 Stunden", 
+    "alle 4 Stunden", 
+    "alle 72 Stunden", 
+    "alle 7 Tage"
+  ),
+  Bedarfsdosis = c(
+    "1,3 mg", 
+    "2 bis 4 Tropfen", 
+    "Abstral® oder Effentora® 100 μg", 
+    "1,3mg Hydromorphon/4gtt Morphin"
+  ),
+  Notfalldosis = c(
+    "2,6 mg (oral)", 
+    "4 bis 8 Tropfen", 
+    "Abstral® oder Effentora®", 
+    "2,6mg Hydromorphon/8gtt Morphin"
+  )
+)
+
+opioid_tabelle |> 
+  gt() |>
+  tab_header(
+    title = "Häufig verwendete Opioide"
+  ) |>
+  tab_source_note(
+    source_note = "Zusätzlich sollten Laxoberal® Tropfen zur Obstipationsprophylaxe und Ondansetron gegen Übelkeit verordnet werden."
+  ) |>
+  tab_style(
+    style = cell_fill(color = "#f2f2f2"),
+    locations = cells_body(rows = seq(2, nrow(opioid_tabelle), 2))
+  ) |>
+  tab_footnote(
+    footnote = "Nur für Patienten geeignet, die als Opioid-tolerant anzusehen sind (e.g. 60mg orales Morphin/d) ",
+    locations = cells_body(
+      columns = "Bedarfsdosis",
+      rows = Wirkstoff == "Fentanyl Pflaster"
+    )
+  ) |>
+  tab_footnote(
+    footnote = "Für transdermale Therapie Mittel der ersten Wahl.",
+    locations = cells_body(
+      columns = "Wirkstoff",
+      rows = Wirkstoff == "Buprenorphin Pflaster"
+    )
+      ) |>
+  tab_footnote(
+    footnote = "Opioid-naiven Patienten sollten mit einem kurzwirksamen Opioid beginnen",
+    locations = cells_column_labels(columns = "Bedarfsdosis")
+  )
+
+
+```
+
 Schmerz ist ein komplexes Symptom, das von körperlichen, psychologischen, sozialen und spirituellen Faktoren beeinflusst wird (Total pain). 
 Oft gibt es Schmerzkomponenten, die sich **nicht** mit Analgetika behandeln lassen, die aber neben den körperlichen Schmerzen bewertet und behandelt werden müssen, um eine gute Symptomkontrolle zu erreichen. 
 Nicht-physischer Schmerzaspekte können die physische Schmerzschwelle herabsetzen. 
