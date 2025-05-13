@@ -17,21 +17,23 @@ crossref:
   tbl-title: Tabelle
 ---
 
-# Rektalkarzinom Strahlenonkologie SOP 
+# Rektalkarzinom ICD10: C20
 
 Rektumkarzinome sind Tumoren, deren aboraler Rand bei der Messung mit dem starren Rektoskop **16 cm oder weniger** von der **Anokutanlinie** entfernt sind (USA >12cm ab ano = Kolonkarzinome). @DeutscheKrebsgesellschaftEtAl2019
 
 ## Spreechstunde 
 
-### Erforderliche Elemente der Krankengeschichte
+### Befunde
 
-### Schwerpunktbereiche der körperlichen Untersuchung
+- Koloskopie
+- CEA 
+- Abdomensonographie 
+- Rö-Thorax
+- Starre Rektoskopie mit Höhenangabe des Tumorunterrandes
+- MR (CT)-Becken mit Angabe Abstand des Tumors zur mesorektalen Faszie 
+- Rektale Endosonographie bei lokal begrenztem Tumor 
 
-### Dokumentation des Leistungsstatus (ECOG/KPS)
-
-### Dokumentation früherer Behandlungen (Operation, Chemotherapie)
-
-### Diagnostik 
+#### Diagnostik 
 
 Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor. 
 - Leber 15%
@@ -39,6 +41,8 @@ Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patiente
 
 Bei etwa 30% aller kolorektaler Karzinome ist der Tumormarker CEA zum Zeitpunkt der Erstdiagnose erhöht.Insbesondere in der Tumornachsorge ist dieser Tumormarker ein zuverlässiger Hinweis auf ein Rezidiv. Als weitere Tumormarker werden CA 19-9 und CA 125 diskutiert, wobei letzterer ein Marker der Peritonealkarzinose ist.
 
+
+### Dokumentation des Leistungsstatus (ECOG/KPS)
 
 #### Obligatorische Untersuchungen
 
@@ -83,6 +87,13 @@ bei lokal fortgeschrittener Erkrankung
 #### Adenokarzinom-Subtyp-Klassifikation
 #### Grad der Tumordifferenzierung
 #### MMR/MSI-Status
+
+Bei etwa 3-5% der Patienten mit lokal begrenztem Rektumkarzinom ist ein DNS-
+Mismatch-Reparaturdefekt (dMMR) bzw. eine Mikrosatelliten-Instabilität (MSI-H) in der Tumorbiopsie
+nachweisbar. 
+
+Dostarlimab kann eine klinische komplette Remission erreichen. So dass eine Radiochemotherapie und eine Operation unterbleiben kann. Eine Handreichung der DGHO kann bei der Beantragung dieser Therapie hilfreich sein. 
+
 #### KRAS/NRAS/BRAF-Mutationsstatus
 
 ### Entfernung vom Analrand
@@ -97,14 +108,6 @@ Dementsprechend werden letztere dokumetiert. Ab Anokutanlinie:
 
 
 
-### Staging Dokumentation
-
-#### Dokumentation des TNM-Stagings (AJCC 8. Auflage)
-#### MRT-basierte Beurteilung der mesorektalen Faszie
-#### Status der extramuralen Gefäßinvasion (EMVI)
-#### Status des zirkumferentiellen Resektionsrandes (CRM)
-#### Bewertung der seitlichen Beckenknoten
-
 ### Rechtfertigende Indikation 
 
 In Folge werden Kandidaten für neoadjuvante Therapie erleutert. 
@@ -113,11 +116,16 @@ In Folge werden Kandidaten für neoadjuvante Therapie erleutert.
 
 ##### Neoadjuvante vs. Upfront-Chirurgie
 
-Bei T1-High-Risk-Karzinomen (G3/4 u./o. Lymphgefäßinvasion) und bei T2 Karzinomen liegt das Auftreten von Lymphknotenmetastasen bei 10–20%, sodass die alleinige lokale Exzision nicht empfohlen werden kann.
+
+Bei T1-High-Risk-Karzinomen (G3/4 u./o. Lymphgefäßinvasion) und bei T2 Karzinomen liegt das Auftreten von Lymphknotenmetastasen bei 10–20%, sodass die alleinige lokale Exzision nicht empfohlen werden kann, und eine primäre radikale Operation oder eine sekundäre radikale Nachoperation indiziert sind. 
+
+Lehnt der Patient in dieser Situation eine radikale Nachoperation ab, so kann eine **adjuvante Radiochemotherapie** erwogen werden.
 
 Dahingengend haben Rektumkarzinome im UICC-Stadium I (T1/2N0)  nach alleiniger radikaler Operation mit adäquater totaler mesorektaler Exzision (TME) für Tumoren im unteren/mittleren Drittel sowie partieller mesorektaler Exzision (PME) für Tumoren im oberen Rektumdrittel niedrige Lokalrezidiv- und Fernmetastasenraten (3 % Lokalrezidive bzw. weniger als 10 % Fernmetastasen nach 10 Jahren. 
 
 Dementsprechend soll bei Tumore in UICC-Stadium I (cT1-2N0) eine präoperative Therapie nicht durchgeführt werden. @DeutscheKrebsgesellschaftEtAl2019 
+
+Die lokale RT (Brachytherapie oder Kontakttherapie - Papillon-Technik) kann auch als Alternative zur lokalen Operation eingesetzt werden, allein oder in Kombination mit CRT. @Glynne-JonesEtAl2017
 
 ##### Tiefsitzenden T1N0-high-risk Tumore
 
@@ -200,7 +208,6 @@ Häufigkeit der Überwachungsbilder
 Anforderungen an Laboruntersuchungen
 Zeitplan für die körperliche Untersuchung
 Leitlinien für die Überwachung der Spättoxizität
-
 
 
 ## Anforderungen an die Dokumentation
