@@ -135,7 +135,11 @@ In Folge werden Kandidaten für neoadjuvante Therapie erleutert.
 
 ##### Neoadjuvante vs. Upfront-Chirurgie
 
+<<<<<<< HEAD
 Bei T1-High-Risk-Karzinomen (G3/4 u./o. Lymphgefäßinvasion) und bei T2 Karzinomen liegt das Auftreten von Lymphknotenmetastasen bei 10–20%, sodass die alleinige lokale Exzision nicht empfohlen werden kann und eine primäre radikale Operation oder eine sekundäre radikale Nachoperation indiziert sind. 
+=======
+Bei T1-High-Risk-Karzinomen (G3/4 u./o. Lymphgefäßinvasion) und bei T2 Karzinomen liegt das Auftreten von Lymphknotenmetastasen bei 10–20%, sodass die alleinige lokale Exzision nicht empfohlen werden kann, und eine primäre radikale Operation oder eine sekundäre radikale Nachoperation indiziert sind. 
+>>>>>>> 380e1ec5214a3c78865695e9b925c04643f23d3d
 
 Lehnt der Patient in dieser Situation eine radikale Nachoperation ab, so kann eine **adjuvante Radiochemotherapie** erwogen werden.
 
@@ -151,6 +155,7 @@ Laut NCCN Leitlinie @NationalComprehensiveCancerNetwork2025a können bei hochris
 
 Zu den Hochrisikomerkmalen gehören positive Ränder, lymphatische Invasion, schlecht differenzierte Tumore oder sm3-Invasion (submuköse Invasion bis zum unteren Drittel der Submukosa).
 
+<<<<<<< HEAD
 
 
 #### Tumoren des unteren und mittleren Rektumdrittels
@@ -158,6 +163,31 @@ Zu den Hochrisikomerkmalen gehören positive Ränder, lymphatische Invasion, sch
 ##### Stadium II/III (cT3/4 und/oder cN+)
 
 Eine neoadjuvante Radiochemotherapie oder KurzzeitRadiotherapie soll erfolgen. @DeutscheKrebsgesellschaftEtAl2019 
+=======
+#### Lage im oberen Rektumdrittel 
+
+cT1-2N0
+
+cT1-2N+; cT3 N0/N+
+
+cT4 N0/N+; mrCRM+
+
+
+##### Tumoren des unteren und mittleren Rektumdrittels
+
+Bei Tumoren des mittleren und unteren Rektumdrittels erfolgt die totale
+Mesorektumexzision (TME) bis zum Beckenboden unter Schonung des Plexus
+hypogastricus superior, der Nn. hypogastrici und der Plexus hypogastrici inferiores. @DeutscheKrebsgesellschaftEtAl2019 
+
+Bei Low-Grade-Tumoren guter oder mäßiger Differenzierung des unteren
+Rektumdrittels ist ein Sicherheitsabstand von 1-2cm in situ ausreichend. 
+Bei HighGrade-Tumoren (G3/4) ist ein größerer Sicherheitsabstand anzustreben. @DeutscheKrebsgesellschaftEtAl2019 
+
+Nach neoadjuvanter Radiochemotherapie kann zur Abwendung einer ansonsten
+notwendigen Exstirpation auch ein aboraler Abstand von 0,5cm akzeptiert werden. Die Tumorfreiheit des aboralen Resektionsrandes sollte durch intraoperativen Schnellschnitt gesichert werden. @DeutscheKrebsgesellschaftEtAl2019 
+
+Eine neoadjuvante Radiochemotherapie oder Kurzzeit Radiotherapie soll erfolgen. @DeutscheKrebsgesellschaftEtAl2019 
+>>>>>>> 380e1ec5214a3c78865695e9b925c04643f23d3d
 
 **Ausnahmen @DeutscheKrebsgesellschaftEtAl2019 :**
 
@@ -218,7 +248,15 @@ TNT bevorzugt (ab T3)
 
 ##### Tumore im oberen Rektumdrittel
 
+<<<<<<< HEAD
 Rektumkarzinome im oberen Drittel ohne Risikokonstellation für ein Lokal-rezidiv sollen primär operiert. Jedoch eine präoperative Radio-/ Radiochemotherapie ***kann***, Bei einer Risikokonstellation, erfolgen @DeutscheKrebsgesellschaftEtAl2019 z.B.:
+=======
+Hier erfolgt die Durchtrennung des Rektums mit partieller Mesorektumexzision 5 cm distal des makroskopischen Tumorrands, gemessen in vivo. 
+Das Mesorektum sollte horizontal ohne proximalwärtige Ausdünnung durchtrennt werden (kein Coning).  @DeutscheKrebsgesellschaftEtAl2019 
+
+Rektumkarzinome im oberen Drittel ohne Risikokonstellation für ein Lokal-rezidiv sollen primär operiert. Jedoch eine präoperative Radio-/ Radiochemotherapie ***kann***, Bei einer Risikokonstellation, 
+erfolgen @DeutscheKrebsgesellschaftEtAl2019 z.B.:
+>>>>>>> 380e1ec5214a3c78865695e9b925c04643f23d3d
 
 - T4 
 - mrCRM+

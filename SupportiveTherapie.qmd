@@ -490,6 +490,20 @@ Kortikosteroide haben die Möglichkeit, sich im Stratum corneum zu akkumulieren 
 
 Bei fehlendem Stratum corneum @fig-epidermis (Erosion, nässende Läsionen) sind zwei Applikationen pro Tag gerechtfertigt. @WeberLautenschlager2006
 
+##### Ausschleichen
+
+In Anlehnung an die Therapie anderer Erkrankungen sollte Mometason nach einer Anwendungsdauer von vier Wochen schrittweise abgesetzt werden.
+
+Z.B. in der S3 Leitlinie zur Therapie der Psoriasis vulgaris @NastEtAl2021 : 
+
+Das Ausschleichen erfolgt für eine Woche mit einer Anwendung nur jeden zweiten Tag, gefolgt von einer Woche Anwendung nur jeden dritten Tag, gefolgt vom Absetzen des Präparates.
+
+**Empfehlung:** Einmal täglich an fünf Tagen pro Woche anwenden.
+Bei einer Anwendungsdauer von ≥ 4 Wochen sollte das Präparat wie folgt ausgeschlichen werden:
+Applikation an jedem zweiten Tag über zwei Wochen, anschließend zweimal wöchentlich für weitere zwei Wochen. 
+
+(Analog Borghi et al) @BorghiEtAl2015
+
 #### Lavasept Gel @RothEtAl2011
 
 Polyhexanid erfüllt die Kriterien einer effizienten, am Wenigsten toxischen, kosteneffektiven antiseptischenSubstanz.
