@@ -68,7 +68,7 @@ DPYD-Varianten sind als pharmakogenetische Eigenschaften mit hoher Bedeutung ein
 Wird eine klinisch relevante DPD-Variante gefunden, ist dem Patienten gemäß §10 Abs.1 Satz2 GenDG eine genetische Beratung anzubieten. 
 Der Patient kann auf eine genetische Beratung nach dem Vorliegen der Testergebnisse verzichten,
 der Verzicht ist schriftlich zu dokumentieren.
-Wenn eine genetische Beratung nach dem Vorliegen des Testergebnisses gewünscht wird, darf die Beratung nur durch einen Facharzt für Humangenetik oder einen nach dem GenDG qualifizierten Arzt vorgenommen werden. @DGHO2020; @zotero-4625
+Wenn eine genetische Beratung nach dem Vorliegen des Testergebnisses gewünscht wird, darf die Beratung nur durch einen Facharzt für Humangenetik oder einen nach dem GenDG qualifizierten Arzt vorgenommen werden. [@DGHO2020; @2020]
 
 ##### Starre Rektoskopie
 
