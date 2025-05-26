@@ -164,13 +164,55 @@ Eine neoadjuvante Radiochemotherapie oder KurzzeitRadiotherapie soll erfolgen. @
 - cT1/2-Tumore im unteren und mittleren Drittel mit bildgebend fraglichen Lymphknotenbefall.
 - cT3a/b-Tumore im mittleren Drittel mit in der MRT nur limitierter Infiltration ins perirektale Fettgewebe (cT3a: <1 mm, cT3b: 1-5 mm) und ohne bildgebenden Verdacht auf Lymphknotenmetastasen oder extra-muraler Gefäßinvasion (EMVI-) bei adäquater Qualitätssicherung der MRT-Diagnostik und der TME-Chirurgie.
 
+##### Weitere Stadien 
+
+Laut Therapie-Algorithmus für die Stadien I-III der Onkopedia Leitlinie: @Ralf-DieterHofheinzEtAl2025
+
 ##### cT1-2 N0
 
-Laut Therapie-Algorithmus für die Stadien I-III der Onkopedia Leitlinie @Ralf-DieterHofheinzEtAl2025
+- kurzzeitige Strahlentherapie (5 x 5 Gy) oder 
+
+- kombinierte Radiohemotherapie mit Einzeldosen von 1,8-2,0 Gy bis zu einer Gesamtdosis von 45-50,4 Gy.
+
+Beide Konzepte + Watch and wait
 
 ##### cT2 N+, cT3
 
+- kombinierte Radiohemotherapie ± Brachytherapie oder
+- Totales neoadjuvantes Konzept 
+
+Beide Konzepte + Watch and wait
+
 ##### cT4, mrCRM+, EMVI+, N2, laterale LK+
+
+- Totales neoadjuvantes Konzept 
+
+##### Rektumerhalt ***nicht*** intendiert oder nicht sinnvoll
+
+###### Vorliegen von High-Risk-Kriterien
+
+TNT bevorzugt (ab T3)
+
+###### Keine High-Risk-Kriterien
+
+####### cT1N0
+
+- Lokale Therapie
+- TME
+
+####### cT2 N0/N+
+- TME 
+
+####### cT3 N0/N+ mittleres Drittel
+
+- TME oder
+- Perioperative Chemotherapie oder
+- RT/RCT -> TME
+
+####### cT3 N0/N+ unteres Dritte
+
+- RT/RCT -> TME oder
+- Perioperative Chemotherapie
 
 ##### Tumore im oberen Rektumdrittel
 
