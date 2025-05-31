@@ -3,12 +3,14 @@ title: "RektumTable"
 format:
   pdf:
     #classoption: twocolumn           # Enables double-column layout
-    geometry: a4paper                # Specifies DIN A4 paper
+    geometry: top=3cm, bottom=3cm, left=1.5cm, right=1.5cm  # Specifies DIN A4 paper
     number-sections: true            # Optional: Number sections
     toc: true                        # Optional: Table of Contents
     fig-width: 6
     fig.asp: 0.75
     keep-tex: false   # Avoid keeping LaTeX files
+    #pdf-engine: xelatex
+    
 slide-format: revealjs
 bibliography: ../mta-schule.bib
 csl: ../american-medical-association.csl
@@ -22,154 +24,160 @@ crossref:
   tbl-title: Tabelle
 ---
 
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+## Table
 
-```{r}
-# Load required packages
-if (!require(pacman)) install.packages("pacman")
-pacman::p_load(
-  tidyverse,
-  knitr,
-  kableExtra,
-  DT,
-  flextable,
-  officer
-)
+```{r rectal-cancer-table, echo=FALSE, message=FALSE, warning=FALSE}
 
-# Read the data
-data <- read.csv(text = "
-Disease,Include,Category,Study,Year,Patient Population,Tumor location,Age,Experimental Arms,standard of care,Radiation Type,Primary Outcome,Key Findings,Citation
-rectal cancer,yes,TNT,RAPIDO,2020,\"T4a/b, N2, EMVI+, CRM+\",,31–83,SCRT → CAPOX ×6 /FOLFOX4 ×9 →  2-4 w → TME ,\"CRT 50,4Gy/28f or 50Gy/25f,  → 6-8 w → TME  ± adjuvant CAPOX ×8/FOLFOX4 ×12\",Short/Long-course,3-year disease-related treatment failure,\" ↓ Disease-related treatment failure (24% vs 30%), ↓ distant mets, ↑ pCR (28% vs 14%)\",BahadoerEtAl2021
-rectal cancer,yes,TNT,PRODIGE-23,2021,cT3 or cT4 M0,,18–75,FOLFIRINOX ×6 → CRT 50Gy/25f → TME → FOLFOX6 ×6 or capecitabine ×4,CRT 50Gy/25f → TME → FOLFOX6 ×12 or capecitabine ×8,Long-course,DFS,\"↑ DFS, ↑ pCR (28% vs 12%),  ↓ distant mets\",ConroyEtAl2021
-rectal cancer,yes,TNT,OPRA,2022,Stage II–III,mid–low,IQR 51-68,\"FOLFOX ×8  or CAPEOX ×5 → CRT 1,8 to 50-56 Gy\",\"CRT 1,8 to 50-56 Gy → FOLFOX ×8  or CAPEOX ×5\",Long-course,\"DSF, Organ preservation\",\"CRT-first→  better organ preservation (53% vs 41%), = DFS\",Garcia-AguilarEtAl2022
-rectal cancer,yes,Neoadjuvant vs Adjuvant CRT,CAO/ARO/AIO-94,2004,T3–T4 or N+,,18–75,\"CRT 50,4 Gy/28f → TME → FU 500 mg/m2 ×4\",\"TME →  CRT 50,4 Gy/28f + 5,4 Gy Boost to Tumor bed → FU 500 mg/m2 ×4\",Long-course,OS,\"Pre-op CRT ↓ local recurrence (7% vs 11%), ↓ toxicity,  ↑ sphincter-preserving (39% vs. 19%)\",SauerEtAl2004
-rectal cancer,yes,Neoadjuvant vs Adjuvant CRT,NSABP R-03,2004,T3–T4 or N+,,,\"FU 500 mg/m2 + LV 500 mg/m2 ×6  CRT 45Gy/25f + 5,4 Gy Boost to Tumor bed → TME → FU 500 mg/m2 + LV 500 mg/m2\",\"TME → FU 500 mg/m2 + LV 500 mg/m2 ×6  CRT 45Gy/25f + 5,4 Gy Boost to Tumor bed → FU 500 mg/m2 + LV 500 mg/m2\",Long-course,\"DFS, OS\",\"↑ DFS and ↑ pCR with pre-op CRT, possible ↑OS, ↑ Recurrence free survival\",RohEtAl2009
-rectal cancer,yes,Short vs Long Course Radiation,Dutch TME,2001,Resectable T1–T3,,\"26-88, 23-92\",SCRT → TME,TME alone,Short-course,Local recurrence,\"↓ recurrence 2,4% vs 8,2%\",KapiteijnEtAl2001
-rectal cancer,yes,Short vs Long Course Radiation,Polish Trial,2006,cT3/T4 mid-rectum,mid,,SCRT → 7d → TME →  6 mo of bolus 5-fluorouracil and leucovorin,CRT → 4-6 Weeks → TME →  4 mo of bolus 5-fluorouracil and leucovorin,Short vs Long-course,sphincter preservation,\"sphincter preservation =, CRT ↑ pCR (16% vs 1%), better downstaging, no OS difference\",BujkoEtAl2006
-rectal cancer,yes,Short vs Long Course Radiation,TROG 01.04,2012,\"T3, N0–1\",mid-low,26-82,\"SCRT → 3-7d → TME →  6× 5FU 425 mg/m2,folinic acid 20 mg/m2\",\"CRT 50,4Gy → 4-6 Weeks → TME →  4 × 5FU 425 mg/m2,folinic acid 20 mg/m2\",Short vs Long-course,3-year Local recurrence,\"No OS difference, Local recurrence 7,5% vs 4,4% not significant\",AnsariEtAl2017
-rectal cancer,yes,Short vs Long Course Radiation,STELLAR,2022,cT3/T4 and/or N+,mid-low,18-70,SCRT→ CAPOX ×4 → 4-6 Weeks → TME → CAPOX ×2,\"CRT 50,4Gy/28f → 6-8 Weeks → TME →  CAPOX ×6\",Short vs Long-course,DFS,\"DSF =; ↓ toxicity\",
-rectal cancer,yes,Immunotherapy for dMMR,Cercek et al.,2022,dMMR stage II/III rectal cancer,,,\"Dostarlimab 9× every 3 weeks for 6 months,  if no cCR → CRT 50,4Gy/28f\",,None,cCR,\"100% (12/12) had cCR, no grade ≥3 adverse events\",CercekEtAl2022
-")
+library(tidyverse)
+library(gt)
+library(knitr)
+library(kableExtra)
 
-# Filter only included studies and clean data
-included_data <- data %>%
-  filter(Include == "yes") %>%
-  select(-Include, -Disease) %>%
+# Read and clean data
+data <- read_csv("SeminalTrials.csv", show_col_types = FALSE)
+
+data_clean <- data %>%
+  filter(Include == "yes", Disease == "rectal cancer") %>%
   mutate(
-    Study = paste0(Study, " (", Year, ")"),
-    Citation_formatted = paste0("[@", Citation, "]")
+    Category = case_when(
+      Category == "TNT" ~ "Total Neoadjuvant Therapy",
+      TRUE ~ Category
+    ),
+    `Study (Year)` = paste0(Study, " (", Year, ")"),
+    Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+    `Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
   ) %>%
-  select(-Year, -Citation)
+  select(Category, `Study (Year)`, `Patient Population`, `Tumor location`, Age,
+         `Experimental Arms`, `standard of care`, `Radiation Type`,
+         `Primary Outcome`, `Key Findings`, Citation) %>%
+  arrange(Category)
 
-# Function to create citation string for each row
-create_citation_string <- function(citation) {
-  if (is.na(citation) || citation == "") {
-    return("")
-  } else {
-    return(paste0("[@", citation, "]"))
-  }
+# Choose output
+if (knitr::is_html_output()) {
+  data_clean %>%
+    select(-Citation) %>%
+    gt(groupname_col = "Category") %>%
+    fmt_markdown(columns = "Study (Year)") %>%
+    tab_header(
+      title = md("**Clinical Trials in Rectal Cancer Treatment**"),
+      subtitle = md("*Grouped by Treatment Category*")
+    ) %>%
+    tab_style(
+      style = cell_text(align = "center", weight = "bold"),
+      locations = cells_row_groups()
+    ) %>%
+    opt_row_striping()
+  
+} else {
+  # Create kable with grouped rows
+  group_counts <- data_clean %>%
+    count(Category) %>%
+    deframe()
+
+  
+  data_clean %>%
+    
+    select(-Category, -Citation) %>%
+    kbl(
+      booktabs = TRUE,
+      escape = TRUE,
+      caption = "Clinical Trials in Rectal Cancer Treatment"
+    ) %>%
+    kable_styling(
+      latex_options = c("striped", "repeat_header", "scale_down"),
+      #latex_environment = "landscape",
+      #full_width = TRUE,
+      font_size = 12
+    ) %>%
+    column_spec(1, bold = T, width = "9em") %>%
+    column_spec(2, width = "5em") %>%
+    column_spec(3, width = "4em") %>%
+    column_spec(4, width = "3em") %>%
+    column_spec(5, width = "10em") %>%
+    column_spec(6, width = "10em") %>%
+    column_spec(7, width = "5em") %>%
+    column_spec(8, width = "3em") %>%
+    column_spec(9, width = "10em") %>%
+    group_rows(
+      index = group_counts,
+      label_row_css = "text-align: center; font-weight: bold;"
+  )
 }
 
-# Clean and prepare data for table
-table_data <- included_data %>%
+
+
+```
+
+
+
+
+```{r}
+
+# Load required packages
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# Read CSV file
+data <- read_csv("SeminalTrials.csv")
+
+# Clean and filter the data
+data_clean <- data %>%
+  filter(Disease == "rectal cancer", Include == "yes") %>%
+  arrange(Category, Year) %>%
   mutate(
     Category = case_when(
       Category == "TNT" ~ "Total Neoadjuvant Therapy",
       Category == "Neoadjuvant vs Adjuvant CRT" ~ "Neoadjuvant vs Adjuvant CRT",
-      Category == "Short vs Long Course Radiation" ~ "Short vs Long Course RT",
-      Category == "Immunotherapy for dMMR" ~ "Immunotherapy (dMMR)",
+      Category == "Short vs Long Course Radiation" ~ "Short vs Long Course Radiation",
+      Category == "Immunotherapy for dMMR" ~ "Immunotherapy for dMMR",
       TRUE ~ Category
     ),
-    Age = ifelse(Age == "", "NR", Age),
-    `Tumor location` = ifelse(`Tumor location` == "", "NR", `Tumor location`)
+    Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+    `Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`),
+    `Study (Year)` = paste0(Study, " (", Year, ") [@", Citation, "]")
+  ) %>%
+  select(Category, `Study (Year)`, `Patient Population`, `Tumor location`, Age,
+         `Experimental Arms`, `standard of care`, `Radiation Type`,
+         `Primary Outcome`, `Key Findings`)
+
+# Count rows per category for grouping
+group_counts <- data_clean %>%
+  count(Category) %>%
+  deframe()
+
+# Create Markdown-compatible table (citations work!)
+data_clean %>%
+  select(-Category) %>%
+  kableExtra::kable(
+    format = "markdown",
+    booktabs = TRUE,
+    caption = "Clinical Trials in Rectal Cancer Treatment"
+  ) %>%
+  kable_styling(
+    latex_options = c("striped", "repeat_header", "scale_down"),
+    font_size = 10,
+    full_width = TRUE
+  ) %>%
+  column_spec(1, bold = TRUE, width = "12em") %>%
+  column_spec(2, width = "8em") %>%
+  column_spec(3, width = "5em") %>%
+  column_spec(4, width = "5em") %>%
+  column_spec(5, width = "10em") %>%
+  column_spec(6, width = "10em") %>%
+  column_spec(7, width = "5em") %>%
+  column_spec(8, width = "8em") %>%
+  column_spec(9, width = "12em") %>%
+  group_rows(
+    index = group_counts,
+    label_row_css = "text-align: center; font-weight: bold;"
   )
 
-```
 
-
-
-
-```{r}
-#| label: tbl-trials
-#| tbl-cap: "Summary of Key Clinical Trials in Rectal Cancer Treatment"
-
-# Create the main table
-if (knitr::is_html_output()) {
-  # HTML output with DT
-  table_data %>%
-    select(Category, Study, `Patient Population`, `Tumor location`, Age, 
-           `Experimental Arms`, `standard of care`, `Radiation Type`, 
-           `Primary Outcome`, `Key Findings`, Citation_formatted) %>%
-    rename(
-      "Treatment Category" = Category,
-      "Study (Year)" = Study,
-      "Patient Population" = `Patient Population`,
-      "Tumor Location" = `Tumor location`,
-      "Age Range" = Age,
-      "Experimental Arms" = `Experimental Arms`,
-      "Standard of Care" = `standard of care`,
-      "Radiation Type" = `Radiation Type`,
-      "Primary Outcome" = `Primary Outcome`,
-      "Key Findings" = `Key Findings`,
-      "Citation" = Citation_formatted
-    ) %>%
-    DT::datatable(
-      extensions = c('Buttons', 'Scroller'),
-      options = list(
-        dom = 'Bfrtip',
-        buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
-        scrollX = TRUE,
-        scrollY = '600px',
-        scroller = TRUE,
-        pageLength = 25,
-        columnDefs = list(
-          list(width = '150px', targets = 0),
-          list(width = '120px', targets = 1),
-          list(width = '200px', targets = c(4, 5)),
-          list(width = '100px', targets = c(2, 3, 6, 7)),
-          list(width = '250px', targets = c(8, 9))
-        )
-      ),
-      rownames = FALSE,
-      escape = FALSE
-    )
-} else {
-  # PDF and DOCX output
-  table_data %>%
-    select(Category, Study, `Patient Population`, Age, 
-           `Primary Outcome`, `Key Findings`, Citation_formatted) %>%
-    rename(
-      "Category" = Category,
-      "Study" = Study,
-      "Population" = `Patient Population`,
-      "Age" = Age,
-      "Primary Endpoint" = `Primary Outcome`,
-      "Key Results" = `Key Findings`,
-      "Ref" = Citation_formatted
-    ) %>%
-    kable(
-      format = ifelse(knitr::is_latex_output(), "latex", "simple"),
-      booktabs = TRUE,
-      longtable = TRUE,
-      escape = FALSE,
-      caption = "Summary of Key Clinical Trials in Rectal Cancer Treatment"
-    ) %>%
-    kable_styling(
-      latex_options = c("striped", "hold_position", "repeat_header", "scale_down"),
-      font_size = 8,
-      full_width = TRUE
-    ) %>%
-    column_spec(1, width = "2cm") %>%
-    column_spec(2, width = "2.5cm") %>%
-    column_spec(3, width = "3cm") %>%
-    column_spec(4, width = "1.5cm") %>%
-    column_spec(5, width = "2cm") %>%
-    column_spec(6, width = "4cm") %>%
-    column_spec(7, width = "1cm")
-}
 
 
 ```
+
 
 ## Treatment Categories
 
