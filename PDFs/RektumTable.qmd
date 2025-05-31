@@ -8,9 +8,9 @@ format:
     toc: true                        # Optional: Table of Contents
     fig-width: 6
     fig.asp: 0.75
-    keep-tex: false   # Avoid keeping LaTeX files
+    keep-tex: true   # Avoid keeping LaTeX files
     #pdf-engine: xelatex
-    
+    citation-package: natbib  # or "biblatex"
 slide-format: revealjs
 bibliography: ../mta-schule.bib
 csl: ../american-medical-association.csl
@@ -28,6 +28,103 @@ crossref:
 
 ```{r rectal-cancer-table, echo=FALSE, message=FALSE, warning=FALSE}
 
+ library(tidyverse)
+ library(gt)
+ library(knitr)
+ library(kableExtra)
+
+
+ # Read and clean data
+ data <- read_csv("SeminalTrials.csv", show_col_types = FALSE)
+
+data_clean <- data %>%
+   filter(Include == "yes", Disease == "rectal cancer") %>%
+   mutate(
+     Category = case_when(
+       Category == "TNT" ~ "Total Neoadjuvant Therapy",
+       TRUE ~ Category
+     ),
+     `Study (Year)` = paste0(Study, " (", Year, ")"),
+     Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+     `Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
+   ) %>%
+   select(Category, `Study (Year)`, `Patient Population`, `Tumor location`, Age,
+          `Experimental Arms`, `standard of care`, `Radiation Type`,
+          `Primary Outcome`, `Key Findings`, Citation) %>%
+   arrange(Category)
+
+ # Choose output
+ if (knitr::is_html_output()) {
+   data_clean %>%
+     select(-Citation) %>%
+     gt(groupname_col = "Category") %>%
+     fmt_markdown(columns = "Study (Year)") %>%
+     tab_header(
+       title = md("**Clinical Trials in Rectal Cancer Treatment**"),
+       subtitle = md("*Grouped by Treatment Category*")
+     ) %>%
+     tab_style(
+       style = cell_text(align = "center", weight = "bold"),
+       locations = cells_row_groups()
+     ) %>%
+     opt_row_striping()
+
+ } else {
+   # Create kable with grouped rows
+   group_counts <- data_clean %>%
+     count(Category) %>%
+     deframe()
+
+
+   data_clean %>%
+
+     select(-Category, -Citation) %>%
+     kbl(
+       format = "latex",
+       booktabs = TRUE,
+       escape = FALSE,
+       caption = "Relevante Studien zum Rektumkarzinom: Eine Übersicht"
+     ) %>%
+     kable_styling(
+       latex_options = c("striped", "repeat_header", "scale_down"),
+       #latex_environment = "landscape",
+       #full_width = TRUE,
+       font_size = 12
+     ) %>%
+   column_spec(1, bold = T, width = "9em") %>%
+     column_spec(2, width = "5em") %>%
+     column_spec(3, width = "4em") %>%
+     column_spec(4, width = "3em") %>%
+     column_spec(5, width = "10em") %>%
+     column_spec(6, width = "10em") %>%
+     column_spec(7, width = "5em") %>%
+     column_spec(8, width = "3em") %>%
+     column_spec(9, width = "10em") %>%
+     group_rows(
+      index = group_counts, 
+      bold = TRUE, 
+      italic = FALSE, 
+      latex_gap_space = "1em",
+      color = "#FF3300",
+      latex_align = "l",
+      indent = FALSE,
+      hline_after = TRUE,
+      hline_before = TRUE,
+      latex_wrap_text = TRUE
+    )  %>%
+  footnote(
+    general = "Abbreviations: cCR = clinical complete response, CRT = chemoradiotherapy, TME = Total mesorectal excision, LV = Leucovorin, OS = Overall survival, DSF = disease-free survival, pCR = pathological complete response, SCRT = Short-course radiation therapy (25 Gy/5f), w = weeks.",
+    general_title = "",
+    threeparttable = TRUE,
+    escape = FALSE
+  )
+ }
+
+
+```
+
+
+```{r rectal-cancer-table1, echo=FALSE, message=FALSE, warning=FALSE,}
 library(tidyverse)
 library(gt)
 library(knitr)
@@ -43,7 +140,8 @@ data_clean <- data %>%
       Category == "TNT" ~ "Total Neoadjuvant Therapy",
       TRUE ~ Category
     ),
-    `Study (Year)` = paste0(Study, " (", Year, ")"),
+    # Add citation to the Study (Year) column
+    `Study (Year)` = paste0(Study, " (", Year, ")" , Citation),
     Age = ifelse(is.na(Age) | Age == "", "NR", Age),
     `Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
   ) %>%
@@ -73,21 +171,94 @@ if (knitr::is_html_output()) {
   group_counts <- data_clean %>%
     count(Category) %>%
     deframe()
+  
+data_clean %>%
+  select(-Category, -Citation) %>%
+  kbl(
+    format = "latex",
+    booktabs = TRUE,
+    escape = TRUE,
+    caption = "Clinical Trials in Rectal Cancer Treatment"
+  ) %>%
+  kable_styling(
+    latex_options = c("hold_position", "scale_down"),
+    font_size = 10,
+    position = "center"
+  ) %>%
+  column_spec(1, bold = T, width = "9em") %>%
+  column_spec(2, width = "5em") %>%
+  column_spec(3, width = "4em") %>%
+  column_spec(4, width = "3em") %>%
+  column_spec(5, width = "10em") %>%
+  column_spec(6, width = "10em") %>%
+  column_spec(7, width = "5em") %>%
+  column_spec(8, width = "3em") %>%
+  column_spec(9, width = "10em") %>%
+  group_rows(index = group_counts, bold = TRUE, italic = FALSE, latex_gap_space = "0.5em")
 
+}
+```
+
+
+```{r rectal-cancer-table3, echo=FALSE, message=FALSE, warning=FALSE,}
+library(tidyverse)
+library(gt)
+library(knitr)
+library(kableExtra)
+
+# Read and clean data
+data <- read_csv("SeminalTrials.csv", show_col_types = FALSE)
+data_clean <- data %>%
+  filter(Include == "yes", Disease == "rectal cancer") %>%
+  mutate(
+    Category = case_when(
+      Category == "TNT" ~ "Total Neoadjuvant Therapy",
+      TRUE ~ Category
+    ),
+    # Add citation to the Study (Year) column
+    `Study (Year)` = paste0(Study, " (", Year, ")" , Citation),
+    Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+    `Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
+  ) %>%
+  select(Category, `Study (Year)`, `Patient Population`, `Tumor location`, Age,
+         `Experimental Arms`, `standard of care`, `Radiation Type`,
+         `Primary Outcome`, `Key Findings`, Citation) %>%
+  arrange(Category)
+
+# Choose output
+if (knitr::is_html_output()) {
+  data_clean %>%
+    select(-Citation) %>%
+    gt(groupname_col = "Category") %>%
+    fmt_markdown(columns = "Study (Year)") %>%
+    tab_header(
+      title = md("**Clinical Trials in Rectal Cancer Treatment**"),
+      subtitle = md("*Grouped by Treatment Category*")
+    ) %>%
+    tab_style(
+      style = cell_text(align = "center", weight = "bold"),
+      locations = cells_row_groups()
+    ) %>%
+    opt_row_striping()
+  
+} else {
+  # Create kable with grouped rows
+  group_counts <- data_clean %>%
+    count(Category) %>%
+    deframe()
   
   data_clean %>%
-    
     select(-Category, -Citation) %>%
     kbl(
+      format = "latex",
       booktabs = TRUE,
       escape = TRUE,
-      caption = "Clinical Trials in Rectal Cancer Treatment"
+      caption = "Grundlegende Studien zu Rektumkarzinom: Ein Überblick"
     ) %>%
     kable_styling(
-      latex_options = c("striped", "repeat_header", "scale_down"),
-      #latex_environment = "landscape",
-      #full_width = TRUE,
-      font_size = 12
+      latex_options = c("hold_position", "scale_down"),
+      font_size = 10,
+      position = "center"
     ) %>%
     column_spec(1, bold = T, width = "9em") %>%
     column_spec(2, width = "5em") %>%
@@ -99,83 +270,17 @@ if (knitr::is_html_output()) {
     column_spec(8, width = "3em") %>%
     column_spec(9, width = "10em") %>%
     group_rows(
-      index = group_counts,
-      label_row_css = "text-align: center; font-weight: bold;"
-  )
+      index = group_counts, 
+      bold = TRUE, 
+      italic = FALSE, 
+      latex_gap_space = "1em",
+      color = "#FF3300",
+      latex_align = "l",
+      indent = TRUE,
+      hline_after = TRUE,
+      hline_before = TRUE
+    )
 }
-
-
-
-```
-
-
-
-
-```{r}
-
-# Load required packages
-library(tidyverse)
-library(knitr)
-library(kableExtra)
-
-# Read CSV file
-data <- read_csv("SeminalTrials.csv")
-
-# Clean and filter the data
-data_clean <- data %>%
-  filter(Disease == "rectal cancer", Include == "yes") %>%
-  arrange(Category, Year) %>%
-  mutate(
-    Category = case_when(
-      Category == "TNT" ~ "Total Neoadjuvant Therapy",
-      Category == "Neoadjuvant vs Adjuvant CRT" ~ "Neoadjuvant vs Adjuvant CRT",
-      Category == "Short vs Long Course Radiation" ~ "Short vs Long Course Radiation",
-      Category == "Immunotherapy for dMMR" ~ "Immunotherapy for dMMR",
-      TRUE ~ Category
-    ),
-    Age = ifelse(is.na(Age) | Age == "", "NR", Age),
-    `Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`),
-    `Study (Year)` = paste0(Study, " (", Year, ") [@", Citation, "]")
-  ) %>%
-  select(Category, `Study (Year)`, `Patient Population`, `Tumor location`, Age,
-         `Experimental Arms`, `standard of care`, `Radiation Type`,
-         `Primary Outcome`, `Key Findings`)
-
-# Count rows per category for grouping
-group_counts <- data_clean %>%
-  count(Category) %>%
-  deframe()
-
-# Create Markdown-compatible table (citations work!)
-data_clean %>%
-  select(-Category) %>%
-  kableExtra::kable(
-    format = "markdown",
-    booktabs = TRUE,
-    caption = "Clinical Trials in Rectal Cancer Treatment"
-  ) %>%
-  kable_styling(
-    latex_options = c("striped", "repeat_header", "scale_down"),
-    font_size = 10,
-    full_width = TRUE
-  ) %>%
-  column_spec(1, bold = TRUE, width = "12em") %>%
-  column_spec(2, width = "8em") %>%
-  column_spec(3, width = "5em") %>%
-  column_spec(4, width = "5em") %>%
-  column_spec(5, width = "10em") %>%
-  column_spec(6, width = "10em") %>%
-  column_spec(7, width = "5em") %>%
-  column_spec(8, width = "8em") %>%
-  column_spec(9, width = "12em") %>%
-  group_rows(
-    index = group_counts,
-    label_row_css = "text-align: center; font-weight: bold;"
-  )
-
-
-
-
 ```
 
 
@@ -205,5 +310,7 @@ Quality of Life: Modern approaches emphasize functional outcomes and toxicity re
 
 ## Conclusions
 The landscape of rectal cancer treatment continues to evolve rapidly. Total neoadjuvant therapy appears to be the future standard for locally advanced disease, while immunotherapy offers unprecedented opportunities for patients with mismatch repair-deficient tumors. Future research should focus on identifying optimal patient selection criteria and developing novel combination strategies.
+
+
 
 ## References
