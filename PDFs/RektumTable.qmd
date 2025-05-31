@@ -24,7 +24,6 @@ crossref:
   tbl-title: Tabelle
 ---
 
-## Table
 
 ```{r rectal-cancer-table, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -125,34 +124,3 @@ data_clean <- data %>%
 ```
 
 
-
-## Treatment Categories
-
-### Total Neoadjuvant Therapy (TNT)
-
-Total neoadjuvant therapy represents a paradigm shift in rectal cancer treatment, delivering all systemic therapy before surgery. The RAPIDO [@BahadoerEtAl2021], PRODIGE-23 [@ConroyEtAl2021], and OPRA [@Garcia-AguilarEtAl2022] trials have demonstrated significant improvements in pathological complete response rates and disease-free survival.
-
-### Neoadjuvant vs Adjuvant Chemoradiotherapy
-The landmark CAO/ARO/AIO-94 [@SauerEtAl2004] and NSABP R-03 [@RohEtAl2009] trials established the superiority of preoperative chemoradiotherapy over postoperative treatment, showing reduced local recurrence rates and improved sphincter preservation.
-
-### Short vs Long Course Radiotherapy
-Multiple trials including Dutch TME [@KapiteijnEtAl2001], Polish Trial [@BujkoEtAl2006], TROG 01.04 [@AnsariEtAl2017], and STELLAR have compared short-course radiotherapy with long-course chemoradiotherapy, generally showing equivalent oncologic outcomes with different toxicity profiles.
-
-### Immunotherapy for dMMR Tumors
-The groundbreaking work by Cercek et al. [@CercekEtAl2022] demonstrated remarkable complete response rates with dostarlimab in mismatch repair-deficient rectal cancers, potentially eliminating the need for surgery and chemoradiotherapy in this subset of patients.
-
-### Key Findings Summary
-The evolution of rectal cancer treatment has been marked by several paradigm shifts:
-
-Neoadjuvant Approach: Preoperative treatment has become the standard of care for locally advanced rectal cancer
-Total Neoadjuvant Therapy: Delivers all systemic therapy upfront, improving compliance and outcomes
-Organ Preservation: Select patients may avoid surgery through watch-and-wait strategies
-Personalized Medicine: Immunotherapy shows promise for specific molecular subtypes
-Quality of Life: Modern approaches emphasize functional outcomes and toxicity reduction
-
-## Conclusions
-The landscape of rectal cancer treatment continues to evolve rapidly. Total neoadjuvant therapy appears to be the future standard for locally advanced disease, while immunotherapy offers unprecedented opportunities for patients with mismatch repair-deficient tumors. Future research should focus on identifying optimal patient selection criteria and developing novel combination strategies.
-
-
-
-## References
