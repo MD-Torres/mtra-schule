@@ -1,0 +1,191 @@
+---
+title: "Rektum"
+
+format:
+  pdf:
+    toc: true               # generate TOC
+    toc-depth: 3            # include up to ###‑level headings
+    number-sections: true
+    colorlinks: true        # coloured, clickable links
+    citations: true         # loads hyperref if not yet loaded
+    fig-pos: "H"
+    documentclass: article
+    papersize: a4
+    geometry:
+      - margin=2.5cm
+    include-in-header: # LaTeX snippet → page break before every \section
+      text: |
+        \usepackage{float}
+        \usepackage{etoolbox}
+        % For two‑sided docs use \cleardoublepage instead of \clearpage
+        \pretocmd{\section}{\clearpage}{}{}
+
+  html:
+    toc: true               # HTML TOC (already linked)
+    toc-depth: 3
+    number-sections: true
+
+  # docx:
+  #   toc: true              # clickable Word TOC
+  #   toc-depth: 3
+  #   number-sections: true
+    
+bibliography: mta-schule.bib
+csl: american-medical-association.csl
+
+execute:
+  warning: false
+
+crossref:
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  sec-prefix: Abschnitt
+  fig-title: Abbildung
+  tbl-title: Tabelle
+---
+
+
+```{r}
+# Load packages
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# Read data
+data <- read_csv("SeminalTrials.csv")
+
+# Clean and filter
+data_clean <- data %>%
+  filter(Include == "yes", Disease == "rectal cancer") %>%
+  mutate(
+    # Standardize category labels
+    Category = case_when(
+      Category == "TNT" ~ "Total Neoadjuvant Therapy",
+      Category == "Neoadjuvant vs Adjuvant CRT" ~ "Neoadjuvant vs Adjuvant CRT",
+      Category == "Short vs Long Course Radiation" ~ "Short vs Long Course Radiation",
+      Category == "Immunotherapy for dMMR" ~ "Immunotherapy for dMMR",
+      TRUE ~ Category
+      
+    ),
+    `Study (Year)` = paste0(Study, " (", Year, ") [@", Citation, "]"),
+    
+    # Handle missing values
+    Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+    `Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`),
+    
+    # Stack treatment columns
+    `Treatment Comparison` = paste0(
+      "**Experimental Arm:** ", `Experimental Arms`,
+      ifelse(knitr::is_latex_output(), " \\\\ ", "<br>"),
+      "**Standard of Care:** ", `standard of care`
+    )
+  ) %>%
+  select(Category, `Study (Year)`, `Patient Population`, `Tumor location`, Age,
+         `Treatment Comparison`, `Radiation Type`, `Primary Outcome`, `Key Findings`, Citation)
+
+# Group count for subheadings
+group_counts <- data_clean %>%
+  count(Category) %>%
+  deframe()
+
+# Create the table
+# data_clean %>%
+#   select(-Category, -Citation) %>%
+  kableExtra::kable(
+    data_clean %>% select(-Category, -Citation),
+    format = "markdown",
+    booktabs = TRUE,
+    longtable = TRUE,  # Important for PDF rendering with caption
+    escape = FALSE,    # Allows line breaks and bold
+    caption = "Clinical Trials in Rectal Cancer Treatment"
+  ) %>%
+  kable_styling(
+    latex_options = c("striped", "repeat_header", "scale_down"),
+    font_size = 10
+  ) %>%
+  column_spec(1, bold = TRUE, width = "9em") %>%
+  column_spec(2, width = "5em") %>%
+  column_spec(3, width = "4em") %>%
+  column_spec(4, width = "10em") %>%  # Treatment Comparison
+  column_spec(5, width = "5em") %>%
+  column_spec(6, width = "5em") %>%
+  column_spec(7, width = "10em") %>%
+  group_rows(
+    index = group_counts,
+    label_row_css = "text-align: center; font-weight: bold;"
+  )
+
+
+
+
+```
+
+
+
+```{r}
+
+
+# Load required packages
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# Read CSV file
+data <- read_csv("SeminalTrials.csv")
+
+# Clean and filter the data
+data_clean <- data %>%
+  filter(Disease == "rectal cancer", Include == "yes") %>%
+  arrange(Category, Year) %>%
+  mutate(
+    Category = case_when(
+      Category == "TNT" ~ "Total Neoadjuvant Therapy",
+      Category == "Neoadjuvant vs Adjuvant CRT" ~ "Neoadjuvant vs Adjuvant CRT",
+      Category == "Short vs Long Course Radiation" ~ "Short vs Long Course Radiation",
+      Category == "Immunotherapy for dMMR" ~ "Immunotherapy for dMMR",
+      TRUE ~ Category
+    ),
+    Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+    `Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`),
+    `Study (Year)` = paste0(Study, " (", Year, ") [@", Citation, "]")
+  ) %>%
+  select(Category, `Study (Year)`, `Patient Population`, `Tumor location`, Age,
+         `Experimental Arms`, `standard of care`, `Radiation Type`,
+         `Primary Outcome`, `Key Findings`)
+
+# Count rows per category for grouping
+group_counts <- data_clean %>%
+  count(Category) %>%
+  deframe()
+
+# Create Markdown-compatible table (citations work!)
+data_clean %>%
+  select(-Category) %>%
+  kableExtra::kable(
+    format = "markdown",
+    booktabs = TRUE,
+    caption = "Clinical Trials in Rectal Cancer Treatment"
+  ) %>%
+  kable_styling(
+    latex_options = c("striped", "repeat_header", "scale_down"),
+    font_size = 10,
+    full_width = TRUE
+  ) %>%
+  column_spec(1, bold = TRUE, width = "12em") %>%
+  column_spec(2, width = "8em") %>%
+  column_spec(3, width = "5em") %>%
+  column_spec(4, width = "5em") %>%
+  column_spec(5, width = "10em") %>%
+  column_spec(6, width = "10em") %>%
+  column_spec(7, width = "5em") %>%
+  column_spec(8, width = "8em") %>%
+  column_spec(9, width = "12em") %>%
+  group_rows(
+    index = group_counts,
+    label_row_css = "text-align: center; font-weight: bold;"
+  )
+
+```
+
+
+
