@@ -1,0 +1,209 @@
+---
+title: "RektumTable"
+format:
+  pdf:
+    #classoption: twocolumn           # Enables double-column layout
+    geometry: top=3cm, bottom=3cm, left=1.5cm, right=1.5cm  # Specifies DIN A4 paper
+    number-sections: true            # Optional: Number sections
+    toc: true                        # Optional: Table of Contents
+    fig-width: 6
+    fig.asp: 0.75
+    keep-tex: false   # Avoid keeping LaTeX files
+    #pdf-engine: xelatex
+    
+slide-format: revealjs
+bibliography: ../mta-schule.bib
+csl: ../american-medical-association.csl
+execute:
+  warning: false
+crossref: 
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  sec-prefix: Abschnitt
+  fig-title: Abbildung
+  tbl-title: Tabelle
+---
+
+## Table
+
+```{r rectal-cancer-table, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(gt)
+library(knitr)
+library(kableExtra)
+
+# Read and clean data
+data <- read_csv("SeminalTrials.csv", show_col_types = FALSE)
+
+data_clean <- data %>%
+  filter(Include == "yes", Disease == "rectal cancer") %>%
+  mutate(
+    Category = case_when(
+      Category == "TNT" ~ "Total Neoadjuvant Therapy",
+      TRUE ~ Category
+    ),
+    `Study (Year)` = paste0(Study, " (", Year, ")"),
+    Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+    `Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
+  ) %>%
+  select(Category, `Study (Year)`, `Patient Population`, `Tumor location`, Age,
+         `Experimental Arms`, `standard of care`, `Radiation Type`,
+         `Primary Outcome`, `Key Findings`, Citation) %>%
+  arrange(Category)
+
+# Choose output
+if (knitr::is_html_output()) {
+  data_clean %>%
+    select(-Citation) %>%
+    gt(groupname_col = "Category") %>%
+    fmt_markdown(columns = "Study (Year)") %>%
+    tab_header(
+      title = md("**Clinical Trials in Rectal Cancer Treatment**"),
+      subtitle = md("*Grouped by Treatment Category*")
+    ) %>%
+    tab_style(
+      style = cell_text(align = "center", weight = "bold"),
+      locations = cells_row_groups()
+    ) %>%
+    opt_row_striping()
+  
+} else {
+  # Create kable with grouped rows
+  group_counts <- data_clean %>%
+    count(Category) %>%
+    deframe()
+
+  
+  data_clean %>%
+    
+    select(-Category, -Citation) %>%
+    kbl(
+      booktabs = TRUE,
+      escape = TRUE,
+      caption = "Clinical Trials in Rectal Cancer Treatment"
+    ) %>%
+    kable_styling(
+      latex_options = c("striped", "repeat_header", "scale_down"),
+      #latex_environment = "landscape",
+      #full_width = TRUE,
+      font_size = 12
+    ) %>%
+    column_spec(1, bold = T, width = "9em") %>%
+    column_spec(2, width = "5em") %>%
+    column_spec(3, width = "4em") %>%
+    column_spec(4, width = "3em") %>%
+    column_spec(5, width = "10em") %>%
+    column_spec(6, width = "10em") %>%
+    column_spec(7, width = "5em") %>%
+    column_spec(8, width = "3em") %>%
+    column_spec(9, width = "10em") %>%
+    group_rows(
+      index = group_counts,
+      label_row_css = "text-align: center; font-weight: bold;"
+  )
+}
+
+
+
+```
+
+
+
+
+```{r}
+
+# Load required packages
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# Read CSV file
+data <- read_csv("SeminalTrials.csv")
+
+# Clean and filter the data
+data_clean <- data %>%
+  filter(Disease == "rectal cancer", Include == "yes") %>%
+  arrange(Category, Year) %>%
+  mutate(
+    Category = case_when(
+      Category == "TNT" ~ "Total Neoadjuvant Therapy",
+      Category == "Neoadjuvant vs Adjuvant CRT" ~ "Neoadjuvant vs Adjuvant CRT",
+      Category == "Short vs Long Course Radiation" ~ "Short vs Long Course Radiation",
+      Category == "Immunotherapy for dMMR" ~ "Immunotherapy for dMMR",
+      TRUE ~ Category
+    ),
+    Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+    `Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`),
+    `Study (Year)` = paste0(Study, " (", Year, ") [@", Citation, "]")
+  ) %>%
+  select(Category, `Study (Year)`, `Patient Population`, `Tumor location`, Age,
+         `Experimental Arms`, `standard of care`, `Radiation Type`,
+         `Primary Outcome`, `Key Findings`)
+
+# Count rows per category for grouping
+group_counts <- data_clean %>%
+  count(Category) %>%
+  deframe()
+
+# Create Markdown-compatible table (citations work!)
+data_clean %>%
+  select(-Category) %>%
+  kableExtra::kable(
+    format = "markdown",
+    booktabs = TRUE,
+    caption = "Clinical Trials in Rectal Cancer Treatment"
+  ) %>%
+  kable_styling(
+    latex_options = c("striped", "repeat_header", "scale_down"),
+    font_size = 10,
+    full_width = TRUE
+  ) %>%
+  column_spec(1, bold = TRUE, width = "12em") %>%
+  column_spec(2, width = "8em") %>%
+  column_spec(3, width = "5em") %>%
+  column_spec(4, width = "5em") %>%
+  column_spec(5, width = "10em") %>%
+  column_spec(6, width = "10em") %>%
+  column_spec(7, width = "5em") %>%
+  column_spec(8, width = "8em") %>%
+  column_spec(9, width = "12em") %>%
+  group_rows(
+    index = group_counts,
+    label_row_css = "text-align: center; font-weight: bold;"
+  )
+
+
+
+
+```
+
+
+## Treatment Categories
+
+### Total Neoadjuvant Therapy (TNT)
+
+Total neoadjuvant therapy represents a paradigm shift in rectal cancer treatment, delivering all systemic therapy before surgery. The RAPIDO [@BahadoerEtAl2021], PRODIGE-23 [@ConroyEtAl2021], and OPRA [@Garcia-AguilarEtAl2022] trials have demonstrated significant improvements in pathological complete response rates and disease-free survival.
+
+### Neoadjuvant vs Adjuvant Chemoradiotherapy
+The landmark CAO/ARO/AIO-94 [@SauerEtAl2004] and NSABP R-03 [@RohEtAl2009] trials established the superiority of preoperative chemoradiotherapy over postoperative treatment, showing reduced local recurrence rates and improved sphincter preservation.
+
+### Short vs Long Course Radiotherapy
+Multiple trials including Dutch TME [@KapiteijnEtAl2001], Polish Trial [@BujkoEtAl2006], TROG 01.04 [@AnsariEtAl2017], and STELLAR have compared short-course radiotherapy with long-course chemoradiotherapy, generally showing equivalent oncologic outcomes with different toxicity profiles.
+
+### Immunotherapy for dMMR Tumors
+The groundbreaking work by Cercek et al. [@CercekEtAl2022] demonstrated remarkable complete response rates with dostarlimab in mismatch repair-deficient rectal cancers, potentially eliminating the need for surgery and chemoradiotherapy in this subset of patients.
+
+### Key Findings Summary
+The evolution of rectal cancer treatment has been marked by several paradigm shifts:
+
+Neoadjuvant Approach: Preoperative treatment has become the standard of care for locally advanced rectal cancer
+Total Neoadjuvant Therapy: Delivers all systemic therapy upfront, improving compliance and outcomes
+Organ Preservation: Select patients may avoid surgery through watch-and-wait strategies
+Personalized Medicine: Immunotherapy shows promise for specific molecular subtypes
+Quality of Life: Modern approaches emphasize functional outcomes and toxicity reduction
+
+## Conclusions
+The landscape of rectal cancer treatment continues to evolve rapidly. Total neoadjuvant therapy appears to be the future standard for locally advanced disease, while immunotherapy offers unprecedented opportunities for patients with mismatch repair-deficient tumors. Future research should focus on identifying optimal patient selection criteria and developing novel combination strategies.
+
+## References
