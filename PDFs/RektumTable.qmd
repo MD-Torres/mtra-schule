@@ -25,16 +25,19 @@ crossref:
 ---
 
 
+
 ```{r rectal-cancer-table, echo=FALSE, message=FALSE, warning=FALSE}
 
  library(tidyverse)
  library(gt)
  library(knitr)
  library(kableExtra)
-
+ library(googlesheets4)
+ 
+gs4_deauth() 
 
  # Read and clean data
- data <- read_csv("SeminalTrials.csv", show_col_types = FALSE)
+ data <- read_sheet("https://docs.google.com/spreadsheets/d/1sWyY-VP0YjLJbj_dOtm-AOwN3UNrTQR91AlfmBbTokI/edit?usp=sharing")
 
 data_clean <- data %>%
    filter(Include == "yes", Disease == "rectal cancer") %>%
@@ -43,13 +46,22 @@ data_clean <- data %>%
        Category == "TNT" ~ "Total Neoadjuvant Therapy",
        TRUE ~ Category
      ),
-     `Study (Year)` = paste0(Study, " (", Year, ")")
+     #`Study (Year)` = paste0(Study, " (", Year, ")")
      #Age = ifelse(is.na(Age) | Age == "", "NR", Age),
      #`Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
    ) %>%
-   select(Category, `Study (Year)`, `Patient Population`, `Tumor location`, Age,
-          `Experimental Arms`, `standard of care`, `Radiation Type`,
-          `Primary Outcome`, `Key Findings`, Citation) %>%
+   select(Category, 
+          `Study`, 
+          `Year`,
+          `Tumor characteristics`, 
+          `Tumor location`, 
+           Age,
+          `Experimental Arms`, 
+          `standard of care`, 
+          `Radiation Type`,
+          `Primary Outcome`, 
+          `Key Findings`, 
+          Citation) %>%
    arrange(Category)
 
  # Choose output
@@ -77,7 +89,7 @@ data_clean <- data %>%
 
    data_clean %>%
 
-     select(-Category, -Citation) %>%
+     select(-Category, -Citation, -"Radiation Type") %>%
      kbl(
        format = "latex",
        booktabs = TRUE,
@@ -90,14 +102,16 @@ data_clean <- data %>%
        #full_width = TRUE,
        font_size = 12
      ) %>%
-   column_spec(1, bold = T, width = "9em") %>%
-     column_spec(2, width = "5em") %>%
-     column_spec(3, width = "4em") %>%
-     column_spec(4, width = "3em") %>%
-     column_spec(5, width = "10em") %>%
+     row_spec(0, bold = TRUE)%>%
+     column_spec(1, bold = T, width = "5em") %>%
+     column_spec(2, width = "6em") %>%
+     column_spec(3, width = "5em") %>%
+     column_spec(4, width = "4em") %>%
+     column_spec(5, width = "3em") %>%
      column_spec(6, width = "10em") %>%
-     column_spec(7, width = "5em") %>%
-     column_spec(8, width = "3em") %>%
+     column_spec(7, width = "10em") %>%
+     column_spec(8, width = "5em") %>%
+     #column_spec(8, width = "3em") %>%
      column_spec(9, width = "10em") %>%
      group_rows(
       index = group_counts, 
@@ -105,15 +119,15 @@ data_clean <- data %>%
       italic = FALSE, 
       latex_gap_space = "1em",
       color = "#FF3300",
-      latex_align = "l",
+      latex_align = "c",
       indent = FALSE,
       hline_after = TRUE,
-      hline_before = TRUE,
+      hline_before = FALSE,
       latex_wrap_text = TRUE
     )  %>%
   footnote(
     escape = FALSE,
-    general = "Abbreviations: cCR = clinical complete response, CRT = chemoradiotherapy, TME = Total mesorectal excision, LV = Leucovorin, OS = Overall survival, DSF = disease-free survival, pCR = pathological complete response, SCRT = Short-course radiation therapy (25 Gy/5f), w = weeks.",
+    general = "cCR = clinical complete response, CRT = chemoradiotherapy, TME = Total mesorectal excision, LV = Leucovorin, OS = Overall survival, DSF = disease-free survival, pCR = pathological complete response, SCRT = Short-course radiation therapy (25 Gy/5f).",
     general_title = "",
     threeparttable = TRUE
     
