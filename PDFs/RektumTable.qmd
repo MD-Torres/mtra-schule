@@ -43,9 +43,9 @@ data_clean <- data %>%
        Category == "TNT" ~ "Total Neoadjuvant Therapy",
        TRUE ~ Category
      ),
-     `Study (Year)` = paste0(Study, " (", Year, ")"),
-     Age = ifelse(is.na(Age) | Age == "", "NR", Age),
-     `Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
+     `Study (Year)` = paste0(Study, " (", Year, ")")
+     #Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+     #`Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
    ) %>%
    select(Category, `Study (Year)`, `Patient Population`, `Tumor location`, Age,
           `Experimental Arms`, `standard of care`, `Radiation Type`,
