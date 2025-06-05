@@ -1,16 +1,25 @@
 ---
 # title: "RektumTable"
 format:
-  pdf:
-    #classoption: twocolumn           # Enables double-column layout
-    geometry: top=3cm, bottom=3cm, left=1.5cm, right=1.5cm  # Specifies DIN A4 paper
-    number-sections: true            # Optional: Number sections
+  # pdf:
+  #   #classoption: twocolumn           # Enables double-column layout
+  #   geometry: top=3cm, bottom=3cm, left=1.5cm, right=1.5cm  # Specifies DIN A4 paper
+  #   number-sections: true            # Optional: Number sections
+  #   toc: false                        # Optional: Table of Contents
+  #   fig-width: 6
+  #   fig.asp: 0.75
+  #   keep-tex: true   # Avoid keeping LaTeX files
+  #   #pdf-engine: xelatex
+  #   citation-package: natbib  # or "biblatex"
+  html:
     toc: false                        # Optional: Table of Contents
+    number-sections: true            # Optional: Number sections
     fig-width: 6
     fig.asp: 0.75
-    keep-tex: true   # Avoid keeping LaTeX files
-    #pdf-engine: xelatex
-    citation-package: natbib  # or "biblatex"
+    theme: default                   # You can change to cosmo, flatly, etc.
+    css: custom.css                  # Optional: custom CSS file
+    code-fold: false                 # Optional: fold code blocks
+    embed-resources: true            # Optional: embed all resources in single file
 slide-format: revealjs
 bibliography: ../mta-schule.bib
 csl: ../american-medical-association.csl
@@ -69,7 +78,7 @@ data_clean <- data %>%
    data_clean %>%
      select(-Citation) %>%
      gt(groupname_col = "Category") %>%
-     fmt_markdown(columns = "Study (Year)") %>%
+     fmt_markdown(columns = "Study") %>%
      tab_header(
        title = md("**Clinical Trials in Rectal Cancer Treatment**"),
        subtitle = md("*Grouped by Treatment Category*")
@@ -126,7 +135,7 @@ data_clean <- data %>%
       latex_wrap_text = TRUE
     )  %>%
   footnote(
-    escape = FALSE,
+    escape = TRUE,
     general = "cCR = clinical complete response, CRT = chemoradiotherapy, TME = Total mesorectal excision, LV = Leucovorin, OS = Overall survival, DSF = disease-free survival, pCR = pathological complete response, SCRT = Short-course radiation therapy (25 Gy/5f).",
     general_title = "",
     threeparttable = TRUE
