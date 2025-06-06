@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>km_pdf – MTRA</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-2d2c3c1dc8fcebd689918bbad00a5354.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTRA</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">—</a></li>
+  <li><a href="#title-kontrastmittel" id="toc-title-kontrastmittel" class="nav-link" data-scroll-target="#title-kontrastmittel">title: “Kontrastmittel”</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#format" id="toc-format" class="nav-link" data-scroll-target="#format">format:</a></li>
+  <li><a href="#pdf" id="toc-pdf" class="nav-link" data-scroll-target="#pdf">pdf:</a></li>
+  <li><a href="#toc-true-generate-toc" id="toc-toc-true-generate-toc" class="nav-link" data-scroll-target="#toc-true-generate-toc">toc: true # generate TOC</a></li>
+  <li><a href="#toc-depth-3-include-up-to-level-headings" id="toc-toc-depth-3-include-up-to-level-headings" class="nav-link" data-scroll-target="#toc-depth-3-include-up-to-level-headings">toc-depth: 3 # include up to ###‑level headings</a></li>
+  <li><a href="#number-sections-true" id="toc-number-sections-true" class="nav-link" data-scroll-target="#number-sections-true">number-sections: true</a></li>
+  <li><a href="#colorlinks-true-coloured-clickable-links" id="toc-colorlinks-true-coloured-clickable-links" class="nav-link" data-scroll-target="#colorlinks-true-coloured-clickable-links">colorlinks: true # coloured, clickable links</a></li>
+  <li><a href="#citations-true-loads-hyperref-if-not-yet-loaded" id="toc-citations-true-loads-hyperref-if-not-yet-loaded" class="nav-link" data-scroll-target="#citations-true-loads-hyperref-if-not-yet-loaded">citations: true # loads hyperref if not yet loaded</a></li>
+  <li><a href="#fig-pos-h" id="toc-fig-pos-h" class="nav-link" data-scroll-target="#fig-pos-h">fig-pos: “H”</a></li>
+  <li><a href="#documentclass-article" id="toc-documentclass-article" class="nav-link" data-scroll-target="#documentclass-article">documentclass: article</a></li>
+  <li><a href="#papersize-a4" id="toc-papersize-a4" class="nav-link" data-scroll-target="#papersize-a4">papersize: a4</a></li>
+  <li><a href="#geometry" id="toc-geometry" class="nav-link" data-scroll-target="#geometry">geometry:</a></li>
+  <li><a href="#margin2.5cm" id="toc-margin2.5cm" class="nav-link" data-scroll-target="#margin2.5cm">- margin=2.5cm</a></li>
+  <li><a href="#include-in-header-latex-snippet-page-break-before-every-section" id="toc-include-in-header-latex-snippet-page-break-before-every-section" class="nav-link" data-scroll-target="#include-in-header-latex-snippet-page-break-before-every-section">include-in-header: # LaTeX snippet → page break before every \section</a></li>
+  <li><a href="#text" id="toc-text" class="nav-link" data-scroll-target="#text">text: |</a></li>
+  <li><a href="#for-twosided-docs-use-instead-of" id="toc-for-twosided-docs-use-instead-of" class="nav-link" data-scroll-target="#for-twosided-docs-use-instead-of">% For two‑sided docs use instead of </a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3"></a></li>
+  <li><a href="#html" id="toc-html" class="nav-link" data-scroll-target="#html">html:</a></li>
+  <li><a href="#toc-true-html-toc-already-linked" id="toc-toc-true-html-toc-already-linked" class="nav-link" data-scroll-target="#toc-true-html-toc-already-linked">toc: true # HTML TOC (already linked)</a></li>
+  <li><a href="#toc-depth-3" id="toc-toc-depth-3" class="nav-link" data-scroll-target="#toc-depth-3">toc-depth: 3</a></li>
+  <li><a href="#number-sections-true-1" id="toc-number-sections-true-1" class="nav-link" data-scroll-target="#number-sections-true-1">number-sections: true</a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4"></a></li>
+  <li><a href="#docx" id="toc-docx" class="nav-link" data-scroll-target="#docx"># docx:</a></li>
+  <li><a href="#toc-true-clickable-word-toc" id="toc-toc-true-clickable-word-toc" class="nav-link" data-scroll-target="#toc-true-clickable-word-toc"># toc: true # clickable Word TOC</a></li>
+  <li><a href="#toc-depth-3-1" id="toc-toc-depth-3-1" class="nav-link" data-scroll-target="#toc-depth-3-1"># toc-depth: 3</a></li>
+  <li><a href="#number-sections-true-2" id="toc-number-sections-true-2" class="nav-link" data-scroll-target="#number-sections-true-2"># number-sections: true</a></li>
+  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5"></a></li>
+  <li><a href="#bibliography-mta-schule.bib" id="toc-bibliography-mta-schule.bib" class="nav-link" data-scroll-target="#bibliography-mta-schule.bib">bibliography: mta-schule.bib</a></li>
+  <li><a href="#csl-american-medical-association.csl" id="toc-csl-american-medical-association.csl" class="nav-link" data-scroll-target="#csl-american-medical-association.csl">csl: american-medical-association.csl</a></li>
+  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6"></a></li>
+  <li><a href="#execute" id="toc-execute" class="nav-link" data-scroll-target="#execute">execute:</a></li>
+  <li><a href="#warning-false" id="toc-warning-false" class="nav-link" data-scroll-target="#warning-false">warning: false</a></li>
+  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7"></a></li>
+  <li><a href="#crossref" id="toc-crossref" class="nav-link" data-scroll-target="#crossref">crossref:</a></li>
+  <li><a href="#fig-prefix-abbildung" id="toc-fig-prefix-abbildung" class="nav-link" data-scroll-target="#fig-prefix-abbildung">fig-prefix: Abbildung</a></li>
+  <li><a href="#tbl-prefix-tabelle" id="toc-tbl-prefix-tabelle" class="nav-link" data-scroll-target="#tbl-prefix-tabelle">tbl-prefix: Tabelle</a></li>
+  <li><a href="#sec-prefix-abschnitt" id="toc-sec-prefix-abschnitt" class="nav-link" data-scroll-target="#sec-prefix-abschnitt">sec-prefix: Abschnitt</a></li>
+  <li><a href="#fig-title-abbildung" id="toc-fig-title-abbildung" class="nav-link" data-scroll-target="#fig-title-abbildung">fig-title: Abbildung</a></li>
+  <li><a href="#tbl-title-tabelle" id="toc-tbl-title-tabelle" class="nav-link" data-scroll-target="#tbl-title-tabelle">tbl-title: Tabelle</a></li>
+  <li><a href="#section-8" id="toc-section-8" class="nav-link" data-scroll-target="#section-8">—</a></li>
+  <li><a href="#section-9" id="toc-section-9" class="nav-link" data-scroll-target="#section-9"></a></li>
+  <li><a href="#vorgehen" id="toc-vorgehen" class="nav-link" data-scroll-target="#vorgehen">## Vorgehen</a></li>
+  <li><a href="#section-10" id="toc-section-10" class="nav-link" data-scroll-target="#section-10">:::</a></li>
+  <li><a href="#section-11" id="toc-section-11" class="nav-link" data-scroll-target="#section-11"></a></li>
+  <li><a href="#laborwerte-für-tsh-und-egfr-dürfen-bis-zu-3-monate-alt-sein-es-sei-denn-es-liegt-eine-akute-erkrankung-vor-oder-es-besteht-der-klinische-verdacht-auf-eine-akute-verschlechterung-einer-bekannten-chronischen-erkrankung." id="toc-laborwerte-für-tsh-und-egfr-dürfen-bis-zu-3-monate-alt-sein-es-sei-denn-es-liegt-eine-akute-erkrankung-vor-oder-es-besteht-der-klinische-verdacht-auf-eine-akute-verschlechterung-einer-bekannten-chronischen-erkrankung." class="nav-link" data-scroll-target="#laborwerte-für-tsh-und-egfr-dürfen-bis-zu-3-monate-alt-sein-es-sei-denn-es-liegt-eine-akute-erkrankung-vor-oder-es-besteht-der-klinische-verdacht-auf-eine-akute-verschlechterung-einer-bekannten-chronischen-erkrankung.">Laborwerte für <strong>TSH und eGFR</strong> dürfen bis zu <strong>3 Monate alt</strong> sein, es sei denn, es liegt eine akute Erkrankung vor oder es besteht der klinische Verdacht auf eine akute Verschlechterung einer bekannten chronischen Erkrankung.</a></li>
+  <li><a href="#section-12" id="toc-section-12" class="nav-link" data-scroll-target="#section-12"></a></li>
+  <li><a href="#bei-egfr-30-mlmin-kann-metformin-normal-eingenommen-werden." id="toc-bei-egfr-30-mlmin-kann-metformin-normal-eingenommen-werden." class="nav-link" data-scroll-target="#bei-egfr-30-mlmin-kann-metformin-normal-eingenommen-werden.">bei eGFR &gt; 30 ml/min kann Metformin normal eingenommen werden.</a></li>
+  <li><a href="#section-13" id="toc-section-13" class="nav-link" data-scroll-target="#section-13"></a></li>
+  <li><a href="#bei-egfr-30-mlmin-metformin-ab-dem-zeitpunkt-der-km-applikation-absetzen.-nach-48-stunden-erneut-egfr-bestimmen-sollten-keine-veränderungen-vorliegen-metformin-kann-wieder-begonnen-werden." id="toc-bei-egfr-30-mlmin-metformin-ab-dem-zeitpunkt-der-km-applikation-absetzen.-nach-48-stunden-erneut-egfr-bestimmen-sollten-keine-veränderungen-vorliegen-metformin-kann-wieder-begonnen-werden." class="nav-link" data-scroll-target="#bei-egfr-30-mlmin-metformin-ab-dem-zeitpunkt-der-km-applikation-absetzen.-nach-48-stunden-erneut-egfr-bestimmen-sollten-keine-veränderungen-vorliegen-metformin-kann-wieder-begonnen-werden.">bei eGFR &lt; 30 ml/min Metformin ab dem Zeitpunkt der KM-Applikation absetzen. Nach 48 Stunden erneut eGFR bestimmen, sollten keine Veränderungen vorliegen: Metformin kann wieder begonnen werden.</a></li>
+  <li><a href="#section-14" id="toc-section-14" class="nav-link" data-scroll-target="#section-14"></a></li>
+  <li><a href="#wenn-das-serum-tsh-abnormal-ist-sollten-die-schilddrüsenhormone-t3-undoder-t4-gemessen-werden-stufendiagnostik." id="toc-wenn-das-serum-tsh-abnormal-ist-sollten-die-schilddrüsenhormone-t3-undoder-t4-gemessen-werden-stufendiagnostik." class="nav-link" data-scroll-target="#wenn-das-serum-tsh-abnormal-ist-sollten-die-schilddrüsenhormone-t3-undoder-t4-gemessen-werden-stufendiagnostik.">Wenn das Serum-TSH abnormal ist, sollten die Schilddrüsenhormone (T3 und/oder T4) gemessen werden (Stufendiagnostik).</a></li>
+  <li><a href="#section-15" id="toc-section-15" class="nav-link" data-scroll-target="#section-15"></a></li>
+  <li><a href="#s.-fig-stufen" id="toc-s.-fig-stufen" class="nav-link" data-scroll-target="#s.-fig-stufen">s. <strong>?@fig-stufen</strong></a></li>
+  <li><a href="#section-16" id="toc-section-16" class="nav-link" data-scroll-target="#section-16"></a></li>
+  <li><a href="#section-17" id="toc-section-17" class="nav-link" data-scroll-target="#section-17">:::</a></li>
+  <li><a href="#section-18" id="toc-section-18" class="nav-link" data-scroll-target="#section-18"></a></li>
+  <li><a href="#section-19" id="toc-section-19" class="nav-link" data-scroll-target="#section-19"></a></li>
+  <li><a href="#kontrastmittel-induzierte-funktionsstörungen-der-niere" id="toc-kontrastmittel-induzierte-funktionsstörungen-der-niere" class="nav-link" data-scroll-target="#kontrastmittel-induzierte-funktionsstörungen-der-niere">## Kontrastmittel-induzierte Funktionsstörungen der Niere</a></li>
+  <li><a href="#section-20" id="toc-section-20" class="nav-link" data-scroll-target="#section-20"></a></li>
+  <li><a href="#der-begriff-post-kontrastmittel-akutes-nierenversagen-pc-aki-beschreibt-eine-meist-vorübergehende-verschlechterung-der-nierenfunktion-nach-intravaskulärer-gabe-von-kontrastmitteln.-diese-erreicht-typischerweise-nach-23-tagen-ihren-höhepunkt-und-normalisiert-sich-innerhalb-von-etwa-13-wochen.-wie-andere-formen-des-akuten-nierenversagens-ist-es-ein-indikator-für-eine-erhöhte-kurz--und-langfristige-morbidität-mortalität-und-eine-verlängerte-krankenhausverweildauer.-vandermolenetal2018" id="toc-der-begriff-post-kontrastmittel-akutes-nierenversagen-pc-aki-beschreibt-eine-meist-vorübergehende-verschlechterung-der-nierenfunktion-nach-intravaskulärer-gabe-von-kontrastmitteln.-diese-erreicht-typischerweise-nach-23-tagen-ihren-höhepunkt-und-normalisiert-sich-innerhalb-von-etwa-13-wochen.-wie-andere-formen-des-akuten-nierenversagens-ist-es-ein-indikator-für-eine-erhöhte-kurz--und-langfristige-morbidität-mortalität-und-eine-verlängerte-krankenhausverweildauer.-vandermolenetal2018" class="nav-link" data-scroll-target="#der-begriff-post-kontrastmittel-akutes-nierenversagen-pc-aki-beschreibt-eine-meist-vorübergehende-verschlechterung-der-nierenfunktion-nach-intravaskulärer-gabe-von-kontrastmitteln.-diese-erreicht-typischerweise-nach-23-tagen-ihren-höhepunkt-und-normalisiert-sich-innerhalb-von-etwa-13-wochen.-wie-andere-formen-des-akuten-nierenversagens-ist-es-ein-indikator-für-eine-erhöhte-kurz--und-langfristige-morbidität-mortalität-und-eine-verlängerte-krankenhausverweildauer.-vandermolenetal2018">Der Begriff <em>Post-Kontrastmittel-akutes Nierenversagen</em> (PC-AKI) beschreibt eine meist vorübergehende Verschlechterung der Nierenfunktion <em>nach</em> intravaskulärer Gabe von Kontrastmitteln. Diese erreicht typischerweise nach 2–3 Tagen ihren Höhepunkt und normalisiert sich innerhalb von etwa 1–3 Wochen. Wie andere Formen des akuten Nierenversagens ist es ein Indikator für eine erhöhte kurz- und langfristige Morbidität, Mortalität und eine verlängerte Krankenhausverweildauer. <span class="citation" data-cites="vanderMolenEtAl2018">@vanderMolenEtAl2018</span></a></li>
+  <li><a href="#section-21" id="toc-section-21" class="nav-link" data-scroll-target="#section-21"></a></li>
+  <li><a href="#die-inzidenz-von-pc-aki-ist-schwer-einzuschätzen-da-studien-unterschiedliche-definitionen-des-akuten-nierenversagens-aki-verwenden." id="toc-die-inzidenz-von-pc-aki-ist-schwer-einzuschätzen-da-studien-unterschiedliche-definitionen-des-akuten-nierenversagens-aki-verwenden." class="nav-link" data-scroll-target="#die-inzidenz-von-pc-aki-ist-schwer-einzuschätzen-da-studien-unterschiedliche-definitionen-des-akuten-nierenversagens-aki-verwenden.">Die Inzidenz von (PC-AKI) ist schwer einzuschätzen, da Studien unterschiedliche Definitionen des akuten Nierenversagens (AKI) verwenden.</a></li>
+  <li><a href="#section-22" id="toc-section-22" class="nav-link" data-scroll-target="#section-22"></a></li>
+  <li><a href="#die-esur-leitlinie-definiert-eine-pc-aki-als-einen-anstieg-des-serum-kreatinins-innerhalb-von-4872-stunden-nach-intravaskulärer-kontrastmittelgabe-um-03-mgdl-265-μmoll-oder-um-15-fache-des-ausgangswertes.-thomsenmorcos2006" id="toc-die-esur-leitlinie-definiert-eine-pc-aki-als-einen-anstieg-des-serum-kreatinins-innerhalb-von-4872-stunden-nach-intravaskulärer-kontrastmittelgabe-um-03-mgdl-265-μmoll-oder-um-15-fache-des-ausgangswertes.-thomsenmorcos2006" class="nav-link" data-scroll-target="#die-esur-leitlinie-definiert-eine-pc-aki-als-einen-anstieg-des-serum-kreatinins-innerhalb-von-4872-stunden-nach-intravaskulärer-kontrastmittelgabe-um-03-mgdl-265-μmoll-oder-um-15-fache-des-ausgangswertes.-thomsenmorcos2006">Die ESUR Leitlinie definiert eine (PC-AKI) als einen Anstieg des Serum-Kreatinins innerhalb von 48–72 Stunden nach intravaskulärer Kontrastmittelgabe um ≥ 0,3 mg/dl (≥ 26,5 μmol/l) oder um ≥ 1,5-fache des Ausgangswertes. <span class="citation" data-cites="ThomsenMorcos2006">@ThomsenMorcos2006</span></a></li>
+  <li><a href="#section-23" id="toc-section-23" class="nav-link" data-scroll-target="#section-23"></a></li>
+  <li><a href="#darüberhinaus-beeinflussen-variierende-applikationswege-intravenös-oder-intraarteriell-dosierungen-und-kontrastmitteltypen-die-angegebene-inzidenz-erheblich.-zudem-waren-die-eingeschlossenen-patientengruppen-hinsichtlich-komorbiditäten-und-vorbestehender-nierenerkrankungen-heterogen.-latusetal2020" id="toc-darüberhinaus-beeinflussen-variierende-applikationswege-intravenös-oder-intraarteriell-dosierungen-und-kontrastmitteltypen-die-angegebene-inzidenz-erheblich.-zudem-waren-die-eingeschlossenen-patientengruppen-hinsichtlich-komorbiditäten-und-vorbestehender-nierenerkrankungen-heterogen.-latusetal2020" class="nav-link" data-scroll-target="#darüberhinaus-beeinflussen-variierende-applikationswege-intravenös-oder-intraarteriell-dosierungen-und-kontrastmitteltypen-die-angegebene-inzidenz-erheblich.-zudem-waren-die-eingeschlossenen-patientengruppen-hinsichtlich-komorbiditäten-und-vorbestehender-nierenerkrankungen-heterogen.-latusetal2020">Darüberhinaus beeinflussen variierende Applikationswege (intravenös oder intraarteriell), Dosierungen und Kontrastmitteltypen die angegebene Inzidenz erheblich. Zudem waren die eingeschlossenen Patientengruppen hinsichtlich Komorbiditäten und vorbestehender Nierenerkrankungen heterogen. <span class="citation" data-cites="LatusEtAl2020">@LatusEtAl2020</span></a></li>
+  <li><a href="#section-24" id="toc-section-24" class="nav-link" data-scroll-target="#section-24"></a></li>
+  <li><a href="#insgesamt-wird-die-inzidenz-des-pc-aki-in-der-literatur-vermutlich-überschätzt.-zwei-metaanalysen-mit-insgesamt-19.000-patienten-die-intravenös-kontrastmittel-erhielten-zeigten-pc-aki-raten-von-64-95-ci-5081-und-50-95-ci-3865.-kooimanetal2012-moosetal2013" id="toc-insgesamt-wird-die-inzidenz-des-pc-aki-in-der-literatur-vermutlich-überschätzt.-zwei-metaanalysen-mit-insgesamt-19.000-patienten-die-intravenös-kontrastmittel-erhielten-zeigten-pc-aki-raten-von-64-95-ci-5081-und-50-95-ci-3865.-kooimanetal2012-moosetal2013" class="nav-link" data-scroll-target="#insgesamt-wird-die-inzidenz-des-pc-aki-in-der-literatur-vermutlich-überschätzt.-zwei-metaanalysen-mit-insgesamt-19.000-patienten-die-intravenös-kontrastmittel-erhielten-zeigten-pc-aki-raten-von-64-95-ci-5081-und-50-95-ci-3865.-kooimanetal2012-moosetal2013">Insgesamt wird die Inzidenz des (PC-AKI) in der Literatur vermutlich überschätzt. Zwei Metaanalysen mit insgesamt 19.000 Patienten, die intravenös Kontrastmittel erhielten, zeigten PC-AKI-Raten von 6,4 % (95 % CI 5,0–8,1) und 5,0 % (95 % CI 3,8–6,5). <span class="citation" data-cites="KooimanEtAl2012 MoosEtAl2013">[@KooimanEtAl2012; @MoosEtAl2013]</span></a></li>
+  <li><a href="#bei-1-der-patienten-blieb-die-nierenfunktionsverschlechterung-bis-zu-zwei-monate-bestehen-während-die-gewichtete-inzidenz-für-eine-erforderliche-nierenersatztherapie-rrt-lediglich-006-betrug.kooimanetal2012-vandermolenetal2018" id="toc-bei-1-der-patienten-blieb-die-nierenfunktionsverschlechterung-bis-zu-zwei-monate-bestehen-während-die-gewichtete-inzidenz-für-eine-erforderliche-nierenersatztherapie-rrt-lediglich-006-betrug.kooimanetal2012-vandermolenetal2018" class="nav-link" data-scroll-target="#bei-1-der-patienten-blieb-die-nierenfunktionsverschlechterung-bis-zu-zwei-monate-bestehen-während-die-gewichtete-inzidenz-für-eine-erforderliche-nierenersatztherapie-rrt-lediglich-006-betrug.kooimanetal2012-vandermolenetal2018">Bei 1 % der Patienten blieb die Nierenfunktionsverschlechterung bis zu zwei Monate bestehen, während die gewichtete Inzidenz für eine erforderliche Nierenersatztherapie (RRT) lediglich 0,06 % betrug.<span class="citation" data-cites="KooimanEtAl2012 vanderMolenEtAl2018">[@KooimanEtAl2012; @vanderMolenEtAl2018]</span></a></li>
+  <li><a href="#section-25" id="toc-section-25" class="nav-link" data-scroll-target="#section-25"></a></li>
+  <li><a href="#der-american-college-of-radiology-ausschuss-für-arznei--und-kontrastmittel-vertritt-den-standpunkt-dass-pc-aki-eine-echte-wenn-auch-seltene-entität-ist-und-dass-die-veröffentlichten-studien-zur-pc-aki-stark-durch-verzerrungen-und-vermischungen-belastet-sind.-acrcommitteeondrugsandcontrastmedia2013" id="toc-der-american-college-of-radiology-ausschuss-für-arznei--und-kontrastmittel-vertritt-den-standpunkt-dass-pc-aki-eine-echte-wenn-auch-seltene-entität-ist-und-dass-die-veröffentlichten-studien-zur-pc-aki-stark-durch-verzerrungen-und-vermischungen-belastet-sind.-acrcommitteeondrugsandcontrastmedia2013" class="nav-link" data-scroll-target="#der-american-college-of-radiology-ausschuss-für-arznei--und-kontrastmittel-vertritt-den-standpunkt-dass-pc-aki-eine-echte-wenn-auch-seltene-entität-ist-und-dass-die-veröffentlichten-studien-zur-pc-aki-stark-durch-verzerrungen-und-vermischungen-belastet-sind.-acrcommitteeondrugsandcontrastmedia2013">Der American College of Radiology-Ausschuss für Arznei- und Kontrastmittel vertritt den Standpunkt, dass PC-AKI eine echte, wenn auch seltene Entität ist und dass die veröffentlichten Studien zur PC-AKI stark durch Verzerrungen und Vermischungen belastet sind. <span class="citation" data-cites="ACRCommitteeonDrugsandContrastMedia2013">@ACRCommitteeonDrugsandContrastMedia2013</span></a></li>
+  <li><a href="#section-26" id="toc-section-26" class="nav-link" data-scroll-target="#section-26"></a></li>
+  <li><a href="#metformin" id="toc-metformin" class="nav-link" data-scroll-target="#metformin">### Metformin</a></li>
+  <li><a href="#section-27" id="toc-section-27" class="nav-link" data-scroll-target="#section-27"></a></li>
+  <li><a href="#metformin-ist-nicht-nephrotoxisch-wird-jedoch-über-die-nieren-ausgeschieden-wobei-die-clearance-ungefähr-linear-mit-der-glomerulären-filtrationsrate-gfr-korreliert.-es-gibt-daher-zwei-situationen-in-denen-eine-metformin-intoxikation-auftreten-kann-versäumnis-der-dosisreduktion-bei-vorliegen-einer-chrnonischen-niereninsuffizienz-und-bei-akute-niereninsuffizienz.-heaf2014" id="toc-metformin-ist-nicht-nephrotoxisch-wird-jedoch-über-die-nieren-ausgeschieden-wobei-die-clearance-ungefähr-linear-mit-der-glomerulären-filtrationsrate-gfr-korreliert.-es-gibt-daher-zwei-situationen-in-denen-eine-metformin-intoxikation-auftreten-kann-versäumnis-der-dosisreduktion-bei-vorliegen-einer-chrnonischen-niereninsuffizienz-und-bei-akute-niereninsuffizienz.-heaf2014" class="nav-link" data-scroll-target="#metformin-ist-nicht-nephrotoxisch-wird-jedoch-über-die-nieren-ausgeschieden-wobei-die-clearance-ungefähr-linear-mit-der-glomerulären-filtrationsrate-gfr-korreliert.-es-gibt-daher-zwei-situationen-in-denen-eine-metformin-intoxikation-auftreten-kann-versäumnis-der-dosisreduktion-bei-vorliegen-einer-chrnonischen-niereninsuffizienz-und-bei-akute-niereninsuffizienz.-heaf2014">Metformin ist <em>nicht</em> nephrotoxisch, wird jedoch über die Nieren ausgeschieden, wobei die Clearance ungefähr linear mit der glomerulären Filtrationsrate (GFR) korreliert. Es gibt daher zwei Situationen, in denen eine Metformin-Intoxikation auftreten kann: Versäumnis der Dosisreduktion bei Vorliegen einer chrnonischen Niereninsuffizienz und bei akute Niereninsuffizienz. <span class="citation" data-cites="Heaf2014">@Heaf2014</span></a></li>
+  <li><a href="#section-28" id="toc-section-28" class="nav-link" data-scroll-target="#section-28"></a></li>
+  <li><a href="#metformin-führt-dementsprechend-nicht-zu-einem-erhöhten-risiko-einer-pc-aki.-allerdings-können-patienten-die-während-der-einnahme-von-metformin-eine-aki-entwickeln-anfällig-für-die-entwicklung-einer-laktatazidose-sein.-acrcommitteeondrugsandcontrastmedia2013" id="toc-metformin-führt-dementsprechend-nicht-zu-einem-erhöhten-risiko-einer-pc-aki.-allerdings-können-patienten-die-während-der-einnahme-von-metformin-eine-aki-entwickeln-anfällig-für-die-entwicklung-einer-laktatazidose-sein.-acrcommitteeondrugsandcontrastmedia2013" class="nav-link" data-scroll-target="#metformin-führt-dementsprechend-nicht-zu-einem-erhöhten-risiko-einer-pc-aki.-allerdings-können-patienten-die-während-der-einnahme-von-metformin-eine-aki-entwickeln-anfällig-für-die-entwicklung-einer-laktatazidose-sein.-acrcommitteeondrugsandcontrastmedia2013">Metformin führt dementsprechend nicht zu einem erhöhten Risiko einer PC-AKI. Allerdings können Patienten, die während der Einnahme von Metformin eine AKI entwickeln, anfällig für die Entwicklung einer Laktatazidose sein. <span class="citation" data-cites="ACRCommitteeonDrugsandContrastMedia2013">@ACRCommitteeonDrugsandContrastMedia2013</span></a></li>
+  <li><a href="#section-29" id="toc-section-29" class="nav-link" data-scroll-target="#section-29"></a></li>
+  <li><a href="#section-30" id="toc-section-30" class="nav-link" data-scroll-target="#section-30"></a></li>
+  <li><a href="#prävention" id="toc-prävention" class="nav-link" data-scroll-target="#prävention">## Prävention</a></li>
+  <li><a href="#section-31" id="toc-section-31" class="nav-link" data-scroll-target="#section-31"></a></li>
+  <li><a href="#laut-esur-leitlinie-bei-intravenöser-und-intraarterieller-röntgenkontrastmittelapplikation-mit-renalem-second-pass-effekt-sollte-der-patient-entweder" id="toc-laut-esur-leitlinie-bei-intravenöser-und-intraarterieller-röntgenkontrastmittelapplikation-mit-renalem-second-pass-effekt-sollte-der-patient-entweder" class="nav-link" data-scroll-target="#laut-esur-leitlinie-bei-intravenöser-und-intraarterieller-röntgenkontrastmittelapplikation-mit-renalem-second-pass-effekt-sollte-der-patient-entweder">Laut ESUR-Leitlinie Bei intravenöser und intraarterieller Röntgenkontrastmittelapplikation mit renalem second-pass Effekt sollte der Patient entweder</a></li>
+  <li><a href="#section-32" id="toc-section-32" class="nav-link" data-scroll-target="#section-32"></a></li>
+  <li><a href="#a-mit-intravenöser-14iger-natriumbikarbonatlösung-alternativ-154-mmoll-in-5iger-dextroselösung-3-mlkgh-über-1-stunde-vor-röntgenkontrastmittelgabe-oder" id="toc-a-mit-intravenöser-14iger-natriumbikarbonatlösung-alternativ-154-mmoll-in-5iger-dextroselösung-3-mlkgh-über-1-stunde-vor-röntgenkontrastmittelgabe-oder" class="nav-link" data-scroll-target="#a-mit-intravenöser-14iger-natriumbikarbonatlösung-alternativ-154-mmoll-in-5iger-dextroselösung-3-mlkgh-über-1-stunde-vor-röntgenkontrastmittelgabe-oder">(a) mit intravenöser 1,4%iger Natriumbikarbonatlösung (alternativ 154 mmol/l in 5%iger Dextroselösung): 3 ml/kg/h über 1 Stunde vor Röntgenkontrastmittelgabe oder</a></li>
+  <li><a href="#section-33" id="toc-section-33" class="nav-link" data-scroll-target="#section-33"></a></li>
+  <li><a href="#b-mit-intravenöser-09iger-kochsalzlösung-1mlkgh-über-3-4-stunden-vor-und-4-6-stunden-nach-der-untersuchung-hydriert-werden.-thomsenmorcos2006" id="toc-b-mit-intravenöser-09iger-kochsalzlösung-1mlkgh-über-3-4-stunden-vor-und-4-6-stunden-nach-der-untersuchung-hydriert-werden.-thomsenmorcos2006" class="nav-link" data-scroll-target="#b-mit-intravenöser-09iger-kochsalzlösung-1mlkgh-über-3-4-stunden-vor-und-4-6-stunden-nach-der-untersuchung-hydriert-werden.-thomsenmorcos2006">(b) mit intravenöser 0,9%iger Kochsalzlösung 1ml/kg/h über 3-4 Stunden vor und 4-6 Stunden nach der Untersuchung hydriert werden. <span class="citation" data-cites="ThomsenMorcos2006">@ThomsenMorcos2006</span></a></li>
+  <li><a href="#section-34" id="toc-section-34" class="nav-link" data-scroll-target="#section-34"></a></li>
+  <li><a href="#section-35" id="toc-section-35" class="nav-link" data-scroll-target="#section-35"></a></li>
+  <li><a href="#section-36" id="toc-section-36" class="nav-link" data-scroll-target="#section-36"></a></li>
+  <li><a href="#kontrastmittel-induzierte-funktionsstörungen-der-schilddrüse" id="toc-kontrastmittel-induzierte-funktionsstörungen-der-schilddrüse" class="nav-link" data-scroll-target="#kontrastmittel-induzierte-funktionsstörungen-der-schilddrüse">## Kontrastmittel-induzierte Funktionsstörungen der Schilddrüse</a></li>
+  <li><a href="#section-37" id="toc-section-37" class="nav-link" data-scroll-target="#section-37"></a></li>
+  <li><a href="#jodhaltige-kontrastmittel-rökm-kann-schilddrüsenfunktionsstörungen-verursachen-sowohl-hypothyreose-als-auch-hyperthyreose." id="toc-jodhaltige-kontrastmittel-rökm-kann-schilddrüsenfunktionsstörungen-verursachen-sowohl-hypothyreose-als-auch-hyperthyreose." class="nav-link" data-scroll-target="#jodhaltige-kontrastmittel-rökm-kann-schilddrüsenfunktionsstörungen-verursachen-sowohl-hypothyreose-als-auch-hyperthyreose.">Jodhaltige Kontrastmittel (RöKM) kann Schilddrüsenfunktionsstörungen verursachen, sowohl <strong>Hypothyreose</strong>, als auch <strong>Hyperthyreose</strong>.</a></li>
+  <li><a href="#section-38" id="toc-section-38" class="nav-link" data-scroll-target="#section-38"></a></li>
+  <li><a href="#in-daten-aus-dem-partners-health-care-research-patient-data-registry-usa-war-die-icm-exposition-mit-dem-auftreten-einer-hyperthyreose-definiert-als-ein-supprimiertes-tsh-01-miul-odds-ratio-or-250-95-ci-106-593-und-mit-dem-auftreten-einer-hypothyreose-definiert-als-erhöhtes-serum-tsh-10-miul-or-305-95-ci-107-872-verbunden.-bednarczuketal2021" id="toc-in-daten-aus-dem-partners-health-care-research-patient-data-registry-usa-war-die-icm-exposition-mit-dem-auftreten-einer-hyperthyreose-definiert-als-ein-supprimiertes-tsh-01-miul-odds-ratio-or-250-95-ci-106-593-und-mit-dem-auftreten-einer-hypothyreose-definiert-als-erhöhtes-serum-tsh-10-miul-or-305-95-ci-107-872-verbunden.-bednarczuketal2021" class="nav-link" data-scroll-target="#in-daten-aus-dem-partners-health-care-research-patient-data-registry-usa-war-die-icm-exposition-mit-dem-auftreten-einer-hyperthyreose-definiert-als-ein-supprimiertes-tsh-01-miul-odds-ratio-or-250-95-ci-106-593-und-mit-dem-auftreten-einer-hypothyreose-definiert-als-erhöhtes-serum-tsh-10-miul-or-305-95-ci-107-872-verbunden.-bednarczuketal2021">In Daten aus dem Partners Health-Care Research Patient Data Registry (USA) war die ICM-Exposition mit dem Auftreten einer Hyperthyreose (definiert als ein supprimiertes TSH &lt;0,1 mIU/L; <strong>Odds Ratio [OR], 2,50</strong>; 95% CI, 1,06-5,93) und mit dem Auftreten einer Hypothyreose (definiert als erhöhtes Serum-TSH &gt;10 mIU/L; <strong>OR, 3,05</strong>; 95% CI, 1,07-8,72) verbunden. <span class="citation" data-cites="BednarczukEtAl2021">@BednarczukEtAl2021</span></a></li>
+  <li><a href="#section-39" id="toc-section-39" class="nav-link" data-scroll-target="#section-39"></a></li>
+  <li><a href="#die-meisten-rökm-bedingten-schilddrüsenstörungen-sind-leicht-und-selbstlimitierend-doch-in-einigen-fällen-sind-sie-schwerwiegend-genug-um-einen-medizinischen-eingriff-zu-erfordern.-bednarczuketal2021-bednarczuketal2023" id="toc-die-meisten-rökm-bedingten-schilddrüsenstörungen-sind-leicht-und-selbstlimitierend-doch-in-einigen-fällen-sind-sie-schwerwiegend-genug-um-einen-medizinischen-eingriff-zu-erfordern.-bednarczuketal2021-bednarczuketal2023" class="nav-link" data-scroll-target="#die-meisten-rökm-bedingten-schilddrüsenstörungen-sind-leicht-und-selbstlimitierend-doch-in-einigen-fällen-sind-sie-schwerwiegend-genug-um-einen-medizinischen-eingriff-zu-erfordern.-bednarczuketal2021-bednarczuketal2023">Die meisten RöKM-bedingten Schilddrüsenstörungen sind <strong>leicht und selbstlimitierend</strong>, doch in einigen Fällen sind sie schwerwiegend genug, um einen medizinischen Eingriff zu erfordern. <span class="citation" data-cites="BednarczukEtAl2021 BednarczukEtAl2023">[@BednarczukEtAl2021; @BednarczukEtAl2023]</span></a></li>
+  <li><a href="#section-40" id="toc-section-40" class="nav-link" data-scroll-target="#section-40"></a></li>
+  <li><a href="#während-durch-jod-hervorgerufene-hypothyreosen-fast-ausschließlich-in-ausreichend-jodversorgten-ländern-zu-finden-sind-tritt-die-jodinduzierte-hyperthyreose-vornehmlich-in-gebieten-mit-endemischem-jodmangel-auf.-rendlsaller2001" id="toc-während-durch-jod-hervorgerufene-hypothyreosen-fast-ausschließlich-in-ausreichend-jodversorgten-ländern-zu-finden-sind-tritt-die-jodinduzierte-hyperthyreose-vornehmlich-in-gebieten-mit-endemischem-jodmangel-auf.-rendlsaller2001" class="nav-link" data-scroll-target="#während-durch-jod-hervorgerufene-hypothyreosen-fast-ausschließlich-in-ausreichend-jodversorgten-ländern-zu-finden-sind-tritt-die-jodinduzierte-hyperthyreose-vornehmlich-in-gebieten-mit-endemischem-jodmangel-auf.-rendlsaller2001">Während durch Jod hervorgerufene Hypothyreosen fast ausschließlich in ausreichend jodversorgten Ländern zu finden sind, tritt die jodinduzierte Hyperthyreose vornehmlich in Gebieten mit endemischem Jodmangel auf. <span class="citation" data-cites="RendlSaller2001">@RendlSaller2001</span></a></li>
+  <li><a href="#section-41" id="toc-section-41" class="nav-link" data-scroll-target="#section-41"></a></li>
+  <li><a href="#pathophysiologie" id="toc-pathophysiologie" class="nav-link" data-scroll-target="#pathophysiologie">### Pathophysiologie</a></li>
+  <li><a href="#section-42" id="toc-section-42" class="nav-link" data-scroll-target="#section-42"></a></li>
+  <li><a href="#die-schilddrüse-verfügt-über-einen-intrinsischen-regulationsmechanismus-zur-aufrechterhaltung-einer-normalen-schilddrüsenfunktion-in-gegenwart-von-jodüberschuss-der-wolff-chaikoff-effekt.-am-ersten-tag-der-jodbelastung-transportiert-der-natrium-jodid-symporter-das-überschüssige-jod-in-die-schilddrüse-das-erhöhten-intrathyreoidalen-jod-führt-zu-einer-vorübergehenden-hemmung-der-schilddrüsenperoxidase-tpo-und-zu-einem-rückgang-der-schilddrüsenhormonsynthese." id="toc-die-schilddrüse-verfügt-über-einen-intrinsischen-regulationsmechanismus-zur-aufrechterhaltung-einer-normalen-schilddrüsenfunktion-in-gegenwart-von-jodüberschuss-der-wolff-chaikoff-effekt.-am-ersten-tag-der-jodbelastung-transportiert-der-natrium-jodid-symporter-das-überschüssige-jod-in-die-schilddrüse-das-erhöhten-intrathyreoidalen-jod-führt-zu-einer-vorübergehenden-hemmung-der-schilddrüsenperoxidase-tpo-und-zu-einem-rückgang-der-schilddrüsenhormonsynthese." class="nav-link" data-scroll-target="#die-schilddrüse-verfügt-über-einen-intrinsischen-regulationsmechanismus-zur-aufrechterhaltung-einer-normalen-schilddrüsenfunktion-in-gegenwart-von-jodüberschuss-der-wolff-chaikoff-effekt.-am-ersten-tag-der-jodbelastung-transportiert-der-natrium-jodid-symporter-das-überschüssige-jod-in-die-schilddrüse-das-erhöhten-intrathyreoidalen-jod-führt-zu-einer-vorübergehenden-hemmung-der-schilddrüsenperoxidase-tpo-und-zu-einem-rückgang-der-schilddrüsenhormonsynthese.">Die Schilddrüse verfügt über einen intrinsischen Regulationsmechanismus zur Aufrechterhaltung einer normalen Schilddrüsenfunktion in Gegenwart von Jodüberschuss (Der Wolff-Chaikoff-Effekt). Am ersten Tag der Jodbelastung transportiert der Natrium-Jodid-Symporter das überschüssige Jod in die Schilddrüse, das erhöhten intrathyreoidalen Jod führt zu einer vorübergehenden Hemmung der Schilddrüsenperoxidase (TPO) und zu einem Rückgang der Schilddrüsenhormonsynthese.</a></li>
+  <li><a href="#section-43" id="toc-section-43" class="nav-link" data-scroll-target="#section-43"></a></li>
+  <li><a href="#ein-dramatischer-rückgang-der-expression-des-natriumiodid-symporters-führt-wiederum-zu-einem-verringerten-jodtransport-und-der-anschließenden-wiederaufnahme-der-schilddrüsenhormonsynthese.-pramyothinetal2011" id="toc-ein-dramatischer-rückgang-der-expression-des-natriumiodid-symporters-führt-wiederum-zu-einem-verringerten-jodtransport-und-der-anschließenden-wiederaufnahme-der-schilddrüsenhormonsynthese.-pramyothinetal2011" class="nav-link" data-scroll-target="#ein-dramatischer-rückgang-der-expression-des-natriumiodid-symporters-führt-wiederum-zu-einem-verringerten-jodtransport-und-der-anschließenden-wiederaufnahme-der-schilddrüsenhormonsynthese.-pramyothinetal2011">Ein dramatischer Rückgang der Expression des Natriumiodid-Symporters führt wiederum zu einem verringerten Jodtransport und der anschließenden Wiederaufnahme der Schilddrüsenhormonsynthese. <span class="citation" data-cites="PramyothinEtAl2011">@PramyothinEtAl2011</span></a></li>
+  <li><a href="#section-44" id="toc-section-44" class="nav-link" data-scroll-target="#section-44"></a></li>
+  <li><a href="#section-45" id="toc-section-45" class="nav-link" data-scroll-target="#section-45"></a></li>
+  <li><a href="#a-vorgeschlagenes-mechanismus-für-den-akuten-wolff-chaikoff-effekt.-am-ersten-tag-der-jod-exposition-transportiert-der-natrium-jodid-symporter-das-überschüssige-jod-in-die-schilddrüse-was-zu-einer-vorübergehenden-hemmung-der-schilddrüsenperoxidase-tpo-und-einem-rückgang-der-schilddrüsenhormonsynthese-führt.-b-der-akuten-wolff-chaikoff-effekt-wird-ausschaltet-ein-drastischer-rückgang-der-expression-des-natriumiodid-symporters-führt-zu-einem-verringerten-jodtransport-und-der-anschließenden-wiederaufnahme-der-schilddrüsenhormonsynthese.-dit-steht-für-diiodotyrosin-i-jodid-mit-für-monoiodotyrosin-t3-für-trijodthyronin-und-t4-für-thyroxin.-pramyothinetal2011" id="toc-a-vorgeschlagenes-mechanismus-für-den-akuten-wolff-chaikoff-effekt.-am-ersten-tag-der-jod-exposition-transportiert-der-natrium-jodid-symporter-das-überschüssige-jod-in-die-schilddrüse-was-zu-einer-vorübergehenden-hemmung-der-schilddrüsenperoxidase-tpo-und-einem-rückgang-der-schilddrüsenhormonsynthese-führt.-b-der-akuten-wolff-chaikoff-effekt-wird-ausschaltet-ein-drastischer-rückgang-der-expression-des-natriumiodid-symporters-führt-zu-einem-verringerten-jodtransport-und-der-anschließenden-wiederaufnahme-der-schilddrüsenhormonsynthese.-dit-steht-für-diiodotyrosin-i-jodid-mit-für-monoiodotyrosin-t3-für-trijodthyronin-und-t4-für-thyroxin.-pramyothinetal2011" class="nav-link" data-scroll-target="#a-vorgeschlagenes-mechanismus-für-den-akuten-wolff-chaikoff-effekt.-am-ersten-tag-der-jod-exposition-transportiert-der-natrium-jodid-symporter-das-überschüssige-jod-in-die-schilddrüse-was-zu-einer-vorübergehenden-hemmung-der-schilddrüsenperoxidase-tpo-und-einem-rückgang-der-schilddrüsenhormonsynthese-führt.-b-der-akuten-wolff-chaikoff-effekt-wird-ausschaltet-ein-drastischer-rückgang-der-expression-des-natriumiodid-symporters-führt-zu-einem-verringerten-jodtransport-und-der-anschließenden-wiederaufnahme-der-schilddrüsenhormonsynthese.-dit-steht-für-diiodotyrosin-i-jodid-mit-für-monoiodotyrosin-t3-für-trijodthyronin-und-t4-für-thyroxin.-pramyothinetal2011"><img src="Bilder/wolff-chaikoff.png" id="fig-wolffchaikoff" class="img-fluid" alt="A) Vorgeschlagenes Mechanismus für den akuten Wolff-Chaikoff-Effekt. Am ersten Tag der Jod-Exposition transportiert der Natrium-Jodid-Symporter das überschüssige Jod in die Schilddrüse, was zu einer vorübergehenden Hemmung der Schilddrüsenperoxidase (TPO) und einem Rückgang der Schilddrüsenhormonsynthese führt. B) Der akuten Wolff-Chaikoff-Effekt wird ausschaltet: Ein drastischer Rückgang der Expression des Natriumiodid-Symporters führt zu einem verringerten Jodtransport und der anschließenden Wiederaufnahme der Schilddrüsenhormonsynthese. DIT steht für Diiodotyrosin, I-Jodid, MIT für Monoiodotyrosin, T3 für Trijodthyronin und T4 für Thyroxin. @PramyothinEtAl2011"></a></li>
+  <li><a href="#section-46" id="toc-section-46" class="nav-link" data-scroll-target="#section-46"></a></li>
+  <li><a href="#section-47" id="toc-section-47" class="nav-link" data-scroll-target="#section-47"></a></li>
+  <li><a href="#hyperthyreose" id="toc-hyperthyreose" class="nav-link" data-scroll-target="#hyperthyreose">#### Hyperthyreose</a></li>
+  <li><a href="#section-48" id="toc-section-48" class="nav-link" data-scroll-target="#section-48"></a></li>
+  <li><a href="#schwerer-jodmangel-führt-zu-kropf-und-hypothyreose-da-die-jodkonzentration-trotz-erhöhter-schilddrüsenaktivität-zur-maximierung-der-jodaufnahme-und-des-jodrecyclings-in-dieser-situation-immer-noch-zu-niedrig-ist-um-die-produktion-von-schilddrüsenhormonen-zu-ermöglichen." id="toc-schwerer-jodmangel-führt-zu-kropf-und-hypothyreose-da-die-jodkonzentration-trotz-erhöhter-schilddrüsenaktivität-zur-maximierung-der-jodaufnahme-und-des-jodrecyclings-in-dieser-situation-immer-noch-zu-niedrig-ist-um-die-produktion-von-schilddrüsenhormonen-zu-ermöglichen." class="nav-link" data-scroll-target="#schwerer-jodmangel-führt-zu-kropf-und-hypothyreose-da-die-jodkonzentration-trotz-erhöhter-schilddrüsenaktivität-zur-maximierung-der-jodaufnahme-und-des-jodrecyclings-in-dieser-situation-immer-noch-zu-niedrig-ist-um-die-produktion-von-schilddrüsenhormonen-zu-ermöglichen.">Schwerer Jodmangel führt zu Kropf und Hypothyreose, da die Jodkonzentration trotz erhöhter Schilddrüsenaktivität zur Maximierung der Jodaufnahme und des Jodrecyclings in dieser Situation immer noch zu niedrig ist, um die Produktion von Schilddrüsenhormonen zu ermöglichen.</a></li>
+  <li><a href="#section-49" id="toc-section-49" class="nav-link" data-scroll-target="#section-49"></a></li>
+  <li><a href="#bei-leichtem-bis-mäßigem-jodmangel-kann-eine-erhöhte-schilddrüsenaktivität-die-geringe-jodzufuhr-kompensieren-und-bei-den-meisten-menschen-eine-euthyreose-aufrechterhalten-allerdings-zu-einem-hohen-preis-eine-chronische-stimulation-der-schilddrüse-führt-zu-einem-anstieg-der-prävalenz-von-knotiger-autonomie-und-hyperthyreose.-zimmermannboelaert2015" id="toc-bei-leichtem-bis-mäßigem-jodmangel-kann-eine-erhöhte-schilddrüsenaktivität-die-geringe-jodzufuhr-kompensieren-und-bei-den-meisten-menschen-eine-euthyreose-aufrechterhalten-allerdings-zu-einem-hohen-preis-eine-chronische-stimulation-der-schilddrüse-führt-zu-einem-anstieg-der-prävalenz-von-knotiger-autonomie-und-hyperthyreose.-zimmermannboelaert2015" class="nav-link" data-scroll-target="#bei-leichtem-bis-mäßigem-jodmangel-kann-eine-erhöhte-schilddrüsenaktivität-die-geringe-jodzufuhr-kompensieren-und-bei-den-meisten-menschen-eine-euthyreose-aufrechterhalten-allerdings-zu-einem-hohen-preis-eine-chronische-stimulation-der-schilddrüse-führt-zu-einem-anstieg-der-prävalenz-von-knotiger-autonomie-und-hyperthyreose.-zimmermannboelaert2015">Bei leichtem bis mäßigem Jodmangel kann eine erhöhte Schilddrüsenaktivität die geringe Jodzufuhr kompensieren und bei den meisten Menschen eine Euthyreose aufrechterhalten, allerdings zu einem hohen Preis: Eine chronische Stimulation der Schilddrüse führt zu einem Anstieg der Prävalenz von knotiger Autonomie und Hyperthyreose. <span class="citation" data-cites="ZimmermannBoelaert2015">@ZimmermannBoelaert2015</span></a></li>
+  <li><a href="#section-50" id="toc-section-50" class="nav-link" data-scroll-target="#section-50"></a></li>
+  <li><a href="#das-wichtigste-ereignis-bei-der-entwicklung-einer-kontrastmittel-induzierte-hyperthyreose-ist-die-autonomie-der-schilddrüsenfunktion.-es-wird-allgemein-angenommen-dass-diese-autonomie-durch-mutationen-entsteht-insbesondere-in-drüsen-die-chronisch-durch-tsh-stimuliert-wurden-auf-dem-boden-von-jodmangel.-die-autonomie-kann-in-der-schilddrüse-in-form-von-lokalisierten-aber-nicht-umschriebenen-herden-oder-häufiger-in-form-von-knötchen-auftreten.-stanburyetal1998-zimmermannboelaert2015-greiveetal2003" id="toc-das-wichtigste-ereignis-bei-der-entwicklung-einer-kontrastmittel-induzierte-hyperthyreose-ist-die-autonomie-der-schilddrüsenfunktion.-es-wird-allgemein-angenommen-dass-diese-autonomie-durch-mutationen-entsteht-insbesondere-in-drüsen-die-chronisch-durch-tsh-stimuliert-wurden-auf-dem-boden-von-jodmangel.-die-autonomie-kann-in-der-schilddrüse-in-form-von-lokalisierten-aber-nicht-umschriebenen-herden-oder-häufiger-in-form-von-knötchen-auftreten.-stanburyetal1998-zimmermannboelaert2015-greiveetal2003" class="nav-link" data-scroll-target="#das-wichtigste-ereignis-bei-der-entwicklung-einer-kontrastmittel-induzierte-hyperthyreose-ist-die-autonomie-der-schilddrüsenfunktion.-es-wird-allgemein-angenommen-dass-diese-autonomie-durch-mutationen-entsteht-insbesondere-in-drüsen-die-chronisch-durch-tsh-stimuliert-wurden-auf-dem-boden-von-jodmangel.-die-autonomie-kann-in-der-schilddrüse-in-form-von-lokalisierten-aber-nicht-umschriebenen-herden-oder-häufiger-in-form-von-knötchen-auftreten.-stanburyetal1998-zimmermannboelaert2015-greiveetal2003">Das wichtigste Ereignis bei der Entwicklung einer Kontrastmittel-induzierte Hyperthyreose ist die Autonomie der Schilddrüsenfunktion. Es wird allgemein angenommen, dass diese Autonomie durch Mutationen entsteht, insbesondere in Drüsen, die chronisch durch TSH stimuliert wurden (auf dem Boden von Jodmangel). Die Autonomie kann in der Schilddrüse in Form von lokalisierten, aber nicht umschriebenen Herden oder häufiger in Form von Knötchen auftreten. <span class="citation" data-cites="STANBURYEtAl1998">@STANBURYEtAl1998</span> <span class="citation" data-cites="ZimmermannBoelaert2015">@ZimmermannBoelaert2015</span> <span class="citation" data-cites="GreiveEtAl2003">@GreiveEtAl2003</span></a></li>
+  <li><a href="#section-51" id="toc-section-51" class="nav-link" data-scroll-target="#section-51"></a></li>
+  <li><a href="#section-52" id="toc-section-52" class="nav-link" data-scroll-target="#section-52"></a></li>
+  <li><a href="#hyperthyreose-1" id="toc-hyperthyreose-1" class="nav-link" data-scroll-target="#hyperthyreose-1">1. <strong>Hyperthyreose</strong>:</a></li>
+  <li><a href="#section-53" id="toc-section-53" class="nav-link" data-scroll-target="#section-53"></a></li>
+  <li><a href="#mechanismus-in-erster-linie-auf-das-jod-basedow-phänomen-zurückzuführen-bei-dem-ein-jodüberschuss-die-überproduktion-von-schilddrüsenhormonen-bei-patienten-mit-autonomer-schilddrüsenfunktion-auslöst.-dunneetal2013" id="toc-mechanismus-in-erster-linie-auf-das-jod-basedow-phänomen-zurückzuführen-bei-dem-ein-jodüberschuss-die-überproduktion-von-schilddrüsenhormonen-bei-patienten-mit-autonomer-schilddrüsenfunktion-auslöst.-dunneetal2013" class="nav-link" data-scroll-target="#mechanismus-in-erster-linie-auf-das-jod-basedow-phänomen-zurückzuführen-bei-dem-ein-jodüberschuss-die-überproduktion-von-schilddrüsenhormonen-bei-patienten-mit-autonomer-schilddrüsenfunktion-auslöst.-dunneetal2013">- <strong>Mechanismus</strong>: In erster Linie auf das <strong>Jod-Basedow-Phänomen</strong> zurückzuführen, bei dem ein Jodüberschuss die Überproduktion von Schilddrüsenhormonen bei Patienten mit autonomer Schilddrüsenfunktion auslöst. <span class="citation" data-cites="DunneEtAl2013">@DunneEtAl2013</span></a></li>
+  <li><a href="#risikofaktoren" id="toc-risikofaktoren" class="nav-link" data-scroll-target="#risikofaktoren">- <strong>Risikofaktoren</strong>:</a></li>
+  <li><a href="#noduläre-struma" id="toc-noduläre-struma" class="nav-link" data-scroll-target="#noduläre-struma">- Noduläre Struma</a></li>
+  <li><a href="#latente-basedow-krankheit" id="toc-latente-basedow-krankheit" class="nav-link" data-scroll-target="#latente-basedow-krankheit">- Latente Basedow-Krankheit</a></li>
+  <li><a href="#jodmangel" id="toc-jodmangel" class="nav-link" data-scroll-target="#jodmangel">- Jodmangel</a></li>
+  <li><a href="#section-54" id="toc-section-54" class="nav-link" data-scroll-target="#section-54"></a></li>
+  <li><a href="#section-55" id="toc-section-55" class="nav-link" data-scroll-target="#section-55"></a></li>
+  <li><a href="#hypothyreose" id="toc-hypothyreose" class="nav-link" data-scroll-target="#hypothyreose">2. <strong>Hypothyreose</strong>:</a></li>
+  <li><a href="#section-56" id="toc-section-56" class="nav-link" data-scroll-target="#section-56"></a></li>
+  <li><a href="#mechanismus-verursacht-durch-den-wolff-chaikoff-effekt-bei-dem-ein-jodüberschuss-zunächst-die-schilddrüsenhormonproduktion-hemmt.-bei-einigen-personen-bleibt-diese-hemmung-bestehen-und-führt-zu-einer-hypothyreose.-bednarczuketal2021" id="toc-mechanismus-verursacht-durch-den-wolff-chaikoff-effekt-bei-dem-ein-jodüberschuss-zunächst-die-schilddrüsenhormonproduktion-hemmt.-bei-einigen-personen-bleibt-diese-hemmung-bestehen-und-führt-zu-einer-hypothyreose.-bednarczuketal2021" class="nav-link" data-scroll-target="#mechanismus-verursacht-durch-den-wolff-chaikoff-effekt-bei-dem-ein-jodüberschuss-zunächst-die-schilddrüsenhormonproduktion-hemmt.-bei-einigen-personen-bleibt-diese-hemmung-bestehen-und-führt-zu-einer-hypothyreose.-bednarczuketal2021">- <strong>Mechanismus</strong>: Verursacht durch den <strong>Wolff-Chaikoff-Effekt</strong>, bei dem ein Jodüberschuss zunächst die Schilddrüsenhormonproduktion hemmt. Bei einigen Personen bleibt diese Hemmung bestehen und führt zu einer Hypothyreose. <span class="citation" data-cites="BednarczukEtAl2021">@BednarczukEtAl2021</span></a></li>
+  <li><a href="#section-57" id="toc-section-57" class="nav-link" data-scroll-target="#section-57"></a></li>
+  <li><a href="#section-58" id="toc-section-58" class="nav-link" data-scroll-target="#section-58"></a></li>
+  <li><a href="#prävalenz" id="toc-prävalenz" class="nav-link" data-scroll-target="#prävalenz">### Prävalenz</a></li>
+  <li><a href="#section-59" id="toc-section-59" class="nav-link" data-scroll-target="#section-59"></a></li>
+  <li><a href="#die-häufigkeit-von-rökm-bedingten-schilddrüsenfehlfunktionen-variiert-und-wird-auf-1-bis-15-geschätzt-wobei-die-genauen-raten-schwer-zu-bestimmen-sind.-bednarczuketal2021" id="toc-die-häufigkeit-von-rökm-bedingten-schilddrüsenfehlfunktionen-variiert-und-wird-auf-1-bis-15-geschätzt-wobei-die-genauen-raten-schwer-zu-bestimmen-sind.-bednarczuketal2021" class="nav-link" data-scroll-target="#die-häufigkeit-von-rökm-bedingten-schilddrüsenfehlfunktionen-variiert-und-wird-auf-1-bis-15-geschätzt-wobei-die-genauen-raten-schwer-zu-bestimmen-sind.-bednarczuketal2021">Die Häufigkeit von RöKM-bedingten Schilddrüsenfehlfunktionen variiert und wird auf 1 % bis 15 % geschätzt, wobei die genauen Raten schwer zu bestimmen sind. <span class="citation" data-cites="BednarczukEtAl2021">@BednarczukEtAl2021</span></a></li>
+  <li><a href="#section-60" id="toc-section-60" class="nav-link" data-scroll-target="#section-60"></a></li>
+  <li><a href="#bei-5-millionen-kontrastmitteluntersuchungen-jährlich-in-deutschland-tretten-etwa-100-thyreotoxische-krisen-im-gleichen-zeitraum-auf-wovon-38-durch-jodexposition-ausgelöst-werden-000076--0002.-rendlsaller2001" id="toc-bei-5-millionen-kontrastmitteluntersuchungen-jährlich-in-deutschland-tretten-etwa-100-thyreotoxische-krisen-im-gleichen-zeitraum-auf-wovon-38-durch-jodexposition-ausgelöst-werden-000076--0002.-rendlsaller2001" class="nav-link" data-scroll-target="#bei-5-millionen-kontrastmitteluntersuchungen-jährlich-in-deutschland-tretten-etwa-100-thyreotoxische-krisen-im-gleichen-zeitraum-auf-wovon-38-durch-jodexposition-ausgelöst-werden-000076--0002.-rendlsaller2001">Bei 5 Millionen Kontrastmitteluntersuchungen jährlich in Deutschland tretten etwa <strong>100 thyreotoxische Krisen</strong> im gleichen Zeitraum auf, wovon 38 % durch Jodexposition ausgelöst werden (0,00076% -0,002%). <span class="citation" data-cites="RendlSaller2001">@RendlSaller2001</span></a></li>
+  <li><a href="#section-61" id="toc-section-61" class="nav-link" data-scroll-target="#section-61"></a></li>
+  <li><a href="#die-häufigkeit-mit-der-eine-jodinduzierte-hyperthyreose-auftritt-hängt-von-einer-reihe-von-faktoren-ab-rendlsaller2001" id="toc-die-häufigkeit-mit-der-eine-jodinduzierte-hyperthyreose-auftritt-hängt-von-einer-reihe-von-faktoren-ab-rendlsaller2001" class="nav-link" data-scroll-target="#die-häufigkeit-mit-der-eine-jodinduzierte-hyperthyreose-auftritt-hängt-von-einer-reihe-von-faktoren-ab-rendlsaller2001">Die Häufigkeit, mit der eine jodinduzierte Hyperthyreose auftritt, hängt von einer Reihe von Faktoren ab <span class="citation" data-cites="RendlSaller2001">@RendlSaller2001</span></a></li>
+  <li><a href="#section-62" id="toc-section-62" class="nav-link" data-scroll-target="#section-62"></a></li>
+  <li><a href="#schweregrad-des-jodmangels-vor-jodexposition" id="toc-schweregrad-des-jodmangels-vor-jodexposition" class="nav-link" data-scroll-target="#schweregrad-des-jodmangels-vor-jodexposition">- Schweregrad des Jodmangels vor Jodexposition,</a></li>
+  <li><a href="#ausmaß-der-jodexposition" id="toc-ausmaß-der-jodexposition" class="nav-link" data-scroll-target="#ausmaß-der-jodexposition">- Ausmaß der Jodexposition,</a></li>
+  <li><a href="#häufigkeit-funktionell-autonomer-zellen-in-der-schilddrüse" id="toc-häufigkeit-funktionell-autonomer-zellen-in-der-schilddrüse" class="nav-link" data-scroll-target="#häufigkeit-funktionell-autonomer-zellen-in-der-schilddrüse">- Häufigkeit funktionell autonomer Zellen in der Schilddrüse,</a></li>
+  <li><a href="#alter-der-patienten." id="toc-alter-der-patienten." class="nav-link" data-scroll-target="#alter-der-patienten.">- Alter der Patienten.</a></li>
+  <li><a href="#section-63" id="toc-section-63" class="nav-link" data-scroll-target="#section-63"></a></li>
+  <li><a href="#in-einer-großen-prospektiven-studie-in-italien-hatten-72-der-patienten-ohne-bekannte-schilddrüsenerkrankung-vor-einer-elektiven-koronarangiographie-eine-hyperthyreose-überwiegend-subklinisch.-bednarczuketal2021" id="toc-in-einer-großen-prospektiven-studie-in-italien-hatten-72-der-patienten-ohne-bekannte-schilddrüsenerkrankung-vor-einer-elektiven-koronarangiographie-eine-hyperthyreose-überwiegend-subklinisch.-bednarczuketal2021" class="nav-link" data-scroll-target="#in-einer-großen-prospektiven-studie-in-italien-hatten-72-der-patienten-ohne-bekannte-schilddrüsenerkrankung-vor-einer-elektiven-koronarangiographie-eine-hyperthyreose-überwiegend-subklinisch.-bednarczuketal2021">In einer großen prospektiven Studie in Italien hatten 7,2 % der Patienten ohne bekannte Schilddrüsenerkrankung vor einer elektiven Koronarangiographie eine Hyperthyreose (überwiegend subklinisch). <span class="citation" data-cites="BednarczukEtAl2021">@BednarczukEtAl2021</span></a></li>
+  <li><a href="#section-64" id="toc-section-64" class="nav-link" data-scroll-target="#section-64"></a></li>
+  <li><a href="#section-65" id="toc-section-65" class="nav-link" data-scroll-target="#section-65"></a></li>
+  <li><a href="#prävention-1" id="toc-prävention-1" class="nav-link" data-scroll-target="#prävention-1">### Prävention</a></li>
+  <li><a href="#section-66" id="toc-section-66" class="nav-link" data-scroll-target="#section-66"></a></li>
+  <li><a href="#labor" id="toc-labor" class="nav-link" data-scroll-target="#labor">#### Labor</a></li>
+  <li><a href="#section-67" id="toc-section-67" class="nav-link" data-scroll-target="#section-67"></a></li>
+  <li><a href="#die-europäischen-leitlinien-empfehlen-kein-generelles-tsh-screening-vor-jodhaltigen-kontrastmitteln." id="toc-die-europäischen-leitlinien-empfehlen-kein-generelles-tsh-screening-vor-jodhaltigen-kontrastmitteln." class="nav-link" data-scroll-target="#die-europäischen-leitlinien-empfehlen-kein-generelles-tsh-screening-vor-jodhaltigen-kontrastmitteln.">Die europäischen Leitlinien empfehlen kein generelles TSH-Screening vor jodhaltigen Kontrastmitteln.</a></li>
+  <li><a href="#bei-risikopatienten-ältere-kardiovaskulär-belastete-wird-jedoch-ein-tsh-test-empfohlen.-bednarczuketal2021" id="toc-bei-risikopatienten-ältere-kardiovaskulär-belastete-wird-jedoch-ein-tsh-test-empfohlen.-bednarczuketal2021" class="nav-link" data-scroll-target="#bei-risikopatienten-ältere-kardiovaskulär-belastete-wird-jedoch-ein-tsh-test-empfohlen.-bednarczuketal2021">Bei Risikopatienten (ältere, kardiovaskulär belastete) wird jedoch ein TSH-Test empfohlen. <span class="citation" data-cites="BednarczukEtAl2021">@BednarczukEtAl2021</span></a></li>
+  <li><a href="#section-68" id="toc-section-68" class="nav-link" data-scroll-target="#section-68"></a></li>
+  <li><a href="#deutschland-ist-jodmangelgebiet-und-in-unsere-praxis-werden-häufig-älteren-multimorbiden-patienten-behandelt.-daher-sollte-bei-allen-patienten-vor-kontrastmittelgabe-ein-serum-tsh-wert-vorliegen.-fehlt-dieser-ist-das-keine-harte-kontraindikation-für-die-gabe-von-rökm-die-entscheidung-liegt-im-ärztlichen-ermessen.-liegt-das-tsh-im-normbereich-können-die-werte-bis-zu-3-monate-alt-sein." id="toc-deutschland-ist-jodmangelgebiet-und-in-unsere-praxis-werden-häufig-älteren-multimorbiden-patienten-behandelt.-daher-sollte-bei-allen-patienten-vor-kontrastmittelgabe-ein-serum-tsh-wert-vorliegen.-fehlt-dieser-ist-das-keine-harte-kontraindikation-für-die-gabe-von-rökm-die-entscheidung-liegt-im-ärztlichen-ermessen.-liegt-das-tsh-im-normbereich-können-die-werte-bis-zu-3-monate-alt-sein." class="nav-link" data-scroll-target="#deutschland-ist-jodmangelgebiet-und-in-unsere-praxis-werden-häufig-älteren-multimorbiden-patienten-behandelt.-daher-sollte-bei-allen-patienten-vor-kontrastmittelgabe-ein-serum-tsh-wert-vorliegen.-fehlt-dieser-ist-das-keine-harte-kontraindikation-für-die-gabe-von-rökm-die-entscheidung-liegt-im-ärztlichen-ermessen.-liegt-das-tsh-im-normbereich-können-die-werte-bis-zu-3-monate-alt-sein.">Deutschland ist Jodmangelgebiet und in unsere Praxis werden häufig älteren, multimorbiden Patienten behandelt. Daher sollte bei allen Patienten vor Kontrastmittelgabe ein Serum-TSH-Wert vorliegen. Fehlt dieser, ist das keine harte Kontraindikation für die Gabe von RöKM; die Entscheidung liegt im ärztlichen Ermessen. Liegt das TSH im Normbereich, können die Werte bis zu 3 Monate alt sein.</a></li>
+  <li><a href="#section-69" id="toc-section-69" class="nav-link" data-scroll-target="#section-69"></a></li>
+  <li><a href="#deutschland-ist-jodmangelgebiet" id="toc-deutschland-ist-jodmangelgebiet" class="nav-link" data-scroll-target="#deutschland-ist-jodmangelgebiet"><img src="Bilder/JodMangelDeutschland.jpg" id="fig-Jodmangel" class="img-fluid" alt="Deutschland ist Jodmangelgebiet"></a></li>
+  <li><a href="#section-70" id="toc-section-70" class="nav-link" data-scroll-target="#section-70"></a></li>
+  <li><a href="#stufendiagnostik" id="toc-stufendiagnostik" class="nav-link" data-scroll-target="#stufendiagnostik">#### Stufendiagnostik</a></li>
+  <li><a href="#section-71" id="toc-section-71" class="nav-link" data-scroll-target="#section-71"></a></li>
+  <li><a href="#zu-beginn-der-laboratoriumsmedizinischen-diagnostik-sollte-die-bestimmung-der-tsh-konzentration-erfolgen.-bei-einer-tsh-konzentration-im-referenzbereich-erfolgt-keine-weitere-diagnostik." id="toc-zu-beginn-der-laboratoriumsmedizinischen-diagnostik-sollte-die-bestimmung-der-tsh-konzentration-erfolgen.-bei-einer-tsh-konzentration-im-referenzbereich-erfolgt-keine-weitere-diagnostik." class="nav-link" data-scroll-target="#zu-beginn-der-laboratoriumsmedizinischen-diagnostik-sollte-die-bestimmung-der-tsh-konzentration-erfolgen.-bei-einer-tsh-konzentration-im-referenzbereich-erfolgt-keine-weitere-diagnostik.">Zu Beginn der laboratoriumsmedizinischen Diagnostik sollte die Bestimmung der TSH-Konzentration erfolgen. Bei einer TSH-Konzentration im Referenzbereich erfolgt keine weitere Diagnostik.</a></li>
+  <li><a href="#section-72" id="toc-section-72" class="nav-link" data-scroll-target="#section-72"></a></li>
+  <li><a href="#bei-einer-tsh-konzentrationen-außerhalb-vom-referenzbereich-schließt-sich-in-einer-zweiten-stufe-die-konzentrationsbestimmung-von-freiem-f-t4-und-ft3-an." id="toc-bei-einer-tsh-konzentrationen-außerhalb-vom-referenzbereich-schließt-sich-in-einer-zweiten-stufe-die-konzentrationsbestimmung-von-freiem-f-t4-und-ft3-an." class="nav-link" data-scroll-target="#bei-einer-tsh-konzentrationen-außerhalb-vom-referenzbereich-schließt-sich-in-einer-zweiten-stufe-die-konzentrationsbestimmung-von-freiem-f-t4-und-ft3-an.">Bei einer TSH-Konzentrationen außerhalb vom Referenzbereich schließt sich in einer zweiten Stufe die Konzentrationsbestimmung von freiem (F) T4 und FT3 an.</a></li>
+  <li><a href="#section-73" id="toc-section-73" class="nav-link" data-scroll-target="#section-73"></a></li>
+  <li><a href="#diese-stufendiagnostik-erfolgt-automatisch-im-labor.-s.-fig-stufen" id="toc-diese-stufendiagnostik-erfolgt-automatisch-im-labor.-s.-fig-stufen" class="nav-link" data-scroll-target="#diese-stufendiagnostik-erfolgt-automatisch-im-labor.-s.-fig-stufen">Diese Stufendiagnostik erfolgt automatisch im Labor. s. <strong>?@fig-stufen</strong></a></li>
+  <li><a href="#section-74" id="toc-section-74" class="nav-link" data-scroll-target="#section-74"></a></li>
+  <li><a href="#die-untersuchung-auf-eine-schilddrüsenfunktionsstörung-erfolgt-als-stufendiagnostik" id="toc-die-untersuchung-auf-eine-schilddrüsenfunktionsstörung-erfolgt-als-stufendiagnostik" class="nav-link" data-scroll-target="#die-untersuchung-auf-eine-schilddrüsenfunktionsstörung-erfolgt-als-stufendiagnostik"><img src="Bilder/Stufst.jpg" id="fig-stufen" class="img-fluid" alt="Die Untersuchung auf eine Schilddrüsenfunktionsstörung erfolgt als “Stufendiagnostik”"></a></li>
+  <li><a href="#section-75" id="toc-section-75" class="nav-link" data-scroll-target="#section-75"></a></li>
+  <li><a href="#section-76" id="toc-section-76" class="nav-link" data-scroll-target="#section-76"></a></li>
+  <li><a href="#medikamentöse-prophylaxe" id="toc-medikamentöse-prophylaxe" class="nav-link" data-scroll-target="#medikamentöse-prophylaxe">#### Medikamentöse Prophylaxe</a></li>
+  <li><a href="#section-77" id="toc-section-77" class="nav-link" data-scroll-target="#section-77"></a></li>
+  <li><a href="#section-78" id="toc-section-78" class="nav-link" data-scroll-target="#section-78">:::</a></li>
+  <li><a href="#section-79" id="toc-section-79" class="nav-link" data-scroll-target="#section-79"></a></li>
+  <li><a href="#natriumperchlorat-300-mgml" id="toc-natriumperchlorat-300-mgml" class="nav-link" data-scroll-target="#natriumperchlorat-300-mgml">Natriumperchlorat (300 mg/ml)</a></li>
+  <li><a href="#section-80" id="toc-section-80" class="nav-link" data-scroll-target="#section-80"></a></li>
+  <li><a href="#gtt-eine-stunde-vor-untersuchung-dannach" id="toc-gtt-eine-stunde-vor-untersuchung-dannach" class="nav-link" data-scroll-target="#gtt-eine-stunde-vor-untersuchung-dannach">40 gtt eine Stunde vor Untersuchung, dannach</a></li>
+  <li><a href="#gtt-1-1-1-für-14-tagen" id="toc-gtt-1-1-1-für-14-tagen" class="nav-link" data-scroll-target="#gtt-1-1-1-für-14-tagen">20 gtt 1-1-1 für 14 Tagen</a></li>
+  <li><a href="#section-81" id="toc-section-81" class="nav-link" data-scroll-target="#section-81"></a></li>
+  <li><a href="#section-82" id="toc-section-82" class="nav-link" data-scroll-target="#section-82">:::</a></li>
+  <li><a href="#section-83" id="toc-section-83" class="nav-link" data-scroll-target="#section-83"></a></li>
+  <li><a href="#bei-etwa-25-der-patienten-verursachen-langfristige-perchloratgaben-leichte-nebenwirkungen-wie-exantheme-übelkeit-erbrechen-oder-gelenkschmerzen.-schwere-nebenwirkungen-wie-leukopenie-thrombopenie-oder-aplastische-anämie-treten-bei-0105-auf-besonders-bei-tagesdosen-über-1-g.-diese-raten-gelten-für-die-längere-therapie-von-hyperthyreose-mit-perchlorat-nicht-für-eine-kurzfristige-prophylaktische-gabe-für-die-keine-daten-vorliegen.-rendlsaller2001" id="toc-bei-etwa-25-der-patienten-verursachen-langfristige-perchloratgaben-leichte-nebenwirkungen-wie-exantheme-übelkeit-erbrechen-oder-gelenkschmerzen.-schwere-nebenwirkungen-wie-leukopenie-thrombopenie-oder-aplastische-anämie-treten-bei-0105-auf-besonders-bei-tagesdosen-über-1-g.-diese-raten-gelten-für-die-längere-therapie-von-hyperthyreose-mit-perchlorat-nicht-für-eine-kurzfristige-prophylaktische-gabe-für-die-keine-daten-vorliegen.-rendlsaller2001" class="nav-link" data-scroll-target="#bei-etwa-25-der-patienten-verursachen-langfristige-perchloratgaben-leichte-nebenwirkungen-wie-exantheme-übelkeit-erbrechen-oder-gelenkschmerzen.-schwere-nebenwirkungen-wie-leukopenie-thrombopenie-oder-aplastische-anämie-treten-bei-0105-auf-besonders-bei-tagesdosen-über-1-g.-diese-raten-gelten-für-die-längere-therapie-von-hyperthyreose-mit-perchlorat-nicht-für-eine-kurzfristige-prophylaktische-gabe-für-die-keine-daten-vorliegen.-rendlsaller2001">Bei etwa 2–5 % der Patienten verursachen langfristige Perchloratgaben leichte Nebenwirkungen wie Exantheme, Übelkeit, Erbrechen oder Gelenkschmerzen. Schwere Nebenwirkungen wie Leukopenie, Thrombopenie oder aplastische Anämie treten bei 0,1–0,5 % auf, besonders bei Tagesdosen über 1 g. Diese Raten gelten für die längere Therapie von Hyperthyreose mit Perchlorat, nicht für eine kurzfristige prophylaktische Gabe, für die keine Daten vorliegen. <span class="citation" data-cites="RendlSaller2001">@RendlSaller2001</span></a></li>
+  <li><a href="#section-84" id="toc-section-84" class="nav-link" data-scroll-target="#section-84"></a></li>
+  <li><a href="#literaturverzeichnis" id="toc-literaturverzeichnis" class="nav-link" data-scroll-target="#literaturverzeichnis">## Literaturverzeichnis</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="section" class="level1">
+<h1>—</h1>
+</section>
+<section id="title-kontrastmittel" class="level1">
+<h1>title: “Kontrastmittel”</h1>
+</section>
+<section id="section-1" class="level1">
+<h1></h1>
+</section>
+<section id="format" class="level1">
+<h1>format:</h1>
+</section>
+<section id="pdf" class="level1">
+<h1>pdf:</h1>
+</section>
+<section id="toc-true-generate-toc" class="level1">
+<h1>toc: true # generate TOC</h1>
+</section>
+<section id="toc-depth-3-include-up-to-level-headings" class="level1">
+<h1>toc-depth: 3 # include up to ###‑level headings</h1>
+</section>
+<section id="number-sections-true" class="level1">
+<h1>number-sections: true</h1>
+</section>
+<section id="colorlinks-true-coloured-clickable-links" class="level1">
+<h1>colorlinks: true # coloured, clickable links</h1>
+</section>
+<section id="citations-true-loads-hyperref-if-not-yet-loaded" class="level1">
+<h1>citations: true # loads hyperref if not yet loaded</h1>
+</section>
+<section id="fig-pos-h" class="level1">
+<h1>fig-pos: “H”</h1>
+</section>
+<section id="documentclass-article" class="level1">
+<h1>documentclass: article</h1>
+</section>
+<section id="papersize-a4" class="level1">
+<h1>papersize: a4</h1>
+</section>
+<section id="geometry" class="level1">
+<h1>geometry:</h1>
+</section>
+<section id="margin2.5cm" class="level1">
+<h1>- margin=2.5cm</h1>
+</section>
+<section id="include-in-header-latex-snippet-page-break-before-every-section" class="level1">
+<h1>include-in-header: # LaTeX snippet → page break before every \section</h1>
+</section>
+<section id="text" class="level1">
+<h1>text: |</h1>
+#
+#
+</section>
+<section id="for-twosided-docs-use-instead-of" class="level1">
+<h1>% For two‑sided docs use instead of </h1>
+</section>
+<section id="section-2" class="level1">
+<h1></h1>
+</section>
+<section id="section-3" class="level1">
+<h1></h1>
+</section>
+<section id="html" class="level1">
+<h1>html:</h1>
+</section>
+<section id="toc-true-html-toc-already-linked" class="level1">
+<h1>toc: true # HTML TOC (already linked)</h1>
+</section>
+<section id="toc-depth-3" class="level1">
+<h1>toc-depth: 3</h1>
+</section>
+<section id="number-sections-true-1" class="level1">
+<h1>number-sections: true</h1>
+</section>
+<section id="section-4" class="level1">
+<h1></h1>
+</section>
+<section id="docx" class="level1">
+<h1># docx:</h1>
+</section>
+<section id="toc-true-clickable-word-toc" class="level1">
+<h1># toc: true # clickable Word TOC</h1>
+</section>
+<section id="toc-depth-3-1" class="level1">
+<h1># toc-depth: 3</h1>
+</section>
+<section id="number-sections-true-2" class="level1">
+<h1># number-sections: true</h1>
+</section>
+<section id="section-5" class="level1">
+<h1></h1>
+</section>
+<section id="bibliography-mta-schule.bib" class="level1">
+<h1>bibliography: mta-schule.bib</h1>
+</section>
+<section id="csl-american-medical-association.csl" class="level1">
+<h1>csl: american-medical-association.csl</h1>
+</section>
+<section id="section-6" class="level1">
+<h1></h1>
+</section>
+<section id="execute" class="level1">
+<h1>execute:</h1>
+</section>
+<section id="warning-false" class="level1">
+<h1>warning: false</h1>
+</section>
+<section id="section-7" class="level1">
+<h1></h1>
+</section>
+<section id="crossref" class="level1">
+<h1>crossref:</h1>
+</section>
+<section id="fig-prefix-abbildung" class="level1">
+<h1>fig-prefix: Abbildung</h1>
+</section>
+<section id="tbl-prefix-tabelle" class="level1">
+<h1>tbl-prefix: Tabelle</h1>
+</section>
+<section id="sec-prefix-abschnitt" class="level1">
+<h1>sec-prefix: Abschnitt</h1>
+</section>
+<section id="fig-title-abbildung" class="level1">
+<h1>fig-title: Abbildung</h1>
+</section>
+<section id="tbl-title-tabelle" class="level1">
+<h1>tbl-title: Tabelle</h1>
+</section>
+<section id="section-8" class="level1">
+<h1>—</h1>
+</section>
+<section id="section-9" class="level1">
+<h1></h1>
+</section>
+<section id="vorgehen" class="level1">
+<h1>## Vorgehen</h1>
+</section>
+<section id="section-10" class="level1 callout-tip">
+<h1 class="callout-tip">:::</h1>
+</section>
+<section id="section-11" class="level1">
+<h1></h1>
+</section>
+<section id="laborwerte-für-tsh-und-egfr-dürfen-bis-zu-3-monate-alt-sein-es-sei-denn-es-liegt-eine-akute-erkrankung-vor-oder-es-besteht-der-klinische-verdacht-auf-eine-akute-verschlechterung-einer-bekannten-chronischen-erkrankung." class="level1">
+<h1>Laborwerte für <strong>TSH und eGFR</strong> dürfen bis zu <strong>3 Monate alt</strong> sein, es sei denn, es liegt eine akute Erkrankung vor oder es besteht der klinische Verdacht auf eine akute Verschlechterung einer bekannten chronischen Erkrankung.</h1>
+</section>
+<section id="section-12" class="level1">
+<h1></h1>
+</section>
+<section id="bei-egfr-30-mlmin-kann-metformin-normal-eingenommen-werden." class="level1">
+<h1>bei eGFR &gt; 30 ml/min kann Metformin normal eingenommen werden.</h1>
+</section>
+<section id="section-13" class="level1">
+<h1></h1>
+</section>
+<section id="bei-egfr-30-mlmin-metformin-ab-dem-zeitpunkt-der-km-applikation-absetzen.-nach-48-stunden-erneut-egfr-bestimmen-sollten-keine-veränderungen-vorliegen-metformin-kann-wieder-begonnen-werden." class="level1">
+<h1>bei eGFR &lt; 30 ml/min Metformin ab dem Zeitpunkt der KM-Applikation absetzen. Nach 48 Stunden erneut eGFR bestimmen, sollten keine Veränderungen vorliegen: Metformin kann wieder begonnen werden.</h1>
+</section>
+<section id="section-14" class="level1">
+<h1></h1>
+</section>
+<section id="wenn-das-serum-tsh-abnormal-ist-sollten-die-schilddrüsenhormone-t3-undoder-t4-gemessen-werden-stufendiagnostik." class="level1">
+<h1>Wenn das Serum-TSH abnormal ist, sollten die Schilddrüsenhormone (T3 und/oder T4) gemessen werden (Stufendiagnostik).</h1>
+</section>
+<section id="section-15" class="level1">
+<h1></h1>
+</section>
+<section id="s.-fig-stufen" class="level1">
+<h1>s. <strong>?@fig-stufen</strong></h1>
+</section>
+<section id="section-16" class="level1">
+<h1></h1>
+</section>
+<section id="section-17" class="level1">
+<h1>:::</h1>
+</section>
+<section id="section-18" class="level1">
+<h1></h1>
+</section>
+<section id="section-19" class="level1">
+<h1></h1>
+</section>
+<section id="kontrastmittel-induzierte-funktionsstörungen-der-niere" class="level1">
+<h1>## Kontrastmittel-induzierte Funktionsstörungen der Niere</h1>
+</section>
+<section id="section-20" class="level1">
+<h1></h1>
+</section>
+<section id="der-begriff-post-kontrastmittel-akutes-nierenversagen-pc-aki-beschreibt-eine-meist-vorübergehende-verschlechterung-der-nierenfunktion-nach-intravaskulärer-gabe-von-kontrastmitteln.-diese-erreicht-typischerweise-nach-23-tagen-ihren-höhepunkt-und-normalisiert-sich-innerhalb-von-etwa-13-wochen.-wie-andere-formen-des-akuten-nierenversagens-ist-es-ein-indikator-für-eine-erhöhte-kurz--und-langfristige-morbidität-mortalität-und-eine-verlängerte-krankenhausverweildauer.-vandermolenetal2018" class="level1">
+<h1>Der Begriff <em>Post-Kontrastmittel-akutes Nierenversagen</em> (PC-AKI) beschreibt eine meist vorübergehende Verschlechterung der Nierenfunktion <em>nach</em> intravaskulärer Gabe von Kontrastmitteln. Diese erreicht typischerweise nach 2–3 Tagen ihren Höhepunkt und normalisiert sich innerhalb von etwa 1–3 Wochen. Wie andere Formen des akuten Nierenversagens ist es ein Indikator für eine erhöhte kurz- und langfristige Morbidität, Mortalität und eine verlängerte Krankenhausverweildauer. <span class="citation" data-cites="vanderMolenEtAl2018">@vanderMolenEtAl2018</span></h1>
+</section>
+<section id="section-21" class="level1">
+<h1></h1>
+</section>
+<section id="die-inzidenz-von-pc-aki-ist-schwer-einzuschätzen-da-studien-unterschiedliche-definitionen-des-akuten-nierenversagens-aki-verwenden." class="level1">
+<h1>Die Inzidenz von (PC-AKI) ist schwer einzuschätzen, da Studien unterschiedliche Definitionen des akuten Nierenversagens (AKI) verwenden.</h1>
+</section>
+<section id="section-22" class="level1">
+<h1></h1>
+</section>
+<section id="die-esur-leitlinie-definiert-eine-pc-aki-als-einen-anstieg-des-serum-kreatinins-innerhalb-von-4872-stunden-nach-intravaskulärer-kontrastmittelgabe-um-03-mgdl-265-μmoll-oder-um-15-fache-des-ausgangswertes.-thomsenmorcos2006" class="level1">
+<h1>Die ESUR Leitlinie definiert eine (PC-AKI) als einen Anstieg des Serum-Kreatinins innerhalb von 48–72 Stunden nach intravaskulärer Kontrastmittelgabe um ≥ 0,3 mg/dl (≥ 26,5 μmol/l) oder um ≥ 1,5-fache des Ausgangswertes. <span class="citation" data-cites="ThomsenMorcos2006">@ThomsenMorcos2006</span></h1>
+</section>
+<section id="section-23" class="level1">
+<h1></h1>
+</section>
+<section id="darüberhinaus-beeinflussen-variierende-applikationswege-intravenös-oder-intraarteriell-dosierungen-und-kontrastmitteltypen-die-angegebene-inzidenz-erheblich.-zudem-waren-die-eingeschlossenen-patientengruppen-hinsichtlich-komorbiditäten-und-vorbestehender-nierenerkrankungen-heterogen.-latusetal2020" class="level1">
+<h1>Darüberhinaus beeinflussen variierende Applikationswege (intravenös oder intraarteriell), Dosierungen und Kontrastmitteltypen die angegebene Inzidenz erheblich. Zudem waren die eingeschlossenen Patientengruppen hinsichtlich Komorbiditäten und vorbestehender Nierenerkrankungen heterogen. <span class="citation" data-cites="LatusEtAl2020">@LatusEtAl2020</span></h1>
+</section>
+<section id="section-24" class="level1">
+<h1></h1>
+</section>
+<section id="insgesamt-wird-die-inzidenz-des-pc-aki-in-der-literatur-vermutlich-überschätzt.-zwei-metaanalysen-mit-insgesamt-19.000-patienten-die-intravenös-kontrastmittel-erhielten-zeigten-pc-aki-raten-von-64-95-ci-5081-und-50-95-ci-3865.-kooimanetal2012-moosetal2013" class="level1">
+<h1>Insgesamt wird die Inzidenz des (PC-AKI) in der Literatur vermutlich überschätzt. Zwei Metaanalysen mit insgesamt 19.000 Patienten, die intravenös Kontrastmittel erhielten, zeigten PC-AKI-Raten von 6,4 % (95 % CI 5,0–8,1) und 5,0 % (95 % CI 3,8–6,5). <span class="citation" data-cites="KooimanEtAl2012 MoosEtAl2013">[@KooimanEtAl2012; @MoosEtAl2013]</span></h1>
+</section>
+<section id="bei-1-der-patienten-blieb-die-nierenfunktionsverschlechterung-bis-zu-zwei-monate-bestehen-während-die-gewichtete-inzidenz-für-eine-erforderliche-nierenersatztherapie-rrt-lediglich-006-betrug.kooimanetal2012-vandermolenetal2018" class="level1">
+<h1>Bei 1 % der Patienten blieb die Nierenfunktionsverschlechterung bis zu zwei Monate bestehen, während die gewichtete Inzidenz für eine erforderliche Nierenersatztherapie (RRT) lediglich 0,06 % betrug.<span class="citation" data-cites="KooimanEtAl2012 vanderMolenEtAl2018">[@KooimanEtAl2012; @vanderMolenEtAl2018]</span></h1>
+</section>
+<section id="section-25" class="level1">
+<h1></h1>
+</section>
+<section id="der-american-college-of-radiology-ausschuss-für-arznei--und-kontrastmittel-vertritt-den-standpunkt-dass-pc-aki-eine-echte-wenn-auch-seltene-entität-ist-und-dass-die-veröffentlichten-studien-zur-pc-aki-stark-durch-verzerrungen-und-vermischungen-belastet-sind.-acrcommitteeondrugsandcontrastmedia2013" class="level1">
+<h1>Der American College of Radiology-Ausschuss für Arznei- und Kontrastmittel vertritt den Standpunkt, dass PC-AKI eine echte, wenn auch seltene Entität ist und dass die veröffentlichten Studien zur PC-AKI stark durch Verzerrungen und Vermischungen belastet sind. <span class="citation" data-cites="ACRCommitteeonDrugsandContrastMedia2013">@ACRCommitteeonDrugsandContrastMedia2013</span></h1>
+</section>
+<section id="section-26" class="level1">
+<h1></h1>
+</section>
+<section id="metformin" class="level1">
+<h1>### Metformin</h1>
+</section>
+<section id="section-27" class="level1">
+<h1></h1>
+</section>
+<section id="metformin-ist-nicht-nephrotoxisch-wird-jedoch-über-die-nieren-ausgeschieden-wobei-die-clearance-ungefähr-linear-mit-der-glomerulären-filtrationsrate-gfr-korreliert.-es-gibt-daher-zwei-situationen-in-denen-eine-metformin-intoxikation-auftreten-kann-versäumnis-der-dosisreduktion-bei-vorliegen-einer-chrnonischen-niereninsuffizienz-und-bei-akute-niereninsuffizienz.-heaf2014" class="level1">
+<h1>Metformin ist <em>nicht</em> nephrotoxisch, wird jedoch über die Nieren ausgeschieden, wobei die Clearance ungefähr linear mit der glomerulären Filtrationsrate (GFR) korreliert. Es gibt daher zwei Situationen, in denen eine Metformin-Intoxikation auftreten kann: Versäumnis der Dosisreduktion bei Vorliegen einer chrnonischen Niereninsuffizienz und bei akute Niereninsuffizienz. <span class="citation" data-cites="Heaf2014">@Heaf2014</span></h1>
+</section>
+<section id="section-28" class="level1">
+<h1></h1>
+</section>
+<section id="metformin-führt-dementsprechend-nicht-zu-einem-erhöhten-risiko-einer-pc-aki.-allerdings-können-patienten-die-während-der-einnahme-von-metformin-eine-aki-entwickeln-anfällig-für-die-entwicklung-einer-laktatazidose-sein.-acrcommitteeondrugsandcontrastmedia2013" class="level1">
+<h1>Metformin führt dementsprechend nicht zu einem erhöhten Risiko einer PC-AKI. Allerdings können Patienten, die während der Einnahme von Metformin eine AKI entwickeln, anfällig für die Entwicklung einer Laktatazidose sein. <span class="citation" data-cites="ACRCommitteeonDrugsandContrastMedia2013">@ACRCommitteeonDrugsandContrastMedia2013</span></h1>
+</section>
+<section id="section-29" class="level1">
+<h1></h1>
+</section>
+<section id="section-30" class="level1">
+<h1></h1>
+</section>
+<section id="prävention" class="level1">
+<h1>## Prävention</h1>
+</section>
+<section id="section-31" class="level1">
+<h1></h1>
+</section>
+<section id="laut-esur-leitlinie-bei-intravenöser-und-intraarterieller-röntgenkontrastmittelapplikation-mit-renalem-second-pass-effekt-sollte-der-patient-entweder" class="level1">
+<h1>Laut ESUR-Leitlinie Bei intravenöser und intraarterieller Röntgenkontrastmittelapplikation mit renalem second-pass Effekt sollte der Patient entweder</h1>
+</section>
+<section id="section-32" class="level1">
+<h1></h1>
+</section>
+<section id="a-mit-intravenöser-14iger-natriumbikarbonatlösung-alternativ-154-mmoll-in-5iger-dextroselösung-3-mlkgh-über-1-stunde-vor-röntgenkontrastmittelgabe-oder" class="level1">
+<h1>(a) mit intravenöser 1,4%iger Natriumbikarbonatlösung (alternativ 154 mmol/l in 5%iger Dextroselösung): 3 ml/kg/h über 1 Stunde vor Röntgenkontrastmittelgabe oder</h1>
+</section>
+<section id="section-33" class="level1">
+<h1></h1>
+</section>
+<section id="b-mit-intravenöser-09iger-kochsalzlösung-1mlkgh-über-3-4-stunden-vor-und-4-6-stunden-nach-der-untersuchung-hydriert-werden.-thomsenmorcos2006" class="level1">
+<h1>(b) mit intravenöser 0,9%iger Kochsalzlösung 1ml/kg/h über 3-4 Stunden vor und 4-6 Stunden nach der Untersuchung hydriert werden. <span class="citation" data-cites="ThomsenMorcos2006">@ThomsenMorcos2006</span></h1>
+</section>
+<section id="section-34" class="level1">
+<h1></h1>
+</section>
+<section id="section-35" class="level1">
+<h1></h1>
+</section>
+<section id="section-36" class="level1">
+<h1></h1>
+</section>
+<section id="kontrastmittel-induzierte-funktionsstörungen-der-schilddrüse" class="level1">
+<h1>## Kontrastmittel-induzierte Funktionsstörungen der Schilddrüse</h1>
+</section>
+<section id="section-37" class="level1">
+<h1></h1>
+</section>
+<section id="jodhaltige-kontrastmittel-rökm-kann-schilddrüsenfunktionsstörungen-verursachen-sowohl-hypothyreose-als-auch-hyperthyreose." class="level1">
+<h1>Jodhaltige Kontrastmittel (RöKM) kann Schilddrüsenfunktionsstörungen verursachen, sowohl <strong>Hypothyreose</strong>, als auch <strong>Hyperthyreose</strong>.</h1>
+</section>
+<section id="section-38" class="level1">
+<h1></h1>
+</section>
+<section id="in-daten-aus-dem-partners-health-care-research-patient-data-registry-usa-war-die-icm-exposition-mit-dem-auftreten-einer-hyperthyreose-definiert-als-ein-supprimiertes-tsh-01-miul-odds-ratio-or-250-95-ci-106-593-und-mit-dem-auftreten-einer-hypothyreose-definiert-als-erhöhtes-serum-tsh-10-miul-or-305-95-ci-107-872-verbunden.-bednarczuketal2021" class="level1">
+<h1>In Daten aus dem Partners Health-Care Research Patient Data Registry (USA) war die ICM-Exposition mit dem Auftreten einer Hyperthyreose (definiert als ein supprimiertes TSH &lt;0,1 mIU/L; <strong>Odds Ratio [OR], 2,50</strong>; 95% CI, 1,06-5,93) und mit dem Auftreten einer Hypothyreose (definiert als erhöhtes Serum-TSH &gt;10 mIU/L; <strong>OR, 3,05</strong>; 95% CI, 1,07-8,72) verbunden. <span class="citation" data-cites="BednarczukEtAl2021">@BednarczukEtAl2021</span></h1>
+</section>
+<section id="section-39" class="level1">
+<h1></h1>
+</section>
+<section id="die-meisten-rökm-bedingten-schilddrüsenstörungen-sind-leicht-und-selbstlimitierend-doch-in-einigen-fällen-sind-sie-schwerwiegend-genug-um-einen-medizinischen-eingriff-zu-erfordern.-bednarczuketal2021-bednarczuketal2023" class="level1">
+<h1>Die meisten RöKM-bedingten Schilddrüsenstörungen sind <strong>leicht und selbstlimitierend</strong>, doch in einigen Fällen sind sie schwerwiegend genug, um einen medizinischen Eingriff zu erfordern. <span class="citation" data-cites="BednarczukEtAl2021 BednarczukEtAl2023">[@BednarczukEtAl2021; @BednarczukEtAl2023]</span></h1>
+</section>
+<section id="section-40" class="level1">
+<h1></h1>
+</section>
+<section id="während-durch-jod-hervorgerufene-hypothyreosen-fast-ausschließlich-in-ausreichend-jodversorgten-ländern-zu-finden-sind-tritt-die-jodinduzierte-hyperthyreose-vornehmlich-in-gebieten-mit-endemischem-jodmangel-auf.-rendlsaller2001" class="level1">
+<h1>Während durch Jod hervorgerufene Hypothyreosen fast ausschließlich in ausreichend jodversorgten Ländern zu finden sind, tritt die jodinduzierte Hyperthyreose vornehmlich in Gebieten mit endemischem Jodmangel auf. <span class="citation" data-cites="RendlSaller2001">@RendlSaller2001</span></h1>
+</section>
+<section id="section-41" class="level1">
+<h1></h1>
+</section>
+<section id="pathophysiologie" class="level1">
+<h1>### Pathophysiologie</h1>
+</section>
+<section id="section-42" class="level1">
+<h1></h1>
+</section>
+<section id="die-schilddrüse-verfügt-über-einen-intrinsischen-regulationsmechanismus-zur-aufrechterhaltung-einer-normalen-schilddrüsenfunktion-in-gegenwart-von-jodüberschuss-der-wolff-chaikoff-effekt.-am-ersten-tag-der-jodbelastung-transportiert-der-natrium-jodid-symporter-das-überschüssige-jod-in-die-schilddrüse-das-erhöhten-intrathyreoidalen-jod-führt-zu-einer-vorübergehenden-hemmung-der-schilddrüsenperoxidase-tpo-und-zu-einem-rückgang-der-schilddrüsenhormonsynthese." class="level1">
+<h1>Die Schilddrüse verfügt über einen intrinsischen Regulationsmechanismus zur Aufrechterhaltung einer normalen Schilddrüsenfunktion in Gegenwart von Jodüberschuss (Der Wolff-Chaikoff-Effekt). Am ersten Tag der Jodbelastung transportiert der Natrium-Jodid-Symporter das überschüssige Jod in die Schilddrüse, das erhöhten intrathyreoidalen Jod führt zu einer vorübergehenden Hemmung der Schilddrüsenperoxidase (TPO) und zu einem Rückgang der Schilddrüsenhormonsynthese.</h1>
+</section>
+<section id="section-43" class="level1">
+<h1></h1>
+</section>
+<section id="ein-dramatischer-rückgang-der-expression-des-natriumiodid-symporters-führt-wiederum-zu-einem-verringerten-jodtransport-und-der-anschließenden-wiederaufnahme-der-schilddrüsenhormonsynthese.-pramyothinetal2011" class="level1">
+<h1>Ein dramatischer Rückgang der Expression des Natriumiodid-Symporters führt wiederum zu einem verringerten Jodtransport und der anschließenden Wiederaufnahme der Schilddrüsenhormonsynthese. <span class="citation" data-cites="PramyothinEtAl2011">@PramyothinEtAl2011</span></h1>
+</section>
+<section id="section-44" class="level1">
+<h1></h1>
+</section>
+<section id="section-45" class="level1">
+<h1></h1>
+</section>
+<section id="a-vorgeschlagenes-mechanismus-für-den-akuten-wolff-chaikoff-effekt.-am-ersten-tag-der-jod-exposition-transportiert-der-natrium-jodid-symporter-das-überschüssige-jod-in-die-schilddrüse-was-zu-einer-vorübergehenden-hemmung-der-schilddrüsenperoxidase-tpo-und-einem-rückgang-der-schilddrüsenhormonsynthese-führt.-b-der-akuten-wolff-chaikoff-effekt-wird-ausschaltet-ein-drastischer-rückgang-der-expression-des-natriumiodid-symporters-führt-zu-einem-verringerten-jodtransport-und-der-anschließenden-wiederaufnahme-der-schilddrüsenhormonsynthese.-dit-steht-für-diiodotyrosin-i-jodid-mit-für-monoiodotyrosin-t3-für-trijodthyronin-und-t4-für-thyroxin.-pramyothinetal2011" class="level1">
+<h1><img src="Bilder/wolff-chaikoff.png" id="fig-wolffchaikoff" class="img-fluid" alt="A) Vorgeschlagenes Mechanismus für den akuten Wolff-Chaikoff-Effekt. Am ersten Tag der Jod-Exposition transportiert der Natrium-Jodid-Symporter das überschüssige Jod in die Schilddrüse, was zu einer vorübergehenden Hemmung der Schilddrüsenperoxidase (TPO) und einem Rückgang der Schilddrüsenhormonsynthese führt. B) Der akuten Wolff-Chaikoff-Effekt wird ausschaltet: Ein drastischer Rückgang der Expression des Natriumiodid-Symporters führt zu einem verringerten Jodtransport und der anschließenden Wiederaufnahme der Schilddrüsenhormonsynthese. DIT steht für Diiodotyrosin, I-Jodid, MIT für Monoiodotyrosin, T3 für Trijodthyronin und T4 für Thyroxin. @PramyothinEtAl2011"></h1>
+</section>
+<section id="section-46" class="level1">
+<h1></h1>
+</section>
+<section id="section-47" class="level1">
+<h1></h1>
+</section>
+<section id="hyperthyreose" class="level1">
+<h1>#### Hyperthyreose</h1>
+</section>
+<section id="section-48" class="level1">
+<h1></h1>
+</section>
+<section id="schwerer-jodmangel-führt-zu-kropf-und-hypothyreose-da-die-jodkonzentration-trotz-erhöhter-schilddrüsenaktivität-zur-maximierung-der-jodaufnahme-und-des-jodrecyclings-in-dieser-situation-immer-noch-zu-niedrig-ist-um-die-produktion-von-schilddrüsenhormonen-zu-ermöglichen." class="level1">
+<h1>Schwerer Jodmangel führt zu Kropf und Hypothyreose, da die Jodkonzentration trotz erhöhter Schilddrüsenaktivität zur Maximierung der Jodaufnahme und des Jodrecyclings in dieser Situation immer noch zu niedrig ist, um die Produktion von Schilddrüsenhormonen zu ermöglichen.</h1>
+</section>
+<section id="section-49" class="level1">
+<h1></h1>
+</section>
+<section id="bei-leichtem-bis-mäßigem-jodmangel-kann-eine-erhöhte-schilddrüsenaktivität-die-geringe-jodzufuhr-kompensieren-und-bei-den-meisten-menschen-eine-euthyreose-aufrechterhalten-allerdings-zu-einem-hohen-preis-eine-chronische-stimulation-der-schilddrüse-führt-zu-einem-anstieg-der-prävalenz-von-knotiger-autonomie-und-hyperthyreose.-zimmermannboelaert2015" class="level1">
+<h1>Bei leichtem bis mäßigem Jodmangel kann eine erhöhte Schilddrüsenaktivität die geringe Jodzufuhr kompensieren und bei den meisten Menschen eine Euthyreose aufrechterhalten, allerdings zu einem hohen Preis: Eine chronische Stimulation der Schilddrüse führt zu einem Anstieg der Prävalenz von knotiger Autonomie und Hyperthyreose. <span class="citation" data-cites="ZimmermannBoelaert2015">@ZimmermannBoelaert2015</span></h1>
+</section>
+<section id="section-50" class="level1">
+<h1></h1>
+</section>
+<section id="das-wichtigste-ereignis-bei-der-entwicklung-einer-kontrastmittel-induzierte-hyperthyreose-ist-die-autonomie-der-schilddrüsenfunktion.-es-wird-allgemein-angenommen-dass-diese-autonomie-durch-mutationen-entsteht-insbesondere-in-drüsen-die-chronisch-durch-tsh-stimuliert-wurden-auf-dem-boden-von-jodmangel.-die-autonomie-kann-in-der-schilddrüse-in-form-von-lokalisierten-aber-nicht-umschriebenen-herden-oder-häufiger-in-form-von-knötchen-auftreten.-stanburyetal1998-zimmermannboelaert2015-greiveetal2003" class="level1">
+<h1>Das wichtigste Ereignis bei der Entwicklung einer Kontrastmittel-induzierte Hyperthyreose ist die Autonomie der Schilddrüsenfunktion. Es wird allgemein angenommen, dass diese Autonomie durch Mutationen entsteht, insbesondere in Drüsen, die chronisch durch TSH stimuliert wurden (auf dem Boden von Jodmangel). Die Autonomie kann in der Schilddrüse in Form von lokalisierten, aber nicht umschriebenen Herden oder häufiger in Form von Knötchen auftreten. <span class="citation" data-cites="STANBURYEtAl1998">@STANBURYEtAl1998</span> <span class="citation" data-cites="ZimmermannBoelaert2015">@ZimmermannBoelaert2015</span> <span class="citation" data-cites="GreiveEtAl2003">@GreiveEtAl2003</span></h1>
+</section>
+<section id="section-51" class="level1">
+<h1></h1>
+</section>
+<section id="section-52" class="level1">
+<h1></h1>
+</section>
+<section id="hyperthyreose-1" class="level1">
+<h1>1. <strong>Hyperthyreose</strong>:</h1>
+</section>
+<section id="section-53" class="level1">
+<h1></h1>
+</section>
+<section id="mechanismus-in-erster-linie-auf-das-jod-basedow-phänomen-zurückzuführen-bei-dem-ein-jodüberschuss-die-überproduktion-von-schilddrüsenhormonen-bei-patienten-mit-autonomer-schilddrüsenfunktion-auslöst.-dunneetal2013" class="level1">
+<h1>- <strong>Mechanismus</strong>: In erster Linie auf das <strong>Jod-Basedow-Phänomen</strong> zurückzuführen, bei dem ein Jodüberschuss die Überproduktion von Schilddrüsenhormonen bei Patienten mit autonomer Schilddrüsenfunktion auslöst. <span class="citation" data-cites="DunneEtAl2013">@DunneEtAl2013</span></h1>
+</section>
+<section id="risikofaktoren" class="level1">
+<h1>- <strong>Risikofaktoren</strong>:</h1>
+</section>
+<section id="noduläre-struma" class="level1">
+<h1>- Noduläre Struma</h1>
+</section>
+<section id="latente-basedow-krankheit" class="level1">
+<h1>- Latente Basedow-Krankheit</h1>
+</section>
+<section id="jodmangel" class="level1">
+<h1>- Jodmangel</h1>
+</section>
+<section id="section-54" class="level1">
+<h1></h1>
+</section>
+<section id="section-55" class="level1">
+<h1></h1>
+</section>
+<section id="hypothyreose" class="level1">
+<h1>2. <strong>Hypothyreose</strong>:</h1>
+</section>
+<section id="section-56" class="level1">
+<h1></h1>
+</section>
+<section id="mechanismus-verursacht-durch-den-wolff-chaikoff-effekt-bei-dem-ein-jodüberschuss-zunächst-die-schilddrüsenhormonproduktion-hemmt.-bei-einigen-personen-bleibt-diese-hemmung-bestehen-und-führt-zu-einer-hypothyreose.-bednarczuketal2021" class="level1">
+<h1>- <strong>Mechanismus</strong>: Verursacht durch den <strong>Wolff-Chaikoff-Effekt</strong>, bei dem ein Jodüberschuss zunächst die Schilddrüsenhormonproduktion hemmt. Bei einigen Personen bleibt diese Hemmung bestehen und führt zu einer Hypothyreose. <span class="citation" data-cites="BednarczukEtAl2021">@BednarczukEtAl2021</span></h1>
+</section>
+<section id="section-57" class="level1">
+<h1></h1>
+</section>
+<section id="section-58" class="level1">
+<h1></h1>
+</section>
+<section id="prävalenz" class="level1">
+<h1>### Prävalenz</h1>
+</section>
+<section id="section-59" class="level1">
+<h1></h1>
+</section>
+<section id="die-häufigkeit-von-rökm-bedingten-schilddrüsenfehlfunktionen-variiert-und-wird-auf-1-bis-15-geschätzt-wobei-die-genauen-raten-schwer-zu-bestimmen-sind.-bednarczuketal2021" class="level1">
+<h1>Die Häufigkeit von RöKM-bedingten Schilddrüsenfehlfunktionen variiert und wird auf 1 % bis 15 % geschätzt, wobei die genauen Raten schwer zu bestimmen sind. <span class="citation" data-cites="BednarczukEtAl2021">@BednarczukEtAl2021</span></h1>
+</section>
+<section id="section-60" class="level1">
+<h1></h1>
+</section>
+<section id="bei-5-millionen-kontrastmitteluntersuchungen-jährlich-in-deutschland-tretten-etwa-100-thyreotoxische-krisen-im-gleichen-zeitraum-auf-wovon-38-durch-jodexposition-ausgelöst-werden-000076--0002.-rendlsaller2001" class="level1">
+<h1>Bei 5 Millionen Kontrastmitteluntersuchungen jährlich in Deutschland tretten etwa <strong>100 thyreotoxische Krisen</strong> im gleichen Zeitraum auf, wovon 38 % durch Jodexposition ausgelöst werden (0,00076% -0,002%). <span class="citation" data-cites="RendlSaller2001">@RendlSaller2001</span></h1>
+</section>
+<section id="section-61" class="level1">
+<h1></h1>
+</section>
+<section id="die-häufigkeit-mit-der-eine-jodinduzierte-hyperthyreose-auftritt-hängt-von-einer-reihe-von-faktoren-ab-rendlsaller2001" class="level1">
+<h1>Die Häufigkeit, mit der eine jodinduzierte Hyperthyreose auftritt, hängt von einer Reihe von Faktoren ab <span class="citation" data-cites="RendlSaller2001">@RendlSaller2001</span></h1>
+</section>
+<section id="section-62" class="level1">
+<h1></h1>
+</section>
+<section id="schweregrad-des-jodmangels-vor-jodexposition" class="level1">
+<h1>- Schweregrad des Jodmangels vor Jodexposition,</h1>
+</section>
+<section id="ausmaß-der-jodexposition" class="level1">
+<h1>- Ausmaß der Jodexposition,</h1>
+</section>
+<section id="häufigkeit-funktionell-autonomer-zellen-in-der-schilddrüse" class="level1">
+<h1>- Häufigkeit funktionell autonomer Zellen in der Schilddrüse,</h1>
+</section>
+<section id="alter-der-patienten." class="level1">
+<h1>- Alter der Patienten.</h1>
+</section>
+<section id="section-63" class="level1">
+<h1></h1>
+</section>
+<section id="in-einer-großen-prospektiven-studie-in-italien-hatten-72-der-patienten-ohne-bekannte-schilddrüsenerkrankung-vor-einer-elektiven-koronarangiographie-eine-hyperthyreose-überwiegend-subklinisch.-bednarczuketal2021" class="level1">
+<h1>In einer großen prospektiven Studie in Italien hatten 7,2 % der Patienten ohne bekannte Schilddrüsenerkrankung vor einer elektiven Koronarangiographie eine Hyperthyreose (überwiegend subklinisch). <span class="citation" data-cites="BednarczukEtAl2021">@BednarczukEtAl2021</span></h1>
+</section>
+<section id="section-64" class="level1">
+<h1></h1>
+</section>
+<section id="section-65" class="level1">
+<h1></h1>
+</section>
+<section id="prävention-1" class="level1">
+<h1>### Prävention</h1>
+</section>
+<section id="section-66" class="level1">
+<h1></h1>
+</section>
+<section id="labor" class="level1">
+<h1>#### Labor</h1>
+</section>
+<section id="section-67" class="level1">
+<h1></h1>
+</section>
+<section id="die-europäischen-leitlinien-empfehlen-kein-generelles-tsh-screening-vor-jodhaltigen-kontrastmitteln." class="level1">
+<h1>Die europäischen Leitlinien empfehlen kein generelles TSH-Screening vor jodhaltigen Kontrastmitteln.</h1>
+</section>
+<section id="bei-risikopatienten-ältere-kardiovaskulär-belastete-wird-jedoch-ein-tsh-test-empfohlen.-bednarczuketal2021" class="level1">
+<h1>Bei Risikopatienten (ältere, kardiovaskulär belastete) wird jedoch ein TSH-Test empfohlen. <span class="citation" data-cites="BednarczukEtAl2021">@BednarczukEtAl2021</span></h1>
+</section>
+<section id="section-68" class="level1">
+<h1></h1>
+</section>
+<section id="deutschland-ist-jodmangelgebiet-und-in-unsere-praxis-werden-häufig-älteren-multimorbiden-patienten-behandelt.-daher-sollte-bei-allen-patienten-vor-kontrastmittelgabe-ein-serum-tsh-wert-vorliegen.-fehlt-dieser-ist-das-keine-harte-kontraindikation-für-die-gabe-von-rökm-die-entscheidung-liegt-im-ärztlichen-ermessen.-liegt-das-tsh-im-normbereich-können-die-werte-bis-zu-3-monate-alt-sein." class="level1">
+<h1>Deutschland ist Jodmangelgebiet und in unsere Praxis werden häufig älteren, multimorbiden Patienten behandelt. Daher sollte bei allen Patienten vor Kontrastmittelgabe ein Serum-TSH-Wert vorliegen. Fehlt dieser, ist das keine harte Kontraindikation für die Gabe von RöKM; die Entscheidung liegt im ärztlichen Ermessen. Liegt das TSH im Normbereich, können die Werte bis zu 3 Monate alt sein.</h1>
+</section>
+<section id="section-69" class="level1">
+<h1></h1>
+</section>
+<section id="deutschland-ist-jodmangelgebiet" class="level1">
+<h1><img src="Bilder/JodMangelDeutschland.jpg" id="fig-Jodmangel" class="img-fluid" alt="Deutschland ist Jodmangelgebiet"></h1>
+</section>
+<section id="section-70" class="level1">
+<h1></h1>
+</section>
+<section id="stufendiagnostik" class="level1">
+<h1>#### Stufendiagnostik</h1>
+</section>
+<section id="section-71" class="level1">
+<h1></h1>
+</section>
+<section id="zu-beginn-der-laboratoriumsmedizinischen-diagnostik-sollte-die-bestimmung-der-tsh-konzentration-erfolgen.-bei-einer-tsh-konzentration-im-referenzbereich-erfolgt-keine-weitere-diagnostik." class="level1">
+<h1>Zu Beginn der laboratoriumsmedizinischen Diagnostik sollte die Bestimmung der TSH-Konzentration erfolgen. Bei einer TSH-Konzentration im Referenzbereich erfolgt keine weitere Diagnostik.</h1>
+</section>
+<section id="section-72" class="level1">
+<h1></h1>
+</section>
+<section id="bei-einer-tsh-konzentrationen-außerhalb-vom-referenzbereich-schließt-sich-in-einer-zweiten-stufe-die-konzentrationsbestimmung-von-freiem-f-t4-und-ft3-an." class="level1">
+<h1>Bei einer TSH-Konzentrationen außerhalb vom Referenzbereich schließt sich in einer zweiten Stufe die Konzentrationsbestimmung von freiem (F) T4 und FT3 an.</h1>
+</section>
+<section id="section-73" class="level1">
+<h1></h1>
+</section>
+<section id="diese-stufendiagnostik-erfolgt-automatisch-im-labor.-s.-fig-stufen" class="level1">
+<h1>Diese Stufendiagnostik erfolgt automatisch im Labor. s. <strong>?@fig-stufen</strong></h1>
+</section>
+<section id="section-74" class="level1">
+<h1></h1>
+</section>
+<section id="die-untersuchung-auf-eine-schilddrüsenfunktionsstörung-erfolgt-als-stufendiagnostik" class="level1">
+<h1><img src="Bilder/Stufst.jpg" id="fig-stufen" class="img-fluid" alt="Die Untersuchung auf eine Schilddrüsenfunktionsstörung erfolgt als “Stufendiagnostik”"></h1>
+</section>
+<section id="section-75" class="level1">
+<h1></h1>
+</section>
+<section id="section-76" class="level1">
+<h1></h1>
+</section>
+<section id="medikamentöse-prophylaxe" class="level1">
+<h1>#### Medikamentöse Prophylaxe</h1>
+</section>
+<section id="section-77" class="level1">
+<h1></h1>
+</section>
+<section id="section-78" class="level1 callout-tip">
+<h1 class="callout-tip">:::</h1>
+</section>
+<section id="section-79" class="level1">
+<h1></h1>
+</section>
+<section id="natriumperchlorat-300-mgml" class="level1">
+<h1>Natriumperchlorat (300 mg/ml)</h1>
+</section>
+<section id="section-80" class="level1">
+<h1></h1>
+</section>
+<section id="gtt-eine-stunde-vor-untersuchung-dannach" class="level1">
+<h1>40 gtt eine Stunde vor Untersuchung, dannach</h1>
+</section>
+<section id="gtt-1-1-1-für-14-tagen" class="level1">
+<h1>20 gtt 1-1-1 für 14 Tagen</h1>
+</section>
+<section id="section-81" class="level1">
+<h1></h1>
+</section>
+<section id="section-82" class="level1">
+<h1>:::</h1>
+</section>
+<section id="section-83" class="level1">
+<h1></h1>
+</section>
+<section id="bei-etwa-25-der-patienten-verursachen-langfristige-perchloratgaben-leichte-nebenwirkungen-wie-exantheme-übelkeit-erbrechen-oder-gelenkschmerzen.-schwere-nebenwirkungen-wie-leukopenie-thrombopenie-oder-aplastische-anämie-treten-bei-0105-auf-besonders-bei-tagesdosen-über-1-g.-diese-raten-gelten-für-die-längere-therapie-von-hyperthyreose-mit-perchlorat-nicht-für-eine-kurzfristige-prophylaktische-gabe-für-die-keine-daten-vorliegen.-rendlsaller2001" class="level1">
+<h1>Bei etwa 2–5 % der Patienten verursachen langfristige Perchloratgaben leichte Nebenwirkungen wie Exantheme, Übelkeit, Erbrechen oder Gelenkschmerzen. Schwere Nebenwirkungen wie Leukopenie, Thrombopenie oder aplastische Anämie treten bei 0,1–0,5 % auf, besonders bei Tagesdosen über 1 g. Diese Raten gelten für die längere Therapie von Hyperthyreose mit Perchlorat, nicht für eine kurzfristige prophylaktische Gabe, für die keine Daten vorliegen. <span class="citation" data-cites="RendlSaller2001">@RendlSaller2001</span></h1>
+</section>
+<section id="section-84" class="level1">
+<h1></h1>
+</section>
+<section id="literaturverzeichnis" class="level1">
+<h1>## Literaturverzeichnis</h1>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/MD-Torres\.github\.io\/mtra-schule\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
