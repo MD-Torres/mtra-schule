@@ -27,9 +27,9 @@ Ohne Behandlung (oder rein palliative Behandlung) leben Patienten im Durchschnit
 Im 1982 Heald führte der totalen mesorektalen Exzision (TME). Bei der TME wird das komplete Mesorektum entfernt, wodurch die Lokalrezidivrate auf ~3-7 % gesenkt werden konnte. Die OS nach 5 Jahren war 87 %. @HealdRyall1986
 Die TME setzte sich in den folgenden zwei Jahrzehnten international durch und setzte einen neuen chirurgischen Standard. @DeschnerEtAl2021
 
-In 1985 der Gastrointestinal Tumor Study Group @GastrointestinalTumorStudyGroup1985 zeigte, dass die adjuvante Therapie Vorteile in Bezug auf die lokale Kontrolle (Rezidiv/Disease free survival) hatte, insbesondere wenn die RT mit einer Chemotherapie kombiniert wurde.
+1985 zeigte die Gastrointestinal Tumor Study Group @GastrointestinalTumorStudyGroup1985 , dass die adjuvante Therapie Vorteile bei der lokalen Kontrolle (Rezidivrate/Disease-Free Survival) hatte, insbesondere die **Radiochemotherapie.**
 
-Die neoadjuvante Radiochemotherapie wurde untersucht, um die Ergebnisse darüber  hinaus zu verbessern.
+Die Radiochemotherapy wurde dann als **neoadjuvantes** Konzept untersucht, um die Ergebnisse weiter zu verbessern.
 
 Die theoretischen Vorteile waren @DeschnerEtAl2021 :
 
@@ -41,13 +41,13 @@ Die theoretischen Vorteile waren @DeschnerEtAl2021 :
 
 1997 zeigte der "Swedish Rectal Cancer Trial" @SwedishRectalCancerTrial1997, dass die neoadjuvante RT sowohl die lokale Kontrolle als auch das Gesamtüberleben verbesserte, dies war ein Wendepunkt. 
 
-Trotz besserer lokaler Kontrolle blieb jedoch die Fernmetastasierung ein großes Problem. Die adjuvante Chemotherapie sollte hier wirken, doch die schlechte Compliance schränkte ihren Nutzen ein.
+Trotz besserer lokaler Kontrolle blieb die Fernmetastasierung ein großes Problem. Die **adjuvante Chemotherapie** sollte dem entgegenwirken, doch die geringe Compliance begrenzte ihren Nutzen. @IVEtAl2022
 
 Die deutsche CAO/ARO/AIO-94 Studie @SauerEtAl2004 bestätigte, dass die neoadjuvante CRT der adjuvanten CRT in lokal fortgeschrittenen Fällen überlegen war.
 
 Die Stockholm-III-Studie @ErlandssonEtAl2017 zeigte, dass eine Kurzzeit-Therapie mit verzögerter Operation ebenso wirksam war wie eine Kurzzeit-Strahlentherapie mit sofortiger Operation- was die Möglichkeit einer zusätzlichen Chemotherapie vor der Operation eröffnete.
 
-Daraus entwickelte sich das Konzept der totalen neoadjuvanten Therapie (TNT) [@BahadoerEtAl2021; @ConroyEtAl2021], bei der alle Behandlungen (Radiochemotherapy und Chemotherapy) vor der Operation durchgeführt werden. 
+Daraus entwickelte sich das Konzept der totalen neoadjuvanten Therapie (TNT) [@BahadoerEtAl2021; @ConroyEtAl2021], bei der alle Behandlungen **(Radiochemotherapy und Chemotherapy)** vor der Operation durchgeführt werden. 
 
 TNT verbessert die Ansprechraten, und bei einigen Patienten, die ein klinisch komplettes Ansprechen (cCR) erreichen, kann sogar eine Operation vermieden werden dies zegite z.B. die OPRA-Trial @Garcia-AguilarEtAl2022, wodurch sich das Interesse an einer nichtoperativen Behandlung in ausgewählten Fällen verschiebt. 
 
