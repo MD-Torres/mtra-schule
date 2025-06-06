@@ -255,24 +255,61 @@ Eine konventionelle präoperative Radiochemotherapie **soll** in folgenden Fäll
 - Nähe des Tumors zur mesorektalen Fazie (<1-2 mm)
 - tiefliegenden Tumoren mit intendiertem Sphinktererhalt 
 
-#### Boost-Protokolle für lokal fortgeschrittene Erkrankungen
+
+# Gerätearzt
+
+Behandlung von radiogener Toxizitäten s. (link)
+
+Kriterien für die Unterbrechung/Modifikation der Behandlung??
+
+## Bei gleichzeitige systemische Therapie
+
+Folgendes **muss** dokumentiert werden: 
+
+- Capecitabin-Dosierung
+- Protokolle für die kontinuierliche 5-FU-Infusion
+- Die Laborüberwachung
+
+### Nebenwirkungen nach 
+
+```{r}
+# Load required libraries
+library(tidyverse)
+library(gt)
+library(googlesheets4)
+
+ gs4_deauth() 
+
+# Read the CSV (make sure to save it as 'ctcae.csv')
+ctcae_data <- read_sheet("https://docs.google.com/spreadsheets/d/1pPffgk7dPWZ_a1dnBpI1Wl16j1yTTMKMoi1AXtopOZU/edit?usp=sharing")
 
 
+# Create gt table with subheadings from 'Category'
+ctcae_table <- ctcae_data %>%
+  gt(groupname_col = "Category") %>%
+  tab_header(
+    title = "CTCAE Terms and Grades",
+    subtitle = "Grouped by Category"
+  ) %>%
+  cols_label(
+    `CTCAE Term` = "CTCAE Term",
+    `Grade 1` = "Grade 1",
+    `Grade 2` = "Grade 2",
+    `Grade 3` = "Grade 3",
+    `Grade 4` = "Grade 4",
+    `Grade 5` = "Grade 5"
+  ) %>%
+  tab_options(
+    table.font.size = "small",
+    row.striping.include_table_body = TRUE,
+    row.striping.background_color = "#f9f9f9"
+  ) %>%
+  opt_row_striping()
 
+ctcae_table
 
+```
 
-## Gerätearzt
-
-Behandlung von radiogener Toxizitäten
-
-Kriterien für die Unterbrechung/Modifikation der Behandlung
-
-## Gleichzeitige systemische Therapie
-Spezifikationen des Chemotherapieschemas
-Capecitabin-Dosierung
-Protokolle für die kontinuierliche 5-FU-Infusion
-Anforderungen an die Laborüberwachung
-Kriterien für Dosisänderungen bei Toxizitäten
 
 ## Bewertung des Ansprechens auf die Behandlung
 
@@ -301,4 +338,4 @@ Standards für die Dokumentation der Nachbeobachtung
 Einstufung der Toxizität und Berichterstattung (CTCAE v5.0)
 
 ## Wichtige Studien 
-CAO/ARO/AIO-94
+
