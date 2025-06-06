@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -145,8 +180,13 @@ div.csl-indent {
   <li><a href="#entfernung-vom-analrand" id="toc-entfernung-vom-analrand" class="nav-link" data-scroll-target="#entfernung-vom-analrand">Entfernung vom Analrand</a></li>
   <li><a href="#rechtfertigende-indikation" id="toc-rechtfertigende-indikation" class="nav-link" data-scroll-target="#rechtfertigende-indikation">Rechtfertigende Indikation</a></li>
   </ul></li>
-  <li><a href="#gerätearzt" id="toc-gerätearzt" class="nav-link" data-scroll-target="#gerätearzt">Gerätearzt</a></li>
-  <li><a href="#gleichzeitige-systemische-therapie" id="toc-gleichzeitige-systemische-therapie" class="nav-link" data-scroll-target="#gleichzeitige-systemische-therapie">Gleichzeitige systemische Therapie</a></li>
+  </ul></li>
+  <li><a href="#gerätearzt" id="toc-gerätearzt" class="nav-link" data-scroll-target="#gerätearzt">Gerätearzt</a>
+  <ul class="collapse">
+  <li><a href="#bei-gleichzeitige-systemische-therapie" id="toc-bei-gleichzeitige-systemische-therapie" class="nav-link" data-scroll-target="#bei-gleichzeitige-systemische-therapie">Bei gleichzeitige systemische Therapie</a>
+  <ul class="collapse">
+  <li><a href="#nebenwirkungen-nach" id="toc-nebenwirkungen-nach" class="nav-link" data-scroll-target="#nebenwirkungen-nach">Nebenwirkungen nach</a></li>
+  </ul></li>
   <li><a href="#bewertung-des-ansprechens-auf-die-behandlung" id="toc-bewertung-des-ansprechens-auf-die-behandlung" class="nav-link" data-scroll-target="#bewertung-des-ansprechens-auf-die-behandlung">Bewertung des Ansprechens auf die Behandlung</a>
   <ul class="collapse">
   <li><a href="#kriterien-für-die-zulässigkeit-des-watch-and-wait-protokolls" id="toc-kriterien-für-die-zulässigkeit-des-watch-and-wait-protokolls" class="nav-link" data-scroll-target="#kriterien-für-die-zulässigkeit-des-watch-and-wait-protokolls">Kriterien für die Zulässigkeit des Watch-and-Wait-Protokolls</a></li>
@@ -186,8 +226,8 @@ div.csl-indent {
 <section id="behandlung-grundprinzipien-und-entwicklung" class="level2">
 <h2 class="anchored" data-anchor-id="behandlung-grundprinzipien-und-entwicklung">Behandlung: Grundprinzipien und Entwicklung</h2>
 <p>Ohne Behandlung (oder rein palliative Behandlung) leben Patienten im Durchschnitt 9,8 Monate nach Diagnose.<span class="citation" data-cites="PestanaEtAl1964"><sup><a href="#ref-PestanaEtAl1964" role="doc-biblioref">2</a></sup></span> Im 1982 Heald führte der totalen mesorektalen Exzision (TME). Bei der TME wird das komplete Mesorektum entfernt, wodurch die Lokalrezidivrate auf ~3-7 % gesenkt werden konnte. Die OS nach 5 Jahren war 87 %.<span class="citation" data-cites="HealdRyall1986"><sup><a href="#ref-HealdRyall1986" role="doc-biblioref">3</a></sup></span> Die TME setzte sich in den folgenden zwei Jahrzehnten international durch und setzte einen neuen chirurgischen Standard.<span class="citation" data-cites="DeschnerEtAl2021"><sup><a href="#ref-DeschnerEtAl2021" role="doc-biblioref">4</a></sup></span></p>
-<p>In 1985 der Gastrointestinal Tumor Study Group<span class="citation" data-cites="GastrointestinalTumorStudyGroup1985"><sup><a href="#ref-GastrointestinalTumorStudyGroup1985" role="doc-biblioref"><strong>GastrointestinalTumorStudyGroup1985?</strong></a></sup></span> zeigte, dass die adjuvante Therapie Vorteile in Bezug auf die lokale Kontrolle (Rezidiv/Disease free survival) hatte, insbesondere wenn die RT mit einer Chemotherapie kombiniert wurde.</p>
-<p>Die neoadjuvante Radiochemotherapie wurde untersucht, um die Ergebnisse darüber hinaus zu verbessern.</p>
+<p>1985 zeigte die Gastrointestinal Tumor Study Group<span class="citation" data-cites="GastrointestinalTumorStudyGroup1985"><sup><a href="#ref-GastrointestinalTumorStudyGroup1985" role="doc-biblioref">5</a></sup></span> , dass die adjuvante Therapie Vorteile bei der lokalen Kontrolle (Rezidivrate/Disease-Free Survival) hatte, insbesondere die <strong>Radiochemotherapie.</strong></p>
+<p>Die Radiochemotherapy wurde dann als <strong>neoadjuvantes</strong> Konzept untersucht, um die Ergebnisse weiter zu verbessern.</p>
 <p>Die theoretischen Vorteile waren<span class="citation" data-cites="DeschnerEtAl2021"><sup><a href="#ref-DeschnerEtAl2021" role="doc-biblioref">4</a></sup></span> :</p>
 <ul>
 <li>Frühere Behandlung von Mikrometastasen</li>
@@ -196,13 +236,13 @@ div.csl-indent {
 <li>Geringere Toxizität - ein gesünderer Darm verträgt die Behandlung besser.</li>
 <li>Durch das downstaging erhöhte die Chancen auf Sphinkter-sparenden Operationen.</li>
 </ul>
-<p>1997 zeigte der “Swedish Rectal Cancer Trial”<span class="citation" data-cites="SwedishRectalCancerTrial1997"><sup><a href="#ref-SwedishRectalCancerTrial1997" role="doc-biblioref">5</a></sup></span>, dass die neoadjuvante RT sowohl die lokale Kontrolle als auch das Gesamtüberleben verbesserte, dies war ein Wendepunkt.</p>
-<p>Trotz besserer lokaler Kontrolle blieb jedoch die Fernmetastasierung ein großes Problem. Die adjuvante Chemotherapie sollte hier wirken, doch die schlechte Compliance schränkte ihren Nutzen ein.</p>
-<p>Die deutsche CAO/ARO/AIO-94 Studie<span class="citation" data-cites="SauerEtAl2004"><sup><a href="#ref-SauerEtAl2004" role="doc-biblioref">6</a></sup></span> bestätigte, dass die neoadjuvante CRT der adjuvanten CRT in lokal fortgeschrittenen Fällen überlegen war.</p>
-<p>Die Stockholm-III-Studie<span class="citation" data-cites="ErlandssonEtAl2017"><sup><a href="#ref-ErlandssonEtAl2017" role="doc-biblioref">7</a></sup></span> zeigte, dass eine Kurzzeit-Therapie mit verzögerter Operation ebenso wirksam war wie eine Kurzzeit-Strahlentherapie mit sofortiger Operation- was die Möglichkeit einer zusätzlichen Chemotherapie vor der Operation eröffnete.</p>
-<p>Daraus entwickelte sich das Konzept der totalen neoadjuvanten Therapie (TNT)<span class="citation" data-cites="BahadoerEtAl2021 ConroyEtAl2021"><sup><a href="#ref-BahadoerEtAl2021" role="doc-biblioref">8</a>,<a href="#ref-ConroyEtAl2021" role="doc-biblioref">9</a></sup></span>, bei der alle Behandlungen (Radiochemotherapy und Chemotherapy) vor der Operation durchgeführt werden.</p>
-<p>TNT verbessert die Ansprechraten, und bei einigen Patienten, die ein klinisch komplettes Ansprechen (cCR) erreichen, kann sogar eine Operation vermieden werden dies zegite z.B. die OPRA-Trial<span class="citation" data-cites="Garcia-AguilarEtAl2022"><sup><a href="#ref-Garcia-AguilarEtAl2022" role="doc-biblioref">10</a></sup></span>, wodurch sich das Interesse an einer nichtoperativen Behandlung in ausgewählten Fällen verschiebt.</p>
-<p>Sonderfall: Neulich Patienten mit bestimmten genetisch bedingten Tumorarten (MSI-H/dMMR) erhalten jetzt stattdessen zuerst eine Immuntherapie die zur eine kommplete Remision führt.<span class="citation" data-cites="CercekEtAl2022"><sup><a href="#ref-CercekEtAl2022" role="doc-biblioref">11</a></sup></span></p>
+<p>1997 zeigte der “Swedish Rectal Cancer Trial”<span class="citation" data-cites="SwedishRectalCancerTrial1997"><sup><a href="#ref-SwedishRectalCancerTrial1997" role="doc-biblioref">6</a></sup></span>, dass die neoadjuvante RT sowohl die lokale Kontrolle als auch das Gesamtüberleben verbesserte, dies war ein Wendepunkt.</p>
+<p>Trotz besserer lokaler Kontrolle blieb die Fernmetastasierung ein großes Problem. Die <strong>adjuvante Chemotherapie</strong> sollte dem entgegenwirken, doch die geringe Compliance begrenzte ihren Nutzen.<span class="citation" data-cites="IVEtAl2022"><sup><a href="#ref-IVEtAl2022" role="doc-biblioref">7</a></sup></span></p>
+<p>Die deutsche CAO/ARO/AIO-94 Studie<span class="citation" data-cites="SauerEtAl2004"><sup><a href="#ref-SauerEtAl2004" role="doc-biblioref">8</a></sup></span> bestätigte, dass die neoadjuvante CRT der adjuvanten CRT in lokal fortgeschrittenen Fällen überlegen war.</p>
+<p>Die Stockholm-III-Studie<span class="citation" data-cites="ErlandssonEtAl2017"><sup><a href="#ref-ErlandssonEtAl2017" role="doc-biblioref">9</a></sup></span> zeigte, dass eine Kurzzeit-Therapie mit verzögerter Operation ebenso wirksam war wie eine Kurzzeit-Strahlentherapie mit sofortiger Operation- was die Möglichkeit einer zusätzlichen Chemotherapie vor der Operation eröffnete.</p>
+<p>Daraus entwickelte sich das Konzept der totalen neoadjuvanten Therapie (TNT)<span class="citation" data-cites="BahadoerEtAl2021 ConroyEtAl2021"><sup><a href="#ref-BahadoerEtAl2021" role="doc-biblioref">10</a>,<a href="#ref-ConroyEtAl2021" role="doc-biblioref">11</a></sup></span>, bei der alle Behandlungen <strong>(Radiochemotherapy und Chemotherapy)</strong> vor der Operation durchgeführt werden.</p>
+<p>TNT verbessert die Ansprechraten, und bei einigen Patienten, die ein klinisch komplettes Ansprechen (cCR) erreichen, kann sogar eine Operation vermieden werden dies zegite z.B. die OPRA-Trial<span class="citation" data-cites="Garcia-AguilarEtAl2022"><sup><a href="#ref-Garcia-AguilarEtAl2022" role="doc-biblioref">12</a></sup></span>, wodurch sich das Interesse an einer nichtoperativen Behandlung in ausgewählten Fällen verschiebt.</p>
+<p>Sonderfall: Neulich Patienten mit bestimmten genetisch bedingten Tumorarten (MSI-H/dMMR) erhalten jetzt stattdessen zuerst eine Immuntherapie die zur eine kommplete Remision führt.<span class="citation" data-cites="CercekEtAl2022"><sup><a href="#ref-CercekEtAl2022" role="doc-biblioref">13</a></sup></span></p>
 </section>
 </section>
 <section id="spreechstunde" class="level1">
@@ -229,7 +269,7 @@ div.csl-indent {
 <p>Bei Vorliegen eines DPD-Mangels kann das Medikament 5-FU bzw. Capecitabin (Prodrug) nicht verstoffwechselt werden und es kommt zu schweren Toxizitäten. 30 % dieser gefährlichen Reaktionen sind durch einen DPD-Mangel erklärbar. Dementsprechend <strong><em>muss</em></strong> beim Erstgespräch der DPD-Test vorliegen, bzw. wird abgenommen.</p>
 <p>Hierbei handelt sich um eine genetische Untersuchung im Sinne des Gendiagnostik-/Gentechnikgesetzes, d.&nbsp;h., es sind bestimmte Vorgaben einzuhalten (Aufklärung, Einwilligung, Durchführung durch einen Arzt und Mitteilung der Ergebnisse).</p>
 <p>DPYD-Varianten sind als pharmakogenetische Eigenschaften mit hoher Bedeutung einzuordnen.</p>
-<p>Wird eine klinisch relevante DPD-Variante gefunden, ist dem Patienten gemäß §10 Abs.1 Satz2 GenDG eine genetische Beratung anzubieten. Der Patient kann auf eine genetische Beratung nach dem Vorliegen der Testergebnisse verzichten, der Verzicht ist schriftlich zu dokumentieren. Wenn eine genetische Beratung nach dem Vorliegen des Testergebnisses gewünscht wird, darf die Beratung nur durch einen Facharzt für Humangenetik oder einen nach dem GenDG qualifizierten Arzt vorgenommen werden.<span class="citation" data-cites="DGHO2020 2020"><sup><a href="#ref-DGHO2020" role="doc-biblioref">12</a>,<a href="#ref-2020" role="doc-biblioref">13</a></sup></span></p>
+<p>Wird eine klinisch relevante DPD-Variante gefunden, ist dem Patienten gemäß §10 Abs.1 Satz2 GenDG eine genetische Beratung anzubieten. Der Patient kann auf eine genetische Beratung nach dem Vorliegen der Testergebnisse verzichten, der Verzicht ist schriftlich zu dokumentieren. Wenn eine genetische Beratung nach dem Vorliegen des Testergebnisses gewünscht wird, darf die Beratung nur durch einen Facharzt für Humangenetik oder einen nach dem GenDG qualifizierten Arzt vorgenommen werden.<span class="citation" data-cites="DGHO2020 2020"><sup><a href="#ref-DGHO2020" role="doc-biblioref">14</a>,<a href="#ref-2020" role="doc-biblioref">15</a></sup></span></p>
 </section>
 <section id="starre-rektoskopie" class="level5">
 <h5 class="anchored" data-anchor-id="starre-rektoskopie">Starre Rektoskopie</h5>
@@ -305,7 +345,7 @@ div.csl-indent {
 <section id="tiefsitzenden-t1-n0-high-risk-tumore" class="level5">
 <h5 class="anchored" data-anchor-id="tiefsitzenden-t1-n0-high-risk-tumore">Tiefsitzenden T1, N0 high-risk Tumore</h5>
 <p>Für Patienten mit tiefsitzenden T1, N0 high-risk (G3/4, L1, V1, Durchmesser größer 3 cm, sm3) oder T2N0-Tumoren, die eine Exstirpation ablehnen, ist die Radio(chemo-) therapie, gefolgt von lokaler Exzision/transanaler endoskopischer Mikrochirurgie oder einer wait-and-see Strategie bei klinisch kompletter Remission eine Behandlungsoption<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><sup><a href="#ref-DeutscheKrebsgesellschaftEtAl2019" role="doc-biblioref">1</a></sup></span></p>
-<p>Laut NCCN Leitlinie<span class="citation" data-cites="NationalComprehensiveCancerNetwork2025a"><sup><a href="#ref-NationalComprehensiveCancerNetwork2025a" role="doc-biblioref">14</a></sup></span> können bei hochrisiko cT1–2, N0 Tumore eine Radiochemotherapie mit Capecitabin oder 5-Fluorouracil (5-FU), oder eine Kurzzeit-RT gefolgt von FOLFOX or CAPEOX erfolgen.</p>
+<p>Laut NCCN Leitlinie<span class="citation" data-cites="NationalComprehensiveCancerNetwork2025a"><sup><a href="#ref-NationalComprehensiveCancerNetwork2025a" role="doc-biblioref">16</a></sup></span> können bei hochrisiko cT1–2, N0 Tumore eine Radiochemotherapie mit Capecitabin oder 5-Fluorouracil (5-FU), oder eine Kurzzeit-RT gefolgt von FOLFOX or CAPEOX erfolgen.</p>
 <p>Zu den Hochrisikomerkmalen gehören positive Ränder, lymphatische Invasion, schlecht differenzierte Tumore oder sm3-Invasion (submuköse Invasion bis zum unteren Drittel der Submukosa).</p>
 </section>
 </section>
@@ -322,7 +362,7 @@ div.csl-indent {
 </section>
 <section id="weitere-stadien" class="level5">
 <h5 class="anchored" data-anchor-id="weitere-stadien">Weitere Stadien</h5>
-<p>Laut Therapie-Algorithmus für die Stadien I-III der Onkopedia Leitlinie:<span class="citation" data-cites="Ralf-DieterHofheinzEtAl2025"><sup><a href="#ref-Ralf-DieterHofheinzEtAl2025" role="doc-biblioref">15</a></sup></span></p>
+<p>Laut Therapie-Algorithmus für die Stadien I-III der Onkopedia Leitlinie:<span class="citation" data-cites="Ralf-DieterHofheinzEtAl2025"><sup><a href="#ref-Ralf-DieterHofheinzEtAl2025" role="doc-biblioref">17</a></sup></span></p>
 </section>
 <section id="ct1-2-n0" class="level5">
 <h5 class="anchored" data-anchor-id="ct1-2-n0">cT1-2 N0</h5>
@@ -411,19 +451,692 @@ div.csl-indent {
 <li>tiefliegenden Tumoren mit intendiertem Sphinktererhalt</li>
 </ul>
 </section>
-<section id="boost-protokolle-für-lokal-fortgeschrittene-erkrankungen" class="level4">
-<h4 class="anchored" data-anchor-id="boost-protokolle-für-lokal-fortgeschrittene-erkrankungen">Boost-Protokolle für lokal fortgeschrittene Erkrankungen</h4>
 </section>
 </section>
 </section>
-<section id="gerätearzt" class="level2">
-<h2 class="anchored" data-anchor-id="gerätearzt">Gerätearzt</h2>
-<p>Behandlung von radiogener Toxizitäten</p>
-<p>Kriterien für die Unterbrechung/Modifikation der Behandlung</p>
+<section id="gerätearzt" class="level1">
+<h1>Gerätearzt</h1>
+<p>Behandlung von radiogener Toxizitäten s. (link)</p>
+<p>Kriterien für die Unterbrechung/Modifikation der Behandlung??</p>
+<section id="bei-gleichzeitige-systemische-therapie" class="level2">
+<h2 class="anchored" data-anchor-id="bei-gleichzeitige-systemische-therapie">Bei gleichzeitige systemische Therapie</h2>
+<p>Folgendes <strong>muss</strong> dokumentiert werden:</p>
+<ul>
+<li>Capecitabin-Dosierung</li>
+<li>Protokolle für die kontinuierliche 5-FU-Infusion</li>
+<li>Die Laborüberwachung</li>
+</ul>
+<section id="nebenwirkungen-nach" class="level3">
+<h3 class="anchored" data-anchor-id="nebenwirkungen-nach">Nebenwirkungen nach</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load required libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(googlesheets4)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a> <span class="fu">gs4_deauth</span>() </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Read the CSV (make sure to save it as 'ctcae.csv')</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>ctcae_data <span class="ot">&lt;-</span> <span class="fu">read_sheet</span>(<span class="st">"https://docs.google.com/spreadsheets/d/1pPffgk7dPWZ_a1dnBpI1Wl16j1yTTMKMoi1AXtopOZU/edit?usp=sharing"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Create gt table with subheadings from 'Category'</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>ctcae_table <span class="ot">&lt;-</span> ctcae_data <span class="sc">%&gt;%</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt</span>(<span class="at">groupname_col =</span> <span class="st">"Category"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_header</span>(</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"CTCAE Terms and Grades"</span>,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Grouped by Category"</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cols_label</span>(</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">CTCAE Term</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"CTCAE Term"</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Grade 1</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Grade 1"</span>,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Grade 2</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Grade 2"</span>,</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Grade 3</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Grade 3"</span>,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Grade 4</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Grade 4"</span>,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Grade 5</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Grade 5"</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_options</span>(</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">table.font.size =</span> <span class="st">"small"</span>,</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">row.striping.include_table_body =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">row.striping.background_color =</span> <span class="st">"#f9f9f9"</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">opt_row_striping</span>()</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>ctcae_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div id="musmowrglf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#musmowrglf table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#musmowrglf thead, #musmowrglf tbody, #musmowrglf tfoot, #musmowrglf tr, #musmowrglf td, #musmowrglf th {
+  border-style: none;
+}
+
+#musmowrglf p {
+  margin: 0;
+  padding: 0;
+}
+
+#musmowrglf .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#musmowrglf .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#musmowrglf .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#musmowrglf .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#musmowrglf .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#musmowrglf .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#musmowrglf .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#musmowrglf .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#musmowrglf .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#musmowrglf .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#musmowrglf .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#musmowrglf .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#musmowrglf .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#musmowrglf .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#musmowrglf .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#musmowrglf .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#musmowrglf .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#musmowrglf .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#musmowrglf .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#musmowrglf .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#musmowrglf .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#musmowrglf .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#musmowrglf .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#musmowrglf .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#musmowrglf .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#musmowrglf .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#musmowrglf .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#musmowrglf .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#musmowrglf .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#musmowrglf .gt_striped {
+  background-color: #F9F9F9;
+}
+
+#musmowrglf .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#musmowrglf .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#musmowrglf .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#musmowrglf .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#musmowrglf .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#musmowrglf .gt_left {
+  text-align: left;
+}
+
+#musmowrglf .gt_center {
+  text-align: center;
+}
+
+#musmowrglf .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#musmowrglf .gt_font_normal {
+  font-weight: normal;
+}
+
+#musmowrglf .gt_font_bold {
+  font-weight: bold;
+}
+
+#musmowrglf .gt_font_italic {
+  font-style: italic;
+}
+
+#musmowrglf .gt_super {
+  font-size: 65%;
+}
+
+#musmowrglf .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#musmowrglf .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#musmowrglf .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#musmowrglf .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#musmowrglf .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#musmowrglf .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#musmowrglf .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<th colspan="6" class="gt_heading gt_title gt_font_normal">CTCAE Terms and Grades</th>
+</tr>
+<tr class="gt_heading even">
+<th colspan="6" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border">Grouped by Category</th>
+</tr>
+<tr class="gt_col_headings header">
+<th id="CTCAE Term" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">CTCAE Term</th>
+<th id="Grade 1" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Grade 1</th>
+<th id="Grade 2" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Grade 2</th>
+<th id="Grade 3" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Grade 3</th>
+<th id="Grade 4" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Grade 4</th>
+<th id="Grade 5" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Grade 5</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row odd">
+<td colspan="6" id="Gastrointestinal" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Gastrointestinal</td>
+</tr>
+<tr class="gt_row_group_first even">
+<td class="gt_row gt_left" headers="Gastrointestinal  CTCAE Term">Diarrhea</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 1">Increase of &lt;4 stools per day over baseline; mild increase in ostomy output compared to baseline</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 2">Increase of 4 - 6 stools per day over baseline; moderate increase in ostomy output compared to baseline; limiting instrumental ADL</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 3">Increase of &gt;=7 stools per day over baseline; hospitalization indicated; severe increase in ostomy output compared to baseline; limiting self care ADL</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 4">Life-threatening consequences; urgent intervention indicated</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 5">Death</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  CTCAE Term">Lower gastrointestinal hemorrhage</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 1">Mild symptoms; intervention not indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 2">Moderate symptoms; intervention indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 3">Transfusion indicated; invasive intervention indicated; hospitalization</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 4">Life-threatening consequences; urgent intervention indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 5">Death</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Gastrointestinal  CTCAE Term">Fecal incontinence</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 1">Occasional use of pads required</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 2">Daily use of pads required</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 3">Severe symptoms; elective operative intervention indicated</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 4">NA</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 5">NA</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  CTCAE Term">Gastrointestinal pain</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 1">Mild pain</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 2">Moderate pain; limiting instrumental ADL</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 3">Severe pain; limiting self care ADL</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 4">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 5">NA</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Gastrointestinal  CTCAE Term">Proctitis</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 1">Rectal discomfort, intervention not indicated</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 2">Symptomatic (e.g., rectal discomfort, passing blood or mucus); medical intervention indicated; limiting instrumental ADL</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 3">Severe symptoms; fecal urgency or stool incontinence; limiting self care ADL</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 4">Life-threatening consequences; urgent intervention indicated</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 5">NA</td>
+</tr>
+<tr class="gt_group_heading_row odd">
+<td colspan="6" id="Chemotherapy-related" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Chemotherapy-related</td>
+</tr>
+<tr class="gt_row_group_first even">
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  CTCAE Term">Nausea</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 1">Loss of appetite without alteration in eating habits</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 2">Oral intake decreased without significant weight loss, dehydration or malnutrition</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 3">Inadequate oral caloric or fluid intake; tube feeding, TPN, or hospitalization indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 4">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 5">NA</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Chemotherapy-related  CTCAE Term">Vomiting</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 1">Intervention not indicated</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 2">Outpatient IV hydration; medical intervention indicated</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 3">Tube feeding, TPN, or hospitalization indicated</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 4">NA</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 5">NA</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  CTCAE Term">Anemia</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 1">Hemoglobin (Hgb) &lt;LLN - 10.0 g/dL; &lt;LLN - 6.2 mmol/L; &lt;LLN - 100 g/L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 2">Hgb &lt;10.0 - 8.0 g/dL; &lt;6.2 - 4.9 mmol/L; &lt;100 - 80g/L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 3">Hgb &lt;8.0 g/dL; &lt;4.9 mmol/L; &lt;80 g/L; transfusion indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 4">Life-threatening consequences; urgent intervention indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 5">NA</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Chemotherapy-related  CTCAE Term">Platelet count decreased</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 1">&lt;LLN - 75,000/mm3; &lt;LLN - 75.0 x 10e9 /L</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 2">&lt;75,000 - 50,000/mm3; &lt;75.0 - 50.0 x 10e9 /L</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 3">&lt;50,000 - 25,000/mm3; &lt;50.0 - 25.0 x 10e9 /L</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 4">&lt;25,000/mm3; &lt;25.0 x 10e9 /L</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 5">NA</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  CTCAE Term">White blood cell decreased</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 1">&lt;LLN - 3000/mm3; &lt;LLN - 3.0 x 10e9 /L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 2">&lt;3000 - 2000/mm3; &lt;3.0 - 2.0 x 10e9 /L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 3">&lt;2000 - 1000/mm3; &lt;2.0 - 1.0 x 10e9 /L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 4">&lt;1000/mm3; &lt;1.0 x 10e9 /L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 5">NA</td>
+</tr>
+<tr class="gt_group_heading_row odd">
+<td colspan="6" id="Skin" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Skin</td>
+</tr>
+<tr class="gt_row_group_first even">
+<td class="gt_row gt_left" headers="Skin  CTCAE Term">Dermatitis</td>
+<td class="gt_row gt_left" headers="Skin  Grade 1">Faint erythema or dry desquamation</td>
+<td class="gt_row gt_left" headers="Skin  Grade 2">Moderate to brisk erythema; patchy moist desquamation, mostly confined to skin folds and creases; moderate edema</td>
+<td class="gt_row gt_left" headers="Skin  Grade 3">Moist desquamation in areas other than skin folds and creases; bleeding induced by minor trauma or abrasion</td>
+<td class="gt_row gt_left" headers="Skin  Grade 4">Life-threatening consequences; skin necrosis or ulceration of full thickness dermis; spontaneous bleeding from involved site; skin graft indicated</td>
+<td class="gt_row gt_left" headers="Skin  Grade 5">Death</td>
+</tr>
+<tr class="gt_group_heading_row odd">
+<td colspan="6" id="Urinary-Symptoms" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Urinary-Symptoms</td>
+</tr>
+<tr class="gt_row_group_first even">
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  CTCAE Term">Dysuria</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 1">Present</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 2">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 3">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 4">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 5">NA</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Urinary-Symptoms  CTCAE Term">Hematuria</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 1">Asymptomatic; clinical or diagnostic observations only; intervention not indicated</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 2">Symptomatic; urinary catheter or bladder irrigation indicated; limiting instrumental ADL</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 3">Gross hematuria; transfusion, IV medications, or hospitalization indicated; elective invasive intervention indicated; limiting self care ADL</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 4">Life-threatening consequences; urgent invasive intervention indicated</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 5">Death</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  CTCAE Term">Urinary frequency</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 1">Present</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 2">Limiting instrumental ADL; medical management indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 3">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 4">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 5">NA</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Urinary-Symptoms  CTCAE Term">Urinary incontinence</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 1">Occasional (e.g., with coughing, sneezing, etc.), pads not indicated</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 2">Spontaneous; pads indicated; limiting instrumental ADL</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 3">Intervention indicated (e.g., clamp, collagen injections); operative intervention indicated; limiting self care ADL</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 4">NA</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 5">NA</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  CTCAE Term">Urinary tract pain</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 1">Mild pain</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 2">Moderate pain; limiting instrumental ADL</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 3">Severe pain; limiting self care ADL</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 4">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 5">NA</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Urinary-Symptoms  CTCAE Term">Urinary urgency</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 1">Present</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 2">Limiting instrumental ADL; medical management indicated</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 3">NA</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 4">NA</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 5">NA</td>
+</tr>
+<tr class="gt_group_heading_row even">
+<td colspan="6" id="Others" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Others</td>
+</tr>
+<tr class="gt_row_group_first odd">
+<td class="gt_row gt_left gt_striped" headers="Others  CTCAE Term">Erectile dysfunction</td>
+<td class="gt_row gt_left gt_striped" headers="Others  Grade 1">Decrease in erectile function (frequency or rigidity of erections) but intervention not indicated (e.g., medication or use of mechanical device, penile pump)</td>
+<td class="gt_row gt_left gt_striped" headers="Others  Grade 2">Decrease in erectile function (frequency/rigidity of erections), erectile intervention indicated, (e.g., medication or mechanical devices such as penile pump)</td>
+<td class="gt_row gt_left gt_striped" headers="Others  Grade 3">Decrease in erectile function (frequency/rigidity of erections) but erectile intervention not helpful (e.g., medication or mechanical devices such as penile pump); placement of a permanent penile prosthesis indicated (not previously present)</td>
+<td class="gt_row gt_left gt_striped" headers="Others  Grade 4">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Others  Grade 5">NA</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Others  CTCAE Term">Fatigue</td>
+<td class="gt_row gt_left" headers="Others  Grade 1">Fatigue relieved by rest</td>
+<td class="gt_row gt_left" headers="Others  Grade 2">Fatigue not relieved by rest; limiting instrumental ADL</td>
+<td class="gt_row gt_left" headers="Others  Grade 3">Fatigue not relieved by rest, limiting self care ADL</td>
+<td class="gt_row gt_left" headers="Others  Grade 4">NA</td>
+<td class="gt_row gt_left" headers="Others  Grade 5">NA</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
 </section>
-<section id="gleichzeitige-systemische-therapie" class="level2">
-<h2 class="anchored" data-anchor-id="gleichzeitige-systemische-therapie">Gleichzeitige systemische Therapie</h2>
-<p>Spezifikationen des Chemotherapieschemas Capecitabin-Dosierung Protokolle für die kontinuierliche 5-FU-Infusion Anforderungen an die Laborüberwachung Kriterien für Dosisänderungen bei Toxizitäten</p>
 </section>
 <section id="bewertung-des-ansprechens-auf-die-behandlung" class="level2">
 <h2 class="anchored" data-anchor-id="bewertung-des-ansprechens-auf-die-behandlung">Bewertung des Ansprechens auf die Behandlung</h2>
@@ -443,15 +1156,14 @@ div.csl-indent {
 <p>Elemente für wöchentliche Kontrollbesuche während der Behandlung Komponenten der Zusammenfassung am Ende der Behandlung Standards für die Dokumentation der Nachbeobachtung Einstufung der Toxizität und Berichterstattung (CTCAE v5.0)</p>
 </section>
 <section id="wichtige-studien" class="level2">
-<h2 class="anchored" data-anchor-id="wichtige-studien">Wichtige Studien</h2>
-<p>CAO/ARO/AIO-94</p>
+
 
 
 
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Wichtige Studien</h2><div id="refs" class="references csl-bib-body" role="list">
 <div id="ref-DeutscheKrebsgesellschaftEtAl2019" class="csl-entry" role="listitem">
 <div class="csl-left-margin">1. </div><div class="csl-right-inline">Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF. Leitlinienprogramm Onkologie: S3-Leitlinie Kolorektales Karzinom, AWMF Registrierungsnummer: 021/007OL. Published online 2019.</div>
 </div>
@@ -464,38 +1176,44 @@ div.csl-indent {
 <div id="ref-DeschnerEtAl2021" class="csl-entry" role="listitem">
 <div class="csl-left-margin">4. </div><div class="csl-right-inline">Deschner BW, VanderWalde NA, Grothey A, Shibata D. Evolution and <span>Current Status</span> of the <span>Multidisciplinary Management</span> of <span>Locally Advanced Rectal Cancer</span>. <em>JCO Oncol Pract</em>. 2021;17(7):383-402.</div>
 </div>
+<div id="ref-GastrointestinalTumorStudyGroup1985" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Gastrointestinal Tumor Study Group. Prolongation of the disease-free interval in surgically treated rectal carcinoma. <em>N Engl J Med</em>. 1985;312(23):1465-1472.</div>
+</div>
 <div id="ref-SwedishRectalCancerTrial1997" class="csl-entry" role="listitem">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline">Swedish Rectal Cancer Trial. Improved <span>Survival</span> with <span>Preoperative Radiotherapy</span> in <span>Resectable Rectal Cancer</span>. <em>N Engl J Med</em>. 1997;336(14):980-987.</div>
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Swedish Rectal Cancer Trial. Improved <span>Survival</span> with <span>Preoperative Radiotherapy</span> in <span>Resectable Rectal Cancer</span>. <em>N Engl J Med</em>. 1997;336(14):980-987.</div>
+</div>
+<div id="ref-IVEtAl2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">IV AA, Koprowski MA, Nabavizadeh N, Tsikitis VL. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9062836">The evolution of rectal cancer treatment: The journey to total neoadjuvant therapy and organ preservation</a>. <em>Ann Gastroenterol</em>. 2022;35(3):226-233.</div>
 </div>
 <div id="ref-SauerEtAl2004" class="csl-entry" role="listitem">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline">Sauer R, Becker H, Hohenberger W, et al. Preoperative versus postoperative chemoradiotherapy for rectal cancer. <em>N Engl J Med</em>. 2004;351(17):1731-1740.</div>
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Sauer R, Becker H, Hohenberger W, et al. Preoperative versus postoperative chemoradiotherapy for rectal cancer. <em>N Engl J Med</em>. 2004;351(17):1731-1740.</div>
 </div>
 <div id="ref-ErlandssonEtAl2017" class="csl-entry" role="listitem">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline">Erlandsson J, Holm T, Pettersson D, et al. Optimal fractionation of preoperative radiotherapy and timing to surgery for rectal cancer (<span>Stockholm III</span>): A multicentre, randomised, non-blinded, phase 3, non-inferiority trial. <em>The Lancet Oncology</em>. 2017;18(3):336-346.</div>
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Erlandsson J, Holm T, Pettersson D, et al. Optimal fractionation of preoperative radiotherapy and timing to surgery for rectal cancer (<span>Stockholm III</span>): A multicentre, randomised, non-blinded, phase 3, non-inferiority trial. <em>The Lancet Oncology</em>. 2017;18(3):336-346.</div>
 </div>
 <div id="ref-BahadoerEtAl2021" class="csl-entry" role="listitem">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline">Bahadoer RR, Dijkstra EA, van Etten B, et al. Short-course radiotherapy followed by chemotherapy before total mesorectal excision (<span>TME</span>) versus preoperative chemoradiotherapy, <span>TME</span>, and optional adjuvant chemotherapy in locally advanced rectal cancer (<span>RAPIDO</span>): A randomised, open-label, phase 3 trial. <em>Lancet Oncol</em>. 2021;22(1):29-42.</div>
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Bahadoer RR, Dijkstra EA, van Etten B, et al. Short-course radiotherapy followed by chemotherapy before total mesorectal excision (<span>TME</span>) versus preoperative chemoradiotherapy, <span>TME</span>, and optional adjuvant chemotherapy in locally advanced rectal cancer (<span>RAPIDO</span>): A randomised, open-label, phase 3 trial. <em>Lancet Oncol</em>. 2021;22(1):29-42.</div>
 </div>
 <div id="ref-ConroyEtAl2021" class="csl-entry" role="listitem">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline">Conroy T, Bosset JF, Etienne PL, et al. Neoadjuvant chemotherapy with <span>FOLFIRINOX</span> and preoperative chemoradiotherapy for patients with locally advanced rectal cancer (<span>UNICANCER-PRODIGE</span> 23): A multicentre, randomised, open-label, phase 3 trial. <em>Lancet Oncol</em>. 2021;22(5):702-715.</div>
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Conroy T, Bosset JF, Etienne PL, et al. Neoadjuvant chemotherapy with <span>FOLFIRINOX</span> and preoperative chemoradiotherapy for patients with locally advanced rectal cancer (<span>UNICANCER-PRODIGE</span> 23): A multicentre, randomised, open-label, phase 3 trial. <em>Lancet Oncol</em>. 2021;22(5):702-715.</div>
 </div>
 <div id="ref-Garcia-AguilarEtAl2022" class="csl-entry" role="listitem">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline">Garcia-Aguilar J, Patil S, Gollub MJ, et al. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9362876">Organ <span>Preservation</span> in <span>Patients With Rectal Adenocarcinoma Treated With Total Neoadjuvant Therapy</span></a>. <em>J Clin Oncol</em>. 2022;40(23):2546-2556.</div>
+<div class="csl-left-margin">12. </div><div class="csl-right-inline">Garcia-Aguilar J, Patil S, Gollub MJ, et al. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9362876">Organ <span>Preservation</span> in <span>Patients With Rectal Adenocarcinoma Treated With Total Neoadjuvant Therapy</span></a>. <em>J Clin Oncol</em>. 2022;40(23):2546-2556.</div>
 </div>
 <div id="ref-CercekEtAl2022" class="csl-entry" role="listitem">
-<div class="csl-left-margin">11. </div><div class="csl-right-inline">Cercek A, Lumish M, Sinopoli J, et al. <span>PD-1 Blockade</span> in <span>Mismatch Repair</span>–<span>Deficient</span>, <span>Locally Advanced Rectal Cancer</span>. <em>New England Journal of Medicine</em>. 2022;386(25):2363-2376.</div>
+<div class="csl-left-margin">13. </div><div class="csl-right-inline">Cercek A, Lumish M, Sinopoli J, et al. <span>PD-1 Blockade</span> in <span>Mismatch Repair</span>–<span>Deficient</span>, <span>Locally Advanced Rectal Cancer</span>. <em>New England Journal of Medicine</em>. 2022;386(25):2363-2376.</div>
 </div>
 <div id="ref-DGHO2020" class="csl-entry" role="listitem">
-<div class="csl-left-margin">12. </div><div class="csl-right-inline">DGHO. Dihydropyrimidin-Dehydrogenase (DPD) – Testung vor Einsatz von 5-Fluorouracil, Capecitabin und Tegafur. Published online February 2020.</div>
+<div class="csl-left-margin">14. </div><div class="csl-right-inline">DGHO. Dihydropyrimidin-Dehydrogenase (DPD) – Testung vor Einsatz von 5-Fluorouracil, Capecitabin und Tegafur. Published online February 2020.</div>
 </div>
 <div id="ref-2020" class="csl-entry" role="listitem">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline">DPD-Testung vor dem Einsatz 5-FU-hältiger Chemotherapie.</div>
+<div class="csl-left-margin">15. </div><div class="csl-right-inline">DPD-Testung vor dem Einsatz 5-FU-hältiger Chemotherapie.</div>
 </div>
 <div id="ref-NationalComprehensiveCancerNetwork2025a" class="csl-entry" role="listitem">
-<div class="csl-left-margin">14. </div><div class="csl-right-inline">National Comprehensive Cancer Network. <span>NCCN Clinical Practice Guidelines</span> in <span>Oncology</span>: <span>Rectal Cancer</span> (<span>Version</span> 2.2025). Published online March 31, 2025.</div>
+<div class="csl-left-margin">16. </div><div class="csl-right-inline">National Comprehensive Cancer Network. <span>NCCN Clinical Practice Guidelines</span> in <span>Oncology</span>: <span>Rectal Cancer</span> (<span>Version</span> 2.2025). Published online March 31, 2025.</div>
 </div>
 <div id="ref-Ralf-DieterHofheinzEtAl2025" class="csl-entry" role="listitem">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline">Ralf-Dieter Hofheinz, Dirk Arnold, Markus Borner, et al. <span>ONKOPEDIA</span> - <span>Leitlinie Rektumkarzinom</span>. Published online February 2025.</div>
+<div class="csl-left-margin">17. </div><div class="csl-right-inline">Ralf-Dieter Hofheinz, Dirk Arnold, Markus Borner, et al. <span>ONKOPEDIA</span> - <span>Leitlinie Rektumkarzinom</span>. Published online February 2025.</div>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
