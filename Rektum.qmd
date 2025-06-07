@@ -202,15 +202,30 @@ erfolgen @DeutscheKrebsgesellschaftEtAl2019 z.B.:
 
 # Strahlentherapie: Dosiskonzept
 
-Die neoadjuvante Radiotherapie kann entweder als:
+Sowohl die Kurzzeitbestrahlung (5 × 5 Gy) als auch die konventionell fraktionierte präoperative Radiochemotherapie haben spezifische Vor- und Nachteile in der Behandlung des lokal fortgeschrittenen Rektumkarzinoms [@SauerEtAl2004; @BahadoerEtAl2021]. Die Kurzzeitbestrahlung ist effizient und in der Regel gut verträglich, lässt jedoch offene Fragen zur Langzeitwirksamkeit [@BujkoEtAl2006]. Die Radiochemotherapie führt zu einem besseren Downstaging, ist aber mit höherer akuter Toxizität assoziiert [@JinEtAl2022].
 
-- **Kurzzeitbestrahlung** mit 5 × 5 Gy, gefolgt von einer sofortigen Operation, oder  
-- **Konventionell fraktionierte Radiochemotherapie** (1,8–2,0 Gy bis zu einer Gesamtdosis von 45–50,4 Gy) mit einem Intervall von 6–8 Wochen bis zur Operation
+Diese Unsicherheit spiegelt sich auch in der aktuellen deutschen S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 wider, die einen Empfehlungsgrad 0 ausspricht:
 
-durchgeführt werden.  
-Quelle: @DeutscheKrebsgesellschaftEtAl2019
+„Die neoadjuvante Radiotherapie kann entweder als Kurzzeitbestrahlung mit sofortiger Operation oder als konventionell fraktionierte Radiochemotherapie mit einem Intervall von 6–8 Wochen bis zur Operation erfolgen.“
+
+Vor diesem Hintergrund untersucht die multizentrische Studie CAO/ARO/AIO-18.1 unter der Leitung von Prof. Rödel (Frankfurt) diese unterschiedliche Konzepte. Verglichen werden eine Kurzzeitbestrahlung nach dem RAPIDO-Schema @BahadoerEtAl2021 und eine konventionelle Radiochemotherapie (CRT) nach dem CAO/ARO/AIO-04/-12-Protokoll @FokasEtAl2019 . Die Vermutung ist, dass eine CRT mit 5-FU/Oxaliplatin, gefolgt von Konsolidierungschemotherapie, die Organerhaltungsrate verbessert – bei vergleichbarem krankheitsfreiem Überleben (DFS).
+
+Erstmals kommt hier eine intensivierte Radiochemotherapie mit 5-FU und Oxaliplatin zum Einsatz. Primäres Ziel bleibt der organerhaltende Therapieansatz bei optimaler lokaler Tumorkontrolle.
+
+
+
+
+
+
+
+
+
+
+
 
 ## Standard: Konventionelle Radiochemotherapie (45–50,4 Gy)
+
+
 
 Der Standard in unserer Praxis ist die normofraktionierte Bestrahlung im Rahmen einer Radiochemotherapie.
 
@@ -228,6 +243,9 @@ Die Bestrahlung erfolgt in **25 Fraktionen** mit zwei Zielvolumina:
 - **Pelvines LAG**: 1,8 Gy Einzeldosis
 
 ## Im Rahmen eines TNT-Konzeptes
+
+
+
 
 Die Therapie wird in **30 Fraktionen** in zwei Abschnitte unterteilt:
 
