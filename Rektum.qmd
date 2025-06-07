@@ -41,18 +41,18 @@ Die theoretischen Vorteile waren @DeschnerEtAl2021 :
 
 1997 zeigte der "Swedish Rectal Cancer Trial" @SwedishRectalCancerTrial1997, dass die neoadjuvante RT sowohl die lokale Kontrolle als auch das Gesamtüberleben verbesserte, dies war ein Wendepunkt. 
 
-Trotz besserer lokaler Kontrolle blieb die Fernmetastasierung ein großes Problem. Die **adjuvante Chemotherapie** sollte dem entgegenwirken, doch die geringe Compliance begrenzte ihren Nutzen. @IVEtAl2022
-
 Die deutsche CAO/ARO/AIO-94 Studie @SauerEtAl2004 bestätigte, dass die neoadjuvante CRT der adjuvanten CRT in lokal fortgeschrittenen Fällen überlegen war.
+
+Trotz besserer lokaler Kontrolle blieb die Fernmetastasierung ein großes Problem. 
+Die **adjuvante Chemotherapie** sollte dem entgegenwirken, doch die geringe Compliance begrenzte ihren Nutzen. @IVEtAl2022
 
 Die Stockholm-III-Studie @ErlandssonEtAl2017 zeigte, dass eine Kurzzeit-Therapie mit verzögerter Operation ebenso wirksam war wie eine Kurzzeit-Strahlentherapie mit sofortiger Operation- was die Möglichkeit einer zusätzlichen Chemotherapie vor der Operation eröffnete.
 
 Daraus entwickelte sich das Konzept der totalen neoadjuvanten Therapie (TNT) [@BahadoerEtAl2021; @ConroyEtAl2021], bei der alle Behandlungen **(Radiochemotherapy und Chemotherapy)** vor der Operation durchgeführt werden. 
 
-TNT verbessert die Ansprechraten, und bei einigen Patienten, die ein klinisch komplettes Ansprechen (cCR) erreichen, kann sogar eine Operation vermieden werden dies zegite z.B. die OPRA-Trial @Garcia-AguilarEtAl2022, wodurch sich das Interesse an einer nichtoperativen Behandlung in ausgewählten Fällen verschiebt. 
+Die TNT verbessert die Ansprechraten, und bei einigen Patienten, die ein klinisch/pathologisch komplettes Ansprechen (cCR) erreichen, kann sogar eine Operation vermieden werden dies zegite z.B. die OPRA-Trial @Garcia-AguilarEtAl2022, wodurch sich das Interesse an einer nichtoperativen Behandlung in ausgewählten Fällen verschiebt. 
 
-
-Sonderfall: Neulich Patienten mit bestimmten genetisch bedingten Tumorarten (MSI-H/dMMR) erhalten jetzt stattdessen zuerst eine Immuntherapie die zur eine kommplete Remision führt. @CercekEtAl2022
+Patienten mit bestimmten genetisch bedingten Tumorarten (MSI-H/dMMR) erhalten inzwischen zunächst eine Immuntherapie, die häufig zu einer vollständigen Remission führt. @CercekEtAl2022
 
 # Spreechstunde 
 
@@ -63,14 +63,25 @@ Die Dokumentation des Leistungsstatus erfolgt nach der Einteilung der Eastern Co
 ## Obligatorische Untersuchungen
 
 - Starre Rektoskopie (Goldstandard zur Definition des Tumorabstands ab ano)
+
 - Qualitätsgesicherte MRT Becken
-- CT Thorax/Abdomen ggf. 
-  - Sonographie Abdomen (Empfehlung S3 Leitlinie)
+
+- Abdomensonographie (primär zur Klärung von Lebermetastasen) @DeutscheKrebsgesellschaftEtAl2019
+
+- Rö-Thorax (2 Ebenen)
+
+  - Im Falle eines unklaren Befundes oder des Verdachtes auf Fernmetastasen oder Infiltration von Nachbarorganen oder umgebende Strukturen soll ein Mehrzeilen-CT des Abdomens und Beckens erfolgen bzw:
+  
+  - Bei Verdacht auf Lungenmetastasen ein CT des Thorax
+
 - CEA
+
 - Histologie/ MSI (Mikrosatelliteninstabilität)
+
 - DPD Test
 
-##### DPD Test
+
+### DPD Test
 
 Bei Vorliegen eines DPD-Mangels kann das Medikament 5-FU bzw. Capecitabin (Prodrug) nicht verstoffwechselt werden und es kommt zu schweren Toxizitäten. 
 30 % dieser gefährlichen Reaktionen sind durch einen DPD-Mangel erklärbar. Dementsprechend ***muss*** beim Erstgespräch der DPD-Test vorliegen, bzw. wird abgenommen. 
@@ -84,41 +95,26 @@ Der Patient kann auf eine genetische Beratung nach dem Vorliegen der Testergebni
 der Verzicht ist schriftlich zu dokumentieren.
 Wenn eine genetische Beratung nach dem Vorliegen des Testergebnisses gewünscht wird, darf die Beratung nur durch einen Facharzt für Humangenetik oder einen nach dem GenDG qualifizierten Arzt vorgenommen werden. [@DGHO2020; @2020]
 
-##### Starre Rektoskopie
+### Starre Rektoskopie
 
 Beim Rektumkarzinom sollte die starre Rektoskopie mit Höhenangabe des Tumorunterrandes obligater Bestandteil der präoperativen Diagnostik sein. @DeutscheKrebsgesellschaftEtAl2019 
 
-##### MRT
+### MRT
 
 Die Befundbeschreibung soll eine Aussage über den Abstand zur mesorektalen Faszie beinhalten. @DeutscheKrebsgesellschaftEtAl2019 
 
-##### Endosonographie 
+### Endosonographie 
 
 Im Falle eines mutmaßlichen T1-Karzinoms eine Endosonographie, hier ist die CT nicht geeignet. 
 Bei der Differenzierung von T2 und T3-Karzinomen wies die Endosonographie wiederum eine höhere Sensitivität im Vergleich zu MRT und CT auf bei vergleichbarer Spezifität. In der Endosonographie lässt sich die mesorektale Faszie nicht darstellen. @DeutscheKrebsgesellschaftEtAl2019 
 
 
-##### Laut S3 Leitlinie beinhaltet das Staging folgende Untersuchungen @DeutscheKrebsgesellschaftEtAl2019 : 
-
-- Starre Rektoskopie
-- Komplette Koloskopie  
-- CEA-Wert (sollte präoperativ bestimmt werden)
-- Abdomensonographie (primär zur Klärung von Lebermetastasen)
-- Rö-Thorax (2 Ebenen)
-  - Im Falle eines unklaren Befundes oder des Verdachtes auf Fernmetastasen oder Infiltration von Nachbarorganen oder umgebende Strukturen soll ein Mehrzeilen-CT des Abdomens und Beckens erfolgen bzw: 
-  - Bei Verdacht auf Lungenmetastasen ein CT des Thorax
-- MR (CT)-Becken mit Angabe Abstand des Tumors zur mesorektalen Faszie 
-- Rektale Endosonographie bei lokal begrenztem Tumor
-
-
-##### PET-CT 
+### PET-CT 
 
 bei lokal fortgeschrittener Erkrankung
 
-### Anforderungen an die Histopathologie
+### Histologie
 
-#### Adenokarzinom-Subtyp-Klassifikation
-#### Grad der Tumordifferenzierung
 #### MMR/MSI-Status
 
 Bei etwa 3-5% der Patienten mit lokal begrenztem Rektumkarzinom ist ein DNS-
@@ -127,9 +123,7 @@ nachweisbar.
 
 Dostarlimab kann eine klinische komplette Remission erreichen. So dass eine Radiochemotherapie und eine Operation unterbleiben kann. Eine [Handreichung der DGHO](https://www.dgho.de/publikationen/stellungnahmen/gute-aerztliche-praxis/immuncheckpoint-inhibitoren/immuncheckpointinhibitor-20230508.pdf) kann bei der Beantragung dieser Therapie hilfreich sein. 
 
-#### KRAS/NRAS/BRAF-Mutationsstatus
-
-### Entfernung vom Analrand
+## Entfernung vom Analrand
 
 Die präoperative Messung der Höhenangabe des Tumors mit dem flexiblen Endoskop ist unzuverlässig. 
 Zuverlässiger sind die **Höhenangaben mit dem starren Rektoskop.** @DeutscheKrebsgesellschaftEtAl2019
@@ -141,13 +135,13 @@ Dementsprechend werden letztere dokumetiert. Ab Anokutanlinie:
 
 
 
-### Rechtfertigende Indikation 
+# Rechtfertigende Indikation 
 
 In Folge werden Kandidaten für neoadjuvante Therapie erleutert. 
 
-#### Stadium I (cT1-2N0)
+## Stadium I (cT1-2N0)
 
-##### Neoadjuvante vs. Upfront-Chirurgie
+### Neoadjuvante vs. Upfront-Chirurgie
 
 Bei T1-High-Risk-Karzinomen (G3/4 u./o. Lymphgefäßinvasion) und bei T2 Karzinomen liegt das Auftreten von Lymphknotenmetastasen bei 10–20%, sodass die alleinige lokale Exzision nicht empfohlen werden kann und eine primäre radikale Operation oder eine sekundäre radikale Nachoperation indiziert sind. 
 
@@ -157,7 +151,7 @@ Dahingengend haben Rektumkarzinome im UICC-Stadium I (T1/2, N0)  nach alleiniger
 
 Dementsprechend soll bei Tumore in UICC-Stadium I (cT1-2, N0) eine präoperative Therapie nicht durchgeführt werden. @DeutscheKrebsgesellschaftEtAl2019 
 
-##### Tiefsitzenden T1, N0 high-risk Tumore
+### Tiefsitzenden T1, N0 high-risk Tumore
 
 Für Patienten mit tiefsitzenden T1, N0 high-risk (G3/4, L1, V1, Durchmesser größer 3 cm, sm3) oder T2N0-Tumoren, die eine Exstirpation ablehnen, ist die Radio(chemo-) therapie, gefolgt von lokaler Exzision/transanaler endoskopischer Mikrochirurgie oder einer wait-and-see Strategie bei klinisch kompletter Remission eine Behandlungsoption @DeutscheKrebsgesellschaftEtAl2019 
 
@@ -165,68 +159,23 @@ Laut NCCN Leitlinie @NationalComprehensiveCancerNetwork2025a können bei hochris
 
 Zu den Hochrisikomerkmalen gehören positive Ränder, lymphatische Invasion, schlecht differenzierte Tumore oder sm3-Invasion (submuköse Invasion bis zum unteren Drittel der Submukosa).
 
+## Tumoren des unteren und mittleren Rektumdrittels
 
-
-#### Tumoren des unteren und mittleren Rektumdrittels
-
-##### Stadium II/III (cT3/4 und/oder cN+)
+### Stadium II/III (cT3/4 und/oder cN+)
 
 Eine neoadjuvante Radiochemotherapie oder KurzzeitRadiotherapie soll erfolgen. @DeutscheKrebsgesellschaftEtAl2019 
 
 **Ausnahmen @DeutscheKrebsgesellschaftEtAl2019 :**
 
-- cT1/2-Tumore im unteren und mittleren Drittel mit bildgebend fraglichen Lymphknotenbefall.
-- cT3a/b-Tumore im mittleren Drittel mit in der MRT nur limitierter Infiltration ins perirektale Fettgewebe (cT3a: <1 mm, cT3b: 1-5 mm) und ohne bildgebenden Verdacht auf Lymphknotenmetastasen oder extra-muraler Gefäßinvasion (EMVI-) bei adäquater Qualitätssicherung der MRT-Diagnostik und der TME-Chirurgie.
+- cT1/2 Tumore im unteren und mittleren Drittel mit bildgebend fraglichen Lymphknotenbefall.
 
-##### Weitere Stadien 
+- cT3a/b Tumore im mittleren Drittel mit in der MRT nur limitierter Infiltration ins perirektale Fettgewebe (cT3a: <1 mm, cT3b: 1-5 mm) und ohne bildgebenden Verdacht auf Lymphknotenmetastasen oder extra-muraler Gefäßinvasion (EMVI-) bei adäquater Qualitätssicherung der MRT-Diagnostik und der TME-Chirurgie.
 
-Laut Therapie-Algorithmus für die Stadien I-III der Onkopedia Leitlinie: @Ralf-DieterHofheinzEtAl2025
+### Therapie-Algorithmus für die Stadien I-III der Onkopedia Leitlinie: @Ralf-DieterHofheinzEtAl2025
 
-##### cT1-2 N0
 
-- kurzzeitige Strahlentherapie (5 x 5 Gy) oder 
 
-- kombinierte Radiohemotherapie mit Einzeldosen von 1,8-2,0 Gy bis zu einer Gesamtdosis von 45-50,4 Gy.
 
-Beide Konzepte + Watch and wait
-
-##### cT2 N+, cT3
-
-- kombinierte Radiohemotherapie ± Brachytherapie oder
-- Totales neoadjuvantes Konzept 
-
-Beide Konzepte + Watch and wait
-
-##### cT4, mrCRM+, EMVI+, N2, laterale LK+
-
-- Totales neoadjuvantes Konzept 
-
-##### Rektumerhalt ***nicht*** intendiert oder nicht sinnvoll
-
-###### Vorliegen von High-Risk-Kriterien
-
-TNT bevorzugt (ab T3)
-
-###### Keine High-Risk-Kriterien
-
-####### cT1N0
-
-- Lokale Therapie
-- TME
-
-####### cT2 N0/N+
-- TME 
-
-####### cT3 N0/N+ mittleres Drittel
-
-- TME oder
-- Perioperative Chemotherapie oder
-- RT/RCT -> TME
-
-####### cT3 N0/N+ unteres Dritte
-
-- RT/RCT -> TME oder
-- Perioperative Chemotherapie
 
 ##### Tumore im oberen Rektumdrittel
 
@@ -276,6 +225,7 @@ Folgendes **muss** dokumentiert werden:
 # Load required libraries
 library(tidyverse)
 library(gt)
+library(gtExtras)
 library(googlesheets4)
 
  gs4_deauth() 
@@ -306,7 +256,7 @@ ctcae_table <- ctcae_data %>%
   ) %>%
   opt_row_striping()
 
-ctcae_table
+gt_theme_nytimes(ctcae_table)
 
 ```
 
