@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -180,6 +145,7 @@ div.csl-indent {
   <li><a href="#starre-rektoskopie" id="toc-starre-rektoskopie" class="nav-link" data-scroll-target="#starre-rektoskopie">Starre Rektoskopie</a></li>
   <li><a href="#mrt" id="toc-mrt" class="nav-link" data-scroll-target="#mrt">MRT</a></li>
   <li><a href="#endosonographie" id="toc-endosonographie" class="nav-link" data-scroll-target="#endosonographie">Endosonographie</a></li>
+  <li><a href="#cea" id="toc-cea" class="nav-link" data-scroll-target="#cea">CEA</a></li>
   <li><a href="#pet-ct" id="toc-pet-ct" class="nav-link" data-scroll-target="#pet-ct">PET-CT</a></li>
   <li><a href="#histologie" id="toc-histologie" class="nav-link" data-scroll-target="#histologie">Histologie</a></li>
   </ul></li>
@@ -214,17 +180,16 @@ div.csl-indent {
   <ul class="collapse">
   <li><a href="#wöchentliche-kontrollbesuche" id="toc-wöchentliche-kontrollbesuche" class="nav-link" data-scroll-target="#wöchentliche-kontrollbesuche">Wöchentliche Kontrollbesuche</a></li>
   <li><a href="#zusammenfassung-am-ende-der-behandlung" id="toc-zusammenfassung-am-ende-der-behandlung" class="nav-link" data-scroll-target="#zusammenfassung-am-ende-der-behandlung">Zusammenfassung am Ende der Behandlung</a></li>
-  <li><a href="#bei-gleichzeitige-systemische-therapie" id="toc-bei-gleichzeitige-systemische-therapie" class="nav-link" data-scroll-target="#bei-gleichzeitige-systemische-therapie">Bei gleichzeitige systemische Therapie</a>
-  <ul class="collapse">
   <li><a href="#nebenwirkungen-nach" id="toc-nebenwirkungen-nach" class="nav-link" data-scroll-target="#nebenwirkungen-nach">Nebenwirkungen nach</a></li>
+  <li><a href="#bei-gleichzeitige-systemische-therapie" id="toc-bei-gleichzeitige-systemische-therapie" class="nav-link" data-scroll-target="#bei-gleichzeitige-systemische-therapie">Bei gleichzeitige systemische Therapie</a></li>
   </ul></li>
-  <li><a href="#bewertung-des-ansprechens-auf-die-behandlung" id="toc-bewertung-des-ansprechens-auf-die-behandlung" class="nav-link" data-scroll-target="#bewertung-des-ansprechens-auf-die-behandlung">Bewertung des Ansprechens auf die Behandlung</a>
+  <li><a href="#nachsorge" id="toc-nachsorge" class="nav-link" data-scroll-target="#nachsorge">Nachsorge</a>
   <ul class="collapse">
-  <li><a href="#kriterien-für-die-zulässigkeit-des-watch-and-wait-protokolls" id="toc-kriterien-für-die-zulässigkeit-des-watch-and-wait-protokolls" class="nav-link" data-scroll-target="#kriterien-für-die-zulässigkeit-des-watch-and-wait-protokolls">Kriterien für die Zulässigkeit des Watch-and-Wait-Protokolls</a></li>
+  <li><a href="#bewertung-des-ansprechens-auf-die-behandlung" id="toc-bewertung-des-ansprechens-auf-die-behandlung" class="nav-link" data-scroll-target="#bewertung-des-ansprechens-auf-die-behandlung">Bewertung des Ansprechens auf die Behandlung</a></li>
+  <li><a href="#cea-bestimmung-in-der-nachsorge" id="toc-cea-bestimmung-in-der-nachsorge" class="nav-link" data-scroll-target="#cea-bestimmung-in-der-nachsorge">CEA Bestimmung in der Nachsorge</a></li>
   </ul></li>
-  <li><a href="#nachsorge" id="toc-nachsorge" class="nav-link" data-scroll-target="#nachsorge">Nachsorge</a></li>
   <li><a href="#wichtige-studien" id="toc-wichtige-studien" class="nav-link" data-scroll-target="#wichtige-studien">Wichtige Studien</a></li>
-  </ul></li>
+  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur">Literatur</a></li>
   </ul>
 </nav>
     </div>
@@ -283,15 +248,18 @@ div.csl-indent {
 </section>
 <section id="obligatorische-untersuchungen" class="level2">
 <h2 class="anchored" data-anchor-id="obligatorische-untersuchungen">Obligatorische Untersuchungen</h2>
+<p>Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor.</p>
 <ul>
-<li><p>Starre Rektoskopie (Goldstandard zur Definition des Tumorabstands ab ano)</p></li>
-<li><p>Qualitätsgesicherte MRT Becken</p></li>
-<li><p>Abdomensonographie (primär zur Klärung von Lebermetastasen)<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><sup><a href="#ref-DeutscheKrebsgesellschaftEtAl2019" role="doc-biblioref">1</a></sup></span></p></li>
+<li>Leber 15%</li>
+<li>Lungen 4%</li>
+</ul>
+<p>Dementsprechend sind folgende Untersuchungen laut S3-Leitlinie<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><sup><a href="#ref-DeutscheKrebsgesellschaftEtAl2019" role="doc-biblioref">1</a></sup></span> notwendig:</p>
+<ul>
 <li><p>Rö-Thorax (2 Ebenen)</p>
 <ul>
-<li><p>Im Falle eines unklaren Befundes oder des Verdachtes auf Fernmetastasen oder Infiltration von Nachbarorganen oder umgebende Strukturen soll ein Mehrzeilen-CT des Abdomens und Beckens erfolgen bzw:</p></li>
-<li><p>Bei Verdacht auf Lungenmetastasen ein CT des Thorax</p></li>
+<li>Im Falle eines unklaren Befundes oder des Verdachtes auf Fernmetastasen oder Infiltration von Nachbarorganen oder umgebende Strukturen soll ein Mehrzeilen-CT des Abdomens und Beckens erfolgen bzw:</li>
 </ul></li>
+<li><p>Bei Verdacht auf Lungenmetastasen ein CT des Thorax</p></li>
 <li><p>CEA</p></li>
 <li><p>Histologie/ MSI (Mikrosatelliteninstabilität)</p></li>
 <li><p>DPD Test</p></li>
@@ -315,9 +283,15 @@ div.csl-indent {
 <h3 class="anchored" data-anchor-id="endosonographie">Endosonographie</h3>
 <p>Im Falle eines mutmaßlichen T1-Karzinoms eine Endosonographie, hier ist die CT nicht geeignet. Bei der Differenzierung von T2 und T3-Karzinomen wies die Endosonographie wiederum eine höhere Sensitivität im Vergleich zu MRT und CT auf bei vergleichbarer Spezifität. In der Endosonographie lässt sich die mesorektale Faszie nicht darstellen.<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><sup><a href="#ref-DeutscheKrebsgesellschaftEtAl2019" role="doc-biblioref">1</a></sup></span></p>
 </section>
+<section id="cea" class="level3">
+<h3 class="anchored" data-anchor-id="cea">CEA</h3>
+<p>Bei etwa 30% aller kolorektaler Karzinome ist der Tumormarker CEA zum Zeitpunkt der Erstdiagnose erhöht.</p>
+<p>Insbesondere in der Tumornachsorge ist dieser Tumormarker ein zuverlässiger Hinweis auf ein Rezidiv. Als weitere Tumormarker werden CA 19-9 und CA 125 diskutiert, wobei letzterer ein Marker der Peritonealkarzinose ist.</p>
+<p>Laut S3-Leitlinie erhöht der CA 19-9 Wert die Aussagefähigkeit bezüglich des Vorliegens eines Rezidivs im Vergleich zu einer alleinigen CEA-Wert-Bestimmung nicht.<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><sup><a href="#ref-DeutscheKrebsgesellschaftEtAl2019" role="doc-biblioref">1</a></sup></span></p>
+</section>
 <section id="pet-ct" class="level3">
 <h3 class="anchored" data-anchor-id="pet-ct">PET-CT</h3>
-<p>bei lokal fortgeschrittener Erkrankung</p>
+<p>Hat keinen Stellenwert in der Ausbreitungsdiagnostik bei Erstdiagnose eines kolorektalen Karzinoms.<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><sup><a href="#ref-DeutscheKrebsgesellschaftEtAl2019" role="doc-biblioref">1</a></sup></span></p>
 </section>
 <section id="histologie" class="level3">
 <h3 class="anchored" data-anchor-id="histologie">Histologie</h3>
@@ -340,7 +314,9 @@ div.csl-indent {
 </section>
 <section id="rechtfertigende-indikation" class="level1">
 <h1>Rechtfertigende Indikation</h1>
-<p>In Folge werden Kandidaten für neoadjuvante Therapie erleutert.</p>
+<p>Die Entscheidung für eine Strahlentherapie in unserer Praxis basiert auf einer <strong>Empfehlung des Tumorboards</strong>.</p>
+<p>Dabei muss klar zwischen einem <strong>TNT-Konzept</strong> und einer <strong>neoadjuvanten Radiochemotherapie mit anschließender Operation</strong> unterschieden werden.</p>
+<p>Ist diese Unterscheidung in der Empfehlung des Tumorboards nicht eindeutig dokumentiert, muss <strong>vor Therapiebeginn</strong> Rücksprache mit der Onkologie gehalten werden.</p>
 <section id="stadium-i-ct1-2n0" class="level2">
 <h2 class="anchored" data-anchor-id="stadium-i-ct1-2n0">Stadium I (cT1-2N0)</h2>
 <section id="neoadjuvante-vs.-upfront-chirurgie" class="level3">
@@ -453,83 +429,38 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
 </section>
 <section id="zusammenfassung-am-ende-der-behandlung" class="level2">
 <h2 class="anchored" data-anchor-id="zusammenfassung-am-ende-der-behandlung">Zusammenfassung am Ende der Behandlung</h2>
-<p>Einstufung der Toxizität und Berichterstattung (CTCAE v5.0)</p>
-<p>Behandlung von radiogener Toxizitäten s. (link)</p>
 </section>
-<section id="bei-gleichzeitige-systemische-therapie" class="level2">
-<h2 class="anchored" data-anchor-id="bei-gleichzeitige-systemische-therapie">Bei gleichzeitige systemische Therapie</h2>
-<p>Folgendes <strong>muss</strong> dokumentiert werden:</p>
-<ul>
-<li>Capecitabin-Dosierung</li>
-<li>Protokolle für die kontinuierliche 5-FU-Infusion</li>
-<li>Die Laborüberwachung</li>
-</ul>
-<section id="nebenwirkungen-nach" class="level3">
-<h3 class="anchored" data-anchor-id="nebenwirkungen-nach">Nebenwirkungen nach</h3>
+<section id="nebenwirkungen-nach" class="level2">
+<h2 class="anchored" data-anchor-id="nebenwirkungen-nach">Nebenwirkungen nach</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load required libraries</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gtExtras)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(googlesheets4)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a> <span class="fu">gs4_deauth</span>() </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Read the CSV (make sure to save it as 'ctcae.csv')</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>ctcae_data <span class="ot">&lt;-</span> <span class="fu">read_sheet</span>(<span class="st">"https://docs.google.com/spreadsheets/d/1pPffgk7dPWZ_a1dnBpI1Wl16j1yTTMKMoi1AXtopOZU/edit?usp=sharing"</span>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Create gt table with subheadings from 'Category'</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>ctcae_table <span class="ot">&lt;-</span> ctcae_data <span class="sc">%&gt;%</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt</span>(<span class="at">groupname_col =</span> <span class="st">"Category"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_header</span>(</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"CTCAE Terms and Grades"</span>,</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Grouped by Category"</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cols_label</span>(</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">CTCAE Term</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"CTCAE Term"</span>,</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Grade 1</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Grade 1"</span>,</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Grade 2</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Grade 2"</span>,</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Grade 3</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Grade 3"</span>,</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Grade 4</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Grade 4"</span>,</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Grade 5</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Grade 5"</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_options</span>(</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">table.font.size =</span> <span class="st">"small"</span>,</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">row.striping.include_table_body =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">row.striping.background_color =</span> <span class="st">"#f9f9f9"</span></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">opt_row_striping</span>()</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="fu">gt_theme_nytimes</span>(ctcae_table)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div id="iibeycjbyb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="oybkcnacse" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-#iibeycjbyb table {
+#oybkcnacse table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#iibeycjbyb thead, #iibeycjbyb tbody, #iibeycjbyb tfoot, #iibeycjbyb tr, #iibeycjbyb td, #iibeycjbyb th {
+#oybkcnacse thead, #oybkcnacse tbody, #oybkcnacse tfoot, #oybkcnacse tr, #oybkcnacse td, #oybkcnacse th {
   border-style: none;
 }
 
-#iibeycjbyb p {
+#oybkcnacse p {
   margin: 0;
   padding: 0;
 }
 
-#iibeycjbyb .gt_table {
+#oybkcnacse .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  font-size: small;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
@@ -548,12 +479,12 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   border-left-color: #D3D3D3;
 }
 
-#iibeycjbyb .gt_caption {
+#oybkcnacse .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#iibeycjbyb .gt_title {
+#oybkcnacse .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -565,7 +496,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   border-bottom-width: 0;
 }
 
-#iibeycjbyb .gt_subtitle {
+#oybkcnacse .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -577,7 +508,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   border-top-width: 0;
 }
 
-#iibeycjbyb .gt_heading {
+#oybkcnacse .gt_heading {
   background-color: #FFFFFF;
   text-align: left;
   border-bottom-color: #FFFFFF;
@@ -589,13 +520,13 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   border-right-color: #D3D3D3;
 }
 
-#iibeycjbyb .gt_bottom_border {
+#oybkcnacse .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#iibeycjbyb .gt_col_headings {
+#oybkcnacse .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -610,7 +541,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   border-right-color: #D3D3D3;
 }
 
-#iibeycjbyb .gt_col_heading {
+#oybkcnacse .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 12px;
@@ -630,7 +561,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   overflow-x: hidden;
 }
 
-#iibeycjbyb .gt_column_spanner_outer {
+#oybkcnacse .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 12px;
@@ -642,15 +573,15 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   padding-right: 4px;
 }
 
-#iibeycjbyb .gt_column_spanner_outer:first-child {
+#oybkcnacse .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#iibeycjbyb .gt_column_spanner_outer:last-child {
+#oybkcnacse .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#iibeycjbyb .gt_column_spanner {
+#oybkcnacse .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 1px;
   border-bottom-color: #334422;
@@ -662,11 +593,11 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   width: 100%;
 }
 
-#iibeycjbyb .gt_spanner_row {
+#oybkcnacse .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#iibeycjbyb .gt_group_heading {
+#oybkcnacse .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -692,7 +623,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   text-align: left;
 }
 
-#iibeycjbyb .gt_empty_group_heading {
+#oybkcnacse .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -707,15 +638,15 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   vertical-align: middle;
 }
 
-#iibeycjbyb .gt_from_md > :first-child {
+#oybkcnacse .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#iibeycjbyb .gt_from_md > :last-child {
+#oybkcnacse .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#iibeycjbyb .gt_row {
+#oybkcnacse .gt_row {
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 5px;
@@ -734,7 +665,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   overflow-x: hidden;
 }
 
-#iibeycjbyb .gt_stub {
+#oybkcnacse .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -747,7 +678,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   padding-right: 5px;
 }
 
-#iibeycjbyb .gt_stub_row_group {
+#oybkcnacse .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -761,15 +692,15 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   vertical-align: top;
 }
 
-#iibeycjbyb .gt_row_group_first td {
+#oybkcnacse .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#iibeycjbyb .gt_row_group_first th {
+#oybkcnacse .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#iibeycjbyb .gt_summary_row {
+#oybkcnacse .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -779,16 +710,16 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   padding-right: 5px;
 }
 
-#iibeycjbyb .gt_first_summary_row {
+#oybkcnacse .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#iibeycjbyb .gt_first_summary_row.thick {
+#oybkcnacse .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#iibeycjbyb .gt_last_summary_row {
+#oybkcnacse .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -798,7 +729,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   border-bottom-color: #D3D3D3;
 }
 
-#iibeycjbyb .gt_grand_summary_row {
+#oybkcnacse .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -808,7 +739,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   padding-right: 5px;
 }
 
-#iibeycjbyb .gt_first_grand_summary_row {
+#oybkcnacse .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -818,7 +749,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   border-top-color: #D3D3D3;
 }
 
-#iibeycjbyb .gt_last_grand_summary_row_top {
+#oybkcnacse .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -828,11 +759,11 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   border-bottom-color: #D3D3D3;
 }
 
-#iibeycjbyb .gt_striped {
-  background-color: #F9F9F9;
+#oybkcnacse .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
 }
 
-#iibeycjbyb .gt_table_body {
+#oybkcnacse .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -841,7 +772,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   border-bottom-color: #FFFFFF;
 }
 
-#iibeycjbyb .gt_footnotes {
+#oybkcnacse .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -855,7 +786,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   border-right-color: #D3D3D3;
 }
 
-#iibeycjbyb .gt_footnote {
+#oybkcnacse .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -864,7 +795,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   padding-right: 5px;
 }
 
-#iibeycjbyb .gt_sourcenotes {
+#oybkcnacse .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -878,7 +809,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   border-right-color: #D3D3D3;
 }
 
-#iibeycjbyb .gt_sourcenote {
+#oybkcnacse .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -886,63 +817,63 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
   padding-right: 5px;
 }
 
-#iibeycjbyb .gt_left {
+#oybkcnacse .gt_left {
   text-align: left;
 }
 
-#iibeycjbyb .gt_center {
+#oybkcnacse .gt_center {
   text-align: center;
 }
 
-#iibeycjbyb .gt_right {
+#oybkcnacse .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#iibeycjbyb .gt_font_normal {
+#oybkcnacse .gt_font_normal {
   font-weight: normal;
 }
 
-#iibeycjbyb .gt_font_bold {
+#oybkcnacse .gt_font_bold {
   font-weight: bold;
 }
 
-#iibeycjbyb .gt_font_italic {
+#oybkcnacse .gt_font_italic {
   font-style: italic;
 }
 
-#iibeycjbyb .gt_super {
+#oybkcnacse .gt_super {
   font-size: 65%;
 }
 
-#iibeycjbyb .gt_footnote_marks {
+#oybkcnacse .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#iibeycjbyb .gt_asterisk {
+#oybkcnacse .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#iibeycjbyb .gt_indent_1 {
+#oybkcnacse .gt_indent_1 {
   text-indent: 5px;
 }
 
-#iibeycjbyb .gt_indent_2 {
+#oybkcnacse .gt_indent_2 {
   text-indent: 10px;
 }
 
-#iibeycjbyb .gt_indent_3 {
+#oybkcnacse .gt_indent_3 {
   text-indent: 15px;
 }
 
-#iibeycjbyb .gt_indent_4 {
+#oybkcnacse .gt_indent_4 {
   text-indent: 20px;
 }
 
-#iibeycjbyb .gt_indent_5 {
+#oybkcnacse .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -950,187 +881,184 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
 <table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_heading header">
-<th colspan="6" class="gt_heading gt_title gt_font_normal" style="font-family: 'Libre Franklin'; font-weight: 800">CTCAE Terms and Grades</th>
+<th colspan="6" class="gt_heading gt_title gt_font_normal gt_bottom_border" style="text-align: center; font-family: 'Libre Franklin'; font-weight: 800;">CTCAE Grades</th>
 </tr>
-<tr class="gt_heading even">
-<th colspan="6" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border">Grouped by Category</th>
-</tr>
-<tr class="gt_col_headings header">
-<th id="CTCAE Term" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase" scope="col">CTCAE Term</th>
-<th id="Grade 1" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase" scope="col">Grade 1</th>
-<th id="Grade 2" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase" scope="col">Grade 2</th>
-<th id="Grade 3" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase" scope="col">Grade 3</th>
-<th id="Grade 4" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase" scope="col">Grade 4</th>
-<th id="Grade 5" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase" scope="col">Grade 5</th>
+<tr class="gt_col_headings even">
+<th id="CTCAE Term" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">CTCAE Term</th>
+<th id="Grade 1" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Grade 1</th>
+<th id="Grade 2" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Grade 2</th>
+<th id="Grade 3" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Grade 3</th>
+<th id="Grade 4" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Grade 4</th>
+<th id="Grade 5" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Grade 5</th>
 </tr>
 </thead>
 <tbody class="gt_table_body">
 <tr class="gt_group_heading_row odd">
-<td colspan="6" id="Gastrointestinal" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Gastrointestinal</td>
+<td colspan="6" id="Gastrointestinal" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; color: #FF0000; font-weight: bold;" scope="colgroup">Gastrointestinal</td>
 </tr>
 <tr class="gt_row_group_first even">
-<td class="gt_row gt_left" headers="Gastrointestinal  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Diarrhea</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Increase of &lt;4 stools per day over baseline; mild increase in ostomy output compared to baseline</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Increase of 4 - 6 stools per day over baseline; moderate increase in ostomy output compared to baseline; limiting instrumental ADL</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Increase of &gt;=7 stools per day over baseline; hospitalization indicated; severe increase in ostomy output compared to baseline; limiting self care ADL</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">Life-threatening consequences; urgent intervention indicated</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">Death</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Diarrhea</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Increase of &lt;4 stools per day over baseline; mild increase in ostomy output compared to baseline</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Increase of 4 - 6 stools per day over baseline; moderate increase in ostomy output compared to baseline; limiting instrumental ADL</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Increase of &gt;=7 stools per day over baseline; hospitalization indicated; severe increase in ostomy output compared to baseline; limiting self care ADL</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Life-threatening consequences; urgent intervention indicated</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Death</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Lower gastrointestinal hemorrhage</td>
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Mild symptoms; intervention not indicated</td>
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Moderate symptoms; intervention indicated</td>
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Transfusion indicated; invasive intervention indicated; hospitalization</td>
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">Life-threatening consequences; urgent intervention indicated</td>
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">Death</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Lower gastrointestinal hemorrhage</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Mild symptoms; intervention not indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Moderate symptoms; intervention indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Transfusion indicated; invasive intervention indicated; hospitalization</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Life-threatening consequences; urgent intervention indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Death</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left" headers="Gastrointestinal  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Fecal incontinence</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Occasional use of pads required</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Daily use of pads required</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Severe symptoms; elective operative intervention indicated</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Fecal incontinence</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Occasional use of pads required</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Daily use of pads required</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Severe symptoms; elective operative intervention indicated</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Gastrointestinal pain</td>
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Mild pain</td>
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Moderate pain; limiting instrumental ADL</td>
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Severe pain; limiting self care ADL</td>
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Gastrointestinal pain</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Mild pain</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Moderate pain; limiting instrumental ADL</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Severe pain; limiting self care ADL</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Gastrointestinal  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left" headers="Gastrointestinal  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Proctitis</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Rectal discomfort, intervention not indicated</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Symptomatic (e.g., rectal discomfort, passing blood or mucus); medical intervention indicated; limiting instrumental ADL</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Severe symptoms; fecal urgency or stool incontinence; limiting self care ADL</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">Life-threatening consequences; urgent intervention indicated</td>
-<td class="gt_row gt_left" headers="Gastrointestinal  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Proctitis</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Rectal discomfort, intervention not indicated</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Symptomatic (e.g., rectal discomfort, passing blood or mucus); medical intervention indicated; limiting instrumental ADL</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Severe symptoms; fecal urgency or stool incontinence; limiting self care ADL</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Life-threatening consequences; urgent intervention indicated</td>
+<td class="gt_row gt_left" headers="Gastrointestinal  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="gt_group_heading_row odd">
-<td colspan="6" id="Chemotherapy-related" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Chemotherapy-related</td>
+<td colspan="6" id="Chemotherapy-related" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; color: #FF0000; font-weight: bold;" scope="colgroup">Chemotherapy-related</td>
 </tr>
 <tr class="gt_row_group_first even">
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Nausea</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Loss of appetite without alteration in eating habits</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Oral intake decreased without significant weight loss, dehydration or malnutrition</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Inadequate oral caloric or fluid intake; tube feeding, TPN, or hospitalization indicated</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Nausea</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Loss of appetite without alteration in eating habits</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Oral intake decreased without significant weight loss, dehydration or malnutrition</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Inadequate oral caloric or fluid intake; tube feeding, TPN, or hospitalization indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left" headers="Chemotherapy-related  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Vomiting</td>
-<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Intervention not indicated</td>
-<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Outpatient IV hydration; medical intervention indicated</td>
-<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Tube feeding, TPN, or hospitalization indicated</td>
-<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Vomiting</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Intervention not indicated</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Outpatient IV hydration; medical intervention indicated</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Tube feeding, TPN, or hospitalization indicated</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Anemia</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Hemoglobin (Hgb) &lt;LLN - 10.0 g/dL; &lt;LLN - 6.2 mmol/L; &lt;LLN - 100 g/L</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Hgb &lt;10.0 - 8.0 g/dL; &lt;6.2 - 4.9 mmol/L; &lt;100 - 80g/L</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Hgb &lt;8.0 g/dL; &lt;4.9 mmol/L; &lt;80 g/L; transfusion indicated</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">Life-threatening consequences; urgent intervention indicated</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Anemia</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Hemoglobin (Hgb) &lt;LLN - 10.0 g/dL; &lt;LLN - 6.2 mmol/L; &lt;LLN - 100 g/L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Hgb &lt;10.0 - 8.0 g/dL; &lt;6.2 - 4.9 mmol/L; &lt;100 - 80g/L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Hgb &lt;8.0 g/dL; &lt;4.9 mmol/L; &lt;80 g/L; transfusion indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Life-threatening consequences; urgent intervention indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left" headers="Chemotherapy-related  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Platelet count decreased</td>
-<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">&lt;LLN - 75,000/mm3; &lt;LLN - 75.0 x 10e9 /L</td>
-<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">&lt;75,000 - 50,000/mm3; &lt;75.0 - 50.0 x 10e9 /L</td>
-<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">&lt;50,000 - 25,000/mm3; &lt;50.0 - 25.0 x 10e9 /L</td>
-<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">&lt;25,000/mm3; &lt;25.0 x 10e9 /L</td>
-<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Platelet count decreased</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">&lt;LLN - 75,000/mm3; &lt;LLN - 75.0 x 10e9 /L</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">&lt;75,000 - 50,000/mm3; &lt;75.0 - 50.0 x 10e9 /L</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">&lt;50,000 - 25,000/mm3; &lt;50.0 - 25.0 x 10e9 /L</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">&lt;25,000/mm3; &lt;25.0 x 10e9 /L</td>
+<td class="gt_row gt_left" headers="Chemotherapy-related  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">White blood cell decreased</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">&lt;LLN - 3000/mm3; &lt;LLN - 3.0 x 10e9 /L</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">&lt;3000 - 2000/mm3; &lt;3.0 - 2.0 x 10e9 /L</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">&lt;2000 - 1000/mm3; &lt;2.0 - 1.0 x 10e9 /L</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">&lt;1000/mm3; &lt;1.0 x 10e9 /L</td>
-<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">White blood cell decreased</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">&lt;LLN - 3000/mm3; &lt;LLN - 3.0 x 10e9 /L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">&lt;3000 - 2000/mm3; &lt;3.0 - 2.0 x 10e9 /L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">&lt;2000 - 1000/mm3; &lt;2.0 - 1.0 x 10e9 /L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">&lt;1000/mm3; &lt;1.0 x 10e9 /L</td>
+<td class="gt_row gt_left gt_striped" headers="Chemotherapy-related  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="gt_group_heading_row odd">
-<td colspan="6" id="Skin" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Skin</td>
+<td colspan="6" id="Skin" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; color: #FF0000; font-weight: bold;" scope="colgroup">Skin</td>
 </tr>
 <tr class="gt_row_group_first even">
-<td class="gt_row gt_left" headers="Skin  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Dermatitis</td>
-<td class="gt_row gt_left" headers="Skin  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Faint erythema or dry desquamation</td>
-<td class="gt_row gt_left" headers="Skin  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Moderate to brisk erythema; patchy moist desquamation, mostly confined to skin folds and creases; moderate edema</td>
-<td class="gt_row gt_left" headers="Skin  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Moist desquamation in areas other than skin folds and creases; bleeding induced by minor trauma or abrasion</td>
-<td class="gt_row gt_left" headers="Skin  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">Life-threatening consequences; skin necrosis or ulceration of full thickness dermis; spontaneous bleeding from involved site; skin graft indicated</td>
-<td class="gt_row gt_left" headers="Skin  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">Death</td>
+<td class="gt_row gt_left" headers="Skin  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Dermatitis</td>
+<td class="gt_row gt_left" headers="Skin  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Faint erythema or dry desquamation</td>
+<td class="gt_row gt_left" headers="Skin  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Moderate to brisk erythema; patchy moist desquamation, mostly confined to skin folds and creases; moderate edema</td>
+<td class="gt_row gt_left" headers="Skin  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Moist desquamation in areas other than skin folds and creases; bleeding induced by minor trauma or abrasion</td>
+<td class="gt_row gt_left" headers="Skin  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Life-threatening consequences; skin necrosis or ulceration of full thickness dermis; spontaneous bleeding from involved site; skin graft indicated</td>
+<td class="gt_row gt_left" headers="Skin  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Death</td>
 </tr>
 <tr class="gt_group_heading_row odd">
-<td colspan="6" id="Urinary-Symptoms" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Urinary-Symptoms</td>
+<td colspan="6" id="Urinary-Symptoms" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; color: #FF0000; font-weight: bold;" scope="colgroup">Urinary-Symptoms</td>
 </tr>
 <tr class="gt_row_group_first even">
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Dysuria</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Present</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Dysuria</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Present</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left" headers="Urinary-Symptoms  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Hematuria</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Asymptomatic; clinical or diagnostic observations only; intervention not indicated</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Symptomatic; urinary catheter or bladder irrigation indicated; limiting instrumental ADL</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Gross hematuria; transfusion, IV medications, or hospitalization indicated; elective invasive intervention indicated; limiting self care ADL</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">Life-threatening consequences; urgent invasive intervention indicated</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">Death</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Hematuria</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Asymptomatic; clinical or diagnostic observations only; intervention not indicated</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Symptomatic; urinary catheter or bladder irrigation indicated; limiting instrumental ADL</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Gross hematuria; transfusion, IV medications, or hospitalization indicated; elective invasive intervention indicated; limiting self care ADL</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Life-threatening consequences; urgent invasive intervention indicated</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Death</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Urinary frequency</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Present</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Limiting instrumental ADL; medical management indicated</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Urinary frequency</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Present</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Limiting instrumental ADL; medical management indicated</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left" headers="Urinary-Symptoms  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Urinary incontinence</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Occasional (e.g., with coughing, sneezing, etc.), pads not indicated</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Spontaneous; pads indicated; limiting instrumental ADL</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Intervention indicated (e.g., clamp, collagen injections); operative intervention indicated; limiting self care ADL</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Urinary incontinence</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Occasional (e.g., with coughing, sneezing, etc.), pads not indicated</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Spontaneous; pads indicated; limiting instrumental ADL</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Intervention indicated (e.g., clamp, collagen injections); operative intervention indicated; limiting self care ADL</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Urinary tract pain</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Mild pain</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Moderate pain; limiting instrumental ADL</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Severe pain; limiting self care ADL</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Urinary tract pain</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Mild pain</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Moderate pain; limiting instrumental ADL</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Severe pain; limiting self care ADL</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Urinary-Symptoms  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left" headers="Urinary-Symptoms  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Urinary urgency</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Present</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Limiting instrumental ADL; medical management indicated</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Urinary urgency</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Present</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Limiting instrumental ADL; medical management indicated</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left" headers="Urinary-Symptoms  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="gt_group_heading_row even">
-<td colspan="6" id="Others" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Others</td>
+<td colspan="6" id="Others" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; color: #FF0000; font-weight: bold;" scope="colgroup">Others</td>
 </tr>
 <tr class="gt_row_group_first odd">
-<td class="gt_row gt_left gt_striped" headers="Others  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Erectile dysfunction</td>
-<td class="gt_row gt_left gt_striped" headers="Others  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Decrease in erectile function (frequency or rigidity of erections) but intervention not indicated (e.g., medication or use of mechanical device, penile pump)</td>
-<td class="gt_row gt_left gt_striped" headers="Others  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Decrease in erectile function (frequency/rigidity of erections), erectile intervention indicated, (e.g., medication or mechanical devices such as penile pump)</td>
-<td class="gt_row gt_left gt_striped" headers="Others  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Decrease in erectile function (frequency/rigidity of erections) but erectile intervention not helpful (e.g., medication or mechanical devices such as penile pump); placement of a permanent penile prosthesis indicated (not previously present)</td>
-<td class="gt_row gt_left gt_striped" headers="Others  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left gt_striped" headers="Others  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Others  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Erectile dysfunction</td>
+<td class="gt_row gt_left gt_striped" headers="Others  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Decrease in erectile function (frequency or rigidity of erections) but intervention not indicated (e.g., medication or use of mechanical device, penile pump)</td>
+<td class="gt_row gt_left gt_striped" headers="Others  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Decrease in erectile function (frequency/rigidity of erections), erectile intervention indicated, (e.g., medication or mechanical devices such as penile pump)</td>
+<td class="gt_row gt_left gt_striped" headers="Others  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Decrease in erectile function (frequency/rigidity of erections) but erectile intervention not helpful (e.g., medication or mechanical devices such as penile pump); placement of a permanent penile prosthesis indicated (not previously present)</td>
+<td class="gt_row gt_left gt_striped" headers="Others  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left gt_striped" headers="Others  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left" headers="Others  CTCAE Term" style="font-family: 'Source Sans Pro'; font-weight: 400">Fatigue</td>
-<td class="gt_row gt_left" headers="Others  Grade 1" style="font-family: 'Source Sans Pro'; font-weight: 400">Fatigue relieved by rest</td>
-<td class="gt_row gt_left" headers="Others  Grade 2" style="font-family: 'Source Sans Pro'; font-weight: 400">Fatigue not relieved by rest; limiting instrumental ADL</td>
-<td class="gt_row gt_left" headers="Others  Grade 3" style="font-family: 'Source Sans Pro'; font-weight: 400">Fatigue not relieved by rest, limiting self care ADL</td>
-<td class="gt_row gt_left" headers="Others  Grade 4" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
-<td class="gt_row gt_left" headers="Others  Grade 5" style="font-family: 'Source Sans Pro'; font-weight: 400">NA</td>
+<td class="gt_row gt_left" headers="Others  CTCAE Term" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Fatigue</td>
+<td class="gt_row gt_left" headers="Others  Grade 1" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Fatigue relieved by rest</td>
+<td class="gt_row gt_left" headers="Others  Grade 2" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Fatigue not relieved by rest; limiting instrumental ADL</td>
+<td class="gt_row gt_left" headers="Others  Grade 3" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Fatigue not relieved by rest, limiting self care ADL</td>
+<td class="gt_row gt_left" headers="Others  Grade 4" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left" headers="Others  Grade 5" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
 </tr>
 </tbody>
 </table>
@@ -1139,29 +1067,664 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
 </div>
 </div>
 </section>
+<section id="bei-gleichzeitige-systemische-therapie" class="level2">
+<h2 class="anchored" data-anchor-id="bei-gleichzeitige-systemische-therapie">Bei gleichzeitige systemische Therapie</h2>
+<p>Folgendes <strong>muss</strong> dokumentiert werden:</p>
+<ul>
+<li>Capecitabin-Dosierung
+<ul>
+<li>Bzw. Protokolle für die kontinuierliche 5-FU-Infusion</li>
+</ul></li>
+<li>Die Laborüberwachung</li>
+</ul>
 </section>
+</section>
+<section id="nachsorge" class="level1">
+<h1>Nachsorge</h1>
+<p>Leider wird den Leitlinien nicht immer gefolgt. So zeigte sich, dass bei Menschen jenseits des 65.Lebensjahres nur in 73,6% der Fälle die empfohlenen Koloskopien und lediglich bei 46,7% eine Bestimmung des CEA erfolgte, während nicht empfohlene Maßnahmen wie CT und PET-CT bei 48% bzw. 7% durchgeführt wurden.<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><sup><a href="#ref-DeutscheKrebsgesellschaftEtAl2019" role="doc-biblioref">1</a></sup></span></p>
 <section id="bewertung-des-ansprechens-auf-die-behandlung" class="level2">
 <h2 class="anchored" data-anchor-id="bewertung-des-ansprechens-auf-die-behandlung">Bewertung des Ansprechens auf die Behandlung</h2>
 <p>Durch die neoadjuvante Radiochemotherapie und entsprechende Remission kann u. U. trotz primär nicht für möglich gehaltenen Sphinktererhaltes eine Schließmuskel erhaltende Rektumresektion möglich werden. Deshalb sollte diesbezüglich frühestens 6 Wochen nach Abschluss der Radiochemotherapie eine Reevaluation stattfinden.<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><sup><a href="#ref-DeutscheKrebsgesellschaftEtAl2019" role="doc-biblioref">1</a></sup></span></p>
-<p>Zeitplan für die Bildgebung nach der Behandlung MRT-Interpretationskriterien für das Ansprechen Vollständiges Protokoll zur Bewertung des klinischen Ansprechens</p>
-<section id="kriterien-für-die-zulässigkeit-des-watch-and-wait-protokolls" class="level3">
-<h3 class="anchored" data-anchor-id="kriterien-für-die-zulässigkeit-des-watch-and-wait-protokolls">Kriterien für die Zulässigkeit des Watch-and-Wait-Protokolls</h3>
-<p>Voraussetzung ist die gründliche Aufklärung über die noch unzureichende Validierung dieses Vorgehens und die Bereitschaft des Patienten, sich einer sehr engmaschigen mindestens 5-jährigen Nachsorge zu unterziehen.<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><sup><a href="#ref-DeutscheKrebsgesellschaftEtAl2019" role="doc-biblioref">1</a></sup></span></p>
+</section>
+<section id="cea-bestimmung-in-der-nachsorge" class="level2">
+<h2 class="anchored" data-anchor-id="cea-bestimmung-in-der-nachsorge">CEA Bestimmung in der Nachsorge</h2>
+<p>Die Bestimmung des karzinoembryonalen Antigens (CEA) wird alle 6 Monate für mindestens 2 Jahre empfohlen. Ein erhöhter CEA-Wert erfordert eine weitere Diagnostik.<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><sup><a href="#ref-DeutscheKrebsgesellschaftEtAl2019" role="doc-biblioref">1</a></sup></span></p>
 </section>
 </section>
-<section id="nachsorge" class="level2">
-<h2 class="anchored" data-anchor-id="nachsorge">Nachsorge</h2>
-<p>Häufigkeit der Überwachungsbilder Anforderungen an Laboruntersuchungen Zeitplan für die körperliche Untersuchung Leitlinien für die Überwachung der Spättoxizität</p>
+<section id="wichtige-studien" class="level1">
+<h1>Wichtige Studien</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div id="boqqlioqqk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+#boqqlioqqk table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#boqqlioqqk thead, #boqqlioqqk tbody, #boqqlioqqk tfoot, #boqqlioqqk tr, #boqqlioqqk td, #boqqlioqqk th {
+  border-style: none;
+}
+
+#boqqlioqqk p {
+  margin: 0;
+  padding: 0;
+}
+
+#boqqlioqqk .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#boqqlioqqk .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#boqqlioqqk .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#boqqlioqqk .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#boqqlioqqk .gt_heading {
+  background-color: #FFFFFF;
+  text-align: left;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#boqqlioqqk .gt_bottom_border {
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#boqqlioqqk .gt_col_headings {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #334422;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#boqqlioqqk .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#boqqlioqqk .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#boqqlioqqk .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#boqqlioqqk .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#boqqlioqqk .gt_column_spanner {
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #334422;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#boqqlioqqk .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#boqqlioqqk .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#boqqlioqqk .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#boqqlioqqk .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#boqqlioqqk .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#boqqlioqqk .gt_row {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#boqqlioqqk .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#boqqlioqqk .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#boqqlioqqk .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#boqqlioqqk .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#boqqlioqqk .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#boqqlioqqk .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#boqqlioqqk .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#boqqlioqqk .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#boqqlioqqk .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#boqqlioqqk .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#boqqlioqqk .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#boqqlioqqk .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#boqqlioqqk .gt_table_body {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #FFFFFF;
+}
+
+#boqqlioqqk .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#boqqlioqqk .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#boqqlioqqk .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#boqqlioqqk .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#boqqlioqqk .gt_left {
+  text-align: left;
+}
+
+#boqqlioqqk .gt_center {
+  text-align: center;
+}
+
+#boqqlioqqk .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#boqqlioqqk .gt_font_normal {
+  font-weight: normal;
+}
+
+#boqqlioqqk .gt_font_bold {
+  font-weight: bold;
+}
+
+#boqqlioqqk .gt_font_italic {
+  font-style: italic;
+}
+
+#boqqlioqqk .gt_super {
+  font-size: 65%;
+}
+
+#boqqlioqqk .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#boqqlioqqk .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#boqqlioqqk .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#boqqlioqqk .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#boqqlioqqk .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#boqqlioqqk .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#boqqlioqqk .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="gt_heading header">
+<th colspan="10" class="gt_heading gt_title gt_font_normal" style="text-align: center; font-family: 'Libre Franklin'; font-weight: 800;"><strong>Clinical Trials in Rectal Cancer Treatment</strong></th>
+</tr>
+<tr class="gt_heading even">
+<th colspan="10" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: center;"><em>Grouped by Treatment Category</em></th>
+</tr>
+<tr class="gt_col_headings header">
+<th id="Study" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Study</th>
+<th id="Year" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Year</th>
+<th id="Tumor characteristics" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Tumor characteristics</th>
+<th id="Tumor location" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Tumor location</th>
+<th id="Age" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Age</th>
+<th id="Experimental Arms" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Experimental Arms</th>
+<th id="standard of care" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">standard of care</th>
+<th id="Radiation Type" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Radiation Type</th>
+<th id="Primary Outcome" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Primary Outcome</th>
+<th id="Key Findings" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="text-align: center; color: #A9A9A9; font-family: 'Source Sans Pro'; text-transform: uppercase;" scope="col">Key Findings</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row odd">
+<td colspan="10" id="Immunotherapy for dMMR" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; color: #FF0000; font-weight: bold;" scope="colgroup">Immunotherapy for dMMR</td>
+</tr>
+<tr class="gt_row_group_first even">
+<td class="gt_row gt_left" headers="Immunotherapy for dMMR  Study" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;"><p>Cercek et al.</p></td>
+<td class="gt_row gt_right" headers="Immunotherapy for dMMR  Year" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">2022</td>
+<td class="gt_row gt_left" headers="Immunotherapy for dMMR  Tumor characteristics" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">dMMR stage II/III rectal cancer</td>
+<td class="gt_row gt_left" headers="Immunotherapy for dMMR  Tumor location" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left" headers="Immunotherapy for dMMR  Age" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left" headers="Immunotherapy for dMMR  Experimental Arms" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Dostarlimab 9× every 3 wks for 6 mo, if no cCR → CRT 50,4Gy/28f</td>
+<td class="gt_row gt_left" headers="Immunotherapy for dMMR  standard of care" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left" headers="Immunotherapy for dMMR  Radiation Type" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">None</td>
+<td class="gt_row gt_left" headers="Immunotherapy for dMMR  Primary Outcome" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">cCR</td>
+<td class="gt_row gt_left" headers="Immunotherapy for dMMR  Key Findings" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">100% (12/12) had cCR, no grade ≥3 adverse events</td>
+</tr>
+<tr class="gt_group_heading_row odd">
+<td colspan="10" id="Neoadjuvant vs Adjuvant CRT" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; color: #FF0000; font-weight: bold;" scope="colgroup">Neoadjuvant vs Adjuvant CRT</td>
+</tr>
+<tr class="gt_row_group_first even">
+<td class="gt_row gt_left gt_striped" headers="Neoadjuvant vs Adjuvant CRT  Study" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;"><p>CAO/ARO/AIO-94</p></td>
+<td class="gt_row gt_right gt_striped" headers="Neoadjuvant vs Adjuvant CRT  Year" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">2004</td>
+<td class="gt_row gt_left gt_striped" headers="Neoadjuvant vs Adjuvant CRT  Tumor characteristics" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">T3–T4 or N+</td>
+<td class="gt_row gt_left gt_striped" headers="Neoadjuvant vs Adjuvant CRT  Tumor location" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">≤ 16 cm from anal verge</td>
+<td class="gt_row gt_left gt_striped" headers="Neoadjuvant vs Adjuvant CRT  Age" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">18–75</td>
+<td class="gt_row gt_left gt_striped" headers="Neoadjuvant vs Adjuvant CRT  Experimental Arms" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">CRT 50,4 Gy/28f → TME → 4× FU 500 mg/m2</td>
+<td class="gt_row gt_left gt_striped" headers="Neoadjuvant vs Adjuvant CRT  standard of care" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">TME → CRT 50,4 Gy/28f + 5,4 Gy Boost to Tumor bed → 4× FU 500 mg/m2</td>
+<td class="gt_row gt_left gt_striped" headers="Neoadjuvant vs Adjuvant CRT  Radiation Type" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Long-course</td>
+<td class="gt_row gt_left gt_striped" headers="Neoadjuvant vs Adjuvant CRT  Primary Outcome" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">OS</td>
+<td class="gt_row gt_left gt_striped" headers="Neoadjuvant vs Adjuvant CRT  Key Findings" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Pre-op CRT ↓ local recurrence (7% vs 11%), ↓ toxicity, ↑ sphincter-preserving (39% vs. 19%)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Neoadjuvant vs Adjuvant CRT  Study" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;"><p>NSABP R-03</p></td>
+<td class="gt_row gt_right" headers="Neoadjuvant vs Adjuvant CRT  Year" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">2004</td>
+<td class="gt_row gt_left" headers="Neoadjuvant vs Adjuvant CRT  Tumor characteristics" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">T3–T4 or N+</td>
+<td class="gt_row gt_left" headers="Neoadjuvant vs Adjuvant CRT  Tumor location" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">≤ 15 cm from anal verge</td>
+<td class="gt_row gt_left" headers="Neoadjuvant vs Adjuvant CRT  Age" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left" headers="Neoadjuvant vs Adjuvant CRT  Experimental Arms" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">6× FU 500 mg/m2 + LV 500 mg/m2 → CRT 45Gy/25f + 5,4 Gy Boost to Tumor bed → TME → 6× FU 500 mg/m2 + LV 500 mg/m2</td>
+<td class="gt_row gt_left" headers="Neoadjuvant vs Adjuvant CRT  standard of care" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">TME → 6× FU 500 mg/m2 + LV 500 mg/m2 → CRT 45Gy/25f + 5,4 Gy Boost to Tumor bed → 6× FU 500 mg/m2 + LV 500 mg/m2</td>
+<td class="gt_row gt_left" headers="Neoadjuvant vs Adjuvant CRT  Radiation Type" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Long-course</td>
+<td class="gt_row gt_left" headers="Neoadjuvant vs Adjuvant CRT  Primary Outcome" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">DFS, OS</td>
+<td class="gt_row gt_left" headers="Neoadjuvant vs Adjuvant CRT  Key Findings" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">↑ DFS and ↑ pCR with pre-op CRT, possible ↑OS, ↑ Recurrence free survival</td>
+</tr>
+<tr class="gt_group_heading_row even">
+<td colspan="10" id="Short vs Long Course Radiation" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; color: #FF0000; font-weight: bold;" scope="colgroup">Short vs Long Course Radiation</td>
+</tr>
+<tr class="gt_row_group_first odd">
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Study" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;"><p>Dutch TME</p></td>
+<td class="gt_row gt_right gt_striped" headers="Short vs Long Course Radiation  Year" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">2001</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Tumor characteristics" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Resectable T1–T3</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Tumor location" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">≤ 15 cm from anal verge</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Age" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">26-88, 23-92</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Experimental Arms" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">SCRT → TME</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  standard of care" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">TME alone</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Radiation Type" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Short-course</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Primary Outcome" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Local recurrence</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Key Findings" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">↓ recurrence 2,4% vs 8,2%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Study" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;"><p>Polish Trial</p></td>
+<td class="gt_row gt_right" headers="Short vs Long Course Radiation  Year" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">2006</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Tumor characteristics" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">cT3/T4</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Tumor location" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">mid</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Age" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">NA</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Experimental Arms" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">SCRT → 7d → TME ± 4 mo of bolus 5-fluorouracil and leucovorin</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  standard of care" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">CRT 50,4 Gy/28f → 4-6 wks → TME ± 4 mo of bolus 5-fluorouracil and leucovorin</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Radiation Type" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Short vs Long-course</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Primary Outcome" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">sphincter preservation</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Key Findings" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">sphincter preservation =, CRT ↑ pCR (16% vs 1%), better downstaging, no OS difference</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Study" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;"><p>TROG 01.04</p></td>
+<td class="gt_row gt_right gt_striped" headers="Short vs Long Course Radiation  Year" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">2012</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Tumor characteristics" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">T3, N0–1</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Tumor location" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">mid-low</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Age" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">26-82</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Experimental Arms" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">SCRT → 3-7d → TME → 6× 5FU 425 mg/m2,folinic acid 20 mg/m2</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  standard of care" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">CRT 50,4Gy → 4-6 wks → TME → 4× 5FU 425 mg/m2,folinic acid 20 mg/m2</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Radiation Type" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Short vs Long-course</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Primary Outcome" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">3-year Local recurrence</td>
+<td class="gt_row gt_left gt_striped" headers="Short vs Long Course Radiation  Key Findings" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">OS=, Local recurrence 7,5% vs 4,4% not significant</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Study" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;"><p>STELLAR</p></td>
+<td class="gt_row gt_right" headers="Short vs Long Course Radiation  Year" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">2022</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Tumor characteristics" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">cT3/T4 and/or N+</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Tumor location" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">mid-low</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Age" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">18-70</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Experimental Arms" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">SCRT→ 4× CAPOX → 4-6 wks → TME → 2× CAPOX</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  standard of care" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">CRT 50,4Gy/28f → 6-8 wks → TME → 6× CAPOX</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Radiation Type" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Short vs Long-course</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Primary Outcome" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">DFS</td>
+<td class="gt_row gt_left" headers="Short vs Long Course Radiation  Key Findings" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">DSF =; ↓ toxicity</td>
+</tr>
+<tr class="gt_group_heading_row odd">
+<td colspan="10" id="Total Neoadjuvant Therapy" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; color: #FF0000; font-weight: bold;" scope="colgroup">Total Neoadjuvant Therapy</td>
+</tr>
+<tr class="gt_row_group_first even">
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Study" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;"><p>RAPIDO</p></td>
+<td class="gt_row gt_right gt_striped" headers="Total Neoadjuvant Therapy  Year" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">2020</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Tumor characteristics" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">T4a/b, N2, EMVI+, CRM+</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Tumor location" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">&lt; 16 cm from anal verge</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Age" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">31–83</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Experimental Arms" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">SCRT → 6× CAPOX / 9× FOLFOX4 → 2-4 wk → TME</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  standard of care" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">CRT 50,4Gy/28f or 50Gy/25f, → 6-8 wks → TME ± 8× CAPOX/12× FOLFOX4</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Radiation Type" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Short/Long-course</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Primary Outcome" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">3-year disease-related treatment failure</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Key Findings" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">↓ Disease-related treatment failure (24% vs 30%), ↓ distant mets, ↑ pCR (28% vs 14%)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Total Neoadjuvant Therapy  Study" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;"><p>PRODIGE-23</p></td>
+<td class="gt_row gt_right" headers="Total Neoadjuvant Therapy  Year" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">2021</td>
+<td class="gt_row gt_left" headers="Total Neoadjuvant Therapy  Tumor characteristics" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">cT3 or cT4 M0</td>
+<td class="gt_row gt_left" headers="Total Neoadjuvant Therapy  Tumor location" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">&lt; 16 cm from anal verge</td>
+<td class="gt_row gt_left" headers="Total Neoadjuvant Therapy  Age" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">18–75</td>
+<td class="gt_row gt_left" headers="Total Neoadjuvant Therapy  Experimental Arms" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">FOLFIRINOX ×6 → CRT 50Gy/25f → TME → 6× FOLFOX6 or 4× capecitabine ×4</td>
+<td class="gt_row gt_left" headers="Total Neoadjuvant Therapy  standard of care" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">CRT 50Gy/25f → TME → 12× FOLFOX6 or 8× capecitabine</td>
+<td class="gt_row gt_left" headers="Total Neoadjuvant Therapy  Radiation Type" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Long-course</td>
+<td class="gt_row gt_left" headers="Total Neoadjuvant Therapy  Primary Outcome" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">DFS</td>
+<td class="gt_row gt_left" headers="Total Neoadjuvant Therapy  Key Findings" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">↑ DFS, ↑ pCR (28% vs 12%), ↓ distant mets</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Study" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;"><p>OPRA</p></td>
+<td class="gt_row gt_right gt_striped" headers="Total Neoadjuvant Therapy  Year" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">2022</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Tumor characteristics" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Stage II–III</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Tumor location" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">mid–low</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Age" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">IQR 51-68</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Experimental Arms" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">8× FOLFOX or 5× CAPEOX → CRT 1,8 to 50-56 Gy</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  standard of care" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">CRT 1,8 to 50-56 Gy → 8× FOLFOX or 5× CAPEOX</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Radiation Type" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">Long-course</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Primary Outcome" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">DSF, Organ preservation</td>
+<td class="gt_row gt_left gt_striped" headers="Total Neoadjuvant Therapy  Key Findings" style="text-align: center; font-family: 'Source Sans Pro'; font-weight: 400;">CRT-first→ better organ preservation (53% vs 41%), DFS =</td>
+</tr>
+</tbody><tfoot class="gt_sourcenotes">
+<tr class="odd">
+<td colspan="10" class="gt_sourcenote" style="text-align: center;">cCR = clinical complete response, CRT = chemoradiotherapy, TME = Total mesorectal excision, LV = Leucovorin, OS = Overall survival, DSF = disease-free survival, pCR = pathological complete response, SCRT = Short-course radiation therapy (25 Gy/5f).</td>
+</tr>
+</tfoot>
+
+</table>
+
+</div>
+</div>
+</div>
 </section>
-<section id="wichtige-studien" class="level2">
+<section id="literatur" class="level1">
 
 
 
 
 </section>
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Wichtige Studien</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body" role="list">
 <div id="ref-DeutscheKrebsgesellschaftEtAl2019" class="csl-entry" role="listitem">
 <div class="csl-left-margin">1. </div><div class="csl-right-inline">Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF. Leitlinienprogramm Onkologie: S3-Leitlinie Kolorektales Karzinom, AWMF Registrierungsnummer: 021/007OL. Published online 2019.</div>
 </div>
@@ -1175,7 +1738,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
 <div class="csl-left-margin">4. </div><div class="csl-right-inline">Deschner BW, VanderWalde NA, Grothey A, Shibata D. Evolution and <span>Current Status</span> of the <span>Multidisciplinary Management</span> of <span>Locally Advanced Rectal Cancer</span>. <em>JCO Oncol Pract</em>. 2021;17(7):383-402.</div>
 </div>
 <div id="ref-GastrointestinalTumorStudyGroup1985" class="csl-entry" role="listitem">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline">Gastrointestinal Tumor Study Group. Prolongation of the disease-free interval in surgically treated rectal carcinoma. <em>N Engl J Med</em>. 1985;312(23):1465-1472.</div>
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Gastrointestinal Tumor Study Group. Prolongation of the disease-free interval in surgically treated rectal carcinoma. <em>The New England Journal of Medicine</em>. 1985;312(23):1465-1472. doi:<a href="https://doi.org/10.1056/NEJM198506063122301">10.1056/NEJM198506063122301</a></div>
 </div>
 <div id="ref-SwedishRectalCancerTrial1997" class="csl-entry" role="listitem">
 <div class="csl-left-margin">6. </div><div class="csl-right-inline">Swedish Rectal Cancer Trial. Improved <span>Survival</span> with <span>Preoperative Radiotherapy</span> in <span>Resectable Rectal Cancer</span>. <em>N Engl J Med</em>. 1997;336(14):980-987.</div>
@@ -1184,7 +1747,7 @@ Quelle:<span class="citation" data-cites="DeutscheKrebsgesellschaftEtAl2019"><su
 <div class="csl-left-margin">7. </div><div class="csl-right-inline">Sauer R, Becker H, Hohenberger W, et al. Preoperative versus postoperative chemoradiotherapy for rectal cancer. <em>N Engl J Med</em>. 2004;351(17):1731-1740.</div>
 </div>
 <div id="ref-IVEtAl2022" class="csl-entry" role="listitem">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline">IV AA, Koprowski MA, Nabavizadeh N, Tsikitis VL. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9062836">The evolution of rectal cancer treatment: The journey to total neoadjuvant therapy and organ preservation</a>. <em>Ann Gastroenterol</em>. 2022;35(3):226-233.</div>
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">IV AA, Koprowski MA, Nabavizadeh N, Tsikitis VL. The evolution of rectal cancer treatment: The journey to total neoadjuvant therapy and organ preservation. <em>Annals of Gastroenterology</em>. 2022;35(3):226-233. doi:<a href="https://doi.org/10.20524/aog.2022.0712">10.20524/aog.2022.0712</a></div>
 </div>
 <div id="ref-ErlandssonEtAl2017" class="csl-entry" role="listitem">
 <div class="csl-left-margin">9. </div><div class="csl-right-inline">Erlandsson J, Holm T, Pettersson D, et al. Optimal fractionation of preoperative radiotherapy and timing to surgery for rectal cancer (<span>Stockholm III</span>): A multicentre, randomised, non-blinded, phase 3, non-inferiority trial. <em>The Lancet Oncology</em>. 2017;18(3):336-346.</div>
