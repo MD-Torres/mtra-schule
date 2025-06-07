@@ -62,17 +62,18 @@ Die Dokumentation des Leistungsstatus erfolgt nach der Einteilung der Eastern Co
 
 ## Obligatorische Untersuchungen
 
-- Starre Rektoskopie (Goldstandard zur Definition des Tumorabstands ab ano)
+Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor. 
 
-- Qualitätsgesicherte MRT Becken
+- Leber 15%
+- Lungen 4%
 
-- Abdomensonographie (primär zur Klärung von Lebermetastasen) @DeutscheKrebsgesellschaftEtAl2019
+Dementsprechend sind folgende Untersuchungen laut S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 notwendig: 
 
 - Rö-Thorax (2 Ebenen)
 
   - Im Falle eines unklaren Befundes oder des Verdachtes auf Fernmetastasen oder Infiltration von Nachbarorganen oder umgebende Strukturen soll ein Mehrzeilen-CT des Abdomens und Beckens erfolgen bzw:
   
-  - Bei Verdacht auf Lungenmetastasen ein CT des Thorax
+- Bei Verdacht auf Lungenmetastasen ein CT des Thorax
 
 - CEA
 
@@ -80,10 +81,7 @@ Die Dokumentation des Leistungsstatus erfolgt nach der Einteilung der Eastern Co
 
 - DPD Test
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 ### DPD Test
 
 Bei Vorliegen eines DPD-Mangels kann das Medikament 5-FU bzw. Capecitabin (Prodrug) nicht verstoffwechselt werden und es kommt zu schweren Toxizitäten. 
@@ -111,42 +109,21 @@ Die Befundbeschreibung soll eine Aussage über den Abstand zur mesorektalen Fasz
 Im Falle eines mutmaßlichen T1-Karzinoms eine Endosonographie, hier ist die CT nicht geeignet. 
 Bei der Differenzierung von T2 und T3-Karzinomen wies die Endosonographie wiederum eine höhere Sensitivität im Vergleich zu MRT und CT auf bei vergleichbarer Spezifität. In der Endosonographie lässt sich die mesorektale Faszie nicht darstellen. @DeutscheKrebsgesellschaftEtAl2019 
 
-### Staging 
-
-<<<<<<< HEAD
-Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor. 
-
-- Leber 15%
-- Lungen 4%
+### CEA
 
 Bei etwa 30% aller kolorektaler Karzinome ist der Tumormarker CEA zum Zeitpunkt der Erstdiagnose erhöht.
 
-Insbesondere in der Tumornachsorge ist dieser Tumormarker ein zuverlässiger Hinweis auf ein Rezidiv. Als weitere Tumormarker werden CA 19-9 und CA 125 diskutiert, wobei letzterer ein Marker der Peritonealkarzinose ist.
+Insbesondere in der Tumornachsorge ist dieser Tumormarker ein zuverlässiger Hinweis auf ein Rezidiv. Als weitere Tumormarker werden CA 19-9 und CA 125 diskutiert, wobei letzterer ein Marker der Peritonealkarzinose ist. 
 
-Laut S3 Leitlinie beinhaltet das Staging folgende Untersuchungen @DeutscheKrebsgesellschaftEtAl2019 : 
-
-- Starre Rektoskopie
-- Komplette Koloskopie  
-- CEA-Wert (sollte präoperativ bestimmt werden)
-- Abdomensonographie (primär zur Klärung von Lebermetastasen)
-- Rö-Thorax (2 Ebenen)
-  - Im Falle eines unklaren Befundes oder des Verdachtes auf Fernmetastasen oder Infiltration von Nachbarorganen oder umgebende Strukturen soll ein Mehrzeilen-CT des Abdomens und Beckens erfolgen bzw: 
-  - Bei Verdacht auf Lungenmetastasen ein CT des Thorax
-- MR (CT)-Becken mit Angabe Abstand des Tumors zur mesorektalen Faszie 
-- Rektale Endosonographie bei lokal begrenztem Tumor
+Laut S3-Leitlinie erhöht der CA 19-9 Wert die Aussagefähigkeit bezüglich des Vorliegens eines Rezidivs im Vergleich zu einer alleinigen CEA-Wert-Bestimmung nicht. @DeutscheKrebsgesellschaftEtAl2019
 
 
-=======
->>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 ### PET-CT 
 
-bei lokal fortgeschrittener Erkrankung
+Hat keinen Stellenwert in der Ausbreitungsdiagnostik bei Erstdiagnose eines kolorektalen Karzinoms. @DeutscheKrebsgesellschaftEtAl2019
 
-<<<<<<< HEAD
-=======
 ### Histologie
 
->>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 #### MMR/MSI-Status
 
 Bei etwa 3-5% der Patienten mit lokal begrenztem Rektumkarzinom ist ein DNS-
@@ -155,11 +132,8 @@ nachweisbar.
 
 Dostarlimab kann eine klinische komplette Remission erreichen. So dass eine Radiochemotherapie und eine Operation unterbleiben kann. Eine [Handreichung der DGHO](https://www.dgho.de/publikationen/stellungnahmen/gute-aerztliche-praxis/immuncheckpoint-inhibitoren/immuncheckpointinhibitor-20230508.pdf) kann bei der Beantragung dieser Therapie hilfreich sein. 
 
-<<<<<<< HEAD
-### Entfernung vom Analrand
-=======
+
 ## Entfernung vom Analrand
->>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 
 Die präoperative Messung der Höhenangabe des Tumors mit dem flexiblen Endoskop ist unzuverlässig. 
 Zuverlässiger sind die **Höhenangaben mit dem starren Rektoskop.** @DeutscheKrebsgesellschaftEtAl2019
@@ -169,17 +143,13 @@ Dementsprechend werden letztere dokumetiert. Ab Anokutanlinie:
 - mittleres Rektumdrittels (6 - <12 cm)
 - unteres Rektumdrittels (< 6 cm) unterteilt
 
-
-## Rechtfertigende Indikation 
-
-<<<<<<< HEAD
-Die Indikation zur Therapie in unserer Praxis erfordert das Vorliegen einer Tumorboard-Empfehlung. 
-Dabei muss die Unterscheidung zwischen TNT und neoadjuvanter Radiochemotherapie mit anschließender Operation ***eindeutig*** festgehalten sein. Sollte dies nicht der Fall sein, ist ***vor Beginn der Therapie*** Rücksprache mit den Onkologen erforderlich.
-=======
 # Rechtfertigende Indikation 
->>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 
-In Folge werden Kandidaten für neoadjuvante Therapie erleutert. 
+Die Entscheidung für eine Strahlentherapie in unserer Praxis basiert auf einer **Empfehlung des Tumorboards**.  
+
+Dabei muss klar zwischen einem **TNT-Konzept** und einer **neoadjuvanten Radiochemotherapie mit anschließender Operation** unterschieden werden.  
+
+Ist diese Unterscheidung in der Empfehlung des Tumorboards nicht eindeutig dokumentiert, muss **vor Therapiebeginn** Rücksprache mit der Onkologie gehalten werden.
 
 ## Stadium I (cT1-2N0)
 
@@ -209,69 +179,11 @@ Eine neoadjuvante Radiochemotherapie oder KurzzeitRadiotherapie soll erfolgen. @
 
 **Ausnahmen @DeutscheKrebsgesellschaftEtAl2019 :**
 
-<<<<<<< HEAD
-- cT1/2-Tumore im unteren und mittleren Drittel mit bildgebend fraglichen Lymphknotenbefall.
-
-- cT3a/b-Tumore im mittleren Drittel mit in der MRT nur limitierter Infiltration ins perirektale Fettgewebe (cT3a: <1 mm, cT3b: 1-5 mm) und ohne bildgebenden Verdacht auf Lymphknotenmetastasen oder extra-muraler Gefäßinvasion (EMVI-) bei adäquater Qualitätssicherung der MRT-Diagnostik und der TME-Chirurgie.
-=======
 - cT1/2 Tumore im unteren und mittleren Drittel mit bildgebend fraglichen Lymphknotenbefall.
->>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 
 - cT3a/b Tumore im mittleren Drittel mit in der MRT nur limitierter Infiltration ins perirektale Fettgewebe (cT3a: <1 mm, cT3b: 1-5 mm) und ohne bildgebenden Verdacht auf Lymphknotenmetastasen oder extra-muraler Gefäßinvasion (EMVI-) bei adäquater Qualitätssicherung der MRT-Diagnostik und der TME-Chirurgie.
 
-<<<<<<< HEAD
-Laut Therapie-Algorithmus für die Stadien I-III der Onkopedia Leitlinie @Ralf-DieterHofheinzEtAl2025 : 
-
-##### cT1-2 N0
-
-- kurzzeitige Strahlentherapie (5 x 5 Gy) oder 
-
-- kombinierte Radiohemotherapie mit Einzeldosen von 1,8-2,0 Gy bis zu einer Gesamtdosis von 45-50,4 Gy.
-
-Beide Konzepte + Watch and wait
-
-##### cT2 N+, cT3
-
-- kombinierte Radiohemotherapie ± Brachytherapie oder
-- Totales neoadjuvantes Konzept 
-
-Beide Konzepte + Watch and wait
-
-##### cT4, mrCRM+, EMVI+, N2, laterale LK+
-
-- Totales neoadjuvantes Konzept 
-
-##### Rektumerhalt ***nicht*** intendiert oder nicht sinnvoll
-
-###### Vorliegen von High-Risk-Kriterien
-
-TNT bevorzugt (ab T3)
-
-###### Keine High-Risk-Kriterien
-
-####### cT1N0
-
-- Lokale Therapie
-- TME
-
-####### cT2 N0/N+
-- TME 
-
-####### cT3 N0/N+ mittleres Drittel
-
-- TME oder
-- Perioperative Chemotherapie oder
-- RT/RCT -> TME
-
-####### cT3 N0/N+ unteres Dritte
-
-- RT/RCT -> TME oder
-- Perioperative Chemotherapie
-
-##### Tumore im oberen Rektumdrittel
-=======
 ## Tumore im oberen Rektumdrittel
->>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 
 Rektumkarzinome im oberen Drittel ohne Risikokonstellation für ein Lokal-rezidiv sollen primär operiert. Jedoch eine präoperative Radio-/ Radiochemotherapie ***kann***, Bei einer Risikokonstellation, 
 erfolgen @DeutscheKrebsgesellschaftEtAl2019 z.B.:
@@ -294,9 +206,6 @@ Die neoadjuvante Radiotherapie kann entweder als:
 
 durchgeführt werden.  
 Quelle: @DeutscheKrebsgesellschaftEtAl2019
-
-<<<<<<< HEAD
-=======
 
 ## Standard: Konventionelle Radiochemotherapie (45–50,4 Gy)
 
@@ -343,80 +252,13 @@ Für Patienten, bei denen ein **Downsizing** angestrebt wird, kann auch die Kurz
 
 # Gerätearzt
 
-
-
 ## Wöchentliche Kontrollbesuche
 
 ## Zusammenfassung am Ende der Behandlung
 
+## Nebenwirkungen nach 
 
-Einstufung der Toxizität und Berichterstattung (CTCAE v5.0)
->>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
-
-# Gerätearzt
-
-## Bei gleichzeitiger systemischen Therapie
-
-Dokumentiert werden ***müssen***:
-
-- Capecitabin-Dosierung
-- Protokolle für die kontinuierliche 5-FU-Infusion
-- Die Laborüberwachung
-- Toxizität (CTCAE v5.0)
-
-<<<<<<< HEAD
-## Toxizität Tabelle
-
-```{r}
-# Load required libraries
-library(tidyverse)
-library(gt)
-
-# Read the CSV (make sure to save it as 'ctcae.csv')
-ctcae_data <- read_csv("ctcae.csv")
-
-# Create gt table with subheadings from 'Category'
-ctcae_table <- ctcae_data %>%
-  gt(groupname_col = "Category") %>%
-  tab_header(
-    title = "CTCAE Terms and Grades",
-    subtitle = "Grouped by Category"
-  ) %>%
-  cols_label(
-    `CTCAE Term` = "CTCAE Term",
-    `Grade 1` = "Grade 1",
-    `Grade 2` = "Grade 2",
-    `Grade 3` = "Grade 3",
-    `Grade 4` = "Grade 4",
-    `Grade 5` = "Grade 5"
-  ) %>%
-  tab_options(
-    table.font.size = "small",
-    row.striping.include_table_body = TRUE,
-    row.striping.background_color = "#f9f9f9"
-  ) %>%
-  opt_row_striping()
-
-ctcae_table
-
-```
-
-# Nachsorge 
-=======
-Behandlung von radiogener Toxizitäten s. (link)
-
-
-## Bei gleichzeitige systemische Therapie
-
-Folgendes **muss** dokumentiert werden: 
-
-- Capecitabin-Dosierung
-- Protokolle für die kontinuierliche 5-FU-Infusion
-- Die Laborüberwachung
-
-### Nebenwirkungen nach 
-
-```{r}
+```{r, echo=FALSE}
 # Load required libraries
 library(tidyverse)
 library(gt)
@@ -433,8 +275,8 @@ ctcae_data <- read_sheet("https://docs.google.com/spreadsheets/d/1pPffgk7dPWZ_a1
 ctcae_table <- ctcae_data %>%
   gt(groupname_col = "Category") %>%
   tab_header(
-    title = "CTCAE Terms and Grades",
-    subtitle = "Grouped by Category"
+    title = "CTCAE Grades",
+    #subtitle = "Grouped by Category"
   ) %>%
   cols_label(
     `CTCAE Term` = "CTCAE Term",
@@ -444,33 +286,112 @@ ctcae_table <- ctcae_data %>%
     `Grade 4` = "Grade 4",
     `Grade 5` = "Grade 5"
   ) %>%
-  tab_options(
-    table.font.size = "small",
-    row.striping.include_table_body = TRUE,
-    row.striping.background_color = "#f9f9f9"
-  ) %>%
+  tab_style(
+    style = list(
+      cell_text(color = "red", 
+                align = "center",
+                weight = "bold"
+                )
+    ),
+    locations = cells_row_groups()
+  )%>%
   opt_row_striping()
+
 
 gt_theme_nytimes(ctcae_table)
 
 ```
 
->>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
+## Bei gleichzeitige systemische Therapie
+
+Folgendes **muss** dokumentiert werden: 
+
+- Capecitabin-Dosierung
+  - Bzw. Protokolle für die kontinuierliche 5-FU-Infusion
+- Die Laborüberwachung
+
+# Nachsorge 
+
+Leider wird den Leitlinien nicht immer gefolgt. 
+So zeigte sich, dass bei Menschen jenseits des 65.Lebensjahres nur in 73,6% der Fälle die empfohlenen Koloskopien und lediglich bei 46,7% eine Bestimmung des CEA erfolgte, während nicht empfohlene Maßnahmen
+wie CT und PET-CT bei 48% bzw. 7% durchgeführt wurden. @DeutscheKrebsgesellschaftEtAl2019
 
 ## Bewertung des Ansprechens auf die Behandlung
 
 Durch die neoadjuvante Radiochemotherapie und entsprechende Remission kann u. U. trotz primär nicht für möglich gehaltenen Sphinktererhaltes eine Schließmuskel erhaltende Rektumresektion möglich werden. 
 Deshalb sollte diesbezüglich frühestens 6 Wochen nach Abschluss der Radiochemotherapie eine Reevaluation stattfinden. @DeutscheKrebsgesellschaftEtAl2019
 
-### Kriterien für die Zulässigkeit des Watch-and-Wait-Protokolls
+## CEA Bestimmung in der Nachsorge
 
-Voraussetzung ist die gründliche Aufklärung über die noch unzureichende Validierung dieses Vorgehens und die Bereitschaft des Patienten, sich einer sehr engmaschigen mindestens 5-jährigen Nachsorge zu unterziehen. @DeutscheKrebsgesellschaftEtAl2019
+Die Bestimmung des karzinoembryonalen Antigens (CEA) wird alle 6 Monate für mindestens 2 Jahre empfohlen. 
+Ein erhöhter CEA-Wert erfordert eine weitere Diagnostik. @DeutscheKrebsgesellschaftEtAl2019
+
+# Wichtige Studien
+
+```{r rectal-cancer-table, echo=FALSE, message=FALSE, warning=FALSE}
+
+  library(tidyverse)
+  library(gt)
+  library(knitr)
+  library(kableExtra)
+  library(googlesheets4)
+
+ gs4_deauth()
+
+  # Read and clean data
+  data <- read_sheet("https://docs.google.com/spreadsheets/d/1sWyY-VP0YjLJbj_dOtm-AOwN3UNrTQR91AlfmBbTokI/edit?usp=sharing")
+
+ data_clean <- data %>%
+    filter(Include == "yes", Disease == "rectal cancer") %>%
+    mutate(
+      Category = case_when(
+        Category == "TNT" ~ "Total Neoadjuvant Therapy",
+        TRUE ~ Category
+      ),
+      #`Study (Year)` = paste0(Study, " (", Year, ")")
+      #Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+      #`Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
+    ) %>%
+    select(Category,
+           `Study`,
+           `Year`,
+           `Tumor characteristics`,
+           `Tumor location`,
+            Age,
+           `Experimental Arms`,
+           `standard of care`,
+           `Radiation Type`,
+           `Primary Outcome`,
+           `Key Findings`,
+           Citation) %>%
+    arrange(Category)
+
+  # Choose output
+#  if (knitr::is_html_output()) {
+    studien_table <- data_clean %>%
+      select(-Citation) %>%
+      gt(groupname_col = "Category") %>%
+      fmt_markdown(columns = "Study") %>%
+      tab_header(
+        title = md("**Clinical Trials in Rectal Cancer Treatment**"),
+        subtitle = md("*Grouped by Treatment Category*")
+      ) %>%
+      tab_style(
+        style = cell_text(align = "center", 
+                          weight = "bold",
+                          color = "red"
+                          ),
+        locations = cells_row_groups()
+      ) %>%
+      tab_source_note(
+      source_note = "cCR = clinical complete response, CRT = chemoradiotherapy, TME = Total mesorectal excision, LV = Leucovorin, OS = Overall survival, DSF = disease-free survival, pCR = pathological complete response, SCRT = Short-course radiation therapy (25 Gy/5f)."
+    ) %>%
+  opt_row_striping()
+    
+gt_theme_nytimes(studien_table)
 
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
-## Wichtige Studien 
+```
+ 
+# Literatur
 
