@@ -212,22 +212,13 @@ Vor diesem Hintergrund untersucht die multizentrische Studie CAO/ARO/AIO-18.1 un
 
 Erstmals kommt hier eine intensivierte Radiochemotherapie mit 5-FU und Oxaliplatin zum Einsatz. Primäres Ziel bleibt der organerhaltende Therapieansatz bei optimaler lokaler Tumorkontrolle.
 
-
-
-
-
-
-
-
-
-
-
-
 ## Standard: Konventionelle Radiochemotherapie (45–50,4 Gy)
 
+Die präoperative Radiochemotherapie ist dafür bekannt, ein effektives Downstaging zu ermöglichen, wodurch die Chance auf Sphinktererhalt steigt und ausgedehntere Operationen vermieden werden können [@SauerEtAl2004].
 
+Zudemn besteht Hinsichtlich der Kurzzeitbestrahlung weiterhin Unsicherheit über mögliche Langzeitmorbiditäten. Einige Studien berichten über langfristige Komplikationen, jedoch fehlen bislang umfassende direkte Vergleiche zur Radiochemotherapie [@BahadoerEtAl2021].
 
-Der Standard in unserer Praxis ist die normofraktionierte Bestrahlung im Rahmen einer Radiochemotherapie.
+Darüberhinaus gilt in Deutschland die konventionelle Radiochemotherapie als Standard. Entsprechend gilt auch in unserer Praxis derzeit die normofraktionierte Bestrahlung im Rahmen einer kombinierten Radiochemotherapie als Standard.
 
 Diese **soll laut S3-Leitlinie** in folgenden Fällen durchgeführt werden [@DeutscheKrebsgesellschaftEtAl2019]:
 
