@@ -27,9 +27,9 @@ Ohne Behandlung (oder rein palliative Behandlung) leben Patienten im Durchschnit
 Im 1982 Heald führte der totalen mesorektalen Exzision (TME). Bei der TME wird das komplete Mesorektum entfernt, wodurch die Lokalrezidivrate auf ~3-7 % gesenkt werden konnte. Die OS nach 5 Jahren war 87 %. @HealdRyall1986
 Die TME setzte sich in den folgenden zwei Jahrzehnten international durch und setzte einen neuen chirurgischen Standard. @DeschnerEtAl2021
 
-In 1985 der Gastrointestinal Tumor Study Group @GastrointestinalTumorStudyGroup1985 zeigte, dass die adjuvante Therapie Vorteile in Bezug auf die lokale Kontrolle (Rezidiv/Disease free survival) hatte, insbesondere wenn die RT mit einer Chemotherapie kombiniert wurde.
+1985 zeigte die Gastrointestinal Tumor Study Group @GastrointestinalTumorStudyGroup1985 , dass die adjuvante Therapie Vorteile bei der lokalen Kontrolle (Rezidivrate/Disease-Free Survival) hatte, insbesondere die **Radiochemotherapie.**
 
-Die neoadjuvante Radiochemotherapie wurde untersucht, um die Ergebnisse darüber  hinaus zu verbessern.
+Die Radiochemotherapy wurde dann als **neoadjuvantes** Konzept untersucht, um die Ergebnisse weiter zu verbessern.
 
 Die theoretischen Vorteile waren @DeschnerEtAl2021 :
 
@@ -41,18 +41,18 @@ Die theoretischen Vorteile waren @DeschnerEtAl2021 :
 
 1997 zeigte der "Swedish Rectal Cancer Trial" @SwedishRectalCancerTrial1997, dass die neoadjuvante RT sowohl die lokale Kontrolle als auch das Gesamtüberleben verbesserte, dies war ein Wendepunkt. 
 
-Trotz besserer lokaler Kontrolle blieb jedoch die Fernmetastasierung ein großes Problem. Die adjuvante Chemotherapie sollte hier wirken, doch die schlechte Compliance schränkte ihren Nutzen ein.
-
 Die deutsche CAO/ARO/AIO-94 Studie @SauerEtAl2004 bestätigte, dass die neoadjuvante CRT der adjuvanten CRT in lokal fortgeschrittenen Fällen überlegen war.
+
+Trotz besserer lokaler Kontrolle blieb die Fernmetastasierung ein großes Problem. 
+Die **adjuvante Chemotherapie** sollte dem entgegenwirken, doch die geringe Compliance begrenzte ihren Nutzen. @IVEtAl2022
 
 Die Stockholm-III-Studie @ErlandssonEtAl2017 zeigte, dass eine Kurzzeit-Therapie mit verzögerter Operation ebenso wirksam war wie eine Kurzzeit-Strahlentherapie mit sofortiger Operation- was die Möglichkeit einer zusätzlichen Chemotherapie vor der Operation eröffnete.
 
-Daraus entwickelte sich das Konzept der totalen neoadjuvanten Therapie (TNT) [@BahadoerEtAl2021; @ConroyEtAl2021], bei der alle Behandlungen (Radiochemotherapy und Chemotherapy) vor der Operation durchgeführt werden. 
+Daraus entwickelte sich das Konzept der totalen neoadjuvanten Therapie (TNT) [@BahadoerEtAl2021; @ConroyEtAl2021], bei der alle Behandlungen **(Radiochemotherapy und Chemotherapy)** vor der Operation durchgeführt werden. 
 
-TNT verbessert die Ansprechraten, und bei einigen Patienten, die ein klinisch komplettes Ansprechen (cCR) erreichen, kann sogar eine Operation vermieden werden dies zegite z.B. die OPRA-Trial @Garcia-AguilarEtAl2022, wodurch sich das Interesse an einer nichtoperativen Behandlung in ausgewählten Fällen verschiebt. 
+Die TNT verbessert die Ansprechraten, und bei einigen Patienten, die ein klinisch/pathologisch komplettes Ansprechen (cCR) erreichen, kann sogar eine Operation vermieden werden dies zegite z.B. die OPRA-Trial @Garcia-AguilarEtAl2022, wodurch sich das Interesse an einer nichtoperativen Behandlung in ausgewählten Fällen verschiebt. 
 
-
-Sonderfall: Neulich Patienten mit bestimmten genetisch bedingten Tumorarten (MSI-H/dMMR) erhalten jetzt stattdessen zuerst eine Immuntherapie die zur eine kommplete Remision führt. @CercekEtAl2022
+Patienten mit bestimmten genetisch bedingten Tumorarten (MSI-H/dMMR) erhalten inzwischen zunächst eine Immuntherapie, die häufig zu einer vollständigen Remission führt. @CercekEtAl2022
 
 # Spreechstunde 
 
@@ -63,13 +63,27 @@ Die Dokumentation des Leistungsstatus erfolgt nach der Einteilung der Eastern Co
 ## Obligatorische Untersuchungen
 
 - Starre Rektoskopie (Goldstandard zur Definition des Tumorabstands ab ano)
+
 - Qualitätsgesicherte MRT Becken
-- CT Thorax/Abdomen ggf. 
-  - Sonographie Abdomen (Empfehlung S3 Leitlinie)
+
+- Abdomensonographie (primär zur Klärung von Lebermetastasen) @DeutscheKrebsgesellschaftEtAl2019
+
+- Rö-Thorax (2 Ebenen)
+
+  - Im Falle eines unklaren Befundes oder des Verdachtes auf Fernmetastasen oder Infiltration von Nachbarorganen oder umgebende Strukturen soll ein Mehrzeilen-CT des Abdomens und Beckens erfolgen bzw:
+  
+  - Bei Verdacht auf Lungenmetastasen ein CT des Thorax
+
 - CEA
+
 - Histologie/ MSI (Mikrosatelliteninstabilität)
+
 - DPD Test
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 ### DPD Test
 
 Bei Vorliegen eines DPD-Mangels kann das Medikament 5-FU bzw. Capecitabin (Prodrug) nicht verstoffwechselt werden und es kommt zu schweren Toxizitäten. 
@@ -99,6 +113,7 @@ Bei der Differenzierung von T2 und T3-Karzinomen wies die Endosonographie wieder
 
 ### Staging 
 
+<<<<<<< HEAD
 Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor. 
 
 - Leber 15%
@@ -121,10 +136,17 @@ Laut S3 Leitlinie beinhaltet das Staging folgende Untersuchungen @DeutscheKrebsg
 - Rektale Endosonographie bei lokal begrenztem Tumor
 
 
+=======
+>>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 ### PET-CT 
 
 bei lokal fortgeschrittener Erkrankung
 
+<<<<<<< HEAD
+=======
+### Histologie
+
+>>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 #### MMR/MSI-Status
 
 Bei etwa 3-5% der Patienten mit lokal begrenztem Rektumkarzinom ist ein DNS-
@@ -133,7 +155,11 @@ nachweisbar.
 
 Dostarlimab kann eine klinische komplette Remission erreichen. So dass eine Radiochemotherapie und eine Operation unterbleiben kann. Eine [Handreichung der DGHO](https://www.dgho.de/publikationen/stellungnahmen/gute-aerztliche-praxis/immuncheckpoint-inhibitoren/immuncheckpointinhibitor-20230508.pdf) kann bei der Beantragung dieser Therapie hilfreich sein. 
 
+<<<<<<< HEAD
 ### Entfernung vom Analrand
+=======
+## Entfernung vom Analrand
+>>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 
 Die präoperative Messung der Höhenangabe des Tumors mit dem flexiblen Endoskop ist unzuverlässig. 
 Zuverlässiger sind die **Höhenangaben mit dem starren Rektoskop.** @DeutscheKrebsgesellschaftEtAl2019
@@ -146,14 +172,18 @@ Dementsprechend werden letztere dokumetiert. Ab Anokutanlinie:
 
 ## Rechtfertigende Indikation 
 
+<<<<<<< HEAD
 Die Indikation zur Therapie in unserer Praxis erfordert das Vorliegen einer Tumorboard-Empfehlung. 
 Dabei muss die Unterscheidung zwischen TNT und neoadjuvanter Radiochemotherapie mit anschließender Operation ***eindeutig*** festgehalten sein. Sollte dies nicht der Fall sein, ist ***vor Beginn der Therapie*** Rücksprache mit den Onkologen erforderlich.
+=======
+# Rechtfertigende Indikation 
+>>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 
 In Folge werden Kandidaten für neoadjuvante Therapie erleutert. 
 
-#### Stadium I (cT1-2N0)
+## Stadium I (cT1-2N0)
 
-##### Neoadjuvante vs. Upfront-Chirurgie
+### Neoadjuvante vs. Upfront-Chirurgie
 
 Bei T1-High-Risk-Karzinomen (G3/4 u./o. Lymphgefäßinvasion) und bei T2 Karzinomen liegt das Auftreten von Lymphknotenmetastasen bei 10–20%, sodass die alleinige lokale Exzision nicht empfohlen werden kann und eine primäre radikale Operation oder eine sekundäre radikale Nachoperation indiziert sind. 
 
@@ -163,7 +193,7 @@ Dahingengend haben Rektumkarzinome im UICC-Stadium I (T1/2, N0)  nach alleiniger
 
 Dementsprechend soll bei Tumore in UICC-Stadium I (cT1-2, N0) eine präoperative Therapie nicht durchgeführt werden. @DeutscheKrebsgesellschaftEtAl2019 
 
-##### Tiefsitzenden T1, N0 high-risk Tumore
+### Tiefsitzenden T1, N0 high-risk Tumore
 
 Für Patienten mit tiefsitzenden T1, N0 high-risk (G3/4, L1, V1, Durchmesser größer 3 cm, sm3) oder T2N0-Tumoren, die eine Exstirpation ablehnen, ist die Radio(chemo-) therapie, gefolgt von lokaler Exzision/transanaler endoskopischer Mikrochirurgie oder einer wait-and-see Strategie bei klinisch kompletter Remission eine Behandlungsoption @DeutscheKrebsgesellschaftEtAl2019 
 
@@ -171,22 +201,25 @@ Laut NCCN Leitlinie @NationalComprehensiveCancerNetwork2025a können bei hochris
 
 Zu den Hochrisikomerkmalen gehören positive Ränder, lymphatische Invasion, schlecht differenzierte Tumore oder sm3-Invasion (submuköse Invasion bis zum unteren Drittel der Submukosa).
 
+## Tumoren des unteren und mittleren Rektumdrittels
 
-
-#### Tumoren des unteren und mittleren Rektumdrittels
-
-##### Stadium II/III (cT3/4 und/oder cN+)
+### Stadium II/III (cT3/4 und/oder cN+)
 
 Eine neoadjuvante Radiochemotherapie oder KurzzeitRadiotherapie soll erfolgen. @DeutscheKrebsgesellschaftEtAl2019 
 
 **Ausnahmen @DeutscheKrebsgesellschaftEtAl2019 :**
 
+<<<<<<< HEAD
 - cT1/2-Tumore im unteren und mittleren Drittel mit bildgebend fraglichen Lymphknotenbefall.
 
 - cT3a/b-Tumore im mittleren Drittel mit in der MRT nur limitierter Infiltration ins perirektale Fettgewebe (cT3a: <1 mm, cT3b: 1-5 mm) und ohne bildgebenden Verdacht auf Lymphknotenmetastasen oder extra-muraler Gefäßinvasion (EMVI-) bei adäquater Qualitätssicherung der MRT-Diagnostik und der TME-Chirurgie.
+=======
+- cT1/2 Tumore im unteren und mittleren Drittel mit bildgebend fraglichen Lymphknotenbefall.
+>>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 
-##### Weitere Stadien 
+- cT3a/b Tumore im mittleren Drittel mit in der MRT nur limitierter Infiltration ins perirektale Fettgewebe (cT3a: <1 mm, cT3b: 1-5 mm) und ohne bildgebenden Verdacht auf Lymphknotenmetastasen oder extra-muraler Gefäßinvasion (EMVI-) bei adäquater Qualitätssicherung der MRT-Diagnostik und der TME-Chirurgie.
 
+<<<<<<< HEAD
 Laut Therapie-Algorithmus für die Stadien I-III der Onkopedia Leitlinie @Ralf-DieterHofheinzEtAl2025 : 
 
 ##### cT1-2 N0
@@ -236,6 +269,9 @@ TNT bevorzugt (ab T3)
 - Perioperative Chemotherapie
 
 ##### Tumore im oberen Rektumdrittel
+=======
+## Tumore im oberen Rektumdrittel
+>>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 
 Rektumkarzinome im oberen Drittel ohne Risikokonstellation für ein Lokal-rezidiv sollen primär operiert. Jedoch eine präoperative Radio-/ Radiochemotherapie ***kann***, Bei einer Risikokonstellation, 
 erfolgen @DeutscheKrebsgesellschaftEtAl2019 z.B.:
@@ -244,24 +280,78 @@ erfolgen @DeutscheKrebsgesellschaftEtAl2019 z.B.:
 - mrCRM+
 - bildgebend eindeutiger und ausgedehnter Lymphknotenbefall 
 
-
-#### Kurzzeitige vs. langzeitige RT
-
-Die neoadjuvante Radiotherapie kann entweder als Kurzzeitbestrahlung mit 5 x 5 Gy gefolgt von sofortiger Operation oder als konventionell fraktionierte Radiochemotherapie (1.8-2.0 Gy bis 45-50.4 Gy) mit einem Intervall von 6-8 Wochen bis zur Operation erfolgen. @DeutscheKrebsgesellschaftEtAl2019
+## Therapie-Algorithmus für die Stadien I-III der Onkopedia Leitlinie: @Ralf-DieterHofheinzEtAl2025
 
 
-#### Kurzzeitige RT (5×5 Gy)
+![cCR - klinische Komplettremission; PME - Partielle Mesorektumexzision; TME - Totale Mesorektumexzision; w/w - watch & wait; TNT - totale neoadjuvante Therapie; RT –Strahlentherapie; RChT – Strahlenchemotherapie; RF – Risikofaktoren; MSI-H – hohe Mikrosatelliteninstabilität; EMVI+ - extramurale Gefäßinvasion; TNT – totale neoadjuvante Therapie; mrCRM+ - positiver präoperativer zirkumferenzieller Resektionsrand im MRT; LK+ - befallene Lymphknoten; Brachy – Brachytherapie](Bilder/AlgorithmusOnkopedia.jpg){}
 
-Für Patienten bei denen ein Downsizing angestrebt ist, kann auch die Kurzzeitbestrahlung mit längerem Intervall bis zu 12 Wochen zur Operation (mit und ohne neoadjuvante Chemotherapie) durchgeführt werden.
+# Strahlentherapie: Dosiskonzept
 
-#### konventionelle CRT (45-50,4 Gy)
+Die neoadjuvante Radiotherapie kann entweder als:
 
-Eine konventionelle präoperative Radiochemotherapie **soll** in folgenden Fällen durchgeführt werden @DeutscheKrebsgesellschaftEtAl2019 :
+- **Kurzzeitbestrahlung** mit 5 × 5 Gy, gefolgt von einer sofortigen Operation, oder  
+- **Konventionell fraktionierte Radiochemotherapie** (1,8–2,0 Gy bis zu einer Gesamtdosis von 45–50,4 Gy) mit einem Intervall von 6–8 Wochen bis zur Operation
 
-- T4-Tumoren
-- Nähe des Tumors zur mesorektalen Fazie (<1-2 mm)
-- tiefliegenden Tumoren mit intendiertem Sphinktererhalt 
+durchgeführt werden.  
+Quelle: @DeutscheKrebsgesellschaftEtAl2019
 
+<<<<<<< HEAD
+=======
+
+## Standard: Konventionelle Radiochemotherapie (45–50,4 Gy)
+
+Der Standard in unserer Praxis ist die normofraktionierte Bestrahlung im Rahmen einer Radiochemotherapie.
+
+Diese **soll laut S3-Leitlinie** in folgenden Fällen durchgeführt werden [@DeutscheKrebsgesellschaftEtAl2019]:
+
+- T4-Tumoren  
+- Tumornähe zur mesorektalen Faszie (<1–2 mm)  
+- Tiefliegende Tumoren mit intendiertem Sphinktererhalt
+
+## Außerhalb eines TNT-Konzeptes
+
+Die Bestrahlung erfolgt in **25 Fraktionen** mit zwei Zielvolumina:
+
+- **Rektum**: 2,0 Gy Einzeldosis  
+- **Pelvines LAG**: 1,8 Gy Einzeldosis
+
+## Im Rahmen eines TNT-Konzeptes
+
+Die Therapie wird in **30 Fraktionen** in zwei Abschnitte unterteilt:
+
+### Teil 1: Primärbehandlung (25 Fraktionen)
+
+Zwei Volumina werden behandelt:
+
+- **Rektum**: 1,8 Gy Einzeldosis  
+- **Pelvines LAG**: 1,8 Gy Einzeldosis
+
+### Teil 2: Boost (5 Fraktionen)
+
+Ein Volumen wird behandelt:
+
+- **Rektum**: 1,8 Gy Einzeldosis
+
+## Alternative: Kurzzeit-Radiotherapie 
+
+
+Die Kurzzeitbestrahlung ist geeignet für Patienten, die eine Radiochemotherapie vermutlich nicht tolerieren – z. B. aufgrund von Alter oder Komorbiditäten.
+
+Diese erfolgt analog zur RAPIDO @BahadoerEtAl2021 in **5 Fraktionen à 5 Gy**
+ 
+Für Patienten, bei denen ein **Downsizing** angestrebt wird, kann auch die Kurzzeitbestrahlung mit einem längeren Intervall bis zu 12 Wochen bis zur Operation durchgeführt werden – mit oder ohne zusätzlicher neoadjuvanter Chemotherapie.
+
+# Gerätearzt
+
+
+
+## Wöchentliche Kontrollbesuche
+
+## Zusammenfassung am Ende der Behandlung
+
+
+Einstufung der Toxizität und Berichterstattung (CTCAE v5.0)
+>>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 
 # Gerätearzt
 
@@ -274,6 +364,7 @@ Dokumentiert werden ***müssen***:
 - Die Laborüberwachung
 - Toxizität (CTCAE v5.0)
 
+<<<<<<< HEAD
 ## Toxizität Tabelle
 
 ```{r}
@@ -311,6 +402,60 @@ ctcae_table
 ```
 
 # Nachsorge 
+=======
+Behandlung von radiogener Toxizitäten s. (link)
+
+
+## Bei gleichzeitige systemische Therapie
+
+Folgendes **muss** dokumentiert werden: 
+
+- Capecitabin-Dosierung
+- Protokolle für die kontinuierliche 5-FU-Infusion
+- Die Laborüberwachung
+
+### Nebenwirkungen nach 
+
+```{r}
+# Load required libraries
+library(tidyverse)
+library(gt)
+library(gtExtras)
+library(googlesheets4)
+
+ gs4_deauth() 
+
+# Read the CSV (make sure to save it as 'ctcae.csv')
+ctcae_data <- read_sheet("https://docs.google.com/spreadsheets/d/1pPffgk7dPWZ_a1dnBpI1Wl16j1yTTMKMoi1AXtopOZU/edit?usp=sharing")
+
+
+# Create gt table with subheadings from 'Category'
+ctcae_table <- ctcae_data %>%
+  gt(groupname_col = "Category") %>%
+  tab_header(
+    title = "CTCAE Terms and Grades",
+    subtitle = "Grouped by Category"
+  ) %>%
+  cols_label(
+    `CTCAE Term` = "CTCAE Term",
+    `Grade 1` = "Grade 1",
+    `Grade 2` = "Grade 2",
+    `Grade 3` = "Grade 3",
+    `Grade 4` = "Grade 4",
+    `Grade 5` = "Grade 5"
+  ) %>%
+  tab_options(
+    table.font.size = "small",
+    row.striping.include_table_body = TRUE,
+    row.striping.background_color = "#f9f9f9"
+  ) %>%
+  opt_row_striping()
+
+gt_theme_nytimes(ctcae_table)
+
+```
+
+>>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 
 ## Bewertung des Ansprechens auf die Behandlung
 
@@ -323,5 +468,9 @@ Voraussetzung ist die gründliche Aufklärung über die noch unzureichende Valid
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8cca79fdc75521b737ace0867e02467b21dc6cc8
 ## Wichtige Studien 
 
