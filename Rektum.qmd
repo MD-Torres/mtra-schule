@@ -81,6 +81,9 @@ Dementsprechend sind folgende Untersuchungen laut S3-Leitlinie @DeutscheKrebsges
 
 - DPD Test
 
+- Einnahme von Brivudin in der **letzte 4 Wochen**.
+(Nach Abschluss der Brivudin-Behandlung muss eine mindestens vierwöchige Wartezeit,
+eingehalten werden, bevor die Behandlung mit einem Fluoropyrimidin begonnen werden kann.) @Aerzteblatt2012
 
 ### DPD Test
 
@@ -254,11 +257,18 @@ Für Patienten, bei denen ein **Downsizing** angestrebt wird, kann auch die Kurz
 
 ## Wöchentliche Kontrollbesuche
 
+### Erstgespräch Radiochemotherapiw
+
+Vor Beginn der Chemotherapie sollten alle Patienten routinemäßig ein Elektrokardiogramm (EKG) und eine Echokardiographie erhalten, da  5-Fluorouracil (5-FU) potenziell kardiotoxisch wirkt und Koronarspasmen auslösen kann. @SaraEtAl2018
+
+**Sonder Aufklärung**: Bei einer Behandlung mit 5-Fluorouracil (5-FU) ist die gleichzeitige Gabe von Brivudin (Zostex®) absolut Kontraindiziert.
+Dies ist wichtig im Falle vom Herpes Zoster (Gürtelrose). Brivudin hemmt das Enzym Dihydropyrimidin-Dehydrogenase (DPD), das für den Abbau von 5-FU essenziell ist. Eine gleichzeitige Einnahme kann daher zu einer Akkumulation von 5-FU im Körper führen und potenziell lebensbedrohliche toxische Nebenwirkungen verursachen. @Aerzteblatt2012
+
 ## Zusammenfassung am Ende der Behandlung
 
 ## Nebenwirkungen nach 
 
-```{r, echo=FALSE}
+```{r ctca-table, echo=FALSE}
 # Load required libraries
 library(tidyverse)
 library(gt)
@@ -328,7 +338,7 @@ Ein erhöhter CEA-Wert erfordert eine weitere Diagnostik. @DeutscheKrebsgesellsc
 
 # Wichtige Studien
 
-```{r rectal-cancer-table, echo=FALSE, message=FALSE, warning=FALSE}
+```{r trials-table, echo=FALSE, message=FALSE, warning=FALSE}
 
   library(tidyverse)
   library(gt)
