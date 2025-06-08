@@ -207,17 +207,19 @@ erfolgen @DeutscheKrebsgesellschaftEtAl2019 z.B.:
 
 ![cCR - klinische Komplettremission; PME - Partielle Mesorektumexzision; TME - Totale Mesorektumexzision; w/w - watch & wait; TNT - totale neoadjuvante Therapie; RT –Strahlentherapie; RChT – Strahlenchemotherapie; RF – Risikofaktoren; MSI-H – hohe Mikrosatelliteninstabilität; EMVI+ - extramurale Gefäßinvasion; TNT – totale neoadjuvante Therapie; mrCRM+ - positiver präoperativer zirkumferenzieller Resektionsrand im MRT; LK+ - befallene Lymphknoten; Brachy – Brachytherapie](Bilder/AlgorithmusOnkopedia.jpg){}
 
-# Strahlentherapie: Dosiskonzept
+# Strahlentherapie: Dosiskonzepte
 
-Sowohl die Kurzzeitbestrahlung (5 × 5 Gy) als auch die konventionell fraktionierte präoperative Radiochemotherapie haben spezifische Vor- und Nachteile in der Behandlung des lokal fortgeschrittenen Rektumkarzinoms [@SauerEtAl2004; @BahadoerEtAl2021]. Die Kurzzeitbestrahlung ist effizient und in der Regel gut verträglich, lässt jedoch offene Fragen zur Langzeitwirksamkeit [@BujkoEtAl2006]. Die Radiochemotherapie führt zu einem besseren Downstaging, ist aber mit höherer akuter Toxizität assoziiert [@JinEtAl2022].
+Sowohl die Kurzzeitbestrahlung als auch die konventionell fraktionierte Radiochemotherapie haben spezifische Vor- und Nachteile [@SauerEtAl2004; @BahadoerEtAl2021].
 
-Diese Unsicherheit spiegelt sich auch in der aktuellen deutschen S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 wider, die einen Empfehlungsgrad 0 ausspricht:
+Die Kurzzeitbestrahlung ist schnell und akut gut verträglich, dies ermöglicht eine rasche Operation, lässt jedoch Fragen zur Langzeitwirksamkeit (DFS/OS) und Spättoxizität offen [@BujkoEtAl2006]. Die konventionelle Radiochemotherapie erzielt ein besseres Downstaging, ist aber mit höherer akuter Toxizität verbunden [@JinEtAl2022].
+
+Da bisher unklar ist, ob einem der beiden Konzepte deutlich übelegen ist, lässt die aktuelle deutsche S3-Leitlinie beide Optionen gleichwertig zu (Empfehlungsgrad 0) [@DeutscheKrebsgesellschaftEtAl2019]:
 
 „Die neoadjuvante Radiotherapie kann entweder als Kurzzeitbestrahlung mit sofortiger Operation oder als konventionell fraktionierte Radiochemotherapie mit einem Intervall von 6–8 Wochen bis zur Operation erfolgen.“
 
-Vor diesem Hintergrund untersucht die multizentrische Studie CAO/ARO/AIO-18.1 unter der Leitung von Prof. Rödel (Frankfurt) diese unterschiedliche Konzepte. Verglichen werden eine Kurzzeitbestrahlung nach dem RAPIDO-Schema @BahadoerEtAl2021 und eine konventionelle Radiochemotherapie (CRT) nach dem CAO/ARO/AIO-04/-12-Protokoll @FokasEtAl2019 . Die Vermutung ist, dass eine CRT mit 5-FU/Oxaliplatin, gefolgt von Konsolidierungschemotherapie, die Organerhaltungsrate verbessert – bei vergleichbarem krankheitsfreiem Überleben (DFS).
+Vor diesem Hintergrund untersucht die multizentrische Studie CAO/ARO/AIO-18.1 unter der Leitung von Prof. Rödel (Frankfurt) diese unterschiedliche Konzepte. Verglichen werden eine Kurzzeitbestrahlung nach dem RAPIDO-Schema @BahadoerEtAl2021 und eine konventionelle Radiochemotherapie (CRT) nach dem CAO/ARO/AIO-04/-12-Protokoll @FokasEtAl2019 . 
 
-Erstmals kommt hier eine intensivierte Radiochemotherapie mit 5-FU und Oxaliplatin zum Einsatz. Primäres Ziel bleibt der organerhaltende Therapieansatz bei optimaler lokaler Tumorkontrolle.
+Die Vermutung ist, dass eine CRT mit 5-FU/Oxaliplatin, gefolgt von Konsolidierungschemotherapie, die Organerhaltungsrate verbessert – bei vergleichbarem krankheitsfreiem Überleben (DFS).
 
 ## Standard: Konventionelle Radiochemotherapie (45–50,4 Gy)
 
@@ -242,9 +244,6 @@ Die Bestrahlung erfolgt in **25 Fraktionen** mit zwei Zielvolumina:
 
 ## Im Rahmen eines TNT-Konzeptes
 
-
-
-
 Die Therapie wird in **30 Fraktionen** in zwei Abschnitte unterteilt:
 
 ### Teil 1: Primärbehandlung (25 Fraktionen)
@@ -261,7 +260,6 @@ Ein Volumen wird behandelt:
 - **Rektum**: 1,8 Gy Einzeldosis
 
 ## Alternative: Kurzzeit-Radiotherapie 
-
 
 Die Kurzzeitbestrahlung ist geeignet für Patienten, die eine Radiochemotherapie vermutlich nicht tolerieren – z. B. aufgrund von Alter oder Komorbiditäten.
 
