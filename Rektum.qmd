@@ -17,24 +17,24 @@ crossref:
   tbl-title: Tabelle
 ---
 
-# Kurzüberblick
+# Kurzüberblick 
 
-## ICD10: C20
+**ICD10: C20**
 
 Rektumkarzinome sind Tumoren, deren aboraler Rand bei der Messung mit dem starren Rektoskop **16 cm oder weniger** von der **Anokutanlinie** entfernt sind (USA >12cm ab ano = Kolonkarzinome). @DeutscheKrebsgesellschaftEtAl2019
 
-Ohne Behandlung (oder rein palliative Behandlung) leben Patienten im Durchschnitt 9,8 Monate nach Diagnose @PestanaEtAl1964 .
-Im 1982 Heald führte der totalen mesorektalen Exzision (TME). 
-Bei der TME wird das komplete Mesorektum entfernt, wodurch die Lokalrezidivrate auf 3-7 % gesenkt werden konnte. 
-Die OS nach 5 Jahren war 87 %. @HealdRyall1986
+Einst als unheilbare Krankheit angesehen, hat sich die Sterblichkeitsrate bei lokal fortgeschrittenem Rektumkarzinom durch die multimodale Therapie von 100 % auf weniger als 4 % verbessert. @GallerEtAl2011
 
-Die TME setzte sich in den folgenden zwei Jahrzehnten international durch und setzte einen neuen chirurgischen Standard. @DeschnerEtAl2021
+1982 führte Heald die totale mesorektale Exzision (TME) ein, bei der das gesamte Mesorektum entfernt wird [@HealdRyall1986].  
+
+Die TME setzte sich in den folgenden zwei Jahrzehnten international durch und setzte einen neuen chirurgischen Standard [@DeschnerEtAl2021]. 
 
 ## Adjuvante Therapie
 
 1985 zeigte die Gastrointestinal Tumor Study Group @GastrointestinalTumorStudyGroup1985 , dass **die adjuvante Therapie** Vorteile bei der lokalen Kontrolle (Rezidivrate/Disease-Free Survival) hatte, insbesondere die **Radiochemotherapie.**
 
-Die **adjuvante Therapie** war jedoch mit mehreren theoretischen Nachteilen verbunden: Mikrometastasen werden verzögert behandelt, was das Risiko für Fernmetastasen erhöht. Das Ansprechen des Tumors ist oft geringer, da die Durchblutung im postoperativen Gewebe eingeschränkt ist.
+Die **adjuvante Therapie** war jedoch mit mehreren theoretischen Nachteilen verbunden: Mikrometastasen werden verzögert behandelt, was das Risiko für Fernmetastasen erhöht. 
+Das Ansprechen des Tumors ist oft geringer, da die Durchblutung im postoperativen Gewebe eingeschränkt ist.
 Zudem bleibt die Chance auf eine sphinktererhaltende Operation unverändert, da bei adjuvanter Therapie kein Downstaging möglich ist [@DeschnerEtAl2021].
 
 ## Neoadjuvante Radiochemothearpie
@@ -55,9 +55,9 @@ Die Stockholm-III-Studie @ErlandssonEtAl2017 zeigte, dass eine Kurzzeitbestrahlu
 
 Daraus entwickelte sich das Konzept der totalen neoadjuvanten Therapie (TNT) [@BahadoerEtAl2021; @ConroyEtAl2021], bei der alle Behandlungen **(Radiochemotherapy und Chemotherapy)** vor der Operation durchgeführt werden. 
 
-Die Total neoadjuvante Therapie (TNT) verbessert die Ansprechraten. Bei einigen Patient:innen mit klinisch oder pathologisch komplettem Ansprechen (cCR) kann eine Operation sogar vermieden werden – wie etwa in der OPRA-Studie gezeigt wurde [@Garcia-AguilarEtAl2022]. 
+Die Total neoadjuvante Therapie (TNT) verbessert die Ansprechraten. Bei einigen Patienten mit klinisch oder pathologisch komplette Resmission kann eine Operation sogar vermieden werden – wie etwa in der OPRA-Studie gezeigt wurde [@Garcia-AguilarEtAl2022]. 
 
-## Immuntherapie 
+## Aktuell: Immuntherapie 
 
 Bei MSI-H/dMMR-Tumoren kommt aktuell vorrangig eine Immuntherapie zum Einsatz, die zu kompletter Remission führen soll [@CercekEtAl2022].
 
@@ -69,12 +69,7 @@ Die Dokumentation des Leistungsstatus erfolgt nach der Einteilung der Eastern Co
 
 ## Obligatorische Untersuchungen
 
-Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor. 
-
-- Leber 15%
-- Lungen 4%
-
-Dementsprechend sind folgende Untersuchungen laut S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 notwendig: 
+Folgende Untersuchungen laut S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 notwendig: 
 
 - Rö-Thorax (2 Ebenen)
 
@@ -88,9 +83,14 @@ Dementsprechend sind folgende Untersuchungen laut S3-Leitlinie @DeutscheKrebsges
 
 - DPD Test
 
-- Einnahme von Brivudin in der **letzte 4 Wochen**.
+- **Anamnese:** Einnahme von Brivudin in der **letzte 4 Wochen**.
 (Nach Abschluss der Brivudin-Behandlung muss eine mindestens vierwöchige Wartezeit,
 eingehalten werden, bevor die Behandlung mit einem Fluoropyrimidin begonnen werden kann.) @Aerzteblatt2012
+
+**CAVE:** Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor. 
+
+- Leber 15%
+- Lungen 4%
 
 ### DPD Test
 
