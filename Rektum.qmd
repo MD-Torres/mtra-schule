@@ -293,7 +293,6 @@ library(googlesheets4)
 
  gs4_deauth() 
 
-# Read the CSV (make sure to save it as 'ctcae.csv')
 ctcae_data <- read_sheet("https://docs.google.com/spreadsheets/d/1pPffgk7dPWZ_a1dnBpI1Wl16j1yTTMKMoi1AXtopOZU/edit?usp=sharing")
 
 
