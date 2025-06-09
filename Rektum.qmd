@@ -300,19 +300,6 @@ Erfasst werden :
 - Bei schwerwiegenden Nebenwirkungen (≥ CTCAE Grad 3) ist eine Therapieanpassung in der Frühbesprechung zu prüfen.
 
 
-#### Bei gleichzeitige systemische Therapie
-
-Folgendes **muss** dokumentiert werden: 
-
-- Capecitabin-Dosierung
-  - Bzw. Protokolle für die kontinuierliche 5-FU-Infusion
-- Die Laborüberwachung
-
-
-## Zusammenfassung am Ende der Behandlung
-
-## Nebenwirkungen nach CTCAE
-
 ```{r ctca-table, echo=FALSE}
 # Load required libraries
 library(tidyverse)
@@ -356,6 +343,24 @@ gt_theme_nytimes(ctcae_table)
 
 ```
 
+
+#### Bei gleichzeitige systemische Therapie
+
+Folgendes **muss** dokumentiert werden: 
+
+- Capecitabin-Dosierung
+  - Bzw. Protokolle für die kontinuierliche 5-FU-Infusion
+- Die Laborüberwachung
+
+
+## Zusammenfassung am Ende der Behandlung
+Hier wird das gleiche wie in der wochentliche kontrolle dokumentiert. Zudem: 
+
+- Zusammenfassende Einschätzung zur Verträglichkeit der Therapie: gut, mäßig oder ausreichend vertragen.
+
+- Eine Aussage zur weiteren Therapieplanung bzw. Nachsorge: Zum Beispiel: „Ein Termin zur Reevaluation wurde in der ASV-Chirurgie vereinbart.“
+
+- Weitere empfohlene Maßnahmen oder Termine werden ebenfalls dokumentiert
 
 # Nachsorge 
 
