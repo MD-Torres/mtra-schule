@@ -27,12 +27,15 @@ Hier wird ausschließlich Bezug auf die Plattenepithelkarzinome genommen, die in
 
 HPV-assoziierten Tumore im Oropharynx, die häufiger bei jüngeren PatientInnen auftreten, seltener eine Assoziation zu Nikotin und Alkohol aufweisen und eine deutlich bessere Prognose als HPV-negative Tumore aufweisen. @zotero-4833
 
+--- 
 
 Around 75%-85% of SCCHN is due to tobacco use and alcohol consumption, although human papillomavirus (HPV) infection as a cause of oropharyngeal cancer is increasing.
 
-HPV-positive patients with oropharyngeal cancer have a significantly better outcome than patients diagnosed with HPV-negative disease. HPV-positive SCCHN outside of the oropharynx is rare (<6%).
+HPV-positive patients with oropharyngeal cancer have a significantly better outcome than patients diagnosed with HPV-negative disease. HPV-positive SCCHN outside of the oropharynx is rare (<6%). 
 
+Every patient should undergo evaluation of their nutritional status, comorbidities, cardiopulmonary and renal function, frailty index (for geriatric patients), psychological and social status and dental status with rehabilitation in case of foreseen RT. In case of significant malnutrition, defined as weight loss of more than 10% during the 6 months before diagnosis, nutritional improvement via enteral route through a feeding tube is highly recommended before starting treatment. 
 
+@MachielsEtAl2020
 
 
 ## Onkologische Anamnese 
