@@ -61,90 +61,13 @@ Die Total neoadjuvante Therapie (TNT) verbessert die Ansprechraten. Bei einigen 
 
 Bei MSI-H/dMMR-Tumoren kommt aktuell vorrangig eine Immuntherapie zum Einsatz, die zu kompletter Remission führen soll [@CercekEtAl2022].
 
-# Spreechstunde 
+# Sprechstunde 
 
 ## Dokumentation des Leistungsstatus 
 
 Die Dokumentation des Leistungsstatus erfolgt nach der Einteilung der Eastern Cooperative Oncology Group (ECOG) 
 
 ## Obligatorische Untersuchungen
-
-```{r befunde-table, echo=FALSE}
-# Load required libraries
-library(tidyverse)
-library(gt)
-library(gtExtras)
-library(googlesheets4)
-
- gs4_deauth() 
-
-Befunde_data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")
-
-# Prepare table: one row per test, with either Fakultativ or Obligat filled
-table_data <- Befunde_data %>%
-  filter(übernehmen == "ja", Entität == "Rektumkarzinom") %>%
-  mutate(
-    Fakultativ = if_else(Fakultativ_obligat == "Fakultativ", Test_Befund, NA_character_),
-    Obligat = if_else(Fakultativ_obligat == "Obligat", Test_Befund, NA_character_)
-  ) %>%
-  select(Kategorie, Obligat, Fakultativ,  Kommentar)
-
-# Generate gt table with Kategorie as subheading
-gt_table <- table_data %>%
-  arrange(Obligat)%>%
-  gt(groupname_col = "Kategorie") %>%
-  cols_label(
-    Fakultativ = "Fakultativ",
-    Obligat = "Obligat",
-    Kommentar = "Kommentar"
-  ) %>%
-  tab_header(
-    title = "Rektumkarzinom",
-    subtitle = "Obligate und fakultative Befunde"
-  ) %>%
-  fmt_missing(columns = "Kommentar", missing_text = "—") %>%
-  fmt_missing(columns = c("Fakultativ", "Obligat"), missing_text = "") %>%
-  cols_align(align = "left") %>%
-  tab_style(
-    style = list(
-      cell_text(#color = "red", 
-                align = "left",
-                weight = "bold"
-                )
-    ),
-    locations = cells_row_groups()
-  )%>%
-  # Highlight facultative rows
-  tab_style(
-    style = cell_text(color = "gray50", style = "italic"),
-    locations = cells_body(
-      columns = everything(),
-      rows = !is.na(Fakultativ)
-    )
-  ) %>%
-  tab_style(
-    style = cell_borders(
-      sides = "right",
-      color = "transparent",
-      weight = px(0)
-    ),
-    locations = cells_row_groups()
-  ) %>%
-  opt_row_striping()
-
-
-
-gt_theme_nytimes(gt_table)%>%
-  tab_options(row_group.as_column = TRUE)
-
-
-
-
-
-
-
-
-```
 
 Folgende Untersuchungen sind laut S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 notwendig: 
 
@@ -159,8 +82,6 @@ Folgende Untersuchungen sind laut S3-Leitlinie @DeutscheKrebsgesellschaftEtAl201
 - Histologie/ MSI (Mikrosatelliteninstabilität)
 
 - DPD Test
-
-- Starre Rektoskopie
 
 - **Anamnese:** Einnahme von Brivudin in der **letzte 4 Wochen**.
 (Nach Abschluss der Brivudin-Behandlung muss eine mindestens vierwöchige Wartezeit,
