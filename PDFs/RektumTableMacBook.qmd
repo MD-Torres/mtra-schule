@@ -190,3 +190,44 @@
 
 
 
+# ```{r tbl1rek}
+# library(kableExtra)
+# library(tidyverse)
+# library(googlesheets4)
+# 
+# gs4_deauth()
+# Befunde_data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")
+# 
+# table_data <- Befunde_data %>%
+#   filter(übernehmen == "ja", Entität == "Rektumkarzinom") %>%
+#   mutate(
+#     Fakultativ = if_else(Fakultativ_obligat == "Fakultativ", Test_Befund, NA_character_),
+#     Obligat = if_else(Fakultativ_obligat == "Obligat", Test_Befund, NA_character_)
+#   ) %>%
+#   select(Kategorie, Obligat, Fakultativ, Kommentar) %>%
+#   arrange(Kategorie) %>%
+#   mutate(RowGroup = Kategorie)
+# 
+# facultative_rows <- which(!is.na(table_data$Fakultativ))
+# 
+# table_data <- table_data %>%
+#   mutate(across(everything(), ~replace_na(., "")))
+# 
+# # Set output format explicitly to "latex"
+# output_format <- "latex"
+# 
+# table_data %>%
+#   select(Kategorie, Obligat, Fakultativ, Kommentar) %>%
+#   kable(format = output_format, booktabs = TRUE, align = "l",
+#         col.names = c("Kategorie", "Obligat", "Fakultativ", "Kommentar"),
+#         escape = FALSE, na = "") %>%
+#   kable_styling(latex_options = c("striped", "hold_position"),
+#                 font_size = 10,
+#                 full_width = TRUE) %>%
+#   row_spec(facultative_rows,
+#            color = "gray", italic = TRUE) %>%
+#   collapse_rows(columns = 1, valign = "top")
+# 
+# 
+# ```
+

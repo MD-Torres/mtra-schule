@@ -1,37 +1,38 @@
-# ---
-# # title: "RektumTable"
-# format:
-#   pdf:
-#     #classoption: twocolumn           # Enables double-column layout
-#     geometry: top=3cm, bottom=3cm, left=1.5cm, right=1.5cm  # Specifies DIN A4 paper
-#     number-sections: true            # Optional: Number sections
-#     toc: false                        # Optional: Table of Contents
-#     fig-width: 6
-#     fig.asp: 0.75
-#     keep-tex: true   # Avoid keeping LaTeX files
-#     #pdf-engine: xelatex
-#     citation-package: natbib  # or "biblatex"
-#   html:
-#     toc: false                        # Optional: Table of Contents
-#     number-sections: true            # Optional: Number sections
-#     fig-width: 6
-#     fig.asp: 0.75
-#     theme: default                   # You can change to cosmo, flatly, etc.
-#     css: custom.css                  # Optional: custom CSS file
-#     code-fold: false                 # Optional: fold code blocks
-#     embed-resources: true            # Optional: embed all resources in single file
-# slide-format: revealjs
-# bibliography: ../mta-schule.bib
-# csl: ../american-medical-association.csl
-# execute:
-#   warning: false
-# crossref: 
-#   fig-prefix: Abbildung
-#   tbl-prefix: Tabelle
-#   sec-prefix: Abschnitt
-#   fig-title: Abbildung
-#   tbl-title: Tabelle
-# ---
+ ---
+ # title: "RektumTable"
+ format:
+   pdf:
+     classoption: twocolumn            Enables double-column layout
+     geometry: top=3cm, bottom=3cm, left=1.5cm, right=1.5cm   Specifies DIN A4 paper
+     number-sections: true             Optional: Number sections
+     toc: false                         Optional: Table of Contents
+     fig-width: 6
+     fig.asp: 0.75
+     keep-tex: true    Avoid keeping LaTeX files
+     pdf-engine: xelatex
+     citation-package: natbib   or "biblatex"
+ #   html:
+ #     toc: false                         Optional: Table of Contents
+ #     number-sections: true             Optional: Number sections
+ #     fig-width: 6
+ #     fig.asp: 0.75
+ #     theme: default                    You can change to cosmo, flatly, etc.
+ #     css: custom.css                   Optional: custom CSS file
+ #     code-fold: false                  Optional: fold code blocks
+ #     embed-resources: true             Optional: embed all resources in single file
+ # slide-format: revealjs
+ bibliography: ../mta-schule.bib
+ csl: ../american-medical-association.csl
+ execute:
+   warning: false
+ crossref:
+   fig-prefix: Abbildung
+   tbl-prefix: Tabelle
+   sec-prefix: Abschnitt
+   fig-title: Abbildung
+   tbl-title: Tabelle
+ ---
+ 
 # 
 # 
 #
@@ -144,6 +145,51 @@
 #  }
 #
 #
+# ```
+
+
+
+
+
+# ```{r tbl1rek}
+# library(kableExtra)
+# library(tidyverse)
+# library(googlesheets4)
+# 
+# gs4_deauth()
+# Befunde_data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")
+# 
+# table_data <- Befunde_data %>%
+#   filter(übernehmen == "ja", Entität == "Rektumkarzinom") %>%
+#   mutate(
+#     Fakultativ = if_else(Fakultativ_obligat == "Fakultativ", Test_Befund, NA_character_),
+#     Obligat = if_else(Fakultativ_obligat == "Obligat", Test_Befund, NA_character_)
+#   ) %>%
+#   select(Kategorie, Obligat, Fakultativ, Kommentar) %>%
+#   arrange(Kategorie) %>%
+#   mutate(RowGroup = Kategorie)
+# 
+# facultative_rows <- which(!is.na(table_data$Fakultativ))
+# 
+# table_data <- table_data %>%
+#   mutate(across(everything(), ~replace_na(., "")))
+# 
+# # Set output format explicitly to "latex"
+# output_format <- "latex"
+# 
+# table_data %>%
+#   select(Kategorie, Obligat, Fakultativ, Kommentar) %>%
+#   kable(format = output_format, booktabs = TRUE, align = "l",
+#         col.names = c("Kategorie", "Obligat", "Fakultativ", "Kommentar"),
+#         escape = FALSE, na = "") %>%
+#   kable_styling(latex_options = c("striped", "hold_position"),
+#                 font_size = 10,
+#                 full_width = TRUE) %>%
+#   row_spec(facultative_rows,
+#            color = "gray", italic = TRUE) %>%
+#   collapse_rows(columns = 1, valign = "top")
+# 
+# 
 # ```
 
 
