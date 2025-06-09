@@ -69,7 +69,7 @@ Die Dokumentation des Leistungsstatus erfolgt nach der Einteilung der Eastern Co
 
 ## Obligatorische Untersuchungen
 
-```{r ctca-table, echo=FALSE}
+```{r befunde-table, echo=FALSE}
 # Load required libraries
 library(tidyverse)
 library(gt)
