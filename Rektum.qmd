@@ -69,30 +69,90 @@ Die Dokumentation des Leistungsstatus erfolgt nach der Einteilung der Eastern Co
 
 ## Obligatorische Untersuchungen
 
-Folgende Untersuchungen sind laut S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 notwendig: 
+Notwendige Untersuchungen laut S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 sind in @tbl-befunde zusammengefasst: 
 
-- Rö-Thorax (2 Ebenen)
+```{r befunde-table, echo=FALSE}
+#| label: tbl-befunde
 
-  - Im Falle eines unklaren Befundes oder des Verdachtes auf Fernmetastasen oder Infiltration von Nachbarorganen oder umgebende Strukturen soll ein Mehrzeilen-CT des Abdomens und Beckens erfolgen bzw:
-  
-- Bei Verdacht auf Lungenmetastasen ein CT des Thorax
 
-- CEA
+# Load required libraries
+library(tidyverse)
+library(gt)
+library(gtExtras)
+library(googlesheets4)
 
-- Histologie/ MSI (Mikrosatelliteninstabilität)
+gs4_deauth() 
 
-- DPD Test
+Befunde_data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")
 
-- **Anamnese:** Einnahme von Brivudin in der **letzte 4 Wochen**.
-(Nach Abschluss der Brivudin-Behandlung muss eine mindestens vierwöchige Wartezeit,
-eingehalten werden, bevor die Behandlung mit einem Fluoropyrimidin begonnen werden kann.) @Aerzteblatt2012
+# Prepare table: one row per test, with either Fakultativ or Obligat filled
+table_data <- Befunde_data %>%
+  filter(übernehmen == "ja", Entität == "Rektumkarzinom") %>%
+  mutate(
+    Fakultativ = if_else(Fakultativ_obligat == "Fakultativ", Test_Befund, NA_character_),
+    Obligat = if_else(Fakultativ_obligat == "Obligat", Test_Befund, NA_character_)
+  ) %>%
+  select(Kategorie, Obligat, Fakultativ,  Kommentar)
 
-- **Tumorboard Empfehlung**
+# Generate gt table with Kategorie as subheading
+gt_table <- table_data %>%
+  arrange(Obligat)%>%
+  gt(groupname_col = "Kategorie") %>%
+  cols_label(
+    Fakultativ = "Fakultativ",
+    Obligat = "Obligat",
+    Kommentar = "Kommentar"
+  ) %>%
+  tab_header(
+    title = "Rektumkarzinom",
+    subtitle = "Obligate und fakultative Befunde"
+  ) %>%
+  fmt_missing(columns = "Kommentar", missing_text = "—") %>%
+  fmt_missing(columns = c("Fakultativ", "Obligat"), missing_text = "") %>%
+  cols_align(align = "left") %>%
+  tab_style(
+    style = list(
+      cell_text(#color = "red", 
+                align = "left",
+                weight = "bold"
+                )
+    ),
+    locations = cells_row_groups()
+  )%>%
+  # Highlight facultative rows
+  tab_style(
+    style = cell_text(color = "gray50", style = "italic"),
+    locations = cells_body(
+      columns = everything(),
+      rows = !is.na(Fakultativ)
+    )
+  ) %>%
+  tab_style(
+    style = cell_borders(
+      sides = "right",
+      color = "transparent",
+      weight = px(0)
+    ),
+    locations = cells_row_groups()
+  ) %>%
+  opt_row_striping()
+
+gt_theme_nytimes(gt_table)%>%
+  tab_options(row_group.as_column = TRUE)
+
+```
+
 
 **CAVE:** Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor. 
 
 - Leber 15%
 - Lungen 4%
+
+### Einnahme von Brivudin 
+
+Anamnestisch ***muss*** der Einnahme von Brivudin in der **letzte 4 Wochen** ausgeschlossen werden.
+
+Da nach Abschluss der Brivudin-Behandlung eine Wartezeit von mindestens vier Wochen, eingehalten werden muss, bevor die Behandlung mit einem Fluoropyrimidin begonnen werden kann. @Aerzteblatt2012
 
 ### DPD Test
 
