@@ -34,20 +34,20 @@
 # ---
 # 
 # 
-# 
+#
 # ```{r rectal-cancer-table, echo=FALSE, message=FALSE, warning=FALSE}
-# 
+#
 #  library(tidyverse)
 #  library(gt)
 #  library(knitr)
 #  library(kableExtra)
 #  library(googlesheets4)
-#  
-# gs4_deauth() 
-# 
+#
+# gs4_deauth()
+#
 #  # Read and clean data
 #  data <- read_sheet("https://docs.google.com/spreadsheets/d/1sWyY-VP0YjLJbj_dOtm-AOwN3UNrTQR91AlfmBbTokI/edit?usp=sharing")
-# 
+#
 # data_clean <- data %>%
 #    filter(Include == "yes", Disease == "rectal cancer") %>%
 #    mutate(
@@ -59,20 +59,20 @@
 #      #Age = ifelse(is.na(Age) | Age == "", "NR", Age),
 #      #`Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
 #    ) %>%
-#    select(Category, 
-#           `Study`, 
+#    select(Category,
+#           `Study`,
 #           `Year`,
-#           `Tumor characteristics`, 
-#           `Tumor location`, 
+#           `Tumor characteristics`,
+#           `Tumor location`,
 #            Age,
-#           `Experimental Arms`, 
-#           `standard of care`, 
+#           `Experimental Arms`,
+#           `standard of care`,
 #           `Radiation Type`,
-#           `Primary Outcome`, 
-#           `Key Findings`, 
+#           `Primary Outcome`,
+#           `Key Findings`,
 #           Citation) %>%
 #    arrange(Category)
-# 
+#
 #  # Choose output
 #  if (knitr::is_html_output()) {
 #    data_clean %>%
@@ -88,16 +88,16 @@
 #        locations = cells_row_groups()
 #      ) %>%
 #      opt_row_striping()
-# 
+#
 #  } else {
 #    # Create kable with grouped rows
 #    group_counts <- data_clean %>%
 #      count(Category) %>%
 #      deframe()
-# 
-# 
+#
+#
 #    data_clean %>%
-# 
+#
 #      select(-Category, -Citation, -"Radiation Type") %>%
 #      kbl(
 #        format = "latex",
@@ -123,9 +123,9 @@
 #      #column_spec(8, width = "3em") %>%
 #      column_spec(9, width = "10em") %>%
 #      group_rows(
-#       index = group_counts, 
-#       bold = TRUE, 
-#       italic = FALSE, 
+#       index = group_counts,
+#       bold = TRUE,
+#       italic = FALSE,
 #       latex_gap_space = "1em",
 #       color = "#FF3300",
 #       latex_align = "c",
@@ -139,11 +139,11 @@
 #     general = "cCR = clinical complete response, CRT = chemoradiotherapy, TME = Total mesorectal excision, LV = Leucovorin, OS = Overall survival, DSF = disease-free survival, pCR = pathological complete response, SCRT = Short-course radiation therapy (25 Gy/5f).",
 #     general_title = "",
 #     threeparttable = TRUE
-#     
+#
 #   )
 #  }
-# 
-# 
+#
+#
 # ```
 
 
