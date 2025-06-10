@@ -3,7 +3,7 @@
 format:
   pdf:
     classoption: twocolumn
-    geometry: top=3cm, bottom=3cm, left=1.5cm, right=1.5cm
+    geometry: top=3cm, bottom=3cm, left=1.5cm, right=2cm
     number-sections: true
     toc: false
     fig-width: 6
@@ -27,111 +27,111 @@ crossref:
 
 ```{r tblSeminalTrial, echo=FALSE, message=FALSE, warning=FALSE}
 
- library(tidyverse)
- library(gt)
- library(knitr)
- library(kableExtra)
- library(googlesheets4)
-
-gs4_deauth()
-
- # Read and clean data
- data <- read_sheet("https://docs.google.com/spreadsheets/d/1sWyY-VP0YjLJbj_dOtm-AOwN3UNrTQR91AlfmBbTokI/edit?usp=sharing")
-
-data_clean <- data %>%
-   filter(Include == "yes", Disease == "rectal cancer") %>%
-   mutate(
-     Category = case_when(
-       Category == "TNT" ~ "Total Neoadjuvant Therapy",
-       TRUE ~ Category
-     ),
-     #`Study (Year)` = paste0(Study, " (", Year, ")")
-     #Age = ifelse(is.na(Age) | Age == "", "NR", Age),
-     #`Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
-   ) %>%
-   select(Category,
-          `Study`,
-          `Year`,
-          `Tumor characteristics`,
-          `Tumor location`,
-           Age,
-          `Experimental Arms`,
-          `standard of care`,
-          `Radiation Type`,
-          `Primary Outcome`,
-          `Key Findings`,
-          Citation) %>%
-   arrange(Category)
-
- # Choose output
- if (knitr::is_html_output()) {
-   data_clean %>%
-     select(-Citation) %>%
-     gt(groupname_col = "Category") %>%
-     fmt_markdown(columns = "Study") %>%
-     tab_header(
-       title = md("**Clinical Trials in Rectal Cancer Treatment**"),
-       subtitle = md("*Grouped by Treatment Category*")
-     ) %>%
-     tab_style(
-       style = cell_text(align = "center", weight = "bold"),
-       locations = cells_row_groups()
-     ) %>%
-     opt_row_striping()
-
- } else {
-   # Create kable with grouped rows
-   group_counts <- data_clean %>%
-     count(Category) %>%
-     deframe()
-
-
-   data_clean %>%
-
-     select(-Category, -Citation, -"Radiation Type") %>%
-     kbl(
-       format = "latex",
-       booktabs = TRUE,
-       escape = TRUE,
-       caption = "Relevante Studien zum Rektumkarzinom: Eine Übersicht"
-     ) %>%
-     kable_styling(
-       latex_options = c("striped", "repeat_header", "scale_down"),
-       #latex_environment = "landscape",
-       #full_width = TRUE,
-       font_size = 12
-     ) %>%
-     row_spec(0, bold = TRUE)%>%
-     column_spec(1, bold = T, width = "5em") %>%
-     column_spec(2, width = "6em") %>%
-     column_spec(3, width = "5em") %>%
-     column_spec(4, width = "4em") %>%
-     column_spec(5, width = "3em") %>%
-     column_spec(6, width = "10em") %>%
-     column_spec(7, width = "10em") %>%
-     column_spec(8, width = "5em") %>%
-     #column_spec(8, width = "3em") %>%
-     column_spec(9, width = "10em") %>%
-     group_rows(
-      index = group_counts,
-      bold = TRUE,
-      italic = FALSE,
-      latex_gap_space = "1em",
-      color = "#FF3300",
-      latex_align = "c",
-      indent = FALSE,
-      hline_after = TRUE,
-      hline_before = FALSE,
-      latex_wrap_text = TRUE
-    )  %>%
-  footnote(
-    escape = TRUE,
-    general = "cCR = clinical complete response, CRT = chemoradiotherapy, TME = Total mesorectal excision, LV = Leucovorin, OS = Overall survival, DSF = disease-free survival, pCR = pathological complete response, SCRT = Short-course radiation therapy (25 Gy/5f).",
-    general_title = "",
-    threeparttable = TRUE
-
-  )
- }
+#  library(tidyverse)
+#  library(gt)
+#  library(knitr)
+#  library(kableExtra)
+#  library(googlesheets4)
+# 
+# gs4_deauth()
+# 
+#  # Read and clean data
+#  data <- read_sheet("https://docs.google.com/spreadsheets/d/1sWyY-VP0YjLJbj_dOtm-AOwN3UNrTQR91AlfmBbTokI/edit?usp=sharing")
+# 
+# data_clean <- data %>%
+#    filter(Include == "yes", Disease == "rectal cancer") %>%
+#    mutate(
+#      Category = case_when(
+#        Category == "TNT" ~ "Total Neoadjuvant Therapy",
+#        TRUE ~ Category
+#      ),
+#      #`Study (Year)` = paste0(Study, " (", Year, ")")
+#      #Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+#      #`Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
+#    ) %>%
+#    select(Category,
+#           `Study`,
+#           `Year`,
+#           `Tumor characteristics`,
+#           `Tumor location`,
+#            Age,
+#           `Experimental Arms`,
+#           `standard of care`,
+#           `Radiation Type`,
+#           `Primary Outcome`,
+#           `Key Findings`,
+#           Citation) %>%
+#    arrange(Category)
+# 
+#  # Choose output
+#  if (knitr::is_html_output()) {
+#    data_clean %>%
+#      select(-Citation) %>%
+#      gt(groupname_col = "Category") %>%
+#      fmt_markdown(columns = "Study") %>%
+#      tab_header(
+#        title = md("**Clinical Trials in Rectal Cancer Treatment**"),
+#        subtitle = md("*Grouped by Treatment Category*")
+#      ) %>%
+#      tab_style(
+#        style = cell_text(align = "center", weight = "bold"),
+#        locations = cells_row_groups()
+#      ) %>%
+#      opt_row_striping()
+# 
+#  } else {
+#    # Create kable with grouped rows
+#    group_counts <- data_clean %>%
+#      count(Category) %>%
+#      deframe()
+# 
+# 
+#    data_clean %>%
+# 
+#      select(-Category, -Citation, -"Radiation Type") %>%
+#      kbl(
+#        format = "latex",
+#        booktabs = TRUE,
+#        escape = TRUE,
+#        caption = "Relevante Studien zum Rektumkarzinom: Eine Übersicht"
+#      ) %>%
+#      kable_styling(
+#        latex_options = c("striped", "repeat_header", "scale_down"),
+#        #latex_environment = "landscape",
+#        #full_width = TRUE,
+#        font_size = 12
+#      ) %>%
+#      row_spec(0, bold = TRUE)%>%
+#      column_spec(1, bold = T, width = "5em") %>%
+#      column_spec(2, width = "6em") %>%
+#      column_spec(3, width = "5em") %>%
+#      column_spec(4, width = "4em") %>%
+#      column_spec(5, width = "3em") %>%
+#      column_spec(6, width = "10em") %>%
+#      column_spec(7, width = "10em") %>%
+#      column_spec(8, width = "5em") %>%
+#      #column_spec(8, width = "3em") %>%
+#      column_spec(9, width = "10em") %>%
+#      group_rows(
+#       index = group_counts,
+#       bold = TRUE,
+#       italic = FALSE,
+#       latex_gap_space = "1em",
+#       color = "#FF3300",
+#       latex_align = "c",
+#       indent = FALSE,
+#       hline_after = TRUE,
+#       hline_before = FALSE,
+#       latex_wrap_text = TRUE
+#     )  %>%
+#   footnote(
+#     escape = TRUE,
+#     general = "cCR = clinical complete response, CRT = chemoradiotherapy, TME = Total mesorectal excision, LV = Leucovorin, OS = Overall survival, DSF = disease-free survival, pCR = pathological complete response, SCRT = Short-course radiation therapy (25 Gy/5f).",
+#     general_title = "",
+#     threeparttable = TRUE
+# 
+#   )
+#  }
 
 
 ```
@@ -142,93 +142,83 @@ data_clean <- data %>%
 
 ```{r tblBefunde, echo= FALSE}
 
- library(kableExtra)
- library(tidyverse)
- library(googlesheets4)
+library(tidyverse)
+library(gt)
+library(knitr)
+library(kableExtra)
+library(googlesheets4)
 
- gs4_deauth()
- Befunde_data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")
+gs4_deauth()
 
- table_data <- Befunde_data %>%
-   filter(übernehmen == "ja", Entität == "Rektumkarzinom") %>%
-   mutate(
-     Fakultativ = if_else(Fakultativ_obligat == "Fakultativ", Test_Befund, NA_character_),
-     Obligat = if_else(Fakultativ_obligat == "Obligat", Test_Befund, NA_character_)
-   ) %>%
-   select(Kategorie, Obligat, Fakultativ, Kommentar) %>%
-   arrange(Kategorie) %>%
-   mutate(RowGroup = Kategorie)
+# Load the new dataset
+data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")  # <-- Replace with actual URL
 
- # Choose output
- if (knitr::is_html_output()) {
-   table_data %>%
-     select(-Citation) %>%
-     gt(groupname_col = "Category") %>%
-     fmt_markdown(columns = "Study") %>%
-     tab_header(
-       title = md("**Clinical Trials in Rectal Cancer Treatment**"),
-       subtitle = md("*Grouped by Treatment Category*")
-     ) %>%
-     tab_style(
-       style = cell_text(align = "center", weight = "bold"),
-       locations = cells_row_groups()
-     ) %>%
-     opt_row_striping()
-
- } else {
-   # Create kable with grouped rows
-   group_counts <- table_data %>%
-     count(Category) %>%
-     deframe()
+# Clean and sort the data
+data_clean <- data %>%
+  mutate(
+    Fakultativ_obligat = factor(Fakultativ_obligat, levels = c("Obligat", "Fakultativ"))
+  ) %>%
+  rename(
+    `Dokumentation` = Test_Befund,
+    `Verpflichtungsgrad` = Fakultativ_obligat,
+    `Bemerkung` = Kommentar
+  )%>%
+  arrange(Kategorie, Verpflichtungsgrad)
 
 
-   data_clean %>%
+data_clean <- data_clean %>%
+  filter(Entität == "Rektumkarzinom", übernehmen == "ja")
 
-     select(-Category, -Citation, -"Radiation Type") %>%
-     kbl(
-       format = "latex",
-       booktabs = TRUE,
-       escape = TRUE,
-       caption = "Relevante Studien zum Rektumkarzinom: Eine Übersicht"
-     ) %>%
-     kable_styling(
-       latex_options = c("striped", "repeat_header", "scale_down"),
-       #latex_environment = "landscape",
-       #full_width = TRUE,
-       font_size = 12
-     ) %>%
-     row_spec(0, bold = TRUE)%>%
-     column_spec(1, bold = T, width = "5em") %>%
-     column_spec(2, width = "6em") %>%
-     column_spec(3, width = "5em") %>%
-     column_spec(4, width = "4em") %>%
-     column_spec(5, width = "3em") %>%
-     column_spec(6, width = "10em") %>%
-     column_spec(7, width = "10em") %>%
-     column_spec(8, width = "5em") %>%
-     #column_spec(8, width = "3em") %>%
-     column_spec(9, width = "10em") %>%
-     group_rows(
+# Count rows for group_rows (PDF version)
+group_counts <- data_clean %>%
+  count(Kategorie) %>%
+  deframe()
+
+
+# Get row indices where Fakultativ_obligat == "Fakultativ"
+fakultativ_rows <- which(data_clean$Verpflichtungsgrad == "Fakultativ")
+
+
+
+  tableBefunde <- data_clean %>%
+    select("Dokumentation", "Bemerkung", "Verpflichtungsgrad") %>%
+    kbl(
+      format = "latex",
+      booktabs = TRUE,
+      escape = TRUE,
+      caption = "Diagnostische Tests und Befunde nach Kategorie und Verpflichtungsgrad",
+      align = c("l", "l", "r")
+    ) %>%
+    kable_styling(
+      latex_options = c(
+        "striped",
+        "repeat_header"#,
+        # "scale_down"
+        )#,
+      #font_size = 11
+    ) %>%
+    row_spec(0, bold = TRUE) %>%
+    column_spec(1, width = "18em") %>%
+    column_spec(2, width = "18em") %>%
+    column_spec(3, width = "12em") %>%
+    group_rows(
       index = group_counts,
       bold = TRUE,
       italic = FALSE,
       latex_gap_space = "1em",
       color = "#FF3300",
       latex_align = "c",
-      indent = FALSE,
-      hline_after = TRUE,
-      hline_before = FALSE,
-      latex_wrap_text = TRUE
-    )  %>%
-  footnote(
-    escape = TRUE,
-    general = "cCR = clinical complete response, CRT = chemoradiotherapy, TME = Total mesorectal excision, LV = Leucovorin, OS = Overall survival, DSF = disease-free survival, pCR = pathological complete response, SCRT = Short-course radiation therapy (25 Gy/5f).",
-    general_title = "",
-    threeparttable = TRUE
+      indent = FALSE
+    )
 
-  )
- }
+ # Add row_spec() for each "Fakultativ" row
+for (i in fakultativ_rows) {
+  tableBefunde <- tableBefunde %>% row_spec(i, italic = TRUE, color = "gray")
+}
+  
 
+tableBefunde
 
 ```
+
 
