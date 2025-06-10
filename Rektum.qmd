@@ -61,7 +61,7 @@ Die Total neoadjuvante Therapie (TNT) verbessert die Ansprechraten. Bei einigen 
 
 Bei MSI-H/dMMR-Tumoren kommt aktuell vorrangig eine Immuntherapie zum Einsatz, die zu kompletter Remission führen soll [@CercekEtAl2022].
 
-# Spreechstunde 
+# Sprechstunde 
 
 ## Dokumentation des Leistungsstatus 
 
@@ -69,14 +69,19 @@ Die Dokumentation des Leistungsstatus erfolgt nach der Einteilung der Eastern Co
 
 ## Obligatorische Untersuchungen
 
+Notwendige Untersuchungen laut S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 sind in @tbl-befunde zusammengefasst: 
+
 ```{r befunde-table, echo=FALSE}
+#| label: tbl-befunde
+
+
 # Load required libraries
 library(tidyverse)
 library(gt)
 library(gtExtras)
 library(googlesheets4)
 
- gs4_deauth() 
+gs4_deauth() 
 
 Befunde_data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")
 
@@ -132,46 +137,22 @@ gt_table <- table_data %>%
   ) %>%
   opt_row_striping()
 
-
-
 gt_theme_nytimes(gt_table)%>%
   tab_options(row_group.as_column = TRUE)
 
-
-
-
-
-
-
-
 ```
 
-Folgende Untersuchungen sind laut S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 notwendig: 
-
-- Rö-Thorax (2 Ebenen)
-
-  - Im Falle eines unklaren Befundes oder des Verdachtes auf Fernmetastasen oder Infiltration von Nachbarorganen oder umgebende Strukturen soll ein Mehrzeilen-CT des Abdomens und Beckens erfolgen bzw:
-  
-- Bei Verdacht auf Lungenmetastasen ein CT des Thorax
-
-- CEA
-
-- Histologie/ MSI (Mikrosatelliteninstabilität)
-
-- DPD Test
-
-- Starre Rektoskopie
-
-- **Anamnese:** Einnahme von Brivudin in der **letzte 4 Wochen**.
-(Nach Abschluss der Brivudin-Behandlung muss eine mindestens vierwöchige Wartezeit,
-eingehalten werden, bevor die Behandlung mit einem Fluoropyrimidin begonnen werden kann.) @Aerzteblatt2012
-
-- **Tumorboard Empfehlung**
 
 **CAVE:** Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor. 
 
 - Leber 15%
 - Lungen 4%
+
+### Einnahme von Brivudin 
+
+Anamnestisch ***muss*** der Einnahme von Brivudin in der **letzte 4 Wochen** ausgeschlossen werden.
+
+Da nach Abschluss der Brivudin-Behandlung eine Wartezeit von mindestens vier Wochen, eingehalten werden muss, bevor die Behandlung mit einem Fluoropyrimidin begonnen werden kann. @Aerzteblatt2012
 
 ### DPD Test
 
