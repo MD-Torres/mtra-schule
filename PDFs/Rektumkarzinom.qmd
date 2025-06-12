@@ -1,23 +1,33 @@
 ---
-title: "Rektumkarzinom"
-format: 
-  html: 
-    fig-width: 8
-    fig.asp: 0.618
-  # pdf:
-  #   #classoption: twocolumn           # Enables double-column layout
-  #   geometry: a4paper                # Specifies DIN A4 paper
-  #   number-sections: true            # Optional: Number sections
-  #   toc: true                        # Optional: Table of Contents
-  #   fig-width: 6
-  #   fig.asp: 0.75
-  #   keep-tex: false   # Avoid keeping LaTeX files
-slide-format: revealjs
+title: "Supportive Therapie"
+
+format:
+  pdf:
+    toc: true               # generate TOC
+    toc-depth: 3            # include up to ###‑level headings
+    number-sections: true
+    colorlinks: true        # coloured, clickable links
+    citations: true         # loads hyperref if not yet loaded
+    fig-pos: "H"
+    documentclass: article
+    papersize: a4
+    geometry:
+      - margin=2.5cm
+    include-in-header: # LaTeX snippet → page break before every \section
+      text: |
+        \usepackage{float}
+        \usepackage{etoolbox}
+        % For two‑sided docs use \cleardoublepage instead of \clearpage
+        \pretocmd{\section}{\clearpage}{}{}
+
+    
 bibliography: ../mta-schule.bib
 csl: ../american-medical-association.csl
+
 execute:
   warning: false
-crossref: 
+
+crossref:
   fig-prefix: Abbildung
   tbl-prefix: Tabelle
   sec-prefix: Abschnitt
@@ -79,76 +89,513 @@ Die Dokumentation des Leistungsstatus erfolgt nach der Einteilung der Eastern Co
 
 Notwendige Untersuchungen laut S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 sind in @tbl-befunde zusammengefasst: 
 
-```{r befunde-table, echo=FALSE}
-#| label: tbl-befunde
+```{r befundeTabele, echo=FALSE}
 
-
-# Load required libraries
 library(tidyverse)
 library(gt)
-library(gtExtras)
+library(knitr)
+library(kableExtra)
 library(googlesheets4)
 
-gs4_deauth() 
+gs4_deauth()
 
-Befunde_data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")
+# Load the new dataset
+data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")  # <-- Replace with actual URL
 
-# Prepare table: one row per test, with either Fakultativ or Obligat filled
-table_data <- Befunde_data %>%
-  filter(übernehmen == "ja", Entität == "Rektumkarzinom") %>%
+# Clean and sort the data
+data_clean <- data %>%
   mutate(
-    Fakultativ = if_else(Fakultativ_obligat == "Fakultativ", Test_Befund, NA_character_),
-    Obligat = if_else(Fakultativ_obligat == "Obligat", Test_Befund, NA_character_)
+    Fakultativ_obligat = factor(Fakultativ_obligat, levels = c("Obligat", "Fakultativ"))
   ) %>%
-  select(Kategorie, Obligat, Fakultativ,  Kommentar)
-
-# Generate gt table with Kategorie as subheading
-gt_table <- table_data %>%
-  arrange(Obligat)%>%
-  gt(groupname_col = "Kategorie") %>%
-  cols_label(
-    Fakultativ = "Fakultativ",
-    Obligat = "Obligat",
-    Kommentar = "Kommentar"
-  ) %>%
-  tab_header(
-    title = "Rektumkarzinom",
-    subtitle = "Obligate und fakultative Befunde"
-  ) %>%
-  fmt_missing(columns = "Kommentar", missing_text = "—") %>%
-  fmt_missing(columns = c("Fakultativ", "Obligat"), missing_text = "") %>%
-  cols_align(align = "left") %>%
-  tab_style(
-    style = list(
-      cell_text(#color = "red", 
-                align = "left",
-                weight = "bold"
-                )
-    ),
-    locations = cells_row_groups()
+  rename(
+    `Dokumentation` = Test_Befund,
+    `Verpflichtungsgrad` = Fakultativ_obligat,
+    `Bemerkung` = Kommentar
   )%>%
-  # Highlight facultative rows
-  tab_style(
-    style = cell_text(color = "gray50", style = "italic"),
-    locations = cells_body(
-      columns = everything(),
-      rows = !is.na(Fakultativ)
-    )
-  ) %>%
-  tab_style(
-    style = cell_borders(
-      sides = "right",
-      color = "transparent",
-      weight = px(0)
-    ),
-    locations = cells_row_groups()
-  ) %>%
-  opt_row_striping()
+  arrange(Kategorie, Verpflichtungsgrad)
 
-gt_theme_nytimes(gt_table)%>%
-  tab_options(row_group.as_column = TRUE)
+
+data_clean <- data_clean %>%
+  filter(Entität == "Rektumkarzinom", übernehmen == "ja")%>%
+  select( "Kategorie", "Verpflichtungsgrad", "Dokumentation", "Bemerkung")
+
+# Count rows for group_rows (PDF version)
+group_counts <- data_clean %>%
+  count(Kategorie) %>%
+  deframe()
+
+
+# Get row indices where Fakultativ_obligat == "Fakultativ"
+fakultativ_rows <- which(data_clean$Verpflichtungsgrad == "Fakultativ")
+
+
+
+  tableBefunde <- data_clean %>%
+    kbl(
+      format = "latex",
+      booktabs = TRUE,
+      escape = TRUE,
+      caption = "Diagnostische Tests und Befunde nach Kategorie und Verpflichtungsgrad",
+      align = c("l", "l",  "l", "r")
+    ) %>%
+    kable_styling(
+      latex_options = c(
+        #"striped",
+        #"repeat_header",
+        #"scale_down"
+        )#,
+      #font_size = 11
+    ) %>%
+    row_spec(0, bold = TRUE) %>%
+    column_spec(1, width = "9em") %>%
+    column_spec(2, width = "9em") %>%
+    column_spec(3, width = "10em") %>%
+    column_spec(4, width = "13em") %>%
+  collapse_rows(columns = c(1, 2), valign = "top")
+
+
+# for (i in fakultativ_rows) {
+#   tableBefunde <- tableBefunde %>%
+#     row_spec(i, italic = TRUE, color = "gray")
+# }
+
+# for (i in fakultativ_rows + 1) {
+#   if (i <= nrow(data_clean)) {
+#     tableBefunde <- tableBefunde %>%
+#       row_spec(i, italic = TRUE, color = "gray")
+#   }
+# }
+  
+# i <- 1
+# while (i <= length(fakultativ_rows)) {
+#   row <- fakultativ_rows[i]
+#   tableBefunde <- tableBefunde %>%
+#     row_spec(row, italic = TRUE, color = "gray")
+#   i <- i + 1
+# }
+  
+tableBefunde
+
 
 ```
 
 
 **CAVE:** Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor. 
+
+- Leber 15%
+- Lungen 4%
+
+### Einnahme von Brivudin 
+
+Anamnestisch ***muss*** der Einnahme von Brivudin in der **letzte 4 Wochen** ausgeschlossen werden.
+
+Da nach Abschluss der Brivudin-Behandlung eine Wartezeit von mindestens vier Wochen, eingehalten werden muss, bevor die Behandlung mit einem Fluoropyrimidin begonnen werden kann. @Aerzteblatt2012
+
+### DPD Test
+
+Bei Vorliegen eines DPD-Mangels kann das Medikament 5-FU bzw. Capecitabin (Prodrug) nicht verstoffwechselt werden und es kommt zu schweren Toxizitäten. 
+30 % dieser gefährlichen Reaktionen sind durch einen DPD-Mangel erklärbar. 
+
+Dementsprechend ***muss*** beim Erstgespräch der DPD-Test vorliegen, bzw. wird abgenommen. 
+
+Hierbei handelt sich um eine genetische Untersuchung im Sinne des Gendiagnostik-/Gentechnikgesetzes, d. h., es sind bestimmte Vorgaben einzuhalten (Aufklärung, Einwilligung, Durchführung durch einen Arzt und Mitteilung der Ergebnisse). 
+
+DPYD-Varianten sind als pharmakogenetische Eigenschaften mit hoher Bedeutung einzuordnen.
+
+Wird eine klinisch relevante DPD-Variante gefunden, ist dem Patienten gemäß §10 Abs.1 Satz2 GenDG eine genetische Beratung anzubieten.
+
+Der Patient kann auf eine genetische Beratung nach dem Vorliegen der Testergebnisse verzichten,
+der Verzicht ist schriftlich zu dokumentieren.
+
+Wenn eine genetische Beratung nach dem Vorliegen des Testergebnisses gewünscht wird, darf die Beratung nur durch einen Facharzt für Humangenetik oder einen nach dem GenDG qualifizierten Arzt vorgenommen werden. [@DGHO2020; @2020]
+
+### Starre Rektoskopie
+
+Die präoperative Messung der Höhenangabe des Tumors mit dem flexiblen Endoskop ist unzuverlässig. 
+Zuverlässiger sind die **Höhenangaben mit dem starren Rektoskop.** @DeutscheKrebsgesellschaftEtAl2019
+
+Beim Rektumkarzinom sollte die starre Rektoskopie mit Höhenangabe des Tumorunterrandes obligater Bestandteil der präoperativen Diagnostik sein. @DeutscheKrebsgesellschaftEtAl2019 
+
+#### Entfernung vom Analrand
+
+Ab Anokutanlinie:  
+
+- oberes Rektumdrittels (12 - 16 cm)
+- mittleres Rektumdrittels (6 - <12 cm)
+- unteres Rektumdrittels (< 6 cm) unterteilt
+
+### MRT
+
+Die Befundbeschreibung soll eine Aussage über den Abstand zur mesorektalen Faszie beinhalten. @DeutscheKrebsgesellschaftEtAl2019 
+
+### Endosonographie 
+
+Im Falle eines mutmaßlichen T1-Karzinoms eine Endosonographie, hier ist die CT nicht geeignet. 
+Bei der Differenzierung von T2 und T3-Karzinomen wies die Endosonographie wiederum eine höhere Sensitivität im Vergleich zu MRT und CT auf bei vergleichbarer Spezifität. In der Endosonographie lässt sich die mesorektale Faszie nicht darstellen. @DeutscheKrebsgesellschaftEtAl2019 
+
+### CEA
+
+Bei etwa 30% aller kolorektaler Karzinome ist der Tumormarker CEA zum Zeitpunkt der Erstdiagnose erhöht.
+
+Insbesondere in der Tumornachsorge ist dieser Tumormarker ein zuverlässiger Hinweis auf ein Rezidiv. Als weitere Tumormarker werden CA 19-9 und CA 125 diskutiert, wobei letzterer ein Marker der Peritonealkarzinose ist. 
+
+Laut S3-Leitlinie erhöht der CA 19-9 Wert die Aussagefähigkeit bezüglich des Vorliegens eines Rezidivs im Vergleich zu einer alleinigen CEA-Wert-Bestimmung nicht. @DeutscheKrebsgesellschaftEtAl2019
+
+
+### PET-CT 
+
+Hat keinen Stellenwert in der Ausbreitungsdiagnostik bei Erstdiagnose eines kolorektalen Karzinoms. @DeutscheKrebsgesellschaftEtAl2019
+
+### Histologie
+
+#### MMR/MSI-Status
+
+Bei etwa 3-5% der Patienten mit lokal begrenztem Rektumkarzinom ist ein DNS-
+Mismatch-Reparaturdefekt (dMMR) bzw. eine Mikrosatelliten-Instabilität (MSI-H) in der Tumorbiopsie
+nachweisbar. 
+
+Dostarlimab kann eine klinische komplette Remission erreichen. So dass eine Radiochemotherapie und eine Operation unterbleiben kann. Eine [Handreichung der DGHO](https://www.dgho.de/publikationen/stellungnahmen/gute-aerztliche-praxis/immuncheckpoint-inhibitoren/immuncheckpointinhibitor-20230508.pdf) kann bei der Beantragung dieser Therapie hilfreich sein. 
+
+# Rechtfertigende Indikation 
+
+Die Entscheidung für eine Strahlentherapie in unserer Praxis basiert auf einer **Empfehlung des Tumorboards**.  
+
+Dabei muss klar zwischen einem **TNT-Konzept** und einer **neoadjuvanten Radiochemotherapie mit anschließender Operation** unterschieden werden.  
+
+Ist diese Unterscheidung in der Empfehlung des Tumorboards nicht eindeutig dokumentiert, muss **vor Therapiebeginn** Rücksprache mit der Onkologie gehalten werden.
+
+## Stadium I (cT1-2N0)
+
+### Neoadjuvante vs. Upfront-Chirurgie
+
+Bei T1-High-Risk-Karzinomen (G3/4 u./o. Lymphgefäßinvasion) und bei T2 Karzinomen liegt das Auftreten von Lymphknotenmetastasen bei 10–20%, sodass die alleinige lokale Exzision nicht empfohlen werden kann und eine primäre radikale Operation oder eine sekundäre radikale Nachoperation indiziert sind. 
+
+Lehnt der Patient in dieser Situation eine radikale Nachoperation ab, so kann eine **adjuvante Radiochemotherapie** erwogen werden.
+
+Dahingengend haben Rektumkarzinome im UICC-Stadium I (T1/2, N0)  nach alleiniger radikaler Operation mit adäquater totaler mesorektaler Exzision (TME) für Tumoren im unteren/mittleren Drittel sowie partieller mesorektaler Exzision (PME) für Tumoren im oberen Rektumdrittel niedrige Lokalrezidiv- und Fernmetastasenraten (3 % Lokalrezidive bzw. weniger als 10 % Fernmetastasen nach 10 Jahren. 
+
+Dementsprechend soll bei Tumore in UICC-Stadium I (cT1-2, N0) eine präoperative Therapie nicht durchgeführt werden. @DeutscheKrebsgesellschaftEtAl2019 
+
+### Tiefsitzenden T1, N0 high-risk Tumore
+
+Für Patienten mit tiefsitzenden T1, N0 high-risk (G3/4, L1, V1, Durchmesser größer 3 cm, sm3) oder T2N0-Tumoren, die eine Exstirpation ablehnen, ist die Radio(chemo-) therapie, gefolgt von lokaler Exzision/transanaler endoskopischer Mikrochirurgie oder einer wait-and-see Strategie bei klinisch kompletter Remission eine Behandlungsoption @DeutscheKrebsgesellschaftEtAl2019 
+
+Laut NCCN Leitlinie @NationalComprehensiveCancerNetwork2025a können bei hochrisiko cT1–2, N0 Tumore eine Radiochemotherapie mit Capecitabin oder 5-Fluorouracil (5-FU), oder eine Kurzzeit-RT gefolgt von FOLFOX or CAPEOX erfolgen. 
+
+Zu den Hochrisikomerkmalen gehören positive Ränder, lymphatische Invasion, schlecht differenzierte Tumore oder sm3-Invasion (submuköse Invasion bis zum unteren Drittel der Submukosa).
+
+## Tumoren des unteren und mittleren Rektumdrittels
+
+### Stadium II/III (cT3/4 und/oder cN+)
+
+Eine neoadjuvante Radiochemotherapie oder KurzzeitRadiotherapie soll erfolgen. @DeutscheKrebsgesellschaftEtAl2019 
+
+**Ausnahmen @DeutscheKrebsgesellschaftEtAl2019 :**
+
+- cT1/2 Tumore im unteren und mittleren Drittel mit bildgebend fraglichen Lymphknotenbefall.
+
+- cT3a/b Tumore im mittleren Drittel mit in der MRT nur limitierter Infiltration ins perirektale Fettgewebe (cT3a: <1 mm, cT3b: 1-5 mm) und ohne bildgebenden Verdacht auf Lymphknotenmetastasen oder extra-muraler Gefäßinvasion (EMVI-) bei adäquater Qualitätssicherung der MRT-Diagnostik und der TME-Chirurgie.
+
+## Tumore im oberen Rektumdrittel
+
+Rektumkarzinome im oberen Drittel ohne Risikokonstellation für ein Lokal-rezidiv sollen primär operiert. Jedoch eine präoperative Radio-/ Radiochemotherapie ***kann***, Bei einer Risikokonstellation, 
+erfolgen @DeutscheKrebsgesellschaftEtAl2019 z.B.:
+
+- T4 
+- mrCRM+
+- bildgebend eindeutiger und ausgedehnter Lymphknotenbefall 
+
+## Therapie-Algorithmus für die Stadien I-III der Onkopedia Leitlinie: @Ralf-DieterHofheinzEtAl2025
+
+
+![cCR - klinische Komplettremission; PME - Partielle Mesorektumexzision; TME - Totale Mesorektumexzision; w/w - watch & wait; TNT - totale neoadjuvante Therapie; RT –Strahlentherapie; RChT – Strahlenchemotherapie; RF – Risikofaktoren; MSI-H – hohe Mikrosatelliteninstabilität; EMVI+ - extramurale Gefäßinvasion; TNT – totale neoadjuvante Therapie; mrCRM+ - positiver präoperativer zirkumferenzieller Resektionsrand im MRT; LK+ - befallene Lymphknoten; Brachy – Brachytherapie](../Bilder/AlgorithmusOnkopedia.jpg){}
+
+# Strahlentherapie: Dosiskonzepte
+
+Sowohl die Kurzzeitbestrahlung als auch die konventionell fraktionierte Radiochemotherapie haben spezifische Vor- und Nachteile [@SauerEtAl2004; @BahadoerEtAl2021].
+
+Die Kurzzeitbestrahlung ist schnell und akut gut verträglich, dies ermöglicht eine rasche Operation, lässt jedoch Fragen zur Langzeitwirksamkeit (DFS/OS) und Spättoxizität offen [@BujkoEtAl2006]. Die konventionelle Radiochemotherapie erzielt ein besseres Downstaging, ist aber mit höherer akuter Toxizität verbunden [@JinEtAl2022].
+
+Da bisher unklar ist, ob einem der beiden Konzepte deutlich übelegen ist, lässt die aktuelle deutsche S3-Leitlinie beide Optionen gleichwertig zu (Empfehlungsgrad 0) [@DeutscheKrebsgesellschaftEtAl2019]:
+
+„Die neoadjuvante Radiotherapie kann entweder als Kurzzeitbestrahlung mit sofortiger Operation oder als konventionell fraktionierte Radiochemotherapie mit einem Intervall von 6–8 Wochen bis zur Operation erfolgen.“
+
+Vor diesem Hintergrund untersucht die multizentrische Studie CAO/ARO/AIO-18.1 unter der Leitung von Prof. Rödel (Frankfurt) diese unterschiedliche Konzepte. Verglichen werden eine Kurzzeitbestrahlung nach dem RAPIDO-Schema @BahadoerEtAl2021 und eine konventionelle Radiochemotherapie (CRT) nach dem CAO/ARO/AIO-04/-12-Protokoll @FokasEtAl2019 . 
+
+Die Vermutung ist, dass eine CRT mit 5-FU/Oxaliplatin, gefolgt von Konsolidierungschemotherapie, die Organerhaltungsrate verbessert – bei vergleichbarem krankheitsfreiem Überleben (DFS).
+
+## Standard: Konventionelle Radiochemotherapie (45–50,4 Gy)
+
+Die präoperative Radiochemotherapie ist dafür bekannt, ein effektives Downstaging zu ermöglichen, wodurch die Chance auf Sphinktererhalt steigt und ausgedehntere Operationen vermieden werden können [@SauerEtAl2004].
+
+Zudemn besteht Hinsichtlich der Kurzzeitbestrahlung weiterhin Unsicherheit über mögliche Langzeitmorbiditäten. Einige Studien berichten über langfristige Komplikationen, jedoch fehlen bislang umfassende direkte Vergleiche zur Radiochemotherapie [@BahadoerEtAl2021].
+
+Darüberhinaus gilt in Deutschland die konventionelle Radiochemotherapie als Standard. Entsprechend gilt auch in unserer Praxis derzeit die normofraktionierte Bestrahlung im Rahmen einer kombinierten Radiochemotherapie als Standard.
+
+Diese **soll laut S3-Leitlinie** in folgenden Fällen durchgeführt werden [@DeutscheKrebsgesellschaftEtAl2019]:
+
+- T4-Tumoren  
+- Tumornähe zur mesorektalen Faszie (<1–2 mm)  
+- Tiefliegende Tumoren mit intendiertem Sphinktererhalt
+
+## Außerhalb eines TNT-Konzeptes
+
+Die Bestrahlung erfolgt in **25 Fraktionen** mit zwei Zielvolumina:
+
+- **Rektum**: 2,0 Gy Einzeldosis  
+- **Pelvines LAG**: 1,8 Gy Einzeldosis
+
+## Im Rahmen eines TNT-Konzeptes
+
+Die Therapie wird in **30 Fraktionen** in zwei Abschnitte unterteilt:
+
+### Teil 1: Primärbehandlung (25 Fraktionen)
+
+Zwei Volumina werden behandelt:
+
+- **Rektum**: 1,8 Gy Einzeldosis  
+- **Pelvines LAG**: 1,8 Gy Einzeldosis
+
+### Teil 2: Boost (5 Fraktionen)
+
+Ein Volumen wird behandelt:
+
+- **Rektum**: 1,8 Gy Einzeldosis
+
+## Alternative: Kurzzeit-Radiotherapie 
+
+Die Kurzzeitbestrahlung ist geeignet für Patienten, die eine Radiochemotherapie vermutlich nicht tolerieren – z. B. aufgrund von Alter oder Komorbiditäten.
+
+Diese erfolgt analog zur RAPIDO @BahadoerEtAl2021 in **5 Fraktionen à 5 Gy**
+ 
+Für Patienten, bei denen ein **Downsizing** angestrebt wird, kann auch die Kurzzeitbestrahlung mit einem längeren Intervall bis zu 12 Wochen bis zur Operation durchgeführt werden – mit oder ohne zusätzlicher neoadjuvanter Chemotherapie.
+
+# Gerätearzt
+
+## Wöchentliche Kontrollbesuche
+
+### Erstgespräch Radiochemotherapiw
+
+Vor Beginn der Chemotherapie sollten alle Patienten routinemäßig ein Elektrokardiogramm (EKG) und eine Echokardiographie erhalten, da  5-Fluorouracil (5-FU) potenziell kardiotoxisch wirkt und Koronarspasmen auslösen kann. @SaraEtAl2018
+
+**Sonder Aufklärung**: Bei einer Behandlung mit 5-Fluorouracil (5-FU) ist die gleichzeitige Gabe von Brivudin (Zostex®) absolut Kontraindiziert.
+Dies ist wichtig im Falle vom Herpes Zoster (Gürtelrose). Brivudin hemmt das Enzym Dihydropyrimidin-Dehydrogenase (DPD), das für den Abbau von 5-FU essenziell ist. Eine gleichzeitige Einnahme kann daher zu einer Akkumulation von 5-FU im Körper führen und potenziell lebensbedrohliche toxische Nebenwirkungen verursachen. @Aerzteblatt2012
+
+### Wöchentliche Kontrolle
+
+Die Kontrolle findet einmal pro Woche während der Radiochemotherapie statt. Idealerweise im Rahmen eines persönlichen Arzt-Patienten-Gesprächs. 
+
+
+Erfasst werden :
+
+- Akute Nebenwirkungen: Erfassung und Dokumentation gemäß Common Terminology Criteria for Adverse Events (CTCAE) s. Tabelle @ctca-table
+
+- Allgemeinzustand / Leistungsstatus: Einschätzung anhand des ECOG-Status
+
+- Behandlungsbedürftige Nebendiagnosen: Insbesondere bei potenzieller Auswirkung auf die Therapie/AZ (z.B. Harnwegsinfekte, Pneumonie).
+
+- Bei schwerwiegenden Nebenwirkungen (≥ CTCAE Grad 3) ist eine Therapieanpassung in der Frühbesprechung zu prüfen.
+
+
+```{r ctca-table, echo=FALSE}
+# # Load required libraries
+# library(tidyverse)
+# library(gt)
+# library(gtExtras)
+# library(googlesheets4)
+# 
+#  gs4_deauth() 
+# 
+# ctcae_data <- read_sheet("https://docs.google.com/spreadsheets/d/1pPffgk7dPWZ_a1dnBpI1Wl16j1yTTMKMoi1AXtopOZU/edit?usp=sharing")
+# 
+# 
+# # Create gt table with subheadings from 'Category'
+# ctcae_table <- ctcae_data %>%
+#   gt(groupname_col = "Category") %>%
+#   tab_header(
+#     title = "CTCAE Grades",
+#     #subtitle = "Grouped by Category"
+#   ) %>%
+#   cols_label(
+#     `CTCAE Term` = "CTCAE Term",
+#     `Grade 1` = "Grade 1",
+#     `Grade 2` = "Grade 2",
+#     `Grade 3` = "Grade 3",
+#     `Grade 4` = "Grade 4",
+#     `Grade 5` = "Grade 5"
+#   ) %>%
+#   tab_style(
+#     style = list(
+#       cell_text(color = "red", 
+#                 align = "center",
+#                 weight = "bold"
+#                 )
+#     ),
+#     locations = cells_row_groups()
+#   )%>%
+#   opt_row_striping()
+# 
+# 
+# gt_theme_nytimes(ctcae_table)
+
+```
+
+
+#### Bei gleichzeitige systemische Therapie
+
+Folgendes **muss** dokumentiert werden: 
+
+- Capecitabin-Dosierung
+  - Bzw. Protokolle für die kontinuierliche 5-FU-Infusion
+- Die Laborüberwachung
+
+
+## Zusammenfassung am Ende der Behandlung
+Hier wird das gleiche wie in der wochentliche kontrolle dokumentiert. Zudem: 
+
+- Zusammenfassende Einschätzung zur Verträglichkeit der Therapie: gut, mäßig oder ausreichend vertragen.
+
+- Eine Aussage zur weiteren Therapieplanung bzw. Nachsorge: Zum Beispiel: „Ein Termin zur Reevaluation wurde in der ASV-Chirurgie vereinbart.“
+
+- Weitere empfohlene Maßnahmen oder Termine werden ebenfalls dokumentiert
+
+# Nachsorge 
+
+Leider wird den Leitlinien nicht immer gefolgt. 
+So zeigte sich, dass bei Menschen jenseits des 65.Lebensjahres nur in 73,6% der Fälle die empfohlenen Koloskopien und lediglich bei 46,7% eine Bestimmung des CEA erfolgte, während nicht empfohlene Maßnahmen
+wie CT und PET-CT bei 48% bzw. 7% durchgeführt wurden. @DeutscheKrebsgesellschaftEtAl2019
+
+## Bewertung des Ansprechens auf die Behandlung
+
+Durch die neoadjuvante Radiochemotherapie und entsprechende Remission kann u. U. trotz primär nicht für möglich gehaltenen Sphinktererhaltes eine Schließmuskel erhaltende Rektumresektion möglich werden. 
+
+Deshalb sollte diesbezüglich frühestens 6 Wochen nach Abschluss der Radiochemotherapie eine Reevaluation stattfinden. @DeutscheKrebsgesellschaftEtAl2019
+
+## CEA Bestimmung in der Nachsorge
+
+Die Bestimmung des karzinoembryonalen Antigens (CEA) wird alle 6 Monate für mindestens 2 Jahre empfohlen. 
+Ein erhöhter CEA-Wert erfordert eine weitere Diagnostik. @DeutscheKrebsgesellschaftEtAl2019
+
+## Spätfolgen
+
+Erfassung und Dokumentation gemäß Common Terminology Criteria for Adverse Events (CTCAE) s. Tabelle @ctca-table
+
+# Wichtige Studien
+
+```{r tblSeminalTrial, echo=FALSE, message=FALSE, warning=FALSE}
+
+ library(tidyverse)
+ library(gt)
+ library(knitr)
+ library(kableExtra)
+ library(googlesheets4)
+
+gs4_deauth()
+
+ # Read and clean data
+ data <- read_sheet("https://docs.google.com/spreadsheets/d/1sWyY-VP0YjLJbj_dOtm-AOwN3UNrTQR91AlfmBbTokI/edit?usp=sharing")
+
+data_clean <- data %>%
+   filter(Include == "yes", Disease == "rectal cancer") %>%
+   mutate(
+     Category = case_when(
+       Category == "TNT" ~ "Total Neoadjuvant Therapy",
+       TRUE ~ Category
+     ),
+     #`Study (Year)` = paste0(Study, " (", Year, ")")
+     #Age = ifelse(is.na(Age) | Age == "", "NR", Age),
+     #`Tumor location` = ifelse(is.na(`Tumor location`) | `Tumor location` == "", "NR", `Tumor location`)
+   ) %>%
+   select(Category,
+          `Study`,
+          `Year`,
+          `Tumor characteristics`,
+          `Tumor location`,
+           Age,
+          `Experimental Arms`,
+          `standard of care`,
+          `Radiation Type`,
+          `Primary Outcome`,
+          `Key Findings`,
+          Citation) %>%
+   arrange(Category)
+
+ # Choose output
+ if (knitr::is_html_output()) {
+   data_clean %>%
+     select(-Citation) %>%
+     gt(groupname_col = "Category") %>%
+     fmt_markdown(columns = "Study") %>%
+     tab_header(
+       title = md("**Clinical Trials in Rectal Cancer Treatment**"),
+       subtitle = md("*Grouped by Treatment Category*")
+     ) %>%
+     tab_style(
+       style = cell_text(align = "center", weight = "bold"),
+       locations = cells_row_groups()
+     ) %>%
+     opt_row_striping()
+
+ } else {
+   # Create kable with grouped rows
+   group_counts <- data_clean %>%
+     count(Category) %>%
+     deframe()
+
+
+   data_clean %>%
+
+     select(-Category, -Citation, -"Radiation Type") %>%
+     kbl(
+       format = "latex",
+       booktabs = TRUE,
+       escape = TRUE,
+       caption = "Relevante Studien zum Rektumkarzinom: Eine Übersicht"
+     ) %>%
+     kable_styling(
+       latex_options = c("striped", "repeat_header", "scale_down"),
+       #latex_environment = "landscape",
+       #full_width = TRUE,
+       font_size = 12
+     ) %>%
+     row_spec(0, bold = TRUE)%>%
+     column_spec(1, bold = T, width = "5em") %>%
+     column_spec(2, width = "6em") %>%
+     column_spec(3, width = "5em") %>%
+     column_spec(4, width = "4em") %>%
+     column_spec(5, width = "3em") %>%
+     column_spec(6, width = "10em") %>%
+     column_spec(7, width = "10em") %>%
+     column_spec(8, width = "5em") %>%
+     #column_spec(8, width = "3em") %>%
+     column_spec(9, width = "10em") %>%
+     group_rows(
+      index = group_counts,
+      bold = TRUE,
+      italic = FALSE,
+      latex_gap_space = "1em",
+      color = "#FF3300",
+      latex_align = "c",
+      indent = FALSE,
+      hline_after = TRUE,
+      hline_before = FALSE,
+      latex_wrap_text = TRUE
+    )  %>%
+  footnote(
+    escape = TRUE,
+    general = "cCR = clinical complete response, CRT = chemoradiotherapy, TME = Total mesorectal excision, LV = Leucovorin, OS = Overall survival, DSF = disease-free survival, pCR = pathological complete response, SCRT = Short-course radiation therapy (25 Gy/5f).",
+    general_title = "",
+    threeparttable = TRUE
+
+  )
+ }
+
+
+```
+ 
+ 
+ 
+ 
+# Literatur
+
+

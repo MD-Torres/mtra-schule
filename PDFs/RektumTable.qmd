@@ -226,67 +226,67 @@ crossref:
 
 ```{r, echo=FALSE}
 
-library(tidyverse)
-library(gt)
-library(knitr)
-library(kableExtra)
-library(googlesheets4)
-
-gs4_deauth()
-
-# Load the new dataset
-data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")  # <-- Replace with actual URL
-
-# Clean and sort the data
-data_clean <- data %>%
-  mutate(
-    Fakultativ_obligat = factor(Fakultativ_obligat, levels = c("Obligat", "Fakultativ"))
-  ) %>%
-  rename(
-    `Dokumentation` = Test_Befund,
-    `Verpflichtungsgrad` = Fakultativ_obligat,
-    `Bemerkung` = Kommentar
-  )%>%
-  arrange(Kategorie, Verpflichtungsgrad)
-
-
-data_clean <- data_clean %>%
-  filter(Entität == "Rektumkarzinom", übernehmen == "ja")%>%
-  select( "Kategorie", "Verpflichtungsgrad", "Dokumentation", "Bemerkung")
-
-# Count rows for group_rows (PDF version)
-group_counts <- data_clean %>%
-  count(Kategorie) %>%
-  deframe()
-
-
-# Get row indices where Fakultativ_obligat == "Fakultativ"
-fakultativ_rows <- which(data_clean$Verpflichtungsgrad == "Fakultativ")
-
-
-
-  tableBefunde <- data_clean %>%
-    kbl(
-      format = "latex",
-      booktabs = TRUE,
-      escape = TRUE,
-      caption = "Diagnostische Tests und Befunde nach Kategorie und Verpflichtungsgrad",
-      align = c("l", "l",  "l", "r")
-    ) %>%
-    kable_styling(
-      latex_options = c(
-        #"striped",
-        #"repeat_header",
-        #"scale_down"
-        )#,
-      #font_size = 11
-    ) %>%
-    row_spec(0, bold = TRUE) %>%
-    column_spec(1, width = "9em") %>%
-    column_spec(2, width = "9em") %>%
-    column_spec(3, width = "10em") %>%
-    column_spec(4, width = "13em") %>%
-  collapse_rows(columns = c(1, 2), valign = "top")
+# library(tidyverse)
+# library(gt)
+# library(knitr)
+# library(kableExtra)
+# library(googlesheets4)
+# 
+# gs4_deauth()
+# 
+# # Load the new dataset
+# data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")  # <-- Replace with actual URL
+# 
+# # Clean and sort the data
+# data_clean <- data %>%
+#   mutate(
+#     Fakultativ_obligat = factor(Fakultativ_obligat, levels = c("Obligat", "Fakultativ"))
+#   ) %>%
+#   rename(
+#     `Dokumentation` = Test_Befund,
+#     `Verpflichtungsgrad` = Fakultativ_obligat,
+#     `Bemerkung` = Kommentar
+#   )%>%
+#   arrange(Kategorie, Verpflichtungsgrad)
+# 
+# 
+# data_clean <- data_clean %>%
+#   filter(Entität == "Rektumkarzinom", übernehmen == "ja")%>%
+#   select( "Kategorie", "Verpflichtungsgrad", "Dokumentation", "Bemerkung")
+# 
+# # Count rows for group_rows (PDF version)
+# group_counts <- data_clean %>%
+#   count(Kategorie) %>%
+#   deframe()
+# 
+# 
+# # Get row indices where Fakultativ_obligat == "Fakultativ"
+# fakultativ_rows <- which(data_clean$Verpflichtungsgrad == "Fakultativ")
+# 
+# 
+# 
+#   tableBefunde <- data_clean %>%
+#     kbl(
+#       format = "latex",
+#       booktabs = TRUE,
+#       escape = TRUE,
+#       caption = "Diagnostische Tests und Befunde nach Kategorie und Verpflichtungsgrad",
+#       align = c("l", "l",  "l", "r")
+#     ) %>%
+#     kable_styling(
+#       latex_options = c(
+#         #"striped",
+#         #"repeat_header",
+#         #"scale_down"
+#         )#,
+#       #font_size = 11
+#     ) %>%
+#     row_spec(0, bold = TRUE) %>%
+#     column_spec(1, width = "9em") %>%
+#     column_spec(2, width = "9em") %>%
+#     column_spec(3, width = "10em") %>%
+#     column_spec(4, width = "13em") %>%
+#   collapse_rows(columns = c(1, 2), valign = "top")
 
 
 # for (i in fakultativ_rows) {
@@ -309,7 +309,52 @@ fakultativ_rows <- which(data_clean$Verpflichtungsgrad == "Fakultativ")
 #   i <- i + 1
 # }
   
-tableBefunde
+# tableBefunde
 
+
+```
+
+
+```{r ctcaTable, echo=FALSE}
+
+library(tidyverse)
+library(gt)
+library(knitr)
+library(kableExtra)
+library(googlesheets4)
+
+ gs4_deauth() 
+
+ctcae_data <- read_sheet("https://docs.google.com/spreadsheets/d/1pPffgk7dPWZ_a1dnBpI1Wl16j1yTTMKMoi1AXtopOZU/edit?usp=sharing")
+
+
+# Sort the data by Category (important for grouping)
+ctcae_data <- ctcae_data %>%
+  arrange(Category)
+
+# Create a grouped table manually
+# Calculate start and end rows for each group
+group_info <- ctcae_data %>%
+  mutate(row = row_number()) %>%
+  group_by(Category) %>%
+  summarise(start = first(row), end = last(row), .groups = "drop")
+
+# Create base kable table
+kbl_table <- ctcae_data %>%
+  select(-Category) %>%  # Remove Category from main table, since we'll use it in group_rows
+  kbl(booktabs = TRUE, caption = "CTCAE Grades", align = "lccccc") %>%
+  kable_styling(latex_options = c("striped", "hold_position", "repeat_header"), 
+                font_size = 9, 
+                full_width = FALSE)
+
+# Add group rows
+for (i in seq_len(nrow(group_info))) {
+  kbl_table <- kbl_table %>%
+    group_rows(group_label = group_info$Category[i],
+               start_row = group_info$start[i],
+               end_row = group_info$end[i])
+}
+
+kbl_table
 
 ```
