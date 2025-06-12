@@ -1,0 +1,154 @@
+---
+title: "Rektumkarzinom"
+format: 
+  html: 
+    fig-width: 8
+    fig.asp: 0.618
+  # pdf:
+  #   #classoption: twocolumn           # Enables double-column layout
+  #   geometry: a4paper                # Specifies DIN A4 paper
+  #   number-sections: true            # Optional: Number sections
+  #   toc: true                        # Optional: Table of Contents
+  #   fig-width: 6
+  #   fig.asp: 0.75
+  #   keep-tex: false   # Avoid keeping LaTeX files
+slide-format: revealjs
+bibliography: ../mta-schule.bib
+csl: ../american-medical-association.csl
+execute:
+  warning: false
+crossref: 
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  sec-prefix: Abschnitt
+  fig-title: Abbildung
+  tbl-title: Tabelle
+---
+
+# Kurzüberblick 
+
+**ICD10: C20**
+
+Rektumkarzinome sind Tumoren, deren aboraler Rand bei der Messung mit dem starren Rektoskop **16 cm oder weniger** von der **Anokutanlinie** entfernt sind (USA >12cm ab ano = Kolonkarzinome). @DeutscheKrebsgesellschaftEtAl2019
+
+Einst als unheilbare Krankheit angesehen, hat sich die Sterblichkeitsrate bei lokal fortgeschrittenem Rektumkarzinom durch die multimodale Therapie von 100 % auf weniger als 4 % verbessert. @GallerEtAl2011
+
+1982 führte Heald die totale mesorektale Exzision (TME) ein, bei der das gesamte Mesorektum entfernt wird [@HealdRyall1986].  
+
+Die TME setzte sich in den folgenden zwei Jahrzehnten international durch und setzte einen neuen chirurgischen Standard [@DeschnerEtAl2021]. 
+
+## Adjuvante Therapie
+
+1985 zeigte die Gastrointestinal Tumor Study Group @GastrointestinalTumorStudyGroup1985 , dass **die adjuvante Therapie** Vorteile bei der lokalen Kontrolle (Rezidivrate/Disease-Free Survival) hatte, insbesondere die **Radiochemotherapie.**
+
+Die **adjuvante Therapie** war jedoch mit mehreren theoretischen Nachteilen verbunden: Mikrometastasen werden verzögert behandelt, was das Risiko für Fernmetastasen erhöht. 
+Das Ansprechen des Tumors ist oft geringer, da die Durchblutung im postoperativen Gewebe eingeschränkt ist.
+Zudem bleibt die Chance auf eine sphinktererhaltende Operation unverändert, da bei adjuvanter Therapie kein Downstaging möglich ist [@DeschnerEtAl2021].
+
+## Neoadjuvante Radiochemothearpie
+
+Dementsprechend wurde die Radiochemotherapy als **neoadjuvantes** Konzept untersucht, um die Ergebnisse weiter zu verbessern.
+
+1997 zeigte der "Swedish Rectal Cancer Trial" @SwedishRectalCancerTrial1997, dass die neoadjuvante RT sowohl die lokale Kontrolle als auch das Gesamtüberleben verbesserte, dies war ein Wendepunkt. 
+
+Die deutsche CAO/ARO/AIO-94 Studie @SauerEtAl2004 bestätigte, dass die neoadjuvante CRT der adjuvanten CRT in lokal fortgeschrittenen Fällen überlegen war und sementierte die **neoadjuvante** Radiochemotherapie als Standard.
+
+## Chemotherapie 
+
+Trotz verbesserter lokaler Kontrolle blieb die Fernmetastasierung ein zentrales Problem. Die adjuvante Chemotherapie (z.B. in der CAO/ARO/AIO-94-Studie [@SauerEtAl2004] mit 5-FU vier Wochen nach der Operation bzw. nach abgeschlossener CRT.) sollte dem entgegenwirken, doch die geringe Compliance schränkte ihren Nutzen deutlich ein [@IVEtAl2022].
+
+Die Stockholm-III-Studie @ErlandssonEtAl2017 zeigte, dass eine Kurzzeitbestrahlung mit verzögerter Operation ebenso wirksam war wie eine Kurzzeitbestrahlung mit sofortiger Operation- was die Möglichkeit einer zusätzlichen Chemotherapie vor der Operation eröffnete.
+
+## Totale neoadjuvante Therapie (TNT)
+
+Da eine Vorverlagerung der systemischen Therapie möglich erschien und theoretische Vorteile hatte, wurde das Konzept der totalen neoadjuvanten Therapie (TNT) [@BahadoerEtAl2021; @ConroyEtAl2021] entwickelt, bei der alle Behandlungen **(Radiochemotherapy und Chemotherapy)** vor der Operation durchgeführt werden. 
+
+Die Total neoadjuvante Therapie (TNT) verbessert die Ansprechraten. Bei einigen Patienten mit klinisch oder pathologisch komplette Resmission kann eine Operation sogar vermieden werden – wie etwa in der OPRA-Studie gezeigt wurde [@Garcia-AguilarEtAl2022]. 
+
+## Aktuell: Immuntherapie 
+
+Bei MSI-H/dMMR-Tumoren kommt aktuell vorrangig eine Immuntherapie zum Einsatz, die zu kompletter Remission führen soll [@CercekEtAl2022].
+
+# Sprechstunde 
+
+## Dokumentation des Leistungsstatus 
+
+Die Dokumentation des Leistungsstatus erfolgt nach der Einteilung der Eastern Cooperative Oncology Group (ECOG) 
+
+## Obligatorische Untersuchungen
+
+Notwendige Untersuchungen laut S3-Leitlinie @DeutscheKrebsgesellschaftEtAl2019 sind in @tbl-befunde zusammengefasst: 
+
+```{r befunde-table, echo=FALSE}
+#| label: tbl-befunde
+
+
+# Load required libraries
+library(tidyverse)
+library(gt)
+library(gtExtras)
+library(googlesheets4)
+
+gs4_deauth() 
+
+Befunde_data <- read_sheet("https://docs.google.com/spreadsheets/d/1OSbFnpEbXeVAnYPgj0zlW_Us6ZcBLNrYSbhlbXkPZA4/edit?gid=0#gid=0")
+
+# Prepare table: one row per test, with either Fakultativ or Obligat filled
+table_data <- Befunde_data %>%
+  filter(übernehmen == "ja", Entität == "Rektumkarzinom") %>%
+  mutate(
+    Fakultativ = if_else(Fakultativ_obligat == "Fakultativ", Test_Befund, NA_character_),
+    Obligat = if_else(Fakultativ_obligat == "Obligat", Test_Befund, NA_character_)
+  ) %>%
+  select(Kategorie, Obligat, Fakultativ,  Kommentar)
+
+# Generate gt table with Kategorie as subheading
+gt_table <- table_data %>%
+  arrange(Obligat)%>%
+  gt(groupname_col = "Kategorie") %>%
+  cols_label(
+    Fakultativ = "Fakultativ",
+    Obligat = "Obligat",
+    Kommentar = "Kommentar"
+  ) %>%
+  tab_header(
+    title = "Rektumkarzinom",
+    subtitle = "Obligate und fakultative Befunde"
+  ) %>%
+  fmt_missing(columns = "Kommentar", missing_text = "—") %>%
+  fmt_missing(columns = c("Fakultativ", "Obligat"), missing_text = "") %>%
+  cols_align(align = "left") %>%
+  tab_style(
+    style = list(
+      cell_text(#color = "red", 
+                align = "left",
+                weight = "bold"
+                )
+    ),
+    locations = cells_row_groups()
+  )%>%
+  # Highlight facultative rows
+  tab_style(
+    style = cell_text(color = "gray50", style = "italic"),
+    locations = cells_body(
+      columns = everything(),
+      rows = !is.na(Fakultativ)
+    )
+  ) %>%
+  tab_style(
+    style = cell_borders(
+      sides = "right",
+      color = "transparent",
+      weight = px(0)
+    ),
+    locations = cells_row_groups()
+  ) %>%
+  opt_row_striping()
+
+gt_theme_nytimes(gt_table)%>%
+  tab_options(row_group.as_column = TRUE)
+
+```
+
+
+**CAVE:** Zum Zeitpunkt der Erstdiagnose eines Rektumkarzinoms liegen bei 18% der Patienten Fernmetastasen vor. 
